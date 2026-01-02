@@ -1,0 +1,128 @@
+{
+  "runId": "2026-01-02",
+  "date": "2026-01-02",
+  "createdAt": "2026-01-01T19:34:59.109Z",
+  "updatedAt": "2026-01-02T07:53:35.267Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "숙행",
+          "이혜훈",
+          "베트맨 토토",
+          "제야 의 종",
+          "송도순",
+          "뭉순 임당",
+          "새해 첫곡",
+          "양민혁",
+          "임짱 tv",
+          "올리버 쌤",
+          "떡국 맛있게 끓이는 법",
+          "가요 대제전",
+          "메이드 인 코리아",
+          "쿠팡 청문회",
+          "중식 마녀",
+          "임성근",
+          "김병기",
+          "다니엘",
+          "연예 대상",
+          "임성근 셰프",
+          "뉴 진스",
+          "현역가 왕 3",
+          "mbc",
+          "고재영",
+          "쿠팡"
+        ],
+        "updatedAt": "2026-01-01T20:17:49.864Z",
+        "lastError": "키워드 부족 (검색된 개수: 0)"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "error": "트렌드 키워드가 비어 있습니다.",
+          "keyword": "숙행",
+          "selectedSourceVideos": [
+            {
+              "videoId": "dzf0s7nsLXg",
+              "title": "현역가왕3 숙행 유부남 충격 정체",
+              "channelTitle": "기자수첩"
+            },
+            {
+              "videoId": "Seu4_Kh0fHs",
+              "title": "은퇴해도 문제 없다는 숙행 충격적 자산 수준",
+              "channelTitle": "재밌는소식을"
+            },
+            {
+              "videoId": "4kui0AxIlSI",
+              "title": "현역가왕3 빈예서 숙행 하차 후 돌발행동",
+              "channelTitle": "박기자의 연예가중계"
+            },
+            {
+              "videoId": "YtlpNd3mblg",
+              "title": "가수 숙행과 논란인 유부남이 직접 밝힌 한마디",
+              "channelTitle": "이야기주방"
+            }
+          ],
+          "videoProcessor": {
+            "status": "RUNNING"
+          }
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "트렌드 키워드가 비어 있습니다."
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "ERROR",
+        "keywords": [],
+        "updatedAt": "2026-01-01T19:43:09.667Z",
+        "lastError": "키워드 부족 (검색된 개수: 0)"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "트렌드 키워드가 비어 있습니다."
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "트렌드 키워드가 비어 있습니다."
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "ERROR",
+        "keywords": [],
+        "updatedAt": "2026-01-01T19:43:10.349Z",
+        "lastError": "키워드 부족 (검색된 개수: 0)"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "트렌드 키워드가 비어 있습니다."
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "트렌드 키워드가 비어 있습니다."
+        }
+      ],
+      "status": "RUNNING"
+    }
+  },
+  "finishedAt": "2026-01-01T20:02:42.747Z"
+}
