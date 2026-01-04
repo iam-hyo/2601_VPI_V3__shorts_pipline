@@ -1,7 +1,7 @@
 /**
- * [ÆÄÀÏ Ã¥ÀÓ]
- * - Resume/»óÅÂ°ü¸®/Àç½Ãµµ/¼­ºñ½º È£ÃâÀ» ¸ğµÎ ´ã´çÇÕ´Ï´Ù.
- * - Orchestrator´Â ÀÌ Å¬·¡½º¸¸ È£ÃâÇÏµµ·Ï À¯ÁöÇÏ¿© °¡µ¶¼ºÀ» ±Ø´ëÈ­ÇÕ´Ï´Ù.
+ * [íŒŒì¼ ì±…ì„]
+ * - Resume/ìƒíƒœê´€ë¦¬/ì¬ì‹œë„/ì„œë¹„ìŠ¤ í˜¸ì¶œì„ ëª¨ë‘ ë‹´ë‹¹í•©ë‹ˆë‹¤.
+ * - OrchestratorëŠ” ì´ í´ë˜ìŠ¤ë§Œ í˜¸ì¶œí•˜ë„ë¡ ìœ ì§€í•˜ì—¬ ê°€ë…ì„±ì„ ê·¹ëŒ€í™”í•©ë‹ˆë‹¤.
  */
 
 import path from "node:path";
@@ -14,7 +14,8 @@ import { VPIPredictorClient } from "../clients/VPIPredictorClient.js";
 import { ValidationService } from "./ValidationService.js";
 import { VideoProcessorApiClient } from "../clients/VideoProcessorApiClient.js";
 import { YouTubeUploader } from "../clients/YouTubeUploader.js";
-import { resolveAuthorizedSourcePath } from "../source/SourceResolver.js";
+import { HIGHLIGHT_SECOND } from "../config.js";
+import fs from "node:fs";
 
 const log = createLogger("PipelineRunner");
 
@@ -24,7 +25,7 @@ function isDone(s) {
 
 export class PipelineRunner {
   /**
-   * [»ı¼ºÀÚ Ã¥ÀÓ] ÇÊ¿äÇÑ Å¬¶óÀÌ¾ğÆ®/¼­ºñ½º¸¦ ±¸¼ºÇÕ´Ï´Ù.
+   * [ìƒì„±ì ì±…ì„] í•„ìš”í•œ í´ë¼ì´ì–¸íŠ¸/ì„œë¹„ìŠ¤ë¥¼ êµ¬ì„±í•©ë‹ˆë‹¤.
    * @param {{env:object, paths:object, store:any}} args
    */
   constructor(args) {
@@ -51,16 +52,16 @@ export class PipelineRunner {
   }
 
   /**
-   * [¸Ş¼­µå Ã¥ÀÓ] »óÅÂ ·Îµå
+   * [ë©”ì„œë“œ ì±…ì„] ìƒíƒœ ë¡œë“œ
    * @param {string} runId
-   * loadOrCreate: RunStateStore.js¿¡¼­ Á¤ÀÇ
+   * loadOrCreate: RunStateStore.jsì—ì„œ ì •ì˜
    */
   load(runId) {
     return this.store.loadOrCreate(runId);
   }
 
   /**
-   * [¸Ş¼­µå Ã¥ÀÓ] »óÅÂ ÀúÀå
+   * [ë©”ì„œë“œ ì±…ì„] ìƒíƒœ ì €ì¥
    * @param {object} state
    */
   save(state) {
@@ -68,21 +69,25 @@ export class PipelineRunner {
   }
 
   /**
-   * [¸Ş¼­µå Ã¥ÀÓ] region ´ÜÀ§ Æ®·»µå Å°¿öµå È®º¸(API)
+   * [ë©”ì„œë“œ ì±…ì„] region ë‹¨ìœ„ íŠ¸ë Œë“œ í‚¤ì›Œë“œ í™•ë³´(API)
    * @param {string} region
    * @param {string} runId
-   * @retrun {void}, state.regions[region]¿¡ keword ¹è¿­ ÀúÀå
+   * @retrun {void}, state.regions[region]ì— keword ë°°ì—´ ì €ì¥
    */
   async runRegionKeword(region, runId) {
+    // log.info("íŠ¸ë Œë“œ ìˆ˜ì§‘ ë¡œì§ ì§„ì…")
+
     let state = this.load(runId);
     const rs = state.regions[region];
     if (isDone(rs.status)) return;
 
     rs.status = "RUNNING";
-    rs.trends = rs.trends || { status: "PENDING" }; //±âº»°ª ÇÒ´ç(Default Assignment) ¿ŞÂÊ Ç×¸ñ ¿ì¼± ÇÒ´ç
+    rs.trends = rs.trends || { status: "PENDING" }; //ê¸°ë³¸ê°’ í• ë‹¹(Default Assignment) ì™¼ìª½ í•­ëª© ìš°ì„  í• ë‹¹
     this.save(state);
 
+    // í‚¤ì›Œë“œ ìˆ˜ì§‘ ì—¬ë¶€ í™•ì¸
     if (!isDone(rs.trends.status)) {
+      log.info(`ğŸ“ˆ${region} ì§€ì—­ Trend ìˆ˜ì§‘ ì‹œì‘`)
       rs.trends.status = "RUNNING";
       this.save(state);
 
@@ -91,175 +96,330 @@ export class PipelineRunner {
           async () => {
             const data = await this.trendApi.getDailyTrends({ region, days: 7 });
 
-            // [¹æ¾î ·ÎÁ÷] Å°¿öµå°¡ 2°³ ¹Ì¸¸ÀÌ¸é ¿¡·¯¸¦ ´øÁ®¼­ retryÇÏ°Ô ¸¸µê
+            // [ë°©ì–´ ë¡œì§] í‚¤ì›Œë“œê°€ 2ê°œ ë¯¸ë§Œì´ë©´ ì—ëŸ¬ë¥¼ ë˜ì ¸ì„œ retryí•˜ê²Œ ë§Œë“¦
             if (!data || data.length < 2) {
-              throw new Error(`Å°¿öµå ºÎÁ· (°Ë»öµÈ °³¼ö: ${data?.length || 0})`);
+              throw new Error(`ğŸ“ˆ${region}ì§€ì—­ í‚¤ì›Œë“œ ë¶€ì¡± (ê²€ìƒ‰ëœ ê°œìˆ˜: ${data?.length || 0})`);
             }
             return data;
           },
           `trend:${region}`
         );
 
-        // °ËÁõ Åë°ú ½Ã¿¡¸¸ DONE Ã³¸®
+        // ê²€ì¦ í†µê³¼ ì‹œì—ë§Œ DONE ì²˜ë¦¬
         rs.trends.status = "DONE";
         rs.trends.keywords = keywords;
         rs.trends.updatedAt = new Date().toISOString();
         this.save(state);
 
-        log.info({ region, keywords: keywords.length }, "Æ®·»µå Å°¿öµå ¼öÁı ¿Ï·á");
+        log.info({ region, keywords: keywords.length }, `ğŸ“ˆ${region}ì§€ì—­ íŠ¸ë Œë“œ í‚¤ì›Œë“œ ìˆ˜ì§‘ ì™„ë£Œ`);
 
       } catch (err) {
-        // ÃÖÁ¾ ½ÇÆĞ ½Ã »óÅÂ Ã³¸®
+        // ìµœì¢… ì‹¤íŒ¨ ì‹œ ìƒíƒœ ì²˜ë¦¬
         rs.trends.status = "ERROR";
         rs.trends.lastError = err.message;
         this.save(state);
 
-        log.error({ region, error: err.message }, "Æ®·»µå Å°¿öµå ¼öÁı ÃÖÁ¾ ½ÇÆĞ (2°³ ¹Ì¸¸ È¤Àº ¼­¹ö ¿À·ù)");
+        log.error({ region, error: err.message }, `ğŸ“ˆ${region}ì§€ì—­ íŠ¸ë Œë“œ í‚¤ì›Œë“œ ìˆ˜ì§‘ ìµœì¢… ì‹¤íŒ¨ (2ê°œ ë¯¸ë§Œ í˜¹ì€ ì„œë²„ ì˜¤ë¥˜)`);
       }
+    } else {
+      const existingCount = rs.trends.keywords?.length || 0;
+      log.info(
+        { region, keywordCount: existingCount }, `â© ${region} Trendê°€ ì´ë¯¸ ìˆ˜ì§‘ë˜ì–´ ìˆì–´ ìŠ¤í‚µí•©ë‹ˆë‹¤. (ê¸°ì¡´ í‚¤ì›Œë“œ: ${existingCount}ê°œ)`
+      );
     }
   }
 
   /**
-   * [¸Ş¼­µå Ã¥ÀÓ]
-   * - region+slot Ã³¸®:
-   *   1) Å°¿öµå/¼Ò½º¿µ»ó(Top4) ¼±Á¤
-   *   2) Çã°¡µÈ ¼Ò½º(mp4) ¸ÅÇÎ(SourceResolver)
-   *   3) Video Processor API È£Ãâ(ÆíÁı + LLM ¸ŞÅ¸)
-   *   4) YouTube ¾÷·Îµå(¿É¼Ç)
+   * [ë©”ì„œë“œ ì±…ì„]
+   * - region+slot ì²˜ë¦¬:
+   *   1) í‚¤ì›Œë“œ/ì†ŒìŠ¤ì˜ìƒ(Top4) ì„ ì •
+   *   2) í—ˆê°€ëœ ì†ŒìŠ¤(mp4) ë§¤í•‘(SourceResolver)
+   *   3) Video Processor API í˜¸ì¶œ(í¸ì§‘ + LLM ë©”íƒ€)
+   *   4) YouTube ì—…ë¡œë“œ(ì˜µì…˜)
    *
    * @param {string} region
    * @param {string} runId
    * @param {1|2} slot
    */
   async runVideoSlot(region, runId, slot) {
-    // 1. ÇöÀç ÁøÇà »óÅÂ ·Îµå ¹× ´ë»ó ÀÛ¾÷(Job) ÃßÃâ
+    const slotID = `${runId}_${region}_${slot}`;
+    log.info({ region, slot, slotID }, `${slotID} runVideoSlot ì§„ì…`);
+
+    // 1) ìƒíƒœ ë¡œë“œ ë° Job ì¶”ì¶œ
     let state = this.load(runId);
-    const rs = state.regions[region];
+    const rs = state.regions?.[region];
+
+    if (!rs) {
+      console.error(`âŒ [${slotID}] ë¦¬ì „ ë°ì´í„°(${region})ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.`);
+      return;
+    }
+
     const job = rs.videos.find((v) => v.slot === slot);
-    if (isDone(job.status)) return;
-
-    // 2. ±âÃÊ Àç·á(Å°¿öµå) Á¸Àç ¿©ºÎ È®ÀÎ
-    const keywords = rs.trends?.keywords || [];
-    if (!keywords.length) {
-      job.status = "ERROR";
-      job.error = "Æ®·»µå Å°¿öµå°¡ ºñ¾î ÀÖ½À´Ï´Ù.";
-      this.save(state);
+    if (!job) {
+      console.error(`âŒ [${slotID}] slot(${slot})ì— í•´ë‹¹í•˜ëŠ” jobì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.`);
       return;
     }
 
-    job.status = "RUNNING";
-    this.save(state);
+    // ì´ë¯¸ ìµœì¢… ì™„ë£Œë©´ ì¢…ë£Œ
+    if (isDone(job.status)) {
+      log.info({ slotID }, `ğŸ‘Œ [${slotID}] ì´ë¯¸ ì œì‘-ì—…ë¡œë“œ ì™„ë£Œ(DONE) ìƒíƒœì…ë‹ˆë‹¤. ì¢…ë£Œí•©ë‹ˆë‹¤.`);
+      return;
+    }
 
-    /** 
-     * 3. ´Ü°èA: Å°¿öµå ¼±Á¤ ¹× ¼Ò½º ºñµğ¿À ¸ÅÄª (Àç½Ãµµ ·ÎÁ÷ Æ÷ÇÔ)
-     * @returns {Promise<{keyword:string, videos:Array<object>}>}
-     */
-    const picked = await withRetry(
-      async () => this.validator.pickKeywordAndTopVideos({ region, keywords }),
-      `validate:${region}:slot${slot}`
-    );
-
-    job.keyword = picked.keyword;
-    job.selectedSourceVideos = picked.videos.map((v) => ({
-      videoId: v.videoId,
-      title: v.title,
-      description: v.description,
-      channelTitle: v.channelTitle
-    }));
-
-    // 4. ¹°¸®Àû ÀÛ¾÷ µğ·ºÅä¸® ±¸¼º (File System)
-    const workDir = path.join(this.paths.workDir, runId, region, `video_${String(slot).padStart(2, "0")}`);
-    ensureDir(workDir);
-    // ensureDir(path.join(workDir, "inputs"));
-    // ensureDir(path.join(workDir, "outputs"));
-    // job.workDir = workDir;
-
-    writeJsonAtomic(path.join(workDir, "meta.json"), {
+    // ì‘ì—… ë””ë ‰í† ë¦¬ëŠ” "ì¬ì‹œë„/ì¬ì‹¤í–‰"ì—ì„œë„ ë™ì¼í•´ì•¼ í•˜ë¯€ë¡œ ì´ˆë°˜ì— ê³ ì • ìƒì„±
+    const workDir = path.join(
+      this.paths.workDir,
       runId,
-      date: runId,
-      region,
-      slot,
-      keyword: picked.keyword,
-      selected: job.selectedSourceVideos,
-    });
-    this.save(state);
-
-    // 5. ºñµğ¿À Ã³¸® ´Ü°è (Video Processor API) 
-    // 1) ¿µ»ó ID¸¦ ½ÇÁ¦ ·ÎÄÃ ÆÄÀÏ °æ·Î(mp4)·Î ¸ÅÇÎ, ´Ù¿î·Îµå ¹× ÇÏÀÌ¶óÀÌÆ® ÃßÃâ °úÁ¤ ÇÊ¿ä.
-    // sources: ÆÄÀÏ ÆĞ½º¸¦ ´ãÀº ¹è¿­À» ¹İÈ¯
-    // const sources = picked.videos.map((v) => ({
-    //   id: v.videoId,
-    //   inputPath: resolveAuthorizedSourcePath({ assetsDir: this.paths.assetsDir, videoId: v.videoId })
-    // }));
-
-    job.videoProcessor = { status: "RUNNING" };
-    this.save(state);
-
-    // 2) merge¿äÃ»
-    const vpRes = await withRetry(
-      async () => this.videoApi.process({ workDir, topic: picked.keyword }),
-      `videoApi:${region}:slot${slot}`
+      `${region}_video_${String(slot).padStart(2, "0")}`
     );
+    ensureDir(workDir);
 
-    if (!vpRes.ok) {
-      job.videoProcessor = { status: "ERROR", error: vpRes.error || "Video Processor ½ÇÆĞ" };
-      job.status = "ERROR";
-      job.error = vpRes.error || "Video Processor ½ÇÆĞ";
-      this.save(state);
-      return;
-    }
+    // ===== ë‹¨ê³„ A: í‚¤ì›Œë“œ ì„ ì • & ì†ŒìŠ¤ ë¹„ë””ì˜¤ ë§¤ì¹­ =====
+    // ì¬ì‹œë„ ì¡°ê±´: job.keyword ìˆê³  selectedSourceVideos 4ê°œë©´ pick ë‹¨ê³„ ìŠ¤í‚µ
+    const hasPickedKeywordAndSources =
+      !!job.keyword &&
+      Array.isArray(job.selectedSourceVideos) &&
+      job.selectedSourceVideos.length === 4;
 
-    // 6. ¿ÜºÎ ¼ÛÃâ ´Ü°è (YouTube Upload)
-    job.videoProcessor = { status: "DONE" };
-    job.outputFile = vpRes.outputFile || "outputs/final.mp4";
-    this.save(state);
+    /** pickedëŠ” ì´í›„ ë‹¨ê³„ì—ì„œ ê³µí†µìœ¼ë¡œ ì“°ê¸° ìœ„í•´ í˜•íƒœë¥¼ ë§ì¶° ë‘  */
+    let picked = null;
 
-    // 6. ¿ÜºÎ ¼ÛÃâ ´Ü°è (YouTube Upload)
-    if (this.uploader.isEnabled()) {
-      job.upload = { status: "RUNNING" };
-      this.save(state);
-
-      const up = await withRetry(
-        async () =>
-          this.uploader.upload({
-            title: vpRes.uploadMeta?.title || `[${region}] ${picked.keyword}`,
-            description: vpRes.uploadMeta?.description || "",
-            tags: vpRes.uploadMeta?.tags || [],
-            filePath: vpRes.outputFileAbs
-          }),
-        `upload:${region}:slot${slot}`
+    if (hasPickedKeywordAndSources) {
+      log.info(
+        { slotID, keyword: job.keyword },
+        `â­ï¸ [${slotID}] í‚¤ì›Œë“œ/ì†ŒìŠ¤(4ê°œ)ê°€ ì´ë¯¸ ì¡´ì¬í•©ë‹ˆë‹¤. pickKeywordAndTopVideos() ìŠ¤í‚µ`
       );
 
-      if (!up.ok) {
-        job.upload = { status: "ERROR", error: up.error || "¾÷·Îµå ½ÇÆĞ" };
+      picked = {
+        keyword: job.keyword,
+        // job.selectedSourceVideosëŠ” ì´ë¯¸ í•„ìš”í•œ í•„ë“œë§Œ ê°–ê³  ìˆìœ¼ë¯€ë¡œ ê·¸ëŒ€ë¡œ ì‚¬ìš©
+        videos: job.selectedSourceVideos
+      };
+
+      // ì¬ì‹¤í–‰ ì‹œ meta.jsonì´ ì—†ì„ ìˆ˜ë„ ìˆìœ¼ë‹ˆ(ì¤‘ê°„ì— ì£½ì€ ê²½ìš°) ì—¬ê¸°ì„œë„ í•œë²ˆ ì¨ì£¼ë©´ ì•ˆì „í•¨
+      writeJsonAtomic(path.join(workDir, "meta.json"), {
+        runId,
+        date: runId,
+        region,
+        slot,
+        keyword: picked.keyword,
+        selected: job.selectedSourceVideos
+      });
+    } else {
+      // íŠ¸ë Œë“œ í‚¤ì›Œë“œ ì¡´ì¬ ì—¬ë¶€ í™•ì¸ (pickì´ í•„ìš”í•  ë•Œë§Œ ê²€ì‚¬)
+      const keywords = rs.trends?.keywords || [];
+      if (!keywords.length) {
+        const errorMsg = `[${region}] íŠ¸ë Œë“œ í‚¤ì›Œë“œê°€ ë¹„ì–´ ìˆìŠµë‹ˆë‹¤ (status: ${rs.trends?.status})`;
         job.status = "ERROR";
-        job.error = up.error || "¾÷·Îµå ½ÇÆĞ";
+        job.error = errorMsg;
         this.save(state);
+
+        console.error(`ğŸš¨ ë¹„ë””ì˜¤ ìƒì„± ì‹¤íŒ¨: ${slotID}`);
+        console.error(`ğŸ“ ì›ì¸: ${errorMsg}`);
         return;
       }
 
-      job.upload = { status: "DONE", youtubeVideoId: up.youtubeVideoId };
+      // "ì ìœ ì¤‘ í‚¤ì›Œë“œ" ê³„ì‚°: ì¬ì‹œë„ ê´€ì ì—ì„œ í˜„ì¬ slotì˜ í‚¤ì›Œë“œëŠ” ì œì™¸í•˜ëŠ” ê²Œ ì•ˆì „í•¨
+      // (í˜„ì¬ jobì´ ERROR ìƒíƒœë¡œ ì¬ì‹¤í–‰ë˜ëŠ”ë° assignedKeywordsì— ë³¸ì¸ í‚¤ì›Œë“œê°€ ë‚¨ì•„ìˆìœ¼ë©´ ì˜êµ¬ ì ìœ ì²˜ëŸ¼ ë™ì‘ ê°€ëŠ¥)
+      const assignedKeywords = rs.videos
+        .filter((v) => v.slot !== slot) // âœ… í˜„ì¬ slot ì œì™¸
+        .map((v) => v.keyword)
+        .filter((k) => k != null);
+
+      // ì‹¤í–‰ ìƒíƒœ ë§ˆí‚¹
+      job.status = "RUNNING";
       this.save(state);
-    } else {
-      job.upload = { status: "SKIPPED" };
+
+      // pick ì¬ì‹œë„(withRetry)
+      picked = await withRetry(
+        async () =>
+          this.validator.pickKeywordAndTopVideos({
+            region,
+            keywords,
+            slot,
+            assignedKeywords
+          }),
+        `validate:${region}:slot${slot}`
+      );
+
+      // ì„ ì • ê²°ê³¼ ì €ì¥ (ì ìœ  íš¨ê³¼)
+      job.keyword = picked.keyword;
+      job.selectedSourceVideos = picked.videos.map((v) => ({
+        videoId: v.videoId,
+        title: v.title,
+        description: v.description,
+        channelTitle: v.channelTitle,
+        predicted7d: v.predicted7d,
+        delta: v.delta
+      }));
+      this.save(state);
+
+      // meta.json ê¸°ë¡
+      writeJsonAtomic(path.join(workDir, "meta.json"), {
+        runId,
+        date: runId,
+        region,
+        slot,
+        keyword: picked.keyword,
+        selected: job.selectedSourceVideos
+      });
       this.save(state);
     }
 
-    // 7. ´ÜÀ§ ÀÛ¾÷ ¿Ï·á Ã³¸®
-    job.status = "DONE";
-    job.updatedAt = new Date().toISOString();
-    this.save(state);
+    // ===== ë‹¨ê³„ B: Video Processor =====
+    // DONEì´ë©´ ìŠ¤í‚µ, ì•„ë‹ˆë©´ ìˆ˜í–‰
+    // (ê°€ëŠ¥í•˜ë©´ outputFileAbsë„ jobì— ì €ì¥í•´ë‘ëŠ”ê²Œ ì¬ì‹œë„ì— ë§¤ìš° ìœ ë¦¬)
+    const vpAlreadyDone = job.videoProcessor?.status === "DONE" && !!job.outputFile;
 
-    // 8. »óÀ§ °øÁ¤(Region) ¿Ï·á ¿©ºÎ ÆÇ´Ü
-    // ¸ğµç ½½·ÔÀÌ ¿Ï·á(isDone)µÇ¾ú´ÂÁö Ã¼Å©ÇÏ¿© »óÀ§ »óÅÂ ¾÷µ¥ÀÌÆ®
-    const regionDone = rs.videos.every((v) => isDone(v.status));
-    rs.status = regionDone ? "DONE" : "RUNNING";
-    rs.updatedAt = new Date().toISOString();
-    this.save(state);
+    // outputFileAbs ë°©ì–´ì ìœ¼ë¡œ êµ¬ì„±
+    const inferredOutputAbs = path.join(workDir, job.outputFile || "final.mp4");
+    const outputFileAbs = job.outputFileAbs || inferredOutputAbs;
+
+    if (vpAlreadyDone) {
+      // íŒŒì¼ì´ ì‹¤ì œë¡œ ì—†ìœ¼ë©´(ë””ìŠ¤í¬ ì •ë¦¬/ì‹¤íŒ¨) ë‹¤ì‹œ ìƒì„±í•˜ë„ë¡ ë°©ì–´
+      const exists = typeof fs?.existsSync === "function" ? fs.existsSync(outputFileAbs) : true;
+
+      if (exists) {
+        log.info(
+          { slotID, outputFile: job.outputFile },
+          `â­ï¸ [${slotID}] videoProcessor ì´ë¯¸ DONE ì…ë‹ˆë‹¤. videoApi.process() ìŠ¤í‚µ`
+        );
+      } else {
+        log.info(
+          { slotID, outputFileAbs },
+          `âš ï¸ [${slotID}] videoProcessorëŠ” DONEì¸ë° íŒŒì¼ì´ ì—†ìŠµë‹ˆë‹¤. ì¬ìƒì„± ì§„í–‰`
+        );
+        job.videoProcessor = { status: "RUNNING" };
+        this.save(state);
+
+        const vpRes = await withRetry(
+          async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND }),
+          `videoApi:${region}:slot${slot}`
+        );
+
+        if (!vpRes.ok) {
+          job.videoProcessor = { status: "ERROR", error: vpRes.error || "Video Processor ì‹¤íŒ¨" };
+          job.status = "ERROR";
+          job.error = vpRes.error || "Video Processor ì‹¤íŒ¨";
+          this.save(state);
+          log.error({ error: vpRes.error }, `âŒ [${slotID}] Video Processor ì‹¤íŒ¨`);
+          return;
+        }
+
+        job.videoProcessor = { status: "DONE" };
+        job.outputFile = vpRes.outputFile || "final.mp4";
+        job.outputFileAbs = vpRes.outputFileAbs || path.join(workDir, job.outputFile);
+        job.uploadMeta = vpRes.uploadMeta || null; // ì—…ë¡œë“œ ë©”íƒ€ ì¬ì‚¬ìš©ìš©(ì„ íƒ)
+        this.save(state);
+      }
+    } else {
+      job.videoProcessor = { status: "RUNNING" };
+      this.save(state);
+
+      log.info({ slotID, keyword: picked.keyword }, `ğŸ¬ [${slotID}] ë¹„ë””ì˜¤ ìƒì„± ì‹œì‘`);
+      const vpRes = await withRetry(
+        async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND }),
+        `videoApi:${region}:slot${slot}`
+      );
+
+      if (!vpRes.ok) {
+        job.videoProcessor = { status: "ERROR", error: vpRes.error || "Video Processor ì‹¤íŒ¨" };
+        job.status = "ERROR";
+        job.error = vpRes.error || "Video Processor ì‹¤íŒ¨";
+        this.save(state);
+        log.error({ error: vpRes.error }, `âŒ [${slotID}] Video Processor ì‹¤íŒ¨`);
+        return;
+      }
+
+      job.videoProcessor = { status: "DONE" };
+      job.outputFile = vpRes.outputFile || "final.mp4";
+      job.outputFileAbs = vpRes.outputFileAbs || path.join(workDir, job.outputFile);
+      job.uploadMeta = vpRes.uploadMeta || null; // ì—…ë¡œë“œ ë©”íƒ€ ì¬ì‚¬ìš©ìš©(ì„ íƒ)
+      this.save(state);
+    }
+
+    // ===== ë‹¨ê³„ C: Upload =====
+    // ì—…ë¡œë” disabledë©´ SKIPPED
+    if (!this.uploader.isEnabled()) {
+      if (job.upload?.status !== "SKIPPED") {
+        log.info({ slotID }, `â­ï¸ [${slotID}] uploader ë¹„í™œì„±í™”. upload SKIPPED ì²˜ë¦¬`);
+        job.upload = { status: "SKIPPED" };
+        this.save(state);
+      }
+    } else {
+      // enabledì¸ ê²½ìš°: ì´ë¯¸ DONEì´ë©´ ìŠ¤í‚µ
+      if (job.upload?.status === "DONE") {
+        log.info(
+          { slotID, youtubeVideoId: job.upload.youtubeVideoId },
+          `â­ï¸ [${slotID}] upload ì´ë¯¸ DONE ì…ë‹ˆë‹¤. upload() ìŠ¤í‚µ`
+        );
+      } else {
+        job.upload = { status: "RUNNING" };
+        this.save(state);
+        log.info(
+          { slotID, topic: picked.keyword },
+          `â­ï¸ [${slotID}] Youtube ì—…ë¡œë“œ ì‹œë„ ì§„ì…í•©ë‹ˆë‹¤.`
+        );
+        const filePath = job.outputFileAbs || path.join(workDir, job.outputFile || "final.mp4");
+
+        // vpResê°€ ì—†ì„ ìˆ˜ë„ ìˆìœ¼ë‹ˆ(job.uploadMetaë¡œ ë°±ì—…), ê·¸ë˜ë„ ì—†ìœ¼ë©´ ê¸°ë³¸ê°’
+        const title =
+          job.uploadMeta?.title || `[${region}] ${picked.keyword}`;
+        const description =
+          job.uploadMeta?.description || "";
+        const tags =
+          job.uploadMeta?.tags || [];
+
+        log.info({ slotID, filePath }, `ğŸ“¤ [${slotID}] ì—…ë¡œë“œ ì‹œì‘`);
+        const up = await withRetry(
+          async () => this.uploader.upload({ title, description, tags, filePath }),
+          `upload:${region}:slot${slot}`
+        );
+
+        if (!up.ok) {
+          job.upload = { status: "ERROR", error: up.error || "ì—…ë¡œë“œ ì‹¤íŒ¨" };
+          job.status = "ERROR";
+          job.error = up.error || "ì—…ë¡œë“œ ì‹¤íŒ¨";
+          this.save(state);
+          log.error({ error: up.error }, `âŒ [${slotID}] ì—…ë¡œë“œ ì‹¤íŒ¨`);
+          return;
+        }
+
+        job.upload = { status: "DONE", youtubeVideoId: up.youtubeVideoId };
+        this.save(state);
+      }
+    }
+
+    // ===== ë§ˆë¬´ë¦¬: ë‹¨ìœ„ ì‘ì—… ì™„ë£Œ ì²˜ë¦¬ =====
+    // videoProcessor DONE + (upload DONE or SKIPPED) ì´ë©´ job DONE ì²˜ë¦¬
+    const uploadOk =
+      job.upload?.status === "DONE" || job.upload?.status === "SKIPPED";
+    const vpOk = job.videoProcessor?.status === "DONE";
+
+    if (vpOk && uploadOk) {
+      job.status = "DONE";
+      job.updatedAt = new Date().toISOString();
+      this.save(state);
+
+      // ìƒìœ„ ê³µì •(Region) ì™„ë£Œ ì—¬ë¶€ íŒë‹¨
+      const regionDone = rs.videos.every((v) => isDone(v.status));
+      rs.status = regionDone ? "DONE" : "RUNNING";
+      rs.updatedAt = new Date().toISOString();
+      this.save(state);
+
+      log.info({ slotID }, `âœ… [${slotID}] ìŠ¬ë¡¯ ì‘ì—… ì™„ë£Œ`);
+    } else {
+      // ì´ ì¼€ì´ìŠ¤ëŠ” ì´ë¡ ìƒ ê±°ì˜ ì—†ì–´ì•¼ ì •ìƒ.
+      log.warn(
+        { slotID, vpStatus: job.videoProcessor?.status, upStatus: job.upload?.status },
+        `âš ï¸ [${slotID}] ë§ˆë¬´ë¦¬ ì¡°ê±´ ë¶ˆì¶©ì¡±. ìƒíƒœ ì ê²€ í•„ìš”`
+      );
+    }
   }
 
+
   /**
-   * [¸Ş¼­µå Ã¥ÀÓ] run Á¾·á Ã³¸®
+   * [ë©”ì„œë“œ ì±…ì„] run ì¢…ë£Œ ì²˜ë¦¬
    * @param {string} runId
    * @param {string[]} regions
    */
@@ -272,33 +432,40 @@ export class PipelineRunner {
   }
 
   /**
-   * [¸Ş¼­µå Ã¥ÀÓ] ¼öµ¿ ½ÇÇà(Sub-Orchestrator)
-   * - Æ®·»µå ¾øÀÌ ¡°region + keyword + date¡±¸¦ Å°·Î 1°³ÀÇ ¿µ»ó¸¸ »ı¼ºÇÕ´Ï´Ù.
+   * [ë©”ì„œë“œ ì±…ì„] ìˆ˜ë™ ì‹¤í–‰(Sub-Orchestrator)
+   * - íŠ¸ë Œë“œ ì—†ì´ â€œregion + keyword + dateâ€ë¥¼ í‚¤ë¡œ 1ê°œì˜ ì˜ìƒë§Œ ìƒì„±í•©ë‹ˆë‹¤.
    * @param {{region:string, keyword:string, date:string}} args
    */
   async runManualOne(args) {
     const runId = `${args.date}__MANUAL__${args.region}__${slugify(args.keyword)}`;
 
-    // ¼öµ¿ runÀº »óÅÂ ÆÄÀÏ ±¸Á¶¸¦ ´Ü¼øÇÏ°Ô ¾²±â À§ÇØ: region 1°³¸¸ »ç¿ë
+    // ìˆ˜ë™ runì€ ìƒíƒœ íŒŒì¼ êµ¬ì¡°ë¥¼ ë‹¨ìˆœí•˜ê²Œ ì“°ê¸° ìœ„í•´: region 1ê°œë§Œ ì‚¬ìš©
     let state = this.load(runId);
 
-    // regionÀÌ REGIONS ¿Ü¿©µµ °¡´ÉÇÏ°Ô (manualÀº ÀÓÀÇ region Çã¿ë)
-    if (!state.regions?.[args.region]) {
-      state.regions[args.region] = {
-        region: args.region,
-        trends: { status: "SKIPPED", keywords: [args.keyword] },
-        videos: [{ slot: 1, status: "PENDING" }],
-        status: "PENDING"
-      };
-      this.save(state);
-    }
+    // 1. regions ê°ì²´ê°€ ì—†ìœ¼ë©´ ìƒì„±
+    if (!state.regions) state.regions = {};
 
-    // keywords´Â ÀÔ·Â°ª ÇÏ³ª¸¸ »ç¿ë
-    state.regions[args.region].trends = { status: "SKIPPED", keywords: [args.keyword] };
+    // 2. í•´ë‹¹ ë¦¬ì „ ë°ì´í„°ë¥¼ ê°•ì œë¡œ ì…‹íŒ… (ì´ë¯¸ ìˆì–´ë„ ë®ì–´ì”€)
+    state.regions[args.region] = {
+      region: args.region,
+      // ìˆ˜ë™ ì‹¤í–‰ì´ë¯€ë¡œ trendsë¥¼ SKIPPEDë¡œ í•˜ê³  í‚¤ì›Œë“œë¥¼ ì§ì ‘ ì£¼ì…
+      trends: {
+        status: "SKIPPED",
+        keywords: [args.keyword]
+      },
+      videos: state.regions[args.region]?.videos || [{ slot: 1, status: "PENDING" }],
+      status: "PENDING"
+    };
+
+    // 3. ë³€ê²½ ì‚¬í•­ ì¦‰ì‹œ ì €ì¥
     this.save(state);
+    log.info({ runId, keyword: args.keyword }, "ìˆ˜ë™ ì‹¤í–‰ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ");
 
+    // 4. ë¹„ë””ì˜¤ ìƒì„± ì‹œì‘
     await this.runVideoSlot(args.region, runId, 1);
     this.finishRun(runId, [args.region]);
+
+    log.info({ runId, keyword: args.keyword }, "ì˜ìƒ ì œì‘ ì™„ë£Œ");
 
     return runId;
   }
@@ -308,7 +475,7 @@ function slugify(s) {
   return String(s)
     .trim()
     .toLowerCase()
-    .replace(/[^a-z0-9°¡-ÆR]+/g, "-")
+    .replace(/[^a-z0-9ê°€-í£]+/g, "-")
     .replace(/^-+|-+$/g, "")
     .slice(0, 60);
 }

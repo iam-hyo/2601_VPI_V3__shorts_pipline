@@ -7,12 +7,14 @@
     "daily": "node src/Orchestrator.js",
     "manual": "node scripts/manual_run.js",
     "trend": "node services/trend-service/server.js",
-    "video": "node services/video-processor-service/server.js"
+    "video": "node services/video-processor-service/src/server.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
     "googleapis": "^144.0.0",
-    "pino": "^9.3.2",
-    "pino-pretty": "^11.2.2"
+    "pino": "^9.3.2"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.1.3"
   }
 }

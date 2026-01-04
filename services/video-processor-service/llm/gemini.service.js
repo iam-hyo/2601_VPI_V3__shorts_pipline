@@ -18,7 +18,7 @@
  *   Node 18 미만이면 node-fetch 같은 폴리필이 필요합니다.
  */
 
-const API_KEY = process.env.GEMINI_API_KEY;
+const API_KEY = process.env.GEMINI_API_01_ILL2;
 
 /**
  * [함수 책임]

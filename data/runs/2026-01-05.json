@@ -1,0 +1,149 @@
+{
+  "runId": "2026-01-05",
+  "date": "2026-01-05",
+  "createdAt": "2026-01-04T17:17:23.690Z",
+  "updatedAt": "2026-01-04T18:30:36.269Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "숙행",
+          "송도순",
+          "제야 의 종",
+          "리니지 클래식",
+          "sbs 연기 대상",
+          "양민혁",
+          "임짱",
+          "새해 첫곡",
+          "가요 대제전",
+          "떡국 맛있게 끓이는 법",
+          "연예 대상",
+          "다니엘",
+          "뉴 진스",
+          "강유미",
+          "묘정",
+          "현우 진",
+          "임성근",
+          "현대차",
+          "메이드 인 코리아"
+        ],
+        "updatedAt": "2026-01-04T17:17:48.575Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "송도순",
+          "selectedSourceVideos": [
+            {
+              "videoId": "qtxSaDgSVCo",
+              "title": "故송도순 영결식 아버지 찾은 이유",
+              "channelTitle": "기자수첩",
+              "predicted7d": 2068948,
+              "delta": 1040240
+            },
+            {
+              "videoId": "64ynVR_T6-I",
+              "title": "故송도순 전재산 며느리 다준 이유",
+              "channelTitle": "기자수첩",
+              "predicted7d": 1590998,
+              "delta": 869989
+            },
+            {
+              "videoId": "IDl5wXNHhoY",
+              "title": "故송도순 40년 절친 그리운 김자옥 윤소정 만나",
+              "channelTitle": "1분 뚝딱 랭킹",
+              "predicted7d": 1584924,
+              "delta": 807071
+            },
+            {
+              "videoId": "IJ5bdcmsu-4",
+              "title": "故송도순 영결식 시아버지 발칵",
+              "channelTitle": "기자수첩",
+              "predicted7d": 1365034,
+              "delta": 763785
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "C:\\Users\\전효준\\Desktop\\Workspace\\2601_VPI_auto_daily_shorts_pipeline_js\\data\\work\\2026-01-05\\KR_video_01\\final.mp4",
+          "uploadMeta": {
+            "title": "Song Do-soon: Shocking Untold Stories!",
+            "description": "Uncover the surprising life and controversies surrounding the late Song Do-soon. From family drama at her funeral to unexpected inheritance decisions, these untold stories will shock you. Don't miss these exclusive revelations!",
+            "tags": [
+              "SongDoSoon",
+              "KoreanCelebrity",
+              "VoiceActress",
+              "FamilyDrama",
+              "CelebrityScandal",
+              "UntoldStories",
+              "KoreanEntertainment",
+              "Shorts",
+              "K-Drama",
+              "Controversy"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Os0_NMEQk8w"
+          },
+          "error": "invalid_client",
+          "updatedAt": "2026-01-04T18:30:27.918Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "숙행",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Ga3l2V804h0",
+              "title": "현역가왕3 숙행 대기실 빈예서 김태연 돌발",
+              "channelTitle": "밤작가tv",
+              "predicted7d": 352786,
+              "delta": 178873
+            },
+            {
+              "videoId": "dwUfPQykA7E",
+              "title": "현역가왕3 숙행 만나 빈예서 김태연 돌연",
+              "channelTitle": "노래하는감독",
+              "predicted7d": 342651,
+              "delta": 124698
+            },
+            {
+              "videoId": "wSSbzIfV2Ag",
+              "title": "유부남인줄 몰랐다는 숙행 불륜 사건의 전말",
+              "channelTitle": "아침라떼",
+              "predicted7d": 131892,
+              "delta": 122063
+            },
+            {
+              "videoId": "NSftYpU2Yjs",
+              "title": "숙행에게 유부남 소개한 인물 정체",
+              "channelTitle": "썰여사",
+              "predicted7d": 126608,
+              "delta": 119424
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "tUikVuXcqOQ"
+          },
+          "error": "invalid_client",
+          "updatedAt": "2026-01-04T18:30:36.256Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-04T18:30:36.266Z"
+    }
+  },
+  "finishedAt": "2026-01-04T18:30:36.269Z"
+}

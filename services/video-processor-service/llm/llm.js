@@ -112,7 +112,6 @@ class LlmService {
   /**
    * [함수 책임]
    * - promptObj를 받아 Gemini로 JSON 결과를 생성해 "JSON 문자열"을 반환한다.
-   *
    * @param {any} promptObj
    * @returns {Promise<string>} JSON 문자열(정리된 상태)
    */

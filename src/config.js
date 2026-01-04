@@ -31,22 +31,28 @@ export function loadEnv() {
   };
 }
 
-export const REGIONS = ["KR", "US", "MX"];
+// export const REGIONS = ["KR", "US", "MX"];
+export const REGIONS = ["KR"];
 
 /**
  * [상수 책임] 국가별 생성할 영상 개수(슬롯 수)
  */
-export const VIDEOS_PER_REGION = 2;
+export const VIDEOS_PER_REGION = 2; //임시로 하나로 테스트.
 
+/** 
+ * [하이라이트 초]
+ **/
+export const HIGHLIGHT_SECOND = 10;
 /**
  * [상수 책임] 검증 기준(네 요구사항 반영)
  */
 export const VALIDATION = {
   recentDays: 5,
   minShortsCount: 4,
+  maxShortsSec: 80,
 
   // predicted_7day_views >= 50k 영상이 4개 이상
-  minPredictedViews: 50_000,
+  minPredictedViews: 30_000,
   minQualifiedVideos: 4,
   topK: 4
 };

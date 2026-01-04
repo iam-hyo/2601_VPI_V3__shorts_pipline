@@ -9,6 +9,7 @@
 
 import { google } from "googleapis";
 import { createLogger } from "../utils/logger.js";
+import { VALIDATION } from "../config.js";
 
 const log = createLogger("YouTubeClient");
 
@@ -80,7 +81,7 @@ export class YouTubeClient {
       const commentCount = Number(st.commentCount ?? 0);
 
       const durationSec = parseIsoDurationToSec(cd.duration ?? "PT0S");
-      const isShort = Number.isFinite(durationSec) ? durationSec <= 60 : false;
+      const isShort = Number.isFinite(durationSec) ? durationSec <= VALIDATION.maxShortsSec : false;
 
       const categoryId = Number(sn.categoryId ?? 0);
       const categoryGroup = categoryTitles.get(String(categoryId)) ?? "Unknown";

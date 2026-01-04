@@ -6,3 +6,4 @@ data/logs/
 **/venv/
 **/__pycache__/
 *.pyc
+.vid_env

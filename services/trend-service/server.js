@@ -10,14 +10,21 @@
  * Response:
  * - { region, days, keywords, debug }
  */
-
+import dotenv from "dotenv";
 import http from "node:http";
 import url from "node:url";
 import path from "node:path";
 import { spawn } from "node:child_process";
 import { GeminiClient } from "./geminiClient.js";
 
-const PORT = process.env.TREND_SERVICE_PORT ? Number(process.env.TREND_SERVICE_PORT) : 9001;
+dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.env") });
+console.log("[DEBUG] TREND_SERVICE_PORT raw =", JSON.stringify(process.env.TREND_SERVICE_PORT));
+const PORT = Number(process.env.TREND_SERVICE_PORT);
+const llm = new GeminiClient({
+  model: process.env.GEMINI_MODEL || "gemini-1.5-pro",
+  apiKeyPrefix: "GEMINI_API_"
+});
+
 
 function sendJson(res, code, body) {
   res.writeHead(code, { "content-type": "application/json; charset=utf-8" });
@@ -86,11 +93,6 @@ function ruleFilter(keyword) {
   return true;
 }
 
-const llm = new GeminiClient({
-  model: process.env.GEMINI_MODEL || "gemini-1.5-pro",
-  apiKeyPrefix: "GEMINI_API_KEY_"
-});
-
 const server = http.createServer(async (req, res) => {
   const parsed = url.parse(req.url, true);
 
@@ -121,6 +123,8 @@ const server = http.createServer(async (req, res) => {
       candidates.push({ keyword: kw, traffic: it.traffic || null, date: it.date });
     }
 
+    console.log(`[Trend Debug] 결과내용: ${candidates.slice(0, 5)}`)
+
     // 2차 LLM 필터링/우선순위
     const prompt = {
       role: "trend_keyword_ranker",
@@ -144,8 +148,17 @@ const server = http.createServer(async (req, res) => {
       llmRaw = await llm.generateJson(prompt);
       const parsedJson = JSON.parse(llmRaw);
       keywords = Array.isArray(parsedJson.keywords) ? parsedJson.keywords.slice(0, 25) : [];
+      console.log(
+        `[LLM] ✅ 파싱 성공: keywords=${keywords.length}` +
+        (keywords.length ? ` (sample="${keywords.slice(0, 5).join(", ")}")` : "")
+      );
     } catch {
       // LLM 실패 시 후보를 traffic 기반(있다면) + 입력순으로 fallback
+      console.warn(`[LLM] ❌ 실패 → fallback 사용`, {
+        name: err?.name,
+        message: err?.message,
+      });
+
       const scored = candidates.map((c) => ({ ...c, trafficN: parseTrafficToNumber(c.traffic) ?? 0 }));
       scored.sort((a, b) => b.trafficN - a.trafficN);
       keywords = scored.map((x) => x.keyword).slice(0, 25);

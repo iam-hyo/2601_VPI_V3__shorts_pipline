@@ -12,16 +12,24 @@ export class GeminiClient {
    */
   constructor(args) {
     this.model = args.model;
-    this.apiKeyPrefix = args.apiKeyPrefix || "GEMINI_API_KEY_";
+    this.apiKeyPrefix = args.apiKeyPrefix || "GEMINI_API_";
     this.keys = this._loadKeys();
   }
 
   _loadKeys() {
     const keys = [];
-    for (let i = 1; i <= 30; i++) {
-      const k = process.env[`${this.apiKeyPrefix}${i}`];
-      if (k && String(k).trim()) keys.push(String(k).trim());
+
+    // GEMINI_API_ 로 시작하는 환경변수 모두 탐색
+    for (const [name, value] of Object.entries(process.env)) {
+      if (!name.startsWith(this.apiKeyPrefix)) continue;
+      if (!value || !String(value).trim()) continue;
+
+      keys.push(String(value).trim());
     }
+
+    // (선택) 이름에 들어있는 번호(01,02,...) 기준 정렬하고 싶으면:
+    keys.sort(); // 단순 정렬(원하면 더 정교하게 정렬 로직도 가능)
+    console.log(`[GeminiClient] Gemini Key: ${keys.length}개 반환`)
     return keys;
   }
 
@@ -41,7 +49,7 @@ export class GeminiClient {
       }
     };
 
-    if (!this.keys.length) throw new Error("GEMINI_API_KEY_1..N이 설정되지 않았습니다.");
+    if (!this.keys.length) throw new Error("GEMINI_API_KEY_01..N이 설정되지 않았습니다.");
 
     let lastErr = null;
     for (let idx = 0; idx < this.keys.length; idx++) {

@@ -1,0 +1,66 @@
+{
+  "runId": "2026-01-04__MANUAL__KR__흑백요리사",
+  "date": "2026-01-04__MANUAL__KR__흑백요리사",
+  "createdAt": "2026-01-04T14:22:03.483Z",
+  "updatedAt": "2026-01-04T14:23:10.908Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "흑백요리사"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "흑백요리사",
+          "selectedSourceVideos": [
+            {
+              "videoId": "sJxIjsAMHEs",
+              "title": "‘흑백요리사2’ 알고보면 귀엽다는 세 사람의 사이",
+              "channelTitle": "하꼴만",
+              "predicted7d": 1173053,
+              "delta": 450960
+            },
+            {
+              "videoId": "JHP7DT4uEOE",
+              "title": "아재 맹수의 일만가지 소스(?) #임성근 #안성재 #흑백요리사2",
+              "channelTitle": "셰프 안성재 Chef Sung Anh",
+              "predicted7d": 793145,
+              "delta": 361481
+            },
+            {
+              "videoId": "UM2FylqAMjw",
+              "title": "조회수 1125만뷰 나온 흑백요리사 김치볶음밥 레시피",
+              "channelTitle": "푸키키 fookikie",
+              "predicted7d": 323155,
+              "delta": 314830
+            },
+            {
+              "videoId": "hOtLwRcVdb0",
+              "title": "파인다이닝에서 게 요리를 볼 수 없는 이유 | 흑백요리사2",
+              "channelTitle": "결정적장면",
+              "predicted7d": 510858,
+              "delta": 208007
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "outputs/final.mp4",
+          "upload": {
+            "status": "SKIPPED"
+          },
+          "updatedAt": "2026-01-04T14:23:10.904Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-04T14:23:10.906Z"
+    }
+  },
+  "finishedAt": "2026-01-04T14:23:10.908Z"
+}

@@ -26,38 +26,49 @@ export class ValidationService {
   }
 
   /**
-   * [메서드 책임]
    * - 키워드 후보를 순회하여 조건 만족하는 첫 키워드와 Top4 영상을 반환합니다.
-   *
    * @param {{region:string, keywords:string[]}} args
    * @returns {Promise<{keyword:string, videos:Array<object>}>}
    */
   async pickKeywordAndTopVideos(args) {
+    const { keywords, assignedKeywords, region, slot } = args
     // VALIDATION.recentDays 이내 영상만 필터링 기준, config에서 정의
     const publishedAfterISO = new Date(Date.now() - VALIDATION.recentDays * 24 * 3600 * 1000).toISOString();
+    const total = args.keywords.length;
 
     // 키워드별 반복 시작
-    for (const keyword of args.keywords) {
-      // 검색결과 수 필터링
+    for (const [i, keyword] of args.keywords.entries()) {
+      log.info(`[${args.region}_${slot}] '${keyword}' 적합도 검사 시작 ${i + 1}/${total}`)
+      if (assignedKeywords.includes(keyword)) {
+        log.warn(`[${args.region}_${slot}] '${keyword}는 이미 점유되었습니다.다음으로 넘어갑니다.'  ${i + 1}/${total}`)
+        continue;
+      }
       const searched = await this.yt.searchVideos({ q: keyword, maxResults: 50, publishedAfterISO });
-      if ((searched?.length || 0) < 6) continue; // 검색결과가 6보다 작으면 다음 키워드.
+      if ((searched?.length || 0) < 4) continue; // 검색결과가 4보다 작으면 다음 키워드.
 
       const features = await this.yt.buildVideoFeatures({ videoIds: searched.map((s) => s.videoId), region: args.region });
 
+      // 1. 원본 features에서 '쇼츠'이면서 '80초 이하'인 영상만 추출하여 덮어쓰기
+      const filteredFeatures = features.filter((f) => {
+        const isShort = f.is_short === true;
+        return isShort;
+      });
+
       // 쇼츠 수 필터링
-      const shortsCount = features.filter((f) => f.is_short === true).length;
+      const shortsCount = filteredFeatures.length;
       if (shortsCount < VALIDATION.minShortsCount) {
-        log.info({ keyword, shortsCount }, "쇼츠 개수 부족 -> 다음 키워드");
-        continue;
+        log.info(`[${args.region}_${slot}] '⛔${keyword}' 적합한 쇼츠 개수 부족 (${shortsCount}개)`);
+        continue; // 다음 키워드로 넘어감
       }
+      log.info(`[${args.region}_${slot}] '${keyword}' 쇼츠 적합성 통과 (${shortsCount}개)`);
 
       // 조회수 예측 API 호출
-      const preds = await this.predictor.predictPred7(features);
+      const preds = await this.predictor.predictPred7(filteredFeatures);
 
       // 점수(Delta View)기준 선정기
       const scored = [];
       for (const p of preds) {
-        const f = features.find((x) => x.id === p.id);
+        const f = filteredFeatures.find((x) => x.id === p.id);
         if (!f) continue;
 
         const predicted7d = Number(p.predicted_7day_views ?? 0);
@@ -76,17 +87,28 @@ export class ValidationService {
         });
       }
 
-      // 영상 갯수 팔터랑 확인 한번 더 
+      // 영상 정렬
+      scored.sort((a, b) => b.delta - a.delta);
+
+      const topPred7 = scored.slice(0, 4).map(s => s.predicted7d).join(', ');
+      log.info(
+        { pred7: topPred7 },
+        `[${args.region}_${slot}] '${keyword}' 7일차 조회수 ${VALIDATION.minPredictedViews}회 이상 ${scored.length}개`
+      );
+
+
+      // 필터링된 영상 갯수 제한 확인
       if (scored.length < VALIDATION.minQualifiedVideos) {
-        log.info({ keyword, qualified: scored.length }, "예측 기준 만족 영상 부족 -> 다음 키워드");
+        log.info(`[${args.region}_${slot}] '⛔${keyword}'조건을 만족하는 영상(${scored.length}개) => 다음 키워드 시도`)
         continue;
       }
 
       // 정렬 후 반환 topK(4)개 만큼 반환
-      scored.sort((a, b) => b.delta - a.delta);
       const top = scored.slice(0, VALIDATION.topK);
 
-      log.info({ keyword, top: top.map((t) => ({ id: t.videoId, delta: t.delta })) }, "키워드 통과(Δ 상위 4개 선정)");
+      log.info({ deltas: top.map(t => t.delta).join(', ') },
+        `[${args.region}_${slot}] '${keyword}' 키워드 통과(Δ 상위 4개 선정)`);
+
       return { keyword, videos: top };
     }
 

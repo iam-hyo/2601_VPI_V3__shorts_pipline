@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 [파일 책임]
 - pytrends를 통해 '최근 N일' 트렌드 후보를 수집해 JSON으로 반환합니다.

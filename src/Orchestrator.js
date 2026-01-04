@@ -15,7 +15,7 @@ const log = createLogger("Orchestrator");
 
 /**
  * [함수 책임] 오늘 날짜를 YYYY-MM-DD로 생성합니다.
- * @param {Date} d
+ * @param {Date}
  * @returns {string}
  */
 function yyyy_mm_dd(d) {
@@ -35,24 +35,23 @@ async function main() {
   ensureDir(paths.assetsDir);
 
   const runId = yyyy_mm_dd(new Date());
-  const store = new RunStateStore(paths.runsDir);
-  const runner = new PipelineRunner({ env, paths, store });
+  const store = new RunStateStore(paths.runsDir); // runId를 인자로 받아 관리하는 class
+  const runner = new PipelineRunner({ env, paths, store }); // Resume/상태관리/재시도/서비스 호출을 담당하는 클래스
 
-  log.info({ runId }, "=== DAILY PIPELINE START ===");
+  log.info({ runId }, "=== DAILY PIPELINE을 시작합니다. ===");
 
   // ✅ 실행 순서만 남김 (가독성 최우선)
   for (const region of REGIONS) {
-    // console.log(`${region} 수집 시작`)
-    await runner.runRegionKeword(region, runId);
+    await runner.runRegionKeword(region, runId); // 산출물로 region의 트랜드 데이터 저장. 순위 필터링 로직 필요.
 
-    for (let slot = 1; slot <= VIDEOS_PER_REGION; slot += 1) {
+    for (let slot =1; slot <= VIDEOS_PER_REGION; slot += 1) { // 반복이 끝나면 slot을 1 증가시킴.
       await runner.runVideoSlot(region, runId, slot);
     }
   }
 
   runner.finishRun(runId, REGIONS);
 
-  log.info({ runId }, "=== DAILY PIPELINE DONE ===");
+  log.info({ runId }, "=== DAILY PIPELINE이 종료되었습니다. ===");
 }
 
 main().catch((err) => {
