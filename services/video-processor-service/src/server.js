@@ -8,7 +8,7 @@ import http from "node:http";
 import url from "node:url";
 import path from "node:path";
 import { existsSync } from "node:fs";
-import {readJsonSafe} from "../src/utils.js"
+import { readJsonSafe } from "../src/utils.js"
 
 // ✅ 업데이트된 Demo 서비스 사용
 import {
@@ -168,7 +168,7 @@ const server = http.createServer(async (req, res) => {
         console.log(`[${slotID}] LLM 메타데이터 생성 및 시작...✍️`);
 
         const subTitleText = await llm.generateJson(prompt);
-        const parsedJson = JSON.parse(subTitleText);  
+        const parsedJson = JSON.parse(subTitleText);
 
         if (!Array.isArray(parsedJson?.captions)) {
           // 생성된 제목 유효성 검사
@@ -180,9 +180,19 @@ const server = http.createServer(async (req, res) => {
         } else {
           captions = parsedJson.captions;
         }
-        // 업로드 메타도 방어 로직 추가
-        uploadMeta = parsedJson?.uploadMeta || { title: `${topic} Shorts`, description: `Topic: ${topic}`, tags: ["shorts"] };
 
+        // 업로드 메타도 방어 로직 추가
+        const baseMeta = parsedJson?.uploadMeta || {
+          title: `${topic} Shorts`,
+          description: `Topic: ${topic}`,
+          tags: ["shorts", topic]
+        };
+        
+        uploadMeta = {
+          ...baseMeta,
+          description: `${slotID}\n${baseMeta.description}`
+        };
+        
         // 중간 상태 저장 (디버깅용)
         await writeJsonAtomic(path.join(workDir, "subT_result.json"), { slotID, topic, parsedJson });
         console.log(`[${slotID}] ✍️ LLM 메타데이터 생성 및 저장 완료`);

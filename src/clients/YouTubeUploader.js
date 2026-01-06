@@ -51,7 +51,7 @@ export class YouTubeUploader {
         part: ["snippet", "status"],
         requestBody: {
           snippet: { title: args.title, description: args.description, tags: args.tags },
-          status: { privacyStatus: "public" }
+          status: { privacyStatus: "public", selfDeclaredMadeForKids: false, }
         },
         media: { body: fs.createReadStream(args.filePath) }
       });
