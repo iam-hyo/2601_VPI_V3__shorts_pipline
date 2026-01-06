@@ -31,8 +31,8 @@ export function loadEnv() {
   };
 }
 
-// export const REGIONS = ["KR", "US", "MX"];
-export const REGIONS = ["KR"];
+export const REGIONS = ["KR", "US", "MX"];
+// export const REGIONS = ["KR"];
 
 /**
  * [상수 책임] 국가별 생성할 영상 개수(슬롯 수)
