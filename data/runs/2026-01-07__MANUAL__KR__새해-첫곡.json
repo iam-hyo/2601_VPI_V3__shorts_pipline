@@ -1,0 +1,38 @@
+{
+  "runId": "2026-01-07__MANUAL__KR__새해-첫곡",
+  "date": "2026-01-07__MANUAL__KR__새해-첫곡",
+  "createdAt": "2026-01-07T06:51:45.049Z",
+  "updatedAt": "2026-01-07T06:51:45.050Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "새해 첫곡"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

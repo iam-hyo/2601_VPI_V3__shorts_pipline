@@ -29,6 +29,7 @@ export class TrendApiClient {
 
     if (!data.keywords || data.keywords.length === 0) {
       console.warn(`[DEBUG] 서버 응답은 정상이지만 키워드가 비어있습니다. URL: ${url}`);
+      throw new Error(`[TrendAPI] 서버 응답에 키워드가 없음 (Region: ${args.region})`);
     }
 
     return Array.isArray(data?.keywords) ? data.keywords : [];

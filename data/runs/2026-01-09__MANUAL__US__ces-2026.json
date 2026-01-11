@@ -1,0 +1,122 @@
+{
+  "runId": "2026-01-09__MANUAL__US__ces-2026",
+  "date": "2026-01-09__MANUAL__US__ces-2026",
+  "createdAt": "2026-01-09T06:58:19.738Z",
+  "updatedAt": "2026-01-09T06:59:32.346Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "ces 2026"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "ces 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "jVzXG4uAQ8g",
+              "title": "Ranking how scary Robots are at CES 2026",
+              "channelTitle": "mryeester",
+              "predicted7d": 326207,
+              "delta": 157018
+            },
+            {
+              "videoId": "wZoiyHqKXBA",
+              "title": "VIAIM Open Note Recording Earbuds at CES 2026",
+              "channelTitle": "zollotech",
+              "predicted7d": 42046,
+              "delta": 41536
+            },
+            {
+              "videoId": "zd0Mubz0pb8",
+              "title": "This Gaming Laptop Screen EXPANDS - Legion Rollable Concept at CES 2026",
+              "channelTitle": "Austin Evans",
+              "predicted7d": 66006,
+              "delta": 39996
+            },
+            {
+              "videoId": "Gcwz_Uw0o3E",
+              "title": "Amazon showcases self-driving robotaxi at CES 2026",
+              "channelTitle": "CNA",
+              "predicted7d": 36799,
+              "delta": 35731
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-09__MANUAL__US__ces-2026/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "CES 2026: Future Tech Unveiled!",
+            "description": "Dive into the most insane tech from CES 2026! From terrifying robots to expanding laptops and self-driving taxis, see what the future holds. Get ready for mind-blowing innovations!",
+            "tags": [
+              "CES2026",
+              "Tech",
+              "Innovation",
+              "Robots",
+              "GamingLaptop",
+              "SelfDriving",
+              "Earbuds",
+              "FutureTech",
+              "Gadgets",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "O7ZKZIyUq04"
+          },
+          "updatedAt": "2026-01-09T06:59:32.337Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-09T06:59:32.345Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-01-09T06:59:32.346Z"
+}

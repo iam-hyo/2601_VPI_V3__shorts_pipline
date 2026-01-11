@@ -23,6 +23,7 @@ import { exec as execCb } from "node:child_process";
 import { spawn } from "child_process";
 import { promisify } from "node:util";
 import os from "os";
+import path from "path";
 
 const exec = promisify(execCb);
 // const fontConfigDir = path.resolve("data/assets");
@@ -31,6 +32,15 @@ const exec = promisify(execCb);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const VIDEOEDIT_DEBUG = process.env.VIDEOEDIT_DEBUG === "1";
+
+
+function getCookiesPath() {
+  const v = process.env.YTDLP_COOKIES;   // 예: ./cookies.txt
+  if (!v) return null;
+  // 서비스 루트(CWD) 기준으로 절대경로로 변환
+  return path.isAbsolute(v) ? v : path.resolve(process.cwd(), v);
+}
+
 
 /**
  * [역할] FFmpeg filter 문자열 내부에서 안전하게 쓰기 위한 경로 변환
@@ -210,29 +220,57 @@ function normalizeFontPath(p) {
  * @param {{ videoId: string, outDir: string }} args
  * @returns {Promise<string>} 저장된 파일 경로
  */
-export async function downloadVideoIfNeeded({ videoId, outDir }) {
+export async function downloadVideoIfNeeded({ videoId, outDir, cookiesPath }) {
   await ensureDir(outDir);
-  const outPath = path.join(outDir, `${videoId}.mp4`);
 
-  // 1) 이미 파일이 있으면 스킵, 30KB이상
-  if (await existsNonEmpty(outPath, 30_000)) {
+  const outPath = path.join(outDir, `${videoId}.mp4`);
+  const tmpPath = path.join(outDir, `${videoId}.part.mp4`); // 임시 파일 권장
+  const url = `https://www.youtube.com/watch?v=${videoId}`;
+
+  // 1) 이미 파일이 있고 충분히 크면 스킵
+  const stat = await safeStat(outPath);
+  if (stat && stat.size >= 30_000) {
     console.log(`[videoEdit.demo] download skip (exists): ${videoId}`);
     return outPath;
   }
-  // 이전 실행에서 0바이트/깨진 파일이 남았으면 재생성
-  if (await existsNonEmpty(outPath, 20_000)) {
+
+  // 2) (깨짐 가능) 파일이 있는데 너무 작으면 삭제
+  if (stat && stat.size < 30_000) {
     try { await fs.unlink(outPath); } catch { }
   }
+  // 임시 파일도 정리
+  try { await fs.unlink(tmpPath); } catch { }
 
-  // 2) 다운로드 명령어 구성
-  // -f mp4: MP4 포맷을 우선 선택(편집 호환성)
-  // -o: 출력 경로 지정
-  const url = `https://www.youtube.com/watch?v=${videoId}`;
-  const cmd = `yt-dlp -f mp4 -o "${outPath}" "${url}"`;
+  // 3) cookies 경로 (환경변수에서 읽기)
+  const cookiesAbs = getCookiesPath();
+  const cookiesArg = cookiesAbs ? `--cookies "${cookiesAbs}"` : "";
 
-  console.log(`[videoEdit.demo] 다운로드중..: ${videoId} (시간이 소요될 수 있습니다)`);
+  // 4) 다운로드 명령어 구성
+  // -S: 포맷 선택 우선순위(편집 호환성: h264+aac 우선)
+  // --merge-output-format mp4: 최종 mp4로 머지
+  // -o: 임시 파일로 받고 성공 후 rename
+  const cmd =
+    `yt-dlp ${cookiesArg} ` +
+    `-S vcodec:h264,acodec:aac,ext:mp4:m4a ` +
+    `--merge-output-format mp4 ` +
+    `-o "${tmpPath}" "${url}"`;
+
+  console.log(`[videoEdit.demo] 다운로드중..: ${videoId}`);
   await exec(cmd);
+
+  // 5) 결과 검증 후 확정 저장
+  const tmpStat = await safeStat(tmpPath);
+  if (!tmpStat || tmpStat.size < 30_000) {
+    throw new Error(`[download invalid] file too small: ${tmpPath}`);
+  }
+  await fs.rename(tmpPath, outPath);
+
   return outPath;
+}
+
+/** 파일 stat 안전조회 */
+async function safeStat(p) {
+  try { return await fs.stat(p); } catch { return null; }
 }
 
 /* =======================================================================================
@@ -409,11 +447,11 @@ export async function createTitleCardIfNeeded(args) {
   // - reload=0(기본) / reload=1로 매 프레임 재로드도 가능(지금은 불필요)
   filters.push(
     `[${last}]drawtext=` +
-      `textfile='${textFileForFilter}':` +
-      `${fontOpt}:` +
-      `fontcolor=white:fontsize=84:expansion=none:` +
-      `x=(w-text_w)/2:y=h*0.40` +
-      `[base2]`
+    `textfile='${textFileForFilter}':` +
+    `${fontOpt}:` +
+    `fontcolor=white:fontsize=84:expansion=none:` +
+    `x=(w-text_w)/2:y=h*0.40` +
+    `[base2]`
   );
   last = "base2";
 

@@ -1,0 +1,70 @@
+{
+  "runId": "2026-01-11",
+  "date": "2026-01-11",
+  "createdAt": "2026-01-11T06:50:01.688Z",
+  "updatedAt": "2026-01-11T06:50:19.709Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "fetch failed"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "fetch failed"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "fetch failed"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    }
+  },
+  "finishedAt": "2026-01-11T06:50:19.709Z"
+}

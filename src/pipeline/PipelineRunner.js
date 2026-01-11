@@ -79,7 +79,7 @@ export class PipelineRunner {
 
     let state = this.load(runId);
     const rs = state.regions[region];
-    if (isDone(rs.status)) return; /// 이거 왜? 안돼!!!
+    if (isDone(rs.status)) return; /// 
 
     rs.status = "RUNNING";
     rs.trends = rs.trends || { status: "PENDING" }; //기본값 할당(Default Assignment) 왼쪽 항목 우선 할당

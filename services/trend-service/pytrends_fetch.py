@@ -53,10 +53,15 @@ def main():
     try:
         # 1. TrendReq 설정 (hl: 언어, tz: 시차)
         # 구글 차단을 피하기 위해 timeout과 retries 설정 추가
-        pytrends = TrendReq(hl='ko-KR', tz=540)
-
+        pytrends = TrendReq(
+            hl='ko-KR',
+            tz=540,
+            retries=2,
+            backoff_factor=0.3,
+            timeout=(10, 30),
+        )
         # 2. 페이로드 구축 (키워드 없이 지역/기간/유튜브 검색 필터 적용)
-        # kw_list가 비어있으면 해당 지역의 전반적인 트렌드를 가져옵니다.
+        # 쿼리 파라미터 구축. kw_list: 검색어 목록, 시간대, 지역, 플랫폼
         pytrends.build_payload(kw_list=[''], cat=0, timeframe=timeframe, geo=geo, gprop='youtube')
 
         # 3. 관련 검색어(Related Queries) 가져오기
@@ -85,7 +90,8 @@ def main():
 
     except Exception as e:
         log(f"치명적 오류 발생: {str(e)}")
-        # 에러가 나더라도 빈 JSON 구조는 출력하여 Node.js가 crash 나지 않게 함
+        # 중요: 빈 값을 출력하는 대신 에러 상태로 종료하여 상위 호출자가 알게 함
+        sys.exit(1)
 
     # 최종 결과 출력 (오직 JSON만 stdout으로 출력)
     print(json.dumps(result, ensure_ascii=False))

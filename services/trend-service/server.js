@@ -152,7 +152,7 @@ const server = http.createServer(async (req, res) => {
         `[LLM] ✅ 파싱 성공: keywords=${keywords.length}` +
         (keywords.length ? ` (sample="${keywords.slice(0, 5).join(", ")}")` : "")
       );
-    } catch {
+    } catch(err) {
       // LLM 실패 시 후보를 traffic 기반(있다면) + 입력순으로 fallback
       console.warn(`[LLM] ❌ 실패 → fallback 사용`, {
         name: err?.name,

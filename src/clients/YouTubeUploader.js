@@ -24,6 +24,13 @@ export class YouTubeUploader {
     }
 
     const oauth2Client = new google.auth.OAuth2(args.clientId, args.clientSecret, args.redirectUri);
+    oauth2Client.on('tokens', (tokens) => {
+      log.info("새로운 토큰 정보를 수신했습니다.");
+      if (tokens.refresh_token) {
+        // 중요: 여기서 새로운 refresh_token을 설정 파일이나 DB에 업데이트해야 합니다.
+        log.info("새로운 Refresh Token을 저장해야 합니다:", tokens.refresh_token);
+      }
+    });
     oauth2Client.setCredentials({ refresh_token: args.refreshToken });
     this.oauth2 = oauth2Client;
   }
