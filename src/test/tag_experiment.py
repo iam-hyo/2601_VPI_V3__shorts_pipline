@@ -1,3 +1,5 @@
+# 의존성설치 ↓↓
+# pip install google-api-python-client pandas python-dotenv
 import os
 import math
 import argparse

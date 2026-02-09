@@ -1,0 +1,122 @@
+{
+  "runId": "2026-02-09__MANUAL__KR__2026-동계올림픽-밀라노-코르티나담페초-밀라노코르티나-개회식",
+  "date": "2026-02-09__MANUAL__KR__2026-동계올림픽-밀라노-코르티나담페초-밀라노코르티나-개회식",
+  "createdAt": "2026-02-09T03:11:40.696Z",
+  "updatedAt": "2026-02-09T03:12:18.689Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "2026 동계올림픽 밀라노|코르티나담페초|밀라노코르티나|개회식"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "2026 동계올림픽 밀라노|코르티나담페초|밀라노코르티나|개회식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "j24e8IcCrEg",
+              "title": "괴물 최민정만 할 수 있는 가장 힘든 작전?! #2026밀라노 #동계올림픽 #쇼트트랙 #최민정",
+              "channelTitle": "영과의순간",
+              "predicted7d": 77016,
+              "delta": 69969
+            },
+            {
+              "videoId": "_D_U0nbfxyw",
+              "title": "(속보)2026 동계 올림픽 폭망의 이유! JTBC독점 중계, 배성제 캐스터....",
+              "channelTitle": "4050우회전",
+              "predicted7d": 95209,
+              "delta": 52308
+            },
+            {
+              "videoId": "ItEeEC4c1_E",
+              "title": "[속보] 김상겸, 밀라노 스노보드 평행 대회전 은메달 확보 / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 49498,
+              "delta": 29738
+            },
+            {
+              "videoId": "P9aI40g6wTw",
+              "title": "2026 동계올림픽 첫번째 메달은 스노보드 김상겸 선수🎉",
+              "channelTitle": "또오리zip",
+              "predicted7d": 42759,
+              "delta": 20886
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-09__MANUAL__KR__2026-동계올림픽-밀라노-코르티나담페초-밀라노코르티나-개회식/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Milano Cortina 2026: Shocking Moments!",
+            "description": "Dive into the drama of the 2026 Milano Cortina Winter Olympics! Witness Choi Min-jeong's legendary moves, unexpected medalists like Kim Sang-kyum, and the biggest controversies. Don't miss these unforgettable moments!",
+            "tags": [
+              "MilanoCortina2026",
+              "WinterOlympics",
+              "ShortTrack",
+              "ChoiMinJeong",
+              "Snowboard",
+              "KimSangKyum",
+              "OlympicDrama",
+              "SportsHighlights",
+              "Milano2026",
+              "Cortina2026"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "A_TfEAvJfoI"
+          },
+          "updatedAt": "2026-02-09T03:12:18.680Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-09T03:12:18.688Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-09T03:12:18.689Z"
+}

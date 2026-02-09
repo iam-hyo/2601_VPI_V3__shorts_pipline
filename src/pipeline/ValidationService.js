@@ -1,4 +1,5 @@
 /**
+ * src/pipeline/ValidationService.js
  * [파일 책임]
  * - 키워드 검증/선정 로직을 담당합니다.
  *
@@ -43,7 +44,7 @@ export class ValidationService {
         log.warn(`[${args.region}_${slot}] '${keyword}는 이미 점유되었습니다.다음으로 넘어갑니다.'  ${i + 1}/${total}`)
         continue;
       }
-      const searched = await this.yt.searchVideos({ q: keyword, maxResults: 50, publishedAfterISO });
+      const searched = await this.yt.searchVideos({ q: keyword, maxResults: 50, publishedAfterISO, region: args.region });
       if ((searched?.length || 0) < 4) continue; // 검색결과가 4보다 작으면 다음 키워드.
 
       const features = await this.yt.buildVideoFeatures({ videoIds: searched.map((s) => s.videoId), region: args.region });

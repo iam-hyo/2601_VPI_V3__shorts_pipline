@@ -1,4 +1,5 @@
 /**
+ * src/pipeline/PipelineRunner.js
  * [파일 책임]
  * - Resume/상태관리/재시도/서비스 호출을 모두 담당합니다.
  * - Orchestrator는 이 클래스만 호출하도록 유지하여 가독성을 극대화합니다.
@@ -176,7 +177,7 @@ export class PipelineRunner {
 
     // ===== 단계 A: 키워드 선정 & 소스 비디오 매칭 =====
     // 재시도 조건: job.keyword 있고 selectedSourceVideos 4개면 pick 단계 스킵
-    const hasPickedKeywordAndSources =
+    const hasPickedKeywordAndSources = // ‘키워드’와 ‘소스 영상 4개’ 여부 판단
       !!job.keyword &&
       Array.isArray(job.selectedSourceVideos) &&
       job.selectedSourceVideos.length === 4;

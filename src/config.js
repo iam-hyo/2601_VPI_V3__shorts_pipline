@@ -49,7 +49,7 @@ export const HIGHLIGHT_SECOND = 10;
  * [상수 책임] 검증 기준(네 요구사항 반영)
  */
 export const VALIDATION = {
-  recentDays: 5,
+  recentDays: 4,
   minShortsCount: 4,
   maxShortsSec: 80,
 

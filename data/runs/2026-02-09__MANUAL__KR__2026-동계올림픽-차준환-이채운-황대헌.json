@@ -1,0 +1,63 @@
+{
+  "runId": "2026-02-09__MANUAL__KR__2026-동계올림픽-차준환-이채운-황대헌",
+  "date": "2026-02-09__MANUAL__KR__2026-동계올림픽-차준환-이채운-황대헌",
+  "createdAt": "2026-02-09T03:08:17.025Z",
+  "updatedAt": "2026-02-09T03:08:33.207Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "2026 동계올림픽 차준환|이채운|황대헌"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

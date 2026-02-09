@@ -35,7 +35,8 @@ export class YouTubeClient {
       type: ["video"],
       maxResults: args.maxResults ?? 50,
       order: "date",
-      publishedAfter: args.publishedAfterISO
+      publishedAfter: args.publishedAfterISO,
+      regionCode: args.region,
     });
 
     const items = res.data.items ?? [];
