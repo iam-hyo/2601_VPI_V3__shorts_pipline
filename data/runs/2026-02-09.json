@@ -1,0 +1,446 @@
+{
+  "runId": "2026-02-09",
+  "date": "2026-02-09",
+  "createdAt": "2026-02-09T06:50:01.668Z",
+  "updatedAt": "2026-02-09T06:54:36.214Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "동계 올림픽 2026",
+          "오현규",
+          "리니지 클래식",
+          "불도그",
+          "만만",
+          "왕 과 사는 남자",
+          "이문주",
+          "오버 워치",
+          "이강인",
+          "404",
+          "울프",
+          "웨돔",
+          "명조",
+          "비트 코인",
+          "아이브",
+          "자두 두",
+          "기안 84",
+          "코이 티비"
+        ],
+        "updatedAt": "2026-02-09T06:50:17.848Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "오현규",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Plx4efV8iT8",
+              "title": "오현규 미친 오버헤드킥 데뷔 골 ㄷㄷ",
+              "channelTitle": "하얀눈꽃",
+              "predicted7d": 692976,
+              "delta": 203376
+            },
+            {
+              "videoId": "SsnuBSRt5qo",
+              "title": "베식타스 오현규 미친 폼",
+              "channelTitle": "엠빅뉴스",
+              "predicted7d": 182146,
+              "delta": 174070
+            },
+            {
+              "videoId": "0W-oI_YU9Tk",
+              "title": "오늘자 오현규 미친 오버헤드킥 데뷔골 ㄷㄷ",
+              "channelTitle": "공감입니다",
+              "predicted7d": 122935,
+              "delta": 111217
+            },
+            {
+              "videoId": "eU96ebsHyAw",
+              "title": "오현규 미친 데뷔골! 그런데 동료가 아무도 안따라옴..",
+              "channelTitle": "리얼스포츠",
+              "predicted7d": 90776,
+              "delta": 84060
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-09/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oh Hyeon-gyu's SHOCKING Debut & Form!",
+            "description": "Witness Oh Hyeon-gyu's incredible debut goal, including a mind-blowing overhead kick that left fans speechless. This compilation showcases his explosive form and unforgettable moments on the pitch. Don't miss the viral clip where his teammates hilariously missed the celebration!",
+            "tags": [
+              "OhHyeonGyu",
+              "FootballShorts",
+              "DebutGoal",
+              "OverheadKick",
+              "Besiktas",
+              "SoccerHighlights",
+              "ViralGoal",
+              "KoreanFootball"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "lP3lI5PK1So"
+          },
+          "updatedAt": "2026-02-09T06:50:49.348Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "왕 과 사는 남자",
+          "selectedSourceVideos": [
+            {
+              "videoId": "-q9N9uwXoSE",
+              "title": "박지훈 팬피켓을 본 유해진 반응: 영화 '왕과 사는 남자' 무대인사: 롯데시네마 월드타워 9관: 260124: PARK JIHOON: 워너원 Wanna One",
+              "channelTitle": "supershinstudio",
+              "predicted7d": 304816,
+              "delta": 147505
+            },
+            {
+              "videoId": "qE7luKUH4Yk",
+              "title": "마주먹, 드디어 지훈을 만나다 #박지훈 #왕과사는남자 #무대인사 #브이로그 #shorts",
+              "channelTitle": "마산솜주먹",
+              "predicted7d": 154991,
+              "delta": 144044
+            },
+            {
+              "videoId": "1wPNe53q_qg",
+              "title": "홍위가 사랑합니다 #왕과사는남자",
+              "channelTitle": "YY Entertainment",
+              "predicted7d": 153289,
+              "delta": 143161
+            },
+            {
+              "videoId": "B1lL0RUbm9w",
+              "title": "‘왕과 사는 남자’ 첫 주말 100만 관객 돌파 [잇슈 컬처] / KBS  2026.02.09.",
+              "channelTitle": "KBS News",
+              "predicted7d": 57385,
+              "delta": 43016
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-09/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "King's Man: Wildest Moments & Fan Love!",
+            "description": "Dive into the world of 'The King's Man' with these exclusive Shorts! Witness hilarious fan reactions, heartwarming character moments, and celebrate its massive box office success. Don't miss these unforgettable clips!",
+            "tags": [
+              "King'sMan",
+              "ParkJihoon",
+              "YooHaejin",
+              "KoreanFilm",
+              "KMovie",
+              "Shorts",
+              "FanReactions",
+              "BoxOfficeHit"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "4sJQJvRGCoE"
+          },
+          "updatedAt": "2026-02-09T06:51:32.563Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-09T06:51:32.572Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "halftime show 2026",
+          "super bowl 2026 live stream",
+          "bad bunny halftime show",
+          "winter olympics 2026",
+          "kid rock halftime show",
+          "super bowl 2026",
+          "opalite taylor swift music video"
+        ],
+        "updatedAt": "2026-02-09T06:51:49.427Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "halftime show 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "yP611eA-mZ4",
+              "title": "Super Bowl Halftime 2026 #superbowl #badbunny #nfl #superbowl2026 #halftime #halftimeshow #shorts",
+              "channelTitle": "Ron Rivera",
+              "predicted7d": 94002,
+              "delta": 92906
+            },
+            {
+              "videoId": "MVv-3BNdGsQ",
+              "title": "Halftime Show “Súper Bowl” 2026 de Bad Bunny🐰 BENITO ANTONIO MARTINEZ OCASIO 🇵🇷pal 🌎🌴🫰💪Latinos ✍️🙏🏻",
+              "channelTitle": "iris Rivera",
+              "predicted7d": 87901,
+              "delta": 86724
+            },
+            {
+              "videoId": "9FqAHBBXFuo",
+              "title": "Lady Gaga - “Die With A Smile” #SuperBowl Halftimeshow - 2026",
+              "channelTitle": "Gaga Planet",
+              "predicted7d": 77284,
+              "delta": 75975
+            },
+            {
+              "videoId": "OuUFGxUsjQo",
+              "title": "Kid Rock Sharing Jesus at the Super Bowl Halftime Show 2026 to the World 🌎⭐️🙏",
+              "channelTitle": "Your Friend Ka ⭐",
+              "predicted7d": 74389,
+              "delta": 73183
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-09/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "2026 Halftime: Who's Next?!",
+            "description": "The Super Bowl 2026 Halftime Show is still years away, but the rumors are already flying! Who do YOU think will headline the biggest stage in music? Drop your predictions below!",
+            "tags": [
+              "superbowl",
+              "halftime",
+              "2026",
+              "predictions",
+              "badbunny",
+              "ladygaga",
+              "kidrock",
+              "nfl",
+              "shorts",
+              "music"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "IzUAapta4ZU"
+          },
+          "updatedAt": "2026-02-09T06:52:21.886Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "super bowl 2026 live stream",
+          "selectedSourceVideos": [
+            {
+              "videoId": "UKhgi5By4oA",
+              "title": "Donald Trump arremete contra el medio tiempo del Super Bowl de Bad Bunny",
+              "channelTitle": "MILENIO",
+              "predicted7d": 107416,
+              "delta": 101308
+            },
+            {
+              "videoId": "p_t0IMBr4ws",
+              "title": "🏈🔥 SUPER BOWL WATCH PARTY LIVE 🎉 | Squares, Reactions, Food & Halftime Fiesta 🎶",
+              "channelTitle": "KingLive2025",
+              "predicted7d": 96030,
+              "delta": 94887
+            },
+            {
+              "videoId": "EN_FvKyFu7I",
+              "title": "#SUPERBOWL 60 🏈 GAME-ENDING PLAY - SACK & FUMBLE RETURNED FOR TD! 🔥 Seattle #Highlights TD 👀 #NFL",
+              "channelTitle": "My Cowboys Family",
+              "predicted7d": 42783,
+              "delta": 37662
+            },
+            {
+              "videoId": "gKMHYJG6iK4",
+              "title": "Seattle Seahawks vs New England Patriots Super Bowl LX! 2026 #shorts",
+              "channelTitle": "Shaun Tayaba Reacts",
+              "predicted7d": 53233,
+              "delta": 33799
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-09/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Super Bowl 2026: Wildest Moments!",
+            "description": "Get ready for Super Bowl 2026 with these insane moments! From celebrity drama to game-winning plays and epic watch parties, we've got it all. Don't miss the hype for the biggest game!",
+            "tags": [
+              "SuperBowl2026",
+              "NFLShorts",
+              "FootballHighlights",
+              "SuperBowlLive",
+              "WatchParty",
+              "HalftimeShow",
+              "GameDay",
+              "SportsDrama",
+              "SuperBowlHype"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "V3yZlW7zeEA"
+          },
+          "updatedAt": "2026-02-09T06:52:59.563Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-09T06:52:59.572Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "show de medio tiempo super bowl",
+          "super bowl 2026",
+          "bad bunny super bowl 2026",
+          "super bowl 2026 en vivo",
+          "nfl",
+          "bad bunny",
+          "triston fuerza regida",
+          "michael jackson",
+          "karen torres",
+          "dross",
+          "yair17"
+        ],
+        "updatedAt": "2026-02-09T06:53:14.923Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "show de medio tiempo super bowl",
+          "selectedSourceVideos": [
+            {
+              "videoId": "JPdo4UUtHI4",
+              "title": "Bad Bunny SORPRENDE con su show de medio tiempo en el #SuperBowl",
+              "channelTitle": "Imagen Entretenimiento",
+              "predicted7d": 430426,
+              "delta": 222484
+            },
+            {
+              "videoId": "PC3LucQ2w14",
+              "title": "¡Así se vivió el show de medio tiempo en este Super Bowl 2026! ✨🐰 #badbunny #superbowl",
+              "channelTitle": "MILENIO SOFT",
+              "predicted7d": 111970,
+              "delta": 105534
+            },
+            {
+              "videoId": "UKhgi5By4oA",
+              "title": "Donald Trump arremete contra el medio tiempo del Super Bowl de Bad Bunny",
+              "channelTitle": "MILENIO",
+              "predicted7d": 107416,
+              "delta": 101299
+            },
+            {
+              "videoId": "-s-J7ZjocZE",
+              "title": "Bad Bunny medio tiempo superbowl | performs at the Super Bowl 2026 halftime show",
+              "channelTitle": "StarsTV",
+              "predicted7d": 99982,
+              "delta": 93072
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-09/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bad Bunny Super Bowl Halftime Highlights!",
+            "description": "Dive into the most talked-about Super Bowl halftime show featuring Bad Bunny! From his electrifying performance to the surprising reactions, relive every moment. Don't miss the controversy!",
+            "tags": [
+              "BadBunny",
+              "SuperBowl",
+              "HalftimeShow",
+              "NFL",
+              "Music",
+              "Performance",
+              "Controversy",
+              "Trump",
+              "Celebrity",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "frpyiGGJPjM"
+          },
+          "updatedAt": "2026-02-09T06:54:02.432Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "super bowl 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "PVY1xP5eYEc",
+              "title": "😭Kendall Jenner at Super Bowl 2026 new viral video #viralshort #viralvideo #goviral #kendalljenner",
+              "channelTitle": "@Daniyahhh",
+              "predicted7d": 112359,
+              "delta": 99097
+            },
+            {
+              "videoId": "tLeYIF7whBw",
+              "title": "La histórica presentación de Bad Bunny en el Super Bowl 2026 #badbunnyfans #Super Bowl #badbunny",
+              "channelTitle": "Lenin Cine",
+              "predicted7d": 82669,
+              "delta": 81529
+            },
+            {
+              "videoId": "kx6TTPmSJWg",
+              "title": "Bad bunny #halftime #superbowl #music #2026 #badbunny #song #puertorico #shorts #viral",
+              "channelTitle": "WEBACONS",
+              "predicted7d": 73351,
+              "delta": 72337
+            },
+            {
+              "videoId": "2U7QCNmvwgc",
+              "title": "Bad Bunny dances with Lady Gaga at Super Bowl 2026 halftime show",
+              "channelTitle": "Associated Press",
+              "predicted7d": 70431,
+              "delta": 42355
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-09/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Super Bowl 2026: Wildest Moments!",
+            "description": "Relive the most talked-about moments from Super Bowl 2026! From Kendall Jenner's viral reaction to Bad Bunny's epic halftime show with Lady Gaga, you won't believe what happened.",
+            "tags": [
+              "SuperBowl2026",
+              "KendallJenner",
+              "BadBunny",
+              "LadyGaga",
+              "HalftimeShow",
+              "ViralMoments",
+              "CelebrityNews",
+              "NFLShorts",
+              "PopCulture",
+              "SuperBowlHighlights"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "IfHZkfsbc50"
+          },
+          "updatedAt": "2026-02-09T06:54:36.204Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-09T06:54:36.213Z"
+    }
+  },
+  "finishedAt": "2026-02-09T06:54:36.214Z"
+}
