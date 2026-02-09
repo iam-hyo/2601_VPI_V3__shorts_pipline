@@ -12,7 +12,7 @@
  */
 import dotenv from "dotenv";
 import http from "node:http";
-import url from "node:url";
+import { URL } from "node:url";
 import path from "node:path";
 import { spawn } from "node:child_process";
 import { GeminiClient } from "./geminiClient.js";
@@ -20,29 +20,75 @@ import { GeminiClient } from "./geminiClient.js";
 dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.env") });
 console.log("[DEBUG] TREND_SERVICE_PORT raw =", JSON.stringify(process.env.TREND_SERVICE_PORT));
 const PORT = Number(process.env.TREND_SERVICE_PORT);
+
 const llm = new GeminiClient({
   model: process.env.GEMINI_MODEL || "gemini-1.5-pro",
   apiKeyPrefix: "GEMINI_API_"
 });
-
 
 function sendJson(res, code, body) {
   res.writeHead(code, { "content-type": "application/json; charset=utf-8" });
   res.end(JSON.stringify(body));
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/** stderr/메시지에서 429 여부 감지 */
+function isRateLimit429(text) {
+  const t = String(text || "").toLowerCase();
+  return (
+    t.includes(" 429") ||
+    t.includes("429 ") ||
+    t.includes("too many requests") ||
+    t.includes("too many 429") ||
+    t.includes("rate limit") ||
+    t.includes("responseerror('too many 429")
+  );
+}
+
 /**
- * [함수 책임] python(pytrends)로 후보 트렌드를 수집합니다.
- * @param {{region:string, days:number}} args
- * @returns {Promise<{region:string, days:number, items:Array<{date:string,keyword:string,traffic?:string}>}>}
+ * [서킷 브레이커 상태]
+ * - 429가 연속으로 발생하면 일정 시간 동안 호출 자체를 막아 구글을 덜 자극
  */
-async function fetchTrendsFromPython(args) {
+const circuit = {
+  consecutive429: 0,
+  openUntilMs: 0
+};
+
+/** 서킷 오픈 여부 */
+function isCircuitOpen() {
+  return Date.now() < circuit.openUntilMs;
+}
+
+/** 429 누적 시 서킷 오픈(쿨다운) */
+function openCircuit() {
+  // 연속 429가 많을수록 더 길게 쉼 (최대 30분)
+  const base = 2 * 60 * 1000; // 2분
+  const extra = Math.min(circuit.consecutive429, 10) * 2 * 60 * 1000; // 최대 +20분
+  const cooldown = Math.min(base + extra, 30 * 60 * 1000);
+  circuit.openUntilMs = Date.now() + cooldown;
+
+  console.warn(
+    `[trend] 🚧 Circuit OPEN: consecutive429=${circuit.consecutive429}, cooldownMs=${cooldown}`
+  );
+}
+
+/** 성공/비429 에러 시 회복 */
+function closeCircuit() {
+  circuit.consecutive429 = 0;
+  circuit.openUntilMs = 0;
+}
+
+/**
+ * [함수 책임] python(pytrends)로 후보 트렌드를 "1회" 수집합니다.
+ * @param {{region:string, days:number}} args
+ * @returns {Promise<string>} stdout 문자열(JSON)
+ */
+function runPytrendsOnce(args) {
   const script = path.resolve("services/trend-service/pytrends_fetch.py");
-  // Windows라면 'python', 그 외(Linux/Mac)라면 'python3' 사용
   const pythonCmd = process.platform === "win32" ? "python" : "python3";
 
-  const stdout = await new Promise((resolve, reject) => {
-    // python3 대신 pythonCmd 변수 사용
+  return new Promise((resolve, reject) => {
     const p = spawn(pythonCmd, [script, "--region", args.region, "--days", String(args.days)], {
       stdio: ["ignore", "pipe", "pipe"],
       env: { ...process.env, PYTHONUTF8: "1" }
@@ -50,19 +96,168 @@ async function fetchTrendsFromPython(args) {
 
     let out = "";
     let err = "";
+
     p.stdout.on("data", (d) => (out += d.toString("utf-8")));
     p.stderr.on("data", (d) => (err += d.toString("utf-8")));
-    p.on("error", reject);
+
+    p.on("error", (e) => {
+      const ex = new Error(`pytrends_fetch 프로세스 실행 실패: ${e?.message || e}`);
+      ex.stderr = err;
+      ex.cause = e;
+      reject(ex);
+    });
+
     p.on("close", (code) => {
-      if (code !== 0) reject(new Error(`pytrends_fetch 실패(code=${code}): ${err}`));
-      else resolve(out);
+      if (code !== 0) {
+        const ex = new Error(`pytrends_fetch 실패(code=${code}): ${err}`);
+        ex.exitCode = code;
+        ex.stderr = err;
+        reject(ex);
+      } else {
+        resolve(out);
+      }
     });
   });
+}
 
+/**
+ * [함수 책임] 429일 때만 지수 백오프 재시도 + 필요 시 서킷 오픈
+ * @param {() => Promise<string>} fn
+ * @param {{maxAttempts?:number, baseDelayMs?:number, maxDelayMs?:number}} opt
+ * @returns {Promise<{ok:true, stdout:string, attempts:number} | {ok:false, reason:string, error:string, attempts:number}>}
+ */
+async function runWithRetry429(fn, opt = {}) {
+  const maxAttempts = opt.maxAttempts ?? 6;      // 총 시도 횟수
+  const baseDelayMs = opt.baseDelayMs ?? 5000;   // 1차 대기
+  const maxDelayMs = opt.maxDelayMs ?? 5 * 60 * 1000; // 최대 5분 대기 캡
+
+  // 서킷이 열려있으면 바로 실패 반환(서버는 살아있음)
+  if (isCircuitOpen()) {
+    const remain = circuit.openUntilMs - Date.now();
+    return {
+      ok: false,
+      reason: "CIRCUIT_OPEN",
+      error: `429 쿨다운 중입니다. 남은 시간(ms)=${remain}`,
+      attempts: 0
+    };
+  }
+
+  let lastErr = null;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const stdout = await fn();
+
+      // 성공이면 서킷 회복
+      closeCircuit();
+
+      return { ok: true, stdout, attempts: attempt };
+    } catch (e) {
+      lastErr = e;
+      const stderr = e?.stderr || "";
+      const msg = e?.message || "";
+      const is429 = isRateLimit429(stderr) || isRateLimit429(msg);
+
+      if (!is429) {
+        // 429가 아니면 재시도해도 의미 없는 경우가 많아서 즉시 종료
+        closeCircuit();
+        return {
+          ok: false,
+          reason: "PYTHON_FAILED",
+          error: String(msg).slice(0, 4000),
+          attempts: attempt
+        };
+      }
+
+      // 429면 누적
+      circuit.consecutive429 += 1;
+
+      // 마지막 시도면 서킷 오픈 후 종료
+      if (attempt === maxAttempts) {
+        openCircuit();
+        return {
+          ok: false,
+          reason: "RATE_LIMIT_429",
+          error: String(msg).slice(0, 4000),
+          attempts: attempt
+        };
+      }
+
+      // 지수 백오프 + 지터
+      const exp = Math.min(attempt, 10);
+      let delay = baseDelayMs * 2 ** (exp - 1);
+      delay = Math.min(delay, maxDelayMs);
+      const jitter = Math.floor(Math.random() * 0.3 * delay); // 0~30%
+      const waitMs = delay + jitter;
+
+      console.warn(`[trend] 429 감지: attempt=${attempt}/${maxAttempts}, waitMs=${waitMs}`);
+      await sleep(waitMs);
+    }
+  }
+
+  // 여긴 사실상 안 탐
+  openCircuit();
+  return {
+    ok: false,
+    reason: "UNKNOWN",
+    error: String(lastErr?.message || lastErr || "unknown").slice(0, 4000),
+    attempts: maxAttempts
+  };
+}
+
+/**
+ * [함수 책임] python(pytrends)로 후보 트렌드를 수집합니다. (강건 버전)
+ * @param {{region:string, days:number}} args
+ * @returns {Promise<{region:string, days:number, items:Array<{date:string,keyword:string,traffic?:string}>, debug?:any}>}
+ */
+async function fetchTrendsFromPython(args) {
+  const result = await runWithRetry429(() => runPytrendsOnce(args), {
+    maxAttempts: Number(process.env.TRENDS_RETRY_MAX || 6),
+    baseDelayMs: Number(process.env.TRENDS_RETRY_BASE_MS || 5000),
+    maxDelayMs: Number(process.env.TRENDS_RETRY_MAX_DELAY_MS || 300000)
+  });
+
+  if (!result.ok) {
+    // 서버는 절대 죽지 않게 빈 결과로 복구
+    return {
+      region: args.region,
+      days: args.days,
+      items: [],
+      debug: {
+        pythonOk: false,
+        reason: result.reason,
+        attempts: result.attempts,
+        circuit: {
+          consecutive429: circuit.consecutive429,
+          openUntilMs: circuit.openUntilMs
+        },
+        error: result.error
+      }
+    };
+  }
+
+  // stdout JSON 파싱
   try {
-    return JSON.parse(stdout);
+    const parsed = JSON.parse(result.stdout);
+    return {
+      ...parsed,
+      debug: {
+        ...(parsed.debug || {}),
+        pythonOk: true,
+        attempts: result.attempts
+      }
+    };
   } catch {
-    return { region: args.region, days: args.days, items: [] };
+    return {
+      region: args.region,
+      days: args.days,
+      items: [],
+      debug: {
+        pythonOk: true,
+        attempts: result.attempts,
+        parseOk: false
+      }
+    };
   }
 }
 
@@ -94,94 +289,111 @@ function ruleFilter(keyword) {
 }
 
 const server = http.createServer(async (req, res) => {
-  const parsed = url.parse(req.url, true);
+  // WHATWG URL로 파싱 (DEP0169 경고 원인 제거)
+  const u = new URL(req.url, `http://${req.headers.host}`);
 
-  if (req.method === "GET" && parsed.pathname === "/trends/daily") {
-    const region = String(parsed.query.region || "KR");
-    const days = Number(parsed.query.days || 7);
+  // 어떤 예외가 터져도 서버 프로세스가 죽지 않게 전체를 감싼다
+  try {
+    if (req.method === "GET" && u.pathname === "/trends/daily") {
+      const region = String(u.searchParams.get("region") || "KR");
+      const days = Number(u.searchParams.get("days") || 7);
 
-    const raw = await fetchTrendsFromPython({ region, days });
+      const raw = await fetchTrendsFromPython({ region, days });
 
-    // 디버깅 로그용: days, traffic 통계
-    const trafficNums = raw.items
-      .map((x) => parseTrafficToNumber(x.traffic))
-      .filter((x) => typeof x === "number");
+      // 디버깅 로그용: days, traffic 통계
+      const trafficNums = (raw.items || [])
+        .map((x) => parseTrafficToNumber(x.traffic))
+        .filter((x) => typeof x === "number");
 
-    const trafficMax = trafficNums.length ? Math.max(...trafficNums) : null;
-    const trafficAvg = trafficNums.length ? Math.round(trafficNums.reduce((a, b) => a + b, 0) / trafficNums.length) : null;
+      const trafficMax = trafficNums.length ? Math.max(...trafficNums) : null;
+      const trafficAvg = trafficNums.length
+        ? Math.round(trafficNums.reduce((a, b) => a + b, 0) / trafficNums.length)
+        : null;
 
-    // 1차 규칙 기반 중복 제거 + 금지어 제거
-    const seen = new Set();
-    const candidates = [];
-    for (const it of raw.items || []) {
-      const kw = String(it.keyword || "").trim();
-      if (!kw) continue;
-      const key = kw.toLowerCase();
-      if (seen.has(key)) continue;
-      seen.add(key);
-      if (!ruleFilter(kw)) continue;
-      candidates.push({ keyword: kw, traffic: it.traffic || null, date: it.date });
-    }
-
-    console.log(`[Trend Debug] 결과내용: ${candidates.slice(0, 5)}`)
-
-    // 2차 LLM 필터링/우선순위
-    const prompt = {
-      role: "trend_keyword_ranker",
-      region,
-      days,
-      inputCandidates: candidates.slice(0, 60),
-      instructions: [
-        "아래 후보 트렌드 키워드들 중에서 '도박/정치' 주제는 제외한다.",
-        "Shorts 제작에 적합한 '대중성/바이럴 가능성'이 높은 순서로 정렬한다.",
-        "동일 의미/중복 키워드는 하나로 합친다.",
-        "결과는 keywords 배열로만 반환한다.",
-        "최대 25개까지만 반환한다."
-      ],
-      outputFormat: { keywords: ["string", "string"] }
-    };
-
-    let keywords = [];
-    let llmRaw = null;
-
-    try {
-      llmRaw = await llm.generateJson(prompt);
-      const parsedJson = JSON.parse(llmRaw);
-      keywords = Array.isArray(parsedJson.keywords) ? parsedJson.keywords.slice(0, 25) : [];
-      console.log(
-        `[LLM] ✅ 파싱 성공: keywords=${keywords.length}` +
-        (keywords.length ? ` (sample="${keywords.slice(0, 5).join(", ")}")` : "")
-      );
-    } catch(err) {
-      // LLM 실패 시 후보를 traffic 기반(있다면) + 입력순으로 fallback
-      console.warn(`[LLM] ❌ 실패 → fallback 사용`, {
-        name: err?.name,
-        message: err?.message,
-      });
-
-      const scored = candidates.map((c) => ({ ...c, trafficN: parseTrafficToNumber(c.traffic) ?? 0 }));
-      scored.sort((a, b) => b.trafficN - a.trafficN);
-      keywords = scored.map((x) => x.keyword).slice(0, 25);
-    }
-
-    return sendJson(res, 200, {
-      region,
-      days,
-      keywords,
-      debug: {
-        rawItems: raw.items?.length || 0,
-        candidates: candidates.length,
-        trafficAvg,
-        trafficMax,
-        llmUsed: Boolean(llmRaw)
+      // 1차 규칙 기반 중복 제거 + 금지어 제거
+      const seen = new Set();
+      const candidates = [];
+      for (const it of raw.items || []) {
+        const kw = String(it.keyword || "").trim();
+        if (!kw) continue;
+        const key = kw.toLowerCase();
+        if (seen.has(key)) continue;
+        seen.add(key);
+        if (!ruleFilter(kw)) continue;
+        candidates.push({ keyword: kw, traffic: it.traffic || null, date: it.date });
       }
-    });
-  }
 
-  return sendJson(res, 404, { error: "Not Found" });
+      // console.log는 객체를 문자열로 만들 때 [object Object] 되기 쉬워서 JSON으로
+      console.log(`[Trend Debug] candidates(sample)=${JSON.stringify(candidates.slice(0, 5))}`);
+
+      // 2차 LLM 필터링/우선순위
+      const prompt = {
+        role: "trend_keyword_ranker",
+        region,
+        days,
+        inputCandidates: candidates.slice(0, 60),
+        instructions: [
+          "아래 후보 트렌드 키워드들 중에서 '도박/정치' 주제는 제외한다.",
+          "Shorts 제작에 적합한 '대중성/바이럴 가능성'이 높은 순서로 정렬한다.",
+          "동일 의미/중복 키워드는 하나로 합친다.",
+          "결과는 keywords 배열로만 반환한다.",
+          "최대 25개까지만 반환한다."
+        ],
+        outputFormat: { keywords: ["string", "string"] }
+      };
+
+      let keywords = [];
+      let llmRaw = null;
+
+      try {
+        llmRaw = await llm.generateJson(prompt);
+        const parsedJson = JSON.parse(llmRaw);
+        keywords = Array.isArray(parsedJson.keywords) ? parsedJson.keywords.slice(0, 25) : [];
+        console.log(
+          `[LLM] ✅ 파싱 성공: keywords=${keywords.length}` +
+            (keywords.length ? ` (sample="${keywords.slice(0, 5).join(", ")}")` : "")
+        );
+      } catch (err) {
+        // LLM 실패 시 후보를 traffic 기반(있다면) + 입력순으로 fallback
+        console.warn(`[LLM] ❌ 실패 → fallback 사용`, {
+          name: err?.name,
+          message: err?.message
+        });
+
+        const scored = candidates.map((c) => ({ ...c, trafficN: parseTrafficToNumber(c.traffic) ?? 0 }));
+        scored.sort((a, b) => b.trafficN - a.trafficN);
+        keywords = scored.map((x) => x.keyword).slice(0, 25);
+      }
+
+      // python이 실패/쿨다운이면 keywords가 비어 있을 수 있음 → 그래도 200으로 내려도 되고,
+      // 호출자가 "이번 회차는 비어있다"를 구분해야 하면 503도 가능.
+      // 여기서는: python 실패/쿨다운이면 503, 그 외 200
+      const pythonOk = raw?.debug?.pythonOk !== false;
+      const statusCode = pythonOk ? 200 : 503;
+
+      return sendJson(res, statusCode, {
+        region,
+        days,
+        keywords,
+        debug: {
+          rawItems: raw.items?.length || 0,
+          candidates: candidates.length,
+          trafficAvg,
+          trafficMax,
+          llmUsed: Boolean(llmRaw),
+          python: raw.debug || null
+        }
+      });
+    }
+
+    return sendJson(res, 404, { error: "Not Found" });
+  } catch (e) {
+    // 여기로 오면 정말 예상치 못한 서버 내부 예외
+    console.error("[trend-service] ❌ Unhandled handler error:", e);
+    return sendJson(res, 500, { error: "Internal Server Error" });
+  }
 });
 
 server.listen(PORT, () => {
-  // eslint-disable-next-line no-console
   console.log(`[trend-service] listening on http://localhost:${PORT}`);
 });

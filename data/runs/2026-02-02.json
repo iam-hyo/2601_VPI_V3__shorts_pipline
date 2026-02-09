@@ -1,0 +1,443 @@
+{
+  "runId": "2026-02-02",
+  "date": "2026-02-02",
+  "createdAt": "2026-02-02T06:50:01.736Z",
+  "updatedAt": "2026-02-02T06:55:36.173Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "아 랏쏘",
+          "유병 장수 girl",
+          "김상욱",
+          "맨유 풀럼",
+          "키키",
+          "메이플 키우기",
+          "최미나 수",
+          "pba",
+          "밀리",
+          "에코프로",
+          "정상수",
+          "풍향 고",
+          "블랙 컴뱃",
+          "아이들",
+          "비트 코인",
+          "자두 두",
+          "솔로 지옥 5"
+        ],
+        "updatedAt": "2026-02-02T06:50:18.995Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "김상욱",
+          "selectedSourceVideos": [
+            {
+              "videoId": "3tfCfxKqC5Y",
+              "title": "모든 것을 쏟아낸 남자의 뜨거운 눈물... #김상욱 #사나이UDT",
+              "channelTitle": "잡생각",
+              "predicted7d": 1488509,
+              "delta": 502616
+            },
+            {
+              "videoId": "mcJjf_oxAIc",
+              "title": "김상욱의 눈물버튼 쨍하고 해뜰날",
+              "channelTitle": "땀냄시",
+              "predicted7d": 134786,
+              "delta": 124787
+            },
+            {
+              "videoId": "aq5zLVImvPM",
+              "title": "우인성 김건희 판결에 대한 김상욱 사이다 일침",
+              "channelTitle": "시사로드",
+              "predicted7d": 137877,
+              "delta": 80232
+            },
+            {
+              "videoId": "FvUZNIKobBs",
+              "title": "김상욱 남자의 포옹 후 덧걸이 테이크다운.. 상대가 사루키안이었다면?",
+              "channelTitle": "자막캐리",
+              "predicted7d": 82664,
+              "delta": 69183
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-02/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Professor Kim Sang-wook's Shocking Sides",
+            "description": "Dive into the unexpected world of Professor Kim Sang-wook! From raw emotional moments to sharp critical insights and surprising MMA moves, this compilation reveals sides you never knew existed. Don't miss these viral Shorts!",
+            "tags": [
+              "KimSangWook",
+              "Shorts",
+              "KoreanProfessor",
+              "Unexpected",
+              "EmotionalMoments",
+              "MMAHighlights",
+              "ViralClips",
+              "SharpCritique",
+              "PublicIntellectual",
+              "MustWatch"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "DfzifOqfSug"
+          },
+          "updatedAt": "2026-02-02T06:50:53.923Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "맨유 풀럼",
+          "selectedSourceVideos": [
+            {
+              "videoId": "onbZPDDKUgk",
+              "title": "맨유의 위닝 멘탈리티를 재현하는 베냐민 셰슈코의 극장골 | 프리미어리그 | 맨유 vs 풀럼",
+              "channelTitle": "쿠팡플레이 스포츠",
+              "predicted7d": 359514,
+              "delta": 174250
+            },
+            {
+              "videoId": "LEo-prOUM8g",
+              "title": "브라질 시너지를 보여주는 카세미루와 마테우스 쿠냐 | 프리미어리그 | 맨유 vs 풀럼",
+              "channelTitle": "쿠팡플레이 스포츠",
+              "predicted7d": 205813,
+              "delta": 91861
+            },
+            {
+              "videoId": "LEEC971zUhQ",
+              "title": "혹시 맨유를 의심하셨나요?",
+              "channelTitle": "축스토리",
+              "predicted7d": 150353,
+              "delta": 81109
+            },
+            {
+              "videoId": "GX4CBRHA5t4",
+              "title": "[맨유vs풀럼] 세슈코 미친 극장골로 3-2 승리 거머쥐는 황유 ㄷㄷㄷ",
+              "channelTitle": "공감입니다",
+              "predicted7d": 139721,
+              "delta": 50640
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-02/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Man Utd vs Fulham: CRAZY 3-2 WIN!",
+            "description": "Relive the most insane moments from Man Utd's thrilling 3-2 victory over Fulham! Witness Sesko's last-minute heroics and the incredible synergy of Casemiro and Cunha. You won't believe the drama!",
+            "tags": [
+              "ManUtd",
+              "Fulham",
+              "PremierLeague",
+              "Sesko",
+              "Casemiro",
+              "FootballShorts",
+              "Goal",
+              "Highlights",
+              "Soccer"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "h0qBUqFpd04"
+          },
+          "updatedAt": "2026-02-02T06:51:27.566Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-02T06:51:27.575Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "Grammys 2026",
+          "shakur stevenson vs teofimo lopez",
+          "iron lung",
+          "melanie martinez",
+          "markiplier",
+          "wwe"
+        ],
+        "updatedAt": "2026-02-02T06:51:39.022Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "Grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "n2UnPnOYHNM",
+              "title": "BILLIE EILISH & FINNEAS O'CONNELL Win SONG OF THE YEAR | 2026 GRAMMYs",
+              "channelTitle": "Recording Academy / GRAMMYs",
+              "predicted7d": 328051,
+              "delta": 196684
+            },
+            {
+              "videoId": "PTu_nJ3kxyg",
+              "title": "Los vestidos más bonitos de los Grammys 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 159792,
+              "delta": 152771
+            },
+            {
+              "videoId": "lNs8AHN6ea4",
+              "title": "Billie Eilish Uses Grammys 2026 Song of the Year Win to Advocate for Immigrants: 'No One",
+              "channelTitle": "Glamily",
+              "predicted7d": 108350,
+              "delta": 107135
+            },
+            {
+              "videoId": "SoVcEnurRoE",
+              "title": "🎤 #grammys BAD BUNNY Wins ALBUM OF THE YEAR | 2026 GRAMMYs Acceptance Speech",
+              "channelTitle": "Recording Academy / GRAMMYs",
+              "predicted7d": 96603,
+              "delta": 90479
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-02/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Top Moments & Wins!",
+            "description": "Relive the most iconic moments from the 2026 Grammy Awards! From Billie Eilish's big win to Bad Bunny's historic speech, catch all the highlights. Don't miss the fashion and powerful messages!",
+            "tags": [
+              "Grammys",
+              "Grammys2026",
+              "BillieEilish",
+              "BadBunny",
+              "MusicAwards",
+              "CelebrityFashion",
+              "SongOfTheYear",
+              "AlbumOfTheYear",
+              "AwardShow",
+              "PopCulture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "nMLIaHy7nJw"
+          },
+          "updatedAt": "2026-02-02T06:52:42.985Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "iron lung",
+          "selectedSourceVideos": [
+            {
+              "videoId": "zp78co6dW2Y",
+              "title": "Markiplier Fans Before VS After Seeing Iron Lung",
+              "channelTitle": "The Brook Boys",
+              "predicted7d": 157010,
+              "delta": 95859
+            },
+            {
+              "videoId": "iEvlWv42qLo",
+              "title": "MARKIPLIER’S MOVIE IS GOING CRAZY AT THE BOX OFFICE (Iron Lung)",
+              "channelTitle": "VETZ",
+              "predicted7d": 151755,
+              "delta": 94141
+            },
+            {
+              "videoId": "ag2UK7e-1gU",
+              "title": "Iron Lung was a 10/10 🔥 #ironlung #markiplier",
+              "channelTitle": "WiseTheCreator",
+              "predicted7d": 78604,
+              "delta": 77573
+            },
+            {
+              "videoId": "wDoB3QhZkgI",
+              "title": "Iron lung is a good movie #funny #markiplier",
+              "channelTitle": "Cloudsalesman",
+              "predicted7d": 67900,
+              "delta": 66836
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-02/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Iron Lung Movie: Fans Go WILD!",
+            "description": "Dive into the terrifying world of Iron Lung and see how Markiplier's movie adaptation is taking the box office by storm. Watch fan reactions, critical acclaim, and why everyone's talking about this indie horror sensation!",
+            "tags": [
+              "ironlung",
+              "markiplier",
+              "horror",
+              "shorts",
+              "movie",
+              "gaming",
+              "reaction",
+              "boxoffice",
+              "indiehorror",
+              "scary"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "t3Dgar39N-Y"
+          },
+          "updatedAt": "2026-02-02T06:53:46.498Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-02T06:53:46.506Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "lamberto quintero",
+          "santa fe klan",
+          "conozco su piel la recorri tantas veces",
+          "jair sanchez",
+          "lenin ramírez"
+        ],
+        "updatedAt": "2026-02-02T06:53:54.636Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "n2UnPnOYHNM",
+              "title": "BILLIE EILISH & FINNEAS O'CONNELL Win SONG OF THE YEAR | 2026 GRAMMYs",
+              "channelTitle": "Recording Academy / GRAMMYs",
+              "predicted7d": 328619,
+              "delta": 189881
+            },
+            {
+              "videoId": "PTu_nJ3kxyg",
+              "title": "Los vestidos más bonitos de los Grammys 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 159792,
+              "delta": 152726
+            },
+            {
+              "videoId": "lNs8AHN6ea4",
+              "title": "Billie Eilish Uses Grammys 2026 Song of the Year Win to Advocate for Immigrants: 'No One",
+              "channelTitle": "Glamily",
+              "predicted7d": 108472,
+              "delta": 107252
+            },
+            {
+              "videoId": "SoVcEnurRoE",
+              "title": "🎤 #grammys BAD BUNNY Wins ALBUM OF THE YEAR | 2026 GRAMMYs Acceptance Speech",
+              "channelTitle": "Recording Academy / GRAMMYs",
+              "predicted7d": 96603,
+              "delta": 90446
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-02/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Unforgettable Highlights!",
+            "description": "Relive the most iconic moments from the 2026 Grammy Awards! From Billie Eilish's historic wins to Bad Bunny's Album of the Year triumph and the hottest red carpet fashion, we've got it all. Don't miss these unforgettable highlights!",
+            "tags": [
+              "Grammys2026",
+              "BillieEilish",
+              "BadBunny",
+              "MusicAwards",
+              "RedCarpetFashion",
+              "SongOfTheYear",
+              "AlbumOfTheYear",
+              "CelebrityNews",
+              "Shorts",
+              "PopCulture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Wlh2mEHgpDo"
+          },
+          "updatedAt": "2026-02-02T06:54:54.678Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "santa fe klan",
+          "selectedSourceVideos": [
+            {
+              "videoId": "RrPV1AHxYC4",
+              "title": "Le pidió AYUDA a Santa Fe Klan y así le RESPONDIO 😭",
+              "channelTitle": "El F Music",
+              "predicted7d": 205958,
+              "delta": 204937
+            },
+            {
+              "videoId": "yemV5z0N2T4",
+              "title": "SANTA FE KLAN no Me IMPORTA dar 250.000$ a MAYA‼️😱#santafeklan #mexico #usa #chile #cdmx #texas",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 163462,
+              "delta": 152959
+            },
+            {
+              "videoId": "JZ3wdGOLe94",
+              "title": "santa fe klan #parati #viral #odishalabakuasajanma #viralvideo",
+              "channelTitle": "RAPEROS VIRALES",
+              "predicted7d": 346119,
+              "delta": 134460
+            },
+            {
+              "videoId": "qGhroE_9b5A",
+              "title": "SANTA FE KLAN Quiere MÁS Hijos de la Misma MAMÁ‼️😱#santafeklan #mexico #usa #chile #cdmx #texas",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 104988,
+              "delta": 98131
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-02/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Santa Fe Klan: Drama & Decisions!",
+            "description": "Dive into the most shocking and viral moments of Santa Fe Klan! From his controversial statements about family to his generous payouts, see what makes him a true icon. Don't miss these must-see clips!",
+            "tags": [
+              "SantaFeKlan",
+              "MexicanRap",
+              "ViralShorts",
+              "CelebrityDrama",
+              "MusicNews",
+              "LatinMusic",
+              "Shorts",
+              "Controversy",
+              "MayaNazor",
+              "HipHop"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "TrTiMCC8D08"
+          },
+          "updatedAt": "2026-02-02T06:55:36.163Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-02T06:55:36.172Z"
+    }
+  },
+  "finishedAt": "2026-02-02T06:55:36.173Z"
+}

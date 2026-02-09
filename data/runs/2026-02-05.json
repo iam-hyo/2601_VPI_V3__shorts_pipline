@@ -1,0 +1,385 @@
+{
+  "runId": "2026-02-05",
+  "date": "2026-02-05",
+  "createdAt": "2026-02-05T06:50:01.816Z",
+  "updatedAt": "2026-02-05T06:55:08.463Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "아 랏쏘",
+          "이문주",
+          "김상욱",
+          "차 정원",
+          "밀리",
+          "자두 두",
+          "웨돔",
+          "블랙 컴뱃",
+          "매미 킴",
+          "키키",
+          "최미나 수",
+          "김하 온",
+          "오선",
+          "솔로 지옥 5"
+        ],
+        "updatedAt": "2026-02-05T06:50:14.363Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "김상욱",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ENZpM2TGMe0",
+              "title": "박준용의 조언 김상욱",
+              "channelTitle": "하마터면",
+              "predicted7d": 154866,
+              "delta": 145781
+            },
+            {
+              "videoId": "hfdey8Uq-f4",
+              "title": "이혜훈은 끝까지 자진사퇴 하지 않았다. #이재명 #이혜훈 #김상욱 #최욱",
+              "channelTitle": "좌측파란선생",
+              "predicted7d": 111411,
+              "delta": 102835
+            },
+            {
+              "videoId": "osgh7cQjko8",
+              "title": "트럼프가 건드리는 나라의 공통점 #김상욱",
+              "channelTitle": "[세받쓰]세상받아쓰기",
+              "predicted7d": 87976,
+              "delta": 79683
+            },
+            {
+              "videoId": "izGqB_7c4F0",
+              "title": "김상욱 다음은 누구? 고석현·유주상·유수영 출격! 3월까지 UFC 잠 못 잡니다 🥊",
+              "channelTitle": "한대맞KO",
+              "predicted7d": 129420,
+              "delta": 60767
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-05/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Kim Sang-wook: Unexpected Insights & Fights!",
+            "description": "Dive into the multifaceted world of Kim Sang-wook! From sharp political analysis and controversial advice to the thrilling octagon of UFC, discover unexpected sides.",
+            "tags": [
+              "#KimSangWook",
+              "#김상욱",
+              "#UFC",
+              "#KoreanPolitics",
+              "#Geopolitics",
+              "#Trump",
+              "#Advice",
+              "#MMA",
+              "#Controversy",
+              "#Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ImwHUY2_H5E"
+          },
+          "updatedAt": "2026-02-05T06:50:52.718Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "블랙 컴뱃",
+          "selectedSourceVideos": [
+            {
+              "videoId": "vy5klCWfzS4",
+              "title": "싸움도 잘하는 얼굴 천재 #shorts",
+              "channelTitle": "블랙컴뱃",
+              "predicted7d": 121714,
+              "delta": 42669
+            },
+            {
+              "videoId": "0g-N5qS28AM",
+              "title": "군대스리가 참가자 가디언 김수오#제우스fc #제우스 #야차클럽 #블랙컴뱃 #김수오 #가디언 #군대스리가",
+              "channelTitle": "ZEUS FC",
+              "predicted7d": 47935,
+              "delta": 40478
+            },
+            {
+              "videoId": "qhHLvWLcy8s",
+              "title": "격투기가 무서운 이유 #블랙컴뱃16 #남의철",
+              "channelTitle": "여의도과장님",
+              "predicted7d": 66910,
+              "delta": 29052
+            },
+            {
+              "videoId": "cskTf5JhSDQ",
+              "title": "'붉은매' 지혁민 \"내년엔 시라소니 뛰어넘을지도 모르죠\" #블랙컴뱃 #BLACKCOMBAT #붉은매",
+              "channelTitle": "이교덕 GOAT",
+              "predicted7d": 31090,
+              "delta": 13969
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-05/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Black Combat: Epic Fights & Knockouts!",
+            "description": "Dive into the raw intensity of Black Combat! Witness the most thrilling moments, from handsome fighters to military beasts and rising legends. Experience the brutal reality of MMA like never before.",
+            "tags": [
+              "Black Combat",
+              "MMA",
+              "Knockout",
+              "Fighter",
+              "Combat Sports",
+              "Korean MMA",
+              "Shorts",
+              "Fight Highlights",
+              "Brutal Fights",
+              "Warrior"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "vHZL7mICj6k"
+          },
+          "updatedAt": "2026-02-05T06:51:32.141Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-05T06:51:32.149Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "justin bieber grammy performance",
+          "iron lung",
+          "shakur stevenson",
+          "bad bunny",
+          "olivia dean",
+          "jelly roll",
+          "markiplier",
+          "kevin gates",
+          "billie eilish",
+          "wwe",
+          "cardi b"
+        ],
+        "updatedAt": "2026-02-05T06:51:45.215Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "088-L_L-p6U",
+              "title": "Famosos que reaccionaron ante el ICE en los Grammys 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 558273,
+              "delta": 261755
+            },
+            {
+              "videoId": "fc8kH9MpLio",
+              "title": "VIRAL Off-Camera Moments at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 570276,
+              "delta": 206574
+            },
+            {
+              "videoId": "Ldt6SuE2Kb4",
+              "title": "Most UNEXPECTED Moments at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 191779,
+              "delta": 92514
+            },
+            {
+              "videoId": "2gZ48-Nj6cE",
+              "title": "Halle Bailey Chić Look @ The Grammys 2026 ￼#hallebailey #fashionpolice #grammys #paolosebastian #rnb",
+              "channelTitle": "KC Artis",
+              "predicted7d": 87966,
+              "delta": 81301
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-05/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Wildest Viral Moments!",
+            "description": "Relive the most shocking and viral moments from the Grammys 2026! From unexpected celebrity reactions to backstage drama and iconic fashion statements, you won't believe what happened. Don't miss these unforgettable highlights!",
+            "tags": [
+              "Grammys2026",
+              "Grammys",
+              "ViralMoments",
+              "CelebrityReactions",
+              "Unexpected",
+              "Fashion",
+              "HalleBailey",
+              "AwardShow",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ka9TICv6zIE"
+          },
+          "updatedAt": "2026-02-05T06:53:12.929Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "iron lung",
+          "selectedSourceVideos": [
+            {
+              "videoId": "-ZocFqg68XY",
+              "title": "If yall haven’t seen Iron Lung yet GO SEE IT! #ironlung #markiplier #horrormovies",
+              "channelTitle": "BigSisofAnime",
+              "predicted7d": 113962,
+              "delta": 102700
+            },
+            {
+              "videoId": "KbEvDQbzxK4",
+              "title": "Iron Lung: Movie Vs Game",
+              "channelTitle": "WatchMojo.com",
+              "predicted7d": 76864,
+              "delta": 45955
+            },
+            {
+              "videoId": "XUjf9r27pwc",
+              "title": "Facts you didn’t know about Markiplier’s Iron Lung movie",
+              "channelTitle": "The Cinema Guy",
+              "predicted7d": 42990,
+              "delta": 41617
+            },
+            {
+              "videoId": "SPhALlD266Y",
+              "title": "Iron Lung Situation",
+              "channelTitle": "Doop",
+              "predicted7d": 30962,
+              "delta": 30058
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-05/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Iron Lung: Movie, Game & More!",
+            "description": "Dive into the terrifying world of Iron Lung! From Markiplier's movie to game comparisons and hidden facts, get ready for a deep dive. Which version scares you most?",
+            "tags": [
+              "IronLung",
+              "Markiplier",
+              "HorrorGame",
+              "HorrorMovie",
+              "IndieGame",
+              "Gaming",
+              "MovieFacts",
+              "Shorts",
+              "Scary",
+              "DeepSea"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "hNABo5N4c3Y"
+          },
+          "updatedAt": "2026-02-05T06:53:46.691Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-05T06:53:46.700Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "todo lo fue lenin ramirez",
+          "conozco su piel la recorri tantas veces"
+        ],
+        "updatedAt": "2026-02-05T06:53:58.191Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "088-L_L-p6U",
+              "title": "Famosos que reaccionaron ante el ICE en los Grammys 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 558273,
+              "delta": 261733
+            },
+            {
+              "videoId": "fc8kH9MpLio",
+              "title": "VIRAL Off-Camera Moments at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 570276,
+              "delta": 206574
+            },
+            {
+              "videoId": "Ldt6SuE2Kb4",
+              "title": "Most UNEXPECTED Moments at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 191802,
+              "delta": 91473
+            },
+            {
+              "videoId": "oloGXdoXYCU",
+              "title": "Why Celebs at the Grammys Had $2 Bills 😭 | Grammys 2026",
+              "channelTitle": "Last",
+              "predicted7d": 262735,
+              "delta": 85145
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-05/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Wildest Unseen Moments!",
+            "description": "Dive into the most shocking and viral moments from the Grammys 2026! From celebrity reactions to unexpected backstage drama and the mysterious $2 bills, you won't believe what happened. Watch now!",
+            "tags": [
+              "Grammys2026",
+              "Grammys",
+              "Celebrity",
+              "ViralMoments",
+              "Unexpected",
+              "AwardShow",
+              "PopCulture",
+              "MusicAwards",
+              "Shorts",
+              "Backstage"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "VRelnqNHIjw"
+          },
+          "updatedAt": "2026-02-05T06:55:08.453Z"
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-05T06:55:08.462Z"
+    }
+  }
+}

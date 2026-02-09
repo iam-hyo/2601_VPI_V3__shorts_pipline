@@ -1,0 +1,442 @@
+{
+  "runId": "2026-02-04",
+  "date": "2026-02-04",
+  "createdAt": "2026-02-04T06:50:01.492Z",
+  "updatedAt": "2026-02-04T06:57:01.867Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "구준엽",
+          "404",
+          "최미나 수",
+          "이호선 상담소",
+          "자두 두",
+          "정상수",
+          "키키",
+          "블랙 컴뱃",
+          "비트 코인",
+          "매미 킴",
+          "전한길",
+          "짭구",
+          "구마 유시",
+          "웨돔",
+          "이강인",
+          "코마"
+        ],
+        "updatedAt": "2026-02-04T06:50:37.401Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "구준엽",
+          "selectedSourceVideos": [
+            {
+              "videoId": "8xmZN3kA8F0",
+              "title": "구준엽 아내 서희원이 갑자기 떠난 충격적 이유",
+              "channelTitle": "방송가 소식통",
+              "predicted7d": 238665,
+              "delta": 131381
+            },
+            {
+              "videoId": "YNGkSkeWkls",
+              "title": "오늘 방송 보는 내내 너무 맘이 아프네요🥲#구준엽 #서희원 #삼가고인의명복을빕니다 #셀럽병사의비밀 #이찬원 #leechanwon",
+              "channelTitle": "찬또 로그",
+              "predicted7d": 124831,
+              "delta": 115470
+            },
+            {
+              "videoId": "lU-rQHPwhl8",
+              "title": "아직도 끝나지 않은 그들의 가슴 아픈 사랑...#구준엽 님도 가족분들도 모두 힘내시길 바랍니다 #서희원 #삼가고인의명복을빕니다 #이찬원 #셀럽병사의비밀",
+              "channelTitle": "찬또 로그",
+              "predicted7d": 119698,
+              "delta": 109541
+            },
+            {
+              "videoId": "-tby-fF2ubQ",
+              "title": "20년 기다린 사랑 3년 만에 떠나보낸 구준엽의 1주기 추모",
+              "channelTitle": "진짜여?",
+              "predicted7d": 100115,
+              "delta": 92097
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-04/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "DJ Koo's Heartbreaking Love Story",
+            "description": "Explore the tragic and heartwarming journey of DJ Koo's enduring love. From a 20-year wait to an unexpected farewell, discover the untold story behind the headlines. A tribute to a love that touched many hearts.",
+            "tags": [
+              "DJ Koo",
+              "Koo Jun-yup",
+              "Celebrity Love Story",
+              "Tragic Love",
+              "Korean Celebrity",
+              "Heartbreak",
+              "Barbie Hsu",
+              "Shorts",
+              "K-Pop Legend"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ZQkrgiHqINI"
+          },
+          "updatedAt": "2026-02-04T06:51:08.034Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "404",
+          "selectedSourceVideos": [
+            {
+              "videoId": "7uzZfTjgmTM",
+              "title": "404 백지를 내도 💯백점 #KiiiKiii #키키 #404_NewEra #404_뉴에라",
+              "channelTitle": "KiiiKiii",
+              "predicted7d": 389656,
+              "delta": 235205
+            },
+            {
+              "videoId": "85FJYCEpk4s",
+              "title": "😨 Ya Falta Poco.. #fedevigevani #fede #dmd #orfanato #beta #404 #animatronicos #clownmotel",
+              "channelTitle": "nikito",
+              "predicted7d": 151381,
+              "delta": 143468
+            },
+            {
+              "videoId": "qPZMcs9u3Mo",
+              "title": "Always riding low 안 터져 안테나 #KiiiKiii #키키 #JIYU #지유 #404_NewEra #404_뉴에라",
+              "channelTitle": "KiiiKiii",
+              "predicted7d": 231863,
+              "delta": 142938
+            },
+            {
+              "videoId": "CH4dtP6rz-4",
+              "title": "LA VERDADERA RAZON DE 404 Y EL INTERNET A FEDE 😱 Fede Vigevani Vecinos #fedevigevani #fede #shorts",
+              "channelTitle": "Fede Xtra",
+              "predicted7d": 93328,
+              "delta": 86910
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-04/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "404: Glitch, Mystery, New Era!",
+            "description": "Dive into the enigmatic world of 404! From blank page triumphs to chilling mysteries and unbreakable signals, explore what 404 truly means. Get ready for a new era of digital secrets and unexpected revelations.",
+            "tags": [
+              "404",
+              "YouTubeShorts",
+              "Mystery",
+              "NewEra",
+              "KiiiKiii",
+              "FedeVigevani",
+              "Glitch",
+              "Secrets",
+              "Viral",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "-KM9bN2lrkY"
+          },
+          "updatedAt": "2026-02-04T06:51:46.080Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-04T06:51:46.081Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "justin bieber grammy performance",
+          "iron lung",
+          "bad bunny",
+          "markiplier",
+          "olivia dean"
+        ],
+        "updatedAt": "2026-02-04T06:51:57.310Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "LHRjGf19CkU",
+              "title": "💃🏽🎶its TIME! Grammys with @YouTube Fashion & culture #grammys #grammys2026 #losangeles #hollywood",
+              "channelTitle": "Jully Patel",
+              "predicted7d": 3228082,
+              "delta": 2066731
+            },
+            {
+              "videoId": "KgeOWxH4jPU",
+              "title": "Celebs Who Didn’t Attend the 2026 Grammys 😭",
+              "channelTitle": "Last",
+              "predicted7d": 594450,
+              "delta": 206120
+            },
+            {
+              "videoId": "F4buoQ4Wc08",
+              "title": "Everything 2026 GRAMMYS Got WRONG",
+              "channelTitle": "What's The Buzz?",
+              "predicted7d": 332770,
+              "delta": 173269
+            },
+            {
+              "videoId": "A5S9KVk5FIE",
+              "title": "The BIGGEST Losers of the Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 492312,
+              "delta": 159067
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-04/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "2026 Grammys: Red Carpet to Regrets!",
+            "description": "Dive into the wildest moments of the 2026 Grammys! From jaw-dropping fashion to shocking snubs and epic fails, we've got all the tea. Don't miss out on the biggest wins and losses!",
+            "tags": [
+              "Grammys2026",
+              "Grammys",
+              "MusicAwards",
+              "RedCarpet",
+              "CelebrityNews",
+              "AwardShow",
+              "FashionFails",
+              "MusicIndustry",
+              "PopCulture",
+              "Snubs"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "FVZHuZ0yprQ"
+          },
+          "updatedAt": "2026-02-04T06:53:44.780Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "justin bieber grammy performance",
+          "selectedSourceVideos": [
+            {
+              "videoId": "N8MmqyhCrM4",
+              "title": "Why Justin Bieber Took His Shirt Off at the Grammys #fyp #celebrity #justinbiber #grammys",
+              "channelTitle": "PopPaparazzi ",
+              "predicted7d": 45108,
+              "delta": 38914
+            },
+            {
+              "videoId": "2BedlfkRL0s",
+              "title": "JUSTIN BIEBER PERFORMED AT THE GRAMMYS LIKE THIS 😳 #justinbieber #grammys #performance #viralvideo",
+              "channelTitle": "Bieber Unfiltered",
+              "predicted7d": 52324,
+              "delta": 37345
+            },
+            {
+              "videoId": "4_kuh1xpQ0s",
+              "title": "Justin Bieber Performs “YUKON” Live at the Grammys 2026 🔥😮",
+              "channelTitle": "Pop Lit Vibe",
+              "predicted7d": 42741,
+              "delta": 36236
+            },
+            {
+              "videoId": "OkbdU60ANpw",
+              "title": "Why did Justin Bieber wear single black sock when he performed at the Grammys#grammys #justinbieber",
+              "channelTitle": "Secretsipsxo",
+              "predicted7d": 56853,
+              "delta": 33686
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-04/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Justin Bieber's Wildest Grammy Moments!",
+            "description": "Dive into Justin Bieber's most unforgettable and controversial Grammy performances. From shirtless surprises to mysterious fashion choices, relive the moments that broke the internet. You won't believe what happened!",
+            "tags": [
+              "JustinBieber",
+              "Grammys",
+              "BieberPerformance",
+              "CelebrityNews",
+              "PopCulture",
+              "Shorts",
+              "Viral",
+              "Music",
+              "FashionFail",
+              "ShockingMoments"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "q0ZkYpe8p3A"
+          },
+          "updatedAt": "2026-02-04T06:55:14.996Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-04T06:55:14.997Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "olimpia vs america",
+          "lamberto quintero",
+          "lenin ramírez",
+          "conozco su piel la recorri tantas veces",
+          "santa fe klan"
+        ],
+        "updatedAt": "2026-02-04T06:55:36.441Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "KgeOWxH4jPU",
+              "title": "Celebs Who Didn’t Attend the 2026 Grammys 😭",
+              "channelTitle": "Last",
+              "predicted7d": 594450,
+              "delta": 203699
+            },
+            {
+              "videoId": "R6v_NEKhcm4",
+              "title": "Celebs Are Facing MASSIVE Backlash After Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 245180,
+              "delta": 57933
+            },
+            {
+              "videoId": "Qv6Prf-QMEc",
+              "title": "Grammys 2026 Were a Total Disaster 😭",
+              "channelTitle": "Last",
+              "predicted7d": 57661,
+              "delta": 42674
+            },
+            {
+              "videoId": "KK-aXLFkUCY",
+              "title": "🏆 Olivia Dean ‘Man I Need’ Live at Grammys 2026 #shorts",
+              "channelTitle": "Music Maestro🎵",
+              "predicted7d": 44092,
+              "delta": 37225
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-04/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Chaos, Snubs & Wins!",
+            "description": "Relive the most talked-about moments from the 2026 Grammys! From shocking snubs to epic performances and celebrity backlash, we've got it all. Don't miss the chaos!",
+            "tags": [
+              "grammys2026",
+              "grammys",
+              "musicawards",
+              "celebritynews",
+              "backlash",
+              "performances",
+              "redcarpet",
+              "snubs",
+              "controversy",
+              "popculture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "rgmPDcQRclw"
+          },
+          "updatedAt": "2026-02-04T06:56:22.700Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "santa fe klan",
+          "selectedSourceVideos": [
+            {
+              "videoId": "YrVvgm26e5c",
+              "title": "SANTA FE KLAN Prefiere FIESTAS en BARRIO que AUTO de LUJO‼️😱#santafeklan #mexico #usa #chile #cdmx",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 198678,
+              "delta": 189214
+            },
+            {
+              "videoId": "hL0RZJroyLs",
+              "title": "santa fe klan el más viral #parati #santafeklan #elmasviral #millonarios",
+              "channelTitle": "RAPEROS VIRALES",
+              "predicted7d": 239358,
+              "delta": 132346
+            },
+            {
+              "videoId": "z1VaZ6fcDR4",
+              "title": "Santa Fe Klan Siempre Humilde ✨️ #santafeklan #santafeklan473 #rapmexicano",
+              "channelTitle": "Fan Santa Fe Klan",
+              "predicted7d": 121756,
+              "delta": 113276
+            },
+            {
+              "videoId": "_yEIMlf6u6U",
+              "title": "#entrevista Santa Fe klan #viralshort #parati #tendencia #podcast #rap #473music #musica #entrevista",
+              "channelTitle": "contry.AScmpo60",
+              "predicted7d": 95573,
+              "delta": 83483
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-04/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Santa Fe Klan: Real Talk, Real Rap",
+            "description": "Dive into the world of Santa Fe Klan! From his humble beginnings to becoming a viral sensation, discover why this Mexican rapper stays true to his roots. Get ready for raw interviews, authentic moments, and the real story behind the music.",
+            "tags": [
+              "SantaFeKlan",
+              "SFK",
+              "RapMexicano",
+              "MexicanRap",
+              "HipHop",
+              "ViralRapper",
+              "HumbleBeginnings",
+              "MusicInterview",
+              "473Music",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "DpZ4espbQ2g"
+          },
+          "updatedAt": "2026-02-04T06:57:01.865Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-04T06:57:01.865Z"
+    }
+  },
+  "finishedAt": "2026-02-04T06:57:01.867Z"
+}

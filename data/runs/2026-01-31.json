@@ -1,0 +1,422 @@
+{
+  "runId": "2026-01-31",
+  "date": "2026-01-31",
+  "createdAt": "2026-01-31T06:50:01.856Z",
+  "updatedAt": "2026-01-31T06:54:38.490Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "맨유 아스날",
+          "아 랏쏘",
+          "유병 장수 girl",
+          "최미나 수",
+          "메이플 키우기",
+          "솔로 지옥",
+          "풍향 고",
+          "키키",
+          "에코프로",
+          "정상수",
+          "ufc",
+          "언더 커버 미스 홍",
+          "차은 우",
+          "트레이 비",
+          "나 우아 임영",
+          "슈카 월드",
+          "뜬뜬",
+          "블랙 컴뱃"
+        ],
+        "updatedAt": "2026-01-31T06:50:13.138Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "keyword": "맨유 아스날",
+          "selectedSourceVideos": [
+            {
+              "videoId": "I8iV9zIVJms",
+              "title": "2024년에 탈아스날 했던 팬의 마지막 글 ㄷㄷ",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 492365,
+              "delta": 97203
+            },
+            {
+              "videoId": "_3qFPqyzevI",
+              "title": "이 경기 보고 맨유 입덕 해버렸습니다..",
+              "channelTitle": "기래민",
+              "predicted7d": 80191,
+              "delta": 78961
+            },
+            {
+              "videoId": "6dUWgTq34F8",
+              "title": "진짜 알다가도 모르겠다는 맨유와 아스날",
+              "channelTitle": "메시맛집",
+              "predicted7d": 215668,
+              "delta": 73193
+            },
+            {
+              "videoId": "a1op_pguxuc",
+              "title": "다시 부활하는 캐릭의 맨유 | 아스날 vs 맨유",
+              "channelTitle": "FOOTstory",
+              "predicted7d": 164333,
+              "delta": 59104
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-31/KR_video_01/inputs/I8iV9zIVJms.mp4\\\" \\\"https://www.youtube.com/watch?v=I8iV9zIVJms\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] I8iV9zIVJms: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] I8iV9zIVJms: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-31/KR_video_01/inputs/I8iV9zIVJms.mp4\\\" \\\"https://www.youtube.com/watch?v=I8iV9zIVJms\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] I8iV9zIVJms: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] I8iV9zIVJms: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "최미나 수",
+          "selectedSourceVideos": [
+            {
+              "videoId": "6ozSvY6eec0",
+              "title": "솔로지옥5 최미나수의 솔직함 VS 무례함",
+              "channelTitle": "연예세계톡톡",
+              "predicted7d": 1674370,
+              "delta": 542984
+            },
+            {
+              "videoId": "RSTh6PptIlo",
+              "title": "솔로지옥5 박희선 놀라운 사실, 최미나수 과거 인연?",
+              "channelTitle": "아는인물",
+              "predicted7d": 959919,
+              "delta": 336602
+            },
+            {
+              "videoId": "_UMN1M57kw0",
+              "title": "솔로지옥5 최미나수 최종커플 미국발 스포! 갑자기 노선변경한 이유?! #환승연애4",
+              "channelTitle": "라이프리슈",
+              "predicted7d": 408502,
+              "delta": 124309
+            },
+            {
+              "videoId": "ELn_rh-ez7c",
+              "title": "다음주 최미나수의 선택은? 임수빈 / 송승일 / 이성훈 #솔로지옥5",
+              "channelTitle": "톡잇업TV",
+              "predicted7d": 393998,
+              "delta": 112082
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-31/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Mina Su: Solo's Inferno's Hottest Star?",
+            "description": "Dive into the world of Choi Mina Su from Solo's Inferno! We explore her controversial personality, shocking past connections, and the ultimate spoiler for her final choice. Don't miss the drama!",
+            "tags": [
+              "Solo's Inferno",
+              "Choi Mina Su",
+              "Mina Su",
+              "Singles Inferno",
+              "Korean Dating Show",
+              "K-Reality",
+              "Dating Drama",
+              "Controversy",
+              "Spoiler",
+              "Final Couple"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "BtNBbMIT7lI"
+          },
+          "updatedAt": "2026-01-31T06:50:51.859Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-31T06:50:51.868Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "alex pretti",
+          "paddy pimblett vs justin gaethje",
+          "alex honnold",
+          "brawadis",
+          "ufc",
+          "melanie martinez"
+        ],
+        "updatedAt": "2026-01-31T06:51:02.029Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "alex pretti",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ocDmkY5VFUM",
+              "title": "New footage shows Alex Pretti assaulting ICE Agents #news  #ice #alexpretti",
+              "channelTitle": "Andy Frisella",
+              "predicted7d": 127289,
+              "delta": 115022
+            },
+            {
+              "videoId": "kL3DtPfnqBs",
+              "title": "Trump reacciona a video de Alex Pretti: Lo califica de \"insurgente\" y respalda a agentes de ICE",
+              "channelTitle": "N+ UNIVISION",
+              "predicted7d": 288943,
+              "delta": 98692
+            },
+            {
+              "videoId": "uQHg3U5cNw4",
+              "title": "Maga on Alex Pretti",
+              "channelTitle": "The Necessary Conversation",
+              "predicted7d": 101054,
+              "delta": 93365
+            },
+            {
+              "videoId": "5-lN_JQdaUo",
+              "title": "Publican vídeo de Alex Pretti enfrentándose a agentes del ICE 11 días antes de que lo mataran",
+              "channelTitle": "DW Español",
+              "predicted7d": 137583,
+              "delta": 72498
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-31/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Alex Pretti: ICE Confrontation Unpacked",
+            "description": "Explore the viral footage of Alex Pretti's intense clash with ICE agents. Witness political reactions, including Trump's strong stance, and the events leading up to a tragic outcome. Share your thoughts on this polarizing incident.",
+            "tags": [
+              "AlexPretti",
+              "ICE",
+              "Confrontation",
+              "Viral",
+              "Trump",
+              "News",
+              "Politics",
+              "Shorts",
+              "Controversy",
+              "Breaking"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "lKQVxnIu3jM"
+          },
+          "updatedAt": "2026-01-31T06:51:42.124Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "paddy pimblett vs justin gaethje",
+          "selectedSourceVideos": [
+            {
+              "videoId": "_-W_6Mc0HRU",
+              "title": "Arman Tsarukyan was intense while watching Justin Gaethje vs Paddy Pimblett at UFC 324 #ufc #shorts",
+              "channelTitle": "Nina Drama",
+              "predicted7d": 268472,
+              "delta": 130242
+            },
+            {
+              "videoId": "hq3hSoY1iJg",
+              "title": "Justin Gaethje vs Paddy Pimblett #justingaethje #paddypimblett #ufc #mma",
+              "channelTitle": "knockout Arena🥊",
+              "predicted7d": 69304,
+              "delta": 68325
+            },
+            {
+              "videoId": "upy98dENAo8",
+              "title": "UFC‼️Justin Gaethje🇺🇸 vs Paddy Pimblett🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+              "channelTitle": "gudang Dj terbaru",
+              "predicted7d": 34445,
+              "delta": 32928
+            },
+            {
+              "videoId": "fsz6Jwk_hYA",
+              "title": "Trevor Wittman Explains GAMEPLAN vs Paddy Pimblett | Gaethje vs Pimblett",
+              "channelTitle": "Cory ‘The Sandman’ Sandhagen",
+              "predicted7d": 49177,
+              "delta": 32579
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-31/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Gaethje vs Pimblett: Dream Fight Hype!",
+            "description": "Dive into the massive hype surrounding a potential Justin Gaethje vs Paddy Pimblett clash! Witness intense reactions and expert gameplans for this dream UFC matchup.",
+            "tags": [
+              "UFC",
+              "MMA",
+              "JustinGaethje",
+              "PaddyPimblett",
+              "UFCShorts",
+              "FightHype",
+              "MMAnews",
+              "GaethjePimblett"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "lYat7NiEf7c"
+          },
+          "updatedAt": "2026-01-31T06:53:02.021Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-31T06:53:02.029Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "liga bazooka",
+          "lamberto quintero",
+          "lenin ramírez",
+          "santa fe klan",
+          "conozco su piel la recorri tantas veces",
+          "jair sanchez",
+          "eden muñoz"
+        ],
+        "updatedAt": "2026-01-31T06:53:15.787Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "liga bazooka",
+          "selectedSourceVideos": [
+            {
+              "videoId": "B6UCdRuRJlo",
+              "title": "MULTIRREACCIÓN AL ROUND DE MUELAS DE GALLO VS ACZINO | LIGA BAZOOKA INTERNACIONAL MÉXICO 2026",
+              "channelTitle": "SonolaSR",
+              "predicted7d": 94095,
+              "delta": 82176
+            },
+            {
+              "videoId": "k9WEraNoag8",
+              "title": "MUELAS BRILLA EN BAZOOKA #ligabazooka #muelas #aczino #mexico #batallasescritas",
+              "channelTitle": "𝕊𝔸ℕ𝔻𝔸𝕂𝕆𝕊𝕋𝔸",
+              "predicted7d": 69744,
+              "delta": 68447
+            },
+            {
+              "videoId": "V-ZS8Le5Gx0",
+              "title": "ACZINO🇲🇽 demostrando ser de los MEJORES en LIGA BAZOOKA💣! #aczino #ligabazooka #batallasderap",
+              "channelTitle": "Alfredozki",
+              "predicted7d": 62701,
+              "delta": 61532
+            },
+            {
+              "videoId": "jZ1ooyvgga4",
+              "title": "ACZINO🇲🇽inicia su segundo ROUND en liga bazooka💣💀 #aczino #ligabazooka #batallasescritas #rap",
+              "channelTitle": "Alfredozki",
+              "predicted7d": 47381,
+              "delta": 39794
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-31/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Liga Bazooka: Aczino & Muelas Top Moments",
+            "description": "Dive into the most electrifying moments from Liga Bazooka! Witness the lyrical genius of Aczino and Muelas de Gallo as they dominate the written rap battle stage. Prepare for epic reactions and unforgettable rounds!",
+            "tags": [
+              "LigaBazooka",
+              "Aczino",
+              "MuelasDeGallo",
+              "RapBattles",
+              "WrittenBattles",
+              "MexicoRap",
+              "BestMoments",
+              "HipHop",
+              "RapGods"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "w8_naj7kl28"
+          },
+          "updatedAt": "2026-01-31T06:53:57.156Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "santa fe klan",
+          "selectedSourceVideos": [
+            {
+              "videoId": "dDbU3fbKMh0",
+              "title": "Hagamos que este video le llegue a Santa Fe Klan. Compartan, es por una buena causa.",
+              "channelTitle": "La Nota Del Entretenimiento ",
+              "predicted7d": 138905,
+              "delta": 131119
+            },
+            {
+              "videoId": "IWQk8BCBWoQ",
+              "title": "SANTA FE KLAN:se GASTA  7 MILLONES en FIESTAS‼️😱#santafeklan #mexico #usa #chile #cdmx #texas",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 205826,
+              "delta": 108243
+            },
+            {
+              "videoId": "ZLqQTSMuGW0",
+              "title": "SANTA FE KLAN: Otra Vez me QUEDÉ SOLO‼️😱#santafeklan #mexico #usa #chile #cdmx #texas #miami",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 70140,
+              "delta": 64080
+            },
+            {
+              "videoId": "CHmVmL8mWZA",
+              "title": "Santa Fe Klan  Siempre Humilde ✨️ #santafeklan #santafeklan473 #rapmexicano",
+              "channelTitle": "Fan SANTA FE KLAN ♥️ ",
+              "predicted7d": 61388,
+              "delta": 51355
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-31/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Santa Fe Klan: Fame, Fortune, Feelings",
+            "description": "Dive into the world of Santa Fe Klan! From his lavish parties and millions spent to his moments of solitude and unwavering humility, we explore the real SFK. Don't miss these shocking insights and heartfelt moments.",
+            "tags": [
+              "Santa Fe Klan",
+              "SFK",
+              "Mexican Rap",
+              "Rap Mexicano",
+              "Celebrity Life",
+              "Millionaire",
+              "Humble",
+              "Parties",
+              "Drama",
+              "Music"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Oo43HS2UM3Y"
+          },
+          "updatedAt": "2026-01-31T06:54:38.479Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-31T06:54:38.488Z"
+    }
+  },
+  "finishedAt": "2026-01-31T06:54:38.490Z"
+}

@@ -1,0 +1,381 @@
+{
+  "runId": "2026-02-06",
+  "date": "2026-02-06",
+  "createdAt": "2026-02-06T06:50:02.282Z",
+  "updatedAt": "2026-02-06T06:53:29.043Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김상욱",
+          "404",
+          "자두 두",
+          "웨돔",
+          "블랙 컴뱃",
+          "왕 과 사는 남자",
+          "짭구",
+          "매미 킴",
+          "키키",
+          "정상수",
+          "울프"
+        ],
+        "updatedAt": "2026-02-06T06:50:14.812Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "김상욱",
+          "selectedSourceVideos": [
+            {
+              "videoId": "0EE53AgnsZ8",
+              "title": "법왜곡죄가 필요하구나를 절실하게 느낀 김상욱",
+              "channelTitle": "상식의시선",
+              "predicted7d": 140795,
+              "delta": 133165
+            },
+            {
+              "videoId": "ENZpM2TGMe0",
+              "title": "박준용의 조언 김상욱",
+              "channelTitle": "하마터면",
+              "predicted7d": 398816,
+              "delta": 128998
+            },
+            {
+              "videoId": "rjBqdRg762U",
+              "title": "또치 김상욱 울산시장 출마? #shorts",
+              "channelTitle": "재명이형tv",
+              "predicted7d": 113829,
+              "delta": 103754
+            },
+            {
+              "videoId": "4riA7uIrUmQ",
+              "title": "UFC 마지막 관문에서 목숨 건 감량 후 젓갈CF 찍는 김상욱",
+              "channelTitle": "므마숏",
+              "predicted7d": 220244,
+              "delta": 102781
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-06/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Kim Sang-wook's Wildest Moments!",
+            "description": "Dive into the surprising world of Kim Sang-wook! From intense legal debates to unexpected political rumors and extreme UFC challenges, witness his most unforgettable moments. You won't believe what he's been up to!",
+            "tags": [
+              "KimSangWook",
+              "KoreanCelebrity",
+              "Shorts",
+              "KCulture",
+              "Controversy",
+              "UFC",
+              "Viral",
+              "MustWatch",
+              "Surprise"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "76mNk8QTmDY"
+          },
+          "updatedAt": "2026-02-06T06:50:52.308Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "404",
+          "selectedSourceVideos": [
+            {
+              "videoId": "tHtYJycscs4",
+              "title": "충격이란 키키 신곡 멜론차트 순위? 키키 404",
+              "channelTitle": "케이팝",
+              "predicted7d": 156368,
+              "delta": 146091
+            },
+            {
+              "videoId": "-MNRUX2SY9E",
+              "title": "404 ESCONDIÓ A DINDON AQUÍ 😱 - Fede Vigevani #horror #miedo #misterio",
+              "channelTitle": "SoyNanto",
+              "predicted7d": 257453,
+              "delta": 100292
+            },
+            {
+              "videoId": "IVR-7hsrWao",
+              "title": "키키 404 하음 뮤비버전 안무왔당",
+              "channelTitle": "곰돌쇼츠",
+              "predicted7d": 106611,
+              "delta": 96073
+            },
+            {
+              "videoId": "mb7kaazAy-s",
+              "title": "KiiiKiii '404 (New Era)' ついに公開されたMV版チャレンジ #KiiiKiii #shorts",
+              "channelTitle": "アニチン",
+              "predicted7d": 117168,
+              "delta": 66710
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-06/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "404: K-Pop Mystery & Dance Craze!",
+            "description": "Dive into the viral world of '404'! From K-pop chart shocks to mysterious hidden secrets and epic dance challenges, this trend is everywhere. Don't miss out on the latest '404' craze!",
+            "tags": [
+              "404",
+              "Kpop",
+              "Kiki",
+              "DanceChallenge",
+              "Mystery",
+              "HorrorShorts",
+              "ViralTrend",
+              "Shorts",
+              "NewMusic",
+              "MelonChart"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "h-6B9nFYYTQ"
+          },
+          "updatedAt": "2026-02-06T06:51:25.953Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-06T06:51:25.961Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "justin bieber grammy performance",
+          "teofimo lopez vs shakur stevenson",
+          "iron lung",
+          "bad bunny",
+          "olivia dean",
+          "nintendo direct",
+          "markiplier",
+          "billie eilish",
+          "kendrick lamar",
+          "katseye",
+          "fuerza regida"
+        ],
+        "updatedAt": "2026-02-06T06:51:38.656Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "f923R8tJU20",
+              "title": "Los Grandes perdedores de los Grammys 2026 😱🎤",
+              "channelTitle": "Royal Gossip",
+              "predicted7d": 1623836,
+              "delta": 717751
+            },
+            {
+              "videoId": "_qUFfQzjoSw",
+              "title": "The Marías - No One Noticed (Live Performance at Grammys 2026)",
+              "channelTitle": "Panen Music",
+              "predicted7d": 465457,
+              "delta": 249503
+            },
+            {
+              "videoId": "_Sfdw1ONN0A",
+              "title": "Justin Bieber - Yukon | Grammys 2026",
+              "channelTitle": "No Limits Only Growth",
+              "predicted7d": 241327,
+              "delta": 100550
+            },
+            {
+              "videoId": "oloGXdoXYCU",
+              "title": "Why Celebs at the Grammys Had $2 Bills 😭 | Grammys 2026",
+              "channelTitle": "Last",
+              "predicted7d": 391719,
+              "delta": 93426
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-06/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Shocking Moments!",
+            "description": "Dive into the most talked-about moments from the Grammys 2026! From shocking snubs to unforgettable performances and bizarre celebrity trends, we've got it all.",
+            "tags": [
+              "Grammys2026",
+              "MusicAwards",
+              "CelebrityGossip",
+              "JustinBieber",
+              "TheMarias",
+              "MusicNews",
+              "AwardShow",
+              "PopCulture",
+              "GrammySnubs",
+              "ViralMoments"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "n9RBhpjB2N8"
+          },
+          "updatedAt": "2026-02-06T06:52:11.001Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "justin bieber grammy performance",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ZtkD6w0AW54",
+              "title": "Chris Brown vibing to Justin Bieber performance at the Grammys #shorts",
+              "channelTitle": "Chris Breezy Brown",
+              "predicted7d": 99866,
+              "delta": 90392
+            },
+            {
+              "videoId": "ngD8wIgvSrw",
+              "title": "FROM HIS SURPRISED GNX CONCERT APPEARANCE TO THE GRAMMY STAGE JUSTIN BIEBER’S PERFORMANCE GOES VIRAL",
+              "channelTitle": "Sensitive Savage Reactions",
+              "predicted7d": 66561,
+              "delta": 65275
+            },
+            {
+              "videoId": "BA1Nd07bRkY",
+              "title": "😳 JUSTIN BIEBER said this to HAILEY BIEBER at the grammys",
+              "channelTitle": "Aux Sauce",
+              "predicted7d": 61707,
+              "delta": 52907
+            },
+            {
+              "videoId": "aCGpWRG4zLw",
+              "title": "FUNNIEST Moments From Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 104158,
+              "delta": 52582
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-06/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Bieber's Grammy Performance: Viral Moments",
+            "description": "Relive Justin Bieber's unforgettable Grammy performance and all the viral moments surrounding it! From celebrity reactions to his sweet interaction with Hailey, this Shorts compilation has it all. Don't miss the highlights!",
+            "tags": [
+              "justinbieber",
+              "grammys",
+              "bieberperformance",
+              "shorts",
+              "viralmoments",
+              "haileybieber",
+              "chrisbrown",
+              "celebrityreactions",
+              "music"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "eHm-qEyf02o"
+          },
+          "updatedAt": "2026-02-06T06:52:48.947Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-06T06:52:48.955Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "conozco su piel la recorri tantas veces",
+          "lenin ramírez"
+        ],
+        "updatedAt": "2026-02-06T06:52:57.313Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "f923R8tJU20",
+              "title": "Los Grandes perdedores de los Grammys 2026 😱🎤",
+              "channelTitle": "Royal Gossip",
+              "predicted7d": 1623836,
+              "delta": 717751
+            },
+            {
+              "videoId": "_qUFfQzjoSw",
+              "title": "The Marías - No One Noticed (Live Performance at Grammys 2026)",
+              "channelTitle": "Panen Music",
+              "predicted7d": 465457,
+              "delta": 249503
+            },
+            {
+              "videoId": "_Sfdw1ONN0A",
+              "title": "Justin Bieber - Yukon | Grammys 2026",
+              "channelTitle": "No Limits Only Growth",
+              "predicted7d": 241327,
+              "delta": 100550
+            },
+            {
+              "videoId": "oloGXdoXYCU",
+              "title": "Why Celebs at the Grammys Had $2 Bills 😭 | Grammys 2026",
+              "channelTitle": "Last",
+              "predicted7d": 391719,
+              "delta": 93397
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-06/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Wildest Moments!",
+            "description": "Relive the most talked-about moments from the 2026 Grammy Awards! From shocking snubs to unforgettable performances and bizarre celebrity trends, we've got it all. Don't miss out on the biggest night in music!",
+            "tags": [
+              "Grammys2026",
+              "MusicAwards",
+              "CelebrityNews",
+              "PopCulture",
+              "GrammySnubs",
+              "LivePerformance",
+              "JustinBieber",
+              "TheMarias",
+              "AwardShow",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "chZAjuXeR4Y"
+          },
+          "updatedAt": "2026-02-06T06:53:29.033Z"
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-06T06:53:29.042Z"
+    }
+  }
+}

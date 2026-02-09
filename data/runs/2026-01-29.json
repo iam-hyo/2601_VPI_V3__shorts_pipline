@@ -1,0 +1,446 @@
+{
+  "runId": "2026-01-29",
+  "date": "2026-01-29",
+  "createdAt": "2026-01-29T06:50:02.058Z",
+  "updatedAt": "2026-01-29T06:54:37.085Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "박민정",
+          "차은 우",
+          "맨유 아스날",
+          "유병 장수걸",
+          "트레이 비",
+          "최미나 수",
+          "솔로 지옥",
+          "핫소스",
+          "풍향 고",
+          "엔드 필드",
+          "나 우아 임영",
+          "메이플 키우기",
+          "휴림 로봇",
+          "ufc",
+          "언더 커버 미스 홍",
+          "뜬뜬"
+        ],
+        "updatedAt": "2026-01-29T06:50:26.477Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "차은 우",
+          "selectedSourceVideos": [
+            {
+              "videoId": "23JD1ux9kfU",
+              "title": "차은우, 연예계 손절 분위기...왜 여기까지 왔나? [강일홍의 이슈토크]",
+              "channelTitle": "더팩트",
+              "predicted7d": 145781,
+              "delta": 144696
+            },
+            {
+              "videoId": "GAZPdqWjiSE",
+              "title": "차은우 엄마의 충격적인 교육관 #차은우  #차은우 #차은우탈세 #차은우모친  #조사4국 #차은우엄마",
+              "channelTitle": "깜이슈",
+              "predicted7d": 89185,
+              "delta": 78877
+            },
+            {
+              "videoId": "JKKD_td2kNw",
+              "title": "'탈세 의혹' 차은우 국방부 영상 근황 [shorts]",
+              "channelTitle": "MBN News",
+              "predicted7d": 73419,
+              "delta": 66622
+            },
+            {
+              "videoId": "WkNmNNUNwlw",
+              "title": "[문화연예 플러스] 사과문 냈지만‥광고계 '차은우 손절' 이어져 (2026.01.29/뉴스투데이/MBC)",
+              "channelTitle": "MBCNEWS",
+              "predicted7d": 76654,
+              "delta": 64253
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-29/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Cha Eunwoo: Idol's Shocking Downfall?",
+            "description": "Dive into the recent controversies surrounding Cha Eunwoo, from tax evasion allegations to the entertainment industry's cold shoulder. Discover the shocking truth behind his public image crisis.",
+            "tags": [
+              "ChaEunwoo",
+              "KpopScandal",
+              "TaxEvasion",
+              "CelebrityNews",
+              "KpopIdol",
+              "EntertainmentNews",
+              "Controversy",
+              "Astro",
+              "Kdrama",
+              "PublicImage"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "KKT2UEdlxgM"
+          },
+          "updatedAt": "2026-01-29T06:51:10.101Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "맨유 아스날",
+          "selectedSourceVideos": [
+            {
+              "videoId": "6dUWgTq34F8",
+              "title": "진짜 알다가도 모르겠다는 맨유와 아스날",
+              "channelTitle": "메시맛집",
+              "predicted7d": 243741,
+              "delta": 103486
+            },
+            {
+              "videoId": "KL-wesTUkbo",
+              "title": "스콜스 \"아스날 우승한다면, 최악의 우승팀이 될 수도\"",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 264180,
+              "delta": 55443
+            },
+            {
+              "videoId": "wm-NcDrcN9g",
+              "title": "쿠냐 \"월드컵? 가장 중요한 건 맨유 승점 3점\"",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 169477,
+              "delta": 53219
+            },
+            {
+              "videoId": "qIZwlsmHCTU",
+              "title": "포로 햄스트링 4주 아웃, 반더벤 경미한 부상 ㄷㄷ",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 106943,
+              "delta": 42025
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-29/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Man Utd Arsenal: Shocking Takes!",
+            "description": "Dive into the latest Man Utd vs Arsenal drama! From controversial takes by legends like Scholes to surprising player priorities, this Shorts compilation has it all. Don't miss the shocking insights and unexpected twists!",
+            "tags": [
+              "Manchester United",
+              "Arsenal",
+              "Premier League",
+              "Football",
+              "Scholes",
+              "Cunha",
+              "EPL",
+              "Football News"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "HQ1rncewEW0"
+          },
+          "updatedAt": "2026-01-29T06:51:40.910Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-29T06:51:40.919Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "alex pretti",
+          "minneapolis shooting",
+          "masters of the universe trailer",
+          "harry styles",
+          "brawadis",
+          "ufc",
+          "weather",
+          "melanie martinez",
+          "brooke monk",
+          "moist critical"
+        ],
+        "updatedAt": "2026-01-29T06:51:50.360Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "alex pretti",
+          "selectedSourceVideos": [
+            {
+              "videoId": "HHLlqQLl7vg",
+              "title": "ALEX PRETTI ALLEGATIONS",
+              "channelTitle": "JD Delay",
+              "predicted7d": 1046840,
+              "delta": 549540
+            },
+            {
+              "videoId": "VbOA2Pygc9o",
+              "title": "ARTE Y MEMORIA: TRIBUTO EN LA ARENA PARA ALEX PRETTI Y RENÉE GOOD",
+              "channelTitle": "Vértice Informativo",
+              "predicted7d": 466524,
+              "delta": 200751
+            },
+            {
+              "videoId": "aFOL8OnWwqw",
+              "title": "New video shows Alex Pretti interacting with federal agents days before shooting",
+              "channelTitle": "NBC News",
+              "predicted7d": 317636,
+              "delta": 169249
+            },
+            {
+              "videoId": "NewsQFfCwKA",
+              "title": "Please don't stay silent - SPEAK UP FOR ALEX PRETTI",
+              "channelTitle": "Tony Dortie ",
+              "predicted7d": 197753,
+              "delta": 103189
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-29/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Alex Pretti: Allegations, Tributes, Truth",
+            "description": "Dive into the complex story of Alex Pretti, exploring the allegations, heartfelt tributes, and the intense investigations surrounding his life. This short compilation brings together key moments and perspectives, urging viewers to understand the full picture.",
+            "tags": [
+              "AlexPretti",
+              "YouTubeShorts",
+              "Controversy",
+              "Allegations",
+              "Tribute",
+              "Investigation",
+              "TrueStory",
+              "Justice"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "hLPI9_GwEAg"
+          },
+          "updatedAt": "2026-01-29T06:52:26.251Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "minneapolis shooting",
+          "selectedSourceVideos": [
+            {
+              "videoId": "f5iOLvCpAa8",
+              "title": "Calls for Impeachment & ICE Accountability Amid Minneapolis Shooting Debate",
+              "channelTitle": "The Uplift Report TUR",
+              "predicted7d": 48083,
+              "delta": 41834
+            },
+            {
+              "videoId": "fAJ1wTME3MU",
+              "title": "Whoopi Makes THIS Claim About Minneapolis Shooting",
+              "channelTitle": "TheDC Shorts",
+              "predicted7d": 42864,
+              "delta": 36679
+            },
+            {
+              "videoId": "aKZi8Ctrz5A",
+              "title": "Trump Responds to Reporter's Question On Minneapolis Shooting: \"Very Unfortunate Incident\"",
+              "channelTitle": "TheDC Shorts",
+              "predicted7d": 49067,
+              "delta": 30657
+            },
+            {
+              "videoId": "8jECk4SvhC8",
+              "title": "Trump calls Minneapolis shooting a 'very unfortunate incident'",
+              "channelTitle": "Darkins Breaking News",
+              "predicted7d": 42759,
+              "delta": 20964
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-29/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Minneapolis Shooting: Whoopi, Trump, Impeachment!",
+            "description": "Dive into the heated debate surrounding the Minneapolis shooting. See Whoopi Goldberg's controversial claim and Donald Trump's reaction to the incident. Calls for impeachment and ICE accountability intensify.",
+            "tags": [
+              "minneapolis shooting",
+              "trump reaction",
+              "whoopi claim",
+              "impeachment calls",
+              "ice accountability",
+              "political debate",
+              "us news",
+              "current events"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "xfJjG20mD3w"
+          },
+          "updatedAt": "2026-01-29T06:53:15.805Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-29T06:53:15.814Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "liga bazooka",
+          "lamberto quintero",
+          "harry styles",
+          "Abraham",
+          "supernova",
+          "todo lo fue lenin ramirez",
+          "penitencia",
+          "santa fe klan",
+          "jair sanchez",
+          "fede vigevani",
+          "yolo"
+        ],
+        "updatedAt": "2026-01-29T06:53:28.489Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "lamberto quintero",
+          "selectedSourceVideos": [
+            {
+              "videoId": "MARY-t11dBI",
+              "title": "Recordando a Don Lamberto Quintero en el hospital 🏥",
+              "channelTitle": "aiBizkit",
+              "predicted7d": 115278,
+              "delta": 69521
+            },
+            {
+              "videoId": "W4Aidus_T6c",
+              "title": "Antonio Aguilar Lamberto Quintero!",
+              "channelTitle": "Judith vargas",
+              "predicted7d": 65450,
+              "delta": 64414
+            },
+            {
+              "videoId": "sQ0F53Fvqj0",
+              "title": "Un corrido de los 70 creó un festival sin permiso.Lamberto Quintero sigue vivo cada 28 de enero.",
+              "channelTitle": "Otero Music",
+              "predicted7d": 61445,
+              "delta": 60492
+            },
+            {
+              "videoId": "6jACVwTohss",
+              "title": "lamberto quintero (intro) version bigshow acordeon norteño by gabbanelli SOL 🌞 principiante #shorts",
+              "channelTitle": "bigshow acordeon de botones",
+              "predicted7d": 34413,
+              "delta": 33479
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-29/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Lamberto Quintero: Legend & Legacy!",
+            "description": "Dive into the captivating world of Lamberto Quintero, a name synonymous with Mexican corrido legends. Explore the tragic events, iconic music, and the unauthorized festival that keeps his memory alive every January 28th. Uncover the enduring legacy of a man whose story continues to resonate.",
+            "tags": [
+              "LambertoQuintero",
+              "Corrido",
+              "MexicanLegend",
+              "NarcoCorrido",
+              "TrueStory",
+              "AntonioAguilar",
+              "AccordionMusic",
+              "MexicanHistory",
+              "January28th",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "OAKn_a5XdOQ"
+          },
+          "updatedAt": "2026-01-29T06:54:04.409Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "harry styles",
+          "selectedSourceVideos": [
+            {
+              "videoId": "9loiJldcrls",
+              "title": "Bruno Mars, Harry Styles, Miley Cyrus o Sabrina Carpenter: ¿cuál fue el mejor año musical? #shorts",
+              "channelTitle": "SneiderUP",
+              "predicted7d": 71928,
+              "delta": 70905
+            },
+            {
+              "videoId": "Extlposx-rY",
+              "title": "my husband got me Harry Styles tickets #shorts",
+              "channelTitle": "Sam and Monica",
+              "predicted7d": 129017,
+              "delta": 68928
+            },
+            {
+              "videoId": "WQd4XXd4dgU",
+              "title": "Was 300th in line for Harry Styles tickets... #shorts #harrystyles #ticketmaster",
+              "channelTitle": "Kayla Baik",
+              "predicted7d": 66148,
+              "delta": 65027
+            },
+            {
+              "videoId": "j1TiqMQiluc",
+              "title": "As It Was - Harry Styles - Cover #harrystyles #asitwas #harrystylescover",
+              "channelTitle": "Joel Goguen",
+              "predicted7d": 63635,
+              "delta": 62369
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-29/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Harry Styles: Fan Moments & Music!",
+            "description": "Dive into the world of Harry Styles! From the thrill of getting concert tickets to incredible song covers and debates about the best musical year, this Short has it all. Get ready for some serious fan energy!",
+            "tags": [
+              "Harry Styles",
+              "Shorts",
+              "Music",
+              "Concert Tickets",
+              "As It Was",
+              "Cover Song",
+              "Fan Moments",
+              "Pop Culture",
+              "Ticketmaster",
+              "Best Music Year"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Yot0u2T18T4"
+          },
+          "updatedAt": "2026-01-29T06:54:37.075Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-29T06:54:37.084Z"
+    }
+  },
+  "finishedAt": "2026-01-29T06:54:37.085Z"
+}

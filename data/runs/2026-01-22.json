@@ -1,0 +1,441 @@
+{
+  "runId": "2026-01-22",
+  "date": "2026-01-22",
+  "createdAt": "2026-01-22T06:50:02.291Z",
+  "updatedAt": "2026-01-22T06:54:38.744Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김동현 운동 많이 된다",
+          "이 사랑 통역 되나요",
+          "맨유 맨시티",
+          "쇼 미더 머니 12",
+          "솔로 지옥 5",
+          "김하 온",
+          "김선호",
+          "고 윤정",
+          "풍향 고",
+          "울프",
+          "합숙 맞선",
+          "촌장 엔터테인먼트",
+          "롱샷",
+          "t1",
+          "알 테오 젠",
+          "lck"
+        ],
+        "updatedAt": "2026-01-22T06:50:18.987Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "김동현 운동 많이 된다",
+          "selectedSourceVideos": [
+            {
+              "videoId": "QDg9aNIwszY",
+              "title": "스트레스 많이 받을 거야",
+              "channelTitle": "빠더너스 BDNS",
+              "predicted7d": 840843,
+              "delta": 308882
+            },
+            {
+              "videoId": "SjSbBMV21pg",
+              "title": "매미킴 유행어 \"운동 많이 된다\"를 들은 간고의 찐반응 ㅋㅋㅋ (feat. 설기관 헬미)",
+              "channelTitle": "불지옥 피트니스",
+              "predicted7d": 259694,
+              "delta": 83505
+            },
+            {
+              "videoId": "_ruPSN-y1jo",
+              "title": "UFC 김동현만 모르는 밈 \"많이 된다\" | 당신이 몰랐던 이야기",
+              "channelTitle": "언더파이트",
+              "predicted7d": 81771,
+              "delta": 75244
+            },
+            {
+              "videoId": "Npsq_EndLXE",
+              "title": "#운동많이된다 #김동현 #스트레스 #밈",
+              "channelTitle": "이쌍도",
+              "predicted7d": 36865,
+              "delta": 35298
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-22/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Kim Dong-hyun's Viral Meme: Workout Much Done!",
+            "description": "Dive into the hilarious world of Kim Dong-hyun's iconic 'Workout Much Done' meme! See reactions from other fighters and discover the untold story behind this viral phrase. Get ready for some serious laughs and stress relief!",
+            "tags": [
+              "KimDongHyun",
+              "WorkoutMuchDone",
+              "Meme",
+              "UFC",
+              "KoreanMeme",
+              "ViralShorts",
+              "MMA",
+              "StressRelief",
+              "FunnyMoments",
+              "KPopCulture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "gjCXu-z7SRU"
+          },
+          "updatedAt": "2026-01-22T06:50:58.302Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "이 사랑 통역 되나요",
+          "selectedSourceVideos": [
+            {
+              "videoId": "9L8VpK7ZD24",
+              "title": "Go Youn Jung Then and Now✨ 고윤정 | 이 사랑 통역 되나요?",
+              "channelTitle": "Stars of Korea",
+              "predicted7d": 365440,
+              "delta": 113700
+            },
+            {
+              "videoId": "ST85s8C9Awg",
+              "title": "당신이 몰랐던 이사통 개웃긴 비하인드2  #고윤정 #김선호 ㅠㅠ #이사랑통역되나요",
+              "channelTitle": "어바웃타임 (About time)",
+              "predicted7d": 159403,
+              "delta": 96330
+            },
+            {
+              "videoId": "aSdD2s3ZoMk",
+              "title": "이 사랑 통역 되나요? 외국인으로 오해해 생긴 민망한 순간 #이사랑통역되나요 #드라마 #드라마추천 #드라마리뷰 #드라마대사 #명작추천",
+              "channelTitle": "담담",
+              "predicted7d": 76163,
+              "delta": 63670
+            },
+            {
+              "videoId": "ynCr1ZPanes",
+              "title": "이 사랑 통역 되나요 ┃ 고윤정의 전남친은 개쓰레기인가 박애주의자인가",
+              "channelTitle": "이슈터졌슈",
+              "predicted7d": 60429,
+              "delta": 51540
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-22/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Is This Love Interpretable? K-Drama Fun!",
+            "description": "Dive into the world of \"Is This Love Interpretable?\" and experience a unique blend of romance, comedy, and cultural misunderstandings. From Go Youn Jung's stunning visuals to hilarious behind-the-scenes moments and intriguing plot twists, this K-drama has it all. Get ready for some unforgettable Shorts!",
+            "tags": [
+              "IsThisLoveInterpretable",
+              "GoYounJung",
+              "KimSeonHo",
+              "KDrama",
+              "KoreanDrama",
+              "DramaShorts",
+              "RomanceComedy",
+              "BehindTheScenes",
+              "MustWatch",
+              "NewDrama"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "OsRUIF-EUBM"
+          },
+          "updatedAt": "2026-01-22T06:51:35.435Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-22T06:51:35.443Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "snl",
+          "kingsman marvel rivals",
+          "隊長",
+          "hytale"
+        ],
+        "updatedAt": "2026-01-22T06:51:44.682Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "snl",
+          "selectedSourceVideos": [
+            {
+              "videoId": "M8eN5AT-tFk",
+              "title": "When you lowkey like white girl music‼️🤣 #comedyshorts #sketchcomedy #snl",
+              "channelTitle": "Jones Brothers",
+              "predicted7d": 10492267,
+              "delta": 5945237
+            },
+            {
+              "videoId": "5DfVSUCdds0",
+              "title": "Sabrina Carpenter BOOED with Finn Wolfhard on SNL after party #celebrity",
+              "channelTitle": "wigconic",
+              "predicted7d": 137989,
+              "delta": 128364
+            },
+            {
+              "videoId": "hwEGGU2pieg",
+              "title": "Les acteurs de Mike, Lucas & Dustin étaient sur SNL ! #strangerthings #snl",
+              "channelTitle": "Ayther",
+              "predicted7d": 172850,
+              "delta": 96969
+            },
+            {
+              "videoId": "0UO7AwGxXQM",
+              "title": "Finn Wolfhard JOINED by Stranger Things Co-Stars during SNL monologue",
+              "channelTitle": "CelebVybe",
+              "predicted7d": 100271,
+              "delta": 89092
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-22/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "SNL's Wildest Viral Moments!",
+            "description": "Get ready for a dose of SNL's most talked-about moments! From celebrity drama to unexpected cast reunions, these clips are pure gold. Don't miss the viral buzz!",
+            "tags": [
+              "SNL",
+              "Saturday Night Live",
+              "Shorts",
+              "Comedy",
+              "Viral",
+              "Celebrity",
+              "Stranger Things",
+              "Finn Wolfhard",
+              "Sabrina Carpenter",
+              "Sketch Comedy"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "uzSbfNmXl1Y"
+          },
+          "updatedAt": "2026-01-22T06:52:19.083Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "kingsman marvel rivals",
+          "selectedSourceVideos": [
+            {
+              "videoId": "vaiA0HuzVIA",
+              "title": "ASMONGOLD REACTS to MARVEL RIVALS KINGSMAN DRAMA👀😂",
+              "channelTitle": "DailyClipzFiend",
+              "predicted7d": 127595,
+              "delta": 119983
+            },
+            {
+              "videoId": "ZRwwm5sGQiU",
+              "title": "free kingsman #marvelrivals #nightatthemuseum  #magik",
+              "channelTitle": "SlushiiPls",
+              "predicted7d": 73465,
+              "delta": 72132
+            },
+            {
+              "videoId": "9Ow7yoFN-F8",
+              "title": "celthewitchs' thoughts on the Marvel rivals cece vs kingsman controversy #gamergirl #marvelrivals #d",
+              "channelTitle": "CelTheWitch",
+              "predicted7d": 75401,
+              "delta": 62275
+            },
+            {
+              "videoId": "_xW2BXmPjk4",
+              "title": "Marvel Rivals Players CROSSED THE LINE (Kingsman, Cece, & Zaza)",
+              "channelTitle": "waccd",
+              "predicted7d": 60844,
+              "delta": 59641
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-22/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Marvel Rivals Kingsman Drama Explodes!",
+            "description": "Dive into the wildest Marvel Rivals Kingsman drama! From player controversies to streamer reactions, see why everyone's talking. Don't miss the chaos!",
+            "tags": [
+              "MarvelRivals",
+              "Kingsman",
+              "GamingDrama",
+              "Asmongold",
+              "Cece",
+              "Zaza",
+              "Controversy",
+              "Shorts",
+              "GamingNews",
+              "NetEase"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "cHXqPSPvFvs"
+          },
+          "updatedAt": "2026-01-22T06:52:55.213Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-22T06:52:55.222Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "kenia os",
+          "supernova",
+          "4x4tro",
+          "ebrio de amor",
+          "paleta dame paleta",
+          "yeison jiménez",
+          "canasteo"
+        ],
+        "updatedAt": "2026-01-22T06:53:09.064Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "supernova",
+          "selectedSourceVideos": [
+            {
+              "videoId": "FtSbjKQK3So",
+              "title": "Nandoo y El Abraham se enfrentarán en Supernova Génesis. 🥊 Abraham no llegó a la presentación 🤯",
+              "channelTitle": "Eliot Channel Mx",
+              "predicted7d": 250228,
+              "delta": 240823
+            },
+            {
+              "videoId": "odUfFgPt3fY",
+              "title": "¡Estas son todas las peleas del Supernova Génesis 2026! 🤩",
+              "channelTitle": "Eliot Channel Mx",
+              "predicted7d": 243771,
+              "delta": 235277
+            },
+            {
+              "videoId": "53o0rLdraQM",
+              "title": "Abraham se calienta en la presentación de la supernova #parati #abraham #supernova #viral",
+              "channelTitle": "Clips y mas",
+              "predicted7d": 102449,
+              "delta": 95141
+            },
+            {
+              "videoId": "0CFV3BKjP9E",
+              "title": "LE TUVIERON MIEDO A MILICA? - #milica #boxeo #supernova #argentina #clips",
+              "channelTitle": "Milica News",
+              "predicted7d": 90926,
+              "delta": 89847
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-22/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Supernova Genesis: Boxing's Wildest Moments!",
+            "description": "Dive into the explosive world of Supernova Genesis! Witness shocking no-shows, heated confrontations, and the most anticipated fights. Who will dominate the ring?",
+            "tags": [
+              "supernova",
+              "boxing",
+              "fight",
+              "genesis",
+              "drama",
+              "abraham",
+              "milica",
+              "eliot channel",
+              "shorts",
+              "viral"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "bbiejAwF_hM"
+          },
+          "updatedAt": "2026-01-22T06:53:58.492Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "yeison jiménez",
+          "selectedSourceVideos": [
+            {
+              "videoId": "SzY3M9H7dzw",
+              "title": "Conoce a Santiago Jiménez, el bebé que deja Yeison Jiménez #shorts #trending #youtubeshorts #viral",
+              "channelTitle": "NotiYency",
+              "predicted7d": 174113,
+              "delta": 86096
+            },
+            {
+              "videoId": "CA_GJu1D_LI",
+              "title": "Abuelo de Yeison Jiménez conmueve a todos con sus palabras",
+              "channelTitle": "La Capital Vallenata",
+              "predicted7d": 93424,
+              "delta": 83107
+            },
+            {
+              "videoId": "tpCAMuDFew0",
+              "title": "El mensaje que YEISON JIMÉNEZ le hubiera dicho a su yo del PASADO #fyp #musica #viral #2026 #parati",
+              "channelTitle": "Luis Guillermo De La Hoz ",
+              "predicted7d": 76263,
+              "delta": 62860
+            },
+            {
+              "videoId": "bpNbJIETliw",
+              "title": "Escalofriante: escuchan una voz en pleno live del productor de Yeison Jiménez 👀💔",
+              "channelTitle": "Farándula Total ",
+              "predicted7d": 61771,
+              "delta": 60499
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-22/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Yeison Jiménez: Shocking Moments!",
+            "description": "Dive into the most unexpected moments surrounding Yeison Jiménez! From family revelations to eerie live stream encounters, you won't believe what happens next. Watch now for all the drama and surprises!",
+            "tags": [
+              "YeisonJimenez",
+              "Shorts",
+              "Viral",
+              "Trending",
+              "CelebrityNews",
+              "LatinMusic",
+              "ScaryStories",
+              "FamilyDrama",
+              "MusicNews"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "-a4sLuVO9kg"
+          },
+          "updatedAt": "2026-01-22T06:54:38.734Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-22T06:54:38.742Z"
+    }
+  },
+  "finishedAt": "2026-01-22T06:54:38.744Z"
+}

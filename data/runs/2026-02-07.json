@@ -1,0 +1,383 @@
+{
+  "runId": "2026-02-07",
+  "date": "2026-02-07",
+  "createdAt": "2026-02-07T06:50:01.847Z",
+  "updatedAt": "2026-02-07T06:54:00.643Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김상욱",
+          "웨돔",
+          "왕 과 사는 남자",
+          "자두 두",
+          "404",
+          "오버 워치",
+          "울프",
+          "블랙 컴뱃",
+          "키키",
+          "매미 킴",
+          "리니지 클래식"
+        ],
+        "updatedAt": "2026-02-07T06:50:18.297Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "김상욱",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4riA7uIrUmQ",
+              "title": "UFC 마지막 관문에서 목숨 건 감량 후 젓갈CF 찍는 김상욱",
+              "channelTitle": "므마숏",
+              "predicted7d": 341134,
+              "delta": 136431
+            },
+            {
+              "videoId": "kE28VE9OCPE",
+              "title": "김상욱을 이긴 돔 마르 판을 두 번이나 이긴 퀼란 살킬드.. 또 1라운드 초살",
+              "channelTitle": "잡생각",
+              "predicted7d": 353334,
+              "delta": 89737
+            },
+            {
+              "videoId": "nLDXDf7sJCA",
+              "title": "김상욱 시합 직전 이정원 관장이 수정해줬던 단점",
+              "channelTitle": "파이트랩",
+              "predicted7d": 280207,
+              "delta": 75094
+            },
+            {
+              "videoId": "wiS2_KOEAFI",
+              "title": "오세훈 제거하기 위힌 전초작업 배현진 #오세훈 #배현진 #김상욱의원 #정치쇼츠 #메아리미디어",
+              "channelTitle": "메아리미디어",
+              "predicted7d": 139182,
+              "delta": 60626
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-07/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Kim Sang-wook: Fighter, Politician, Star?",
+            "description": "Dive into the multifaceted world of Kim Sang-wook! From extreme weight cuts and intense MMA battles to surprising political maneuvers, discover the untold stories. Don't miss these shocking moments!",
+            "tags": [
+              "KimSangwook",
+              "MMA",
+              "UFC",
+              "KoreanPolitics",
+              "FighterLife",
+              "WeightCut",
+              "Shorts",
+              "ViralMoments",
+              "BehindTheScenes",
+              "Controversy"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "6dAqPkTugho"
+          },
+          "updatedAt": "2026-02-07T06:50:50.163Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "왕 과 사는 남자",
+          "selectedSourceVideos": [
+            {
+              "videoId": "qHF0QB10gTs",
+              "title": "박지훈 왕과사는남자 조조로 봐야 되는 이유",
+              "channelTitle": "핫이글",
+              "predicted7d": 53865,
+              "delta": 46342
+            },
+            {
+              "videoId": "njbU3hO1q9Q",
+              "title": "고증실화냐 #왕과사는남자 #조선갓 #갓 #왕과사는남자갓 #단종",
+              "channelTitle": "가리",
+              "predicted7d": 51375,
+              "delta": 42895
+            },
+            {
+              "videoId": "nVBjYwY18M0",
+              "title": "신작소개 (왕과 사는 남자) #매불쇼 #최욱 #시네마지옥 #주말추천작 #신작소개 #라이너 #거의없다 #전찬일 #유해진 #박지훈 #유지태 #전미도 #김민 #영화 #상영작",
+              "channelTitle": "매불컷",
+              "predicted7d": 32405,
+              "delta": 25601
+            },
+            {
+              "videoId": "2p_8OkYCRmU",
+              "title": "엄흥도 vs 엄홍길, 500년을 뛰어넘은 평행이론 휴먼원정대 DNA 목숨보다 앞선 사람의 도리 #왕과사는남자 #엄흥도 #단종",
+              "channelTitle": "천년비록",
+              "predicted7d": 54621,
+              "delta": 22811
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-07/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Living with a King: Untold Royal Stories",
+            "description": "Dive into the captivating world of 'Man Who Lives with a King'! Uncover hidden historical truths, incredible loyalty, and the untold stories behind the Joseon dynasty. Is history stranger than fiction?",
+            "tags": [
+              "Man Who Lives with a King",
+              "Joseon History",
+              "Korean Drama",
+              "Royal Secrets",
+              "Historical Accuracy",
+              "Danjong",
+              "Park Jihoon",
+              "Loyalty",
+              "K-Drama",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "g3Lg5KX9KHE"
+          },
+          "updatedAt": "2026-02-07T06:51:24.356Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-07T06:51:24.365Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "justin bieber",
+          "winter olympics 2026",
+          "opalite taylor swift",
+          "teofimo lopez vs shakur stevenson",
+          "bad bunny",
+          "iron lung",
+          "olivia dean",
+          "nintendo direct",
+          "billie eilish",
+          "taylor swift",
+          "markiplier"
+        ],
+        "updatedAt": "2026-02-07T06:51:37.237Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "D0kgUDdERs4",
+              "title": "Reactions to bad bunny at the Grammys 2026 💀 #badbunny #sabrinacarpenter #music",
+              "channelTitle": "MusicMakesMeHappy",
+              "predicted7d": 356193,
+              "delta": 150297
+            },
+            {
+              "videoId": "vwIuFWS-pl8",
+              "title": "Everyone Missed These Grammy Moments at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 201138,
+              "delta": 92044
+            },
+            {
+              "videoId": "J7HK-cXB274",
+              "title": "Justin Bieber con Hailey Bieber llegando a los GRAMMYs 2026 (1 de febrero) #justinbieber",
+              "channelTitle": "JBcl",
+              "predicted7d": 266753,
+              "delta": 66977
+            },
+            {
+              "videoId": "C_pypfUU4i8",
+              "title": "Lola Young was simply amazing at Grammys 2026",
+              "channelTitle": "Itunu Joe",
+              "predicted7d": 56970,
+              "delta": 49208
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-07/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Wildest Moments You Missed!",
+            "description": "Relive the most talked-about and hidden moments from the Grammys 2026! From shocking red carpet arrivals to jaw-dropping performances and unexpected reactions, we've got it all. Don't miss these iconic highlights!",
+            "tags": [
+              "Grammys2026",
+              "MusicAwards",
+              "BadBunny",
+              "JustinBieber",
+              "HaileyBieber",
+              "LolaYoung",
+              "RedCarpet",
+              "AwardShow",
+              "MusicNews",
+              "PopCulture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "cz-vc1i1Drc"
+          },
+          "updatedAt": "2026-02-07T06:52:27.468Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "justin bieber",
+          "selectedSourceVideos": [
+            {
+              "videoId": "smH4G19euQc",
+              "title": "La fama cambió tanto a Justin Bieber que se volvió COREANO y IDOL😱",
+              "channelTitle": "Jazell",
+              "predicted7d": 261733,
+              "delta": 251871
+            },
+            {
+              "videoId": "eZFOduUqIlA",
+              "title": "Justin Bieber Loves Hailey 👀❤️",
+              "channelTitle": "Mare",
+              "predicted7d": 143536,
+              "delta": 82977
+            },
+            {
+              "videoId": "o_8k2l8WF98",
+              "title": "Proof Justin Bieber’s “Yummy” Was A Warning",
+              "channelTitle": "Jessica Vill",
+              "predicted7d": 84481,
+              "delta": 73242
+            },
+            {
+              "videoId": "WqRSS8ktuwc",
+              "title": "Justin Bieber and Hailey Bieber are so in love #justinbieber #haileybieber #grammys #redcarpet",
+              "channelTitle": "Sam Cummerata",
+              "predicted7d": 68649,
+              "delta": 67437
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-07/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Justin Bieber: Shocking Truths & Love",
+            "description": "Dive into the world of Justin Bieber! From his rumored K-Pop transformation to the hidden meanings in his songs and his undeniable love for Hailey, this Shorts compilation has it all. You won't believe what you'll discover about the pop superstar!",
+            "tags": [
+              "justinbieber",
+              "haileybieber",
+              "shorts",
+              "popculture",
+              "celebrity",
+              "kpop",
+              "yummy",
+              "grammys",
+              "belieber",
+              "music"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "SsyCjzEiAfM"
+          },
+          "updatedAt": "2026-02-07T06:53:03.961Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-07T06:53:03.969Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "mr doctor",
+          "dross"
+        ],
+        "updatedAt": "2026-02-07T06:53:13.014Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "D0kgUDdERs4",
+              "title": "Reactions to bad bunny at the Grammys 2026 💀 #badbunny #sabrinacarpenter #music",
+              "channelTitle": "MusicMakesMeHappy",
+              "predicted7d": 356193,
+              "delta": 150297
+            },
+            {
+              "videoId": "vwIuFWS-pl8",
+              "title": "Everyone Missed These Grammy Moments at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 201138,
+              "delta": 92044
+            },
+            {
+              "videoId": "J7HK-cXB274",
+              "title": "Justin Bieber con Hailey Bieber llegando a los GRAMMYs 2026 (1 de febrero) #justinbieber",
+              "channelTitle": "JBcl",
+              "predicted7d": 268377,
+              "delta": 68391
+            },
+            {
+              "videoId": "C_pypfUU4i8",
+              "title": "Lola Young was simply amazing at Grammys 2026",
+              "channelTitle": "Itunu Joe",
+              "predicted7d": 56970,
+              "delta": 49208
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-07/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Wildest Moments You Missed!",
+            "description": "Relive the most talked-about and unseen moments from the Grammys 2026! From shocking reactions to iconic red carpet arrivals, we've got all the highlights. Don't miss these unforgettable celebrity encounters and performances.",
+            "tags": [
+              "Grammys2026",
+              "GrammyAwards",
+              "BadBunny",
+              "JustinBieber",
+              "HaileyBieber",
+              "LolaYoung",
+              "CelebrityReactions",
+              "RedCarpet",
+              "MusicAwards",
+              "PopCulture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "_f9gmO4B7eE"
+          },
+          "updatedAt": "2026-02-07T06:54:00.633Z"
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-07T06:54:00.642Z"
+    }
+  }
+}

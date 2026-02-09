@@ -1,0 +1,418 @@
+{
+  "runId": "2026-02-01",
+  "date": "2026-02-01",
+  "createdAt": "2026-02-01T06:50:02.097Z",
+  "updatedAt": "2026-02-01T06:53:53.972Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "아 랏쏘",
+          "맨유 아스날",
+          "유병 장수 girl",
+          "김상욱 ufc",
+          "t1 dk",
+          "솔로 지옥 5",
+          "정상수",
+          "블랙 컴뱃",
+          "메이플 키우기",
+          "최미나 수",
+          "키키",
+          "에코프로",
+          "밀리",
+          "풍향 고"
+        ],
+        "updatedAt": "2026-02-01T06:50:21.570Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "keyword": "맨유 아스날",
+          "selectedSourceVideos": [
+            {
+              "videoId": "a1op_pguxuc",
+              "title": "다시 부활하는 캐릭의 맨유 | 아스날 vs 맨유",
+              "channelTitle": "FOOTstory",
+              "predicted7d": 226359,
+              "delta": 84859
+            },
+            {
+              "videoId": "I6-6KWfWNiE",
+              "title": "박지성 스루패스 아스날전 이건 온사이드아님?",
+              "channelTitle": "축구영웅전",
+              "predicted7d": 88276,
+              "delta": 78905
+            },
+            {
+              "videoId": "fURhcgQaA2g",
+              "title": "현재 캐릭이 맨유에 진심인 이유 ㄷㄷ",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 157459,
+              "delta": 45102
+            },
+            {
+              "videoId": "LiGeIS4h6zk",
+              "title": "결국 밈이 되어버린 아스날전 쿠냐 세레머니ㅋㅋㅋㅋㅋ",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 161928,
+              "delta": 30751
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-01/KR_video_01/inputs/fURhcgQaA2g.mp4\\\" \\\"https://www.youtube.com/watch?v=fURhcgQaA2g\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] fURhcgQaA2g: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] fURhcgQaA2g: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-01/KR_video_01/inputs/fURhcgQaA2g.mp4\\\" \\\"https://www.youtube.com/watch?v=fURhcgQaA2g\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] fURhcgQaA2g: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] fURhcgQaA2g: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "김상욱 ufc",
+          "selectedSourceVideos": [
+            {
+              "videoId": "br2bEJxfKT4",
+              "title": "잘 싸웠다 김상욱 처절했다 UDT 김상욱 [김상욱 vs 돔 마르 판]",
+              "channelTitle": "잡생각",
+              "predicted7d": 754321,
+              "delta": 235646
+            },
+            {
+              "videoId": "MCIu51DjPzA",
+              "title": "김상욱 돔마르판전 훈훈한 장면, 매너가 좋은 돔 마르 판",
+              "channelTitle": "돌섬",
+              "predicted7d": 651579,
+              "delta": 205484
+            },
+            {
+              "videoId": "hNMw0nDl1cY",
+              "title": "안면 출혈에도 미소 잃지 않은 김상욱, 돔 마르 판과의 낭만 섞인 결승전",
+              "channelTitle": "한대맞KO",
+              "predicted7d": 131011,
+              "delta": 121713
+            },
+            {
+              "videoId": "eGOrTBkQkhI",
+              "title": "투지를 보여준 김상욱, 돔마르판전 하이라이트",
+              "channelTitle": "돌섬",
+              "predicted7d": 409582,
+              "delta": 111928
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-01/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Kim Sang-wook's Epic UFC Battle!",
+            "description": "Witness Kim Sang-wook's unforgettable fight against Dom Mar Pan. Experience the raw intensity, incredible sportsmanship, and his unbreakable spirit despite the odds.",
+            "tags": [
+              "KimSangWook",
+              "UFC",
+              "MMA",
+              "DomMarPan",
+              "FightingSpirit",
+              "UDT",
+              "KoreanMMA",
+              "Highlights",
+              "Sportsmanship",
+              "BloodyFight"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "umcbYyF3TOI"
+          },
+          "updatedAt": "2026-02-01T06:51:03.820Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-01T06:51:03.829Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "royal rumble 2026",
+          "iron lung",
+          "alex pretti",
+          "melanie martinez",
+          "markiplier",
+          "wwe"
+        ],
+        "updatedAt": "2026-02-01T06:51:12.851Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "royal rumble 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "m5D10BLOe2w",
+              "title": "REAL REASON Roman Reigns WON The 2026 Royal Rumble 😨 #wwe",
+              "channelTitle": "TheSportsEntertainer",
+              "predicted7d": 306403,
+              "delta": 166170
+            },
+            {
+              "videoId": "JxCJk0iQ4Y0",
+              "title": "¿QUE PASO EN EL ROYAL RUMBLE 2026? #shorts #wwe #wwe2k25 #royalrumble",
+              "channelTitle": "Broken JA",
+              "predicted7d": 148092,
+              "delta": 136647
+            },
+            {
+              "videoId": "T5eBnZNvwzs",
+              "title": "Roman Reigns Wins Royal Rumble 2026 🔥💥 #shorts #youtubeshorts #viralvideo",
+              "channelTitle": "Wrestle Unit",
+              "predicted7d": 88360,
+              "delta": 82492
+            },
+            {
+              "videoId": "qbLVwOD_V7U",
+              "title": "Brock Lesnar Eliminated From WWE Royal Rumble 2026 Match #shorts #brocklesnar",
+              "channelTitle": "Wrestling Phenomena",
+              "predicted7d": 145430,
+              "delta": 80990
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-01/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Royal Rumble 2026: Shocking Moments!",
+            "description": "Relive the most controversial and unforgettable moments from the 2026 Royal Rumble! From shocking eliminations to unexpected winners, this event had it all.",
+            "tags": [
+              "RoyalRumble",
+              "WWE",
+              "RomanReigns",
+              "BrockLesnar",
+              "Wrestling",
+              "Shorts",
+              "WWE2K25",
+              "Elimination",
+              "Winner",
+              "Highlights"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "vo3ZJY_xNT8"
+          },
+          "updatedAt": "2026-02-01T06:52:03.029Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "melanie martinez",
+          "selectedSourceVideos": [
+            {
+              "videoId": "5PnBbjDgpa0",
+              "title": "Unreleased songs from Melanie Martinez..?👀 #melaniemartinez #music #unreleased",
+              "channelTitle": "𝔑𝔞𝔱",
+              "predicted7d": 113089,
+              "delta": 103003
+            },
+            {
+              "videoId": "__os424_AOw",
+              "title": "Melanie Martinez – \"POSSESSION\" HIT OR FLOP?",
+              "channelTitle": "Best Songs to Use",
+              "predicted7d": 68559,
+              "delta": 67369
+            },
+            {
+              "videoId": "Ac0IiONb27s",
+              "title": "Melanie Martinez on billboard  #melaniemartinez #possession #mm4 #ily",
+              "channelTitle": "Txtally_an_Earthling 🎀",
+              "predicted7d": 53895,
+              "delta": 52597
+            },
+            {
+              "videoId": "e7KCoNfOs9c",
+              "title": "Melanie martinez's new song is so good omgg (Possession - Melanie Martinez)",
+              "channelTitle": "izmauixx",
+              "predicted7d": 46977,
+              "delta": 45544
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-01/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Melanie Martinez: New Era Vibes!",
+            "description": "Dive into the latest Melanie Martinez buzz! From unreleased tracks to the chart-topping 'Possession,' we cover it all. Get ready for some serious MM4 vibes!",
+            "tags": [
+              "MelanieMartinez",
+              "Possession",
+              "MM4",
+              "UnreleasedMusic",
+              "Crybaby",
+              "Portals",
+              "MusicReview",
+              "Shorts",
+              "PopMusic"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "YNjeD1jlScY"
+          },
+          "updatedAt": "2026-02-01T06:52:34.502Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-01T06:52:34.511Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "lamberto quintero",
+          "santa fe klan",
+          "conozco su piel la recorri tantas veces",
+          "gusgri",
+          "lenin ramírez",
+          "jair sanchez"
+        ],
+        "updatedAt": "2026-02-01T06:52:48.939Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "santa fe klan",
+          "selectedSourceVideos": [
+            {
+              "videoId": "WJVW4dc238Q",
+              "title": "Santa Fe Klan le dijo a Gusgri que el tornillo fue un vato malagradecido despues de tanto que ayudo",
+              "channelTitle": "El Pelon Chicago",
+              "predicted7d": 233258,
+              "delta": 129360
+            },
+            {
+              "videoId": "cNESPHrDG-M",
+              "title": "Este RAPERO NUEVO le pidió CONSEJOS a Santa Fe Klan",
+              "channelTitle": "Luis Angel Rap",
+              "predicted7d": 88789,
+              "delta": 87268
+            },
+            {
+              "videoId": "PIRijNtUS18",
+              "title": "Santa fe Klan junto con el Chikano jcr",
+              "channelTitle": "El Gera hdz",
+              "predicted7d": 66288,
+              "delta": 65189
+            },
+            {
+              "videoId": "f3DlBTB7org",
+              "title": "Santa fe Klan invito a Chikano jcr a su barrio",
+              "channelTitle": "El Gera hdz",
+              "predicted7d": 44481,
+              "delta": 43055
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-01/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Santa Fe Klan: Drama, Advice & Collabs!",
+            "description": "Dive into the world of Santa Fe Klan with these explosive moments. From exposing ungrateful friends to mentoring new talent and epic collaborations, see why SFK is a legend.",
+            "tags": [
+              "SantaFeKlan",
+              "SFK",
+              "MexicanRap",
+              "HipHop",
+              "RapMusic",
+              "ChikanoJCR",
+              "MusicIndustry",
+              "ArtistLife",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "2J9IvBOcIaM"
+          },
+          "updatedAt": "2026-02-01T06:53:22.795Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "conozco su piel la recorri tantas veces",
+          "selectedSourceVideos": [
+            {
+              "videoId": "x7gHxGBf5Zg",
+              "title": "Mi sueño más anhelado #todolofue #leninramirez #corridos_bandamx #corridosybanda #corridoschingones",
+              "channelTitle": "RU Music",
+              "predicted7d": 84895,
+              "delta": 73971
+            },
+            {
+              "videoId": "_kxx7SLYypA",
+              "title": "Conozco su piel… #todolofue #leninramirez #corridosybanda #corridosvip #capcut",
+              "channelTitle": "RU Music",
+              "predicted7d": 72133,
+              "delta": 66281
+            },
+            {
+              "videoId": "qCtoBVsjhys",
+              "title": "Conozco su piel… #todolofue #leninramirez #corridosybanda #corridosvip #capcut",
+              "channelTitle": "RU Music",
+              "predicted7d": 38155,
+              "delta": 36707
+            },
+            {
+              "videoId": "TwdFJW6eyOA",
+              "title": "Conozco su piel... 😏 #leninramirez #todolofue #corridosybanda #corridos_bandamx #corridosvip",
+              "channelTitle": "RU Music",
+              "predicted7d": 44914,
+              "delta": 28175
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-01/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Her Skin, My Story: Intimate Journey",
+            "description": "Dive deep into the intimate connection of knowing someone's skin, every touch, every memory. This Shorts explores the profound journey of love and passion, echoing the timeless sentiment of 'Conozco su piel la recorri tantas veces'. Discover the unspoken language of touch.",
+            "tags": [
+              "IntimateLove",
+              "DeepConnection",
+              "RomanticJourney",
+              "LoveStory",
+              "Passion",
+              "HerSkin",
+              "ConozcoSuPiel",
+              "EmotionalBond",
+              "RelationshipGoals",
+              "ShortsLove"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "WrBfZ43UeM8"
+          },
+          "updatedAt": "2026-02-01T06:53:53.962Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-01T06:53:53.970Z"
+    }
+  },
+  "finishedAt": "2026-02-01T06:53:53.972Z"
+}

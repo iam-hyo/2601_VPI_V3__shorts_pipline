@@ -1,0 +1,428 @@
+{
+  "runId": "2026-01-28",
+  "date": "2026-01-28",
+  "createdAt": "2026-01-28T06:50:02.049Z",
+  "updatedAt": "2026-01-28T06:54:42.518Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "박민정 결혼",
+          "맨유 아스날",
+          "차은 우",
+          "트레이 비",
+          "최미나 수",
+          "솔로 지옥 5",
+          "나는 솔로 29 기",
+          "ufc",
+          "핫소스",
+          "촌장 엔터테인먼트",
+          "언더 커버 미스 홍",
+          "엔드 필드",
+          "풍향 고",
+          "휴림 로봇",
+          "현대차"
+        ],
+        "updatedAt": "2026-01-28T06:50:34.684Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "keyword": "박민정 결혼",
+          "selectedSourceVideos": [
+            {
+              "videoId": "z7HX_MWN07Q",
+              "title": "박민정 결혼소식 들은 김민교 반응",
+              "channelTitle": " 핫태핫",
+              "predicted7d": 600841,
+              "delta": 158605
+            },
+            {
+              "videoId": "cx69e9o7Qrw",
+              "title": "'맥심여신' 박민정, 100만 유튜버와 결혼 발표",
+              "channelTitle": "머길ㅣMUGIL",
+              "predicted7d": 232086,
+              "delta": 28911
+            },
+            {
+              "videoId": "8-JHBqSi1to",
+              "title": "여캠 박민정 유튜버 송형주 결혼 발표 화제 #박민정 #핫소스 #송형주",
+              "channelTitle": "이마즈의 매거진",
+              "predicted7d": 47973,
+              "delta": 9110
+            },
+            {
+              "videoId": "b53z-G-BKhc",
+              "title": "\"맥심 모델\" 박민정이 선택한 남편.. 알고 보니 100만 유튜버?",
+              "channelTitle": "요즘 이거",
+              "predicted7d": 160349,
+              "delta": 7787
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-28/KR_video_01/inputs/z7HX_MWN07Q.mp4\\\" \\\"https://www.youtube.com/watch?v=z7HX_MWN07Q\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] z7HX_MWN07Q: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] z7HX_MWN07Q: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-28/KR_video_01/inputs/z7HX_MWN07Q.mp4\\\" \\\"https://www.youtube.com/watch?v=z7HX_MWN07Q\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] z7HX_MWN07Q: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] z7HX_MWN07Q: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "맨유 아스날",
+          "selectedSourceVideos": [
+            {
+              "videoId": "6dUWgTq34F8",
+              "title": "진짜 알다가도 모르겠다는 맨유와 아스날",
+              "channelTitle": "메시맛집",
+              "predicted7d": 248972,
+              "delta": 118415
+            },
+            {
+              "videoId": "wm-NcDrcN9g",
+              "title": "쿠냐 \"월드컵? 가장 중요한 건 맨유 승점 3점\"",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 185123,
+              "delta": 78779
+            },
+            {
+              "videoId": "KL-wesTUkbo",
+              "title": "스콜스 \"아스날 우승한다면, 최악의 우승팀이 될 수도\"",
+              "channelTitle": "대흥민 갤러리",
+              "predicted7d": 242602,
+              "delta": 77016
+            },
+            {
+              "videoId": "MfYI80J_rPg",
+              "title": "맨유가 아스날을 꺾을 수 있었던 이유",
+              "channelTitle": "말년 호빙요",
+              "predicted7d": 174410,
+              "delta": 73842
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-28/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Man Utd vs Arsenal: Rivalry Drama!",
+            "description": "Dive into the intense rivalry between Man Utd and Arsenal! From unpredictable matches to controversial takes, this Shorts compilation has it all. Who truly dominates this historic clash?",
+            "tags": [
+              "ManUtd",
+              "Arsenal",
+              "PremierLeague",
+              "Football",
+              "Soccer",
+              "Rivalry",
+              "Scholes",
+              "Cunha",
+              "Shorts",
+              "FootballDrama"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "h3BHwS-Hn10"
+          },
+          "updatedAt": "2026-01-28T06:51:08.874Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-28T06:51:08.882Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "alex pretti",
+          "masters of the universe trailer",
+          "alex honnold",
+          "ryan hall",
+          "harry styles",
+          "ufc",
+          "kingsman marvel rivals",
+          "brooke monk",
+          "seahawks",
+          "penguinz0",
+          "weather"
+        ],
+        "updatedAt": "2026-01-28T06:51:28.123Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "alex pretti",
+          "selectedSourceVideos": [
+            {
+              "videoId": "9Z34Ekn9XY4",
+              "title": "Jimmy Kimmel se rompe tras el asesinato de Alex Pretti a manos de agentes del ICE",
+              "channelTitle": "Diario Público",
+              "predicted7d": 806655,
+              "delta": 388817
+            },
+            {
+              "videoId": "2I0VJAPQbH0",
+              "title": "ICE agents who killed Alex Pretti still on the job",
+              "channelTitle": "Lawyer Oyer",
+              "predicted7d": 329929,
+              "delta": 181402
+            },
+            {
+              "videoId": "g_2DtM6dNbM",
+              "title": "Alex Pretti's previous encounter with federal agents",
+              "channelTitle": "CNN",
+              "predicted7d": 441856,
+              "delta": 128888
+            },
+            {
+              "videoId": "hdxgVyBM5rI",
+              "title": "Alex Pretti had a dangerous weapon: the truth | The Daily Show with Jon Stewart | BINGE",
+              "channelTitle": "BINGE",
+              "predicted7d": 99690,
+              "delta": 85998
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-28/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Alex Pretti: The Truth They Silenced",
+            "description": "Dive into the tragic story of Alex Pretti, whose life was cut short by federal agents. Explore Jimmy Kimmel's emotional reaction, the ongoing controversy surrounding ICE, and how Pretti's 'truth' became his most dangerous weapon.",
+            "tags": [
+              "AlexPretti",
+              "ICEAgents",
+              "JimmyKimmel",
+              "JonStewart",
+              "TruthAsWeapon",
+              "SocialJustice",
+              "ControversialCase",
+              "FederalAgents",
+              "Activism",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "njTdKzubfgA"
+          },
+          "updatedAt": "2026-01-28T06:52:27.962Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "alex honnold",
+          "selectedSourceVideos": [
+            {
+              "videoId": "osc8WwYYJI8",
+              "title": "Alex Honnold Just Climbed 101 Floors With No Ropes! 😱🕷️",
+              "channelTitle": "Muscle Minds ",
+              "predicted7d": 72409,
+              "delta": 63877
+            },
+            {
+              "videoId": "YcLfqq36MPc",
+              "title": "Alex Honnold's Mindset on Climbing Taipei 101 LIVE",
+              "channelTitle": "Lewis Howes",
+              "predicted7d": 68772,
+              "delta": 55581
+            },
+            {
+              "videoId": "cf8lUK3CjKA",
+              "title": "爬完台北101 下班後的Alex Honnold可能在幹麻？",
+              "channelTitle": "GQ Taiwan",
+              "predicted7d": 65606,
+              "delta": 41606
+            },
+            {
+              "videoId": "1uknujxJNYs",
+              "title": "Alex Honnold , American rock climber",
+              "channelTitle": "informationfact",
+              "predicted7d": 30508,
+              "delta": 20197
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-28/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Alex Honnold: Unbelievable Feats!",
+            "description": "Dive into the world of Alex Honnold, the legendary free solo climber. Discover his incredible climbs, his unique mindset, and what life looks like after conquering skyscrapers. Prepare to be amazed by his fearless spirit!",
+            "tags": [
+              "AlexHonnold",
+              "FreeSolo",
+              "RockClimbing",
+              "Taipei101",
+              "ClimbingMindset",
+              "ExtremeSports",
+              "Adventure",
+              "NoRopes",
+              "Inspiration",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "fVcYTiIhZW0"
+          },
+          "updatedAt": "2026-01-28T06:53:03.531Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-28T06:53:03.539Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "liga bazooka",
+          "supernova",
+          "harry styles",
+          "todo lo fue lenin ramirez",
+          "ebrio de amor",
+          "abraham",
+          "penitencia",
+          "jair sanchez"
+        ],
+        "updatedAt": "2026-01-28T06:53:16.449Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "liga bazooka",
+          "selectedSourceVideos": [
+            {
+              "videoId": "QDkD17LBWCg",
+              "title": "Danger vs Chillie parker liga bazooka méxico, #reacción #ligabazooka #Danger #chillieparker #Aczino",
+              "channelTitle": "El Hater del Free_Rap",
+              "predicted7d": 81169,
+              "delta": 80146
+            },
+            {
+              "videoId": "Qj5xXuT1IJA",
+              "title": "Cualquier mexicano del cartel te m4taria DANGER en liga bazzoka 🤯#rap #freestyle #ligabazooka",
+              "channelTitle": "Cuenca Skillz Oficial",
+              "predicted7d": 65911,
+              "delta": 59449
+            },
+            {
+              "videoId": "saqkENzUFVA",
+              "title": "Esa es la diferencia entre mi país y el tuyo Liga Bazooka México #ligabazooka #minutazos #freestyle",
+              "channelTitle": "Despotah",
+              "predicted7d": 70297,
+              "delta": 57269
+            },
+            {
+              "videoId": "SAMdtTLUUys",
+              "title": "Muelas de Gallo vs Aczino #ligabazooka #redbullbatalla #fmsinternacional #batallasescritas #fms",
+              "channelTitle": "Aomine Reiji",
+              "predicted7d": 76277,
+              "delta": 37710
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-28/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Liga Bazooka: Craziest Rap Battles!",
+            "description": "Dive into the most intense moments from Liga Bazooka! Witness epic clashes, controversial lines, and legendary freestyle rap battles. Who delivered the best bars?",
+            "tags": [
+              "Liga Bazooka",
+              "Rap Battle",
+              "Freestyle Rap",
+              "Aczino",
+              "Danger",
+              "Chillie Parker",
+              "Muelas de Gallo",
+              "Hip Hop",
+              "Mexico Rap",
+              "Epic Bars"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "s5rREj87hJs"
+          },
+          "updatedAt": "2026-01-28T06:53:54.007Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "supernova",
+          "selectedSourceVideos": [
+            {
+              "videoId": "oMTgpKJFabQ",
+              "title": "#pov you’re the last survivor from planet supernova that can tell where people’s soulmates are",
+              "channelTitle": "Zwerschke Gampong",
+              "predicted7d": 86600,
+              "delta": 85317
+            },
+            {
+              "videoId": "BHo5A3xRv6c",
+              "title": "New 2026 Meteor Supernova price Black Colour mileage detailed short video #meteor350",
+              "channelTitle": "Arsh Auto Reviews",
+              "predicted7d": 87514,
+              "delta": 76033
+            },
+            {
+              "videoId": "TKqXkBQ0JiA",
+              "title": "El obstáculo 💀 | Abrahaham edit | #losbros #edit #abrahaham #yolo #nando #pelea #supernova #fyp",
+              "channelTitle": "EM.EDITS10k ⚡️",
+              "predicted7d": 55557,
+              "delta": 27360
+            },
+            {
+              "videoId": "9auvVYji5Rs",
+              "title": "pov you’re the last survivor from Planet Supernova..#pov #fyp #tiktok #shorts",
+              "channelTitle": "Boge Wapime",
+              "predicted7d": 40896,
+              "delta": 11042
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-28/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Supernova: Explosive Moments Unveiled",
+            "description": "Dive into the explosive world of Supernova! Explore everything from cosmic events and intense battles to futuristic tech. Witness the unexpected in these captivating shorts.",
+            "tags": [
+              "supernova",
+              "shorts",
+              "fyp",
+              "pov",
+              "scifi",
+              "action",
+              "motorcycle",
+              "space",
+              "mystery",
+              "viral"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "6rfFljJBGgE"
+          },
+          "updatedAt": "2026-01-28T06:54:42.508Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-28T06:54:42.517Z"
+    }
+  },
+  "finishedAt": "2026-01-28T06:54:42.518Z"
+}

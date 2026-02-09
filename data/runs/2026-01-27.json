@@ -1,0 +1,426 @@
+{
+  "runId": "2026-01-27",
+  "date": "2026-01-27",
+  "createdAt": "2026-01-27T06:50:01.930Z",
+  "updatedAt": "2026-01-27T06:54:02.642Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "최미나 수",
+          "박민정 결혼",
+          "맨유 아스날",
+          "트레이 비",
+          "솔로 지옥 5",
+          "차은 우",
+          "명일 방주 엔드 필드",
+          "촌장 엔터테인먼트",
+          "핫소스",
+          "풍향 고",
+          "합숙 맞선",
+          "언더 커버 미스 홍",
+          "알 테오 젠",
+          "우리 기술",
+          "휴림 로봇",
+          "ufc",
+          "나는 솔로 29 기"
+        ],
+        "updatedAt": "2026-01-27T06:50:15.641Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "최미나 수",
+          "selectedSourceVideos": [
+            {
+              "videoId": "cu32JuTGGgs",
+              "title": "솔로지옥5 최미나수 지금과는 다른 미스어스 우승 당시 ㄷㄷ",
+              "channelTitle": "폭스토리",
+              "predicted7d": 4876733,
+              "delta": 2331151
+            },
+            {
+              "videoId": "WzvmjVtSbXw",
+              "title": "솔로지옥5 억쉴드도 불가능한 최미나수 ㅋㅋㅋ",
+              "channelTitle": "폭스토리",
+              "predicted7d": 1003571,
+              "delta": 468831
+            },
+            {
+              "videoId": "9amFv2tC-Ds",
+              "title": "솔로지옥5 최미나수한테 본능적으로 끌린 이관희 ㅋㅋㅋ",
+              "channelTitle": "폭스토리",
+              "predicted7d": 366858,
+              "delta": 169987
+            },
+            {
+              "videoId": "ONxPA-D5qeY",
+              "title": "관심있는 승일의 투표녀 김민지를 질투하는 최미나수 #솔로지옥 #솔로지옥5",
+              "channelTitle": "관리뚱",
+              "predicted7d": 331197,
+              "delta": 120027
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-27/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Choi Mina-su: Inferno's Unforgettable Queen",
+            "description": "Explore the captivating journey of Choi Mina-su from Solo's Inferno. Witness her transformation from Miss Earth to a controversial figure, navigating intense attractions and dramatic jealousies. Relive her most unforgettable moments and decide for yourself!",
+            "tags": [
+              "ChoiMinaSu",
+              "SinglesInferno3",
+              "MissEarth",
+              "LeeGwanHee",
+              "KoreanDatingShow",
+              "RealityTV",
+              "Drama",
+              "Controversy",
+              "Jealousy",
+              "NetflixKorea"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "y29IVHRruzA"
+          },
+          "updatedAt": "2026-01-27T06:50:49.839Z"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "keyword": "박민정 결혼",
+          "selectedSourceVideos": [
+            {
+              "videoId": "xyIBo4mEJCk",
+              "title": "결혼 발표, 충격적이라는 반응",
+              "channelTitle": "숏밍아웃",
+              "predicted7d": 1450545,
+              "delta": 199939
+            },
+            {
+              "videoId": "z7HX_MWN07Q",
+              "title": "박민정 결혼소식 들은 김민교 반응",
+              "channelTitle": " 핫태핫",
+              "predicted7d": 575428,
+              "delta": 164474
+            },
+            {
+              "videoId": "8s6wVB5gr4Y",
+              "title": "송형주, 박민정 실검 1, 2위 이유",
+              "channelTitle": "나무위키 실검 알려주는 채널",
+              "predicted7d": 417968,
+              "delta": 114232
+            },
+            {
+              "videoId": "3qjS9t8wu9c",
+              "title": "박민정 결혼발표",
+              "channelTitle": " 핫태핫",
+              "predicted7d": 441793,
+              "delta": 108074
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-27/KR_video_02/inputs/xyIBo4mEJCk.mp4\\\" \\\"https://www.youtube.com/watch?v=xyIBo4mEJCk\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] xyIBo4mEJCk: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] xyIBo4mEJCk: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-27/KR_video_02/inputs/xyIBo4mEJCk.mp4\\\" \\\"https://www.youtube.com/watch?v=xyIBo4mEJCk\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] xyIBo4mEJCk: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] xyIBo4mEJCk: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-27T06:50:49.847Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "alex pretti",
+          "masters of the universe trailer",
+          "cece marvel rivals",
+          "dark outlaw",
+          "kingsman marvel rivals",
+          "ryan hall y'all",
+          "harry styles",
+          "隊長",
+          "ufc",
+          "brooke monk",
+          "moist critical",
+          "minneapolis shooting",
+          "weather"
+        ],
+        "updatedAt": "2026-01-27T06:51:15.397Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "alex pretti",
+          "selectedSourceVideos": [
+            {
+              "videoId": "vsizReKF68w",
+              "title": "ICE Commander admits Alex Pretti shooters 'still working'",
+              "channelTitle": "LBC",
+              "predicted7d": 193119,
+              "delta": 94894
+            },
+            {
+              "videoId": "MzPn3_F2p80",
+              "title": "Top Trump official: \"Alex Pretti had a phone right up in ICE's face. Is that protesting peacefully?'",
+              "channelTitle": "Brian Tyler Cohen",
+              "predicted7d": 257228,
+              "delta": 92665
+            },
+            {
+              "videoId": "33whCmokZSo",
+              "title": "White House says Alex Pretti was \"raising the assumption of risk\" by having gun at protest",
+              "channelTitle": "TIME",
+              "predicted7d": 85016,
+              "delta": 74384
+            },
+            {
+              "videoId": "GsZIloeV3_E",
+              "title": "White House on fatal shooting of Alex Pretti",
+              "channelTitle": "Mid-Michigan now on FOX66 & NBC25",
+              "predicted7d": 75966,
+              "delta": 68552
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-27/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Alex Pretti: Unpacking the Controversy",
+            "description": "Dive into the controversial shooting of Alex Pretti. We explore official statements, protest dynamics, and the aftermath from multiple angles. Get the full story.",
+            "tags": [
+              "Alex Pretti",
+              "Protest Shooting",
+              "ICE",
+              "White House",
+              "Controversy",
+              "Current Events",
+              "Police Action",
+              "Gun Rights"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "OBRAHHgh0gE"
+          },
+          "updatedAt": "2026-01-27T06:51:49.718Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "masters of the universe trailer",
+          "selectedSourceVideos": [
+            {
+              "videoId": "YiEu8pTSzWQ",
+              "title": "Masters of the Universe Trailer – Details You Missed!",
+              "channelTitle": "Action Nexus",
+              "predicted7d": 57272,
+              "delta": 49052
+            },
+            {
+              "videoId": "eYGXJPJuK4Y",
+              "title": "Меч Хи-Мэна 🍿 Властелины вселенной (2026) 🔥 #фильмы #shorts",
+              "channelTitle": "FRESH Trailers",
+              "predicted7d": 48124,
+              "delta": 40960
+            },
+            {
+              "videoId": "qIXpWaxC2zQ",
+              "title": "Скелетор против Хи-Мэна битва 🍿 Властелины вселенной (2026) 🔥 #фильмы #shorts",
+              "channelTitle": "FRESH Trailers",
+              "predicted7d": 47368,
+              "delta": 40352
+            },
+            {
+              "videoId": "9o372wRPtUA",
+              "title": "Masters of The Universe – Trailer Explained",
+              "channelTitle": "Icon Clips",
+              "predicted7d": 31974,
+              "delta": 25467
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-27/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "MOTU Trailer: Epic Details & Secrets!",
+            "description": "Dive into the new Masters of the Universe trailer! We break down every epic detail, from He-Man's iconic sword to the intense clash with Skeletor. Don't miss the hidden secrets!",
+            "tags": [
+              "MastersOfTheUniverse",
+              "MOTU",
+              "HeMan",
+              "Skeletor",
+              "TrailerBreakdown",
+              "MovieNews",
+              "FilmShorts",
+              "Eternia"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "FP87B701onA"
+          },
+          "updatedAt": "2026-01-27T06:52:34.035Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-27T06:52:34.044Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "liga bazooka",
+          "supernova",
+          "harry styles",
+          "abraham",
+          "todo lo fue lenin ramirez",
+          "ebrio de amor"
+        ],
+        "updatedAt": "2026-01-27T06:52:45.911Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "supernova",
+          "selectedSourceVideos": [
+            {
+              "videoId": "f_zl2HXL6jE",
+              "title": "TRAICIÓN - Like si Nando Perdió - Abrahaham vs Nando vs Karen Torres - Supernova Genesis",
+              "channelTitle": "Valkyskt",
+              "predicted7d": 133633,
+              "delta": 124564
+            },
+            {
+              "videoId": "5YfIW8K0HxU",
+              "title": "@BebuYTblox ME RETÓ A HACER ESTO!! 😜 #roblox #stealabrainrot #robloxedit #elabrahaham #supernova",
+              "channelTitle": "DERLYS",
+              "predicted7d": 99300,
+              "delta": 80399
+            },
+            {
+              "videoId": "FZTIg-1Vetc",
+              "title": "Por qué no estaré en SUPERNOVA contra ALANA FLORES | Bárbara de Regil",
+              "channelTitle": "Barbara De Regil",
+              "predicted7d": 82612,
+              "delta": 75896
+            },
+            {
+              "videoId": "_whArtNblJk",
+              "title": "¿A quién veremos levantar el cinturón de Supernova el 26 de abril 🔥​#SupernovaGenesis #LasAlucines",
+              "channelTitle": "Supernova: Genesis",
+              "predicted7d": 58921,
+              "delta": 36765
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-27/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Supernova: Betrayal, Challenges, Glory!",
+            "description": "Dive into the most intense moments of Supernova! From shocking betrayals to epic challenges, witness the drama unfold. Who will rise, and who will fall?",
+            "tags": [
+              "supernova",
+              "shorts",
+              "challenge",
+              "betrayal",
+              "championship",
+              "roblox",
+              "drama",
+              "epicfights",
+              "winner",
+              "genesis"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "7GaoxVTsVe0"
+          },
+          "updatedAt": "2026-01-27T06:53:23.185Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "abraham",
+          "selectedSourceVideos": [
+            {
+              "videoId": "YMVzva9kec0",
+              "title": "Abraham juega a escapa del tsunami en steal a brainrot |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 1242296,
+              "delta": 621309
+            },
+            {
+              "videoId": "Gk0auy6nT0g",
+              "title": "Abraham aun tiene fe |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 380452,
+              "delta": 212577
+            },
+            {
+              "videoId": "20Db5sOSVZM",
+              "title": "xd me pache #memes #humor #xd #abraham #ikercrack25",
+              "channelTitle": "ikercrack25",
+              "predicted7d": 69273,
+              "delta": 68039
+            },
+            {
+              "videoId": "lKcT3_20d14",
+              "title": "Abraham pernah menjual Sarah ke Firaun😱 #bible #dongengiman #kisah #abraham",
+              "channelTitle": "Dongeng Iman",
+              "predicted7d": 63662,
+              "delta": 62493
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-27/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Abraham: Brainrot, Faith, Memes & More!",
+            "description": "Dive into the chaotic world of Abraham! From escaping tsunamis in brainrot games to surprising biblical tales and hilarious memes, this compilation has it all. You won't believe what happens next!",
+            "tags": [
+              "Abraham",
+              "Shorts",
+              "Brainrot",
+              "Memes",
+              "Faith",
+              "BibleStories",
+              "Funny",
+              "Compilation",
+              "Viral",
+              "ElAbrahaham"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "CN3s-aer2Io"
+          },
+          "updatedAt": "2026-01-27T06:54:02.639Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-27T06:54:02.640Z"
+    }
+  },
+  "finishedAt": "2026-01-27T06:54:02.641Z"
+}

@@ -1,0 +1,452 @@
+{
+  "runId": "2026-02-08",
+  "date": "2026-02-08",
+  "createdAt": "2026-02-08T06:50:02.180Z",
+  "updatedAt": "2026-02-08T06:54:54.661Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "그래미 어워드 2026",
+          "동계 올림픽 2026",
+          "맨유 토트넘",
+          "리니지 클래식",
+          "만만",
+          "불도그",
+          "왕 과 사는 남자",
+          "전한길",
+          "이강인",
+          "이문주",
+          "웨돔",
+          "오버 워치",
+          "울프",
+          "자두 두",
+          "명조",
+          "코이 티비",
+          "아이브",
+          "키키"
+        ],
+        "updatedAt": "2026-02-08T06:50:16.496Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "동계 올림픽 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "opFrQ-x_aiM",
+              "title": "Like Olympic – перше шорт-шоу про Олімпіаду 2026 від Епіцентр #LikeOlympic #всімсерцемзолімпійцями",
+              "channelTitle": "EpicentrK",
+              "predicted7d": 440791,
+              "delta": 278732
+            },
+            {
+              "videoId": "fXYPMo3vFw0",
+              "title": "Milano Cortina 2026 Opening Ceremony Highlights",
+              "channelTitle": "Olympics",
+              "predicted7d": 206986,
+              "delta": 196319
+            },
+            {
+              "videoId": "QcGFCBRw3To",
+              "title": "Vice President JD Vance and Family Attend the 2026 Winter Olympics in Milan",
+              "channelTitle": "🔔 WEDDINGS  OuÍ OuÍ🌹",
+              "predicted7d": 175359,
+              "delta": 165759
+            },
+            {
+              "videoId": "MgoCSMJYIE8",
+              "title": "Arisa canta l'Inno d'Italia per il passaggio di consegne con le Olimpiadi di Milano-Cortina 2026",
+              "channelTitle": "Dede music",
+              "predicted7d": 417475,
+              "delta": 85933
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-08/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Milano Cortina 2026: Winter Games Hype!",
+            "description": "Get ready for the Milano Cortina 2026 Winter Olympics! Dive into the excitement with opening ceremony highlights, celebrity appearances, and the spirit of the games. Don't miss the ultimate preview!",
+            "tags": [
+              "WinterOlympics",
+              "MilanoCortina2026",
+              "OlympicGames",
+              "Shorts",
+              "Sports",
+              "OpeningCeremony",
+              "Italy",
+              "WinterSports",
+              "OlympicHype",
+              "Arisa"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Sr0OT_HeErg"
+          },
+          "updatedAt": "2026-02-08T06:50:50.246Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "그래미 어워드 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "rW9WU7vWXbE",
+              "title": "BIG Grammy Nominees Didn’t Show Up at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 111128,
+              "delta": 42749
+            },
+            {
+              "videoId": "KYpYQfj-B_8",
+              "title": "Lauryn Hill Pays Tribute to D'Angelo at the 2026 Grammy Music Awards",
+              "channelTitle": "Platinum Vocals",
+              "predicted7d": 56808,
+              "delta": 42736
+            },
+            {
+              "videoId": "qI8kUGEQf40",
+              "title": "Biggest Fashion FAILS at Grammys 2026 😭",
+              "channelTitle": "Last",
+              "predicted7d": 51365,
+              "delta": 41280
+            },
+            {
+              "videoId": "mLVpQuFn-rE",
+              "title": "Rosé and celebrities at the GRAMMYs Awards 2026! 😍 #blackpink #rosé",
+              "channelTitle": "BLACKPINRKSS",
+              "predicted7d": 72228,
+              "delta": 30747
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-08/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Shocking Moments & Style!",
+            "description": "Relive the most talked-about moments from the 2026 Grammy Awards! From shocking no-shows and iconic tributes to unforgettable fashion fails and celebrity sightings, we've got it all. Don't miss out on the biggest night in music!",
+            "tags": [
+              "Grammys2026",
+              "GrammyAwards",
+              "MusicAwards",
+              "CelebrityFashion",
+              "RedCarpet",
+              "LaurynHill",
+              "Rosé",
+              "Blackpink",
+              "FashionFails",
+              "MusicNews"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "CujXH_8y-xk"
+          },
+          "updatedAt": "2026-02-08T06:51:58.869Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-08T06:51:58.877Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "grammys 2026 performance",
+          "justin bieber",
+          "winter olympics 2026",
+          "opalite taylor swift",
+          "3 doors down",
+          "bad bunny",
+          "nintendo direct",
+          "taylor swift",
+          "iron lung",
+          "billie eilish",
+          "cardi b",
+          "katseye",
+          "markiplier"
+        ],
+        "updatedAt": "2026-02-08T06:52:12.500Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "iFykD1Y73sQ",
+              "title": "Why Sabrina Carpenter writes like a comedian - songwriting, tears, Grammys 2026, taste, Manchild",
+              "channelTitle": "Oseremen",
+              "predicted7d": 202350,
+              "delta": 94920
+            },
+            {
+              "videoId": "3iOxdMzJyoQ",
+              "title": "Los peores looks de los Grammys 2026",
+              "channelTitle": "GENE HILARY",
+              "predicted7d": 81716,
+              "delta": 72320
+            },
+            {
+              "videoId": "tW0UF3N5oMM",
+              "title": "GNARLY GRAMMYS 2026⚠️ - Wrapped!",
+              "channelTitle": "Randi Martinez",
+              "predicted7d": 74565,
+              "delta": 62710
+            },
+            {
+              "videoId": "7w9veBWtRtM",
+              "title": "#chrisbrown in the presentation of #Justinbieber in the #grammys  #2026 #breeze #breezy #rnb #reels",
+              "channelTitle": "mamacho17",
+              "predicted7d": 55018,
+              "delta": 53603
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-08/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Shocking Moments & Fails!",
+            "description": "Dive into the most talked-about moments from the Grammys 2026! From shocking fashion to unexpected performances and viral reactions, we've got it all. Don't miss the wildest highlights!",
+            "tags": [
+              "Grammys2026",
+              "GrammyAwards",
+              "MusicAwards",
+              "CelebrityFashion",
+              "RedCarpet",
+              "SabrinaCarpenter",
+              "ChrisBrown",
+              "JustinBieber",
+              "ViralMoments",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "L6NxkU_T2Js"
+          },
+          "updatedAt": "2026-02-08T06:52:42.332Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "grammys 2026 performance",
+          "selectedSourceVideos": [
+            {
+              "videoId": "CtbpD5mPD8s",
+              "title": "SABRINA’S “MANCHILD” GRAMMY PERFORMANCE ✨😍",
+              "channelTitle": "Faith Elizabeth",
+              "predicted7d": 160261,
+              "delta": 152395
+            },
+            {
+              "videoId": "i0XxMFQemN8",
+              "title": "Katseye Deliver One of the Night’s Most Talked-About Performances at the 2026 Grammys.",
+              "channelTitle": "Glamily",
+              "predicted7d": 90249,
+              "delta": 79735
+            },
+            {
+              "videoId": "zASwdtSBHrc",
+              "title": "Grammy's Performance Vs. Rehearsal: Katseye \"Gnarly\" At Grammys 2026 Performance #shorts #katseye",
+              "channelTitle": "MusicByPumpkin",
+              "predicted7d": 64317,
+              "delta": 55164
+            },
+            {
+              "videoId": "bWNWfY5NfnE",
+              "title": "KATSEYE disastrous Grammy performance 2026.. the silence was DEAFENING 💀😱 #Shorts",
+              "channelTitle": "Korea Media Inc",
+              "predicted7d": 62982,
+              "delta": 54411
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-08/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "2026 Grammys: Iconic & Shocking Moments",
+            "description": "Relive the most unforgettable performances from the 2026 Grammys! From Sabrina's viral 'Manchild' to Katseye's controversial stages, we've got all the highs and lows. Which moment was your favorite (or least favorite)?",
+            "tags": [
+              "grammys2026",
+              "grammyperformance",
+              "sabrina",
+              "katseye",
+              "shorts",
+              "music",
+              "viral",
+              "kpop",
+              "awardshow",
+              "manchild"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Xpr6GL0sZmk"
+          },
+          "updatedAt": "2026-02-08T06:53:41.434Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-08T06:53:41.443Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "triston fuerza regida",
+          "mr doctor",
+          "dross",
+          "bad bunny",
+          "michael jackson"
+        ],
+        "updatedAt": "2026-02-08T06:53:51.542Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "iFykD1Y73sQ",
+              "title": "Why Sabrina Carpenter writes like a comedian - songwriting, tears, Grammys 2026, taste, Manchild",
+              "channelTitle": "Oseremen",
+              "predicted7d": 202350,
+              "delta": 94664
+            },
+            {
+              "videoId": "3iOxdMzJyoQ",
+              "title": "Los peores looks de los Grammys 2026",
+              "channelTitle": "GENE HILARY",
+              "predicted7d": 81716,
+              "delta": 72223
+            },
+            {
+              "videoId": "tW0UF3N5oMM",
+              "title": "GNARLY GRAMMYS 2026⚠️ - Wrapped!",
+              "channelTitle": "Randi Martinez",
+              "predicted7d": 74681,
+              "delta": 62826
+            },
+            {
+              "videoId": "7w9veBWtRtM",
+              "title": "#chrisbrown in the presentation of #Justinbieber in the #grammys  #2026 #breeze #breezy #rnb #reels",
+              "channelTitle": "mamacho17",
+              "predicted7d": 54664,
+              "delta": 53229
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-08/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Shocking Moments & Fails",
+            "description": "Relive the most talked-about moments from the 2026 Grammys! From Sabrina Carpenter's songwriting secrets to epic fashion fails and surprise performances, don't miss out.",
+            "tags": [
+              "Grammys2026",
+              "MusicAwards",
+              "FashionFails",
+              "SabrinaCarpenter",
+              "ChrisBrown",
+              "JustinBieber",
+              "AwardShow",
+              "PopCulture",
+              "Shorts",
+              "Entertainment"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "K9M5iIrIBZ0"
+          },
+          "updatedAt": "2026-02-08T06:54:19.716Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "triston fuerza regida",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ekHNUN0v5iI",
+              "title": "La luna sigue siendo tuya bebé... 🫶 #triston #fuerzaregida #corridostumbados #corridoschingones",
+              "channelTitle": "RU Music",
+              "predicted7d": 102683,
+              "delta": 92470
+            },
+            {
+              "videoId": "u1sFgWmAQAM",
+              "title": "#jop #jesusortizpaz #fuerzaregida #parati #fypシ #viralshort #musica #triston #fyp #paratiiiiiiiiii",
+              "channelTitle": "La Fresita🍓Cherry🍒 11:11",
+              "predicted7d": 41441,
+              "delta": 33928
+            },
+            {
+              "videoId": "Rof8N0_s44c",
+              "title": "😔TRISTON - OUT NOW!",
+              "channelTitle": "FUERZA REGIDA",
+              "predicted7d": 55478,
+              "delta": 20112
+            },
+            {
+              "videoId": "gGEuH8kEqls",
+              "title": "😔TRISTON",
+              "channelTitle": "FUERZA REGIDA",
+              "predicted7d": 45685,
+              "delta": 17900
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-08/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Fuerza Regida's Triston: Sad Vibes Only",
+            "description": "Dive into the raw emotion of Fuerza Regida's latest hit, 'Triston'. This corrido tumbado masterpiece captures the essence of heartbreak and longing. Feel every lyric and let the music move you.",
+            "tags": [
+              "fuerzaregida",
+              "triston",
+              "corridostumbados",
+              "jop",
+              "sadmusic",
+              "regionalmexicano",
+              "fyp",
+              "viralshorts",
+              "newmusic"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "doV7opT5yHU"
+          },
+          "updatedAt": "2026-02-08T06:54:54.650Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-08T06:54:54.659Z"
+    }
+  },
+  "finishedAt": "2026-02-08T06:54:54.661Z"
+}

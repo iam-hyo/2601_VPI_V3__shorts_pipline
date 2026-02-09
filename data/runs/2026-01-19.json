@@ -1,0 +1,435 @@
+{
+  "runId": "2026-01-19",
+  "date": "2026-01-19",
+  "createdAt": "2026-01-19T06:50:01.848Z",
+  "updatedAt": "2026-01-19T06:54:13.960Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김동현 운동 많이 된다",
+          "이사 랑 통역 되나요",
+          "임성근 음주 운전",
+          "이 사랑 통역 되나요",
+          "쇼미 12",
+          "쇼 미더 머니 12",
+          "윤석열 구형",
+          "울프",
+          "알파 드라이브 원",
+          "고 윤정",
+          "lck",
+          "환율",
+          "이란",
+          "피식 대학",
+          "윤석열",
+          "스포츠 토토",
+          "t1",
+          "한동훈",
+          "원신",
+          "최강 록",
+          "리니지 클래식",
+          "두 쫀쿠",
+          "신의 악단",
+          "안세영"
+        ],
+        "updatedAt": "2026-01-19T06:50:24.500Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "keyword": "김동현 운동 많이 된다",
+          "selectedSourceVideos": [
+            {
+              "videoId": "8_U3K8rw54k",
+              "title": "\"오늘 운동 많이 된다\" 급격하게 유행을 타고 있는 김동현 말투, 왜일까?",
+              "channelTitle": "잡생각",
+              "predicted7d": 1928567,
+              "delta": 586929
+            },
+            {
+              "videoId": "PnP6vTvMY8s",
+              "title": "애쉬비야 랩 많이 된다 스트레스 많이 받을거야 잠들기 전에 야차 생각날거야",
+              "channelTitle": "해쉬",
+              "predicted7d": 454686,
+              "delta": 125695
+            },
+            {
+              "videoId": "17s4pXKaf4E",
+              "title": "김동현만 모르는 김동현 밈 모음",
+              "channelTitle": "오른손수면제",
+              "predicted7d": 238984,
+              "delta": 110809
+            },
+            {
+              "videoId": "O1lnBaMH0vA",
+              "title": "밈의 탄생순간 김동현 운동 많이 된다 #매미킴tv #ufc #borntowin #mma #매미킴",
+              "channelTitle": "요기보슈",
+              "predicted7d": 311519,
+              "delta": 91448
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-19/KR_video_01/inputs/O1lnBaMH0vA.mp4\\\" \\\"https://www.youtube.com/watch?v=O1lnBaMH0vA\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] O1lnBaMH0vA: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] O1lnBaMH0vA: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-19/KR_video_01/inputs/O1lnBaMH0vA.mp4\\\" \\\"https://www.youtube.com/watch?v=O1lnBaMH0vA\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] O1lnBaMH0vA: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] O1lnBaMH0vA: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "이사 랑 통역 되나요",
+          "selectedSourceVideos": [
+            {
+              "videoId": "KAl0-fCPswU",
+              "title": "3일 밤을 새워도 자기야를 보러 간다는 김선호 #이사랑통역되나요 #넷플릭스",
+              "channelTitle": "한입만봐",
+              "predicted7d": 1395385,
+              "delta": 428717
+            },
+            {
+              "videoId": "5i6GwnixXWo",
+              "title": "뒤가 없는 무서운 도라미의 도발 #이사랑통역되나요",
+              "channelTitle": "멍스토리",
+              "predicted7d": 1070255,
+              "delta": 289489
+            },
+            {
+              "videoId": "qmqz7Mjjd4M",
+              "title": "귀엽고 투명한 댕댕이 같은 여자 #고윤정 #김선호 #이사랑통역되나요",
+              "channelTitle": "어바웃타임 (About time)",
+              "predicted7d": 506523,
+              "delta": 286898
+            },
+            {
+              "videoId": "u9HsjgLTElI",
+              "title": "도라미 매력에 빠져들고 있는 주호진 #이사랑통역되나요",
+              "channelTitle": "멍스토리",
+              "predicted7d": 646558,
+              "delta": 185245
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-19/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Is Love Translatable? Iconic Moments!",
+            "description": "Dive into the captivating world of 'Is Love Translatable?' (No Loss in Love) with these unforgettable moments. Witness the undeniable chemistry between Kim Seon-ho and Go Youn-jung, alongside hilarious and heartwarming scenes. Don't miss these iconic clips from the hit drama!",
+            "tags": [
+              "이사랑통역되나요",
+              "IsLoveTranslatable",
+              "NoLossInLove",
+              "김선호",
+              "KimSeonho",
+              "고윤정",
+              "GoYounjung",
+              "K-Drama",
+              "Netflix",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "f6PHl5tNZh4"
+          },
+          "updatedAt": "2026-01-19T06:51:14.539Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-19T06:51:14.548Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "euphoria season 3 trailer",
+          "kais mind",
+          "hytale",
+          "bears vs rams",
+          "kai cenat",
+          "druski",
+          "marvel rivals",
+          "golden globes 2026",
+          "saturday night live",
+          "youngboy never broke again",
+          "natalie reynolds"
+        ],
+        "updatedAt": "2026-01-19T06:51:25.202Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "hytale",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ZQS1B7bNXDA",
+              "title": "MINECRAFT 2 ACABA DE HACER LO IMPOSIBLE (HYTALE) 😱",
+              "channelTitle": "Magmuh",
+              "predicted7d": 591401,
+              "delta": 295111
+            },
+            {
+              "videoId": "_AA6-AO2S9s",
+              "title": "HYTALE ES LO MEJOR QUE PUDO PASARLE A MINECRAFT 😱💀",
+              "channelTitle": "Magmuh",
+              "predicted7d": 492534,
+              "delta": 249167
+            },
+            {
+              "videoId": "BAC2P8si0QA",
+              "title": "HYTALE vs MINECRAFT⛏️💎#comedia",
+              "channelTitle": "YERRIKILLERXD",
+              "predicted7d": 482311,
+              "delta": 196278
+            },
+            {
+              "videoId": "QHuhngpCMKQ",
+              "title": "Nadando en Hytale vs Minecraft",
+              "channelTitle": "gerreg",
+              "predicted7d": 128453,
+              "delta": 119250
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-19/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Hytale vs Minecraft: The ULTIMATE Showdown!",
+            "description": "Is Hytale the true successor to Minecraft? Dive into epic comparisons, mind-blowing features, and see why the block game world is buzzing! Get ready for the ultimate showdown!",
+            "tags": [
+              "Hytale",
+              "Minecraft",
+              "Hytale vs Minecraft",
+              "Gaming Shorts",
+              "Block Game",
+              "New Game",
+              "Minecraft 2",
+              "Gaming Comparison",
+              "Hypixel Studios",
+              "Open World"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "dfRkCL9Ud2s"
+          },
+          "updatedAt": "2026-01-19T06:52:06.342Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "bears vs rams",
+          "selectedSourceVideos": [
+            {
+              "videoId": "y5gVHMtLbgQ",
+              "title": "The end of Rams vs Bears divisional game was UNBELIEVABLE!",
+              "channelTitle": "how bout those CHIEFS",
+              "predicted7d": 203706,
+              "delta": 195981
+            },
+            {
+              "videoId": "LU49XRGF14g",
+              "title": "Reaction To Rams vs Bears Playoff OT Thriller #nfl #nflfootball #rams #bears #trending",
+              "channelTitle": "Tylertsports",
+              "predicted7d": 136782,
+              "delta": 130147
+            },
+            {
+              "videoId": "iGBKHYjt0uo",
+              "title": "Mathhew Stafford and The Rams Insane Comeback VS Bears☠️🔥 #nfl #shorts",
+              "channelTitle": "D1 Kuumo",
+              "predicted7d": 109207,
+              "delta": 64269
+            },
+            {
+              "videoId": "XtwaljFhMRg",
+              "title": "Bears vs Rams INSANE Ending Live Reaction",
+              "channelTitle": "Super Sports Central",
+              "predicted7d": 57698,
+              "delta": 56396
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-19/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "NFL Playoff Chaos: Rams vs Bears!",
+            "description": "Relive the most insane, unbelievable, and thrilling moments from the legendary Rams vs Bears matchups! From epic comebacks to overtime drama, these games had it all. Don't miss these unforgettable NFL highlights!",
+            "tags": [
+              "NFL",
+              "Shorts",
+              "Rams",
+              "Bears",
+              "Football",
+              "Highlights",
+              "Comeback",
+              "Playoffs",
+              "Overtime",
+              "Insane Ending"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "uOH8LbiROyQ"
+          },
+          "updatedAt": "2026-01-19T06:52:42.690Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-19T06:52:42.698Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "pachuca vs america",
+          "kenia os",
+          "yeison jiménez",
+          "bts",
+          "vegetta777",
+          "4x4tro"
+        ],
+        "updatedAt": "2026-01-19T06:52:54.479Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "yeison jiménez",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ot8KJ5Wd9-s",
+              "title": "El mensaje que Yeison Jiménez le hubiera dicho a su yo del pasado",
+              "channelTitle": "La Capital Vallenata",
+              "predicted7d": 208032,
+              "delta": 199315
+            },
+            {
+              "videoId": "8bnSvBGXmX4",
+              "title": "Yeison Jiménez tenía un buen sentido del humor",
+              "channelTitle": "La Capital Vallenata",
+              "predicted7d": 192636,
+              "delta": 182477
+            },
+            {
+              "videoId": "s4aaznzAz-4",
+              "title": "Cantantes que lloraron la partida de Yeison Jiménez",
+              "channelTitle": "La Capital Vallenata",
+              "predicted7d": 180034,
+              "delta": 170060
+            },
+            {
+              "videoId": "vdgnNVciKos",
+              "title": "El día que YEISON JIMÉNEZ informó a la prensa Que compró su AVIÓN créditos laKlle #fyp #musica #2026",
+              "channelTitle": "Luis Guillermo De La Hoz ",
+              "predicted7d": 134086,
+              "delta": 126428
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-19/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Yeison Jiménez: Life, Laughs & Luxury!",
+            "description": "Dive into the world of Yeison Jiménez! From his heartfelt advice to his hilarious moments, and even his incredible private jet purchase, discover the multifaceted life of this music icon. See why fellow artists get emotional and what makes him truly unique.",
+            "tags": [
+              "YeisonJimenez",
+              "ColombianMusic",
+              "LatinArtist",
+              "Shorts",
+              "MusicIcon",
+              "CelebrityLife",
+              "PrivateJet",
+              "Humor",
+              "EmotionalMoments",
+              "SuccessStory"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "JgphQFV_O38"
+          },
+          "updatedAt": "2026-01-19T06:53:38.632Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "bts",
+          "selectedSourceVideos": [
+            {
+              "videoId": "9Pg1GxpBx7U",
+              "title": "wait for jhope solo dance part, 🔥😱#bts #btsshorts",
+              "channelTitle": "𝐓𝐀𝐄𝐘𝐀 𝐇𝐔𝐁",
+              "predicted7d": 893958,
+              "delta": 501702
+            },
+            {
+              "videoId": "bRxzDaK2wOs",
+              "title": "taehyung killing expression 🔥😱#bts #btsshorts",
+              "channelTitle": "𝐓𝐀𝐄𝐘𝐀 𝐇𝐔𝐁",
+              "predicted7d": 708232,
+              "delta": 416097
+            },
+            {
+              "videoId": "vZ50GME251g",
+              "title": "BTS LESTI NGAMUK DI RUMAH SAKIT 😷 #shortvideo #viral #trending #short #bts",
+              "channelTitle": "Hj Amaniyah",
+              "predicted7d": 910605,
+              "delta": 405096
+            },
+            {
+              "videoId": "4RFJ8GLp4nk",
+              "title": "Rimjhim New Promo #rimjhim #rimeer Rimjhim Upcoming Twist #dangaltv #bts Rimjhim Today Episode #love",
+              "channelTitle": "A Ghibli Days",
+              "predicted7d": 716607,
+              "delta": 373129
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-19/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "BTS Moments: Dance, Drama & Twists!",
+            "description": "Dive into the most unexpected and thrilling moments featuring your favorite idols! From electrifying dance breaks to shocking drama, this compilation has it all. Don't miss out – like, share, and subscribe for more!",
+            "tags": [
+              "#BTS",
+              "#BTSSHORTS",
+              "#KPOP",
+              "#JHOPE",
+              "#TAEHYUNG",
+              "#IDOLDRAMA",
+              "#SHOCKINGTWIST",
+              "#VIRALSHORTS",
+              "#KPOPSHORTS",
+              "#ARMY"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "3W8gMjYyRr8"
+          },
+          "updatedAt": "2026-01-19T06:54:13.950Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-19T06:54:13.958Z"
+    }
+  },
+  "finishedAt": "2026-01-19T06:54:13.960Z"
+}

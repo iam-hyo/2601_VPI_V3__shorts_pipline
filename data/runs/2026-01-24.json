@@ -1,0 +1,417 @@
+{
+  "runId": "2026-01-24",
+  "date": "2026-01-24",
+  "createdAt": "2026-01-24T06:50:02.272Z",
+  "updatedAt": "2026-01-24T06:54:14.772Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "박민정 결혼",
+          "맨유 맨시티",
+          "솔로 지옥 5",
+          "명일 방주 엔드 필드",
+          "스트레스 많이 받을 거야",
+          "김동현 밈",
+          "이사 랑 통역 되나요",
+          "t1 kt",
+          "김선호",
+          "차은 우",
+          "고 윤정",
+          "우리 기술",
+          "풍향 고",
+          "핫소스",
+          "촌장 엔터테인먼트"
+        ],
+        "updatedAt": "2026-01-24T06:50:27.717Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "박민정 결혼",
+          "selectedSourceVideos": [
+            {
+              "videoId": "3qjS9t8wu9c",
+              "title": "박민정 결혼발표",
+              "channelTitle": " 핫태핫",
+              "predicted7d": 420562,
+              "delta": 123397
+            },
+            {
+              "videoId": "k64ZCMv9WOM",
+              "title": "최근 결혼발표 했다는 박민정의 결혼 상대",
+              "channelTitle": "요거당",
+              "predicted7d": 61704,
+              "delta": 52971
+            },
+            {
+              "videoId": "z7HX_MWN07Q",
+              "title": "박민정 결혼소식 들은 김민교 반응",
+              "channelTitle": " 핫태핫",
+              "predicted7d": 227249,
+              "delta": 36207
+            },
+            {
+              "videoId": "Dp84yEkuoAk",
+              "title": "핫소스 송형주 인플루언서 박민정과 깜짝 결혼 발표!!!! #유튜버 #핫소스 #박민정 #결혼 #이슈",
+              "channelTitle": "다양한소식통",
+              "predicted7d": 33792,
+              "delta": 21637
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-24/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Park Minjung's Shocking Marriage News!",
+            "description": "Influencer Park Minjung just dropped a bombshell! Get all the details about her surprise marriage announcement and who the lucky groom is. Plus, see hilarious reactions from fellow creators!",
+            "tags": [
+              "ParkMinjung",
+              "MarriageNews",
+              "KoreanInfluencer",
+              "HotSauce",
+              "SongHyungjoo",
+              "Youtuber",
+              "CelebrityWedding",
+              "ShockingNews",
+              "KPopCulture",
+              "ViralNews"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "JginZxb_ZlI"
+          },
+          "updatedAt": "2026-01-24T06:50:57.802Z"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "keyword": "맨유 맨시티",
+          "selectedSourceVideos": [
+            {
+              "videoId": "GdnAdmgzCfY",
+              "title": "펩의 맨시티를 상대로 티키타카 하는 맨유ㅋㅋ",
+              "channelTitle": "방구석스포츠",
+              "predicted7d": 2632870,
+              "delta": 743746
+            },
+            {
+              "videoId": "I2ZSqOx5Ezg",
+              "title": "맨유에게 한 방 먹은 돈나룸마 😂",
+              "channelTitle": "빅6풋볼",
+              "predicted7d": 652022,
+              "delta": 170892
+            },
+            {
+              "videoId": "kmGDdAy-kjA",
+              "title": "맨유 정상화는 역시...",
+              "channelTitle": "축스토리",
+              "predicted7d": 752359,
+              "delta": 170413
+            },
+            {
+              "videoId": "PqjyNmLUk18",
+              "title": "맨유를 떠난 안산가래호 근황 ㄷㄷ 누가 죄인인가?",
+              "channelTitle": "이든해저드",
+              "predicted7d": 635132,
+              "delta": 154055
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-24/KR_video_02/inputs/GdnAdmgzCfY.mp4\\\" \\\"https://www.youtube.com/watch?v=GdnAdmgzCfY\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] GdnAdmgzCfY: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] GdnAdmgzCfY: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-24/KR_video_02/inputs/GdnAdmgzCfY.mp4\\\" \\\"https://www.youtube.com/watch?v=GdnAdmgzCfY\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] GdnAdmgzCfY: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] GdnAdmgzCfY: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-24T06:50:57.810Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "隊長",
+          "kingsman marvel rivals",
+          "harry styles",
+          "snl"
+        ],
+        "updatedAt": "2026-01-24T06:51:12.774Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "kingsman marvel rivals",
+          "selectedSourceVideos": [
+            {
+              "videoId": "JDtEcQ69qh8",
+              "title": "Marvel Rivals Drama Part 99 | Kingsman $40k Tournament",
+              "channelTitle": "Unemployed Rivals",
+              "predicted7d": 137090,
+              "delta": 126171
+            },
+            {
+              "videoId": "T-mU1GZNiv0",
+              "title": "Kingsman got the BEST ending ($40,000 Marvel Rivals Tournament) #shorts #marvelrivals",
+              "channelTitle": "Vince's Vault",
+              "predicted7d": 91013,
+              "delta": 79812
+            },
+            {
+              "videoId": "5lATndx_9NI",
+              "title": "The Worst Part About the Kingsman Marvel Rivals Situation",
+              "channelTitle": "PAOLO PLAYS GAMES",
+              "predicted7d": 63187,
+              "delta": 55736
+            },
+            {
+              "videoId": "hcBP9-1aGaQ",
+              "title": "Kingsman Is Suffering From Success | Marvel Rivals",
+              "channelTitle": "Unemployed Rivals",
+              "predicted7d": 53113,
+              "delta": 38404
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-24/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Kingsman's Marvel Rivals Drama EXPOSED!",
+            "description": "Uncover the shocking $40,000 Marvel Rivals tournament drama surrounding Kingsman. From unexpected victories to controversial moments, this Shorts compilation reveals everything you need to know.",
+            "tags": [
+              "Kingsman",
+              "MarvelRivals",
+              "GamingDrama",
+              "Esports",
+              "Tournament",
+              "$40k",
+              "GamingNews",
+              "Controversy",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ljIJA-4tL6g"
+          },
+          "updatedAt": "2026-01-24T06:51:56.840Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "harry styles",
+          "selectedSourceVideos": [
+            {
+              "videoId": "xrFpnt7r51g",
+              "title": "What Do You Think Of Harry Styles “Aperture” & The Lyrics? #shorts #harrystyles",
+              "channelTitle": "Jarred Jermaine",
+              "predicted7d": 87798,
+              "delta": 74796
+            },
+            {
+              "videoId": "bk7HrrebV7I",
+              "title": "sign of the times - Harry Styles #harrystyles #fyp #singing #singer #cover",
+              "channelTitle": "Drew Schueler",
+              "predicted7d": 71810,
+              "delta": 70666
+            },
+            {
+              "videoId": "BS-DTjQRLT4",
+              "title": "Aperture Harry Styles #musica #harrystyles #harries #musicapop",
+              "channelTitle": "Fanny’s Playlist ",
+              "predicted7d": 64544,
+              "delta": 63302
+            },
+            {
+              "videoId": "kWP3zoreC9o",
+              "title": "Harry Styles Got Us Behind The DJ BOOTH With Aperture #harrystyles #aperture #reaction",
+              "channelTitle": "Bez",
+              "predicted7d": 62159,
+              "delta": 61112
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-24/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Harry Styles: Aperture & SOTT Vibes!",
+            "description": "Dive into the world of Harry Styles with these iconic Shorts! From deep lyric dives on 'Aperture' to stunning 'Sign of the Times' covers, get your daily dose of Harries magic. Don't miss the behind-the-scenes reactions!",
+            "tags": [
+              "Harry Styles",
+              "Aperture",
+              "Sign of the Times",
+              "Harries",
+              "Pop Music",
+              "Music Reaction",
+              "Song Cover",
+              "Shorts",
+              "Viral Music"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "i0RdjomBWxQ"
+          },
+          "updatedAt": "2026-01-24T06:52:31.764Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-24T06:52:31.773Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "pachuca vs america en vivo",
+          "supernova",
+          "todo lo fue lenin ramirez",
+          "harry styles",
+          "ebrio de amor",
+          "4x4tro"
+        ],
+        "updatedAt": "2026-01-24T06:52:38.770Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "supernova",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4aYLVSFpSNk",
+              "title": "Abraham Vs Nanda #elabrahaham #edit #fypシ #fedevigevani #boxeo #supernova #boxing #peleadeboxeo #box",
+              "channelTitle": "Alex Edits7k ",
+              "predicted7d": 310059,
+              "delta": 103859
+            },
+            {
+              "videoId": "GFOMGSP9c5g",
+              "title": "Abrahaham farmeando aura💀🔥 #edit #audio #supernova #abraham #nandogames_",
+              "channelTitle": "👑Neymar edits👑#1",
+              "predicted7d": 101680,
+              "delta": 93989
+            },
+            {
+              "videoId": "3zaJ5GTDJkY",
+              "title": "Comenten 👀🔥🥊 #elabrahaham #nando #yoloaventuras #losbros #supernova #pelea #fypviral",
+              "channelTitle": "ElAbrahahamGracioso",
+              "predicted7d": 67438,
+              "delta": 66412
+            },
+            {
+              "videoId": "GrDOhphENc4",
+              "title": "Abrahaham En Momentos Serios #elabraham #losbros #supernova",
+              "channelTitle": "PIEROYT",
+              "predicted7d": 72617,
+              "delta": 64998
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-24/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Abraham: The Ultimate Power Surge",
+            "description": "Dive into the world of Abraham's raw power and intense battles. See him clash with Nanda, farm his legendary aura, and reveal his serious side in these electrifying moments. Get ready for an adrenaline rush!",
+            "tags": [
+              "Abraham",
+              "Nanda",
+              "Boxing",
+              "Fight",
+              "Supernova",
+              "Shorts",
+              "Viral",
+              "Power",
+              "Aura",
+              "Compilation"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "qxdYvmMdbuk"
+          },
+          "updatedAt": "2026-01-24T06:53:15.922Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "harry styles",
+          "selectedSourceVideos": [
+            {
+              "videoId": "xrFpnt7r51g",
+              "title": "What Do You Think Of Harry Styles “Aperture” & The Lyrics? #shorts #harrystyles",
+              "channelTitle": "Jarred Jermaine",
+              "predicted7d": 87798,
+              "delta": 74796
+            },
+            {
+              "videoId": "bk7HrrebV7I",
+              "title": "sign of the times - Harry Styles #harrystyles #fyp #singing #singer #cover",
+              "channelTitle": "Drew Schueler",
+              "predicted7d": 71810,
+              "delta": 70666
+            },
+            {
+              "videoId": "BS-DTjQRLT4",
+              "title": "Aperture Harry Styles #musica #harrystyles #harries #musicapop",
+              "channelTitle": "Fanny’s Playlist ",
+              "predicted7d": 64841,
+              "delta": 63586
+            },
+            {
+              "videoId": "LpGJhRh7rJU",
+              "title": "harry styles in 2026",
+              "channelTitle": "Upstairs Neighbors Podcast",
+              "predicted7d": 68812,
+              "delta": 63049
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-24/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Harry Styles: Unseen & Untold!",
+            "description": "Dive into the world of Harry Styles with this ultimate Shorts compilation! From deep lyrical analysis of \"Aperture\" to stunning covers and future predictions, we've got it all. Get ready for some serious Harries content!",
+            "tags": [
+              "HarryStyles",
+              "Harries",
+              "Shorts",
+              "Music",
+              "PopCulture",
+              "Aperture",
+              "SignOfTheTimes",
+              "FanTheory",
+              "Celebrity",
+              "PopMusic"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "G_XzwkPE4Eo"
+          },
+          "updatedAt": "2026-01-24T06:54:14.762Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-24T06:54:14.770Z"
+    }
+  },
+  "finishedAt": "2026-01-24T06:54:14.772Z"
+}

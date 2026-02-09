@@ -1,0 +1,405 @@
+{
+  "runId": "2026-01-30",
+  "date": "2026-01-30",
+  "createdAt": "2026-01-30T06:50:01.815Z",
+  "updatedAt": "2026-01-30T06:53:25.320Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "맨유 아스날",
+          "유병 장수 girl",
+          "아 랏쏘",
+          "최미나 수",
+          "솔로 지옥",
+          "메이플 키우기",
+          "트레이 비",
+          "차은 우",
+          "풍향 고",
+          "키키",
+          "에코프로",
+          "나 우아 임영",
+          "언더 커버 미스 홍",
+          "ufc",
+          "뜬뜬",
+          "슈카 월드"
+        ],
+        "updatedAt": "2026-01-30T06:50:17.949Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "keyword": "맨유 아스날",
+          "selectedSourceVideos": [
+            {
+              "videoId": "a1op_pguxuc",
+              "title": "다시 부활하는 캐릭의 맨유 | 아스날 vs 맨유",
+              "channelTitle": "FOOTstory",
+              "predicted7d": 119760,
+              "delta": 108640
+            },
+            {
+              "videoId": "6dUWgTq34F8",
+              "title": "진짜 알다가도 모르겠다는 맨유와 아스날",
+              "channelTitle": "메시맛집",
+              "predicted7d": 224102,
+              "delta": 82258
+            },
+            {
+              "videoId": "BZaZQinAOac",
+              "title": "이젠 소름이 돋는다..",
+              "channelTitle": "기래민",
+              "predicted7d": 139232,
+              "delta": 50734
+            },
+            {
+              "videoId": "b4vlrKAu96c",
+              "title": "EPL 현폼 1위는 맨유입니다",
+              "channelTitle": "여푸",
+              "predicted7d": 63937,
+              "delta": 50208
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/KR_video_01/inputs/6dUWgTq34F8.mp4\\\" \\\"https://www.youtube.com/watch?v=6dUWgTq34F8\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] 6dUWgTq34F8: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] 6dUWgTq34F8: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/KR_video_01/inputs/6dUWgTq34F8.mp4\\\" \\\"https://www.youtube.com/watch?v=6dUWgTq34F8\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] 6dUWgTq34F8: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] 6dUWgTq34F8: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "최미나 수",
+          "selectedSourceVideos": [
+            {
+              "videoId": "sVkP7d37LM8",
+              "title": "솔로지옥5 멘탈 터져서 김민지 뒷담 까는 최미나수",
+              "channelTitle": "폭스토리",
+              "predicted7d": 913238,
+              "delta": 400366
+            },
+            {
+              "videoId": "FWlnaag0zWs",
+              "title": "역대급 메기최미나수의 레이더에 들어온 현우 #솔로지옥5",
+              "channelTitle": "톡잇업TV",
+              "predicted7d": 94766,
+              "delta": 84599
+            },
+            {
+              "videoId": "5_f6ttQQR3A",
+              "title": "#솔로지옥5 송중기남 임수빈 과거 영상 #솔로지옥 #임수빈 #최미나수",
+              "channelTitle": "어머어머zip",
+              "predicted7d": 91955,
+              "delta": 82336
+            },
+            {
+              "videoId": "df1BwxDngok",
+              "title": "수빈의 나이를 듣고서 멘탈 나가버린 최미나수 #솔로지옥 #솔로지옥5",
+              "channelTitle": "관리뚱",
+              "predicted7d": 137695,
+              "delta": 70274
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Mina Su's Inferno: Drama Uncut!",
+            "description": "Dive into the most dramatic moments of Mina Su from Single's Inferno 5! Witness her shocking reactions, intense confrontations, and unexpected twists. You won't believe what happens next!",
+            "tags": [
+              "Mina Su",
+              "Singles Inferno",
+              "Solo's Inferno",
+              "Korean Reality TV",
+              "Dating Show",
+              "K-Drama",
+              "Drama",
+              "Controversy",
+              "Netflix",
+              "Reactions"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "BTJqDz9hbd4"
+          },
+          "updatedAt": "2026-01-30T06:51:00.898Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-30T06:51:00.906Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "alex pretti",
+          "alex honnold",
+          "brawadis",
+          "ufc",
+          "brooke monk",
+          "ryan hall",
+          "weather"
+        ],
+        "updatedAt": "2026-01-30T06:51:15.396Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "alex pretti",
+          "selectedSourceVideos": [
+            {
+              "videoId": "_5OPN5siBVc",
+              "title": "Joe Rogan Reacts to Elizabeth Warren’s Story About Alex Pretti Falling Apart #shorts",
+              "channelTitle": "ReactStorm",
+              "predicted7d": 2200632,
+              "delta": 908491
+            },
+            {
+              "videoId": "Y20S870RtW8",
+              "title": "ICE Tracked Alex Pretti Before His Death",
+              "channelTitle": "NowThis Impact",
+              "predicted7d": 305970,
+              "delta": 165996
+            },
+            {
+              "videoId": "ZxuOql1vToo",
+              "title": "New Alex Pretti Video Released. MAGAs Say It Justifies His Murder",
+              "channelTitle": "DeFranco News Clips",
+              "predicted7d": 195927,
+              "delta": 110230
+            },
+            {
+              "videoId": "1EubXrw-dDA",
+              "title": "Minnesotans honor Alex Pretti at vigil",
+              "channelTitle": "Reuters",
+              "predicted7d": 118214,
+              "delta": 106970
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Alex Pretti: Unpacking the Controversy",
+            "description": "Dive into the complex story of Alex Pretti, from political reactions to new video releases and community vigils. We explore the different facets of a case that sparked national debate and controversy. What truly happened?",
+            "tags": [
+              "Alex Pretti",
+              "Joe Rogan",
+              "Elizabeth Warren",
+              "ICE",
+              "Controversy",
+              "Political Debate",
+              "Minnesota",
+              "Vigil",
+              "Shorts",
+              "News"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "st5CI3n48Xg"
+          },
+          "updatedAt": "2026-01-30T06:51:47.440Z"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "keyword": "alex honnold",
+          "selectedSourceVideos": [
+            {
+              "videoId": "qBXFjAJboUA",
+              "title": "MrBeast critica el pago de Netflix a Alex Honnold por escalar un edificio 😱🤔 #Shorts",
+              "channelTitle": "Energiapersonal",
+              "predicted7d": 1762518,
+              "delta": 905638
+            },
+            {
+              "videoId": "_j1SXRR2J7A",
+              "title": "Alex Honnold Climbs Taipei 101, Gets World Record | Indian guy Climbs Jindal Tower, Gets Arrested",
+              "channelTitle": "ArD Roxz Shorts",
+              "predicted7d": 764352,
+              "delta": 439931
+            },
+            {
+              "videoId": "afOHA2g1z7U",
+              "title": "Dị nhân Alex Honnold khuất phục Taipei 101",
+              "channelTitle": "GÓC QUAY XE",
+              "predicted7d": 60307,
+              "delta": 49498
+            },
+            {
+              "videoId": "tKeE1UCt1w8",
+              "title": "Is Alex Honnold Crazy for This? 😳",
+              "channelTitle": "Boulder Problem",
+              "predicted7d": 109170,
+              "delta": 48272
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/US_video_02/inputs/_j1SXRR2J7A.mp4\\\" \\\"https://www.youtube.com/watch?v=_j1SXRR2J7A\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nERROR: [youtube] _j1SXRR2J7A: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/US_video_02/inputs/_j1SXRR2J7A.mp4\\\" \\\"https://www.youtube.com/watch?v=_j1SXRR2J7A\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nERROR: [youtube] _j1SXRR2J7A: Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\\n\"}"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-01-30T06:51:47.448Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "liga bazooka",
+          "lamberto quintero",
+          "abraham",
+          "jair sanchez",
+          "santa fe klan",
+          "penitencia",
+          "yolo",
+          "todo lo fue lenin ramirez",
+          "fede"
+        ],
+        "updatedAt": "2026-01-30T06:52:07.682Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "liga bazooka",
+          "selectedSourceVideos": [
+            {
+              "videoId": "BlnWL1vd5Pg",
+              "title": "Brutal cierre de Muelas vs Aczino en Liga Bazooka MX",
+              "channelTitle": "Freestylememes2",
+              "predicted7d": 106706,
+              "delta": 105378
+            },
+            {
+              "videoId": "R01TC4Rmdg8",
+              "title": "\"MARADONA ODIARÍA A CHILI PARKER\" - DANGER VS CHILI PARKER LIGA BAZOOKA MÉXICO",
+              "channelTitle": "EYOU TV",
+              "predicted7d": 82297,
+              "delta": 75659
+            },
+            {
+              "videoId": "p8iGCL01sG8",
+              "title": "🔥LA RAZON ESTACA EN EL PECHO🔥 MUELAS SUELTA BARS VS ACZINO EN LIGA BAZOOKA MEXICO",
+              "channelTitle": "EL FUNERAL DE IRON BATTLES",
+              "predicted7d": 58926,
+              "delta": 57607
+            },
+            {
+              "videoId": "hx8wZwUIgQ8",
+              "title": "MULTIRREACCIÓN AL RIMÓN DE MUELAS DE GALLO VS ACZINO | LIGA BAZOOKA INTERNACIONAL MÉXICO 2026",
+              "channelTitle": "SonolaSR",
+              "predicted7d": 60535,
+              "delta": 54010
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Liga Bazooka: Craziest Rap Battles!",
+            "description": "Dive into the most intense moments from Liga Bazooka! Witness brutal finishes, legendary bars, and unforgettable reactions from the crowd. Don't miss these epic rap battles!",
+            "tags": [
+              "LigaBazooka",
+              "RapBattle",
+              "Freestyle",
+              "Aczino",
+              "MuelasDeGallo",
+              "ChiliParker",
+              "Danger",
+              "MexicoRap",
+              "HipHop",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "E0vG5iWpTWk"
+          },
+          "updatedAt": "2026-01-30T06:52:50.932Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "abraham",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Pja37sPkJ5A",
+              "title": "Abraham se enfrenta a las olas |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 1303571,
+              "delta": 697343
+            },
+            {
+              "videoId": "cQfG9w_Vlrc",
+              "title": "Abraham se asusta con las olas |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 1511092,
+              "delta": 682226
+            },
+            {
+              "videoId": "ZRUp20JHDn8",
+              "title": "Abraham es indestructible |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 1205264,
+              "delta": 640069
+            },
+            {
+              "videoId": "nI8KPF3F2rc",
+              "title": "A Abraham le sale un brainrot divino en los luckyblocks |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 880954,
+              "delta": 407140
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-30/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Abraham's Wildest Moments!",
+            "description": "Witness Abraham's most epic and hilarious moments! From battling giant waves to experiencing divine brainrot in lucky blocks, this compilation has it all. Prepare for pure chaos and unyielding entertainment!",
+            "tags": [
+              "elabrahaham",
+              "abraham",
+              "shorts",
+              "minecraft",
+              "gaming",
+              "funny",
+              "compilation",
+              "brainrot",
+              "waves",
+              "indestructible"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "acrqnuNkD30"
+          },
+          "updatedAt": "2026-01-30T06:53:25.311Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-30T06:53:25.319Z"
+    }
+  },
+  "finishedAt": "2026-01-30T06:53:25.320Z"
+}

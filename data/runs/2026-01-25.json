@@ -1,0 +1,407 @@
+{
+  "runId": "2026-01-25",
+  "date": "2026-01-25",
+  "createdAt": "2026-01-25T06:50:02.286Z",
+  "updatedAt": "2026-01-25T06:54:05.797Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "박민정 결혼",
+          "임성근 음주 운전",
+          "솔로 지옥 5",
+          "엔드 필드",
+          "차은 우",
+          "스트레스 많이 받을 거야",
+          "촌장 엔터테인먼트",
+          "풍향 고",
+          "김선호",
+          "핫소스",
+          "합숙 맞선",
+          "김동현 밈",
+          "운동 많이 된다",
+          "고 윤정",
+          "이 사랑 통역 되나요",
+          "김동현 운동 많이 된다",
+          "알 테오 젠",
+          "엑소",
+          "휴림 로봇"
+        ],
+        "updatedAt": "2026-01-25T06:50:13.661Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "keyword": "박민정 결혼",
+          "selectedSourceVideos": [
+            {
+              "videoId": "z7HX_MWN07Q",
+              "title": "박민정 결혼소식 들은 김민교 반응",
+              "channelTitle": " 핫태핫",
+              "predicted7d": 550484,
+              "delta": 202984
+            },
+            {
+              "videoId": "3qjS9t8wu9c",
+              "title": "박민정 결혼발표",
+              "channelTitle": " 핫태핫",
+              "predicted7d": 464815,
+              "delta": 144736
+            },
+            {
+              "videoId": "b53z-G-BKhc",
+              "title": "\"맥심 모델\" 박민정이 선택한 남편.. 알고 보니 100만 유튜버?",
+              "channelTitle": "요즘 이거",
+              "predicted7d": 134256,
+              "delta": 123361
+            },
+            {
+              "videoId": "jhfpSESpf8U",
+              "title": "핫소스 송형주 인플루언서 박민정 결혼발표",
+              "channelTitle": "패도미터",
+              "predicted7d": 223762,
+              "delta": 37159
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/KR_video_01/inputs/3qjS9t8wu9c.mp4\\\" \\\"https://www.youtube.com/watch?v=3qjS9t8wu9c\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] 3qjS9t8wu9c: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] 3qjS9t8wu9c: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/KR_video_01/inputs/3qjS9t8wu9c.mp4\\\" \\\"https://www.youtube.com/watch?v=3qjS9t8wu9c\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] 3qjS9t8wu9c: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] 3qjS9t8wu9c: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "keyword": "임성근 음주 운전",
+          "selectedSourceVideos": [
+            {
+              "videoId": "yULzH1i7TOQ",
+              "title": "임성근 전과 6범?! 흑백요리사 출연했다가 과거 털린 셰프들 근황",
+              "channelTitle": "시니어지수TV",
+              "predicted7d": 117725,
+              "delta": 34310
+            },
+            {
+              "videoId": "E6UJ3uCf36s",
+              "title": "임성근 흑백요리사 스타의 고개 숙인 고백#임성근#흑백요리사2#임성근셰프#음주운전논란#전액기부#방송중단#요리사논란#연예뉴스#유튜브쇼츠",
+              "channelTitle": "super star",
+              "predicted7d": 31286,
+              "delta": 23835
+            },
+            {
+              "videoId": "sbtxe7MOy1A",
+              "title": "임성근 음주운전",
+              "channelTitle": "훈수두는 이코치",
+              "predicted7d": 85319,
+              "delta": 18176
+            },
+            {
+              "videoId": "iDFfAByXwrw",
+              "title": "흑백2) 임성근의 음주운전을 알고도 출연시킨 이유",
+              "channelTitle": "요거당",
+              "predicted7d": 70095,
+              "delta": 7519
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/KR_video_02/inputs/sbtxe7MOy1A.mp4\\\" \\\"https://www.youtube.com/watch?v=sbtxe7MOy1A\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] sbtxe7MOy1A: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] sbtxe7MOy1A: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/KR_video_02/inputs/sbtxe7MOy1A.mp4\\\" \\\"https://www.youtube.com/watch?v=sbtxe7MOy1A\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] sbtxe7MOy1A: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] sbtxe7MOy1A: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "隊長",
+          "masters of the universe trailer",
+          "kingsman marvel rivals",
+          "dark outlaw",
+          "ryan hall y'all",
+          "weather",
+          "ufc",
+          "saturday night live",
+          "brooke monk",
+          "moist critical"
+        ],
+        "updatedAt": "2026-01-25T06:50:43.268Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "kingsman marvel rivals",
+          "selectedSourceVideos": [
+            {
+              "videoId": "sHxNhb1Ns0c",
+              "title": "Kingsman Called It #marvelrivals",
+              "channelTitle": "JACK JACK",
+              "predicted7d": 1418578,
+              "delta": 689557
+            },
+            {
+              "videoId": "y3qWD-j9_-A",
+              "title": "You should've picked Bucky 🗣️ Zaza vs Kingsman drama #marvelrivals",
+              "channelTitle": "ALLinDRAMA",
+              "predicted7d": 187682,
+              "delta": 95594
+            },
+            {
+              "videoId": "sCM6EsHBOsE",
+              "title": "Kingsman Gambling Offers Story | Marvel Rivals",
+              "channelTitle": "Unemployed Rivals",
+              "predicted7d": 51470,
+              "delta": 45042
+            },
+            {
+              "videoId": "QHLHyIcvtOM",
+              "title": "Kingsman Marvel Rival Drama #animation",
+              "channelTitle": "Yoontoons",
+              "predicted7d": 50486,
+              "delta": 34319
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Kingsman vs. Marvel Rivals: Drama!",
+            "description": "Unpack the wildest Kingsman vs. Marvel Rivals drama! From character choices to gambling offers, see why the community is buzzing. Don't miss these epic moments!",
+            "tags": [
+              "Kingsman",
+              "MarvelRivals",
+              "GamingDrama",
+              "Shorts",
+              "ViralGaming",
+              "KingsmanDrama",
+              "Marvel",
+              "RivalsGame",
+              "GamingCommunity",
+              "WhatToPlay"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "7ei1Dhkm_dw"
+          },
+          "updatedAt": "2026-01-25T06:51:38.001Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "ufc",
+          "selectedSourceVideos": [
+            {
+              "videoId": "uJXtFqzaux0",
+              "title": "Jean Silva Steps on Arnold Allen 😳 | UFC 324 at Cosm Los Angeles",
+              "channelTitle": "Cosm",
+              "predicted7d": 205543,
+              "delta": 195761
+            },
+            {
+              "videoId": "KWs9xz9JiIQ",
+              "title": "Michael Bisping does NOT have moves 🤣 #ufc324",
+              "channelTitle": "UFC",
+              "predicted7d": 147173,
+              "delta": 86245
+            },
+            {
+              "videoId": "R4J49KV2e5c",
+              "title": "What a way to start the new era of UFC 🔥 #ufc324 #ufc",
+              "channelTitle": "Paramount UFC",
+              "predicted7d": 72396,
+              "delta": 71265
+            },
+            {
+              "videoId": "A-plakgBpuE",
+              "title": "Waldo Cortes-Acosta KOs Derrick Lewis! #shorts #ufc #mma #zoned",
+              "channelTitle": "Zoned",
+              "predicted7d": 71166,
+              "delta": 70012
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "UFC Shorts: Epic KOs & Wild Moments!",
+            "description": "Experience the raw power and unexpected humor of the UFC! This compilation brings you the most shocking KOs, controversial moves, and hilarious fighter moments. Which clip is your favorite?",
+            "tags": [
+              "UFC",
+              "MMA",
+              "Knockout",
+              "UFCShorts",
+              "Fighter",
+              "Highlights",
+              "FunnyMoments",
+              "Controversial",
+              "KOs",
+              "Sports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "A28z0Y5kfOE"
+          },
+          "updatedAt": "2026-01-25T06:52:28.395Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-25T06:52:28.403Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "liga bazooka",
+          "pachuca vs america en vivo",
+          "supernova",
+          "todo lo fue lenin ramirez",
+          "ebrio de amor",
+          "abraham"
+        ],
+        "updatedAt": "2026-01-25T06:52:37.415Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "supernova",
+          "selectedSourceVideos": [
+            {
+              "videoId": "XbJHui94ZlA",
+              "title": "FECHAS de SUPERNOVA 📅 #mrrelevante #videojuegos",
+              "channelTitle": "Soy RELEVANTE",
+              "predicted7d": 1185834,
+              "delta": 579455
+            },
+            {
+              "videoId": "rQMpOONa85g",
+              "title": "Godzilla's New From Reveal: In Godzilla X Kong Supernova! #godzilla #supernova #shorts",
+              "channelTitle": "So C FacT",
+              "predicted7d": 128442,
+              "delta": 120350
+            },
+            {
+              "videoId": "3zaJ5GTDJkY",
+              "title": "Comenten 👀🔥🥊 #elabrahaham #nando #yoloaventuras #losbros #supernova #pelea #fypviral",
+              "channelTitle": "ElAbrahahamGracioso",
+              "predicted7d": 117798,
+              "delta": 107270
+            },
+            {
+              "videoId": "TgHUniqma-Q",
+              "title": "Abraham le va a ganar a Nando #parati #abraham #edit #viral #supernova",
+              "channelTitle": "Clips y mas",
+              "predicted7d": 135586,
+              "delta": 52090
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Supernova Unleashed: Epic Moments!",
+            "description": "Dive into a universe of explosive events! From gaming revelations to monster battles and epic influencer clashes, witness the 'supernova' moments that shook the internet. Don't miss these viral highlights!",
+            "tags": [
+              "supernova",
+              "shorts",
+              "viral",
+              "gaming",
+              "godzilla",
+              "abraham",
+              "nando",
+              "epicmoments",
+              "fight",
+              "reveal"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "dgHAv9m1Ewc"
+          },
+          "updatedAt": "2026-01-25T06:53:16.896Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "abraham",
+          "selectedSourceVideos": [
+            {
+              "videoId": "QxyOLmgza4g",
+              "title": "Abraham usa la alfombra en el juego del Tsunami |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 1231644,
+              "delta": 611752
+            },
+            {
+              "videoId": "d7elGLVNbTU",
+              "title": "Abraham intenta conseguir un brainrot secreto del tsunami |  #elabrahaham",
+              "channelTitle": "ElAbrahaham51",
+              "predicted7d": 737541,
+              "delta": 314441
+            },
+            {
+              "videoId": "C8M1aQeWMCQ",
+              "title": "Abraham pone sus mejores brainrots a la máquina y pasa ésto 💀😔 créditos  @Abrahaham #roblox #viral",
+              "channelTitle": "clips abrahaham",
+              "predicted7d": 223884,
+              "delta": 214019
+            },
+            {
+              "videoId": "a5koKMyLvkM",
+              "title": "ABRAHAM COLABORA CON FEDEVIGEVANI👀🔥|ABRAHAM EDIT E FEDEVIGEVANI| #abrahamm #edit #fedevigevani",
+              "channelTitle": "ABRAHAM EDITS👑",
+              "predicted7d": 171252,
+              "delta": 162812
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-25/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Abraham's Craziest Roblox Moments!",
+            "description": "Dive into Abraham's most insane Roblox adventures! From tsunami challenges to brainrot machines and epic collabs, you won't believe what happens next. Which moment was your favorite?",
+            "tags": [
+              "#Abraham",
+              "#Roblox",
+              "#Shorts",
+              "#Gaming",
+              "#TsunamiGame",
+              "#Brainrot",
+              "#Fedevigevani",
+              "#Viral",
+              "#FunnyMoments",
+              "#ElAbrahaham"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "4DW9Wr7Y_N4"
+          },
+          "updatedAt": "2026-01-25T06:54:05.787Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-25T06:54:05.795Z"
+    }
+  },
+  "finishedAt": "2026-01-25T06:54:05.797Z"
+}

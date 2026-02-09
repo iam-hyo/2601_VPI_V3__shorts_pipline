@@ -1,0 +1,195 @@
+{
+  "runId": "2026-01-16",
+  "date": "2026-01-16",
+  "createdAt": "2026-01-16T06:50:01.926Z",
+  "updatedAt": "2026-01-16T09:03:49.848Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "골든 디스크",
+          "탁재훈 신정환",
+          "쇼미더머니 12",
+          "피식 대학",
+          "에이 핑크",
+          "lck",
+          "알파 드라이브 원",
+          "안세영",
+          "제니",
+          "두 쫀쿠",
+          "은애 하는 도적 님아"
+        ],
+        "updatedAt": "2026-01-16T06:51:57.795Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "골든 디스크",
+          "selectedSourceVideos": [
+            {
+              "videoId": "PqxTZNUcb18",
+              "title": "[POV : The One This Year] #SungSikyung #MunKayoung",
+              "channelTitle": "Golden Disc",
+              "predicted7d": 99417,
+              "delta": 98636
+            },
+            {
+              "videoId": "C5K8V2RnVjQ",
+              "title": "보이넥스트도어의 골든디스크 오늘만 I LOVE YOU를 본 제이블랙의 반응",
+              "channelTitle": "제이블랙 & 제이핑크",
+              "predicted7d": 109858,
+              "delta": 73210
+            },
+            {
+              "videoId": "1RH3UbeVeIY",
+              "title": "골든디스크에 빡친 스타쉽 #아이브",
+              "channelTitle": "다시듣기",
+              "predicted7d": 70810,
+              "delta": 61593
+            },
+            {
+              "videoId": "Tv11EB3FHLI",
+              "title": "♬  Better @ 제40회 골든디스크어워즈",
+              "channelTitle": "ZEROBASEONE",
+              "predicted7d": 109558,
+              "delta": 61457
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-16/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Golden Disc: Iconic Moments & Drama",
+            "description": "Relive the most unforgettable moments from the Golden Disc Awards! From heartwarming performances to unexpected controversies, we've got it all. Which moment was your favorite?",
+            "tags": [
+              "Golden Disc",
+              "GDA",
+              "Kpop Awards",
+              "Iconic Moments",
+              "Kpop Drama",
+              "ZB1",
+              "IVE",
+              "BOYNEXTDOOR",
+              "Sung Sikyung",
+              "J-Black Reaction"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "6CP9v0X2jWs"
+          },
+          "updatedAt": "2026-01-16T06:52:35.806Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "탁재훈 신정환",
+          "selectedSourceVideos": [
+            {
+              "videoId": "r5NCnDqJKf4",
+              "title": "신정환 결혼했어?? 탁재훈 신정환 노빠꾸 #컨츄리꼬꼬",
+              "channelTitle": "셀럽잇슈",
+              "predicted7d": 500278,
+              "delta": 139248
+            },
+            {
+              "videoId": "HwjjNjMsPQ8",
+              "title": "컨츄리꼬꼬 탁재훈x신정환 전성기 1편",
+              "channelTitle": "남은시간",
+              "predicted7d": 382912,
+              "delta": 115915
+            },
+            {
+              "videoId": "eVi4GRs-ofM",
+              "title": "16년만에 같이 안무 맞춰보는 컨츄리꼬꼬 신정환 탁재훈",
+              "channelTitle": "방기자",
+              "predicted7d": 255312,
+              "delta": 106795
+            },
+            {
+              "videoId": "sL5IMS4eAi8",
+              "title": "탁재훈이 30년만에 신정환에게 큰돈 보낸 이유",
+              "channelTitle": "최고의장면1분",
+              "predicted7d": 252019,
+              "delta": 103484
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-01-16/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Country Kko Kko: Shocking Reunion!",
+            "description": "Relive the legendary moments of Country Kko Kko, Tak Jae-hoon and Shin Jung-hwan! From their iconic heyday to surprising revelations and emotional reunions, this Shorts compilation has it all. Don't miss their unforgettable journey!",
+            "tags": [
+              "CountryKkoKko",
+              "TakJaeHoon",
+              "ShinJungHwan",
+              "KpopLegends",
+              "KoreanVariety",
+              "CelebrityDrama",
+              "Reunion",
+              "KpopNostalgia",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ndf-HGqG6vs"
+          },
+          "updatedAt": "2026-01-16T06:53:06.954Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-01-16T06:53:06.954Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"US\",\"days\":7,\"keywords\":[],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"CIRCUIT_OPEN\",\"attempts\":0,\"circuit\":{\"consecutive429\":12,\"openUntilMs\":1768555485757},\"error\":\"429 쿨다운 중입니다. 남은 시간(ms)=1301190\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"MX\",\"days\":7,\"keywords\":[\"Peso Pluma\",\"TikTok trends Mexico\",\"Reto viral\",\"Memes mexicanos\",\"Comida callejera\",\"Recetas mexicanas fáciles\",\"Animales graciosos\",\"Lugares turísticos CDMX\",\"Maquillaje natural\",\"Tendencias de baile\",\"Series Netflix México\",\"Moda mexicana\",\"Conciertos México\",\"Viajes baratos México\",\"Ejercicios en casa\",\"DIY decoración\",\"Remedios caseros\",\"Historia de México curiosidades\",\"Cine mexicano\",\"Trucos de limpieza\",\"Recetas con aguacate\",\"Festivales culturales México\",\"Frases mexicanas\",\"Chiles en nogada\",\"Música regional mexicana\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"CIRCUIT_OPEN\",\"attempts\":0,\"circuit\":{\"consecutive429\":12,\"openUntilMs\":1768555485757},\"error\":\"429 쿨다운 중입니다. 남은 시간(ms)=1268073\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    }
+  },
+  "finishedAt": "2026-01-16T09:03:49.847Z"
+}

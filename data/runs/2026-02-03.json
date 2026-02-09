@@ -1,0 +1,441 @@
+{
+  "runId": "2026-02-03",
+  "date": "2026-02-03",
+  "createdAt": "2026-02-03T06:50:02.313Z",
+  "updatedAt": "2026-02-03T06:55:49.344Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "아 랏쏘",
+          "유병 장수 girl",
+          "김상욱",
+          "백크",
+          "pba",
+          "밀리",
+          "메이플 키우기",
+          "키키",
+          "정상수",
+          "최미나 수",
+          "블랙 컴뱃",
+          "자두 두",
+          "매미 킴",
+          "솔로 지옥 5",
+          "풍향 고"
+        ],
+        "updatedAt": "2026-02-03T06:50:12.234Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "김상욱",
+          "selectedSourceVideos": [
+            {
+              "videoId": "AmGoyeiErMU",
+              "title": "현대사 교육의 필요성 #김상욱 #최욱",
+              "channelTitle": "편들어주는 파생 방송",
+              "predicted7d": 97071,
+              "delta": 86960
+            },
+            {
+              "videoId": "mcJjf_oxAIc",
+              "title": "김상욱의 눈물버튼 쨍하고 해뜰날",
+              "channelTitle": "땀냄시",
+              "predicted7d": 262354,
+              "delta": 83362
+            },
+            {
+              "videoId": "Wx0oTAGTmMo",
+              "title": "이재명 대통령은 자신감이 넘치는 사람이다. #이재명 #김상욱 #최욱",
+              "channelTitle": "팩트맨",
+              "predicted7d": 83521,
+              "delta": 82249
+            },
+            {
+              "videoId": "2-yTQ0GExnw",
+              "title": "양쪽이야기를 다 듣는 대통령. #이재명 #김상욱 #모경종 #최욱",
+              "channelTitle": "인생은파란색",
+              "predicted7d": 60062,
+              "delta": 58934
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-03/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Kim Sang-wook: Shocking Truths Revealed",
+            "description": "Explore the surprising insights of Professor Kim Sang-wook! This compilation features his sharp takes on modern history, unexpected emotional moments, and candid political commentary. Get ready for some mind-blowing perspectives!",
+            "tags": [
+              "김상욱",
+              "KimSangWook",
+              "Shorts",
+              "KoreanProfessor",
+              "History",
+              "Politics",
+              "LeeJaeMyung",
+              "ChoiWook",
+              "EmotionalMoments",
+              "ViralClips"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "xD44Y73OQAE"
+          },
+          "updatedAt": "2026-02-03T06:50:51.437Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "pba",
+          "selectedSourceVideos": [
+            {
+              "videoId": "lMRZrh7na2k",
+              "title": "Dina nilisan ni Ross si Oftana #smb #tnt #pba #pbalive #viral #trending #basketball #shorts #fyp",
+              "channelTitle": "summervlogs",
+              "predicted7d": 78232,
+              "delta": 40029
+            },
+            {
+              "videoId": "W81nhPGGVzg",
+              "title": "Ramon Fernandez greets Leo Austria after winning the PBA 50 Philippine Cup title",
+              "channelTitle": "Reuben Terrado",
+              "predicted7d": 47478,
+              "delta": 36416
+            },
+            {
+              "videoId": "7AcxPMksPWY",
+              "title": "JORDAN HEADING MATAPOS MABIGO ANG TNT NA MAKUHA ANG PBA PHILIPPINE CUP TITLE VS SMB #pba",
+              "channelTitle": "Jonas Terrado",
+              "predicted7d": 37236,
+              "delta": 30346
+            },
+            {
+              "videoId": "HSHELUFPY-o",
+              "title": "Tiklop si BGR! MOnster Tautuaa! 💪😤 #PBA #DugongSanMiguel #highlights #reels #Finals",
+              "channelTitle": "Swish and Slam",
+              "predicted7d": 42817,
+              "delta": 29865
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-03/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "PBA Shorts: Epic Wins & Fails!",
+            "description": "Dive into the most unforgettable moments from the PBA! From shocking player moves to championship heartbreaks and dominant performances, relive the drama. Don't miss these epic basketball highlights!",
+            "tags": [
+              "PBA",
+              "PBAShorts",
+              "BasketballHighlights",
+              "PhilippineBasketball",
+              "SportsDrama",
+              "ViralSports",
+              "ChampionshipMoments",
+              "PlayerReactions",
+              "EpicPlays",
+              "FilipinoBasketball"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "vbekwENJre8"
+          },
+          "updatedAt": "2026-02-03T06:51:23.878Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-03T06:51:23.887Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "justin bieber grammy performance",
+          "groundhog day",
+          "iron lung",
+          "teofimo lopez vs shakur stevenson",
+          "j cole",
+          "melanie martinez",
+          "bad bunny",
+          "markiplier",
+          "wwe"
+        ],
+        "updatedAt": "2026-02-03T06:51:34.100Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "P8HaKnLH220",
+              "title": "GRAMMYS 2026! Thanks @YouTube & @RecordingAcademy for an unforgettable night! 🎶",
+              "channelTitle": "Pixel Playhouse",
+              "predicted7d": 3169434,
+              "delta": 1398916
+            },
+            {
+              "videoId": "Ruzvs6Y0rEI",
+              "title": "Lo que no viste en los Premios Grammys 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 831356,
+              "delta": 468694
+            },
+            {
+              "videoId": "-moFc2CYJPE",
+              "title": "Watching the 2026 Grammys be like",
+              "channelTitle": "Brett Cooper",
+              "predicted7d": 504675,
+              "delta": 270311
+            },
+            {
+              "videoId": "Mt97SD9IwTo",
+              "title": "2026 Grammys Got So Awkward 😬😂",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 333439,
+              "delta": 176525
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-03/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "2026 Grammys: Wildest Moments & Secrets!",
+            "description": "Dive into the most unforgettable, awkward, and unseen moments from the 2026 Grammys! From red carpet blunders to shocking wins, we've got all the highlights and hidden gems you won't find anywhere else. Don't miss out on the ultimate recap!",
+            "tags": [
+              "Grammys2026",
+              "GrammyAwards",
+              "MusicAwards",
+              "PopCulture",
+              "AwardShow",
+              "CelebrityNews",
+              "AwkwardMoments",
+              "BackstageSecrets",
+              "ViralShorts",
+              "Entertainment"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "OWf9zKgxUaE"
+          },
+          "updatedAt": "2026-02-03T06:52:53.331Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "groundhog day",
+          "selectedSourceVideos": [
+            {
+              "videoId": "dfx8T8yEAd0",
+              "title": "POV: It’s Groundhog Day in the #90s! #nostalgia #90skids #millennials",
+              "channelTitle": "MelissaKristinTV - DigitalMunchies",
+              "predicted7d": 312902,
+              "delta": 189395
+            },
+            {
+              "videoId": "wSQfSjqcKys",
+              "title": "Groundhog Day? Here’s the scientific outlook",
+              "channelTitle": "KING 5 Seattle",
+              "predicted7d": 139626,
+              "delta": 138227
+            },
+            {
+              "videoId": "ok_vvdDLabM",
+              "title": "Groundhog Day Convo With That One Client Who Keeps Paying But Also DGAF #groundhogday #billmurray",
+              "channelTitle": "Coach Sam Arnold",
+              "predicted7d": 93103,
+              "delta": 83261
+            },
+            {
+              "videoId": "PysPL3DSdm8",
+              "title": "Groundhog Day Punxsutawney Phil #movie Bill Murray #winter February",
+              "channelTitle": "Looking4Neverland",
+              "predicted7d": 58833,
+              "delta": 57842
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-03/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Groundhog Day: Stuck in the Loop?",
+            "description": "Is it Groundhog Day again? Dive into the endless loop with our top picks! From 90s nostalgia to scientific takes and relatable client woes, we've got your daily repeat covered.",
+            "tags": [
+              "groundhogday",
+              "shorts",
+              "billmurray",
+              "90snostalgia",
+              "loop",
+              "winter",
+              "punxsutawneyphil",
+              "relatable",
+              "scienceexplained",
+              "dailygrind"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ZCeEGJMgfts"
+          },
+          "updatedAt": "2026-02-03T06:53:32.808Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-03T06:53:32.816Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "grammys 2026",
+          "lamberto quintero",
+          "santa fe klan",
+          "conozco su piel la recorri tantas veces",
+          "lenin ramírez"
+        ],
+        "updatedAt": "2026-02-03T06:53:42.789Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "keyword": "grammys 2026",
+          "selectedSourceVideos": [
+            {
+              "videoId": "P8HaKnLH220",
+              "title": "GRAMMYS 2026! Thanks @YouTube & @RecordingAcademy for an unforgettable night! 🎶",
+              "channelTitle": "Pixel Playhouse",
+              "predicted7d": 3169434,
+              "delta": 1390027
+            },
+            {
+              "videoId": "Ruzvs6Y0rEI",
+              "title": "Lo que no viste en los Premios Grammys 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 831356,
+              "delta": 465370
+            },
+            {
+              "videoId": "-moFc2CYJPE",
+              "title": "Watching the 2026 Grammys be like",
+              "channelTitle": "Brett Cooper",
+              "predicted7d": 504675,
+              "delta": 269453
+            },
+            {
+              "videoId": "Mt97SD9IwTo",
+              "title": "2026 Grammys Got So Awkward 😬😂",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 333439,
+              "delta": 176525
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-03/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Grammys 2026: Shocking Moments!",
+            "description": "Dive into the most unforgettable, awkward, and hidden moments from the 2026 Grammys! We've compiled the best reactions, unseen footage, and cringiest fails from music's biggest night. Which moment was your favorite?",
+            "tags": [
+              "Grammys 2026",
+              "Grammy Awards",
+              "Music Awards",
+              "Award Show",
+              "Celebrity Moments",
+              "Red Carpet",
+              "Awkward Grammys",
+              "Unseen Grammys"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "q2B7RN1bGvU"
+          },
+          "updatedAt": "2026-02-03T06:55:00.967Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "keyword": "santa fe klan",
+          "selectedSourceVideos": [
+            {
+              "videoId": "OvTmX_QrJH8",
+              "title": "SANTA FE KLAN Agradecido con La FAMA‼️😱#santafeklan #mexico #usa #chile #cdmx #texas #miami",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 203882,
+              "delta": 195471
+            },
+            {
+              "videoId": "0mqzWFhHvb4",
+              "title": "SANTA FE KLAN: Quiero ESTAR al NIVEL de PESO PLUMA‼️😱#santafeklan #mexico #usa #chile #cdmx #texas",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 187747,
+              "delta": 178113
+            },
+            {
+              "videoId": "cpDYm7x44n8",
+              "title": "SANTA FE KLAN En QUÉ Invierte Su DINERO‼️😱#santafeklan #mexico #usa #chile #cdmx #texas #miami",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 272571,
+              "delta": 162380
+            },
+            {
+              "videoId": "xfqHJ6qb2pE",
+              "title": "SANTA FE KLAN Siempre AGRADECIDO con DIOS‼️😱#santafeklan #mexico #usa #chile #cdmx #texas #miami",
+              "channelTitle": "Adictos Al Trap",
+              "predicted7d": 111942,
+              "delta": 99203
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-03/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Santa Fe Klan: Fame, Faith, & Fortune",
+            "description": "Dive deep into the world of Santa Fe Klan! Discover his journey, ambition to rival Peso Pluma, and how he invests his hard-earned millions. Uncover the secrets behind his fame and unwavering faith.",
+            "tags": [
+              "SantaFeKlan",
+              "MexicanRapper",
+              "PesoPluma",
+              "CelebrityLife",
+              "MusicNews",
+              "FameAndFortune",
+              "ArtistInterview",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "WeaF8JcUXa0"
+          },
+          "updatedAt": "2026-02-03T06:55:49.335Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-03T06:55:49.343Z"
+    }
+  },
+  "finishedAt": "2026-02-03T06:55:49.344Z"
+}
