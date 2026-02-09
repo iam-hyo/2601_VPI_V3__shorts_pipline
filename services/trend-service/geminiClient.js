@@ -1,4 +1,5 @@
 /**
+ * services/trend-service/geminiClient.js
  * [파일 책임]
  * - Gemini 호출 + API Key 로테이션을 제공합니다.
  *

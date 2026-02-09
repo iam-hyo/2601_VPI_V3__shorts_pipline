@@ -1,4 +1,5 @@
 /**
+ * services/trend-service/server.js
  * [파일 책임]
  * - Trend Service(API) 실제 구현:
  *   1) pytrends로 최근 N일 트렌드 후보 수집
@@ -288,16 +289,35 @@ function ruleFilter(keyword) {
   return true;
 }
 
+function parseJsonBody(req) {
+  return new Promise((resolve, reject) => {
+    let body = "";
+    req.on("data", (chunk) => { body += chunk; });
+    req.on("end", () => {
+      try {
+        resolve(JSON.parse(body || "{}"));
+      } catch (e) {
+        reject(new Error("유효하지 않은 JSON 형식입니다."));
+      }
+    });
+    req.on("error", reject);
+  });
+}
+
 const server = http.createServer(async (req, res) => {
   // WHATWG URL로 파싱 (DEP0169 경고 원인 제거)
   const u = new URL(req.url, `http://${req.headers.host}`);
 
   // 어떤 예외가 터져도 서버 프로세스가 죽지 않게 전체를 감싼다
   try {
+    // -------------------------------------------------------------------------
+    // 1. [GET] 일간 트렌드 키워드 조회
+    // -------------------------------------------------------------------------
     if (req.method === "GET" && u.pathname === "/trends/daily") {
       const region = String(u.searchParams.get("region") || "KR");
       const days = Number(u.searchParams.get("days") || 7);
 
+      // (기존 로직 수행)
       const raw = await fetchTrendsFromPython({ region, days });
 
       // 디버깅 로그용: days, traffic 통계
@@ -351,7 +371,7 @@ const server = http.createServer(async (req, res) => {
         keywords = Array.isArray(parsedJson.keywords) ? parsedJson.keywords.slice(0, 25) : [];
         console.log(
           `[LLM] ✅ 파싱 성공: keywords=${keywords.length}` +
-            (keywords.length ? ` (sample="${keywords.slice(0, 5).join(", ")}")` : "")
+          (keywords.length ? ` (sample="${keywords.slice(0, 5).join(", ")}")` : "")
         );
       } catch (err) {
         // LLM 실패 시 후보를 traffic 기반(있다면) + 입력순으로 fallback
@@ -386,11 +406,62 @@ const server = http.createServer(async (req, res) => {
       });
     }
 
-    return sendJson(res, 404, { error: "Not Found" });
+    // -------------------------------------------------------------------------
+    // 2. [POST] 쿼리 구체화 (Query Engineering) - 신규 추가
+    // -------------------------------------------------------------------------
+    else if (req.method === "POST" && u.pathname === "/trends/refine") {
+      const body = await parseJsonBody(req);
+      const { keyword, tags } = body;
+
+      if (!keyword || !tags) {
+        return sendJson(res, 400, { error: "keyword와 tags 데이터가 필요합니다." });
+      }
+
+      console.log(`[QE] '${keyword}' 분석 시작 (태그 수: ${tags.length})`);
+
+      // SPF 전처리: Saturation Penalty 계산
+      const sigma = 12;
+      const processedTags = tags.map(t => ({
+        tag: t.tag,
+        f: t.TF,
+        sat_penalty: Number(Math.exp(-(Math.pow(t.TF, 2)) / (2 * Math.pow(sigma, 2))).toFixed(4))
+      })).slice(0, 100);
+
+      const prompt = {
+        role: "expert_youtube_query_engineer",
+        context: `'${keyword}'라는 대주제를 바탕으로 시청자가 열광할만한 3가지 세부 테마를 기획하고 최적화 쿼리를 생성하십시오.`,
+        input: { base_trend: keyword, collected_tags: processedTags },
+        instructions: [
+          "1. 의미론적 중요도가 높은 상위 군집(인물, 사건 등)을 3개 식별하십시오.",
+          "2. 각 군집별 핵심 단어(Pivot)와 유의어(Expansion) 2~3개를 선정하십시오.",
+          "3. '대주제 Pivot|유의어1|유의어2' 형태의 쿼리를 생성하십시오.",
+          "4. 끝에 '-뉴스 -보도 -MBN -공식' 제외어를 반드시 포함하십시오.",
+          "5. 각 슬롯은 중복되지 않는 독자적인 서사를 가져야 합니다."
+        ],
+        outputFormat: {
+          analysis: { domain: "string", clusters: [{ name: "string", spec_score: "float", logic: "string" }] },
+          slots: [{ id: "number", theme: "string", pivots: ["string"], q: "string" }]
+        }
+      };
+
+      const llmRaw = await llm.generateJson(prompt);
+      return sendJson(res, 200, JSON.parse(llmRaw));
+    }
+
+    // -------------------------------------------------------------------------
+    // 3. 404 Not Found
+    // -------------------------------------------------------------------------
+    else {
+      return sendJson(res, 404, { error: "Not Found" });
+    }
+
   } catch (e) {
-    // 여기로 오면 정말 예상치 못한 서버 내부 예외
-    console.error("[trend-service] ❌ Unhandled handler error:", e);
-    return sendJson(res, 500, { error: "Internal Server Error" });
+    // [중요] 핸들러 내에서 발생하는 모든 예외를 여기서 캐치하여 서버 다운을 방지합니다.
+    console.error("[trend-service] ❌ Unhandled Error:", e);
+    return sendJson(res, 500, {
+      error: "Internal Server Error",
+      message: e.message
+    });
   }
 });
 

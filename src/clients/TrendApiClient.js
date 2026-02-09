@@ -1,4 +1,5 @@
 /**
+ * src/clients/TrendApiClient.js
  * [파일 책임]
  * - Trend Service(API)를 호출하여 keywords를 가져옵니다.
  */
@@ -33,5 +34,25 @@ export class TrendApiClient {
     }
 
     return Array.isArray(data?.keywords) ? data.keywords : [];
+  }
+
+  /**
+ * [추가 기능] 서버(LLM)에 쿼리 구체화 요청
+ * @param {string} keyword 원본 트렌드 키워드
+ * @param {Array} tags collectHashtags로 수집된 태그 배열
+ */
+  async refineTrendKeyword(keyword, tags) {
+    const url = `${this.baseUrl}/trends/refine`;
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        keyword,
+        tags: tags.slice(0, 100) // 상위 100개로 제한하여 컨텍스트 최적화
+      })
+    });
+
+    if (!res.ok) throw new Error(`QE API 요청 실패: ${res.statusText}`);
+    return res.json(); // { slots: [{ id, theme, q }], analysis: {...} } 반환 예상
   }
 }

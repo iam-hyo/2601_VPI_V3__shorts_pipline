@@ -191,11 +191,7 @@ export class PipelineRunner {
         `⏭️ [${slotID}] 키워드/소스(4개)가 이미 존재합니다. pickKeywordAndTopVideos() 스킵`
       );
 
-      picked = {
-        keyword: job.keyword,
-        // job.selectedSourceVideos는 이미 필요한 필드만 갖고 있으므로 그대로 사용
-        videos: job.selectedSourceVideos
-      };
+      picked = { keyword: job.keyword, videos: job.selectedSourceVideos };
 
       // 재실행 시 meta.json이 없을 수도 있으니(중간에 죽은 경우) 여기서도 한번 써주면 안전함
       writeJsonAtomic(path.join(workDir, "meta.json"), {
@@ -231,17 +227,53 @@ export class PipelineRunner {
       job.status = "RUNNING";
       this.save(state);
 
-      // pick 재시도(withRetry)
-      picked = await withRetry(
-        async () =>
-          this.validator.pickKeywordAndTopVideos({
-            region,
-            keywords,
-            slot,
-            assignedKeywords
-          }),
-        `validate:${region}:slot${slot}`
-      );
+      const publishedAfterISO = new Date(Date.now() - VALIDATION.recentDays * 24 * 3600 * 1000).toISOString();
+
+      // [외곽 루프] 트렌드 키워드 순회
+      for (const rawKeyword of keywords) {
+        if (assignedKeywords.includes(rawKeyword)) continue;
+
+        log.info(`[${slotID}] 트렌드 '${rawKeyword}'에 대한 QE 및 검증 시작`);
+
+        try {
+          // 1. 태그 수집
+          const searchForTags = await this.yt.searchVideos({ q: rawKeyword, maxResults: 50, region });
+          const tags = await this.yt.collectHashtags(searchForTags.map(v => v.videoId));
+
+          // 2. 서버(QE API) 호출하여 구체화된 쿼리 후보 3개 획득
+          const { slots, analysis } = await this.trendApi.refineTrendKeyword(rawKeyword, tags);
+
+          // 분석 로그 저장 (디버깅용)
+          job.queryEngineering = analysis;
+          this.save(state);
+
+          // [내부 루프] 3개의 구체화 쿼리 후보 순회 검증
+          for (const slotCandidate of slots) {
+            log.info(`[${slotID}] 후보 검증 시도: ${slotCandidate.q} (${slotCandidate.theme})`);
+
+            const result = await this.validator.validateSingleQuery({
+              q: slotCandidate.q,
+              region,
+              slot,
+              publishedAfterISO
+            });
+
+            if (result) {
+              picked = { keyword: slotCandidate.q, videos: result.videos };
+              break; // 내부 루프 탈출
+            }
+          }
+
+          if (picked) break; // 적합한 쿼리 찾았으므로 외곽 루프 탈출
+        } catch (err) {
+          log.error({ err }, `[${slotID}] '${rawKeyword}' 처리 중 오류 발생, 다음 키워드로 이동`);
+        }
+      }
+
+      if (!picked) {
+        throw new Error("모든 트렌드 키워드와 쿼리 후보군이 조건을 만족하지 못했습니다.");
+      }
+      // ======================================================================
 
       // 선정 결과 저장 (점유 효과)
       job.keyword = picked.keyword;

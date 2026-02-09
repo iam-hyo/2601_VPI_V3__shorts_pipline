@@ -25,7 +25,56 @@ export class ValidationService {
     this.yt = deps.yt;
     this.predictor = deps.predictor;
   }
+  
+  // =========================================
+  /**
+ * [리팩토링] 단일 쿼리에 대한 적합성 검증 수행
+ * 기존 pickKeywordAndTopVideos의 내부 로직을 분리하여 재사용성을 높임
+ */
+  async validateSingleQuery({ q, region, slot, publishedAfterISO }) {
+    log.info(`[${region}_${slot}] 쿼리 적합성 검사: ${q}`);
 
+    // 1) 검색 수행
+    const searched = await this.yt.searchVideos({ q, maxResults: 50, publishedAfterISO, region });
+    if ((searched?.length || 0) < 4) return null;
+
+    // 2) 특징치 추출 및 쇼츠 필터링
+    const features = await this.yt.buildVideoFeatures({ videoIds: searched.map(s => s.videoId), region });
+    const filteredFeatures = features.filter(f => f.is_short === true);
+
+    if (filteredFeatures.length < VALIDATION.minShortsCount) {
+      log.info(`[${region}_${slot}] 쇼츠 개수 부족 (${filteredFeatures.length}개)`);
+      return null;
+    }
+
+    // 3) 조회수 예측 및 점수화
+    const preds = await this.predictor.predictPred7(filteredFeatures);
+    const scored = [];
+    for (const p of preds) {
+      const f = filteredFeatures.find(x => x.id === p.id);
+      if (!f) continue;
+
+      const predicted7d = Number(p.predicted_7day_views ?? 0);
+      if (predicted7d < VALIDATION.minPredictedViews) continue;
+
+      scored.push({
+        videoId: p.id,
+        title: f.title,
+        channelTitle: f.channel_title,
+        predicted7d,
+        viewCount: Number(f.view_count ?? 0),
+        delta: predicted7d - Number(f.view_count ?? 0)
+      });
+    }
+
+    if (scored.length < VALIDATION.minQualifiedVideos) return null;
+
+    scored.sort((a, b) => b.delta - a.delta);
+    return { videos: scored.slice(0, VALIDATION.topK) };
+  }
+  // =================수정 끝=======================
+  
+  
   /**
    * - 키워드 후보를 순회하여 조건 만족하는 첫 키워드와 Top4 영상을 반환합니다.
    * @param {{region:string, keywords:string[]}} args
@@ -38,13 +87,13 @@ export class ValidationService {
     const total = args.keywords.length;
 
     // 키워드별 반복 시작
-    for (const [i, keyword] of args.keywords.entries()) {
+    for (const [i, keyword] of keywords.entries()) {
       log.info(`[${args.region}_${slot}] '${keyword}' 적합도 검사 시작 ${i + 1}/${total}`)
       if (assignedKeywords.includes(keyword)) {
         log.warn(`[${args.region}_${slot}] '${keyword}는 이미 점유되었습니다.다음으로 넘어갑니다.'  ${i + 1}/${total}`)
         continue;
       }
-      const searched = await this.yt.searchVideos({ q: keyword, maxResults: 50, publishedAfterISO, region: args.region });
+      const searched = await this.yt.searchVideos({ q: keyword, maxResults: 50, publishedAfterISO, region: region });
       if ((searched?.length || 0) < 4) continue; // 검색결과가 4보다 작으면 다음 키워드.
 
       const features = await this.yt.buildVideoFeatures({ videoIds: searched.map((s) => s.videoId), region: args.region });

@@ -1,4 +1,5 @@
 /**
+ * src/clients/YouTubeClient.js
  * [파일 책임]
  * - YouTube Data API v3를 통해 검색/메타/통계를 조회합니다.
  * - predictor request body를 만들기 위한 특징치(Feature)를 구성합니다.
@@ -152,6 +153,36 @@ export class YouTubeClient {
       map.set(it.id, it.snippet?.title ?? "Unknown");
     }
     return map;
+  }
+
+  /**
+ * [메서드 책임] 비디오 ID 리스트로 해시태그 및 빈도수 수집
+ * @param {string[]} videoIds 
+ * @returns {Promise<Array<{tag:string, TF:number}>>}
+ */
+  async collectHashtags(videoIds) {
+    if (!videoIds?.length) return [];
+
+    const tagMap = new Map();
+    // YouTube API의 videos.list는 한 번에 최대 50개 ID까지 처리 가능
+    const res = await this.youtube.videos.list({
+      part: ["snippet"],
+      id: videoIds
+    });
+
+    const items = res.data.items ?? [];
+    for (const it of items) {
+      const tags = it.snippet?.tags ?? [];
+      for (const tag of tags) {
+        // 태그 빈도수(Term Frequency) 카운팅
+        tagMap.set(tag, (tagMap.get(tag) || 0) + 1);
+      }
+    }
+
+    // 빈도수 높은 순으로 정렬하여 반환
+    return Array.from(tagMap.entries())
+      .map(([tag, count]) => ({ tag, TF: count }))
+      .sort((a, b) => b.TF - a.TF);
   }
 }
 
