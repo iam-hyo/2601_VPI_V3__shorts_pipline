@@ -227,7 +227,7 @@ export class PipelineRunner {
       job.status = "RUNNING";
       this.save(state);
 
-      const publishedAfterISO = new Date(Date.now() - VALIDATION.recentDays * 24 * 3600 * 1000).toISOString();
+      // const publishedAfterISO = new Date(Date.now() - VALIDATION.recentDays * 24 * 3600 * 1000).toISOString();
 
       // [외곽 루프] 트렌드 키워드 순회
       for (const rawKeyword of keywords) {
@@ -254,8 +254,7 @@ export class PipelineRunner {
             const result = await this.validator.validateSingleQuery({
               q: slotCandidate.q,
               region,
-              slot,
-              publishedAfterISO
+              slot
             });
 
             if (result) {
@@ -275,8 +274,11 @@ export class PipelineRunner {
       }
       // ======================================================================
 
-      // 선정 결과 저장 (점유 효과)
-      job.keyword = picked.keyword;
+      // 1) 상태 객체(runId.json)에 상세 정보 기록
+      job.originalKeyword = picked.originalKeyword; // 처음에 제시된 원본 트렌드 (예: '2026 동계올림픽')
+      job.keyword = picked.keyword;                // 최종 채택된 구체화 쿼리 (예: '2026 동계올림픽 차준환|이채운')
+
+      // selectedSourceVideos는 뒤쪽 VideoProcessor에서 핵심 재료로 쓰임
       job.selectedSourceVideos = picked.videos.map((v) => ({
         videoId: v.videoId,
         title: v.title,
@@ -285,20 +287,31 @@ export class PipelineRunner {
         predicted7d: v.predicted7d,
         delta: v.delta
       }));
-      this.save(state);
 
-      // meta.json 기록
+      // 어떤 테마가 뽑혔는지 기록 (분석용)
+      const selectedSlot = job.queryEngineering?.slots?.find(s => s.q === picked.keyword);
+      job.selectedTheme = selectedSlot ? selectedSlot.theme : "Unknown";
+
+      job.status = "RUNNING";
+      this.save(state); // runId.json 저장
+
+      // 2) 작업 디렉토리의 meta.json 기록 (Video Processor 참조용)
+      // 원본 키워드와 구체화된 쿼리를 모두 넘겨주어 편집 시 LLM이 맥락을 파악하게 함
       writeJsonAtomic(path.join(workDir, "meta.json"), {
         runId,
         date: runId,
         region,
         slot,
-        keyword: picked.keyword,
+        originalKeyword: job.originalKeyword,
+        refinedKeyword: job.keyword,
+        theme: job.selectedTheme,
         selected: job.selectedSourceVideos
       });
-      this.save(state);
-    }
 
+      log.info(`[${slotID}] 최종 쿼리 확정: '${job.keyword}' (테마: ${job.selectedTheme})`);
+    } // <-- 여기까지가 "단계 A"의 닫는 괄호입니다.
+
+    
     // ===== 단계 B: Video Processor =====
     // DONE이면 스킵, 아니면 수행
     // (가능하면 outputFileAbs도 job에 저장해두는게 재시도에 매우 유리)

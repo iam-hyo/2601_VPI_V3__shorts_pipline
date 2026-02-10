@@ -25,13 +25,14 @@ export class ValidationService {
     this.yt = deps.yt;
     this.predictor = deps.predictor;
   }
-  
+
   // =========================================
   /**
  * [리팩토링] 단일 쿼리에 대한 적합성 검증 수행
  * 기존 pickKeywordAndTopVideos의 내부 로직을 분리하여 재사용성을 높임
  */
-  async validateSingleQuery({ q, region, slot, publishedAfterISO }) {
+  async validateSingleQuery({ q, region, slot}) {
+    const publishedAfterISO = new Date(Date.now() - VALIDATION.recentDays * 24 * 3600 * 1000).toISOString();
     log.info(`[${region}_${slot}] 쿼리 적합성 검사: ${q}`);
 
     // 1) 검색 수행
@@ -73,8 +74,8 @@ export class ValidationService {
     return { videos: scored.slice(0, VALIDATION.topK) };
   }
   // =================수정 끝=======================
-  
-  
+
+
   /**
    * - 키워드 후보를 순회하여 조건 만족하는 첫 키워드와 Top4 영상을 반환합니다.
    * @param {{region:string, keywords:string[]}} args

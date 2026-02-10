@@ -1,0 +1,143 @@
+{
+  "runId": "2026-02-10__MANUAL__KR__2026-동계-올림픽",
+  "date": "2026-02-10__MANUAL__KR__2026-동계-올림픽",
+  "createdAt": "2026-02-10T03:24:26.936Z",
+  "updatedAt": "2026-02-10T05:07:28.377Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "2026 동계 올림픽"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "2026 동계 올림픽",
+            "clusters": [
+              {
+                "name": "실시간 중계 및 최신 소식",
+                "spec_score": 0.95,
+                "logic": "가장 높은 빈도를 보이는 '뉴스', 'LIVE', '라이브', '생중계', '속보' 등의 키워드를 통해 시청자들이 올림픽의 실시간 상황과 최신 정보를 빠르게 접하고자 하는 니즈를 반영합니다."
+              },
+              {
+                "name": "대한민국 선수단 & 메달 기대",
+                "spec_score": 0.93,
+                "logic": "'대한민국', '쇼트트랙', '빙상', '선수' 등 한국 선수들의 활약과 메달 획득에 대한 국민적 관심을 반영하여, 특정 종목 및 선수 중심의 콘텐츠를 선호하는 시청자들을 타겟팅합니다."
+              },
+              {
+                "name": "개최지 밀라노-코르티나 & 개막식 하이라이트",
+                "spec_score": 0.9,
+                "logic": "'밀라노', '코르티나' 등 개최지 정보와 '개막식', 'Mariah Carey' 등 문화적 요소 및 특별 이벤트에 대한 관심을 포착하여, 스포츠 경기 외적인 볼거리와 축제 분위기를 즐기려는 시청자들을 위한 테마입니다."
+              }
+            ]
+          },
+          "keyword": "2026 동계 올림픽 대한민국|쇼트트랙|빙상|선수|메달 -뉴스 -보도 -MBN -공식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "e52A-z-6JqY",
+              "title": "#동계올림픽 #스노우보드 #은메달 #김상겸 선수 귀국. 아내에게 메달 걸어주는 모습ㅣ#인천공항",
+              "channelTitle": "미디어몽구",
+              "predicted7d": 296942,
+              "delta": 295782
+            },
+            {
+              "videoId": "CnJFNdWGHs0",
+              "title": "3개월 전 은퇴 고민하던 소녀가밀라노 밤하늘을 뒤집어 놓은 44초  #유승은 #밀라노올림픽 #스노보드빅에어 #동계올림픽2026 #밀라노코르티나2026 #한국최초 #설상종목메달",
+              "channelTitle": "지식한땀",
+              "predicted7d": 72298,
+              "delta": 70985
+            },
+            {
+              "videoId": "ZUfs6ee33ZQ",
+              "title": "강아지가 동계올림픽을 응원한다면?",
+              "channelTitle": "천재견 마야마크",
+              "predicted7d": 63169,
+              "delta": 55884
+            },
+            {
+              "videoId": "uzrDkv-KNEQ",
+              "title": "팀킬 해도 올림픽 갈 수 있다고?!!! #황대헌 #밀라노올림픽 #쇼트트랙논란",
+              "channelTitle": "시사저널e - 시사저널이코노미",
+              "predicted7d": 57923,
+              "delta": 49708
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-10__MANUAL__KR__2026-동계-올림픽/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Milano 2026: Korea's Short Track Glory!",
+            "description": "Get ready for Milano Cortina 2026! Dive into the world of Korean Short Track, from heartwarming comebacks to intense rivalries. Who will bring home the gold?",
+            "tags": [
+              "Milano2026",
+              "ShortTrack",
+              "KoreanOlympics",
+              "WinterOlympics",
+              "OlympicMedals",
+              "TeamKorea",
+              "AthleteStories",
+              "SportsDrama",
+              "Snowboard",
+              "ComebackStory"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "2I9L3C8jhDA"
+          },
+          "updatedAt": "2026-02-10T05:07:28.368Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-10T05:07:28.376Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-10T05:07:28.377Z"
+}
