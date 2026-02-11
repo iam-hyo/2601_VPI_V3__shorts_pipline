@@ -1,0 +1,83 @@
+{
+  "runId": "2026-02-11__MANUAL__KR__클로드",
+  "date": "2026-02-11__MANUAL__KR__클로드",
+  "createdAt": "2026-02-11T06:46:43.331Z",
+  "updatedAt": "2026-02-11T06:47:07.732Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "클로드"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "domain": "클로드",
+            "clusters": [
+              {
+                "name": "클로드 활용 (생산성 & 업무 자동화)",
+                "spec_score": 0.95,
+                "logic": "클로드 AI를 활용하여 코딩, 문서 작성, 봇 개발 등 다양한 업무를 자동화하고 생산성을 극대화하는 방법에 초점을 맞춥니다. 실용적인 사용 사례와 팁을 제공하여 시청자의 직접적인 활용을 유도합니다."
+              },
+              {
+                "name": "클로드 심층 분석 (성능 & 비교)",
+                "spec_score": 0.97,
+                "logic": "클로드의 최신 버전(예: 오퍼스)의 성능을 심층 분석하고, ChatGPT, Gemini 등 경쟁 AI 모델과의 비교를 통해 클로드의 강점과 차별점을 부각합니다. 기술적 특징, 벤치마크, 개발사(앤트로픽)의 비전 등을 다룹니다."
+              },
+              {
+                "name": "클로드와 투자 (주식 & 재테크)",
+                "spec_score": 0.92,
+                "logic": "클로드 AI를 활용한 주식 투자 전략, 시장 분석, 재테크 비법을 제시합니다. 미국 주식, 나스닥 등 특정 시장에 대한 AI 기반 인사이트를 제공하여 투자에 관심 있는 시청자층을 공략합니다."
+              }
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

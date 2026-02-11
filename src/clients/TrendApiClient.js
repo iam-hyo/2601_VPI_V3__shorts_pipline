@@ -48,7 +48,7 @@ export class TrendApiClient {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         keyword,
-        tags: tags.slice(0, 100) // 상위 100개로 제한하여 컨텍스트 최적화
+        tags: tags.slice(0, 150) // 상위 150개로 제한하여 컨텍스트 최적화
       })
     });
 

@@ -1,0 +1,267 @@
+{
+  "runId": "2026-02-11",
+  "date": "2026-02-11",
+  "createdAt": "2026-02-11T06:50:01.853Z",
+  "updatedAt": "2026-02-11T06:55:51.640Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "동계 올림픽 2026",
+          "리니지 클래식",
+          "오현규",
+          "쵸봄",
+          "아이브 뱅뱅",
+          "불도그",
+          "만만",
+          "왕 과 사는 남자",
+          "쇼트 트랙",
+          "차준환",
+          "오버 워치",
+          "이문주",
+          "봉준",
+          "명조",
+          "404",
+          "울프",
+          "웨돔"
+        ],
+        "updatedAt": "2026-02-11T06:50:15.280Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "축구/스포츠",
+            "clusters": [
+              {
+                "name": "오현규 폭발적 활약 & 명장면",
+                "spec_score": 0.95,
+                "logic": "시청자들이 가장 직접적으로 선수의 실력과 매력을 느낄 수 있는 골 장면, 하이라이트 등 경기 내적인 활약에 초점을 맞춥니다. 특히 '오버헤드킥'과 같은 인상적인 골은 높은 조회수를 유발합니다."
+              },
+              {
+                "name": "오현규 해외 진출 & 현지 반응",
+                "spec_score": 0.92,
+                "logic": "해외 리그 진출은 한국 팬들에게 큰 관심사이며, 현지 팬들의 반응은 '국뽕'과 연결되어 시청자들의 감정적 몰입을 유도합니다. 베식타스에서의 활약과 터키 리그에서의 입지를 다루는 것이 중요합니다."
+              },
+              {
+                "name": "오현규 국가대표 활약 & 국뽕",
+                "spec_score": 0.9,
+                "logic": "오현규 선수가 국가대표로서 보여줄 잠재력과 다른 스타 플레이어들과의 연관성을 통해 한국 축구 팬들의 애국심과 기대감을 자극합니다. '국뽕' 콘텐츠는 높은 시청률을 보장합니다."
+              }
+            ]
+          },
+          "keyword": "오현규 오버헤드킥|데뷔골|골장면|축구하이라이트|시저스킥|스트라이커 -풋볼포레스트 -포레스트 -포레스트풋볼 -무리뉴 -무리뉴인터뷰 -LAFC -양민혁 -대한민국사랑해요 -구미사랑 -안이기 -구미아빠 -열정인생 -대패생활 -상생 -소통 -협력 -사랑 -대한민국패밀리넷 -유튜브성장 -인생교훈 -포기하지마 -청년희망 -구미오빠 -KFN",
+          "selectedSourceVideos": [
+            {
+              "videoId": "9Cu9fCWVhbU",
+              "title": "“역대급 대형사고 쳤다!“ 오현규 충격의 베식타스 데뷔전 💥",
+              "channelTitle": "슛톤",
+              "predicted7d": 1830631,
+              "delta": 722732
+            },
+            {
+              "videoId": "uUhhEVqlmJc",
+              "title": "오현규의 활약에 배 아픈 구단",
+              "channelTitle": "골드립",
+              "predicted7d": 325851,
+              "delta": 101411
+            },
+            {
+              "videoId": "mBGgd3fU0Ek",
+              "title": "데뷔전에서 엄청난 활약을 한 오현규⚽️🥶",
+              "channelTitle": "축구한컷",
+              "predicted7d": 59135,
+              "delta": 49105
+            },
+            {
+              "videoId": "E-CP0DoeH6Q",
+              "title": "데뷔전 첫 골이 오버헤드킥! #오현규 #오현규데뷔골 #튀르키예 #축구 #오버헤드킥",
+              "channelTitle": "미드필더 ⚽️",
+              "predicted7d": 33615,
+              "delta": 26964
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-11/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oh Hyeon-gyu's Debut Overhead Kick!",
+            "description": "Witness Oh Hyeon-gyu's incredible debut goal, an absolute stunner! This overhead kick left everyone speechless. Don't miss this football highlight!",
+            "tags": [
+              "OhHyeonGyu",
+              "DebutGoal",
+              "OverheadKick",
+              "FootballHighlights",
+              "SoccerShorts",
+              "AmazingGoal",
+              "Striker",
+              "Besiktas",
+              "TurkishFootball",
+              "ScissorKick"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "oooeWP8Q5mE"
+          },
+          "updatedAt": "2026-02-11T06:52:07.522Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "동계 올림픽 2026",
+            "clusters": [
+              {
+                "name": "한국 쇼트트랙 & 빙상 스타들의 메달 도전",
+                "spec_score": 0.95,
+                "logic": "가장 높은 빈도를 보이는 '쇼트트랙'과 한국의 주요 메달 기대주인 '최민정', '황대헌' 등 빙상 종목 선수들을 중심으로 경쟁과 드라마를 강조하는 클러스터입니다. 시청자들이 가장 열광하는 스포츠 경기 자체와 스타 선수들의 활약에 초점을 맞춥니다."
+              },
+              {
+                "name": "밀라노-코르티나 2026 개최지 탐방 및 문화 체험",
+                "spec_score": 0.88,
+                "logic": "2026 동계 올림픽 개최지인 '밀라노-코르티나'와 '이탈리아'의 문화, 음식, 여행 정보에 대한 관심을 반영하는 클러스터입니다. 올림픽 경기 외에 개최지의 매력을 탐색하는 시청자들의 니즈를 충족시킵니다."
+              },
+              {
+                "name": "2026 동계 올림픽 논란과 국운 예측",
+                "spec_score": 0.82,
+                "logic": "올림픽 관련 '논란', '오심' 등 이슈와 함께 '예언', '국운' 등 다소 비주류적이지만 높은 조회수를 유발할 수 있는 흥미로운 주제들을 묶은 클러스터입니다. 국가 간 경쟁과 관련된 '일본', '중국', '미국', '한국' 등의 키워드를 포함하여 시청자들의 호기심을 자극합니다."
+              }
+            ]
+          },
+          "keyword": "동계 올림픽 2026 밀라노코르티나2026|이탈리아|개최지|여행 -JTBC -MBC -\"JTBC Sports\" -\"JTBC 스포츠\" -연예인쇼츠 -연예인 -랭킹 -연예뉴스 -\"오늘의이슈\" -\"올림픽속보\" -\"올림픽하이라이트\" -\"댓글투표\" -\"하버드코리아인\" -대통령 -통일 -북한 -김상겸",
+          "selectedSourceVideos": [
+            {
+              "videoId": "yNNiFlYiB6E",
+              "title": "\"올림픽 하는 줄도 몰랐다\" '독점'이 만든 역대급 무관심?/ KNN",
+              "channelTitle": "KNN NEWS",
+              "predicted7d": 104586,
+              "delta": 94205
+            },
+            {
+              "videoId": "a3Ec07Yppn8",
+              "title": "조지클루니도 질투하게 만든 박보검 비주얼",
+              "channelTitle": "요즘하태",
+              "predicted7d": 86263,
+              "delta": 79358
+            },
+            {
+              "videoId": "3FrnF2DV8-A",
+              "title": "🧊 이나현, 올림픽 첫 무대서 ‘역사’… 여자 1000m 첫 톱10 돌파",
+              "channelTitle": "MINUTE",
+              "predicted7d": 71870,
+              "delta": 70867
+            },
+            {
+              "videoId": "A_ss7sMhxmU",
+              "title": "\"포스트 김연아\"가 아닌 \"최초의 차준환\"이 되다... 전율의 밀라노 금빛 연기",
+              "channelTitle": "마음노트 : 기억 보관소",
+              "predicted7d": 87391,
+              "delta": 48511
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-11/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Milan 2026: Olympic Dreams & Drama",
+            "description": "Get ready for Milan Cortina 2026! Dive into the thrilling world of winter sports, from historic breakthroughs to unexpected moments. Discover the journey of athletes chasing Olympic glory.",
+            "tags": [
+              "MilanCortina2026",
+              "WinterOlympics",
+              "OlympicDreams",
+              "ItalyTravel",
+              "SportsHighlights",
+              "AthleteStories",
+              "IceSkating",
+              "OlympicHistory",
+              "OlympicDrama",
+              "FutureOlympics"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "805Qd0Ob6bk"
+          },
+          "updatedAt": "2026-02-11T06:53:05.521Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-11T06:53:05.530Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "super bowl 2026 halftime show",
+          "bad bunny super bowl 2026",
+          "super bowl 2026 live stream",
+          "super bowl 2026",
+          "winter olympics 2026",
+          "opalite taylor swift",
+          "green day super bowl 2026"
+        ],
+        "updatedAt": "2026-02-11T06:53:22.247Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "domain": "youtube_content_planning",
+            "clusters": [
+              {
+                "name": "Green Day Super Bowl Halftime Show Speculation & Performance",
+                "spec_score": 0.95,
+                "logic": "This cluster focuses on the core event: Green Day's potential 2026 Super Bowl halftime show. It includes tags related to the performance itself, predictions, and the specific Super Bowl event (LX, 2026). High frequency tags like 'Green Day Super Bowl', 'Super Bowl LX', 'Green Day 2026', 'green day halftime show', and 'super bowl performance 2026' are central here."
+              },
+              {
+                "name": "Green Day's Iconic Catalog & Punk Rock Legacy",
+                "spec_score": 0.92,
+                "logic": "This cluster delves into Green Day's musical identity, focusing on their most famous albums and songs, and their genre. Tags such as 'American Idiot', 'Dookie', 'Holiday Green Day', 'Basket Case', 'punk rock', 'pop punk', and 'music legend' highlight their enduring impact and the type of performance expected."
+              },
+              {
+                "name": "Audience Reaction & Broader Super Bowl Context",
+                "spec_score": 0.9,
+                "logic": "This cluster captures the audience's engagement, reactions, and the broader context of the Super Bowl halftime show. It includes tags like 'green day super bowl reaction', 'musician reacts', 'rock music reaction', 'halftime show history', and even comparative tags like 'bad bunny super bowl 2026' to understand the competitive landscape or diverse audience interests."
+              }
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

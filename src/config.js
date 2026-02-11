@@ -53,9 +53,9 @@ export const VALIDATION = {
   minShortsCount: 4,
   maxShortsSec: 80,
 
-  // predicted_7day_views >= 50k 영상이 4개 이상
+  // predicted_7day_views >= 30k 영상이 4개 이상
   minPredictedViews: 30_000,
-  minQualifiedVideos: 4,
+  minQualifiedVideos: 3,
   topK: 4
 };
 

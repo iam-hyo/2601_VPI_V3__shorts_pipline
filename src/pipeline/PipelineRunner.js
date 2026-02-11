@@ -146,7 +146,7 @@ export class PipelineRunner {
     const slotID = `${runId}_${region}_${slot}`;
     log.info({ region, slot, slotID }, `${slotID} runVideoSlot 진입`);
 
-    // 1) 상태 로드 및 Job 추출
+    // ====== 단계 0: 상태 로드 및 Job 추출 ===================
     let state = this.load(runId);
     const rs = state.regions?.[region];
 
@@ -243,25 +243,54 @@ export class PipelineRunner {
           // 2. 서버(QE API) 호출하여 구체화된 쿼리 후보 3개 획득
           const { slots, analysis } = await this.trendApi.refineTrendKeyword(rawKeyword, tags);
 
-          // 분석 로그 저장 (디버깅용)
-          job.queryEngineering = analysis;
-          this.save(state);
-
           // [내부 루프] 3개의 구체화 쿼리 후보 순회 검증
+          const validationHistory = [];
+
           for (const slotCandidate of slots) {
             log.info(`[${slotID}] 후보 검증 시도: ${slotCandidate.q} (${slotCandidate.theme})`);
 
-            const result = await this.validator.validateSingleQuery({
+            // validateSingleQuery는 이제 { ok, reason, videos }를 반환함
+            const vResult = await this.validator.validateSingleQuery({
               q: slotCandidate.q,
               region,
               slot
             });
 
-            if (result) {
-              picked = { keyword: slotCandidate.q, videos: result.videos };
+            if (vResult.ok) {
+              // 성공 시 데이터 세팅
+              picked = {
+                keyword: slotCandidate.q,
+                videos: vResult.videos,
+                originalKeyword: rawKeyword // 원본 키워드 보존
+              };
+
+              validationHistory.push({
+                q: slotCandidate.q,
+                theme: slotCandidate.theme,
+                status: "PASS"
+              });
+
+              log.info(`[${slotID}] ✅ 후보 검증 통과!`);
               break; // 내부 루프 탈출
+            } else {
+              // 실패 시 사유 로깅 및 기록
+              log.warn(`[${slotID}] ⛔ 후보 결격: ${vResult.reason}`);
+
+              validationHistory.push({
+                q: slotCandidate.q,
+                theme: slotCandidate.theme,
+                status: "FAIL",
+                reason: vResult.reason
+              });
             }
           }
+
+          // 분석 데이터와 검증 이력을 함께 저장 (디버깅 핵심 데이터)
+          job.queryEngineering = {
+            ...analysis,
+            validationHistory
+          };
+          this.save(state);
 
           if (picked) break; // 적합한 쿼리 찾았으므로 외곽 루프 탈출
         } catch (err) {
@@ -272,7 +301,6 @@ export class PipelineRunner {
       if (!picked) {
         throw new Error("모든 트렌드 키워드와 쿼리 후보군이 조건을 만족하지 못했습니다.");
       }
-      // ======================================================================
 
       // 1) 상태 객체(runId.json)에 상세 정보 기록
       job.originalKeyword = picked.originalKeyword; // 처음에 제시된 원본 트렌드 (예: '2026 동계올림픽')
@@ -311,8 +339,8 @@ export class PipelineRunner {
       log.info(`[${slotID}] 최종 쿼리 확정: '${job.keyword}' (테마: ${job.selectedTheme})`);
     } // <-- 여기까지가 "단계 A"의 닫는 괄호입니다.
 
-    
-    // ===== 단계 B: Video Processor =====
+
+    // ======== 단계 B: Video Processor =========
     // DONE이면 스킵, 아니면 수행
     // (가능하면 outputFileAbs도 job에 저장해두는게 재시도에 매우 유리)
     const vpAlreadyDone = job.videoProcessor?.status === "DONE" && !!job.outputFile;
@@ -321,8 +349,7 @@ export class PipelineRunner {
     const inferredOutputAbs = path.join(workDir, job.outputFile || "final.mp4");
     const outputFileAbs = job.outputFileAbs || inferredOutputAbs;
 
-    if (vpAlreadyDone) {
-      // 파일이 실제로 없으면(디스크 정리/실패) 다시 생성하도록 방어
+    if (vpAlreadyDone) {// 파일이 실제로 없으면(디스크 정리/실패) 다시 생성하도록 방어
       const exists = typeof fs?.existsSync === "function" ? fs.existsSync(outputFileAbs) : true;
 
       if (exists) {
@@ -355,7 +382,7 @@ export class PipelineRunner {
         job.videoProcessor = { status: "DONE" };
         job.outputFile = vpRes.outputFile || "final.mp4";
         job.outputFileAbs = vpRes.outputFileAbs || path.join(workDir, job.outputFile);
-        job.uploadMeta = vpRes.uploadMeta || null; // 업로드 메타 재사용용(선택)
+        job.uploadMeta = vpRes.uploadMeta || null; // 업로드 메타 재사용(선택)
         this.save(state);
       }
     } else {
@@ -411,8 +438,20 @@ export class PipelineRunner {
         // vpRes가 없을 수도 있으니(job.uploadMeta로 백업), 그래도 없으면 기본값
         const title =
           job.uploadMeta?.title || `[${region}] ${picked.keyword}`;
-        const description =
-          job.uploadMeta?.description || "";
+
+        const tagString = (job.uploadMeta?.tags || [])
+          .map(tag => `#${tag.trim()}`)
+          .join(' ');
+
+        // 2. 최종 설명란 조립 (줄바꿈 \n 포함)
+        const description = [
+          `SlotID: ${slotID}`, // slotID 기록
+          "\n",
+          job.uploadMeta?.description || "No description provided.", // 기존 설명글
+          "\n",
+          tagString, // 가공된 해시태그들
+        ].join('\n');
+
         const tags =
           job.uploadMeta?.tags || [];
 

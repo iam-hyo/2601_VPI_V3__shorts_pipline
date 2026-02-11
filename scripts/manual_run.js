@@ -4,6 +4,7 @@
  *
  * 사용 예:
  * node scripts/manual_run.js --region KR --keyword "My Topic" --date 2026-01-02
+ * npm run manual -- --region "KR" --keyword "차정원"
  */
 
 import "dotenv/config";

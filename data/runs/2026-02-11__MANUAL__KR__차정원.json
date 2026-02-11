@@ -1,0 +1,83 @@
+{
+  "runId": "2026-02-11__MANUAL__KR__차정원",
+  "date": "2026-02-11__MANUAL__KR__차정원",
+  "createdAt": "2026-02-11T06:43:15.612Z",
+  "updatedAt": "2026-02-11T06:45:03.474Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "차정원"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "domain": "Entertainment/Celebrity",
+            "clusters": [
+              {
+                "name": "차정원 열애설 & 연애사",
+                "spec_score": 0.95,
+                "logic": "시청자들이 가장 궁금해하는 연예인의 사생활, 특히 열애설과 관련된 인물 및 관계에 대한 정보를 탐색합니다. '하정우'와의 연관성이 높은 키워드를 포함하여 대중의 호기심을 자극합니다."
+              },
+              {
+                "name": "차정원 드라마 & 연기 활동",
+                "spec_score": 0.9,
+                "logic": "배우로서의 본업인 드라마 출연작과 연기 활동에 초점을 맞춥니다. 특히 '일일드라마'와 특정 작품명('친밀한리플리')을 명시하여 팬들이 관심 가질 만한 콘텐츠를 발굴합니다."
+              },
+              {
+                "name": "차정원 패션 & 뷰티 스타일",
+                "spec_score": 0.85,
+                "logic": "인플루언서로서의 면모를 부각하여 그녀의 패션, 뷰티 노하우, 그리고 일상적인 라이프스타일에 대한 정보를 제공합니다. '손민수'와 같은 키워드를 통해 따라 하고 싶은 워너비 스타의 이미지를 강조합니다."
+              }
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

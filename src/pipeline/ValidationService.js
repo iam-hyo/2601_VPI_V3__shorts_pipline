@@ -31,7 +31,7 @@ export class ValidationService {
  * [리팩토링] 단일 쿼리에 대한 적합성 검증 수행
  * 기존 pickKeywordAndTopVideos의 내부 로직을 분리하여 재사용성을 높임
  */
-  async validateSingleQuery({ q, region, slot}) {
+  async validateSingleQuery({ q, region, slot }) {
     const publishedAfterISO = new Date(Date.now() - VALIDATION.recentDays * 24 * 3600 * 1000).toISOString();
     log.info(`[${region}_${slot}] 쿼리 적합성 검사: ${q}`);
 
@@ -44,8 +44,7 @@ export class ValidationService {
     const filteredFeatures = features.filter(f => f.is_short === true);
 
     if (filteredFeatures.length < VALIDATION.minShortsCount) {
-      log.info(`[${region}_${slot}] 쇼츠 개수 부족 (${filteredFeatures.length}개)`);
-      return null;
+      return { ok: false, reason: `쇼츠 개수 부족 (적합: ${filteredFeatures.length}개 / 최소: ${VALIDATION.minShortsCount}개)` };
     }
 
     // 3) 조회수 예측 및 점수화
@@ -68,10 +67,12 @@ export class ValidationService {
       });
     }
 
-    if (scored.length < VALIDATION.minQualifiedVideos) return null;
+    if (scored.length < VALIDATION.minQualifiedVideos) {
+      return { ok: false, reason: `조회수 조건 미달 (조건만족: ${scored.length}개 / 최소: ${VALIDATION.minQualifiedVideos}개)` };
+    }
 
     scored.sort((a, b) => b.delta - a.delta);
-    return { videos: scored.slice(0, VALIDATION.topK) };
+    return { ok: true, videos: scored.slice(0, VALIDATION.topK) };
   }
   // =================수정 끝=======================
 

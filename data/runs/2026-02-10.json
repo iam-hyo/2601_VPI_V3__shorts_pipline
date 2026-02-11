@@ -1,0 +1,565 @@
+{
+  "runId": "2026-02-10",
+  "date": "2026-02-10",
+  "createdAt": "2026-02-10T06:50:02.030Z",
+  "updatedAt": "2026-02-10T06:56:27.996Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "동계 올림픽 2026",
+          "오현규",
+          "아이브 뱅뱅",
+          "리니지 클래식",
+          "불도그",
+          "만만",
+          "오버 워치",
+          "이문주",
+          "전한길",
+          "울프",
+          "404",
+          "웨돔",
+          "이강인"
+        ],
+        "updatedAt": "2026-02-10T06:50:13.272Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "YouTube Query Optimization",
+            "clusters": [
+              {
+                "name": "실시간 중계 및 하이라이트",
+                "spec_score": 0.95,
+                "logic": "시청자들이 동계 올림픽의 현장감과 주요 순간을 놓치지 않고 즐기고자 하는 니즈가 높습니다. '라이브', '생중계' 등 실시간 관련 키워드와 '하이라이트'에 대한 관심이 높게 나타났습니다."
+              },
+              {
+                "name": "개막식 및 주요 행사",
+                "spec_score": 0.9,
+                "logic": "올림픽의 시작을 알리는 개막식은 화려한 볼거리와 특별 공연으로 시청자들의 큰 기대를 모읍니다. 개최 도시와 유명 아티스트의 공연 관련 키워드가 중요하게 식별되었습니다."
+              },
+              {
+                "name": "한국 선수단 및 메달 기대 종목",
+                "spec_score": 0.88,
+                "logic": "국가대표 선수들의 활약과 메달 획득 여부는 국민적 관심사입니다. 특히 한국이 강세를 보이는 '쇼트트랙' 등 특정 종목과 선수들에 대한 검색 수요가 높을 것으로 예상됩니다."
+              }
+            ]
+          },
+          "keyword": "동계 올림픽 2026 개막식|밀라노|마리아케리 -뉴스 -보도 -MBN -공식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "cPXDlK24Wxo",
+              "title": "2026 동계 올림픽 폭망의 이유! JTBC독점 중계, 배성제 캐스터....#2026 #동계올림픽 #밀라노 #중앙그룹 #JTBC #배성제 #방송3사",
+              "channelTitle": "애국짱TV",
+              "predicted7d": 62011,
+              "delta": 46312
+            },
+            {
+              "videoId": "CnJFNdWGHs0",
+              "title": "3개월 전 은퇴 고민하던 소녀가밀라노 밤하늘을 뒤집어 놓은 44초  #유승은 #밀라노올림픽 #스노보드빅에어 #동계올림픽2026 #밀라노코르티나2026 #한국최초 #설상종목메달",
+              "channelTitle": "지식한땀",
+              "predicted7d": 41538,
+              "delta": 36006
+            },
+            {
+              "videoId": "Cheihq4tYcg",
+              "title": "세계랭킹 7위가 올림픽 2연패 #최민정 #베이징동계올림픽 #밀라노동계올림픽 #김길리 #여자1500미터",
+              "channelTitle": "Mr.손샤인",
+              "predicted7d": 64206,
+              "delta": 29010
+            },
+            {
+              "videoId": "90CmTv0oXik",
+              "title": "\"김연아의 재림\" 신지아 2026 밀라노 올림픽 역대급 경기 (Jia Shin - Milano 2026 Figure Skating)",
+              "channelTitle": "다시 또 시작하는 우리",
+              "predicted7d": 32989,
+              "delta": 27858
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-10/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Milan 2026: Drama, Gold, & Controversy!",
+            "description": "Get ready for the 2026 Milan Winter Olympics! From shocking upsets and legendary comebacks to potential controversies and rising stars, this Shorts compilation has it all. Don't miss the drama and glory of Milano Cortina 2026!",
+            "tags": [
+              "Milan2026",
+              "WinterOlympics",
+              "MilanoCortina2026",
+              "Olympics",
+              "SportsDrama",
+              "FigureSkating",
+              "ShortTrack",
+              "Snowboard",
+              "OlympicGold",
+              "Controversy"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "WGrihj7NRMw"
+          },
+          "updatedAt": "2026-02-10T06:51:05.289Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "동계 올림픽",
+            "clusters": [
+              {
+                "name": "실시간 중계 및 주요 장면",
+                "spec_score": 0.95,
+                "logic": "시청자들이 가장 높은 관심을 보이는 실시간 중계, 라이브 콘텐츠, 그리고 놓친 경기를 다시 볼 수 있는 하이라이트 및 다시보기 키워드를 중심으로 구성하여 즉각적인 정보 소비 욕구를 충족시킵니다."
+              },
+              {
+                "name": "개최 도시와 개막식/폐막식",
+                "spec_score": 0.88,
+                "logic": "2026 동계 올림픽의 개최지인 밀라노와 코르티나의 정보, 그리고 올림픽의 시작과 끝을 알리는 개막식 및 폐막식의 화려한 볼거리에 대한 시청자들의 기대감을 반영하여 기획합니다."
+              },
+              {
+                "name": "인기 종목 집중 분석",
+                "spec_score": 0.85,
+                "logic": "한국 시청자들에게 특히 인기가 많고 메달 기대가 높은 쇼트트랙, 피겨 스케이팅, 스키, 스피드 스케이팅 등 주요 동계 스포츠 종목에 대한 심층적인 정보와 경기 영상에 초점을 맞춥니다."
+              }
+            ]
+          },
+          "keyword": "동계 올림픽 2026 밀라노|코르티나|개막식|폐막식 -뉴스 -보도 -MBN -공식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "cPXDlK24Wxo",
+              "title": "2026 동계 올림픽 폭망의 이유! JTBC독점 중계, 배성제 캐스터....#2026 #동계올림픽 #밀라노 #중앙그룹 #JTBC #배성제 #방송3사",
+              "channelTitle": "애국짱TV",
+              "predicted7d": 62011,
+              "delta": 46312
+            },
+            {
+              "videoId": "CnJFNdWGHs0",
+              "title": "3개월 전 은퇴 고민하던 소녀가밀라노 밤하늘을 뒤집어 놓은 44초  #유승은 #밀라노올림픽 #스노보드빅에어 #동계올림픽2026 #밀라노코르티나2026 #한국최초 #설상종목메달",
+              "channelTitle": "지식한땀",
+              "predicted7d": 41602,
+              "delta": 35985
+            },
+            {
+              "videoId": "Cheihq4tYcg",
+              "title": "세계랭킹 7위가 올림픽 2연패 #최민정 #베이징동계올림픽 #밀라노동계올림픽 #김길리 #여자1500미터",
+              "channelTitle": "Mr.손샤인",
+              "predicted7d": 64206,
+              "delta": 29001
+            },
+            {
+              "videoId": "90CmTv0oXik",
+              "title": "\"김연아의 재림\" 신지아 2026 밀라노 올림픽 역대급 경기 (Jia Shin - Milano 2026 Figure Skating)",
+              "channelTitle": "다시 또 시작하는 우리",
+              "predicted7d": 32431,
+              "delta": 27288
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-10/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Milano 2026: Glory, Flops & New Legends!",
+            "description": "Get ready for Milano-Cortina 2026! From unexpected upsets and rising stars to potential controversies, this Winter Olympics promises unforgettable moments. Discover the drama, the glory, and the athletes making history.",
+            "tags": [
+              "MilanoCortina2026",
+              "WinterOlympics",
+              "OlympicShorts",
+              "SportsDrama",
+              "FigureSkating",
+              "Snowboard",
+              "SpeedSkating",
+              "OlympicLegends",
+              "KPopSports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "TLXZQHH2KNM"
+          },
+          "updatedAt": "2026-02-10T06:51:58.864Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-10T06:51:58.872Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "super bowl 2026 halftime show",
+          "bad bunny super bowl 2026 halftime show",
+          "super bowl 2026",
+          "kid rock halftime show",
+          "winter olympics 2026",
+          "opalite taylor swift",
+          "green day super bowl 2026",
+          "lindsey vonn crash"
+        ],
+        "updatedAt": "2026-02-10T06:52:27.743Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "super bowl 2026 halftime show",
+            "clusters": [
+              {
+                "name": "Bad Bunny Headliner Speculation & Latin Impact",
+                "spec_score": 0.95,
+                "logic": "The highest frequency tags are centered around 'Bad Bunny', indicating significant public interest and speculation about him headlining the 2026 halftime show. This cluster focuses on his potential performance and the broader influence of Latin music and reggaeton."
+              },
+              {
+                "name": "General Predictions & Dream Lineups",
+                "spec_score": 0.9,
+                "logic": "This cluster captures the overarching discussion, predictions, and fan desires for the 2026 Super Bowl Halftime Show. It includes general terms related to the event, potential artist lineups, and circulating rumors, without focusing on a single artist."
+              },
+              {
+                "name": "Iconic Moments & Guest Artist Wishlist",
+                "spec_score": 0.85,
+                "logic": "This cluster targets the 'wow' factor of the halftime show, drawing on mentions of past iconic performers like Lady Gaga and Ricky Martin. It explores the possibility of surprise guest appearances, memorable collaborations, and legendary performances that could define the 2026 show."
+              }
+            ]
+          },
+          "keyword": "super bowl 2026 halftime show Bad Bunny|reggaeton|Latin music -뉴스 -보도 -MBN -공식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "axWbP5nmbic",
+              "title": "Bad Bunny Super Bowl Halftime Show #music #latino #music #latino #puerto rico",
+              "channelTitle": "Music Forever",
+              "predicted7d": 84925,
+              "delta": 83791
+            },
+            {
+              "videoId": "zr2-lfsqF7w",
+              "title": "Laura Ingraham on 2026 Super Bowl Halftime Show: Don’t blame Bad Bunny for this #shorts #superbowl",
+              "channelTitle": "Fox News",
+              "predicted7d": 164442,
+              "delta": 78493
+            },
+            {
+              "videoId": "m3tS_BJOty8",
+              "title": "Super Bowl Halftime Show ft. Bad Bunny 🏈🔥",
+              "channelTitle": "Pop Vault",
+              "predicted7d": 56763,
+              "delta": 55803
+            },
+            {
+              "videoId": "86aT7K77L0w",
+              "title": "Bad Bunny Halftime Super Bowl Show Setup.",
+              "channelTitle": "Glamily",
+              "predicted7d": 60188,
+              "delta": 54120
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-10/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bad Bunny Super Bowl Halftime 2026",
+            "description": "Is Bad Bunny headlining the Super Bowl 2026 Halftime Show? The rumors are flying, and fans are already buzzing about a potential reggaeton takeover. Get ready for Latin music's biggest moment on the world's biggest stage!",
+            "tags": [
+              "BadBunny",
+              "SuperBowl",
+              "HalftimeShow",
+              "Reggaeton",
+              "LatinMusic",
+              "Benito",
+              "2026",
+              "MusicNews",
+              "Performance",
+              "Rumors"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "N3wzvQ7FTSk"
+          },
+          "updatedAt": "2026-02-10T06:53:22.241Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "YouTube Query Optimization",
+            "clusters": [
+              {
+                "name": "Bad Bunny의 2026 슈퍼볼 하프타임 쇼",
+                "spec_score": 0.95,
+                "logic": "가장 높은 빈도로 등장하는 'Bad Bunny' 태그와 'super bowl 2026 halftime show'의 조합은 Bad Bunny가 2026년 하프타임 쇼의 유력한 후보이거나 대중의 큰 기대를 받고 있음을 시사합니다. 'reggaeton', 'Latin music' 태그는 그의 음악적 정체성과 연결되어 시청자의 관심사를 명확히 보여줍니다."
+              },
+              {
+                "name": "2026 슈퍼볼 하프타임 쇼 예측 및 라인업",
+                "spec_score": 0.98,
+                "logic": "'Super Bowl 2026', 'super bowl halftime show' 등 핵심 키워드의 높은 빈도는 시청자들이 2026년 하프타임 쇼에 대한 전반적인 정보, 즉 누가 공연할지, 어떤 아티스트가 거론되는지에 대한 예측과 루머에 큰 관심을 가지고 있음을 나타냅니다. 'entertainment', 'celebrity' 태그는 이러한 예측 콘텐츠의 인기를 뒷받침합니다."
+              },
+              {
+                "name": "슈퍼볼 하프타임 쇼 역대급 순간 및 게스트",
+                "spec_score": 0.88,
+                "logic": "'lady gaga', 'ricky martin super bowl', 'prince', 'paul mccartney' 등 과거 유명 아티스트 태그는 시청자들이 역대 슈퍼볼 하프타임 쇼의 상징적인 순간이나 특별 게스트에 대한 향수 또는 미래 쇼에 대한 기대를 가지고 있음을 보여줍니다. 'controversy' 태그는 논란이 되었던 순간들에 대한 관심도 반영합니다."
+              }
+            ]
+          },
+          "keyword": "super bowl 2026 halftime show Bad Bunny|reggaeton|Latin music -뉴스 -보도 -MBN -공식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "axWbP5nmbic",
+              "title": "Bad Bunny Super Bowl Halftime Show #music #latino #music #latino #puerto rico",
+              "channelTitle": "Music Forever",
+              "predicted7d": 85279,
+              "delta": 84145
+            },
+            {
+              "videoId": "zr2-lfsqF7w",
+              "title": "Laura Ingraham on 2026 Super Bowl Halftime Show: Don’t blame Bad Bunny for this #shorts #superbowl",
+              "channelTitle": "Fox News",
+              "predicted7d": 164352,
+              "delta": 78366
+            },
+            {
+              "videoId": "m3tS_BJOty8",
+              "title": "Super Bowl Halftime Show ft. Bad Bunny 🏈🔥",
+              "channelTitle": "Pop Vault",
+              "predicted7d": 56763,
+              "delta": 55793
+            },
+            {
+              "videoId": "86aT7K77L0w",
+              "title": "Bad Bunny Halftime Super Bowl Show Setup.",
+              "channelTitle": "Glamily",
+              "predicted7d": 60188,
+              "delta": 54118
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-10/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Bad Bunny SB 2026 Halftime Buzz!",
+            "description": "Is Bad Bunny headlining the Super Bowl 2026 Halftime Show? The rumors are flying! Get ready for a potential reggaeton explosion on the world's biggest stage.",
+            "tags": [
+              "BadBunny",
+              "SuperBowl",
+              "HalftimeShow",
+              "Reggaeton",
+              "LatinMusic",
+              "Benito",
+              "NFL",
+              "MusicNews",
+              "SuperBowl2026",
+              "Rumors"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "p612HOCzCgE"
+          },
+          "updatedAt": "2026-02-10T06:54:11.839Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-10T06:54:11.848Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "super bowl 2026",
+          "bad bunny super bowl",
+          "medio tiempo super bowl",
+          "nfl",
+          "michael jackson"
+        ],
+        "updatedAt": "2026-02-10T06:54:29.428Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "super bowl 2026",
+            "clusters": [
+              {
+                "name": "Bad Bunny Super Bowl 2026 Halftime Show Speculation",
+                "spec_score": 0.95,
+                "logic": "The tag 'bad bunny' has the highest frequency (f=12) and lowest saturation penalty (0.6065), indicating significant public interest. Combined with 'super bowl', 'halftime show', and 'performance' related tags, there's a strong, distinct narrative around Bad Bunny potentially headlining the 2026 halftime show."
+              },
+              {
+                "name": "Super Bowl 2026 Halftime Show & Celebrity Guest Predictions",
+                "spec_score": 0.88,
+                "logic": "Beyond the specific Bad Bunny interest, there's a general high frequency for 'super bowl halftime show' (f=3) and mentions of other artists like 'lady gaga' (f=3), 'cardi b' (f=2), and 'Taylor Swift Super Bowl' (f=1), along with 'celebrities at Super Bowl 2026'. This indicates a broader interest in who will perform or attend the event, distinct from a single artist focus."
+              },
+              {
+                "name": "Super Bowl 2026 Latest News, Updates & Host City",
+                "spec_score": 0.8,
+                "logic": "Tags like 'super bowl 2026' (f=4), 'super bowl lx' (f=3), 'nfl' (f=5), 'news' (f=3), 'noticias' (f=3), 'latest news' (f=2), and 'top stories' (f=2) highlight a consistent demand for general information, official announcements, and early predictions regarding the event itself, including its location and key developments."
+              }
+            ]
+          },
+          "keyword": "super bowl 2026 Bad Bunny|Halftime Show|Performance|Rumors -뉴스 -보도 -MBN -공식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "2hZ-btJNo_o",
+              "title": "Fat Joe Praises Bad Bunny's Super Bowl Halftime Performance #fatjoe #superbowl #badbunny",
+              "channelTitle": "Entertainment Tonight",
+              "predicted7d": 682960,
+              "delta": 277040
+            },
+            {
+              "videoId": "_pHiwvz8pnU",
+              "title": "BAD BUNNY: English Translation of Super Bowl 2026 Performance! It’s inspiring! #spanish #popculture",
+              "channelTitle": "UTOPIA 5D",
+              "predicted7d": 106638,
+              "delta": 95173
+            },
+            {
+              "videoId": "zr2-lfsqF7w",
+              "title": "Laura Ingraham on 2026 Super Bowl Halftime Show: Don’t blame Bad Bunny for this #shorts #superbowl",
+              "channelTitle": "Fox News",
+              "predicted7d": 164352,
+              "delta": 78313
+            },
+            {
+              "videoId": "3JL8JVIhUHI",
+              "title": "Ricky Martin and bad bunny Cute moments at Superbowl halftime show 2026",
+              "channelTitle": "Star⭐spill",
+              "predicted7d": 69220,
+              "delta": 59791
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-10/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bad Bunny Super Bowl 2026 Halftime!",
+            "description": "Dive into the hottest rumors surrounding Bad Bunny's potential Super Bowl 2026 Halftime Show! From celebrity reactions to fan theories, we've got the scoop. Don't miss these unforgettable moments and shocking insights!",
+            "tags": [
+              "BadBunny",
+              "SuperBowl2026",
+              "HalftimeShow",
+              "BadBunnyRumors",
+              "SuperBowlPerformance",
+              "CelebrityReaction",
+              "MusicNews",
+              "PopCulture",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "x_pqG2Ocys8"
+          },
+          "updatedAt": "2026-02-10T06:55:35.049Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "Super Bowl 2026 YouTube Content Strategy",
+            "clusters": [
+              {
+                "name": "Halftime Show Performer Speculation",
+                "spec_score": 0.95,
+                "logic": "The 'bad bunny' tag and its variations related to 'super bowl halftime show' are overwhelmingly frequent, indicating a strong public interest in who will perform. 'Lady Gaga' also appears, suggesting a broader interest in potential artists."
+              },
+              {
+                "name": "Celebrity Attendance & Reactions",
+                "spec_score": 0.85,
+                "logic": "Multiple tags like 'celebrities at Super Bowl 2026', 'celebrity sightings', and specific celebrity names (Taylor Swift, Timothée Chalamet, Tom Cruise, etc.) point to a significant audience interest in the non-game aspects, particularly the glamour and social buzz around famous attendees."
+              },
+              {
+                "name": "Host City & Event Updates/Predictions",
+                "spec_score": 0.9,
+                "logic": "Beyond the entertainment, there's a foundational interest in the event itself: its location, general news, and future predictions. Tags like 'super bowl lx', 'nfl', 'news', and 'controversy' suggest a demand for updates and speculative content regarding the core event details."
+              }
+            ]
+          },
+          "keyword": "super bowl 2026 bad bunny|halftime show|performer|lady gaga|artist|lineup|rumors|prediction -뉴스 -보도 -MBN -공식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "zr2-lfsqF7w",
+              "title": "Laura Ingraham on 2026 Super Bowl Halftime Show: Don’t blame Bad Bunny for this #shorts #superbowl",
+              "channelTitle": "Fox News",
+              "predicted7d": 164352,
+              "delta": 78192
+            },
+            {
+              "videoId": "4KWzw-HoCfM",
+              "title": "NADIE ESPERABA A LADY GAGA EN EL SUPER BOWL DE BAD BUNNY!! 😱🔥",
+              "channelTitle": "Brothers Twinz",
+              "predicted7d": 83451,
+              "delta": 76493
+            },
+            {
+              "videoId": "2Zv5N-b3uuo",
+              "title": "Bad Bunny Streams Surge 470% Following Historic \"Pan-American\" Super Bowl Show #badbunny",
+              "channelTitle": "PopCulture Memes",
+              "predicted7d": 81240,
+              "delta": 47970
+            },
+            {
+              "videoId": "wtZueS6GxYU",
+              "title": "LA INCREÍBLE HISTORIA DE BAD BUNNY CON LADY GAGA 🥹 #BadBunny #LadyGaga #Superbowl",
+              "channelTitle": "Chepis Puebla",
+              "predicted7d": 36093,
+              "delta": 35274
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-10/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Bad Bunny & Lady Gaga Super Bowl 2026?",
+            "description": "Is Bad Bunny headlining the Super Bowl 2026 Halftime Show? Dive into the hottest rumors and predictions, including a potential Lady Gaga surprise! See fan reactions and what this 'Pan-American' show could mean for streams.",
+            "tags": [
+              "SuperBowl2026",
+              "BadBunny",
+              "LadyGaga",
+              "HalftimeShow",
+              "SuperBowlRumors",
+              "HalftimePrediction",
+              "MusicNews",
+              "PopCulture",
+              "ArtistLineup",
+              "CelebrityRumors"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "f8ln42h9lDI"
+          },
+          "updatedAt": "2026-02-10T06:56:27.985Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-10T06:56:27.994Z"
+    }
+  },
+  "finishedAt": "2026-02-10T06:56:27.996Z"
+}

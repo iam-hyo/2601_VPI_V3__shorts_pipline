@@ -1,0 +1,83 @@
+{
+  "runId": "2026-02-11__MANUAL__KR__빗썸",
+  "date": "2026-02-11__MANUAL__KR__빗썸",
+  "createdAt": "2026-02-11T06:45:42.376Z",
+  "updatedAt": "2026-02-11T06:46:01.371Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "빗썸"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "domain": "가상자산 거래소 뉴스 및 동향",
+            "clusters": [
+              {
+                "name": "빗썸 주요 사건/이슈",
+                "spec_score": 0.9,
+                "logic": "빗썸과 관련된 특정 고강도 사건, 사고, 또는 논란에 초점을 맞춰 시청자의 즉각적인 관심과 긴급성을 유발합니다. '오지급'과 같은 구체적인 사건은 높은 조회수를 기대할 수 있습니다."
+              },
+              {
+                "name": "빗썸 가상자산 시장 동향",
+                "spec_score": 0.85,
+                "logic": "빗썸 플랫폼 내 주요 가상자산(비트코인, 이더리움 등)의 시세 변동, 투자 전략, 시장 분석 등 투자자들의 직접적인 관심사를 다룹니다. 경제적 가치와 직결되어 시청자 참여를 유도합니다."
+              },
+              {
+                "name": "빗썸 규제 및 정치적 영향",
+                "spec_score": 0.8,
+                "logic": "빗썸을 둘러싼 국내외 규제 환경 변화, 국회 논의, 정부 정책 등 정치적, 법률적 측면을 조명하여 가상자산 시장의 미래 방향성에 대한 시청자의 궁금증을 자극합니다."
+              }
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}
