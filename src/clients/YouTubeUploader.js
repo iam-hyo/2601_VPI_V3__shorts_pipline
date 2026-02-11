@@ -1,5 +1,4 @@
 /**
- * src/clients/YouTubeUploader.js
  * [파일 책임]
  * - OAuth2 Refresh Token 기반 YouTube 업로드를 수행합니다.
  */
