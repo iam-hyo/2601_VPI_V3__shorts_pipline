@@ -45,10 +45,15 @@ export class PipelineRunner {
     this.videoApi = new VideoProcessorApiClient({ baseUrl: args.env.VIDEO_PROCESSOR_API_BASE_URL });
 
     this.uploader = new YouTubeUploader({
-      clientId: process.env.YOUTUBE_OAUTH_CLIENT_ID,
-      clientSecret: process.env.YOUTUBE_OAUTH_CLIENT_SECRET,
-      redirectUri: process.env.YOUTUBE_OAUTH_REDIRECT_URI,
-      refreshToken: process.env.YOUTUBE_OAUTH_REFRESH_TOKEN
+      clientId: this.env.YOUTUBE_OAUTH_CLIENT_ID,
+      clientSecret: this.env.YOUTUBE_OAUTH_CLIENT_SECRET,
+      redirectUri: this.env.YOUTUBE_OAUTH_REDIRECT_URI,
+      // 국가별 토큰 매핑
+      tokens: {
+        KR: this.env.YOUTUBE_OAUTH_REFRESH_TOKEN_KR,
+        US: this.env.YOUTUBE_OAUTH_REFRESH_TOKEN_US,
+        MX: this.env.YOUTUBE_OAUTH_REFRESH_TOKEN_MX,
+      }
     });
   }
 
@@ -413,14 +418,13 @@ export class PipelineRunner {
 
     // ===== 단계 C: Upload =====
     // 업로더 disabled면 SKIPPED
-    if (!this.uploader.isEnabled()) {
+    if (!this.uploader.isEnabled(region)) {
       if (job.upload?.status !== "SKIPPED") {
-        log.info({ slotID }, `⏭️ [${slotID}] uploader 비활성화. upload SKIPPED 처리`);
+        log.info({ slotID, region }, `⏭️ [${slotID}] ${region} uploader 설정 없음. upload SKIPPED`);
         job.upload = { status: "SKIPPED" };
         this.save(state);
       }
     } else {
-      // enabled인 경우: 이미 DONE이면 스킵
       if (job.upload?.status === "DONE") {
         log.info(
           { slotID, youtubeVideoId: job.upload.youtubeVideoId },
@@ -455,9 +459,17 @@ export class PipelineRunner {
         const tags =
           job.uploadMeta?.tags || [];
 
-        log.info({ slotID, filePath }, `📤 [${slotID}] 업로드 시작`);
+        log.info({ slotID, region, filePath }, `📤 [${slotID}] ${region} 채널 업로드 시작`);
+
+        // 변경점: retry 시 region 정보를 넘깁니다.
         const up = await withRetry(
-          async () => this.uploader.upload({ title, description, tags, filePath }),
+          async () => this.uploader.upload({
+            region, // ★ 현재 슬롯의 국가 코드 주입
+            title,
+            description,
+            tags,
+            filePath
+          }),
           `upload:${region}:slot${slot}`
         );
 
