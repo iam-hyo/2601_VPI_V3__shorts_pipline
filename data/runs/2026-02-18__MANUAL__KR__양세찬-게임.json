@@ -1,0 +1,63 @@
+{
+  "runId": "2026-02-18__MANUAL__KR__양세찬-게임",
+  "date": "2026-02-18__MANUAL__KR__양세찬-게임",
+  "createdAt": "2026-02-18T10:21:54.876Z",
+  "updatedAt": "2026-02-18T10:21:54.877Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "양세찬 게임"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

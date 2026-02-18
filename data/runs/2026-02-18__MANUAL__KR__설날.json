@@ -1,0 +1,149 @@
+{
+  "runId": "2026-02-18__MANUAL__KR__설날",
+  "date": "2026-02-18__MANUAL__KR__설날",
+  "createdAt": "2026-02-18T10:23:55.919Z",
+  "updatedAt": "2026-02-18T10:32:28.165Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "설날"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "설날",
+          "queryEngineering": {
+            "target_language_confirmed": "한국어",
+            "clusters": [
+              {
+                "name": "설날 특집 엔터테인먼트 (트로트)",
+                "logic": "설날 연휴 기간 동안 인기 있는 트로트 가수들의 공연이나 특집 방송 콘텐츠를 찾는 사용자들을 위한 군집입니다. '트롯대잔치', '설특집'과 같은 프로그램명 및 유명 가수들의 이름이 포함됩니다."
+              },
+              {
+                "name": "설날 연휴 건강 및 운동",
+                "logic": "명절 기간 중에도 건강 관리를 하거나 운동 루틴을 유지하려는 사용자들을 위한 군집입니다. '설날운동', '명절운동', '헬스', '운동 브이로그' 등 운동 관련 키워드들이 포함됩니다."
+              },
+              {
+                "name": "설날 신년 운세 및 점술",
+                "logic": "새해를 맞아 자신의 운세나 재물운, 띠별 운세 등을 궁금해하는 사용자들을 위한 군집입니다. '2월운세', '띠별운세', '재물운' 등 운세 관련 키워드들이 포함됩니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "설날|트롯대잔치|설특집|이찬원|송가인 -션븨 -독특크루",
+                "theme": "설날 특집 트로트 공연",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "설날|트롯대잔치|설특집|이찬원|송가인 -션븨 -독특크루",
+          "selectedSourceVideos": [
+            {
+              "videoId": "pVmDvCbLVeQ",
+              "title": "설날 할머니댁 가야 하는데 10분 전에 일어났을 때",
+              "channelTitle": "진자림 Jinjalim",
+              "predicted7d": 275219,
+              "delta": 157102
+            },
+            {
+              "videoId": "7dVLfkU_eIw",
+              "title": "[이찬원_미운사랑] 어릴적 즐겨 놀았던 실개천 #이찬원 #정통트롯 #미운사랑 #미스터트롯 #미스터트롯3 #불타는트롯맨 #현역가왕2 #한일톱텐쇼 #사랑의콜센타 #힐링영상",
+              "channelTitle": "즐거운 인생아",
+              "predicted7d": 87456,
+              "delta": 86418
+            },
+            {
+              "videoId": "ZCQQWCa5810",
+              "title": "대구 송해공원 찬카페에서~ #진또배기 #이찬원",
+              "channelTitle": "즐기자고사는인생",
+              "predicted7d": 80563,
+              "delta": 79560
+            },
+            {
+              "videoId": "eWGo-Iu7Kdo",
+              "title": "후진바다에서#첫사랑 #이찬원",
+              "channelTitle": "새로기",
+              "predicted7d": 69057,
+              "delta": 67875
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_4.mp4\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. 설날 지각, 할머니 등짝각?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,1.2),85,55)':line_spacing=15:align=center:x=(w-text_w)/2:y='if(lt(t,1.2),(h-th)/2,180)':expansion=none,fade=t=out:st=10.899999999999999:d=0.3[v0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1.2)':volume=0,afade=t=in:st=1.2:d=0.3,afade=t=out:st=10.899999999999999:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. 이찬원, 실개천 트롯 감성':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,1.2),85,55)':line_spacing=15:align=center:x=(w-text_w)/2:y='if(lt(t,1.2),(h-th)/2,180)':expansion=none,fade=t=out:st=10.899999999999999:d=0.3[v1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1.2)':volume=0,afade=t=in:st=1.2:d=0.3,afade=t=out:st=10.899999999999999:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. 이찬원, 송해공원 진또배기':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,1.2),85,55)':line_spacing=15:align=center:x=(w-text_w)/2:y='if(lt(t,1.2),(h-th)/2,180)':expansion=none,fade=t=out:st=10.899999999999999:d=0.3[v2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1.2)':volume=0,afade=t=in:st=1.2:d=0.3,afade=t=out:st=10.899999999999999:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. 이찬원, 바다 첫사랑':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,1.2),85,55)':line_spacing=15:align=center:x=(w-text_w)/2:y='if(lt(t,1.2),(h-th)/2,180)':expansion=none,fade=t=out:st=10.899999999999999:d=0.3[v3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1.2)':volume=0,afade=t=in:st=1.2:d=0.3,afade=t=out:st=10.899999999999999:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset superfast -crf 23 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 685 kb/s\\n  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 360x640 [SAR 1:1 DAR 9:16], 598 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc. Created on: 02/17/2026.\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](eng): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 47 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc. Created on: 02/17/2026.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 900 kb/s\\n  Stream #1:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 360x640 [SAR 1:1 DAR 9:16], 646 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 790 kb/s\\n  Stream #2:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 360x640 [SAR 1:1 DAR 9:16], 574 kb/s, 29.90 fps, 29.90 tbr, 14948 tbn (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #3, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/outputs/highlight_4.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 786 kb/s\\n  Stream #3:0[0x1](und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 360x640 [SAR 1:1 DAR 9:16], 511 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n  Stream #3:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nError opening file center.\\nError loading value for option 'lign' from file 'center'\\nError initializing complex filters.\\nInput/output error\\n\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__설날/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "설특집 트롯 대잔치! 이찬원 송가인 레전드",
+            "description": "2026-02-18__MANUAL__KR__설날_KR_1\n설날을 맞아 트롯 대잔치가 펼쳐집니다! 이찬원, 송가인의 레전드 무대와 함께 흥겨운 설 연휴 보내세요. 온 가족이 즐기는 설특집 트롯 쇼츠!",
+            "tags": [
+              "설날",
+              "설특집",
+              "트롯",
+              "트로트",
+              "이찬원",
+              "송가인",
+              "미스터트롯",
+              "현역가왕",
+              "쇼츠",
+              "유튜브쇼츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "GVqntuAVkrE"
+          },
+          "updatedAt": "2026-02-18T10:32:28.155Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-18T10:32:28.164Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-18T10:32:28.165Z"
+}

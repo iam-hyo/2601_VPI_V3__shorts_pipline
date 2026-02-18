@@ -8,7 +8,7 @@
  * - downloadVideoIfNeeded            (yt-dlp)
  * - cutLastSecondsIfNeeded           (ffmpeg, 하이라이트)
  * - createTitleCardIfNeeded          (ffmpeg, 타이틀 카드 + 시그니처 이미지 + 서브타이틀 폰트)
- * - mergeTitleAndHighlightsWithFade  (ffmpeg filter_complex, 안정적 병합 + fade)
+ * - mergeHighlightsWithIntegratedTitles  (ffmpeg filter_complex, 안정적 병합 + fade)
  *
  * ⚠️ 전제:
  * - 시스템에 yt-dlp, ffmpeg가 설치되어 있어야 합니다.
@@ -28,9 +28,9 @@ const exec = promisify(execCb);
 // const fontConfigDir = path.resolve("data/assets");
 // const fontConfigFile = path.join(fontConfigDir, "fonts.conf");
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const VIDEOEDIT_DEBUG = process.env.VIDEOEDIT_DEBUG === "1";
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
+// const VIDEOEDIT_DEBUG = process.env.VIDEOEDIT_DEBUG === "1";
 
 
 function getCookiesPath() {
@@ -289,7 +289,7 @@ async function safeStat(p) {
  *
  * ⚠️ 주의:
  * - -c copy는 “코덱/타임베이스” 차이가 있으면 후속 병합에서 이슈가 날 수 있습니다.
- * - 최종 병합은 filter_complex 기반으로 재인코딩(안정성↑)하는 mergeTitleAndHighlightsWithFade를 사용합니다.
+ * - 최종 병합은 filter_complex 기반으로 재인코딩(안정성↑)하는 mergeHighlightsWithIntegratedTitles를 사용합니다.
  *
  * @param {{ inputPath: string, outputPath: string, seconds?: number }} args
  * @returns {Promise<string>}
@@ -502,96 +502,83 @@ export async function createTitleCardIfNeeded(args) {
   }
 }
 
-/* =======================================================================================
- * 4) 병합 + Fade 트랜지션 (ffmpeg filter_complex)
- * ======================================================================================= */
-
 /**
- * [병합] 타이틀+하이라이트를 “페이드”로 자연스럽게 이어붙여 final mp4 생성 (멱등)
- *
- * 왜 concat demuxer(-c copy)가 아닌가?
- * - 입력 파일의 fps/timebase/오디오 구성(채널/샘플레이트)이 조금만 달라도
- *   재생 속도 이상/길이 늘어남/싱크 깨짐 이슈가 쉽게 발생합니다.
- * - filter_complex는 각 세그먼트를 스케일/패딩/오디오 포맷 통일 후 concat하므로 안정성이 높습니다.
- *
- * @param {{
- *   titleCardPaths: string[],
- *   highlightPaths: string[],
- *   outputPath: string,
- *   width?: number,
- *   height?: number,
- *   fps?: number,
- *   durationSec?: number,
- *   highlightSec?: number,
- *   fadeSec?: number,
- *   sampleRate?: number,
- * }} args
- * @returns {Promise<string>}
+ * [통합 병합] 타이틀 애니메이션 + 하이라이트 통합 생성
  */
-export async function mergeTitleAndHighlightsWithFade(args) {
+export async function mergeHighlightsWithIntegratedTitles(args) {
   const {
-    titleCardPaths,
     highlightPaths,
+    titleInfos,
     outputPath,
     width = 1080,
     height = 1920,
     fps = 30,
-    durationSec = 1.2,
-    highlightSec = 10,
-    fadeSec = 0.15,
+    highlightSec = 11.2,
+    fadeSec = 0.3,
     sampleRate = 44100,
+    titleFontPath,
     slotID = "UNKNOWN"
   } = args;
 
-  // 1. 사전 검증
-  const n = Math.min(titleCardPaths?.length || 0, highlightPaths?.length || 0);
-  if (n === 0) {
-    console.error(`[${slotID}] 병합할 세그먼트 파일이 없습니다.`);
-    throw new Error("no segments");
-  }
+  // 1. 줄바꿈 헬퍼 (동일)
+  const wrapText = (text, maxChars = 18) => {
+    const words = text.split(' ');
+    let lines = [];
+    let currentLine = "";
+    words.forEach(word => {
+      if ((currentLine + word).length > maxChars) {
+        lines.push(currentLine.trim());
+        currentLine = word + " ";
+      } else {
+        currentLine += word + " ";
+      }
+    });
+    lines.push(currentLine.trim());
+    return lines.join('\\n');
+  };
 
-  console.log(`[${slotID}] 🎬 FFmpeg 병합 프로세스 시작 (세그먼트: ${n}개)`);
-
-  const ordered = [];
-  for (let i = 0; i < n; i++) {
-    ordered.push(titleCardPaths[i]);
-    ordered.push(highlightPaths[i]);
-  }
-
-  const inputArgs = ordered.map((p) => `-i "${path.resolve(p)}"`).join(" ");
+  const n = highlightPaths.length;
+  const inputArgs = highlightPaths.map(p => `-i "${path.resolve(p)}"`).join(" ");
   const filters = [];
 
-  for (let i = 0; i < ordered.length; i++) {
-    const isTitle = i % 2 === 0;
-    const dur = isTitle ? durationSec : highlightSec;
-    const fadeOutStart = Math.max(0, dur - fadeSec);
+  for (let i = 0; i < n; i++) {
+    const rawCaption = titleInfos[i].caption;
+    const wrappedCaption = wrapText(`${titleInfos[i].index}. ${rawCaption}`, 18);
+    const safeCaption = wrappedCaption.replace(/'/g, "'\\\\\\''").replace(/:/g, "\\:");
+    const fontPath = titleFontPath.replace(/\\/g, '/');
 
-    filters.push(
-      `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=decrease,` +
-      `pad=${width}:${height}:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=${fps},format=yuv420p,` +
-      `fade=t=in:st=0:d=${fadeSec},fade=t=out:st=${fadeOutStart}:d=${fadeSec}[v${i}]`
-    );
+    // 숫자를 깔끔하게 포맷팅 (소수점 1자리)
+    const fadeOutStart = (highlightSec - fadeSec).toFixed(1);
 
-    filters.push(
-      `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo,` +
-      `afade=t=in:st=0:d=${fadeSec},afade=t=out:st=${fadeOutStart}:d=${fadeSec}[a${i}]`
-    );
+    let vFilter = `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p`;
+
+    // A. 암전 레이어
+    vFilter += `,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,1.2)'`;
+    vFilter += `,drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,1.2)'`;
+
+    // B. 타이틀 텍스트 (align=center 제거, line_spacing 유지)
+    vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:`;
+    vFilter += `fontsize='if(lt(t,1.2),85,55)':line_spacing=15:`; // align=center 삭제됨
+    vFilter += `x=(w-text_w)/2:y='if(lt(t,1.2),(h-th)/2,180)':expansion=none`;
+
+    // C. 페이드 아웃
+    vFilter += `,fade=t=out:st=${fadeOutStart}:d=${fadeSec}[v${i}]`;
+
+    filters.push(vFilter);
+
+    // 오디오 필터
+    let aFilter = `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo`;
+    aFilter += `,volume=enable='lt(t,1.2)':volume=0`;
+    aFilter += `,afade=t=in:st=1.2:d=${fadeSec},afade=t=out:st=${fadeOutStart}:d=${fadeSec}[a${i}]`;
+
+    filters.push(aFilter);
   }
 
-  const concatInputs = ordered.map((_, i) => `[v${i}][a${i}]`).join("");
-  filters.push(`${concatInputs}concat=n=${ordered.length}:v=1:a=1[vout][aout]`);
+  const concatInputs = highlightPaths.map((_, i) => `[v${i}][a${i}]`).join("");
+  filters.push(`${concatInputs}concat=n=${n}:v=1:a=1[vout][aout]`);
 
   const filterComplex = filters.join(";");
-  const cmd = `ffmpeg -y ${inputArgs} -filter_complex "${filterComplex}" -map "[vout]" -map "[aout]" -c:v libx264 -preset superfast -crf 23 -pix_fmt yuv420p -r ${fps} -c:a aac -ar ${sampleRate} -ac 2 -b:a 192k "${path.resolve(outputPath)}"`.replace(/\s+/g, " ");
+  const cmd = `ffmpeg -y ${inputArgs} -filter_complex "${filterComplex}" -map "[vout]" -map "[aout]" -c:v libx264 -preset superfast -crf 23 -pix_fmt yuv420p -c:a aac -b:a 192k "${path.resolve(outputPath)}"`;
 
-  try {
-    console.log(`[${slotID}] FFmpeg 명령 실행 중...`);
-    await exec(cmd);
-    console.log(`[${slotID}] ✅ FFmpeg 병합 완료: ${path.basename(outputPath)}`);
-    return outputPath;
-  } catch (err) {
-    console.error(`[${slotID}] ❌ FFmpeg 병합 실패!`);
-    if (err?.stderr) console.error(`[FFmpeg Error Log]: ${err.stderr.slice(-500)}`);
-    throw err;
-  }
+  await exec(cmd);
 }

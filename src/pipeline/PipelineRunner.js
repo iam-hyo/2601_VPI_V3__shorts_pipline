@@ -399,12 +399,20 @@ export class PipelineRunner {
         `videoApi:${region}:slot${slot}`
       );
 
-      if (!vpRes.ok) {
-        job.videoProcessor = { status: "ERROR", error: vpRes.error || "Video Processor 실패" };
+      if (!vpRes || !vpRes.ok) {
+        const errorMsg = vpRes?.error || "Video Processor 연결 실패 또는 알 수 없는 오류";
+
+        job.videoProcessor = {
+          status: "ERROR",
+          error: errorMsg
+        };
         job.status = "ERROR";
-        job.error = vpRes.error || "Video Processor 실패";
+        job.error = errorMsg;
+
         this.save(state);
-        log.error({ error: vpRes.error }, `❌ [${slotID}] Video Processor 실패`);
+
+        // 로그에 에러 객체를 함께 찍어주면 추적이 더 쉽습니다.
+        log.error({ slotID, error: errorMsg }, `❌ Video Processor 실패`);
         return;
       }
 

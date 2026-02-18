@@ -15,8 +15,7 @@ import {
   ensureDir,
   downloadVideoIfNeeded,
   cutLastSecondsIfNeeded,
-  createTitleCardIfNeeded,
-  mergeTitleAndHighlightsWithFade,
+  mergeHighlightsWithIntegratedTitles,
 } from "../video/videoEdit.service_Demo.js";
 import llm from "../llm/llm.js";
 import { resolveAssetPath, writeJsonAtomic } from "./utils.js";
@@ -213,34 +212,28 @@ const server = http.createServer(async (req, res) => {
         uploadMeta = { title: `${topic} 하이라이트`, description: `자동 생성 영상: ${topic}`, tags: ["shorts"] };
       }
 
-      // 4) 타이틀 카드 생성
-      console.log(`[${slotID}] Step 4: 타이틀 카드 이미지 생성 시작...`);
-      const titleCardPaths = [];
-      for (let i = 0; i < 4; i++) {
-        const p = await createTitleCardIfNeeded({
-          outDir: outputsDir,
-          index: i + 1,
-          caption: captions[i] || "CHECK THIS",
-          // subCaption: inputFiles[i].channelTitle || topic, // subCaption: 채널 이름으로 입력
-          durationSec: 1.2,
-          signatureImagePath,
-          titleFontPath,
-          slotID
-        });
-        titleCardPaths.push(p);
-      }
+      // 4) 타이틀 카드 정보 준비 (이제 파일을 생성하지 않고 정보만 정리합니다)
+      console.log(`[${slotID}] Step 4: 타이틀 카드 데이터 준비...`);
+      const titleInfos = highlightPaths.map((_, i) => ({
+        index: i + 1,
+        caption: captions[i] || "Check this out!"
+      }));
 
-      // 5) 병합 (FFmpeg)
-      console.log(`[${slotID}] Step 5: 최종 영상 병합 중 (시간이 소요됩니다)...`);
+      // 5) 통합형 병합 (FFmpeg)
+      // 기존 mergeTitleAndHighlightsWithFade 호출을 삭제하고 아래로 교체합니다.
+      console.log(`[${slotID}] Step 5: 통합 타이틀 & 하이라이트 병합 중...`);
       const finalOut = path.join(workDir, "final.mp4");
-      await mergeTitleAndHighlightsWithFade({
+
+      await mergeHighlightsWithIntegratedTitles({
         slotID,
-        titleCardPaths,
-        highlightPaths,
+        highlightPaths,      // 이미 추출된 11.2초 하이라이트 파일들의 경로 배열
+        titleInfos,          // 방금 만든 {index, caption} 배열
         outputPath: finalOut,
-        durationSec: 1.2,
         highlightSec: HIGHLIGHT_SECOND,
-        sampleRate: 44100,
+        titleFontPath,       // 폰트 경로 (준비되어 있어야 함)
+        width: 1080,
+        height: 1920,
+        fps: 30
       });
 
       // 6) 최종 결과 응답
