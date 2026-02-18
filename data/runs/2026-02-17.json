@@ -1,0 +1,593 @@
+{
+  "runId": "2026-02-17",
+  "date": "2026-02-17",
+  "createdAt": "2026-02-17T06:50:01.877Z",
+  "updatedAt": "2026-02-17T13:32:58.670Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "최 가온",
+          "레이디 두아",
+          "솔로 지옥 리 유니언",
+          "쵸봄",
+          "무당 서바이벌",
+          "김길리",
+          "쇼트 트랙",
+          "디아 2",
+          "떡국 맛있게 끓이는 법",
+          "la 갈비 양념 황금 레시피",
+          "동계 올림픽 2026",
+          "아이브 뱅뱅",
+          "유혜 주",
+          "롯데 자이언츠",
+          "휴 민트",
+          "차준환",
+          "리쥬 라이크",
+          "박지훈"
+        ],
+        "updatedAt": "2026-02-17T06:50:17.494Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "스포츠 인물 (스노보드 선수 최가온)",
+            "clusters": [
+              {
+                "name": "핵심 인물 및 종목",
+                "spec_score": 1,
+                "logic": "'최가온'이라는 인물과 그녀의 주 종목인 '스노보드', 특히 '하프파이프'에서의 활약을 중심으로 한 군집. 가장 기본적인 정보이자 핵심 관심사."
+              },
+              {
+                "name": "올림픽 금메달 성과 및 기록",
+                "spec_score": 0.95,
+                "logic": "최가온 선수의 가장 큰 업적인 '올림픽 금메달'과 관련된 키워드들을 포함하는 군집. '동계올림픽', '금메달' 등 직접적인 성과를 나타냄."
+              },
+              {
+                "name": "개인 성장 스토리 및 감동",
+                "spec_score": 0.9,
+                "logic": "'고등학생'이라는 신분과 함께 '스승', '감동', '부상극복', '재활스토리' 등 선수로서의 인간적인 면모와 성장 과정을 다루는 군집."
+              },
+              {
+                "name": "미디어 보도 및 뉴스",
+                "spec_score": 0.85,
+                "logic": "최가온 선수의 활약이 주로 '뉴스'와 '방송'을 통해 대중에게 전달되었음을 보여주는 군집. 다양한 방송사 및 뉴스 포맷 관련 키워드 포함."
+              },
+              {
+                "name": "경제적 가치 및 포상금",
+                "spec_score": 0.8,
+                "logic": "올림픽 메달 획득에 따른 '포상금', '상금', '연금' 등 경제적인 측면과 국가별 비교 등 부가적인 관심사를 다루는 군집."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최가온 스노보드 올림픽 금메달 | 하프파이프 | 경기 하이라이트 -dhflavlr -UCH3mJ-nHxjjny2FJbJaqiDA -뉸",
+                "theme": "최가온의 올림픽 금메달 하이라이트 및 경기 분석",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "최 가온",
+          "keyword": "최가온 스노보드 올림픽 금메달 | 하프파이프 | 경기 하이라이트 -dhflavlr -UCH3mJ-nHxjjny2FJbJaqiDA -뉸",
+          "selectedSourceVideos": [
+            {
+              "videoId": "HpigMqhr_3s",
+              "title": "클로이 김 vs 최가온 심판 판정 논란? #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 1124692,
+              "delta": 503253
+            },
+            {
+              "videoId": "gvlLg9Yys4E",
+              "title": "대한민국 스노보드 역사상 최초 금메달 #최가온 #밀라노올림픽 #감동 #금메달",
+              "channelTitle": "다아는감동이야기",
+              "predicted7d": 167715,
+              "delta": 68618
+            },
+            {
+              "videoId": "7YFRFG3FZIE",
+              "title": "최가온 태극기 챙긴 미츠키 '엄친딸?' #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 274883,
+              "delta": 55723
+            },
+            {
+              "videoId": "ZjbdXoXCZt4",
+              "title": "최가온 금메달에 '김연아' 등판한 사연 #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 112641,
+              "delta": 41775
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-17/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Gaon Choi: Snowboard Gold & Drama!",
+            "description": "2026-02-17_KR_1\nWitness Gaon Choi's incredible journey to Olympic gold in halfpipe snowboarding! From controversial wins against Chloe Kim to heartwarming moments with Mitsuki and even Yuna Kim's unexpected appearance, this is the full story.",
+            "tags": [
+              "GaonChoi",
+              "Snowboard",
+              "Olympics",
+              "Halfpipe",
+              "GoldMedal",
+              "ChloeKim",
+              "YunaKim",
+              "Controversy",
+              "SportsHighlights",
+              "KoreanAthlete"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "rbephGSbyLw"
+          },
+          "updatedAt": "2026-02-17T06:51:01.501Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "동계 스포츠 인물",
+            "clusters": [
+              {
+                "name": "핵심 인물 및 종목",
+                "spec_score": 0.95,
+                "logic": "최가온 선수의 정체성과 주력 종목(스노보드), 세부 종목(하프파이프)에 대한 기본적인 정보를 제공하는 군집입니다."
+              },
+              {
+                "name": "주요 성과 및 영광",
+                "spec_score": 0.9,
+                "logic": "최가온 선수가 달성한 최고 수준의 성과(올림픽 금메달)와 그에 따른 영광(국가대표, 우승)을 나타내는 키워드 군집입니다."
+              },
+              {
+                "name": "미래 전망 및 성장 서사",
+                "spec_score": 0.85,
+                "logic": "어린 나이(고등학생)의 선수로서의 현재 위치와 다가올 미래 올림픽(2026 밀라노 동계올림픽)에서의 활약에 대한 기대를 담은 군집입니다."
+              },
+              {
+                "name": "사회적 반향 및 보상",
+                "spec_score": 0.8,
+                "logic": "최가온 선수의 성과가 사회에 미치는 영향(뉴스), 언론 보도, 그리고 선수에게 주어지는 경제적(포상금, 연금) 및 정신적(감동) 보상에 초점을 맞춘 군집입니다."
+              },
+              {
+                "name": "경쟁 및 기술적 요소",
+                "spec_score": 0.75,
+                "logic": "최가온 선수의 경기력과 기술적 특징(1440도 회전), 그리고 국제적인 경쟁 구도(클로이킴)를 이해하는 데 필요한 키워드 군집입니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최가온 스노보드 금메달|하프파이프|올림픽 -쇼트트랙 -최민정 -유승은 -김상겸 -임종언 -dhflavlr -뉸 -cosjfdpdl -UCH3mJ-nHxjjny2FJbJaqiDA",
+                "theme": "최가온의 압도적인 스노보드 실력과 금메달 순간",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "최 가온",
+          "keyword": "최가온 스노보드 금메달|하프파이프|올림픽 -쇼트트랙 -최민정 -유승은 -김상겸 -임종언 -dhflavlr -뉸 -cosjfdpdl -UCH3mJ-nHxjjny2FJbJaqiDA",
+          "selectedSourceVideos": [
+            {
+              "videoId": "suqrrR7y2qo",
+              "title": "\"와~\" #동계올림픽 #스노보드 #금메달 #최가온 선수 #인천공항 도착하자 현장 반응",
+              "channelTitle": "미디어몽구",
+              "predicted7d": 1272085,
+              "delta": 635003
+            },
+            {
+              "videoId": "nAuce0D4_kg",
+              "title": "#최가온 선수 귀국, 축하 꽃다발 받으러 뛰어가는 모습 ㅎㅎㅣ#포토타임 #동계올림픽 #스노보드 #금메달 #인천공항",
+              "channelTitle": "미디어몽구",
+              "predicted7d": 756184,
+              "delta": 368079
+            },
+            {
+              "videoId": "lvHftkJDSuE",
+              "title": "#최가온 선수 귀국 현장, 인터뷰 후 보고 싶은 할머니 가족 만나러 가는 길ㅣ#동계올림픽 #스노보드 #금메달",
+              "channelTitle": "미디어몽구",
+              "predicted7d": 736290,
+              "delta": 348526
+            },
+            {
+              "videoId": "ArFP39A9iHo",
+              "title": "불굴의 #최가온 금의환향, 포즈 취하던 중 취재진이 #금메달 깨물어 달라고 하자.. #동계올림픽 #스노보드",
+              "channelTitle": "미디어몽구",
+              "predicted7d": 149086,
+              "delta": 84066
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-17/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Gaon Choi: Snowboard Gold Medalist Returns!",
+            "description": "2026-02-17_KR_2\nWitness the epic return of snowboard sensation Gaon Choi, fresh off her gold medal win! From airport chaos to heartwarming family reunions and iconic medal bites, relive her triumphant homecoming.",
+            "tags": [
+              "ChoiGaon",
+              "Snowboard",
+              "GoldMedal",
+              "Halfpipe",
+              "Olympics",
+              "Homecoming",
+              "Athlete",
+              "Sports",
+              "IncheonAirport",
+              "Viral"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "oTH_XSiuOcU"
+          },
+          "updatedAt": "2026-02-17T06:51:50.851Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-17T06:51:50.859Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "spider noir",
+          "state of play",
+          "poppy playtime chapter 5",
+          "druski",
+          "junior h",
+          "ilia malinin",
+          "no hands"
+        ],
+        "updatedAt": "2026-02-17T06:52:02.106Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "Regional Mexican Music / Corridos Tumbados",
+            "clusters": [
+              {
+                "name": "Collaborations & Corridos Tumbados Scene",
+                "spec_score": 0.95,
+                "logic": "Junior H는 Corridos Tumbados 장르의 핵심 인물이며, Peso Pluma, Natanael Cano, Fuerza Regida와 같은 다른 주요 아티스트들과의 협업은 팬들에게 큰 관심사입니다. 이 클러스터는 그의 네트워크와 공동 프로젝트에 초점을 맞춥니다."
+              },
+              {
+                "name": "Junior H's Unique Style & Discography",
+                "spec_score": 0.9,
+                "logic": "Junior H의 시그니처 사운드인 'Sad Boyz' 브랜드와 'En Donde Estas'와 같은 인기 트랙에 대한 관심이 높습니다. 그의 독특한 음악적 정체성과 대표곡들을 탐색합니다."
+              },
+              {
+                "name": "Live Performances & Fan Engagement",
+                "spec_score": 0.88,
+                "logic": "팬들은 아티스트의 라이브 공연, 콘서트 영상, 그리고 이에 대한 반응에 열광합니다. 이 클러스터는 현장감 있는 경험과 팬들의 참여를 포착합니다."
+              },
+              {
+                "name": "Music Production & Instrumental Details",
+                "spec_score": 0.85,
+                "logic": "음악 제작의 기술적인 측면, 특히 'Requinto'와 같은 악기 연주 튜토리얼에 대한 수요가 있습니다. 이는 음악가 지망생이나 음악적 디테일에 관심 있는 팬들을 위한 것입니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "junior h peso pluma|natanael cano|fuerza regida|corridos tumbados|colaboraciones|nueva musica",
+                "theme": "Junior H의 최강 콜라보 & 코리도스 툼바도스 트렌드",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "junior h",
+          "keyword": "junior h peso pluma|natanael cano|fuerza regida|corridos tumbados|colaboraciones|nueva musica",
+          "selectedSourceVideos": [
+            {
+              "videoId": "l3VTrgmBvIE",
+              "title": "Así quedó el tatuaje que hizo Natanael Cano",
+              "channelTitle": "Los 3Carnales",
+              "predicted7d": 182743,
+              "delta": 174437
+            },
+            {
+              "videoId": "4pw2mm9NQmY",
+              "title": "Así baila la violinista de Nodal",
+              "channelTitle": "Flow Belico & Tumbado",
+              "predicted7d": 150000,
+              "delta": 141301
+            },
+            {
+              "videoId": "o6t-Tt74FGk",
+              "title": "Fuerza Regida comiendo tacos en su camioneta",
+              "channelTitle": "Los 3Carnales",
+              "predicted7d": 131472,
+              "delta": 124017
+            },
+            {
+              "videoId": "_Mecv8kw5bE",
+              "title": "A Natanael Cano se le olvida que iba a cantar",
+              "channelTitle": "Los 3Carnales",
+              "predicted7d": 114405,
+              "delta": 107563
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-17/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Corridos Tumbados Stars: Wild Moments!",
+            "description": "2026-02-17_US_1\nCatch exclusive, never-before-seen moments from your favorite corridos tumbados artists like Natanael Cano, Fuerza Regida, and more! From epic fails to unexpected moves, these shorts capture the real side of the stars. Don't miss out on the latest from the tumbado world!",
+            "tags": [
+              "juniorh",
+              "pesopluma",
+              "natanaelcano",
+              "fuerzaregida",
+              "corridostumbados",
+              "regionalmexicano",
+              "shorts",
+              "tumbados",
+              "nuevamusica",
+              "colaboraciones"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "xKTVSb7H34w"
+          },
+          "updatedAt": "2026-02-17T06:54:26.261Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "target_language_confirmed": "English",
+            "clusters": [
+              {
+                "name": "Series & Release Information",
+                "logic": "This cluster focuses on official announcements, trailers, streaming platforms, and release details related to the Spider-Noir series. Tags like 'spider noir trailer', 'prime video', 'spider man noir series', and 'spider noir teaser' are key. Noise such as specific dates ('27 mai') or non-English analysis terms ('analyse', 'avis') are filtered."
+              },
+              {
+                "name": "Character & Lore Deep Dive",
+                "logic": "This cluster explores the character's origin, background, unique attributes, and the involvement of specific actors like Nicolas Cage. Relevant tags include 'Spider-Man Noir', 'nicolas cage', 'spider noir explained', and 'spider man noir origin'. Broader Marvel universe tags or unrelated character names are filtered."
+              },
+              {
+                "name": "Visual Style & Fan Content",
+                "logic": "This cluster targets the distinctive aesthetic of Spider-Noir, fan-made edits, and visual elements. Tags like 'spider noir edit', 'noir style', 'film noir', 'black and white', and 'visual style' are central. Generic edit terms or unrelated game/movie titles are filtered."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "Spider-Noir series trailer|prime video|release",
+                "theme": "Official Series Updates & Streaming",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "spider noir",
+          "keyword": "Spider-Noir series trailer|prime video|release",
+          "selectedSourceVideos": [
+            {
+              "videoId": "2LU-Adm6LXc",
+              "title": "1 Show, 2 Versions: The Spider-Noir Choice! 🕵️‍♂️ 🕷️",
+              "channelTitle": "Brian’s Blog",
+              "predicted7d": 86404,
+              "delta": 75198
+            },
+            {
+              "videoId": "y1AMeGkdvls",
+              "title": "\"It smells like rain... 🗿\" - Spider-Noir Edit | blanc (slowed)",
+              "channelTitle": "Eagle Stan",
+              "predicted7d": 173797,
+              "delta": 72629
+            },
+            {
+              "videoId": "D4TbbqKl0zk",
+              "title": "Spider Noir has joined the chat 🕷️🕸️",
+              "channelTitle": "Slenz-Editz",
+              "predicted7d": 58620,
+              "delta": 43742
+            },
+            {
+              "videoId": "iNYtTnGE7XY",
+              "title": "BOMBA EM SPIDER-NOIR! Nicolas Cage NÃO É Peter Parker! 🕵️‍♂️🚫",
+              "channelTitle": "Cassiano Nerd 🎥",
+              "predicted7d": 42658,
+              "delta": 41383
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-17/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Spider-Noir Series Trailer REVEAL!",
+            "description": "2026-02-17_US_2\nGet your first look at the gritty new Spider-Noir series coming to Prime Video! Dive into the dark, mysterious world of this unique Spider-Man variant. Prepare for a thrilling detective story unlike any other!",
+            "tags": [
+              "SpiderNoir",
+              "PrimeVideo",
+              "SpiderNoirSeries",
+              "Trailer",
+              "Marvel",
+              "Noir",
+              "ReleaseDate",
+              "FirstLook",
+              "SpiderMan",
+              "NewSeries"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "PXr1jE1weC8"
+          },
+          "updatedAt": "2026-02-17T13:31:51.297Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-17T13:31:51.306Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "america vs chivas",
+          "donovan carrillo",
+          "junior h",
+          "ana gastelum",
+          "cazzu",
+          "un tal fredo"
+        ],
+        "updatedAt": "2026-02-17T06:55:03.407Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "queryEngineering": {
+            "target_language_confirmed": "Spanish",
+            "clusters": [
+              {
+                "name": "Resultados y Momentos Destacados",
+                "logic": "Se enfoca en el contenido post-partido, como resúmenes, goles y momentos clave del encuentro entre América y Chivas."
+              },
+              {
+                "name": "Noticias y Análisis del Clásico",
+                "logic": "Agrupa las búsquedas relacionadas con las últimas noticias, rumores, análisis de expertos y debates sobre los equipos y el partido."
+              },
+              {
+                "name": "Contexto y Rivalidad Histórica",
+                "logic": "Cubre la información sobre la Liga MX, el significado del 'Clásico Nacional' y detalles de torneos específicos."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "América Chivas resumen|goles",
+                "theme": "Resumen y Goles del Partido",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "america vs chivas",
+          "keyword": "América Chivas resumen|goles",
+          "selectedSourceVideos": [
+            {
+              "videoId": "YZhWZIkxLa4",
+              "title": "HORMIGA GOL EN TODOS LOS CLÁSICOS #chivas",
+              "channelTitle": "De Primera",
+              "predicted7d": 52245,
+              "delta": 43137
+            },
+            {
+              "videoId": "gl0KAdiEWZA",
+              "title": "Resumen Chivas Vs América parte 2!🥵🔥 #futbolmexicano #chivas #america #ligamx #elclasicodemexico",
+              "channelTitle": "Cine y futbol",
+              "predicted7d": 46871,
+              "delta": 34700
+            },
+            {
+              "videoId": "CpaGT5y5GrA",
+              "title": "¡INAUDITO esto en CHIVAS vs AMERICA!",
+              "channelTitle": "Fulatin",
+              "predicted7d": 40318,
+              "delta": 6946
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "originalKeyword": "donovan carrillo",
+          "queryEngineering": {
+            "target_language_confirmed": "Spanish",
+            "clusters": [
+              {
+                "name": "Noticias y Actualizaciones",
+                "logic": "Este cluster se enfoca en las últimas noticias, eventos actuales y reportajes sobre Donovan Carrillo, incluyendo su participación en competiciones y declaraciones recientes. Se priorizan términos relacionados con la inmediatez y la información general."
+              },
+              {
+                "name": "Patinaje Artístico y Competiciones",
+                "logic": "Este cluster agrupa términos relacionados con las actuaciones de Donovan Carrillo en el patinaje artístico, sus rutinas, resultados en grandes eventos como los Juegos Olímpicos de Invierno y momentos destacados de sus presentaciones."
+              },
+              {
+                "name": "Trayectoria y Orgullo Nacional",
+                "logic": "Este cluster se centra en la identidad de Donovan Carrillo como atleta mexicano, su impacto en el deporte nacional, su historia personal y el sentimiento de orgullo que genera en México."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "Donovan Carrillo noticias hoy",
+                "theme": "Noticias y Actualizaciones",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개 / 최소: 3개)"
+              },
+              {
+                "q": "Donovan Carrillo patinaje olímpicos",
+                "theme": "Patinaje Artístico y Competiciones",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "Donovan Carrillo patinaje olímpicos",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Dcur36LQxAc",
+              "title": "🟢⛸️ Donovan Carrillo nos sorprendió en los Juegos Olímpicos",
+              "channelTitle": "Periodico Cinco",
+              "predicted7d": 216382,
+              "delta": 105419
+            },
+            {
+              "videoId": "1Yjl_v39gqo",
+              "title": "¡DONOVAN CARRILLO NO LLEGÓ A LA FINAL DE LOS JUEGOS OLIMPICOS DE INVIERNO 2026!",
+              "channelTitle": "Eliot Channel Mx",
+              "predicted7d": 215111,
+              "delta": 82079
+            },
+            {
+              "videoId": "IqCN9rkwAio",
+              "title": "'A MI MANERA' CON DONOVAN CARRILLO EN MILANO CORTINA 2026🥹🇲🇽",
+              "channelTitle": "Claro Sports",
+              "predicted7d": 145431,
+              "delta": 46712
+            },
+            {
+              "videoId": "9NctFlytxp4",
+              "title": "Donovan Carrillo deslumbra a los jueces con su rutina en los Juegos Olímpicos de Invierno",
+              "channelTitle": "La Afición",
+              "predicted7d": 144602,
+              "delta": 37175
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp --cookies \\\"/home/hjj/2601_VPI_V3__shorts_pipline/cookies.txt\\\" --js-runtimes \\\"node:/usr/bin/node\\\" -f \\\"bv*+ba/b\\\" --extractor-args \\\"youtube:player_client=android\\\" -S \\\"vcodec:h264,acodec:aac\\\" --merge-output-format mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-17/MX_video_02/inputs/IqCN9rkwAio.part.mp4\\\" \\\"https://www.youtube.com/watch?v=IqCN9rkwAio\\\"\\nERROR: [youtube] IqCN9rkwAio: The uploader has not made this video available in your country\\nThis video is available in Argentina, Bolivia, Plurinational State of, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador, Uruguay, Venezuela, Bolivarian Republic of.\\nYou might want to use a VPN or a proxy server (with --proxy) to workaround.\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp --cookies \\\"/home/hjj/2601_VPI_V3__shorts_pipline/cookies.txt\\\" --js-runtimes \\\"node:/usr/bin/node\\\" -f \\\"bv*+ba/b\\\" --extractor-args \\\"youtube:player_client=android\\\" -S \\\"vcodec:h264,acodec:aac\\\" --merge-output-format mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-17/MX_video_02/inputs/IqCN9rkwAio.part.mp4\\\" \\\"https://www.youtube.com/watch?v=IqCN9rkwAio\\\"\\nERROR: [youtube] IqCN9rkwAio: The uploader has not made this video available in your country\\nThis video is available in Argentina, Bolivia, Plurinational State of, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, Guatemala, Honduras, Mexico, Nicaragua, Panama, Peru, Paraguay, El Salvador, Uruguay, Venezuela, Bolivarian Republic of.\\nYou might want to use a VPN or a proxy server (with --proxy) to workaround.\\n\"}"
+        }
+      ],
+      "status": "RUNNING"
+    }
+  },
+  "finishedAt": "2026-02-17T13:32:58.670Z"
+}

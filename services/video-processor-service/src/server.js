@@ -82,18 +82,28 @@ const PORT = process.env.PORT || 8787;
 
 const server = http.createServer(async (req, res) => {
   const parsed = url.parse(req.url, true);
-  const HIGHLIGHT_SECOND = req.HIGHLIGHT_SECOND
 
   if (req.method === "POST" && parsed.pathname === "/process") {
     let body;
     try {
       body = await readBody(req);
+      console.log("================ [DEBUG: Incoming Body] ================");
+      console.log(JSON.stringify(body, null, 2));
+      console.log("========================================================");
     } catch (e) {
       return sendJson(res, 400, { ok: false, error: "Invalid JSON Body" });
     }
 
-    const { workDir, topic = "", slotID = "UNKNOWN" } = body;
+    const { workDir, topic = "", slotID = "UNKNOWN", region, HIGHLIGHT_SECOND } = body;
     const bodySources = Array.isArray(body.sources) ? body.sources : [];
+    const languageMap = {
+      'KR': 'Korean (한국어)',
+      'US': 'English (영어)',
+      'MX': 'Spanish (스페인어)'
+    };
+    const targetLanguage = languageMap[region] || 'English (영어)';
+    console.log(`[${slotID}] 📥 /process 요청 수신 (region: ${region}, targetLanguage: ${targetLanguage}),HIGHLIGHT_SECOND: ${HIGHLIGHT_SECOND}`);
+    console.log(`[${slotID}] 요청 body:`, { ...body, sources: `Array(${bodySources.length})` }); // sources 배열 길이만 로그에 표시
 
     if (!workDir) {
       console.error(`[${slotID}] 에러: workDir이 요청에 없습니다.`);
@@ -146,12 +156,13 @@ const server = http.createServer(async (req, res) => {
           description: v.description,
         })),
         task: [
-          "참조 영상 4개의 제목/설명을 바탕으로, 각 클립 시작 전 타이틀 카드에 넣을 영문 캡션 4개를 만들어라(각 1~6단어).",
-          "또한 최종 업로드용 영문 제목(40자 이내), 설명(2~3문장), tags 배열(5~10개)을 만들어라.",
-          "캡션은 자극적이고 키치한 영문 후킹 문구로 작성하라(어그로 허용).",
+          `참조 영상 4개의 제목/설명을 바탕으로, 각 클립 시작 전 타이틀 카드에 넣을 ${targetLanguage} caption 4개를 만들어라(각 1~6단어).`,
+          `또한 최종 업로드용 ${targetLanguage} 제목(40자 이내), 설명(2~3문장), tags 배열(5~10개)을 만들어라.`,
+          `캡션은 자극적이고 키치한 ${targetLanguage} 후킹 문구로 작성하라(어그로 허용).`,
           "문장보다 명사구(noun phrase) 형태를 권장한다.",
           "각 캡션은 4단어 이하를 권장한다(최대 6단어).",
           "대주제(topic)를 그대로 반복하지 말고, 각 영상 고유의 특징을 반영하라.",
+          `반드시 모든 텍스트 결과물은 ${targetLanguage}로 작성해야 한다.`, // 강제성 추가
           "잡담/설명/마크다운 없이 outputFormat에 맞는 JSON만 반환하라.",
         ],
         outputFormat: {
@@ -187,19 +198,19 @@ const server = http.createServer(async (req, res) => {
           description: `Topic: ${topic}`,
           tags: ["shorts", topic]
         };
-        
+
         uploadMeta = {
           ...baseMeta,
           description: `${slotID}\n${baseMeta.description}`
         };
-        
+
         // 중간 상태 저장 (디버깅용)
         await writeJsonAtomic(path.join(workDir, "subT_result.json"), { slotID, topic, parsedJson });
         console.log(`[${slotID}] ✍️ LLM 메타데이터 생성 및 저장 완료`);
       } catch (err) {
         console.warn(`[${slotID}] LLM 생성 실패: ${err.message}. 기본값 사용.`);
         captions = fallbackCaptions
-        uploadMeta = { title: `${topic} 하이라이트`, description: `자동 생성 영상: ${topic}`, tags: ["shorts"] }; //지금 제목, 설명, Tag생성 안되는거 같은데..
+        uploadMeta = { title: `${topic} 하이라이트`, description: `자동 생성 영상: ${topic}`, tags: ["shorts"] };
       }
 
       // 4) 타이틀 카드 생성

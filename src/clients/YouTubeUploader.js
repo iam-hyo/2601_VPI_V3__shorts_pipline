@@ -14,11 +14,13 @@ const log = createLogger("YouTubeUploader");
 export class YouTubeUploader {
   constructor(args) {
     const { clientId, clientSecret, redirectUri, tokens } = args;
+    // console.log("DEBUG: 받은 토큰 객체 ->", tokens);
     this.clients = {};
 
     // 3개 국가 토큰 매핑 (KR, US, MX)
     if (tokens) {
       for (const [region, refreshToken] of Object.entries(tokens)) {
+        // console.log(`DEBUG: ${region} 클라이언트 생성 시도 (토큰 유무: ${!!refreshToken})`);
         if (!refreshToken) continue;
         const oauth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);
         oauth2Client.setCredentials({ refresh_token: refreshToken });

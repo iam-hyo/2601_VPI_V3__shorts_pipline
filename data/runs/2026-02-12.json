@@ -1,0 +1,574 @@
+{
+  "runId": "2026-02-12",
+  "date": "2026-02-12",
+  "createdAt": "2026-02-12T06:50:01.487Z",
+  "updatedAt": "2026-02-12T06:56:59.546Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "동계 올림픽 2026",
+          "정은우",
+          "리니지 클래식",
+          "운명 전쟁 49",
+          "오현규",
+          "아이브 뱅뱅",
+          "만만",
+          "불도그",
+          "왕 과 사는 남자",
+          "봉준",
+          "이문주",
+          "명조",
+          "오버 워치",
+          "404",
+          "울프",
+          "키키"
+        ],
+        "updatedAt": "2026-02-12T06:50:15.516Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "queryEngineering": {
+            "domain": "리니지 클래식",
+            "clusters": [
+              {
+                "name": "클래식 정체성 및 향수",
+                "spec_score": 0.92,
+                "logic": "리니지 클래식의 핵심적인 정체성과 과거 게임에 대한 향수를 불러일으키는 키워드들을 포함합니다. '옛날 리니지'와 같은 직접적인 표현과 '피니지'와 같은 사설 서버를 통해 과거의 경험을 찾는 시청자들을 타겟팅합니다."
+              },
+              {
+                "name": "핵심 게임 플레이 및 콘텐츠",
+                "spec_score": 0.88,
+                "logic": "리니지 클래식의 상징적인 게임 플레이 요소인 강화, 러시, 영웅 변신, 전설 아이템 도전 등 시청자들의 몰입을 유도하는 콘텐츠에 초점을 맞춥니다. 이는 게임의 본질적인 재미를 추구하는 시청자들에게 어필합니다."
+              },
+              {
+                "name": "커뮤니티 및 현황",
+                "spec_score": 0.8,
+                "logic": "리니지 클래식의 현재 상황, 즉 비공식 서버(프리서버)의 활동이나 공식적인 소식, 그리고 게임의 근황에 대한 정보를 찾는 시청자들을 위한 클러스터입니다. 커뮤니티의 활발한 논의를 반영합니다."
+              },
+              {
+                "name": "관련 인물 및 기업",
+                "spec_score": 0.65,
+                "logic": "리니지 IP와 관련된 주요 인물(김택진) 및 기업(NC소프트)을 포함하며, 특정 스트리머나 BJ의 활동도 포함될 수 있으나, '클래식' 주제에서는 주로 제외어로 활용하여 콘텐츠의 순도를 높입니다."
+              },
+              {
+                "name": "타이틀 및 장르 확장",
+                "spec_score": 0.55,
+                "logic": "리니지M, 리니지W 등 다른 리니지 시리즈나 모바일 게임, 또는 유사 장르의 게임들을 포함합니다. 이는 '리니지 클래식' 주제의 명확성을 위해 대부분 제외어로 처리하여 검색 노이즈를 줄입니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "리니지 클래식 옛날 리니지|추억|향수|피니지 -리니지m -리니지M -리니지W -리니지w -리니지2m -모바일게임 -모바일 -신규모바일게임 -모바일게임 추천 -모바일종합게임 -nc -nc소프트 -NC -엔씨 -엔씨소프트 -김택진 -택진이형 -불도그 -이문주 -똘끼 -인범 -카즈야 -만만 -수삼티비 -수삼 -여포왕 -박호두 -철구 -아이온 -아이온2 -배틀그라운드 -배그 -쓰론앤리버티 -tl -TL -오딘 -나이트크로우 -로드나인 -마비노기 모바일 -디아블로4 -스타크래프트 -로스트아크 -와우 -레전드 오브 이미르 -위메이드 -위메이드 골프 -넥슨 -스마일게이트 -프로모션BJ -양산형게임 -엔씨소프트 신작 -엔씨소프트 실적 -엔씨 주식 -홀덤 -天堂M -aion -throne and liberty -PC게임 신작 -리니지라이크 -킹덤 -알트 -데포로쥬 -리니지m 카라 -카라 -클래스체인지 -클체 -마비노기 -모비노기 -리니지리마스터 -리뷰 -lineagew -ncsoft -종합게임 -종겜 -실시간 -뱀피르 -MMORPG -PC게임",
+                "theme": "리니지 클래식 - 추억 소환! 그때 그 시절 감성 완벽 재현",
+                "status": "FAIL",
+                "reason": "쇼츠 개수 부족 (적합: 3개 / 최소: 4개)"
+              },
+              {
+                "q": "리니지 클래식 강화|러시|영변|전설도전|아이템 -리니지m -리니지M -리니지W -리니지w -리니지2m -모바일게임 -모바일 -신규모바일게임 -모바일게임 추천 -모바일종합게임 -nc -nc소프트 -NC -엔씨 -엔씨소프트 -김택진 -택진이형 -불도그 -이문주 -똘끼 -인범 -카즈야 -만만 -수삼티비 -수삼 -여포왕 -박호두 -철구 -아이온 -아이온2 -배틀그라운드 -배그 -쓰론앤리버티 -tl -TL -오딘 -나이트크로우 -로드나인 -마비노기 모바일 -디아블로4 -스타크래프트 -로스트아크 -와우 -레전드 오브 이미르 -위메이드 -위메이드 골프 -넥슨 -스마일게이트 -프로모션BJ -양산형게임 -엔씨소프트 신작 -엔씨소프트 실적 -엔씨 주식 -홀덤 -天堂M -aion -throne and liberty -PC게임 신작 -리니지라이크 -킹덤 -알트 -데포로쥬 -리니지m 카라 -카라 -클래스체인지 -클체 -마비노기 -모비노기 -리니지리마스터 -리뷰 -lineagew -ncsoft -종합게임 -종겜 -실시간 -뱀피르 -MMORPG -PC게임",
+                "theme": "리니지 클래식 - 전설의 아이템과 극한의 강화! 그때 그 손맛",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "리니지 클래식",
+          "keyword": "리니지 클래식 강화|러시|영변|전설도전|아이템 -리니지m -리니지M -리니지W -리니지w -리니지2m -모바일게임 -모바일 -신규모바일게임 -모바일게임 추천 -모바일종합게임 -nc -nc소프트 -NC -엔씨 -엔씨소프트 -김택진 -택진이형 -불도그 -이문주 -똘끼 -인범 -카즈야 -만만 -수삼티비 -수삼 -여포왕 -박호두 -철구 -아이온 -아이온2 -배틀그라운드 -배그 -쓰론앤리버티 -tl -TL -오딘 -나이트크로우 -로드나인 -마비노기 모바일 -디아블로4 -스타크래프트 -로스트아크 -와우 -레전드 오브 이미르 -위메이드 -위메이드 골프 -넥슨 -스마일게이트 -프로모션BJ -양산형게임 -엔씨소프트 신작 -엔씨소프트 실적 -엔씨 주식 -홀덤 -天堂M -aion -throne and liberty -PC게임 신작 -리니지라이크 -킹덤 -알트 -데포로쥬 -리니지m 카라 -카라 -클래스체인지 -클체 -마비노기 -모비노기 -리니지리마스터 -리뷰 -lineagew -ncsoft -종합게임 -종겜 -실시간 -뱀피르 -MMORPG -PC게임",
+          "selectedSourceVideos": [
+            {
+              "videoId": "5avxu3z_JMI",
+              "title": "리니지 클래식 보호망토 상점구매 말고 제작하세요",
+              "channelTitle": "또니지",
+              "predicted7d": 73084,
+              "delta": 15428
+            },
+            {
+              "videoId": "M4SDDpbWFLg",
+              "title": "리니지클래식 방어구주문서 무한복사 게임 미치겠네요ㅋㅋㅋ",
+              "channelTitle": "가미가미[gamigami]",
+              "predicted7d": 32489,
+              "delta": 9456
+            },
+            {
+              "videoId": "vyc_zNcPR5A",
+              "title": "리니지클래식 전섭최초9검 단독인터뷰02.09#리니지클래식",
+              "channelTitle": "날먹이선생(nalmuklee)",
+              "predicted7d": 222698,
+              "delta": 735
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "Entertainment News / Celebrity Tribute",
+            "clusters": [
+              {
+                "name": "정은우 배우의 비보와 추모",
+                "spec_score": 0.95,
+                "logic": "배우 정은우의 사망 소식, 추모 분위기, 장례 절차 등 최근 발생한 비극적인 사건과 관련된 키워드들이 높은 빈도로 나타나 시청자들의 즉각적인 관심사를 반영합니다."
+              },
+              {
+                "name": "정은우의 연기 인생과 대표작",
+                "spec_score": 0.9,
+                "logic": "정은우 배우의 필모그래피, 주요 출연작(하나뿐인내편, 반올림3 등) 및 연기 활동에 대한 관심이 높습니다. 그의 연기 경력을 되짚어보는 콘텐츠에 대한 수요를 나타냅니다."
+              },
+              {
+                "name": "정은우의 삶과 운명 (사주 분석)",
+                "spec_score": 0.8,
+                "logic": "사주, 운세, 궁합 등 정은우 배우의 개인적인 삶과 운명에 대한 역학적 분석을 다루는 키워드들이 독립적인 군집을 형성합니다. 이는 유명인의 사생활과 운명에 대한 대중의 호기심을 반영합니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "정은우 별세|추모|정동진|연예뉴스|발인|비보|사망 -장국영 -직장인 -유튜브 -부업 -투잡 -성창힐TV -창의 -성장 -힐링 -트로트 -트롯 -미스터트롯 -톱6 -톱7 -정동원 -삐약이 -임영웅 -영탁 -이찬원 -김호중 -트바로티 -장민호 -김희재 -나훈아 -테스형 -정은우문자 -idol -아이돌 -kpop -케이팝 -정치이슈 -경제이슈 -사회이슈 -국제이슈 -뉴스정리 -시사분석 -핫이슈브리핑 -뉴스한눈에 -오늘핫이슈 -5분시사",
+                "theme": "정은우 배우의 비보와 추모",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "정은우",
+          "keyword": "정은우 별세|추모|정동진|연예뉴스|발인|비보|사망 -장국영 -직장인 -유튜브 -부업 -투잡 -성창힐TV -창의 -성장 -힐링 -트로트 -트롯 -미스터트롯 -톱6 -톱7 -정동원 -삐약이 -임영웅 -영탁 -이찬원 -김호중 -트바로티 -장민호 -김희재 -나훈아 -테스형 -정은우문자 -idol -아이돌 -kpop -케이팝 -정치이슈 -경제이슈 -사회이슈 -국제이슈 -뉴스정리 -시사분석 -핫이슈브리핑 -뉴스한눈에 -오늘핫이슈 -5분시사",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Z8l28NhC8Zc",
+              "title": "태양의신부 정은우 사망 향년 40세 사망원인 최수종 오열",
+              "channelTitle": "밤작가tv",
+              "predicted7d": 319725,
+              "delta": 149368
+            },
+            {
+              "videoId": "khglWN8spBc",
+              "title": "배우 정은우 향년 40세 직접 알린 사망원인",
+              "channelTitle": "기자수첩",
+              "predicted7d": 268602,
+              "delta": 119847
+            },
+            {
+              "videoId": "_c-7QSh-NXc",
+              "title": "'하나뿐인 내편' 정은우, 향년 40세로 사망 #정은우",
+              "channelTitle": "iMBC연예",
+              "predicted7d": 43956,
+              "delta": 37527
+            },
+            {
+              "videoId": "WvQ-_wuKKi8",
+              "title": "정은우, “SNS 마지막 글… 현실이 됐다” 안타까운 비보",
+              "channelTitle": "톡포커스",
+              "predicted7d": 47973,
+              "delta": 35214
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-12/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Jung Eun-woo: The Untold Story of His Death",
+            "description": "Korean actor Jung Eun-woo has tragically passed away at the age of 40. This video delves into the heartbreaking details, including the revealed cause of death and emotional reactions from colleagues. Discover the full story behind this shocking news.",
+            "tags": [
+              "JungEunwoo",
+              "KoreanActor",
+              "CelebrityDeath",
+              "TragicNews",
+              "EntertainmentNews",
+              "MyOnlyOne",
+              "CauseOfDeath",
+              "SNSPost",
+              "KStars",
+              "BreakingNews"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "4D_DqDRIqMk"
+          },
+          "updatedAt": "2026-02-12T06:53:06.564Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-12T06:53:06.564Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "halftime show 2026",
+          "bad bunny halftime show",
+          "kid rock halftime show",
+          "super bowl live",
+          "super bowl 2026",
+          "all american halftime show 2026",
+          "olympics 2026",
+          "green day super bowl 2026",
+          "opalite taylor swift music video",
+          "nancy guthrie update",
+          "lindsey vonn crash"
+        ],
+        "updatedAt": "2026-02-12T06:53:33.845Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "Super Bowl Halftime Show Speculation & Analysis",
+            "clusters": [
+              {
+                "name": "Bad Bunny as Potential Headliner",
+                "spec_score": 0.95,
+                "logic": "The artist 'Bad Bunny' (and variations like 'benito', 'Puerto Rico') is overwhelmingly the most frequently mentioned entity in relation to 'halftime show 2026' and 'Super Bowl', indicating strong public interest or speculation for him to perform."
+              },
+              {
+                "name": "Artist Predictions & Dream Lineups",
+                "spec_score": 0.85,
+                "logic": "Beyond Bad Bunny, there's significant interest in other potential performers like 'Lady Gaga' and general 'predictions' or 'rumors' about who will headline or collaborate, suggesting a desire for speculative content about the lineup."
+              },
+              {
+                "name": "Performance Expectations & Reactions",
+                "spec_score": 0.8,
+                "logic": "Tags related to 'reaction', 'ranking', 'review', and 'best moments' indicate a strong audience interest in the quality, impact, and reception of the halftime show, both in anticipation and post-event analysis."
+              },
+              {
+                "name": "Political & Controversial Commentary",
+                "spec_score": 0.7,
+                "logic": "Tags like 'kid rock', 'turning point usa', 'MAGA', 'Trump', and 'politics' suggest a segment of the audience is interested in the political or cultural statements surrounding the halftime show. (Note: This cluster was identified but not chosen for a primary theme to maintain broad appeal focused on performance excitement, as per instructions.)"
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "halftime show 2026 Bad Bunny|benito|Puerto Rico|performance|rumors|predictions|확정|예상 -shorts -tpusa -\"turning point usa\" -\"juke reacts\" -\"juke jams reacts\" -SereneJannat -\"debi tirar mas fotos\" -Trump -MAGA -\"kid rock\" -politics -\"wedding at super bowl halftime\" -\"super bowl wedding\" -\"all-american halftime show\"",
+                "theme": "2026 슈퍼볼 하프타임 쇼: 배드 버니 확정? (Super Bowl 2026 Halftime Show: Bad Bunny Confirmed?)",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "halftime show 2026",
+          "keyword": "halftime show 2026 Bad Bunny|benito|Puerto Rico|performance|rumors|predictions|확정|예상 -shorts -tpusa -\"turning point usa\" -\"juke reacts\" -\"juke jams reacts\" -SereneJannat -\"debi tirar mas fotos\" -Trump -MAGA -\"kid rock\" -politics -\"wedding at super bowl halftime\" -\"super bowl wedding\" -\"all-american halftime show\"",
+          "selectedSourceVideos": [
+            {
+              "videoId": "xYUo1uXhedY",
+              "title": "Anne Hathaway calls Bad Bunny's Super Bowl halftime show the 'Benito Bowl'",
+              "channelTitle": "Associated Press",
+              "predicted7d": 2021067,
+              "delta": 890273
+            },
+            {
+              "videoId": "ytTEFPv5Mmw",
+              "title": "The GRASS at Bad Bunny’s Super Bowl halftime stole the whole show 😭🌱 …#badbunny #superbowl #dtmf",
+              "channelTitle": "Trapogg",
+              "predicted7d": 307314,
+              "delta": 68639
+            },
+            {
+              "videoId": "SavID8X6xas",
+              "title": "Bad Bunny Halftime show SCAM 😳❌",
+              "channelTitle": "Over Rhyme",
+              "predicted7d": 69740,
+              "delta": 58158
+            },
+            {
+              "videoId": "q-y1sk_-0fg",
+              "title": "Selena Couldn’t Help But Dance During Bad Bunny’s Super Bowl 2026 Halftime Show  | Justin’s Reaction",
+              "channelTitle": "DramaFy",
+              "predicted7d": 56491,
+              "delta": 44532
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-12/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bad Bunny 2026 Halftime: REAL or FAKE?",
+            "description": "Is Bad Bunny really headlining the Super Bowl 2026 Halftime Show? We dive into the wildest rumors, celebrity predictions, and fan reactions. Get ready for the ultimate Benito Bowl speculation!",
+            "tags": [
+              "BadBunny",
+              "SuperBowl2026",
+              "HalftimeShow",
+              "Benito",
+              "PuertoRico",
+              "Rumors",
+              "Predictions",
+              "MusicNews",
+              "Shorts",
+              "Celebrity"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "CdErH3EMLr0"
+          },
+          "updatedAt": "2026-02-12T06:54:28.838Z"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "queryEngineering": {
+            "domain": "halftime show 2026",
+            "clusters": [
+              {
+                "name": "Bad Bunny Focus",
+                "spec_score": 0.95,
+                "logic": "Overwhelming frequency of 'Bad Bunny' related tags, indicating strong audience interest in his potential involvement in the 2026 Halftime Show, including predictions, reactions, and performance details."
+              },
+              {
+                "name": "General Predictions & Wishlist",
+                "spec_score": 0.85,
+                "logic": "Consistent search interest in general predictions, potential artists, and dream lineups for the upcoming 2026 Halftime Show, extending beyond a single artist focus."
+              },
+              {
+                "name": "Controversy & Cultural Commentary",
+                "spec_score": 0.75,
+                "logic": "A notable presence of tags related to political views, cultural identity, and potential controversies surrounding the Halftime Show, suggesting audience interest in social commentary and debate."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "halftime show 2026 Bad Bunny|Bad Bunny Super Bowl|Bad Bunny performance|Bad Bunny reaction -shorts -SereneJannat -juke reacts -juke jams reacts -debi tirar mas fotos",
+                "theme": "Bad Bunny의 2026 슈퍼볼 하프타임 쇼: 루머, 예측, 그리고 팬들의 반응",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "halftime show 2026",
+          "keyword": "halftime show 2026 Bad Bunny|Bad Bunny Super Bowl|Bad Bunny performance|Bad Bunny reaction -shorts -SereneJannat -juke reacts -juke jams reacts -debi tirar mas fotos",
+          "selectedSourceVideos": [
+            {
+              "videoId": "mNkbOCIamqs",
+              "title": "Bad Bunny Super Bowl halftime show!",
+              "channelTitle": "Compas On The Beat",
+              "predicted7d": 3352400,
+              "delta": 1166529
+            },
+            {
+              "videoId": "O6o_uawPvZ4",
+              "title": "#badbunny reacts to leaving it all out on the field after his epic #superbowl halftime show.",
+              "channelTitle": "Entertainment Tonight",
+              "predicted7d": 2792902,
+              "delta": 936378
+            },
+            {
+              "videoId": "w1VTGNVU4Lg",
+              "title": "Bad Bunny performs at Super Bowl halftime show",
+              "channelTitle": "Associated Press",
+              "predicted7d": 4042148,
+              "delta": 861335
+            },
+            {
+              "videoId": "ni6qsQi8Aiw",
+              "title": "Bad Bunny performs \" DtFM\" as the finale of his Super Bowl halftime performance.",
+              "channelTitle": "E! News",
+              "predicted7d": 1713506,
+              "delta": 448507
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-12/US_video_02/inputs/mNkbOCIamqs.mp4\\\" \\\"https://www.youtube.com/watch?v=mNkbOCIamqs\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] mNkbOCIamqs: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] mNkbOCIamqs: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: yt-dlp -f mp4 -o \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-12/US_video_02/inputs/mNkbOCIamqs.mp4\\\" \\\"https://www.youtube.com/watch?v=mNkbOCIamqs\\\"\\nWARNING: \\\"-f mp4\\\" selects the best pre-merged mp4 format which is often not what's intended.\\n         Pre-merged mp4 formats are not available from all sites, or may only be available in lower quality.\\n         To prioritize the best h264 video and aac audio in an mp4 container, use \\\"-t mp4\\\" instead.\\n         If you know what you are doing and want a pre-merged mp4 format, use \\\"-f b[ext=mp4]\\\" instead to suppress this warning\\nWARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one\\nWARNING: [youtube] mNkbOCIamqs: Some web_safari client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nWARNING: [youtube] mNkbOCIamqs: Some web client https formats have been skipped as they are missing a url. YouTube is forcing SABR streaming for this client. See  https://github.com/yt-dlp/yt-dlp/issues/12482  for more details\\nERROR: The downloaded file is empty\\n\"}"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-12T06:54:28.846Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "super bowl 2026 medio tiempo",
+          "super bowl 2026",
+          "bad bunny super bowl 2026",
+          "claro sports",
+          "america vs monterrey",
+          "nfl",
+          "bad bunny",
+          "un tal fredo",
+          "michael jackson",
+          "yair17",
+          "karen torres"
+        ],
+        "updatedAt": "2026-02-12T06:55:10.444Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "queryEngineering": {
+            "domain": "Super Bowl 2026 Halftime Show",
+            "clusters": [
+              {
+                "name": "Bad Bunny's Potential Involvement",
+                "spec_score": 0.95,
+                "logic": "Bad Bunny is the most frequently mentioned artist in relation to the Super Bowl 2026 halftime show, indicating high public interest in his potential performance. Tags like 'Bad Bunny', 'bad bunny super bowl', 'bad bunny halftime show' are dominant."
+              },
+              {
+                "name": "Super Bowl 2026 Halftime Show Core Topic",
+                "spec_score": 0.9,
+                "logic": "This cluster represents the central theme, encompassing various mentions of the event itself, including specific year and 'medio tiempo' (halftime). Essential for all queries."
+              },
+              {
+                "name": "Political Controversy and Censorship",
+                "spec_score": 0.85,
+                "logic": "Tags like 'congresistas republicanos', 'polemica super bowl', 'censura', 'fcc' suggest a strong undercurrent of political and social debate surrounding the halftime show, offering a high-engagement angle."
+              },
+              {
+                "name": "Latin Cultural Impact and Music",
+                "spec_score": 0.8,
+                "logic": "With 'música latina', 'hispanos', 'latinos', and 'reggaetón' appearing, this cluster highlights the broader cultural significance and growing influence of Latin artists and music in major events like the Super Bowl."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "super bowl 2026 medio tiempo Bad Bunny|show|rumores|predicciones|confirmación|artista -FEDESICARO -FEDESICARIO -\"aboagada de inmigracion\" -\"magdalena cuprys\" -magda -\"abogados en estados unidos\" -\"inmigrantes en el super bowl\" -migracion -migrantes -\"migrantes en florida\" -\"migrantes en estados unidos\" -florida -miami -orlando -\"serving immigrants\" -\"visa t\" -\"visa u\" -\"green card\" -religion -predica -pastor -biblia -cristianismo -cristiano -\"canal cristiano\" -jesucristo -jesus -oracion -demonio -demonologia -misterio -extraterrestre -\"new age\" -\"5 codas destacadas del super bowl\" -\"5 cosas destacadas\" -\"el video motivacional de YouTube\" -\"el video corto de YouTube.\"",
+                "theme": "Bad Bunny como headliner del Super Bowl 2026: Rumores, predicciones y confirmación.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "super bowl 2026 medio tiempo",
+          "keyword": "super bowl 2026 medio tiempo Bad Bunny|show|rumores|predicciones|confirmación|artista -FEDESICARO -FEDESICARIO -\"aboagada de inmigracion\" -\"magdalena cuprys\" -magda -\"abogados en estados unidos\" -\"inmigrantes en el super bowl\" -migracion -migrantes -\"migrantes en florida\" -\"migrantes en estados unidos\" -florida -miami -orlando -\"serving immigrants\" -\"visa t\" -\"visa u\" -\"green card\" -religion -predica -pastor -biblia -cristianismo -cristiano -\"canal cristiano\" -jesucristo -jesus -oracion -demonio -demonologia -misterio -extraterrestre -\"new age\" -\"5 codas destacadas del super bowl\" -\"5 cosas destacadas\" -\"el video motivacional de YouTube\" -\"el video corto de YouTube.\"",
+          "selectedSourceVideos": [
+            {
+              "videoId": "161Wcs5gEBw",
+              "title": "Bad bunny halftime show #badbunny #getviral #funny #superbowl #halftimeshow2026 #memes #viral #music",
+              "channelTitle": "PoopyGorillaFace",
+              "predicted7d": 77132,
+              "delta": 65102
+            },
+            {
+              "videoId": "q-y1sk_-0fg",
+              "title": "Selena Couldn’t Help But Dance During Bad Bunny’s Super Bowl 2026 Halftime Show  | Justin’s Reaction",
+              "channelTitle": "DramaFy",
+              "predicted7d": 56491,
+              "delta": 44532
+            },
+            {
+              "videoId": "kKpgX2wOzHo",
+              "title": "Trump critica el medio tiempo de Bad Bunny en el Super Bowl",
+              "channelTitle": "adn Noticias",
+              "predicted7d": 59497,
+              "delta": 22420
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "Super Bowl 2026 YouTube Content Strategy",
+            "clusters": [
+              {
+                "name": "Halftime Show Headliner & Performance",
+                "spec_score": 0.95,
+                "logic": "The high frequency of artist names like 'Bad Bunny' and 'Lady Gaga' combined with 'halftime show' indicates significant public interest in who will perform and what the show will entail for Super Bowl 2026."
+              },
+              {
+                "name": "Game & Event Logistics/Predictions",
+                "spec_score": 0.8,
+                "logic": "Core tags like 'Super Bowl 2026', 'Super Bowl LX', and 'NFL' show interest in the sporting aspect, potential teams, host city, and early predictions for the event itself."
+              },
+              {
+                "name": "General News & Sociopolitical Commentary",
+                "spec_score": 0.85,
+                "logic": "The presence of 'news', 'updates', and notably 'Donald Trump' suggests a broader interest beyond just the game and halftime show, encompassing general event news, potential controversies, and political discussions often associated with major national events."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "super bowl 2026 Bad Bunny|Lady Gaga|halftime show performers|rumors|predictions|music|concert -mojo -watchmojo -coisa -nerd -chave -república -leon -nilce -brasil -português -pt-br -react -memes -lives -cortes",
+                "theme": "Super Bowl 2026 Halftime Show: Headliner Speculation & Performance Predictions",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "super bowl 2026",
+          "keyword": "super bowl 2026 Bad Bunny|Lady Gaga|halftime show performers|rumors|predictions|music|concert -mojo -watchmojo -coisa -nerd -chave -república -leon -nilce -brasil -português -pt-br -react -memes -lives -cortes",
+          "selectedSourceVideos": [
+            {
+              "videoId": "We6YhQQscfg",
+              "title": "Bad Bunny halftime show was everything and more! 🇵🇷 #badbunny #superbowl",
+              "channelTitle": "Melissa Becraft",
+              "predicted7d": 469352,
+              "delta": 174056
+            },
+            {
+              "videoId": "ytTEFPv5Mmw",
+              "title": "The GRASS at Bad Bunny’s Super Bowl halftime stole the whole show 😭🌱 …#badbunny #superbowl #dtmf",
+              "channelTitle": "Trapogg",
+              "predicted7d": 307314,
+              "delta": 68639
+            },
+            {
+              "videoId": "A9-cyZTRbnM",
+              "title": "Bad Bunny Super Bowl 60 Halftime Show (Grass Bunny!)",
+              "channelTitle": "Julian",
+              "predicted7d": 70102,
+              "delta": 57541
+            },
+            {
+              "videoId": "ga9G0f644c4",
+              "title": "Bad Bunny’s Super Bowl Halftime Show FLOPPED? #shorts #nfl #badbunny",
+              "channelTitle": "Humanity",
+              "predicted7d": 59322,
+              "delta": 34166
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-12/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Bad Bunny & Lady Gaga Super Bowl 2026?",
+            "description": "Who will headline the Super Bowl 2026 Halftime Show? Rumors are swirling around Bad Bunny and Lady Gaga! Imagine the possibilities and controversies.",
+            "tags": [
+              "Super Bowl 2026",
+              "Bad Bunny",
+              "Lady Gaga",
+              "Halftime Show",
+              "NFL",
+              "Music Predictions",
+              "Concert Rumors",
+              "SuperBowl"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ilMAOe3eBFc"
+          },
+          "updatedAt": "2026-02-12T06:56:59.543Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-12T06:56:59.544Z"
+    }
+  },
+  "finishedAt": "2026-02-12T06:56:59.546Z"
+}

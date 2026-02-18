@@ -1,0 +1,274 @@
+{
+  "runId": "2026-02-15",
+  "date": "2026-02-15",
+  "createdAt": "2026-02-15T06:50:01.918Z",
+  "updatedAt": "2026-02-15T06:52:48.489Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "최 가온",
+          "운명 전쟁 49",
+          "레이디 두아",
+          "쵸봄",
+          "솔로 지옥 리 유니언",
+          "동계 올림픽 2026",
+          "충주 맨",
+          "아이브 뱅뱅",
+          "쇼트 트랙",
+          "충주시",
+          "리니지 클래식",
+          "디아 2",
+          "차준환",
+          "휴 민트",
+          "박지훈",
+          "봉준",
+          "아이브",
+          "불도그",
+          "만만"
+        ],
+        "updatedAt": "2026-02-15T06:50:15.098Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "Entertainment / Reality TV / Spirituality",
+            "clusters": [
+              {
+                "name": "프로그램 집중 분석 및 화제성",
+                "spec_score": 0.9,
+                "logic": "'운명 전쟁 49' 프로그램 자체의 핵심 키워드와 플랫폼, 시청자들의 반응 및 궁금증을 유발하는 키워드를 조합하여 프로그램의 전반적인 인기와 이슈를 다룹니다. '리뷰', '결말' 등 시청자의 직접적인 관심사를 반영합니다."
+              },
+              {
+                "name": "무속인 출연진 심층 탐구 및 영적 능력",
+                "spec_score": 0.95,
+                "logic": "'운명 전쟁 49'의 가장 독특한 요소인 무속인 출연진과 그들의 점사, 신점 등 영적인 능력에 초점을 맞춰 시청자들의 호기심을 자극하고 깊이 있는 내용을 제공합니다. 프로그램의 본질적인 매력을 강조합니다."
+              },
+              {
+                "name": "화제의 출연자 '소호' 밀착 브이로그 및 비하인드",
+                "spec_score": 0.85,
+                "logic": "특정 출연자 '소호'에 대한 높은 관심과 그녀의 일상, 행사 참여, 뷰티 등 개인적인 매력을 담은 콘텐츠를 통해 팬덤을 공략하고 친밀감을 형성합니다. 프로그램 외적인 인물 중심 콘텐츠를 제공합니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "운명 전쟁 49 리뷰|디즈니플러스|결말",
+                "theme": "프로그램 집중 분석 및 화제성",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "운명 전쟁 49",
+          "keyword": "운명 전쟁 49 리뷰|디즈니플러스|결말",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4C8Cfv8d3jY",
+              "title": "운명전쟁49 실제 무당이 분노한 무당찾기 서바이벌",
+              "channelTitle": "꿀잼클립",
+              "predicted7d": 457418,
+              "delta": 189587
+            },
+            {
+              "videoId": "1q64wnU60eU",
+              "title": "다른 무당의 신과 소통할 수 있다는 천명도사 ㄷㄷ #운명전쟁49 #디즈니플러스 #무당",
+              "channelTitle": "패션 명탐정",
+              "predicted7d": 571551,
+              "delta": 122808
+            },
+            {
+              "videoId": "7oSZ9_DT5mA",
+              "title": "사진으로 현생 직업 맞히는 타로 #운명전쟁49 #디즈니플러스 #예능",
+              "channelTitle": "무비콕 (Movie cok)",
+              "predicted7d": 273390,
+              "delta": 121881
+            },
+            {
+              "videoId": "JSKBxsD-A5E",
+              "title": "사주팔자가 진짜 있는 건가? #운명전쟁49 #디즈니플러스 #예능",
+              "channelTitle": "무비콕 (Movie cok)",
+              "predicted7d": 227678,
+              "delta": 100090
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-15/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Shaman Wars 49: Divine Destiny Revealed!",
+            "description": "Dive into the shocking world of Disney+'s Shaman Wars 49! Witness real shamans battle, communicate with gods, and reveal hidden destinies. Don't miss our review and the mind-blowing ending!",
+            "tags": [
+              "ShamanWars49",
+              "DisneyPlus",
+              "Shaman",
+              "KoreanReality",
+              "Destiny",
+              "Fate",
+              "Review",
+              "Ending",
+              "KPopCulture",
+              "Supernatural"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "rVNZF4ftLUU"
+          },
+          "updatedAt": "2026-02-15T06:51:46.311Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "동계 스포츠 인물",
+            "clusters": [
+              {
+                "name": "최가온 선수 업적 및 경기력",
+                "spec_score": 0.95,
+                "logic": "대주제인 '최가온'의 핵심적인 성과인 금메달 획득과 관련된 직접적인 키워드들을 포함하여, 그녀의 스포츠적 가치를 가장 명확하게 드러내는 군집입니다."
+              },
+              {
+                "name": "밀라노 동계올림픽과 한국 스포츠 역사",
+                "spec_score": 0.9,
+                "logic": "최가온 선수의 활약이 펼쳐진 주요 국제 대회와 그녀가 대한민국 스포츠 역사에 남긴 의미를 다루는 군집으로, 국가적 자부심과 연결됩니다."
+              },
+              {
+                "name": "최가온 선수 배경 및 라이프스타일",
+                "spec_score": 0.8,
+                "logic": "선수의 개인적인 배경, 성장 환경, 그리고 대중에게 비춰지는 이미지를 탐색하는 군집으로, 팬들의 궁금증을 자극하고 공감대를 형성합니다."
+              },
+              {
+                "name": "최가온 선수 해외 반응 및 영향력",
+                "spec_score": 0.85,
+                "logic": "최가온 선수의 국제적인 위상과 다른 유명 선수와의 비교를 통해 그녀의 파급력을 보여주며, 글로벌 팬덤 형성에 기여할 수 있는 군집입니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최 가온 스노보드 금메달|하프파이프|17세 역전드라마 -명언 -신조어 -이슈 -정치 -경제 -교육 -문화 -시사",
+                "theme": "최가온의 금메달 신화와 경기력 분석",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "최 가온",
+          "keyword": "최 가온 스노보드 금메달|하프파이프|17세 역전드라마 -명언 -신조어 -이슈 -정치 -경제 -교육 -문화 -시사",
+          "selectedSourceVideos": [
+            {
+              "videoId": "sKf5HhH6E0k",
+              "title": "17세 최가온의 기적… 마지막 한 번으로 한국 설상 첫 금메달 탄생 #최가온 #올림픽금메달 #한국첫금메달 #역전드라마 #감동순간 #대한민국국가대표 #동계올림픽 #KSA #스노보드",
+              "channelTitle": "공장네트웍스부동산",
+              "predicted7d": 283692,
+              "delta": 123489
+            },
+            {
+              "videoId": "7to7UXmZjcg",
+              "title": "최가온 꺾이지 않는 마음 절뚝이는 다리로 90.25점",
+              "channelTitle": "숏트랙커",
+              "predicted7d": 162176,
+              "delta": 71580
+            },
+            {
+              "videoId": "O3HA_Svd98w",
+              "title": "18세 금메달 최가온의 키다리 아저씨",
+              "channelTitle": "브랜댕",
+              "predicted7d": 92094,
+              "delta": 42572
+            },
+            {
+              "videoId": "0_xawnrQKg4",
+              "title": "1차 추락, 2차 실패, 3차에서 90.25 꽂아버림",
+              "channelTitle": "오풍",
+              "predicted7d": 92560,
+              "delta": 40640
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-15/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "17-Year-Old Choi Gaon's Gold Drama!",
+            "description": "Witness the incredible journey of 17-year-old Choi Gaon, who defied expectations to win a historic snowboard halfpipe gold medal. Her dramatic comeback story, overcoming injuries and multiple falls, will inspire you.",
+            "tags": [
+              "ChoiGaon",
+              "SnowboardGold",
+              "Halfpipe",
+              "TeenageAthlete",
+              "ComebackStory",
+              "OlympicGold",
+              "Inspiration",
+              "SportsDrama",
+              "KoreanAthlete",
+              "WinterSports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "MmDhdwZKFDg"
+          },
+          "updatedAt": "2026-02-15T06:52:34.573Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-15T06:52:34.581Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "halftime show 2026",
+          "bad bunny halftime show",
+          "super bowl 2026",
+          "lindsey vonn crash",
+          "all american halftime show 2026",
+          "kid rock halftime show",
+          "state of play",
+          "green day super bowl 2026",
+          "ilia malinin",
+          "jlr investigates live",
+          "nancy guthrie update"
+        ],
+        "updatedAt": "2026-02-15T06:52:48.488Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

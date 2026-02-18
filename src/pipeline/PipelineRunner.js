@@ -30,6 +30,7 @@ export class PipelineRunner {
    * @param {{env:object, paths:object, store:any}} args
    */
   constructor(args) {
+    // console.log("DEBUG: PipelineRunner가 받은 env 전체 목록:", Object.keys(args.env));
     this.env = args.env;
     this.paths = args.paths;
     this.store = args.store;
@@ -52,7 +53,7 @@ export class PipelineRunner {
       tokens: {
         KR: this.env.YOUTUBE_OAUTH_REFRESH_TOKEN_KR,
         US: this.env.YOUTUBE_OAUTH_REFRESH_TOKEN_US,
-        MX: this.env.YOUTUBE_OAUTH_REFRESH_TOKEN_MX,
+        MX: this.env.YOUTUBE_OAUTH_REFRESH_TOKEN_MX
       }
     });
   }
@@ -232,8 +233,6 @@ export class PipelineRunner {
       job.status = "RUNNING";
       this.save(state);
 
-      // const publishedAfterISO = new Date(Date.now() - VALIDATION.recentDays * 24 * 3600 * 1000).toISOString();
-
       // [외곽 루프] 트렌드 키워드 순회
       for (const rawKeyword of keywords) {
         if (assignedKeywords.includes(rawKeyword)) continue;
@@ -246,7 +245,7 @@ export class PipelineRunner {
           const tags = await this.yt.collectHashtags(searchForTags.map(v => v.videoId));
 
           // 2. 서버(QE API) 호출하여 구체화된 쿼리 후보 3개 획득
-          const { slots, analysis } = await this.trendApi.refineTrendKeyword(rawKeyword, tags);
+          const { slots, analysis } = await this.trendApi.refineTrendKeyword(rawKeyword, tags, region);
 
           // [내부 루프] 3개의 구체화 쿼리 후보 순회 검증
           const validationHistory = [];
@@ -291,6 +290,7 @@ export class PipelineRunner {
           }
 
           // 분석 데이터와 검증 이력을 함께 저장 (디버깅 핵심 데이터)
+          job.originalKeyword = picked.originalKeyword; // 처음에 제시된 원본 트렌드 (예: '2026 동계올림픽')
           job.queryEngineering = {
             ...analysis,
             validationHistory
@@ -308,7 +308,6 @@ export class PipelineRunner {
       }
 
       // 1) 상태 객체(runId.json)에 상세 정보 기록
-      job.originalKeyword = picked.originalKeyword; // 처음에 제시된 원본 트렌드 (예: '2026 동계올림픽')
       job.keyword = picked.keyword;                // 최종 채택된 구체화 쿼리 (예: '2026 동계올림픽 차준환|이채운')
 
       // selectedSourceVideos는 뒤쪽 VideoProcessor에서 핵심 재료로 쓰임
@@ -371,7 +370,7 @@ export class PipelineRunner {
         this.save(state);
 
         const vpRes = await withRetry(
-          async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND }),
+          async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND, region }),
           `videoApi:${region}:slot${slot}`
         );
 
@@ -396,7 +395,7 @@ export class PipelineRunner {
 
       log.info({ slotID, keyword: picked.keyword }, `🎬 [${slotID}] 비디오 생성 시작`);
       const vpRes = await withRetry(
-        async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND }),
+        async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND, region }),
         `videoApi:${region}:slot${slot}`
       );
 
@@ -456,8 +455,7 @@ export class PipelineRunner {
           tagString, // 가공된 해시태그들
         ].join('\n');
 
-        const tags =
-          job.uploadMeta?.tags || [];
+        const tags = job.uploadMeta?.tags || [];
 
         log.info({ slotID, region, filePath }, `📤 [${slotID}] ${region} 채널 업로드 시작`);
 

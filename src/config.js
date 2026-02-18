@@ -14,20 +14,10 @@ import path from "node:path";
  */
 export function loadEnv() {
   return {
+    ...process.env, // 모든 환경 변수를 기본적으로 포함
     NODE_ENV: process.env.NODE_ENV || "production",
-    LOG_LEVEL: process.env.LOG_LEVEL || "info",
-    DATA_DIR: process.env.DATA_DIR || "./data",
-
-    TREND_API_BASE_URL: process.env.TREND_API_BASE_URL || "http://localhost:9001",
-
-    YOUTUBE_API_KEY: process.env.YOUTUBE_API_KEY || "",
-
+    // ... 나머지 특수 가공이 필요한 변수들만 아래에 유지
     VPI_PREDICTOR_BASE_URL: (process.env.VPI_PREDICTOR_BASE_URL || "").replace(/\/$/, ""),
-    VPI_PREDICTOR_ENDPOINT: process.env.VPI_PREDICTOR_ENDPOINT || "/predict/pred7",
-
-    VIDEO_PROCESSOR_API_BASE_URL: (process.env.VIDEO_PROCESSOR_API_BASE_URL || "http://localhost:9002").replace(/\/$/, ""),
-
-    GEMINI_MODEL: process.env.GEMINI_MODEL || "gemini-1.5-pro"
   };
 }
 
@@ -49,8 +39,8 @@ export const HIGHLIGHT_SECOND = 10;
  * [상수 책임] 검증 기준(네 요구사항 반영)
  */
 export const VALIDATION = {
-  recentDays: 4,
-  minShortsCount: 4,
+  recentDays: 5,
+  minShortsCount: 3,
   maxShortsSec: 80,
 
   // predicted_7day_views >= 30k 영상이 4개 이상

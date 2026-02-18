@@ -33,13 +33,20 @@ export class QueryEngineeringService {
     return { analysis, slots };
   }
 
-  generateSlots(keyword, analysis) {
-    // LLM이 반환한 군집 데이터를 기반으로 q=대주제 Pivot|Alias -제외어 생성
-    // (이 부분은 LLM 응답 구조에 맞춰 파싱 로직 구현)
-    return analysis.slots.map(s => ({
-      id: s.id,
-      theme: s.theme,
-      q: `${keyword} ${s.pivots.join('|')} -뉴스 -보도 -MBN`
-    }));
+  enerateSlots(keyword, analysis) {
+    return analysis.slots.map(s => {
+      // 1. 피벗 키워드들만 추출 (괄호나 특수문자 제거)
+      const cleanPivots = s.pivots.map(p => p.replace(/[()]/g, '').trim());
+
+      // 2. 검색 쿼리 조립 (그룹화 적용)
+      // 검색어 예: "america vs chivas" (historia|rivalidad) -news
+      const query = `"${keyword}" (${cleanPivots.join('|')})`;
+
+      return {
+        id: s.id,
+        theme: s.theme, // 테마 정보는 UI용이나 로그용으로만 유지
+        q: query        // 실제 API로 날아가는 순수 쿼리
+      };
+    });
   }
 }

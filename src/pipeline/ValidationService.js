@@ -37,7 +37,12 @@ export class ValidationService {
 
     // 1) 검색 수행
     const searched = await this.yt.searchVideos({ q, maxResults: 50, publishedAfterISO, region });
-    if ((searched?.length || 0) < 4) return null;
+    if ((searched?.length || 0) < VALIDATION.minShortsCount) {
+      return {
+        ok: false,
+        reason: `검색 결과 부족 (검색됨: ${searched?.length || 0}개 / 최소 필요: ${VALIDATION.minShortsCount}개)`
+      };
+    }
 
     // 2) 특징치 추출 및 쇼츠 필터링
     const features = await this.yt.buildVideoFeatures({ videoIds: searched.map(s => s.videoId), region });
