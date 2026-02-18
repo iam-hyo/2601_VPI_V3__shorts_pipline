@@ -41,14 +41,15 @@ export class TrendApiClient {
  * @param {string} keyword 원본 트렌드 키워드
  * @param {Array} tags collectHashtags로 수집된 태그 배열
  */
-  async refineTrendKeyword(keyword, tags) {
+  async refineTrendKeyword(keyword, tags, region = "US") {
     const url = `${this.baseUrl}/trends/refine`;
     const res = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         keyword,
-        tags: tags.slice(0, 150) // 상위 150개로 제한하여 컨텍스트 최적화
+        tags: tags.slice(0, 150), // 상위 150개로 제한하여 컨텍스트 최적화
+        region: region
       })
     });
 

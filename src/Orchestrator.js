@@ -1,4 +1,5 @@
 /**
+ * src/Orchestrator.js
  * [파일 책임]
  * - 오케스트레이터는 “실행 순서”만 한 눈에 보이도록 최소 로직만 유지합니다.
  * - Resume/상태관리/검증/서비스 호출은 PipelineRunner로 위임합니다.

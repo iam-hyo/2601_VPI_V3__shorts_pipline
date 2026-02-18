@@ -1,0 +1,148 @@
+{
+  "runId": "2026-02-18__MANUAL__KR__아이브-뱅뱅",
+  "date": "2026-02-18__MANUAL__KR__아이브-뱅뱅",
+  "createdAt": "2026-02-18T09:44:43.282Z",
+  "updatedAt": "2026-02-18T09:46:09.648Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "아이브 뱅뱅"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "아이브 뱅뱅",
+          "queryEngineering": {
+            "target_language_confirmed": "Korean",
+            "clusters": [
+              {
+                "name": "공식 무대 및 직캠",
+                "logic": "아이브의 '뱅뱅' 공식 음악방송 무대 영상, 고화질 직캠, 특정 방송사(인기가요 등) 출연 영상 등 퍼포먼스 중심의 콘텐츠를 찾는 사용자들을 위한 군집입니다."
+              },
+              {
+                "name": "챌린지 및 안무 분석",
+                "logic": "'뱅뱅'의 안무 연습, 댄스 챌린지, 커버 영상, 안무 거울 모드 등 춤과 관련된 다양한 콘텐츠를 탐색하는 사용자들을 위한 군집입니다."
+              },
+              {
+                "name": "멤버별 하이라이트",
+                "logic": "아이브 멤버 개개인에게 초점을 맞춘 '뱅뱅' 무대 영상, 페이스캠, 특정 멤버의 직캠 등 멤버별 매력을 집중적으로 보고 싶어 하는 팬들을 위한 군집입니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "아이브 뱅뱅|직캠|인기가요 -T73547G -260214 -슈스티비",
+                "theme": "아이브 뱅뱅 공식 무대 및 직캠",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "아이브 뱅뱅|직캠|인기가요 -T73547G -260214 -슈스티비",
+          "selectedSourceVideos": [
+            {
+              "videoId": "aSWGCN6FZwg",
+              "title": "뱅뱅 안무시안 잘 살린 아이브",
+              "channelTitle": "돌발러",
+              "predicted7d": 583779,
+              "delta": 220310
+            },
+            {
+              "videoId": "Dnmee6XHiOE",
+              "title": "라치카 안무 통으로 쓴 아이브 뱅뱅",
+              "channelTitle": "연예통통",
+              "predicted7d": 150108,
+              "delta": 139416
+            },
+            {
+              "videoId": "k-SYckKRQ3w",
+              "title": "아이브 뱅뱅 음방 1주차에 적립한 녕바보 모먼트",
+              "channelTitle": "슈스TV",
+              "predicted7d": 140902,
+              "delta": 129924
+            },
+            {
+              "videoId": "tAvLrIO-gU8",
+              "title": "[직캠믹스] IVE 장원영 (JANG WONYOUNG)  – 'BANG BANG' Fancam Mix",
+              "channelTitle": "K-POP MIX MAX",
+              "predicted7d": 66412,
+              "delta": 65416
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__아이브-뱅뱅/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "IVE Bang Bang: Wonyoung Fancam Highlights!",
+            "description": "2026-02-18__MANUAL__KR__아이브-뱅뱅_KR_1\nDive into IVE's electrifying 'Bang Bang' performances! This compilation features stunning choreography, iconic LaChica moves, and adorable Nyeongbabo moments from Inkigayo. Don't miss Jang Wonyoung's captivating fancam highlights!",
+            "tags": [
+              "IVE",
+              "BangBang",
+              "Kpop",
+              "Fancam",
+              "Wonyoung",
+              "Inkigayo",
+              "LaChica",
+              "Choreography",
+              "Nyeongbabo",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "-SBXLdKblI0"
+          },
+          "updatedAt": "2026-02-18T09:46:09.639Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-18T09:46:09.647Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-18T09:46:09.648Z"
+}

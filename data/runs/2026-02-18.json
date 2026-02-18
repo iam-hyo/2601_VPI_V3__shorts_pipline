@@ -1,0 +1,347 @@
+{
+  "runId": "2026-02-18",
+  "date": "2026-02-18",
+  "createdAt": "2026-02-18T06:50:01.466Z",
+  "updatedAt": "2026-02-18T06:53:46.043Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "최 가온",
+          "레이디 두아",
+          "충주시",
+          "솔로 지옥 리 유니언",
+          "충주 맨",
+          "무당 서바이벌",
+          "디아 2",
+          "떡국 맛있게 끓이는 법",
+          "민희 진",
+          "유혜 주",
+          "잡채 맛있게 하는 방법",
+          "쇼트 트랙",
+          "롯데 자이언츠",
+          "휴 민트",
+          "리쥬 라이크",
+          "아이브 뱅뱅",
+          "박지훈",
+          "이수연",
+          "동계 올림픽 2026",
+          "왕 과 사는 남자",
+          "아이브",
+          "놀면 뭐하니"
+        ],
+        "updatedAt": "2026-02-18T06:50:25.534Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "최 가온",
+          "queryEngineering": {
+            "target_language_confirmed": "한국어",
+            "clusters": [
+              {
+                "name": "스포츠 성과 및 경기",
+                "logic": "최가온 선수의 스노보드 경기, 올림픽 출전 및 메달 획득 등 스포츠 관련 성과에 초점을 맞춥니다."
+              },
+              {
+                "name": "최신 뉴스 및 미디어",
+                "logic": "최가온 선수와 관련된 최신 뉴스, 방송 보도, 인터뷰 등 미디어 콘텐츠를 탐색합니다."
+              },
+              {
+                "name": "개인적인 면모 및 화제",
+                "logic": "최가온 선수의 개인적인 이야기, 후원, 논란, 팬들의 반응 등 인물 자체에 대한 관심사를 다룹니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최가온|스노보드|올림픽 금메달 -dhflavlr -UCH3mJ-nHxjjny2FJbJaqiDA -두쫀쿠 -마라탕 -총선 -한동훈 -이재명 -신통방통 -김광일 -조국 -이해찬 -김영주 -특검 -음식 -커플브이로그 -배우커플 -띠동갑커플 -띠동갑 -13살차이커플 -김동현 -배우김동현 -남궁하린 -13차 -나이차이많이나는커플 -쇼트트랙 -최민정 -유승은 -빅에어 -슬로프스타일 -1440도 -설상종목 -홍석준 -이정찬 -아파트 -현수막",
+                "theme": "최가온 선수의 스노보드 경기, 올림픽 출전 및 메달 획득 등 스포츠 관련 성과에 초점을 맞춥니다.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "최가온|스노보드|올림픽 금메달 -dhflavlr -UCH3mJ-nHxjjny2FJbJaqiDA -두쫀쿠 -마라탕 -총선 -한동훈 -이재명 -신통방통 -김광일 -조국 -이해찬 -김영주 -특검 -음식 -커플브이로그 -배우커플 -띠동갑커플 -띠동갑 -13살차이커플 -김동현 -배우김동현 -남궁하린 -13차 -나이차이많이나는커플 -쇼트트랙 -최민정 -유승은 -빅에어 -슬로프스타일 -1440도 -설상종목 -홍석준 -이정찬 -아파트 -현수막",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Gd6139aZrus",
+              "title": "올림픽 신기록 금메달 세리머니 지퍼 한 번에 14억 대박 터졌다 / KNN",
+              "channelTitle": "KNN NEWS",
+              "predicted7d": 909221,
+              "delta": 414216
+            },
+            {
+              "videoId": "G518yxBXShU",
+              "title": "\"금메달보다 부럽다\"...최가온 현수막 뭐길래 #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 382381,
+              "delta": 151434
+            },
+            {
+              "videoId": "XtWuTTlnMDE",
+              "title": "최가온 금메달, 미 NBC 선정 10대 명장면…\"제자가 스승 이긴 셈\" / 연합뉴스TV(YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 85342,
+              "delta": 79213
+            },
+            {
+              "videoId": "BBd9btxXHqc",
+              "title": "첫 금메달 땄던 15살 최가온 선수 인터뷰",
+              "channelTitle": "눈물펑",
+              "predicted7d": 83685,
+              "delta": 74514
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Choi Gaon: Snowboard Gold & Viral Moments",
+            "description": "2026-02-18_KR_1\nWitness the incredible journey of Choi Gaon, the teenage snowboard sensation who captured Olympic gold! From viral zipper moments to heartwarming banners and beating her mentor, relive her most unforgettable achievements. This is more than just a medal; it's a legacy.",
+            "tags": [
+              "ChoiGaon",
+              "Snowboard",
+              "OlympicGold",
+              "BigAir",
+              "ViralMoments",
+              "TeenageProdigy",
+              "SportsHighlights",
+              "WinterOlympics",
+              "GoldMedalist",
+              "SnowSports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "5g_kDlEHMxo"
+          },
+          "updatedAt": "2026-02-18T06:51:19.656Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "최 가온",
+          "queryEngineering": {
+            "target_language_confirmed": "한국어(Korean)로 모든 출력 결과가 생성됩니다.",
+            "clusters": [
+              {
+                "name": "스포츠 성과 및 경기",
+                "logic": "최가온 선수의 스노보드 경기 성과, 올림픽 출전 및 메달 획득 관련 정보에 초점을 맞춥니다. 주요 키워드는 스노보드, 올림픽, 금메달, 특정 종목(하프파이프) 및 대회명(밀라노 코르티나 2026)입니다."
+              },
+              {
+                "name": "최신 뉴스 및 사회적 이슈",
+                "logic": "최가온 선수와 관련된 최신 언론 보도, 사회적 관심사, 주요 사건(귀국, 부상, 악플 등) 및 재정적 측면(포상금)을 다룹니다. 뉴스, 실시간, 속보 등의 키워드를 활용합니다."
+              },
+              {
+                "name": "인물 탐구 및 비하인드 스토리",
+                "logic": "최가온 선수의 개인적인 면모, 성장 배경, 인터뷰 내용, 후원사(오메가) 관련 정보, 그리고 정신적인 부분(마인드셋) 등 인물 자체에 대한 심층적인 탐구를 목표로 합니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최가온|스노보드|하프파이프|금메달|밀라노 코르티나 2026 -dhflavlr -뉸 -마라탕 -총선 -김동현 -최민정 -유승은 -황대헌",
+                "theme": "최가온 스노보드 경기 및 올림픽 성과",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "최가온|스노보드|하프파이프|금메달|밀라노 코르티나 2026 -dhflavlr -뉸 -마라탕 -총선 -김동현 -최민정 -유승은 -황대헌",
+          "selectedSourceVideos": [
+            {
+              "videoId": "G518yxBXShU",
+              "title": "\"금메달보다 부럽다\"...최가온 현수막 뭐길래 #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 382381,
+              "delta": 151434
+            },
+            {
+              "videoId": "FvVpzAykusc",
+              "title": "스노보드 최가온 대역전극, '동계올림픽 전반기 명장면 선정' | 지금 올림픽",
+              "channelTitle": "JTBC News",
+              "predicted7d": 73251,
+              "delta": 64248
+            },
+            {
+              "videoId": "WK3wXowz-lo",
+              "title": "신지아의 2026 밀라노-코르티나 동계올림픽 목표는?",
+              "channelTitle": "올림픽",
+              "predicted7d": 58548,
+              "delta": 50356
+            },
+            {
+              "videoId": "8IKfJaKuLnY",
+              "title": "'K-하트' 날린 미국 선수 정체는? #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 101107,
+              "delta": 40757
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Gaon Choi: Snowboard Gold & Milano 2026!",
+            "description": "2026-02-18_KR_2\nWitness Gaon Choi's incredible journey in halfpipe snowboarding! From epic comebacks to viral moments, she's set her sights on gold at Milano Cortina 2026. Don't miss the future of winter sports!",
+            "tags": [
+              "Gaon Choi",
+              "Snowboarding",
+              "Halfpipe",
+              "Gold Medal",
+              "Milano Cortina 2026",
+              "Winter Olympics",
+              "Korean Athlete",
+              "Sports Highlights",
+              "Shorts",
+              "Viral Moments"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "W0vTI3pytgc"
+          },
+          "updatedAt": "2026-02-18T06:52:14.844Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-18T06:52:14.852Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "spider noir",
+          "state of play",
+          "poppy playtime",
+          "junior h",
+          "druski",
+          "no hands",
+          "stephen colbert",
+          "jordan matter"
+        ],
+        "updatedAt": "2026-02-18T06:52:25.230Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "poppy playtime",
+          "queryEngineering": {
+            "target_language_confirmed": "English",
+            "clusters": [
+              {
+                "name": "Latest Game Content & Updates",
+                "logic": "Focuses on the newest chapter (Chapter 5) including gameplay, trailers, leaks, and release information, catering to users seeking immediate updates and in-game experiences."
+              },
+              {
+                "name": "Lore, Theories & Character Backstory",
+                "logic": "Explores the deeper narrative, fan theories, ARG elements, and the mysterious Prototype, appealing to viewers interested in the game's story and hidden details."
+              },
+              {
+                "name": "Characters & Fan-Created Content",
+                "logic": "Highlights popular characters and their presence in fan-made content, such as animations, Roblox experiences, and Minecraft adaptations, targeting a broader audience interested in creative interpretations."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "poppy playtime chapter 5|gameplay|trailer|release date -shorts -foryou -edit",
+                "theme": "Poppy Playtime Chapter 5: Gameplay, Trailers & Release Info",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "poppy playtime chapter 5|gameplay|trailer|release date -shorts -foryou -edit",
+          "selectedSourceVideos": [
+            {
+              "videoId": "w1bqato9Mw4",
+              "title": "Únete al Estenos del CHAPTER 5 👆☝️ Click SOLO 1 DIA 🧐 #videojuegos #mrrelevante",
+              "channelTitle": "Soy RELEVANTE",
+              "predicted7d": 4568945,
+              "delta": 2375050
+            },
+            {
+              "videoId": "POP1gA6fs8k",
+              "title": "Poppy Playtime: Chapter 5 - Official Main Menu (Broken Things)",
+              "channelTitle": "killer D gamer",
+              "predicted7d": 55372,
+              "delta": 40448
+            },
+            {
+              "videoId": "vXO8ctz2Bjs",
+              "title": "Poppy Playtime Chapter 5 Has Been Leaked Before Release!! 😲🔥(Don't Miss This)",
+              "channelTitle": "Killer D Theory",
+              "predicted7d": 47962,
+              "delta": 36128
+            },
+            {
+              "videoId": "cBhlQTDC0ns",
+              "title": "QUEDA 1 DÍA PARA EL CAPÍTULO 5 de POPPY PLAYTIME... (no aguanto más 😭)",
+              "channelTitle": "MatuzCL",
+              "predicted7d": 48513,
+              "delta": 28557
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Poppy Playtime Chapter 5: Leaks & Hype!",
+            "description": "2026-02-18_US_1\nGet ready for Poppy Playtime Chapter 5! We've got the latest leaks, official main menu reveals, and the final countdown to its release. Don't miss out on the ultimate Chapter 5 hype!",
+            "tags": [
+              "PoppyPlaytimeChapter5",
+              "Chapter5Leaks",
+              "PoppyPlaytime",
+              "ReleaseDate",
+              "GameplayTrailer",
+              "GamingShorts",
+              "HorrorGame",
+              "BrokenThings",
+              "Hype",
+              "DontMiss"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "4Zd3IlPS-9g"
+          },
+          "updatedAt": "2026-02-18T06:53:46.033Z"
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-18T06:53:46.042Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

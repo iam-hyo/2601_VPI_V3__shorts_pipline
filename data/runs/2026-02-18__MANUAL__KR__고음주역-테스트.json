@@ -1,0 +1,148 @@
+{
+  "runId": "2026-02-18__MANUAL__KR__고음주역-테스트",
+  "date": "2026-02-18__MANUAL__KR__고음주역-테스트",
+  "createdAt": "2026-02-18T09:53:48.968Z",
+  "updatedAt": "2026-02-18T09:54:26.900Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "고음주역 테스트"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "고음주역 테스트",
+          "queryEngineering": {
+            "target_language_confirmed": "한국어",
+            "clusters": [
+              {
+                "name": "인물/도전자 중심",
+                "logic": "고음주역 테스트에 참여하거나 관련 콘텐츠를 제작하는 특정 인물, 스트리머, 버튜버 등에 초점을 맞춘 군집입니다."
+              },
+              {
+                "name": "콘텐츠 유형/도전 자체",
+                "logic": "고음주역 테스트라는 행위 자체의 다양한 형태(대결, 커버, 라이브 등)와 관련된 콘텐츠 유형에 집중하는 군집입니다."
+              },
+              {
+                "name": "심화/전문성",
+                "logic": "고음 발성법, 보컬 트레이닝, 음향 세팅 등 고음주역 테스트와 관련된 기술적, 전문적 측면을 다루는 군집입니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "고음주역 테스트|박다혜|버튜버|라이브|노래 커버 -무엇이든물어보살 -로블록스 -건강정보",
+                "theme": "인기 스트리머/버튜버의 고음주역 테스트 라이브 및 커버",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "고음주역 테스트|박다혜|버튜버|라이브|노래 커버 -무엇이든물어보살 -로블록스 -건강정보",
+          "selectedSourceVideos": [
+            {
+              "videoId": "rqxdwMcPbHg",
+              "title": "유명 유튜버와 고음 주역 중 6옥타브 휘슬 성공?! 레전드ㄷㄷ",
+              "channelTitle": "빡다혜dahye",
+              "predicted7d": 5658102,
+              "delta": 1343460
+            },
+            {
+              "videoId": "wj58rMbWjVA",
+              "title": "유명 유튜버 등장?! 레전드 고음 주역 테스트 승자는? 댓글ㄱㄱ",
+              "channelTitle": "빡다혜dahye",
+              "predicted7d": 2229233,
+              "delta": 644530
+            },
+            {
+              "videoId": "Oc5JjKn-ea8",
+              "title": "어디까지 올라간건지 감도안와! #잠골버스ㅡ",
+              "channelTitle": "박다혜dahye",
+              "predicted7d": 833144,
+              "delta": 295351
+            },
+            {
+              "videoId": "DkEO94T-upg",
+              "title": "이러고 노는건 세상에 우리밖에 없을거야 ㅋㅋ @yourhyeda",
+              "channelTitle": "박다혜dahye",
+              "predicted7d": 94404,
+              "delta": 80808
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__고음주역-테스트/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "버튜버 박다혜 고음주역 테스트! 라이브 레전드",
+            "description": "2026-02-18__MANUAL__KR__고음주역-테스트_KR_1\n버튜버 박다혜의 고음주역 테스트 라이브 현장! 상상 초월 고음 대결과 레전드 노래 커버가 펼쳐집니다. 과연 어디까지 올라갈 수 있을까요?",
+            "tags": [
+              "박다혜",
+              "버튜버",
+              "고음주역테스트",
+              "노래커버",
+              "라이브",
+              "고음",
+              "6옥타브",
+              "휘슬",
+              "Shorts",
+              "유튜브쇼츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "-S0h81RIM84"
+          },
+          "updatedAt": "2026-02-18T09:54:26.890Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-18T09:54:26.899Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-18T09:54:26.900Z"
+}

@@ -1,0 +1,148 @@
+{
+  "runId": "2026-02-18__MANUAL__KR__아이브",
+  "date": "2026-02-18__MANUAL__KR__아이브",
+  "createdAt": "2026-02-18T08:48:29.598Z",
+  "updatedAt": "2026-02-18T08:51:30.877Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "아이브"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "아이브",
+          "queryEngineering": {
+            "target_language_confirmed": "한국어",
+            "clusters": [
+              {
+                "name": "공식 무대/퍼포먼스",
+                "logic": "아이브의 그룹 전체 공식 무대, 음악방송 출연, 콘서트 퍼포먼스 관련 콘텐츠를 포함합니다."
+              },
+              {
+                "name": "개인 멤버/예능",
+                "logic": "아이브 멤버 개개인의 활동, 직캠, 예능 출연 및 특정 멤버의 매력을 담은 영상에 초점을 맞춥니다."
+              },
+              {
+                "name": "신규 앨범/콘텐츠",
+                "logic": "아이브의 최신 앨범, 신곡 뮤직비디오, 티저 등 새로운 음악 콘텐츠를 탐색합니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "아이브|무대|직캠 -adrey -reactor -lachica",
+                "theme": "아이브의 공식 음악방송 무대 및 퍼포먼스",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "아이브|무대|직캠 -adrey -reactor -lachica",
+          "selectedSourceVideos": [
+            {
+              "videoId": "qs3_Wo1AGlA",
+              "title": "혼자 10초 만에 지구오락실 완성한 은지",
+              "channelTitle": "호박고구마",
+              "predicted7d": 288457,
+              "delta": 130496
+            },
+            {
+              "videoId": "k-SYckKRQ3w",
+              "title": "아이브 뱅뱅 음방 1주차에 적립한 녕바보 모먼트",
+              "channelTitle": "슈스TV",
+              "predicted7d": 122227,
+              "delta": 114229
+            },
+            {
+              "videoId": "4lRHken-npA",
+              "title": "봄봄봄 🌱 #설아가되#아이브#포카포장#아이브포카포장#포카#포장#포카계#포장계#다이브#다이브로그#다이소깡#추천#알고리즘떠라#알고리즘#포장풀기#ive",
+              "channelTitle": "설아",
+              "predicted7d": 76103,
+              "delta": 74996
+            },
+            {
+              "videoId": "QmNASR3Imz0",
+              "title": "아이브 이서 - LOVE DIVE 1분 하이라이트",
+              "channelTitle": "connect",
+              "predicted7d": 76865,
+              "delta": 70025
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-18__MANUAL__KR__아이브/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "IVE Stage Fancams: Pure Charisma!",
+            "description": "2026-02-18__MANUAL__KR__아이브_KR_1\nDive into the best IVE stage moments and fancams! Witness their captivating charisma and unforgettable performances. These clips showcase why IVE dominates the stage.",
+            "tags": [
+              "IVE",
+              "Kpop",
+              "Fancam",
+              "Shorts",
+              "Stage",
+              "Performance",
+              "LoveDive",
+              "Leeseo",
+              "Wonyoung",
+              "KpopIdol"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "EuIo7FySJHg"
+          },
+          "updatedAt": "2026-02-18T08:51:30.867Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-18T08:51:30.876Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-18T08:51:30.877Z"
+}

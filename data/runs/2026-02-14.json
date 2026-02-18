@@ -1,0 +1,316 @@
+{
+  "runId": "2026-02-14",
+  "date": "2026-02-14",
+  "createdAt": "2026-02-14T06:50:01.759Z",
+  "updatedAt": "2026-02-14T06:57:45.577Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "최 가온",
+          "운명 전쟁 49",
+          "쵸봄",
+          "동계 올림픽 2026",
+          "리니지",
+          "레이디 두아",
+          "충주 맨",
+          "아이브 뱅뱅",
+          "불도그",
+          "만만",
+          "오현규",
+          "쇼트 트랙",
+          "차준환",
+          "디아 2",
+          "박지훈",
+          "이문주",
+          "봉준"
+        ],
+        "updatedAt": "2026-02-14T06:50:28.150Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "운명 전쟁 49 (Fate War 49) - 엔터테인먼트/리얼리티 쇼",
+            "clusters": [
+              {
+                "name": "프로그램 핵심 정보",
+                "spec_score": 0.95,
+                "logic": "시청자들이 '운명 전쟁 49' 프로그램을 찾고 이해하는 데 가장 기본적인 정보(제목, 플랫폼, 장르)를 제공하여 접근성을 높입니다."
+              },
+              {
+                "name": "운명술사 및 예측",
+                "spec_score": 0.9,
+                "logic": "프로그램의 핵심 콘텐츠인 운명 예측과 관련된 다양한 인물(무당, 역술가) 및 방법(사주, 타로, 신점)을 탐색하여 심층적인 흥미를 유발합니다."
+              },
+              {
+                "name": "출연진 및 화제성",
+                "spec_score": 0.88,
+                "logic": "인기 출연진의 활약상과 프로그램에 대한 대중의 반응, 그리고 전반적인 화제성을 파악하여 시청자들의 공감대와 참여를 이끌어냅니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "운명 전쟁 49 운명전쟁49|디즈니플러스|예능|서바이벌 -실시간뉴스 -속보뉴스 -정치이슈 -경제이슈 -사회이슈 -국제이슈 -뉴스정리 -시사분석 -핫이슈브리핑 -뉴스한눈에 -오늘핫이슈 -5분시사 -정보전달 -뉴스브리핑채널 -시사정보채널 -오늘뉴스요약 -트렌드속보 -시사소식 -대한민국뉴스 -팩트중심 -鏡電視 -鏡新聞 -mnews -新聞 -news -國際 -台灣 -生活 -live -新聞直播 -娛樂直播 -鏡速報 -明星 -藝인 -幕後花絮 -영화 -영화리뷰 -드라마 -숏츠 -자기계발 -동기부여 -운명을 보는 기술 -인빈asmr -조인빈asmr -마당라이브 -무구 -징 -북 -방울 -부채 -무속인공부 -무속세계 -신내림 -조상신 -신령님 -무속도구 -제자의길 -영성공부 -신가물 -신기운 -무속신앙 -수행",
+                "theme": "운명 전쟁 49의 기본 정보, 시청 방법, 장르적 특징을 다루어 프로그램에 대한 전반적인 이해를 돕습니다.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "운명 전쟁 49",
+          "keyword": "운명 전쟁 49 운명전쟁49|디즈니플러스|예능|서바이벌 -실시간뉴스 -속보뉴스 -정치이슈 -경제이슈 -사회이슈 -국제이슈 -뉴스정리 -시사분석 -핫이슈브리핑 -뉴스한눈에 -오늘핫이슈 -5분시사 -정보전달 -뉴스브리핑채널 -시사정보채널 -오늘뉴스요약 -트렌드속보 -시사소식 -대한민국뉴스 -팩트중심 -鏡電視 -鏡新聞 -mnews -新聞 -news -國際 -台灣 -生活 -live -新聞直播 -娛樂直播 -鏡速報 -明星 -藝인 -幕後花絮 -영화 -영화리뷰 -드라마 -숏츠 -자기계발 -동기부여 -운명을 보는 기술 -인빈asmr -조인빈asmr -마당라이브 -무구 -징 -북 -방울 -부채 -무속인공부 -무속세계 -신내림 -조상신 -신령님 -무속도구 -제자의길 -영성공부 -신가물 -신기운 -무속신앙 -수행",
+          "selectedSourceVideos": [
+            {
+              "videoId": "iFBoeMD7y9U",
+              "title": "돈벼락 vs 날벼락 | 운명전쟁49 | 디즈니+",
+              "channelTitle": "Disney Plus Korea 디즈니 플러스 코리아",
+              "predicted7d": 1284609,
+              "delta": 565554
+            },
+            {
+              "videoId": "0e0MRhdlLus",
+              "title": "#운명전쟁49 무당이 무당 신점 보면 맞출 수 있을까? 설화 VS 천명도사",
+              "channelTitle": "킼킼킼킼",
+              "predicted7d": 270932,
+              "delta": 115442
+            },
+            {
+              "videoId": "MppRsyhbeB8",
+              "title": "안믿는다던 강지영이 찐 놀라는 순간들.운명전쟁49 #디즈니플러스",
+              "channelTitle": "예구리",
+              "predicted7d": 252150,
+              "delta": 76841
+            },
+            {
+              "videoId": "cO63G_tBrmY",
+              "title": "금기를 깨버린 무당들의 살벌한 신경전 ㄷㄷ #운명전쟁49 #디즈니플러스",
+              "channelTitle": "패션 명탐정",
+              "predicted7d": 493432,
+              "delta": 76327
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-14/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Destiny War 49: Psychic Showdown!",
+            "description": "Experience the ultimate psychic battle in Disney+'s 'Destiny War 49'! Watch powerful shamans predict fate, break taboos, and reveal shocking truths. Who will master their destiny?",
+            "tags": [
+              "Destiny War 49",
+              "Disney Plus",
+              "Korean Reality",
+              "Shaman",
+              "Psychic Battle",
+              "Fortune Telling",
+              "Supernatural",
+              "Fate Prediction",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "MGa9_dQkw_k"
+          },
+          "updatedAt": "2026-02-14T06:51:48.295Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "스포츠 (스노보드)",
+            "clusters": [
+              {
+                "name": "최가온 선수 본인 및 핵심 업적",
+                "spec_score": 0.95,
+                "logic": "최가온 선수의 주요 성과, 금메달 획득, 올림픽 기록 등 핵심적인 업적과 관련된 키워드들을 포함합니다. 한국 스노보드 역사에 남긴 발자취와 미래 가능성에 초점을 맞춥니다."
+              },
+              {
+                "name": "경기 내용 및 기술 분석",
+                "spec_score": 0.85,
+                "logic": "최가온 선수의 스노보드 경기 스타일, 하프파이프 기술, 특정 기술 분석 및 전문가 해설 등 기술적인 측면과 경기력에 대한 심층 분석을 다룹니다."
+              },
+              {
+                "name": "해외 반응 및 국뽕",
+                "spec_score": 0.8,
+                "logic": "최가온 선수의 금메달 획득에 대한 국내외 시청자들의 반응, 특히 외국인들의 놀라움과 찬사, 그리고 한국인들의 국뽕 감정을 자극하는 콘텐츠를 포함합니다."
+              },
+              {
+                "name": "라이벌/비교 (클로이 김)",
+                "spec_score": 0.7,
+                "logic": "최가온 선수와 동시대 스노보드 스타인 클로이 김과의 비교, 경쟁 구도, 혹은 클로이 김의 기록을 넘어서는 최가온의 성과에 대한 내용을 다룹니다."
+              },
+              {
+                "name": "감동 스토리/성장 서사",
+                "spec_score": 0.65,
+                "logic": "최가온 선수의 성장 과정, 역경 극복, 재활 스토리 등 시청자에게 감동과 영감을 줄 수 있는 개인적인 서사에 초점을 맞춥니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최가온 금메달|스노보드|올림픽|최연소|설상첫금메달|국가대표|밀라노올림픽|10대챔피언|감동실화|역전드라마 -유튜브수익 -유튜브부업 -슬롯생활 -정치 -케이팝 -kpop -해외축구 -손흥민 -토트넘 -한식 -국제커플 -국제결혼 -트럼프 -대통령 -국회 -뉴스 -사건 -이슈 -강혜신 -미국뉴스 -미국정치 -미국시사 -미국경제 -미국사회 -이민단속 -ICE -한국축구 -한복 -한국군 -단골이슈 -이야기 -쇼츠 -세로영상 -#shorts",
+                "theme": "최가온의 빛나는 금메달 스토리와 한국 스노보드의 미래",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "최 가온",
+          "keyword": "최가온 금메달|스노보드|올림픽|최연소|설상첫금메달|국가대표|밀라노올림픽|10대챔피언|감동실화|역전드라마 -유튜브수익 -유튜브부업 -슬롯생활 -정치 -케이팝 -kpop -해외축구 -손흥민 -토트넘 -한식 -국제커플 -국제결혼 -트럼프 -대통령 -국회 -뉴스 -사건 -이슈 -강혜신 -미국뉴스 -미국정치 -미국시사 -미국경제 -미국사회 -이민단속 -ICE -한국축구 -한복 -한국군 -단골이슈 -이야기 -쇼츠 -세로영상 -#shorts",
+          "selectedSourceVideos": [
+            {
+              "videoId": "srMsGMdm72s",
+              "title": "\"언니는 이제...\" 경기 직후 클로이 김이 최가온에게 축하하며 한 말 #shorts / 스포츠머그",
+              "channelTitle": "스포츠머그 - SPORTSMUG",
+              "predicted7d": 299712,
+              "delta": 161184
+            },
+            {
+              "videoId": "7to7UXmZjcg",
+              "title": "최가온 꺾이지 않는 마음 절뚝이는 다리로 90.25점",
+              "channelTitle": "숏트랙커",
+              "predicted7d": 176655,
+              "delta": 92486
+            },
+            {
+              "videoId": "h_AldXvM6lc",
+              "title": "우상 클로이 김 넘었다! 최가온, 스노보드 하프파이프 새 여왕 등극 #shorts / 스포츠머그",
+              "channelTitle": "스포츠머그 - SPORTSMUG",
+              "predicted7d": 173876,
+              "delta": 69676
+            },
+            {
+              "videoId": "sKf5HhH6E0k",
+              "title": "17세 최가온의 기적… 마지막 한 번으로 한국 설상 첫 금메달 탄생 #최가온 #올림픽금메달 #한국첫금메달 #역전드라마 #감동순간 #대한민국국가대표 #동계올림픽 #KSA #스노보드",
+              "channelTitle": "공장네트웍스부동산",
+              "predicted7d": 98939,
+              "delta": 54123
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-14/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Choi Gaon: Teen Queen's Historic Gold!",
+            "description": "Witness the incredible journey of Choi Gaon, the youngest snowboard sensation to win Olympic gold. Her inspiring comeback story marks Korea's first-ever snow medal, solidifying her as a true champion.",
+            "tags": [
+              "ChoiGaon",
+              "Snowboard",
+              "Olympics",
+              "GoldMedal",
+              "TeenChampion",
+              "Korea",
+              "Halfpipe",
+              "ComebackDrama",
+              "HistoricWin",
+              "SportsShorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "uSQ2nl2D9p0"
+          },
+          "updatedAt": "2026-02-14T06:52:45.870Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-14T06:52:45.878Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "halftime show 2026",
+          "bad bunny halftime show",
+          "super bowl live",
+          "halftime show",
+          "all american halftime show 2026",
+          "super bowl 2026",
+          "green day super bowl 2026",
+          "lindsey vonn crash",
+          "state of play",
+          "ilia malinin",
+          "3 doors down"
+        ],
+        "updatedAt": "2026-02-14T06:53:00.620Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "domain": "Music / Rock Band",
+            "clusters": [
+              {
+                "name": "Iconic Songs & Official Content",
+                "spec_score": 0.95,
+                "logic": "The high frequency of specific song titles like 'here without you' and 'kryptonite', along with general music and album terms, indicates a strong viewer interest in the band's most popular tracks and official releases."
+              },
+              {
+                "name": "Live Performances & Concerts",
+                "spec_score": 0.85,
+                "logic": "Tags such as 'live', 'full concert', and 'Live From 1st Bank Center' highlight a significant demand for content showcasing 3 Doors Down's energetic stage presence and concert experiences."
+              },
+              {
+                "name": "Band Story & Legacy",
+                "spec_score": 0.9,
+                "logic": "The prominence of 'brad arnold' (lead singer) and era-specific tags like '2000s music' and 'throwback' suggests an audience keen on exploring the band's history, members, and their lasting impact on rock music."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "3 doors down here without you|kryptonite|album|official music video|lyrics|greatest hits -fyp -shorts -viral -tiktok -FirstToEleven -AudraMiller -BradleyBrothers -PeterPalazzolo -TanzenTheBand -KevinEdward -SweetChildOMine -herewithyou",
+                "theme": "3 Doors Down의 대표곡과 공식 콘텐츠",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소: 3개)"
+              },
+              {
+                "q": "3 doors down live|concert|full concert|performance|tour -fyp -shorts -viral -tiktok -FirstToEleven -AudraMiller -BradleyBrothers -PeterPalazzolo -TanzenTheBand -KevinEdward -SweetChildOMine -herewithyou -cover -acousticcover -tributesong",
+                "theme": "3 Doors Down의 열정적인 라이브 공연",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개 / 최소: 3개)"
+              },
+              {
+                "q": "3 doors down brad arnold|band history|interview|documentary|2000s rock|legacy|throwback -fyp -shorts -viral -tiktok -FirstToEleven -AudraMiller -BradleyBrothers -PeterPalazzolo -TanzenTheBand -KevinEdward -SweetChildOMine -herewithyou -cover -acousticcover -tributesong",
+                "theme": "3 Doors Down: 밴드의 역사와 음악적 유산",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개 / 최소: 3개)"
+              }
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

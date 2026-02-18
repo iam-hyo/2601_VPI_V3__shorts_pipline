@@ -9,65 +9,51 @@ import { createLogger } from "../utils/logger.js";
 
 const log = createLogger("YouTubeUploader");
 
+// src/clients/YouTubeUploader.js
+
 export class YouTubeUploader {
-  /**
-   * [생성자 책임] OAuth2 client 구성(ENV 미설정 시 비활성)
-   * @param {{clientId?:string, clientSecret?:string, redirectUri?:string, refreshToken?:string}} args
-   */
   constructor(args) {
-    const ok = Boolean(args.clientId && args.clientSecret && args.redirectUri && args.refreshToken);
-    this.enabled = ok;
+    const { clientId, clientSecret, redirectUri, tokens } = args;
+    // console.log("DEBUG: 받은 토큰 객체 ->", tokens);
+    this.clients = {};
 
-    if (!ok) {
-      log.warn("YouTube 업로드 설정이 불완전합니다. 업로드는 SKIP 됩니다.");
-      return;
-    }
-
-    const oauth2Client = new google.auth.OAuth2(args.clientId, args.clientSecret, args.redirectUri);
-    oauth2Client.on('tokens', (tokens) => {
-      log.info("새로운 토큰 정보를 수신했습니다.");
-      if (tokens.refresh_token) {
-        // 중요: 여기서 새로운 refresh_token을 설정 파일이나 DB에 업데이트해야 합니다.
-        log.info("새로운 Refresh Token을 저장해야 합니다:", tokens.refresh_token);
+    // 3개 국가 토큰 매핑 (KR, US, MX)
+    if (tokens) {
+      for (const [region, refreshToken] of Object.entries(tokens)) {
+        // console.log(`DEBUG: ${region} 클라이언트 생성 시도 (토큰 유무: ${!!refreshToken})`);
+        if (!refreshToken) continue;
+        const oauth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);
+        oauth2Client.setCredentials({ refresh_token: refreshToken });
+        this.clients[region] = oauth2Client;
       }
-    });
-    oauth2Client.setCredentials({ refresh_token: args.refreshToken });
-    this.oauth2 = oauth2Client;
+    }
   }
 
-  /**
-   * [메서드 책임] 업로드 활성 여부 반환
-   * @returns {boolean}
-   */
-  isEnabled() {
-    return Boolean(this.enabled && this.oauth2);
+  // 특정 지역의 업로더가 활성화되어 있는지 확인
+  isEnabled(region) {
+    return !!this.clients[region];
   }
 
-  /**
-   * [메서드 책임] 파일 업로드
-   * @param {{title:string, description:string, tags:string[], filePath:string}} args
-   * @returns {Promise<{ok:boolean, youtubeVideoId?:string, error?:string}>}
-   */
   async upload(args) {
-    if (!this.isEnabled()) return { ok: false, error: "업로드 비활성" };
-    if (!fs.existsSync(args.filePath)) return { ok: false, error: `파일 없음: ${args.filePath}` };
+    const { region, title, description, tags, filePath } = args;
+    const auth = this.clients[region];
+
+    if (!auth) return { ok: false, error: `${region} 업로더 비활성` };
+    if (!fs.existsSync(filePath)) return { ok: false, error: `파일 없음: ${filePath}` };
 
     try {
-      const youtube = google.youtube({ version: "v3", auth: this.oauth2 });
+      const youtube = google.youtube({ version: "v3", auth });
       const res = await youtube.videos.insert({
         part: ["snippet", "status"],
         requestBody: {
-          snippet: { title: args.title, description: args.description, tags: args.tags },
-          status: { privacyStatus: "public", selfDeclaredMadeForKids: false, }
+          snippet: { title, description, tags },
+          status: { privacyStatus: "public", selfDeclaredMadeForKids: false }
         },
-        media: { body: fs.createReadStream(args.filePath) }
+        media: { body: fs.createReadStream(filePath) }
       });
 
-      const id = res.data.id ?? undefined;
-      if (!id) return { ok: false, error: "업로드 성공했으나 videoId 없음" };
-      return { ok: true, youtubeVideoId: id };
+      return { ok: true, youtubeVideoId: res.data.id };
     } catch (err) {
-      log.error({ err }, "업로드 실패");
       return { ok: false, error: String(err?.message || err) };
     }
   }

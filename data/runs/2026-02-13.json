@@ -1,0 +1,379 @@
+{
+  "runId": "2026-02-13",
+  "date": "2026-02-13",
+  "createdAt": "2026-02-13T06:50:01.946Z",
+  "updatedAt": "2026-02-13T06:58:22.305Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "최 가온",
+          "운명 전쟁 49",
+          "올림픽 2026",
+          "리니지 클래식",
+          "오현규",
+          "만만",
+          "불도그",
+          "쇼트 트랙",
+          "차준환",
+          "아이브 뱅뱅",
+          "충주 맨",
+          "왕 과 사는 남자",
+          "이문주",
+          "봉준",
+          "아이브",
+          "민희 진"
+        ],
+        "updatedAt": "2026-02-13T06:50:18.810Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "스포츠 인물",
+            "clusters": [
+              {
+                "name": "최가온의 올림픽 금메달 쾌거와 경기 하이라이트",
+                "spec_score": 0.85,
+                "logic": "최가온 선수의 스노보드 하프파이프 금메달 획득 순간과 관련 경기 영상, 시상식, 해외 반응 등 직접적인 성과에 초점을 맞춥니다. 시청자들이 가장 궁금해할 현장감 있는 콘텐츠를 발굴합니다."
+              },
+              {
+                "name": "최가온의 성장 스토리와 역경 극복",
+                "spec_score": 0.8,
+                "logic": "최가온 선수의 선수 생활 중 겪었던 부상, 이를 극복하기 위한 노력, 그리고 롯데그룹 등 후원사의 지원을 통한 성장 과정을 조명합니다. 감동적인 휴먼 스토리를 통해 시청자의 공감을 이끌어냅니다."
+              },
+              {
+                "name": "최가온, 한국 설상 종목의 새로운 역사와 미래",
+                "spec_score": 0.75,
+                "logic": "최가온 선수가 한국 스노보드 및 설상 종목에 가져온 역사적 의미, 최연소 기록, 클로이 김과의 비교, 그리고 2026 밀라노 올림픽 등 미래 전망을 다룹니다. 그녀의 업적이 한국 스포츠에 미치는 영향과 앞으로의 기대를 탐색합니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최가온 금메달|스노보드 하프파이프|올림픽 결승 경기|시상식|해외반응|동계올림픽 하이라이트 -더레코드 -사건기록 -실화 -사건파일 -범죄 -야구 -쇼트트랙 -format:기타",
+                "theme": "최가온의 올림픽 금메달 쾌거와 경기 하이라이트",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "최 가온",
+          "keyword": "최가온 금메달|스노보드 하프파이프|올림픽 결승 경기|시상식|해외반응|동계올림픽 하이라이트 -더레코드 -사건기록 -실화 -사건파일 -범죄 -야구 -쇼트트랙 -format:기타",
+          "selectedSourceVideos": [
+            {
+              "videoId": "3lliiCt5BOM",
+              "title": "[속보] 최가온, 스노보드 여자 하프파이프 금메달  / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 253541,
+              "delta": 83326
+            },
+            {
+              "videoId": "Si3FOgu07TA",
+              "title": "스노보드 최가온 금메달…한국 스키 사상 1호  / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 84019,
+              "delta": 73013
+            },
+            {
+              "videoId": "hZKVtevi5Uk",
+              "title": "[스노보드] 최가온 선수 경기 후 인터뷰 | 2026 밀라노 코르티나 동계올림픽",
+              "channelTitle": "JTBC Sports",
+              "predicted7d": 56596,
+              "delta": 50008
+            },
+            {
+              "videoId": "jJtWTHS4urw",
+              "title": "스노보드 최가온 금메달…한국 스키 사상 1호  / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 66300,
+              "delta": 28179
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-13/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Choi Gaon: Korea's Snowboard Gold!",
+            "description": "Relive Choi Gaon's historic Olympic gold medal win in snowboard halfpipe! Witness her incredible performance, emotional post-game interview, and the moment Korea made ski history.",
+            "tags": [
+              "ChoiGaon",
+              "Snowboard",
+              "Halfpipe",
+              "GoldMedal",
+              "Olympics",
+              "WinterSports",
+              "Korea",
+              "SportsHighlights",
+              "AthleteInterview",
+              "HistoricWin"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "oM4Mrp6Rh9M"
+          },
+          "updatedAt": "2026-02-13T06:51:42.945Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "domain": "스포츠",
+            "clusters": [
+              {
+                "name": "선수 성과 및 경기 분석",
+                "spec_score": 0.95,
+                "logic": "최가온 선수의 주요 경기 성과, 특히 금메달 획득 과정과 스노보드 하프파이프 기술에 대한 심층 분석 및 하이라이트 영상."
+              },
+              {
+                "name": "선수 개인 서사 및 역경 극복",
+                "spec_score": 0.93,
+                "logic": "최가온 선수의 성장 과정, 부상과 재활, 그리고 이를 극복하기 위한 노력과 주변의 지원(후원)에 대한 감동적인 이야기."
+              },
+              {
+                "name": "스포츠 사회적 영향력 및 미래 전망",
+                "spec_score": 0.92,
+                "logic": "최가온 선수의 금메달이 한국 스노보드에 미친 영향, 해외 반응, 그리고 다가오는 2026 밀라노 올림픽에서의 활약에 대한 기대와 전망."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "최 가온 금메달 경기|스노보드 하프파이프|올림픽 하이라이트 -더레코드 -사건기록 -실화 -사건파일 -다큐멘터리 -범죄 -야구 -쇼트트랙 -스키 -빙상 -중계참사 -편성논란 -시청자불만",
+                "theme": "최가온 금메달 경기 및 하이라이트",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "최 가온",
+          "keyword": "최 가온 금메달 경기|스노보드 하프파이프|올림픽 하이라이트 -더레코드 -사건기록 -실화 -사건파일 -다큐멘터리 -범죄 -야구 -쇼트트랙 -스키 -빙상 -중계참사 -편성논란 -시청자불만",
+          "selectedSourceVideos": [
+            {
+              "videoId": "zF6VRVtuM6M",
+              "title": "2026 동계올림픽ㅣ최가온, 하프파이프 스노보드 첫 금메달 🥇 역사를 쓰다",
+              "channelTitle": "청년뉴스ON",
+              "predicted7d": 132895,
+              "delta": 73639
+            },
+            {
+              "videoId": "_goRY-o6Wco",
+              "title": "최가온을 '무한 칭찬 감옥'으로! #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 89224,
+              "delta": 49784
+            },
+            {
+              "videoId": "hZKVtevi5Uk",
+              "title": "[스노보드] 최가온 선수 경기 후 인터뷰 | 2026 밀라노 코르티나 동계올림픽",
+              "channelTitle": "JTBC Sports",
+              "predicted7d": 53635,
+              "delta": 47047
+            },
+            {
+              "videoId": "tZM7bZWZxVw",
+              "title": "넘어졌는데 금메달? 최가온이 쓴 미친 역전 드라마 #뉴스푼 #뉴스",
+              "channelTitle": "뉴스푼(NewSpoon)",
+              "predicted7d": 30075,
+              "delta": 28409
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-13/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Choi Gaon: Olympic Snowboard Gold!",
+            "description": "Witness Choi Gaon's historic gold medal run in Olympic Halfpipe Snowboarding! From incredible tricks to a dramatic comeback, this is the moment that shocked the world. Don't miss the highlights and her post-win reactions!",
+            "tags": [
+              "ChoiGaon",
+              "Snowboard",
+              "Halfpipe",
+              "Olympics",
+              "GoldMedal",
+              "SportsHighlights",
+              "Comeback",
+              "AthleteInterview",
+              "WinterGames",
+              "ViralSports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "12K2JmtJnvI"
+          },
+          "updatedAt": "2026-02-13T06:52:48.133Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-13T06:52:48.142Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "halftime show 2026",
+          "bad bunny halftime show",
+          "super bowl 2026 live stream",
+          "super bowl 2026",
+          "all american halftime show 2026",
+          "opalite taylor swift music video",
+          "green day super bowl 2026",
+          "state of play",
+          "olympics 2026",
+          "lindsey vonn crash"
+        ],
+        "updatedAt": "2026-02-13T06:53:04.636Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "queryEngineering": {
+            "domain": "Super Bowl 2026",
+            "clusters": [
+              {
+                "name": "Halftime Show Speculation",
+                "spec_score": 0.92,
+                "logic": "High frequency tags related to 'halftime show' and specific artists like 'Bad Bunny' and 'Lady Gaga' indicate strong public interest in the performance aspect of Super Bowl 2026."
+              },
+              {
+                "name": "Super Bowl Commercials & Celebrity Ads",
+                "spec_score": 0.88,
+                "logic": "Numerous tags mentioning 'commercials', 'advertising', 'celebrity commercials', and specific celebrity names (Ben Affleck, Chris Hemsworth, etc.) highlight the significant attention given to Super Bowl advertisements."
+              },
+              {
+                "name": "Game Predictions & Team Analysis",
+                "spec_score": 0.85,
+                "logic": "Core event tags like 'Super Bowl 2026', 'football', and general 'predictions' suggest a strong interest in the athletic competition itself, including potential teams and outcomes."
+              },
+              {
+                "name": "Reactions, Trends & Highlights",
+                "spec_score": 0.75,
+                "logic": "Tags such as 'trending', 'viral', 'reaction', and 'top 10' indicate a desire for dynamic, engaging content summarizing or reacting to the event's key moments."
+              },
+              {
+                "name": "Irrelevant/Noise Content",
+                "spec_score": 0.15,
+                "logic": "Tags related to 'Supercross', 'twins', 'vlog', 'podcast', and personal lifestyle content are clearly unrelated to the core 'Super Bowl 2026' event and should be excluded."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "Super Bowl 2026 Halftime Show|Bad Bunny|performer predictions -mojo -watchmojo -Supercross -twins -vlog -podcast -lifestyle",
+                "theme": "2026 슈퍼볼 하프타임 쇼 예측 및 루머",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개 / 최소: 3개)"
+              },
+              {
+                "q": "Super Bowl 2026 Commercials|celebrity ads|best funny -mojo -watchmojo -Supercross -twins -vlog -podcast -lifestyle",
+                "theme": "2026 슈퍼볼 최고의 광고 & 스타 출연",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "super bowl 2026",
+          "keyword": "Super Bowl 2026 Commercials|celebrity ads|best funny -mojo -watchmojo -Supercross -twins -vlog -podcast -lifestyle",
+          "selectedSourceVideos": [
+            {
+              "videoId": "OwdmYtA9uTA",
+              "title": "The Bush That Distracted Bad Bunny Mid Speech 😂",
+              "channelTitle": "Fame Talk",
+              "predicted7d": 39924,
+              "delta": 18322
+            },
+            {
+              "videoId": "9IPb7a0nAXw",
+              "title": "Superbowl Commercials Are Cooked",
+              "channelTitle": "Relaxed",
+              "predicted7d": 33645,
+              "delta": 6905
+            },
+            {
+              "videoId": "RJNlBhtUmmg",
+              "title": "\"Ben Affleck's Dunkin' Sitcom Parody is Peak 📺🔥\"",
+              "channelTitle": "UVN News",
+              "predicted7d": 32500,
+              "delta": 6823
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "domain": "Olympics 2026 Content Strategy",
+            "clusters": [
+              {
+                "name": "Event & Host City Focus",
+                "spec_score": 0.95,
+                "logic": "High-frequency tags related to the specific event name, year, and host locations indicate strong interest in the overall event context and preparations."
+              },
+              {
+                "name": "Star Athletes & National Teams",
+                "spec_score": 0.9,
+                "logic": "Tags mentioning 'Team USA' and specific prominent athletes like 'Chloe Kim' highlight viewer enthusiasm for individual performances and national pride."
+              },
+              {
+                "name": "Popular Winter Sports & Highlights",
+                "spec_score": 0.88,
+                "logic": "Frequent mentions of popular winter sports (snowboarding, figure skating, ice hockey) combined with 'highlights' suggest a demand for exciting, action-oriented content from these disciplines."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "olympics 2026 Milano Cortina 2026|2026 winter olympics preview|olympic venues|Italy Winter Olympics",
+                "theme": "밀라노 코르티나 2026: 개최지 & 대회 미리보기",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개 / 최소: 3개)"
+              },
+              {
+                "q": "olympics 2026 Team USA|Chloe Kim|Ga-on Choi|olympic athletes",
+                "theme": "스타 선수 & 팀 USA: 메달을 향한 여정",
+                "status": "FAIL",
+                "reason": "쇼츠 개수 부족 (적합: 3개 / 최소: 4개)"
+              },
+              {
+                "q": "olympics 2026 winter olympics highlights|snowboarding olympics|figure skating olympics|ice hockey olympics",
+                "theme": "겨울 스포츠 빅매치: 스노보드, 피겨, 아이스하키 하이라이트",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개 / 최소: 3개)"
+              }
+            ]
+          }
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  }
+}

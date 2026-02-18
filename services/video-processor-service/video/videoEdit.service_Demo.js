@@ -23,7 +23,6 @@ import { exec as execCb } from "node:child_process";
 import { spawn } from "child_process";
 import { promisify } from "node:util";
 import os from "os";
-import path from "path";
 
 const exec = promisify(execCb);
 // const fontConfigDir = path.resolve("data/assets");
@@ -249,9 +248,14 @@ export async function downloadVideoIfNeeded({ videoId, outDir, cookiesPath }) {
   // -S: 포맷 선택 우선순위(편집 호환성: h264+aac 우선)
   // --merge-output-format mp4: 최종 mp4로 머지
   // -o: 임시 파일로 받고 성공 후 rename
+  const jsRuntimeArg = `--js-runtimes "node:/usr/bin/node"`; // 환경에 맞게 경로 조정
+  const formatArg = `-f "bv*+ba/b"`;                         // 비디오+오디오 병합 우선, 아니면 단일(best) 폴백
+  const clientArg = `--extractor-args "youtube:player_client=android"`;
+
   const cmd =
-    `yt-dlp ${cookiesArg} ` +
-    `-S vcodec:h264,acodec:aac,ext:mp4:m4a ` +
+    `yt-dlp ${cookiesArg} ${jsRuntimeArg} ` +
+    `${formatArg} ${clientArg} ` +
+    `-S "vcodec:h264,acodec:aac" ` +
     `--merge-output-format mp4 ` +
     `-o "${tmpPath}" "${url}"`;
 

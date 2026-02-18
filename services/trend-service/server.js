@@ -407,11 +407,18 @@ const server = http.createServer(async (req, res) => {
     }
 
     // -------------------------------------------------------------------------
-    // 2. [POST] 쿼리 구체화 (Query Engineering) - 신규 추가
+    // 2. [POST] 쿼리 구체화 (Query Engineering) 
     // -------------------------------------------------------------------------
     else if (req.method === "POST" && u.pathname === "/trends/refine") {
       const body = await parseJsonBody(req);
-      const { keyword, tags } = body;
+      const { keyword, tags, region = "US" } = body;
+
+      const langMap = {
+        'KR': '한국어(Korean)',
+        'US': '영어(English)',
+        'MX': '스페인어(Spanish)',
+      };
+      const targetLanguage = langMap[region] || '해당 지역의 공용어';
 
       if (!keyword || !tags) {
         return sendJson(res, 400, { error: "keyword와 tags 데이터가 필요합니다." });
@@ -425,23 +432,34 @@ const server = http.createServer(async (req, res) => {
         tag: t.tag,
         f: t.TF,
         sat_penalty: Number(Math.exp(-(Math.pow(t.TF, 2)) / (2 * Math.pow(sigma, 2))).toFixed(4))
-      })).slice(0, 100);
+      })).slice(0, 150); // 상위 150개 태그까지만 사용
 
       const prompt = {
         role: "expert_youtube_query_engineer",
-        context: `'${keyword}'라는 대주제를 바탕으로 시청자가 열광할만한 3가지 세부 테마를 기획하고 최적화 쿼리를 생성하십시오.`,
-        input: { base_trend: keyword, collected_tags: processedTags },
+        context: `'${keyword}'라는 주제를 분석하여, ${targetLanguage} 시장에 최적화된 3가지 세부 검색 쿼리를 생성하십시오.`,
+        input: {
+          base_trend: keyword,
+          collected_tags: processedTags
+        },
         instructions: [
-          "1. 의미론적 중요도가 높은 상위 군집(인물, 사건 등)을 4~5개 식별하십시오.",
-          "2. 각 군집별 핵심 단어(Pivot)와 유의어(Expansion) 2~3개를 선정하십시오.",
-          "3. '대주제 Pivot|유의어1|유의어2' 형태의 쿼리를 생성하십시오.",
-          "4. 제외어 처리: 수집된 태그 중 해당 주제에서 '광고', '스팸', '불필요한 채널명' 등 노이즈라고 판단되는 단어가 있다면 각 쿼리 뒤에 '-'를 붙여 동적으로 제외하십시오.",
-          "4.1. 만약 '공식 뉴스'나 '방송사' 영상이 해당 주제에서 유익한 소스라고 판단된다면 억지로 제외하지 마십시오.",
-          "5. 각 슬롯은 중복되지 않는 독자적인 서사를 가져야 합니다."
+          `1. [언어 원칙] 모든 출력 결과(analysis 내 설명, theme, q)는 **${targetLanguage}**로만 작성하십시오.`,
+          "1.1. 지시문이 한국어라 하더라도 tag에 포함되어 있지 않다면 결과물에 한국어를 섞지 마십시오. (단, tag에 포함되어 있는경우 사용 가능, K-POP 등 고유 명사는 예외)",
+
+          "2. [군집 분석] 수집된 태그를 바탕으로 의미론적 군집(예: 뉴스/이슈, 인물/관계, 기술/튜토리얼, 비하인드 등)을 3~4개 식별하십시오.",
+
+          "3. [쿼리 설계 - 필수] 각 슬롯의 'q' 필드는 반드시 '핵심어|확장어1|확장어2' 형식을 엄수하십시오.",
+          "3.1. 유튜브 쿼리용으로, 단어 사이를 공백이 아닌 **세로 바(|)**로 구분하는 것이 핵심입니다.",
+          "3.2. 형식 예시: 'Donovan Carrillo|Patinaje|Juegos Olímpicos|Rutina'",
+
+          "4. [노이즈 필터링] 주제와 무관한 스팸, 단순 채널명, 의미 없는 문자열은 각 쿼리 뒤에 '-'를 붙여 최대 3개까지 제외하십시오.",
+          "4.1. 단, '공식 뉴스'나 '방송사' 태그가 해당 주제에서 유익한 정보원이라 판단되면 제외하지 말고 유지하십시오.",
+          "4.2. 예시: '핵심어|확장어 -스팸단어 -채널명'",
+
+          "5. [차별화] 각 슬롯은 서로 중복되지 않는 독자적인 관점(Angle)을 가져야 합니다."
         ],
         outputFormat: {
-          analysis: { domain: "string", clusters: [{ name: "string", spec_score: "float", logic: "string" }] },
-          slots: [{ id: "number", theme: "string", pivots: ["string"], q: "string" }]
+          analysis: { target_language_confirmed: "string", clusters: [{ name: "string", logic: "string" }] },
+          slots: [{ id: "number", theme: "string", q: "string" }]
         }
       };
 
