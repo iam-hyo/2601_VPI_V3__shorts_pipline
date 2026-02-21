@@ -1,0 +1,70 @@
+{
+  "runId": "2026-02-20",
+  "date": "2026-02-20",
+  "createdAt": "2026-02-20T06:50:02.146Z",
+  "updatedAt": "2026-02-20T06:51:52.314Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"KR\",\"days\":7,\"keywords\":[\"선재 업고 튀어\",\"눈물의 여왕\",\"뉴진스\",\"르세라핌\",\"아이브\",\"범죄도시4\",\"챌린지\",\"탕후루\",\"마라탕\",\"올리브영 추천템\",\"밈\",\"강아지\",\"고양이\",\"데일리룩\",\"세븐틴\",\"라이즈\",\"직장인 공감\",\"대학생 일상\",\"여행 브이로그\",\"ASMR\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"PYTHON_FAILED\",\"attempts\":1,\"circuit\":{\"consecutive429\":0,\"openUntilMs\":0},\"error\":\"pytrends_fetch 실패(code=1): Traceback (most recent call last):\\n  File \\\"/home/hjj/2601_VPI_V3__shorts_pipline/services/trend-service/pytrends_fetch.py\\\", line 28, in <module>\\n    from pytrends.request import TrendReq\\nModuleNotFoundError: No module named 'pytrends'\\n\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"US\",\"days\":7,\"keywords\":[\"Viral Recipes\",\"Social Media Challenges\",\"New Movie Releases\",\"Netflix Recommendations\",\"AI Trends\",\"Fashion Trends\",\"Life Hacks\",\"Fitness Challenges\",\"Travel Tips\",\"Pet Content\",\"Tech Reviews\",\"Skincare Tips\",\"BookTok\",\"Easy Meal Ideas\",\"Healthy Snacks\",\"Home Workouts\",\"Home & Garden Tips\",\"Celebrity News\",\"Pop Culture Moments\",\"Gaming Updates\",\"DIY Projects\",\"Productivity Tips\",\"Mental Wellness\",\"Eco-Friendly Living\",\"Daily Motivation\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"PYTHON_FAILED\",\"attempts\":1,\"circuit\":{\"consecutive429\":0,\"openUntilMs\":0},\"error\":\"pytrends_fetch 실패(code=1): Traceback (most recent call last):\\n  File \\\"/home/hjj/2601_VPI_V3__shorts_pipline/services/trend-service/pytrends_fetch.py\\\", line 28, in <module>\\n    from pytrends.request import TrendReq\\nModuleNotFoundError: No module named 'pytrends'\\n\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"MX\",\"days\":7,\"keywords\":[\"Intensamente 2\",\"Memes del Momento\",\"Retos de TikTok\",\"Tendencias Musicales Virales\",\"Torneos de Fútbol Internacional\",\"Videos de Mascotas Graciosas\",\"Comida Mexicana Viral\",\"Recetas Fáciles y Rápidas\",\"Humor Mexicano\",\"Olimpiadas París 2024\",\"Estrenos de Series y Películas\",\"Tendencias de Moda Verano\",\"Outfits Inspiración\",\"Viajes Baratos en México\",\"Destinos Turísticos Mexicanos\",\"Rutina de Skincare\",\"Maquillaje Tendencias\",\"Cuidado del Cabello\",\"Rutinas de Ejercicio en Casa\",\"Vida Saludable y Bienestar\",\"Tips de Tecnología Útiles\",\"Inteligencia Artificial Explicada\",\"DIY y Manualidades Fáciles\",\"Decoración del Hogar Económica\",\"Libros Recomendados\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"PYTHON_FAILED\",\"attempts\":1,\"circuit\":{\"consecutive429\":0,\"openUntilMs\":0},\"error\":\"pytrends_fetch 실패(code=1): Traceback (most recent call last):\\n  File \\\"/home/hjj/2601_VPI_V3__shorts_pipline/services/trend-service/pytrends_fetch.py\\\", line 28, in <module>\\n    from pytrends.request import TrendReq\\nModuleNotFoundError: No module named 'pytrends'\\n\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    }
+  },
+  "finishedAt": "2026-02-20T06:51:52.314Z"
+}

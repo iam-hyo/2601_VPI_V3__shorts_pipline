@@ -1,0 +1,70 @@
+{
+  "runId": "2026-02-19",
+  "date": "2026-02-19",
+  "createdAt": "2026-02-19T06:50:01.964Z",
+  "updatedAt": "2026-02-19T06:51:52.766Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"KR\",\"days\":7,\"keywords\":[\"아이돌 챌린지\",\"신곡 댄스 커버\",\"전국 맛집 투어\",\"감성 카페 추천\",\"초간단 레시피\",\"해외여행 브이로그\",\"직장인 일상 브이로그\",\"유행 밈 챌린지\",\"웃긴 숏츠 모음\",\"겟레디윗미\",\"데일리룩 코디\",\"꿀피부 스킨케어\",\"귀여운 동물 영상\",\"벚꽃 명소 추천\",\"여름 패션 하울\",\"인생네컷 포즈 추천\",\"MBTI 유형별 특징\",\"갓생 루틴\",\"자취생 요리 팁\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"PYTHON_FAILED\",\"attempts\":1,\"circuit\":{\"consecutive429\":0,\"openUntilMs\":0},\"error\":\"pytrends_fetch 실패(code=1): Traceback (most recent call last):\\n  File \\\"/home/hjj/2601_VPI_V3__shorts_pipline/services/trend-service/pytrends_fetch.py\\\", line 28, in <module>\\n    from pytrends.request import TrendReq\\nModuleNotFoundError: No module named 'pytrends'\\n\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"US\",\"days\":7,\"keywords\":[\"Taylor Swift\",\"Bridgerton\",\"NBA Finals\",\"Sabrina Carpenter\",\"Billie Eilish\",\"NHL Stanley Cup\",\"Bad Boys: Ride or Die\",\"The Acolyte\",\"Summer fashion\",\"Viral recipes\",\"AI trends\",\"French Open\",\"House of the Dragon\",\"Inside Out 2\",\"Travel hacks\",\"Olympic Trials\",\"Jelly Roll\",\"Cannes Film Festival\",\"Boeing Starliner\",\"Heatwave\",\"Home decor trends\",\"Workout routines\",\"Gaming news\",\"Pet videos\",\"DIY projects\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"PYTHON_FAILED\",\"attempts\":1,\"circuit\":{\"consecutive429\":0,\"openUntilMs\":0},\"error\":\"pytrends_fetch 실패(code=1): Traceback (most recent call last):\\n  File \\\"/home/hjj/2601_VPI_V3__shorts_pipline/services/trend-service/pytrends_fetch.py\\\", line 28, in <module>\\n    from pytrends.request import TrendReq\\nModuleNotFoundError: No module named 'pytrends'\\n\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[US] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "ERROR",
+        "lastError": "Trend API 오류(503): {\"region\":\"MX\",\"days\":7,\"keywords\":[\"Wendy Guevara\",\"La Casa de los Famosos México\",\"Peso Pluma\",\"Retos de TikTok\",\"Memes mexicanos\",\"Día de Muertos\",\"Recetas mexicanas fáciles\",\"Tacos virales\",\"Bad Bunny\",\"Perros chistosos\",\"Gatos graciosos\",\"Pueblos mágicos\",\"Viajes baratos México\",\"Chiles en nogada\",\"Pan de Muerto\",\"Cempasúchil\",\"Decoración de Halloween\",\"Maquillaje natural\",\"Rutina de skincare\",\"Outfits de otoño\",\"Tendencias de moda 2023\",\"Entrenamiento en casa\",\"Nuevas canciones\",\"Series de Netflix\",\"Conciertos en CDMX\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"PYTHON_FAILED\",\"attempts\":1,\"circuit\":{\"consecutive429\":0,\"openUntilMs\":0},\"error\":\"pytrends_fetch 실패(code=1): Traceback (most recent call last):\\n  File \\\"/home/hjj/2601_VPI_V3__shorts_pipline/services/trend-service/pytrends_fetch.py\\\", line 28, in <module>\\n    from pytrends.request import TrendReq\\nModuleNotFoundError: No module named 'pytrends'\\n\"}}}"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "error": "[MX] 트렌드 키워드가 비어 있습니다 (status: ERROR)"
+        }
+      ],
+      "status": "RUNNING"
+    }
+  },
+  "finishedAt": "2026-02-19T06:51:52.766Z"
+}

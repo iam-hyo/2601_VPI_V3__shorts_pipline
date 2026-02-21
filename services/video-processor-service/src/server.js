@@ -1,4 +1,4 @@
-/** .\services\video-processor-service\server.js
+/** .\services\video-processor-service\src\server.js
  * [파일 책임] 
  * - /process 요청을 받아 "다운로드(yt-dlp) → 하이라이트 → 타이틀카드 → 병합"을 수행하고
  *   최종 파일 경로 및 업로드 메타를 반환한다.
@@ -8,7 +8,8 @@ import http from "node:http";
 import url from "node:url";
 import path from "node:path";
 import { existsSync } from "node:fs";
-import { readJsonSafe } from "../src/utils.js"
+import { readJsonSafe } from "./utils.js"
+import { generateTtsFiles } from "../audio/tts.service.js";
 
 // ✅ 업데이트된 Demo 서비스 사용
 import {
@@ -218,6 +219,7 @@ const server = http.createServer(async (req, res) => {
         index: i + 1,
         caption: captions[i] || "Check this out!"
       }));
+      const ttsPaths = await generateTtsFiles(titleInfos, region, outputsDir);
 
       // 5) 통합형 병합 (FFmpeg)
       // 기존 mergeTitleAndHighlightsWithFade 호출을 삭제하고 아래로 교체합니다.
@@ -233,7 +235,8 @@ const server = http.createServer(async (req, res) => {
         titleFontPath,       // 폰트 경로 (준비되어 있어야 함)
         width: 1080,
         height: 1920,
-        fps: 30
+        fps: 30,
+        ttsPaths
       });
 
       // 6) 최종 결과 응답

@@ -194,7 +194,7 @@ export class PipelineRunner {
     if (hasPickedKeywordAndSources) {
       log.info(
         { slotID, keyword: job.keyword },
-        `⏭️ [${slotID}] 키워드/소스(4개)가 이미 존재합니다. pickKeywordAndTopVideos() 스킵`
+        `⏭️ [${slotID}] 키워드/소스(4개)가 이미 존재합니다. validateSingleQuery() 스킵`
       );
 
       picked = { keyword: job.keyword, videos: job.selectedSourceVideos };
@@ -247,7 +247,7 @@ export class PipelineRunner {
           // 2. 서버(QE API) 호출하여 구체화된 쿼리 후보 3개 획득
           const { slots, analysis } = await this.trendApi.refineTrendKeyword(rawKeyword, tags, region);
 
-          // [내부 루프] 3개의 구체화 쿼리 후보 순회 검증
+          // [내부 루프] 3. 3개의 구체화 쿼리 후보 순회 검증
           const validationHistory = [];
 
           for (const slotCandidate of slots) {
@@ -307,7 +307,7 @@ export class PipelineRunner {
         throw new Error("모든 트렌드 키워드와 쿼리 후보군이 조건을 만족하지 못했습니다.");
       }
 
-      // 1) 상태 객체(runId.json)에 상세 정보 기록
+      // 4) 상태 객체(runId.json)에 상세 정보 기록
       job.keyword = picked.keyword;                // 최종 채택된 구체화 쿼리 (예: '2026 동계올림픽 차준환|이채운')
 
       // selectedSourceVideos는 뒤쪽 VideoProcessor에서 핵심 재료로 쓰임
@@ -327,7 +327,7 @@ export class PipelineRunner {
       job.status = "RUNNING";
       this.save(state); // runId.json 저장
 
-      // 2) 작업 디렉토리의 meta.json 기록 (Video Processor 참조용)
+      // 5) 작업 디렉토리의 meta.json 기록 (Video Processor 참조용)
       // 원본 키워드와 구체화된 쿼리를 모두 넘겨주어 편집 시 LLM이 맥락을 파악하게 함
       writeJsonAtomic(path.join(workDir, "meta.json"), {
         runId,

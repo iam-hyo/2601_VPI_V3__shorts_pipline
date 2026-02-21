@@ -1,0 +1,149 @@
+{
+  "runId": "2026-02-21__MANUAL__KR__솔로-지옥-리-유니언",
+  "date": "2026-02-21__MANUAL__KR__솔로-지옥-리-유니언",
+  "createdAt": "2026-02-21T05:29:38.676Z",
+  "updatedAt": "2026-02-21T05:55:16.422Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "솔로 지옥 리 유니언"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "솔로 지옥 리 유니언",
+          "queryEngineering": {
+            "target_language_confirmed": "Korean",
+            "clusters": [
+              {
+                "name": "인물 관계 및 현커",
+                "logic": "솔로지옥 리유니언 출연진들의 현재 관계, 최종 커플 여부 및 특정 인물 간의 관계에 초점을 맞춥니다."
+              },
+              {
+                "name": "논란 및 하이라이트",
+                "logic": "리유니언 방송 중 발생한 주요 사건, 명장면, 논란이 된 발언이나 행동, 특정 출연자의 이슈를 다룹니다."
+              },
+              {
+                "name": "프로그램 정보 및 후기",
+                "logic": "솔로지옥5 리유니언의 전반적인 정보, 넷플릭스 공개 여부, 출연진 정보, 시청자들의 반응 및 리뷰를 포함합니다."
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "솔로지옥 리유니언|현커|최종커플|최미나수 -드라마 -영화 -디즈니플러스",
+                "theme": "출연진 현커 및 최종 커플 분석",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "솔로지옥 리유니언|현커|최종커플|최미나수 -드라마 -영화 -디즈니플러스",
+          "selectedSourceVideos": [
+            {
+              "videoId": "1JL3wmjwbk4",
+              "title": "희선보고 놀랐다는 최미나수",
+              "channelTitle": "정보냥",
+              "predicted7d": 1167759,
+              "delta": 436482
+            },
+            {
+              "videoId": "WSN5kN09XGM",
+              "title": "남자보는 눈은 탑급인 최미나수",
+              "channelTitle": "숏숭이",
+              "predicted7d": 325257,
+              "delta": 114885
+            },
+            {
+              "videoId": "InDlxO9Xxko",
+              "title": "'솔로지옥5' 의외의 행보를 보여주고 있는 최미나수",
+              "channelTitle": "몰입쩜",
+              "predicted7d": 105085,
+              "delta": 53490
+            },
+            {
+              "videoId": "6ML9ALihfAU",
+              "title": "솔로지옥5 최미나수가 예쁘다고 느끼는 이유",
+              "channelTitle": "나나TV - 나나성형외과",
+              "predicted7d": 50565,
+              "delta": 42043
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-21__MANUAL__KR__솔로-지옥-리-유니언/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "솔로지옥 최미나수, 현커 스포? 리유니언 최종커플 대공개!",
+            "description": "2026-02-21__MANUAL__KR__솔로-지옥-리-유니언_KR_1\n솔로지옥 리유니언에서 최미나수의 모든 것을 파헤쳐봅니다. 그녀의 남자 보는 눈부터 의외의 행보, 그리고 현커 스포까지! 과연 최종 커플은 누가 될까요?",
+            "tags": [
+              "솔로지옥",
+              "솔로지옥리유니언",
+              "최미나수",
+              "현커",
+              "최종커플",
+              "솔로지옥5",
+              "넷플릭스",
+              "데이팅쇼",
+              "연애프로그램",
+              "솔로지옥스포"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "GzpbfZ2YFIA"
+          },
+          "updatedAt": "2026-02-21T05:55:16.412Z",
+          "error": "unauthorized_client"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-21T05:55:16.421Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-21T05:55:16.421Z"
+}
