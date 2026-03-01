@@ -8,7 +8,7 @@
  * - downloadVideoIfNeeded            (yt-dlp)
  * - cutLastSecondsIfNeeded           (ffmpeg, 하이라이트)
  * - createTitleCardIfNeeded          (ffmpeg, 타이틀 카드 + 시그니처 이미지 + 서브타이틀 폰트)
- * - mergeTitleAndHighlightsWithFade  (ffmpeg filter_complex, 안정적 병합 + fade)
+ * - mergeHighlightsWithIntegratedTitles  (ffmpeg filter_complex, 안정적 병합 + fade)
  *
  * ⚠️ 전제:
  * - 시스템에 yt-dlp, ffmpeg가 설치되어 있어야 합니다.
@@ -18,7 +18,7 @@
 import fs from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+// import { fileURLToPath } from "node:url";
 import { exec as execCb } from "node:child_process";
 import { spawn } from "child_process";
 import { promisify } from "node:util";
@@ -28,9 +28,9 @@ const exec = promisify(execCb);
 // const fontConfigDir = path.resolve("data/assets");
 // const fontConfigFile = path.join(fontConfigDir, "fonts.conf");
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const VIDEOEDIT_DEBUG = process.env.VIDEOEDIT_DEBUG === "1";
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = path.dirname(__filename);
+// const VIDEOEDIT_DEBUG = process.env.VIDEOEDIT_DEBUG === "1";
 
 
 function getCookiesPath() {
@@ -223,43 +223,28 @@ export async function downloadVideoIfNeeded({ videoId, outDir, cookiesPath }) {
   await ensureDir(outDir);
 
   const outPath = path.join(outDir, `${videoId}.mp4`);
-  const tmpPath = path.join(outDir, `${videoId}.part.mp4`); // 임시 파일 권장
+  const tmpPath = path.join(outDir, `${videoId}.part.mp4`);
   const url = `https://www.youtube.com/watch?v=${videoId}`;
 
-  // 1) 이미 파일이 있고 충분히 크면 스킵
   const stat = await safeStat(outPath);
-  if (stat && stat.size >= 30_000) {
-    console.log(`[videoEdit.demo] download skip (exists): ${videoId}`);
-    return outPath;
-  }
+  if (stat && stat.size >= 30_000) return outPath;
 
-  // 2) (깨짐 가능) 파일이 있는데 너무 작으면 삭제
-  if (stat && stat.size < 30_000) {
-    try { await fs.unlink(outPath); } catch { }
-  }
-  // 임시 파일도 정리
-  try { await fs.unlink(tmpPath); } catch { }
-
-  // 3) cookies 경로 (환경변수에서 읽기)
   const cookiesAbs = getCookiesPath();
   const cookiesArg = cookiesAbs ? `--cookies "${cookiesAbs}"` : "";
 
-  // 4) 다운로드 명령어 구성
-  // -S: 포맷 선택 우선순위(편집 호환성: h264+aac 우선)
-  // --merge-output-format mp4: 최종 mp4로 머지
-  // -o: 임시 파일로 받고 성공 후 rename
-  const jsRuntimeArg = `--js-runtimes "node:/usr/bin/node"`; // 환경에 맞게 경로 조정
-  const formatArg = `-f "bv*+ba/b"`;                         // 비디오+오디오 병합 우선, 아니면 단일(best) 폴백
-  const clientArg = `--extractor-args "youtube:player_client=android"`;
+  // 수정된 포인트:
+  // 1. -S "res:1080,ext:mp4:m4a" -> 1080p 해상도를 최우선으로 찾고 mp4 컨테이너 선호
+  // 2. --format-sort-force -> 설정한 우선순위를 강력하게 적용
+  const formatArg = `-f "bv*[height<=1080]+ba/b[height<=1080]"`; // 최대 1080p까지의 최고 화질
 
   const cmd =
-    `yt-dlp ${cookiesArg} ${jsRuntimeArg} ` +
-    `${formatArg} ${clientArg} ` +
-    `-S "vcodec:h264,acodec:aac" ` +
+    `yt-dlp ${cookiesArg} ` +
+    `${formatArg} ` +
+    `-S "res:1080,vcodec:h264,acodec:aac" ` + // 해상도 1080p 우선, 그 다음 코덱 순
     `--merge-output-format mp4 ` +
     `-o "${tmpPath}" "${url}"`;
 
-  console.log(`[videoEdit.demo] 다운로드중..: ${videoId}`);
+  console.log(`[videoEdit.demo] 고화질 다운로드 시도: ${videoId}`);
   await exec(cmd);
 
   // 5) 결과 검증 후 확정 저장
@@ -289,7 +274,7 @@ async function safeStat(p) {
  *
  * ⚠️ 주의:
  * - -c copy는 “코덱/타임베이스” 차이가 있으면 후속 병합에서 이슈가 날 수 있습니다.
- * - 최종 병합은 filter_complex 기반으로 재인코딩(안정성↑)하는 mergeTitleAndHighlightsWithFade를 사용합니다.
+ * - 최종 병합은 filter_complex 기반으로 재인코딩(안정성↑)하는 mergeHighlightsWithIntegratedTitles를 사용합니다.
  *
  * @param {{ inputPath: string, outputPath: string, seconds?: number }} args
  * @returns {Promise<string>}
@@ -502,96 +487,128 @@ export async function createTitleCardIfNeeded(args) {
   }
 }
 
-/* =======================================================================================
- * 4) 병합 + Fade 트랜지션 (ffmpeg filter_complex)
- * ======================================================================================= */
-
 /**
- * [병합] 타이틀+하이라이트를 “페이드”로 자연스럽게 이어붙여 final mp4 생성 (멱등)
- *
- * 왜 concat demuxer(-c copy)가 아닌가?
- * - 입력 파일의 fps/timebase/오디오 구성(채널/샘플레이트)이 조금만 달라도
- *   재생 속도 이상/길이 늘어남/싱크 깨짐 이슈가 쉽게 발생합니다.
- * - filter_complex는 각 세그먼트를 스케일/패딩/오디오 포맷 통일 후 concat하므로 안정성이 높습니다.
- *
- * @param {{
- *   titleCardPaths: string[],
- *   highlightPaths: string[],
- *   outputPath: string,
- *   width?: number,
- *   height?: number,
- *   fps?: number,
- *   durationSec?: number,
- *   highlightSec?: number,
- *   fadeSec?: number,
- *   sampleRate?: number,
- * }} args
- * @returns {Promise<string>}
+ * [고도화 병합 V2] 
+ * 1. 0.8s~1.2s 구간 동안 중앙에서 상단으로 부드럽게 슬라이딩 (1번 해결)
+ * 2. 0.8s까지는 배경음이 작게(20%) 들리다가 이후 1.5s간 길게 페이드인 (4번 해결)
  */
-export async function mergeTitleAndHighlightsWithFade(args) {
+export async function mergeHighlightsWithIntegratedTitles(args) {
   const {
-    titleCardPaths,
     highlightPaths,
+    ttsPaths,
+    titleInfos,
     outputPath,
     width = 1080,
     height = 1920,
     fps = 30,
-    durationSec = 1.2,
-    highlightSec = 10,
-    fadeSec = 0.15,
+    highlightSec = 11.2,
+    fadeSec = 0.3,
     sampleRate = 44100,
+    titleFontPath,
     slotID = "UNKNOWN"
   } = args;
 
-  // 1. 사전 검증
-  const n = Math.min(titleCardPaths?.length || 0, highlightPaths?.length || 0);
-  if (n === 0) {
-    console.error(`[${slotID}] 병합할 세그먼트 파일이 없습니다.`);
-    throw new Error("no segments");
-  }
+  const wrapText = (text, maxChars = 18) => {
+    const words = text.split(' ');
+    let lines = [];
+    let currentLine = "";
+    words.forEach(word => {
+      if ((currentLine + word).length > maxChars) {
+        lines.push(currentLine.trim());
+        currentLine = word + " ";
+      } else {
+        currentLine += word + " ";
+      }
+    });
+    lines.push(currentLine.trim());
+    return lines.join('\\n');
+  };
 
-  console.log(`[${slotID}] 🎬 FFmpeg 병합 프로세스 시작 (세그먼트: ${n}개)`);
-
-  const ordered = [];
-  for (let i = 0; i < n; i++) {
-    ordered.push(titleCardPaths[i]);
-    ordered.push(highlightPaths[i]);
-  }
-
-  const inputArgs = ordered.map((p) => `-i "${path.resolve(p)}"`).join(" ");
+  const n = highlightPaths.length;
+  // 입력 순서: [영상1, 영상2, 영상3, 영상4, TTS1, TTS2, TTS3, TTS4]
+  const inputArgs = [
+    ...highlightPaths.map(p => `-i "${path.resolve(p)}"`),
+    ...ttsPaths.map(p => `-i "${path.resolve(p)}"`)
+  ].join(" ");
   const filters = [];
 
-  for (let i = 0; i < ordered.length; i++) {
-    const isTitle = i % 2 === 0;
-    const dur = isTitle ? durationSec : highlightSec;
-    const fadeOutStart = Math.max(0, dur - fadeSec);
+  for (let i = 0; i < n; i++) {
+    const rawCaption = titleInfos[i].caption;
+    const wrappedCaption = wrapText(`${titleInfos[i].index}. ${rawCaption}`, 18);
+    const safeCaption = wrappedCaption.replace(/'/g, "'\\\\\\''").replace(/:/g, "\\:");
+    const fontPath = titleFontPath.replace(/\\/g, '/');
+    const fadeOutStart = (highlightSec - fadeSec).toFixed(1);
 
-    filters.push(
-      `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=decrease,` +
-      `pad=${width}:${height}:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=${fps},format=yuv420p,` +
-      `fade=t=in:st=0:d=${fadeSec},fade=t=out:st=${fadeOutStart}:d=${fadeSec}[v${i}]`
-    );
+    // --- [1번 해결: 애니메이션 수식 설계] ---
+    const moveStart = 0.8;
+    const moveEnd = 1.2;
+    const moveDur = (moveEnd - moveStart).toFixed(1); // 0.4초
 
-    filters.push(
-      `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo,` +
-      `afade=t=in:st=0:d=${fadeSec},afade=t=out:st=${fadeOutStart}:d=${fadeSec}[a${i}]`
-    );
+    const startY = `(h-th)/2`; // 중앙
+    const endY = `180`;        // 상단
+    const startFS = 85;        // 시작 크기
+    const endFS = 55;          // 종료 크기
+
+    // Y 좌표: 0.8초부터 1.2초까지 선형 이동
+    const animY = `if(lt(t,${moveStart}), ${startY}, if(lt(t,${moveEnd}), ${startY}-(${startY}-${endY})*(t-${moveStart})/${moveDur}, ${endY}))`;
+    // 폰트 크기: 0.8초부터 1.2초까지 선형 축소
+    const animFS = `if(lt(t,${moveStart}), ${startFS}, if(lt(t,${moveEnd}), ${startFS}-(${startFS}-${endFS})*(t-${moveStart})/${moveDur}, ${endFS}))`;
+
+    // --- [비디오 필터] ---
+    let vFilter = `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p`;
+
+    // 암전 레이어 (애니메이션에 맞춰 딤 처리)
+    vFilter += `,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
+    vFilter += `,drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,${moveEnd})'`;
+
+    // 텍스트 필터 (애니메이션 적용)
+    vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:`;
+    vFilter += `fontsize='${animFS}':line_spacing=15:`;
+    vFilter += `x=(w-text_w)/2:y='${animY}':expansion=none`;
+
+    vFilter += `,fade=t=out:st=${fadeOutStart}:d=${fadeSec}[v${i}]`;
+    filters.push(vFilter);
+
+    // --- [4번 해결: 사운드 페이드인 조정] ---
+   // --- [오디오 필터 고도화] ---
+    // i: 하이라이트 오디오 인덱스, n+i: TTS 오디오 인덱스
+    let aFilter = `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo`;
+    
+    // 1. 하이라이트 배경음 처리 (0.8초까지 20% 볼륨, 이후 페이드인)
+    aFilter += `,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5`;
+    
+    // 2. TTS와 믹싱 (amix)
+    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다.
+    // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다.
+    const ttsIndex = n + i;
+    const ttsFilter = `[${ttsIndex}:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
+    filters.push(ttsFilter);
+
+    aFilter += `[bg${i}];[bg${i}][tts${i}]amix=inputs=2:duration=first:dropout_transition=2`;
+    
+    // 3. 최종 페이드 아웃
+    aFilter += `,afade=t=out:st=${fadeOutStart}:d=${fadeSec}[a${i}]`;
+
+    filters.push(aFilter);
   }
 
-  const concatInputs = ordered.map((_, i) => `[v${i}][a${i}]`).join("");
-  filters.push(`${concatInputs}concat=n=${ordered.length}:v=1:a=1[vout][aout]`);
+  const concatInputs = highlightPaths.map((_, i) => `[v${i}][a${i}]`).join("");
+  filters.push(`${concatInputs}concat=n=${n}:v=1:a=1[vout][aout]`);
 
   const filterComplex = filters.join(";");
-  const cmd = `ffmpeg -y ${inputArgs} -filter_complex "${filterComplex}" -map "[vout]" -map "[aout]" -c:v libx264 -preset superfast -crf 23 -pix_fmt yuv420p -r ${fps} -c:a aac -ar ${sampleRate} -ac 2 -b:a 192k "${path.resolve(outputPath)}"`.replace(/\s+/g, " ");
+  const cmd = [
+    `ffmpeg -y ${inputArgs}`,
+    `-filter_complex "${filterComplex}"`,
+    `-map "[vout]" -map "[aout]"`,
+    `-c:v libx264`,
+    `-preset medium`,    // 품질 향상 (superfast -> medium)
+    `-crf 18`,           // 품질 향상 (23 -> 18)
+    `-pix_fmt yuv420p`,
+    `-c:a aac`,
+    `-b:a 192k`,
+    `"${path.resolve(outputPath)}"`
+  ].join(" ");
 
-  try {
-    console.log(`[${slotID}] FFmpeg 명령 실행 중...`);
-    await exec(cmd);
-    console.log(`[${slotID}] ✅ FFmpeg 병합 완료: ${path.basename(outputPath)}`);
-    return outputPath;
-  } catch (err) {
-    console.error(`[${slotID}] ❌ FFmpeg 병합 실패!`);
-    if (err?.stderr) console.error(`[FFmpeg Error Log]: ${err.stderr.slice(-500)}`);
-    throw err;
-  }
+  console.log(`[${slotID}] 🚀 고도화 V2: 슬라이딩 애니메이션 & 사운드 믹스 적용`);
+  await exec(cmd);
 }

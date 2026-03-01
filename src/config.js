@@ -34,7 +34,7 @@ export const VIDEOS_PER_REGION = 2; //임시로 하나로 테스트.
 /** 
  * [하이라이트 초]
  **/
-export const HIGHLIGHT_SECOND = 10;
+export const HIGHLIGHT_SECOND = 11.2;
 /**
  * [상수 책임] 검증 기준(네 요구사항 반영)
  */
