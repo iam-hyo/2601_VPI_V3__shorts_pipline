@@ -7,3 +7,4 @@ data/logs/
 **/__pycache__/
 *.pyc
 .vid_env
+.Trend_env
