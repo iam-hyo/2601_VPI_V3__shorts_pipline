@@ -18,7 +18,7 @@ import path from "node:path";
 import { spawn } from "node:child_process";
 import { GeminiClient } from "./geminiClient.js";
 
-dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.env") });
+dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.Trend_env") });
 console.log("[DEBUG] TREND_SERVICE_PORT raw =", JSON.stringify(process.env.TREND_SERVICE_PORT));
 const PORT = Number(process.env.TREND_SERVICE_PORT);
 
