@@ -8,4 +8,3 @@ data/logs/
 *.pyc
 .vid_env
 .Trend_env
-*.Trend_env

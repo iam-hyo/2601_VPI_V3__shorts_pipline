@@ -29,14 +29,14 @@ export const REGIONS = ["KR", "US", "MX"];
 /**
  * [상수 책임] 국가별 생성할 영상 개수(슬롯 수)
  */
-export const VIDEOS_PER_REGION = 2; //임시로 하나로 테스트.
+export const VIDEOS_PER_REGION = 2;
 
 /** 
  * [하이라이트 초]
  **/
 export const HIGHLIGHT_SECOND = 11.2;
 /**
- * [상수 책임] 검증 기준(네 요구사항 반영)
+ * [상수 책임] 검증 기준
  */
 export const VALIDATION = {
   recentDays: 5,
@@ -44,7 +44,7 @@ export const VALIDATION = {
   maxShortsSec: 80,
 
   // predicted_7day_views >= 30k 영상이 4개 이상
-  minPredictedViews: 30_000,
+  minPredictedViews: 70_000,
   minQualifiedVideos: 3,
   topK: 4
 };
