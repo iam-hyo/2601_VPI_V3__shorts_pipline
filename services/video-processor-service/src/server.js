@@ -145,7 +145,7 @@ const server = http.createServer(async (req, res) => {
       const highlightPaths = [];
       const highlightDurations = []; // [신규] 동적 길이를 담을 배열 선언
 
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < videoCount; i++) {
         const source = inputFiles[i];
         const outPath = path.join(outputsDir, `highlight_${i + 1}.mp4`);
 
@@ -179,7 +179,7 @@ const server = http.createServer(async (req, res) => {
           `또한 최종 업로드용 ${targetLanguage} 제목(40자 이내), 설명(2~3문장), tags 배열(5~10개)을 만들어라.`,
           `캡션은 자극적이고 키치한 ${targetLanguage} 후킹 문구로 작성하라(어그로 허용).`,
           "문장보다 명사구(noun phrase) 형태를 권장한다.",
-          "각 캡션은 4단어 이하를 권장한다(최대 6단어).",
+          "각 캡션은 4단어 이하를 권장한다(최대 6단어, 공백포함 20자).",
           "대주제(topic)를 그대로 반복하지 말고, 각 영상 고유의 특징을 반영하라.",
           `반드시 모든 텍스트 결과물은 ${targetLanguage}로 작성해야 한다.`, // 강제성 추가
           "잡담/설명/마크다운 없이 outputFormat에 맞는 JSON만 반환하라.",

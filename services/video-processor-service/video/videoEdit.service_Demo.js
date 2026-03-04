@@ -7,7 +7,6 @@
  * - exists, ensureDir
  * - downloadVideoIfNeeded            (yt-dlp)
  * - cutSmartHighlight               (ffmpeg, 하이라이트, genemi)
- * - createTitleCardIfNeeded          (ffmpeg, 타이틀 카드 + 시그니처 이미지 + 서브타이틀 폰트)
  * - mergeHighlightsWithIntegratedTitles  (ffmpeg filter_complex, 안정적 병합 + fade)
  *
  * ⚠️ 전제:
@@ -160,24 +159,6 @@ export async function exists(filePath) {
  */
 export async function ensureDir(dir) {
   await fs.mkdir(dir, { recursive: true });
-}
-
-/**
- * [유틸] drawtext에 들어가는 문자열 escape
- * - FFmpeg drawtext는 특수문자에 민감합니다.
- * - 특히 \, ', : 의 escape 순서가 중요합니다.
- * @param {string} text
- * @returns {string}
- */
-function escapeForDrawtext(text) {
-  // FFmpeg drawtext는 특수문자에 민감합니다.
-  // - 특히 \\, ', : 는 깨지기 쉬우니 최소 escape만 적용합니다.
-  // - 이 구현은 (filter_complex를 큰따옴표로 감싼) 현재 명령 구성과 가장 호환이 좋습니다.
-  return String(text ?? "")
-    .replace(/\\/g, "\\\\")   // 1) 백슬래시 탈출
-    .replace(/'/g, "\\'")    // 2) 싱글쿼트 탈출
-    .replace(/:/g, "\\:")         // 3) 콜론 탈출
-    .replace(/\n/g, "\\n");      // 4) 줄바꿈(있다면)
 }
 
 /**
@@ -355,198 +336,6 @@ export async function getSmartHighlightTimestamps(subPath, videoId) {
  * ======================================================================================= */
 
 /**
- * [타이틀 카드 생성] 1.2초짜리 타이틀 카드 영상 생성 (멱등)
- *
- * 요구사항 반영:
- * 1) 시그니처(프로필) 이미지 overlay:
- *    - 기본 경로: ./data/assets/5토끼_유튜브 프로필.png
- *    - 위치: 화면 중앙 하단부(가독성 고려)
- * 2) 서브타이틀 폰트:
- *    - 기본 폰트: ./data/assets/memomentKkukkkuk.ttf
- * 3) (추후) 배경 이미지 삽입 가능하도록 주석 처리
- *
- * @param {{
- *   outDir: string,
- *   index: number,
- *   caption: string,
- *   subCaption?: string,
- *   durationSec?: number,
- *   width?: number,
- *   height?: number,
- *   fps?: number,
- *   signatureImagePath?: string,
- *   signatureSize?: number,
- *   subtitleFontPath?: string,
- *   titleFontPath?: string,
- * }} args
- * @returns {Promise<string>} 생성된 mp4 경로
- */
-export async function createTitleCardIfNeeded(args) {
-  const {
-    outDir,
-    index,
-    caption,
-    durationSec = 1.2,
-    width = 1080,
-    height = 1920,
-    fps = 30,
-
-    signatureImagePath,
-    signatureSize = 220,
-
-    titleFontPath = "",
-    slotID = "UNKNOWN",
-
-    // ======= 추후 확장: 배경 이미지 =======
-    // backgroundImagePath, // 예: resolveAssetPath("background.png")
-    // backgroundMode = "cover", // cover/contain 등 전략(추후)
-    // ====================================
-
-    // (선택) fontconfig를 직접 세팅하고 싶을 때 사용
-    // fontConfigDir, // 예: path.resolve("data/assets/fontconfig")
-    // fontConfigFile, // 예: path.resolve("data/assets/fontconfig/fonts.conf")
-  } = args;
-
-  const outPath = path.join(outDir, `title_${index}.mp4`);
-
-  // 1) 기존 파일 확인
-  if (existsSync(outPath)) {
-    const st = await fs.stat(outPath);
-    if (st.size > 0) {
-      console.log(`[${slotID}] ⏩ 타이틀 카드 #${index} 스킵 (이미 존재)`);
-      return outPath;
-    }
-  }
-
-  console.log(`[${slotID}] 🎨 타이틀 카드 #${index} 생성 시작: "${caption}"`);
-
-  // 2) 리소스 존재 여부
-  const hasSig = signatureImagePath && existsSync(signatureImagePath);
-  const hasTitleFont = titleFontPath && existsSync(titleFontPath);
-
-  if (!hasSig) console.warn(`[${slotID}] ⚠️ 시그니처 이미지 없음 -> 시그니처 오버레이 생략`);
-  if (!hasTitleFont) console.warn(`[${slotID}] ⚠️ 폰트 파일 없음 -> 시스템 폰트(Arial 등)로 폴백`);
-
-  // 3) drawtext용 텍스트는 textfile 방식으로 처리(따옴표/특수문자 이슈 회피)
-  //    - 파일 인코딩: UTF-8
-  //    - 파일 경로: outDir 내부에 생성(디버깅에도 유리)
-  await fs.mkdir(outDir, { recursive: true });
-  const textFileAbs = path.join(outDir, `title_${index}.txt`);
-  const mainText = `${index}. ${caption ?? ""}`; // 여기엔 apostrophe(')가 들어가도 안전(파일로 들어가니까)
-  await fs.writeFile(textFileAbs, mainText, { encoding: "utf8" });
-
-  // filter 내부에서 안전하게 쓸 경로(가능하면 상대경로로 만들어 C: 문제 회피)
-  const textFileForFilter = fixPathForFfmpegFilter(textFileAbs, { preferRelative: true });
-
-  // 4) 폰트 옵션(가능하면 상대경로)
-  //    - fontfile을 쓰면 커스텀 폰트 적용
-  //    - 없으면 font='Arial'로 폴백(환경에 따라 다를 수 있음)
-  const fontOpt = hasTitleFont
-    ? `fontfile='${fixPathForFfmpegFilter(titleFontPath, { preferRelative: true })}'`
-    : `font='Arial'`;
-
-  console.log(`[createTitleCardIfNeeded] titleFont점검: :${fontOpt}`);
-
-  // 5) 입력 구성
-  //    현재는 color 소스로 배경 생성
-  //    ======= 추후 확장: 배경 이미지로 교체하고 싶다면 =======
-  //    - backgroundImagePath가 있으면:
-  //      -loop 1 -i "<배경이미지>"
-  //      그리고 [bg]를 scale/crop 해서 base로 쓰면 됨
-  //    =========================================================
-  const ffArgs = [
-    "-y",
-    "-hide_banner",
-    "-loglevel",
-    "verbose",
-    "-stats",
-  ];
-
-  // 배경: 검정색
-  ffArgs.push("-f", "lavfi", "-i", `color=c=black:s=${width}x${height}:r=${fps}`);
-
-  // 오디오: 무음
-  ffArgs.push("-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100");
-
-  // 시그니처 이미지 입력(있으면 3번째 입력)
-  if (hasSig) {
-    ffArgs.push("-loop", "1", "-i", path.resolve(signatureImagePath));
-  }
-
-  ffArgs.push("-t", String(durationSec));
-
-  // 6) filter_complex 구성
-  // 입력 인덱스:
-  //  - [0:v] = color 배경
-  //  - [1:a] = anullsrc
-  //  - [2:v] = signature (있을 때만)
-  const filters = [];
-  filters.push(`[0:v]format=yuv420p[base0]`);
-  let last = "base0";
-
-  if (hasSig) {
-    filters.push(`[2:v]scale=${signatureSize}:${signatureSize}[sig]`);
-    filters.push(`[${last}][sig]overlay=(W-w)/2:H-h-260:shortest=1[base1]`);
-    last = "base1";
-  }
-
-  // drawtext: textfile 사용 (가장 안정적)
-  // - textfile은 UTF-8 텍스트 파일을 읽어 출력
-  // - reload=0(기본) / reload=1로 매 프레임 재로드도 가능(지금은 불필요)
-  filters.push(
-    `[${last}]drawtext=` +
-    `textfile='${textFileForFilter}':` +
-    `${fontOpt}:` +
-    `fontcolor=white:fontsize=84:expansion=none:` +
-    `x=(w-text_w)/2:y=h*0.40` +
-    `[base2]`
-  );
-  last = "base2";
-
-  const filterComplex = filters.join(";");
-
-  // 7) 출력 매핑/코덱
-  ffArgs.push("-filter_complex", filterComplex);
-  ffArgs.push("-map", `[${last}]`);
-  ffArgs.push("-map", "1:a");
-  ffArgs.push("-shortest");
-  ffArgs.push("-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", String(fps));
-  ffArgs.push("-c:a", "aac", "-ar", "44100", "-ac", "2");
-  ffArgs.push(path.resolve(outPath));
-
-  // 디버깅용: 실제 실행 인자 확인(문자열 합치지 않음)
-  // console.log(`\n[!!디버깅!!]\n FFMPEG ARGS:\n`, ffArgs, "\n");
-
-  // 8) (선택) fontconfig env 세팅
-  //    - 너가 별도 fonts.conf를 만들었다면 아래 env에 넣어서 실행 가능
-  //    - 필요 없다면 그대로 process.env 사용
-  const env = { ...process.env };
-  // if (fontConfigDir) env.FONTCONFIG_PATH = path.resolve(fontConfigDir);
-  // if (fontConfigFile) env.FONTCONFIG_FILE = path.resolve(fontConfigFile);
-  // if (fontConfigDir) env.FC_CONFIG_DIR = path.resolve(fontConfigDir);
-
-  // 9) 실행
-  try {
-    await runFfmpeg(ffArgs, { env, cwd: process.cwd() });
-    console.log(`[${slotID}] ✅ 타이틀 카드 생성 완료: title_${index}.mp4`);
-
-    // (선택) 텍스트 파일 정리하고 싶으면 주석 해제
-    // await fs.unlink(textFileAbs).catch(() => {});
-
-    return outPath;
-  } catch (err) {
-    console.error(`[${slotID}] ❌ 타이틀 카드 #${index} 생성 실패`);
-    if (err?.stderr) {
-      console.error(`--- FFmpeg Error Detail ---`);
-      console.error(err.stderr);
-    } else {
-      console.error(err);
-    }
-    throw err;
-  }
-}
-
-/**
  * [고도화 병합 V2] 
  * 1. 0.8s~1.2s 구간 동안 중앙에서 상단으로 부드럽게 슬라이딩 (1번 해결)
  * 2. 0.8s까지는 배경음이 작게(20%) 들리다가 이후 1.5s간 길게 페이드인 (4번 해결)
@@ -593,8 +382,9 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
 
   for (let i = 0; i < n; i++) {
     const rawCaption = titleInfos[i].caption;
-    const wrappedCaption = wrapText(`${titleInfos[i].index}. ${rawCaption}`, 18);
-    const safeCaption = wrappedCaption.replace(/'/g, "'\\\\\\''").replace(/:/g, "\\:");
+    const safeCaption = `${titleInfos[i].index}. ${rawCaption}`
+      .replace(/'/g, "'\\\\\\''")
+      .replace(/:/g, "\\\\:"); // drawtext 콜론 탈출 강화
     const fontPath = titleFontPath.replace(/\\/g, '/');
     const currentDur = durations[i] || 10.0; // 해당 클립의 동적 길이 사용
     const fadeOutStart = (currentDur - fadeSec).toFixed(1);
@@ -618,10 +408,16 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     let vFilter = `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p`;
 
     // 암전 레이어 (애니메이션에 맞춰 딤 처리)
-    vFilter += `,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
-    vFilter += `,drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,${moveEnd})'`;
+    vFilter += `,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
+
+    // 2) [수정] 1.2초 후 배경 박스 위치를 텍스트 위치(180)에 맞춤
+    // 박스 높이가 220이므로 y=130 정도면 y=180인 텍스트의 위아래를 적절히 감쌉니다.
+    const boxY = 130;
+    const boxHeight = 220;
+    vFilter += `,drawbox=y=${boxY}:color=black@0.6:width=iw:height=${boxHeight}:t=fill:enable='gt(t,${moveEnd})'`;
 
     // 텍스트 필터 (애니메이션 적용)
+    // 3) 텍스트 정중앙 배치 (drawtext 부분)
     vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:`;
     vFilter += `fontsize='${animFS}':line_spacing=15:`;
     vFilter += `x=(w-text_w)/2:y='${animY}':expansion=none`;
@@ -629,7 +425,6 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     vFilter += `,fade=t=out:st=${fadeOutStart}:d=${fadeSec}[v${i}]`;
     filters.push(vFilter);
 
-    // --- [4번 해결: 사운드 페이드인 조정] ---
     // --- [오디오 필터 고도화] ---
     // i: 하이라이트 오디오 인덱스, n+i: TTS 오디오 인덱스
     let aFilter = `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo`;
@@ -638,10 +433,10 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     aFilter += `,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5`;
 
     // 2. TTS와 믹싱 (amix)
-    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다.
-    // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다.
+    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다. 속도 x1.2배: atempo=1.2
+    // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다. 100|100 -> 왼쪽 오른쪽 
     const ttsIndex = n + i;
-    const ttsFilter = `[${ttsIndex}:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
+    const ttsFilter = `[${ttsIndex}:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
     filters.push(ttsFilter);
 
     aFilter += `[bg${i}];[bg${i}][tts${i}]amix=inputs=2:duration=first:dropout_transition=2`;

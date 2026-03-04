@@ -1,0 +1,171 @@
+{
+  "runId": "2026-03-04__MANUAL__MX__bruno-mars",
+  "date": "2026-03-04__MANUAL__MX__bruno-mars",
+  "createdAt": "2026-03-04T14:24:43.436Z",
+  "updatedAt": "2026-03-04T14:28:03.449Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "bruno mars"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "음악 및 디스코그래피",
+                "logic": "브루노 마스의 음악적 작품, 인기곡, 앨범 및 가사에 초점을 맞춥니다.",
+                "identity_tags": [
+                  "canciones",
+                  "éxitos",
+                  "álbumes",
+                  "letras"
+                ]
+              },
+              {
+                "name": "라이브 공연 및 투어",
+                "logic": "브루노 마스의 라이브 공연, 콘서트 경험 및 투어 정보에 중점을 둡니다.",
+                "identity_tags": [
+                  "conciertos",
+                  "en vivo",
+                  "gira",
+                  "espectáculo"
+                ]
+              },
+              {
+                "name": "전기 및 경력",
+                "logic": "브루노 마스의 삶의 이야기, 경력 발전, 인터뷰 및 흥미로운 사실을 탐구합니다.",
+                "identity_tags": [
+                  "biografía",
+                  "carrera",
+                  "documental",
+                  "curiosidades"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "bruno mars canciones éxitos álbumes",
+                "theme": "브루노 마스의 음악적 유산과 가장 인기 있는 작품들을 탐색하는 트렌드",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "bruno mars conciertos en vivo gira espectáculo",
+                "theme": "브루노 마스의 역동적인 라이브 공연과 투어 경험에 대한 관심 트렌드",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "bruno mars biografía carrera documental curiosidades",
+                "theme": "브루노 마스의 개인적인 이야기, 경력 발전 및 알려지지 않은 사실에 대한 호기심 트렌드",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "bruno mars canciones éxitos álbumes",
+                "theme": "브루노 마스의 음악적 유산과 가장 인기 있는 작품들을 탐색하는 트렌드",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "bruno mars conciertos en vivo gira espectáculo",
+                "theme": "브루노 마스의 역동적인 라이브 공연과 투어 경험에 대한 관심 트렌드",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "bruno mars biografía carrera documental curiosidades",
+                "theme": "브루노 마스의 개인적인 이야기, 경력 발전 및 알려지지 않은 사실에 대한 호기심 트렌드",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              }
+            ],
+            "lastFailedKeyword": "bruno mars"
+          },
+          "originalKeyword": "bruno mars",
+          "keyword": "bruno mars canciones éxitos",
+          "selectedSourceVideos": [
+            {
+              "videoId": "voxfgDNpnZw",
+              "title": "Has Harley Quinn Gone Astray? #Joker #Angel #Harleyquinn",
+              "channelTitle": "超人夫妇",
+              "predicted7d": 84706,
+              "delta": 46535
+            },
+            {
+              "videoId": "I--4G-4W4u8",
+              "title": "#APT #rosé #brunomars #blackpink #electropop #kpopedit #kpop #ytshorts #viral #viralshorts #trending",
+              "channelTitle": "Addison Glic",
+              "predicted7d": 22079,
+              "delta": 12976
+            },
+            {
+              "videoId": "4awD7StibT8",
+              "title": "Skate - Bruno Mars | Drum Cover with Sheet Music",
+              "channelTitle": "DRUMMATE",
+              "predicted7d": 11955,
+              "delta": 10636
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Cannot read properties of undefined (reading 'videoId')\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Cannot read properties of undefined (reading 'videoId')\"}"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING",
+      "assignedKeywords": [
+        "bruno mars"
+      ]
+    }
+  },
+  "finishedAt": "2026-03-04T14:25:10.666Z"
+}
