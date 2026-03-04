@@ -432,37 +432,66 @@ const server = http.createServer(async (req, res) => {
         tag: t.tag,
         f: t.TF,
         sat_penalty: Number(Math.exp(-(Math.pow(t.TF, 2)) / (2 * Math.pow(sigma, 2))).toFixed(4))
-      })).slice(0, 150); // 상위 150개 태그까지만 사용
+      })).slice(0, 150);
 
       const prompt = {
-        role: "expert_youtube_query_engineer",
-        context: `'${keyword}'라는 주제를 분석하여, ${targetLanguage} 시장에 최적화된 3가지 세부 검색 쿼리를 생성하십시오.`,
-        input: {
-          base_trend: keyword,
-          collected_tags: processedTags
-        },
-        instructions: [
-          `1. [언어 원칙] 모든 출력 결과(analysis 내 설명, theme, q)는 **${targetLanguage}**로만 작성하십시오.`,
-          "1.1. 지시문이 한국어라 하더라도 tag에 포함되어 있지 않다면 결과물에 한국어를 섞지 마십시오. (단, tag에 포함되어 있는경우 사용 가능, K-POP 등 고유 명사는 예외)",
+        role: "Senior_VPI_Query_Architect",
+        context: `'${keyword}' 주제를 분석하여 ${targetLanguage} 시장을 타겟팅하는 3가지 상호 배타적 검색 쿼리를 생성하십시오.`,
 
-          "2. [군집 분석] 수집된 태그를 바탕으로 의미론적 군집(예: 뉴스/이슈, 인물/관계, 기술/튜토리얼, 비하인드 등)을 3~4개 식별하십시오.",
-
-          "3. [쿼리 설계 - 필수] 각 슬롯의 'q' 필드는 반드시 '핵심어|확장어1|확장어2' 형식을 엄수하십시오.",
-          "3.1. 유튜브 쿼리용으로, 단어 사이를 공백이 아닌 **세로 바(|)**로 구분하는 것이 핵심입니다.",
-          "3.2. 형식 예시: 'Donovan Carrillo|Patinaje|Juegos Olímpicos|Rutina'",
-
-          "4. [노이즈 필터링] 주제와 무관한 스팸, 단순 채널명, 의미 없는 문자열은 각 쿼리 뒤에 '-'를 붙여 최대 3개까지 제외하십시오.",
-          "4.1. 단, '공식 뉴스'나 '방송사' 태그가 해당 주제에서 유익한 정보원이라 판단되면 제외하지 말고 유지하십시오.",
-          "4.2. 예시: '핵심어|확장어 -스팸단어 -채널명'",
-
-          "5. [차별화] 각 슬롯은 서로 중복되지 않는 독자적인 관점(Angle)을 가져야 합니다."
+         instructions: [
+          "1. 수집된 태그를 의미론적으로 분석하여 유튜브 주제로 적절한 3개의 독자적인 군집(Cluster)으로 분류하십시오.",
+          "2. 각 군집별로 그 성격을 가장 잘 나타내는 핵심 태그 2~4개를 선정하여 AND(공백) 조건으로 엮으십시오.",
+          // "3. 쿼리 형식: '키워드 핵심태그1 핵심태그2 (2개 ~ 3개) -타군집태그1 -타군집태그2'",
+          "3. outputExample에는 제외어가 포함되어 있지만 본 시행에서는 제외어를 붙이지 말고, and연산자에 해당하는 핵심 태그만으로 쿼리를 작성하십시오.",
+          "4. 3개의 슬롯은 반드시 서로 다른 시각(Angle)을 가져야 하며, 검색 결과가 겹치지 않아야 합니다."
         ],
+
+        constraints: [
+          "1. [언어] 모든 결과물은 **${targetLanguage}**로만 작성하십시오.",
+          "2. [태그 선정] f(빈도)가 높으면서 sat_penalty가 0.3 이상인 '유효 정보 태그'를 우선 사용하십시오.",
+          "3. [범용 태그 처리] f가 일정 이상 높은 범용 태그(예: vlog, 추천, 이슈, shorts 등)는 검색 결과 확보를 위해 **절대로 제외어(-)에 넣지 마십시오.**",
+          // "4. [Cross-Exclusion] 제외어(-) 섹션에는 '다른 슬롯에서 선정한 핵심 태그'하나씩, 필요시 노이즈 키워드 만을 삽입하시오."
+        ],
+
         outputFormat: {
-          analysis: { target_language_confirmed: "string", clusters: [{ name: "string", logic: "string" }] },
-          slots: [{ id: "number", theme: "string", q: "string" }]
+          analysis: {
+            clusters: [
+              { name: "군집1 이름", logic: "선정 근거", identity_tags: ["군집1 태그들"] },
+              { name: "군집2 이름", logic: "선정 근거", identity_tags: ["군집2 태그들"] },
+              { name: "군집3 이름", logic: "선정 근거", identity_tags: ["군집3 태그들"] }
+            ]
+          },
+          slots: [
+            { q: "keyword 군집1tag1 군집1tag2 -군집2tag -군집3tag", theme: "군집1의 전문적 관점" },
+            { q: "keyword 군집2tag1 군집2tag2 -군집1tag -군집3tag", theme: "군집2의 전문적 관점" },
+            { q: "keyword 군집3tag1 군집3tag2 -군집1tag -군집2tag", theme: "군집3의 전문적 관점" }
+          ]
+        },
+
+        outputExample: {
+          analysis: {
+            clusters: [
+              { name: "기술 성능 분석", logic: "수치 데이터와 벤치마크 위주 태그", identity_tags: ["성능", "벤치마크", "스펙"] },
+              { name: "현지 발표", logic: "가격 및 출시일 등 실구매 정보", identity_tags: ["가격", "출시일", "사전예약"] },
+              { name: "실사용 리뷰", logic: "실제 사용 환경 및 장단점", identity_tags: ["사용기", "장단점", "꿀팁"] }
+            ]
+          },
+          slots: [
+            {
+              q: "iPhone16 성능 벤치마크 스펙 -가격 -사용기",
+              theme: "하드웨어 성능 및 기술적 진보에 집중한 트렌드"
+            },
+            {
+              q: "iPhone16 가격 출시일 사전예약 -성능 -사용기",
+              theme: "구매 시점 및 비용 효율성을 중시하는 소비자 트렌드"
+            },
+            {
+              q: "iPhone16 사용기 장단점 꿀팁 -성능 -가격",
+              theme: "실제 사용자 경험과 라이프스타일 중심의 트렌드"
+            }
+          ]
         }
       };
-
       const llmRaw = await llm.generateJson(prompt);
       return sendJson(res, 200, JSON.parse(llmRaw));
     }
