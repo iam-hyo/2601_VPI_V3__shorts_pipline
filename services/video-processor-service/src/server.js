@@ -124,30 +124,24 @@ const server = http.createServer(async (req, res) => {
       // 1) 소스 결정 및 다운로드
       console.log(`[${slotID}] Step 1: 비디오 소스 다운로드 및 로컬 확인 중...`);
       const selectedSources = await resolveSelectedSources({ workDir, bodySources });
-      // [수정] 소스가 없는데 강행하면 undefined[0] 에러가 발생하므로 여기서 차단
-      if (!selectedSources || selectedSources.length < 1) {
-        console.error(`[${slotID}] 에러: 소스 영상이 없습니다.`);
-        return sendJson(res, 400, { ok: false, error: "No source videos found." });
-      }
-      else if (selectedSources.length < 3) {
+      if (selectedSources.length < 3) {
         throw new Error(`사용 가능한 소스 영상이 부족합니다. (현재: ${selectedSources.length}개)`);
       }
 
       const inputFiles = [];
+      for (let i = 0; i < selectedSources.length; i++) {
       for (let i = 0; i < selectedSources.length; i++) {
         const s = selectedSources[i];
         const localPath = await downloadVideoIfNeeded({ videoId: s.videoId, outDir: inputsDir });
         inputFiles.push({ ...s, inputPath: localPath });
       }
       const videoCount = inputFiles.length; // 동적 개수 확보
+      const videoCount = inputFiles.length; // 동적 개수 확보
 
       // 2) 하이라이트 추출
-      console.log(`[${slotID}] Step 2: Gemini 시맨틱 분석 및 하이라이트 컷팅 시작 (총 ${videoCount}개)...`);
+      console.log(`[${slotID}] Step 2: 하이라이트 컷팅 시작 (총 ${videoCount}개)...`);
       const highlightPaths = [];
-      const highlightDurations = []; // [신규] 동적 길이를 담을 배열 선언
-
-      for (let i = 0; i < videoCount; i++) {
-        const source = inputFiles[i];
+      for (let i = 0; i < inputFiles.length; i++) {
         const outPath = path.join(outputsDir, `highlight_${i + 1}.mp4`);
 
         const subPath = await downloadSubtitles(source.videoId, inputsDir);
@@ -211,6 +205,7 @@ const server = http.createServer(async (req, res) => {
         })),
         task: [
           `참조 영상 ${videoCount}개의 제목/설명을 바탕으로, 각 클립 시작 전 타이틀 카드에 넣을 ${targetLanguage} caption ${videoCount}개를 만들어라(각 1~6단어).`,
+          `참조 영상 ${videoCount}개의 제목/설명을 바탕으로, 각 클립 시작 전 타이틀 카드에 넣을 ${targetLanguage} caption ${videoCount}개를 만들어라(각 1~6단어).`,
           `또한 최종 업로드용 ${targetLanguage} 제목(40자 이내), 설명(2~3문장), tags 배열(5~10개)을 만들어라.`,
           `캡션은 자극적이고 키치한 ${targetLanguage} 후킹 문구로 작성하라(어그로 허용).`,
           "문장보다 명사구(noun phrase) 형태를 권장한다.",
@@ -228,7 +223,7 @@ const server = http.createServer(async (req, res) => {
       let uploadMeta;
       let captions;
       const defaultCaptions = ["WOW", "NO WAY", "INSANE", "UNREAL", "AMAZING", "LEGEND"]; //향후 그냥 에러로 처리
-      const fallbackCaptions = defaultCaptions.slice(0, inputFiles.length);
+      const fallbackCaptions = defaultCaptions.slice(0, inputFiles.length); 
 
       try {
         console.log(`[${slotID}] LLM 메타데이터 생성 및 시작...✍️`);
