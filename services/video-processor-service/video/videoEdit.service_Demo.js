@@ -6,8 +6,7 @@
  * 제공 기능:
  * - exists, ensureDir
  * - downloadVideoIfNeeded            (yt-dlp)
- * - cutLastSecondsIfNeeded           (ffmpeg, 하이라이트)
- * - createTitleCardIfNeeded          (ffmpeg, 타이틀 카드 + 시그니처 이미지 + 서브타이틀 폰트)
+ * - cutSmartHighlight               (ffmpeg, 하이라이트, genemi)
  * - mergeHighlightsWithIntegratedTitles  (ffmpeg filter_complex, 안정적 병합 + fade)
  *
  * ⚠️ 전제:
@@ -23,6 +22,7 @@ import { exec as execCb } from "node:child_process";
 import { spawn } from "child_process";
 import { promisify } from "node:util";
 import os from "os";
+import { generateContent } from "../llm/gemini.service.js";
 
 const exec = promisify(execCb);
 // const fontConfigDir = path.resolve("data/assets");
@@ -162,24 +162,6 @@ export async function ensureDir(dir) {
 }
 
 /**
- * [유틸] drawtext에 들어가는 문자열 escape
- * - FFmpeg drawtext는 특수문자에 민감합니다.
- * - 특히 \, ', : 의 escape 순서가 중요합니다.
- * @param {string} text
- * @returns {string}
- */
-function escapeForDrawtext(text) {
-  // FFmpeg drawtext는 특수문자에 민감합니다.
-  // - 특히 \\, ', : 는 깨지기 쉬우니 최소 escape만 적용합니다.
-  // - 이 구현은 (filter_complex를 큰따옴표로 감싼) 현재 명령 구성과 가장 호환이 좋습니다.
-  return String(text ?? "")
-    .replace(/\\/g, "\\\\")   // 1) 백슬래시 탈출
-    .replace(/'/g, "\\'")    // 2) 싱글쿼트 탈출
-    .replace(/:/g, "\\:")         // 3) 콜론 탈출
-    .replace(/\n/g, "\\n");      // 4) 줄바꿈(있다면)
-}
-
-/**
  * [헬퍼] 윈도우 경로의 콜론(:) 및 백슬래시(\)를 FFmpeg 필터용으로 변환
  */
 export function fixPathForFfmpeg(p, mode = "input") {
@@ -265,227 +247,93 @@ async function safeStat(p) {
 /* =======================================================================================
  * 2) 하이라이트 추출 (ffmpeg)
  * ======================================================================================= */
-
 /**
- * [자르기] 영상의 마지막 N초를 잘라내어 하이라이트 생성 (멱등)
- *
- * - 도구: ffmpeg
- * - 방식: -sseof -N (파일 끝에서 N초 전으로 시킹) + -c copy(스트림 복사)
- *
- * ⚠️ 주의:
- * - -c copy는 “코덱/타임베이스” 차이가 있으면 후속 병합에서 이슈가 날 수 있습니다.
- * - 최종 병합은 filter_complex 기반으로 재인코딩(안정성↑)하는 mergeHighlightsWithIntegratedTitles를 사용합니다.
- *
- * @param {{ inputPath: string, outputPath: string, seconds?: number }} args
- * @returns {Promise<string>}
+ * [하이라이트] 가변 시작 시간 대응 하이라이트 컷
  */
-export async function cutLastSecondsIfNeeded({ inputPath, outputPath, seconds = 10 }) {
-  if (await existsNonEmpty(outputPath, 50_000)) {
-    console.log(`[videoEdit.demo] highlight skip (exists): ${outputPath}`);
-    return outputPath;
+export async function cutSmartHighlight({ inputPath, outputPath, startTime, duration = 10 }) {
+  // [수정] startTime 형식이 HH:MM:SS:mmm 일 경우 HH:MM:SS.mmm으로 교정
+  let formattedStartTime = startTime;
+  if (formattedStartTime && typeof formattedStartTime === 'string') {
+    // 마지막에 등장하는 콜론(:)을 마침표(.)로 변경 (정규식 사용)
+    // 00:00:23:119 -> 00:00:23.119
+    const parts = formattedStartTime.split(':');
+    if (parts.length === 4) {
+      formattedStartTime = `${parts[0]}:${parts[1]}:${parts[2]}.${parts[3]}`;
+    }
   }
 
-  const cmd = `ffmpeg -y -sseof -${seconds} -i "${inputPath}" -t ${seconds} -c copy "${outputPath}"`;
-  console.log(`[videoEdit.demo] cut highlight: ${path.basename(outputPath)}`);
+  // 교정된 formattedStartTime 사용
+  const inputSeek = formattedStartTime ? `-ss ${formattedStartTime}` : `-sseof -${duration}`;
+
+  const cmd = `ffmpeg -y ${inputSeek} -i "${inputPath}" -t ${duration} -c copy "${outputPath}"`;
+
+  console.log(`[FFmpeg Execution] ${cmd}`); // 디버깅을 위해 로그 출력 권장
   await exec(cmd);
   return outputPath;
 }
 
+
+// [신규] 하이라이트 선정 분석 로그 저장 (데모용)
+async function logHighlightDecision(videoId, analysis, fullSubtitle) {
+  const logDir = path.join(process.cwd(), 'data', 'logs', 'highlights');
+  if (!existsSync(logDir)) await fs.mkdir(logDir, { recursive: true });
+
+  const logEntry = {
+    timestamp: new Date().toISOString(),
+    videoId,
+    decision: analysis,
+    // 필요 시 자막 전체를 저장하거나 요약본 저장
+    subtitleSnippet: fullSubtitle.slice(0, 2000)
+  };
+
+  const logPath = path.join(logDir, `${videoId}_decision.json`);
+  await fs.writeFile(logPath, JSON.stringify(logEntry, null, 2));
+  console.log(`[VPI-Logger] 하이라이트 결정 로그 저장 완료: ${logPath}`);
+}
+
+/**
+ * [하이라이트] Gemini 시맨틱 타임라인 분석
+ */
+export async function getSmartHighlightTimestamps(subPath, videoId) {
+  if (!subPath) return null;
+  const subtitleText = await fs.readFile(subPath, "utf-8");
+
+  const prompt = `
+    유튜브 자막을 분석하여 숏폼으로 제작할 '골든 하이라이트' 구간을 선정하라.
+    
+    [핵심 제약 사항]
+    1. 시간: 반드시 10초일 필요 없으며, 문맥이 끝나는 지점에 맞춰 8~16초 사이를 권장한다. 시작 시점은 문장이 자연스럽게 시작되는 부분으로 선정하라.
+    2. 광고 제거: "구독", "좋아요", "알림 설정", "더보기란", "고정 댓글", "후원", "광고" 등의 멘트가 포함된 구간은 기피대상으로 간주하라. 
+    3. 논리적 완결성: 문장이 중간에 끊기지 않고 결론이나 반전이 포함된 구간을 우선하라.
+
+    [결과 형식]
+    반드시 아래 JSON 포맷으로만 응답하라:
+    특히 startTime은 FFmpeg 표준인 'HH:MM:SS.mmm' 형식을 엄수하라 (초와 밀리초 사이는 반드시 마침표 '.' 사용).
+    {"startTime": "00:00:23.119", "duration": 12.5, "reason": "이유 설명", "isAdFree": true}
+
+    [자막 데이터]
+    ${subtitleText.slice(0, 5000)}
+  `;
+
+  try {
+    const response = await generateContent("gemini-3.1-flash-lite-preview", prompt, true);
+    const result = JSON.parse(response);
+
+    // 로깅 데이터 구성 (2번 항목 대응)
+    await logHighlightDecision(videoId, result, subtitleText);
+
+    return result;
+  } catch (err) {
+    console.error("[SmartHighlight] 분석 실패:", err);
+    return { startTime: null, duration: 10, reason: "Fallback to default" };
+  }
+}
+
+
+
 /* =======================================================================================
  * 3) 타이틀 카드 생성 (ffmpeg)
  * ======================================================================================= */
-
-/**
- * [타이틀 카드 생성] 1.2초짜리 타이틀 카드 영상 생성 (멱등)
- *
- * 요구사항 반영:
- * 1) 시그니처(프로필) 이미지 overlay:
- *    - 기본 경로: ./data/assets/5토끼_유튜브 프로필.png
- *    - 위치: 화면 중앙 하단부(가독성 고려)
- * 2) 서브타이틀 폰트:
- *    - 기본 폰트: ./data/assets/memomentKkukkkuk.ttf
- * 3) (추후) 배경 이미지 삽입 가능하도록 주석 처리
- *
- * @param {{
- *   outDir: string,
- *   index: number,
- *   caption: string,
- *   subCaption?: string,
- *   durationSec?: number,
- *   width?: number,
- *   height?: number,
- *   fps?: number,
- *   signatureImagePath?: string,
- *   signatureSize?: number,
- *   subtitleFontPath?: string,
- *   titleFontPath?: string,
- * }} args
- * @returns {Promise<string>} 생성된 mp4 경로
- */
-export async function createTitleCardIfNeeded(args) {
-  const {
-    outDir,
-    index,
-    caption,
-    durationSec = 1.2,
-    width = 1080,
-    height = 1920,
-    fps = 30,
-
-    signatureImagePath,
-    signatureSize = 220,
-
-    titleFontPath = "",
-    slotID = "UNKNOWN",
-
-    // ======= 추후 확장: 배경 이미지 =======
-    // backgroundImagePath, // 예: resolveAssetPath("background.png")
-    // backgroundMode = "cover", // cover/contain 등 전략(추후)
-    // ====================================
-
-    // (선택) fontconfig를 직접 세팅하고 싶을 때 사용
-    // fontConfigDir, // 예: path.resolve("data/assets/fontconfig")
-    // fontConfigFile, // 예: path.resolve("data/assets/fontconfig/fonts.conf")
-  } = args;
-
-  const outPath = path.join(outDir, `title_${index}.mp4`);
-
-  // 1) 기존 파일 확인
-  if (existsSync(outPath)) {
-    const st = await fs.stat(outPath);
-    if (st.size > 0) {
-      console.log(`[${slotID}] ⏩ 타이틀 카드 #${index} 스킵 (이미 존재)`);
-      return outPath;
-    }
-  }
-
-  console.log(`[${slotID}] 🎨 타이틀 카드 #${index} 생성 시작: "${caption}"`);
-
-  // 2) 리소스 존재 여부
-  const hasSig = signatureImagePath && existsSync(signatureImagePath);
-  const hasTitleFont = titleFontPath && existsSync(titleFontPath);
-
-  if (!hasSig) console.warn(`[${slotID}] ⚠️ 시그니처 이미지 없음 -> 시그니처 오버레이 생략`);
-  if (!hasTitleFont) console.warn(`[${slotID}] ⚠️ 폰트 파일 없음 -> 시스템 폰트(Arial 등)로 폴백`);
-
-  // 3) drawtext용 텍스트는 textfile 방식으로 처리(따옴표/특수문자 이슈 회피)
-  //    - 파일 인코딩: UTF-8
-  //    - 파일 경로: outDir 내부에 생성(디버깅에도 유리)
-  await fs.mkdir(outDir, { recursive: true });
-  const textFileAbs = path.join(outDir, `title_${index}.txt`);
-  const mainText = `${index}. ${caption ?? ""}`; // 여기엔 apostrophe(')가 들어가도 안전(파일로 들어가니까)
-  await fs.writeFile(textFileAbs, mainText, { encoding: "utf8" });
-
-  // filter 내부에서 안전하게 쓸 경로(가능하면 상대경로로 만들어 C: 문제 회피)
-  const textFileForFilter = fixPathForFfmpegFilter(textFileAbs, { preferRelative: true });
-
-  // 4) 폰트 옵션(가능하면 상대경로)
-  //    - fontfile을 쓰면 커스텀 폰트 적용
-  //    - 없으면 font='Arial'로 폴백(환경에 따라 다를 수 있음)
-  const fontOpt = hasTitleFont
-    ? `fontfile='${fixPathForFfmpegFilter(titleFontPath, { preferRelative: true })}'`
-    : `font='Arial'`;
-
-  console.log(`[createTitleCardIfNeeded] titleFont점검: :${fontOpt}`);
-
-  // 5) 입력 구성
-  //    현재는 color 소스로 배경 생성
-  //    ======= 추후 확장: 배경 이미지로 교체하고 싶다면 =======
-  //    - backgroundImagePath가 있으면:
-  //      -loop 1 -i "<배경이미지>"
-  //      그리고 [bg]를 scale/crop 해서 base로 쓰면 됨
-  //    =========================================================
-  const ffArgs = [
-    "-y",
-    "-hide_banner",
-    "-loglevel",
-    "verbose",
-    "-stats",
-  ];
-
-  // 배경: 검정색
-  ffArgs.push("-f", "lavfi", "-i", `color=c=black:s=${width}x${height}:r=${fps}`);
-
-  // 오디오: 무음
-  ffArgs.push("-f", "lavfi", "-i", "anullsrc=channel_layout=stereo:sample_rate=44100");
-
-  // 시그니처 이미지 입력(있으면 3번째 입력)
-  if (hasSig) {
-    ffArgs.push("-loop", "1", "-i", path.resolve(signatureImagePath));
-  }
-
-  ffArgs.push("-t", String(durationSec));
-
-  // 6) filter_complex 구성
-  // 입력 인덱스:
-  //  - [0:v] = color 배경
-  //  - [1:a] = anullsrc
-  //  - [2:v] = signature (있을 때만)
-  const filters = [];
-  filters.push(`[0:v]format=yuv420p[base0]`);
-  let last = "base0";
-
-  if (hasSig) {
-    filters.push(`[2:v]scale=${signatureSize}:${signatureSize}[sig]`);
-    filters.push(`[${last}][sig]overlay=(W-w)/2:H-h-260:shortest=1[base1]`);
-    last = "base1";
-  }
-
-  // drawtext: textfile 사용 (가장 안정적)
-  // - textfile은 UTF-8 텍스트 파일을 읽어 출력
-  // - reload=0(기본) / reload=1로 매 프레임 재로드도 가능(지금은 불필요)
-  filters.push(
-    `[${last}]drawtext=` +
-    `textfile='${textFileForFilter}':` +
-    `${fontOpt}:` +
-    `fontcolor=white:fontsize=84:expansion=none:` +
-    `x=(w-text_w)/2:y=h*0.40` +
-    `[base2]`
-  );
-  last = "base2";
-
-  const filterComplex = filters.join(";");
-
-  // 7) 출력 매핑/코덱
-  ffArgs.push("-filter_complex", filterComplex);
-  ffArgs.push("-map", `[${last}]`);
-  ffArgs.push("-map", "1:a");
-  ffArgs.push("-shortest");
-  ffArgs.push("-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", String(fps));
-  ffArgs.push("-c:a", "aac", "-ar", "44100", "-ac", "2");
-  ffArgs.push(path.resolve(outPath));
-
-  // 디버깅용: 실제 실행 인자 확인(문자열 합치지 않음)
-  // console.log(`\n[!!디버깅!!]\n FFMPEG ARGS:\n`, ffArgs, "\n");
-
-  // 8) (선택) fontconfig env 세팅
-  //    - 너가 별도 fonts.conf를 만들었다면 아래 env에 넣어서 실행 가능
-  //    - 필요 없다면 그대로 process.env 사용
-  const env = { ...process.env };
-  // if (fontConfigDir) env.FONTCONFIG_PATH = path.resolve(fontConfigDir);
-  // if (fontConfigFile) env.FONTCONFIG_FILE = path.resolve(fontConfigFile);
-  // if (fontConfigDir) env.FC_CONFIG_DIR = path.resolve(fontConfigDir);
-
-  // 9) 실행
-  try {
-    await runFfmpeg(ffArgs, { env, cwd: process.cwd() });
-    console.log(`[${slotID}] ✅ 타이틀 카드 생성 완료: title_${index}.mp4`);
-
-    // (선택) 텍스트 파일 정리하고 싶으면 주석 해제
-    // await fs.unlink(textFileAbs).catch(() => {});
-
-    return outPath;
-  } catch (err) {
-    console.error(`[${slotID}] ❌ 타이틀 카드 #${index} 생성 실패`);
-    if (err?.stderr) {
-      console.error(`--- FFmpeg Error Detail ---`);
-      console.error(err.stderr);
-    } else {
-      console.error(err);
-    }
-    throw err;
-  }
-}
 
 /**
  * [고도화 병합 V2] 
@@ -495,13 +343,13 @@ export async function createTitleCardIfNeeded(args) {
 export async function mergeHighlightsWithIntegratedTitles(args) {
   const {
     highlightPaths,
+    durations = [],
     ttsPaths,
     titleInfos,
     outputPath,
     width = 1080,
     height = 1920,
     fps = 30,
-    highlightSec = 11.2,
     fadeSec = 0.3,
     sampleRate = 44100,
     titleFontPath,
@@ -534,10 +382,12 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
 
   for (let i = 0; i < n; i++) {
     const rawCaption = titleInfos[i].caption;
-    const wrappedCaption = wrapText(`${titleInfos[i].index}. ${rawCaption}`, 18);
-    const safeCaption = wrappedCaption.replace(/'/g, "'\\\\\\''").replace(/:/g, "\\:");
+    const safeCaption = `${titleInfos[i].index}. ${rawCaption}`
+      .replace(/'/g, "'\\\\\\''")
+      .replace(/:/g, "\\\\:"); // drawtext 콜론 탈출 강화
     const fontPath = titleFontPath.replace(/\\/g, '/');
-    const fadeOutStart = (highlightSec - fadeSec).toFixed(1);
+    const currentDur = durations[i] || 10.0; // 해당 클립의 동적 길이 사용
+    const fadeOutStart = (currentDur - fadeSec).toFixed(1);
 
     // --- [1번 해결: 애니메이션 수식 설계] ---
     const moveStart = 0.8;
@@ -558,10 +408,16 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     let vFilter = `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p`;
 
     // 암전 레이어 (애니메이션에 맞춰 딤 처리)
-    vFilter += `,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
-    vFilter += `,drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t,${moveEnd})'`;
+    vFilter += `,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
+
+    // 2) [수정] 1.2초 후 배경 박스 위치를 텍스트 위치(180)에 맞춤
+    // 박스 높이가 220이므로 y=130 정도면 y=180인 텍스트의 위아래를 적절히 감쌉니다.
+    const boxY = 130;
+    const boxHeight = 220;
+    vFilter += `,drawbox=y=${boxY}:color=black@0.6:width=iw:height=${boxHeight}:t=fill:enable='gt(t,${moveEnd})'`;
 
     // 텍스트 필터 (애니메이션 적용)
+    // 3) 텍스트 정중앙 배치 (drawtext 부분)
     vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:`;
     vFilter += `fontsize='${animFS}':line_spacing=15:`;
     vFilter += `x=(w-text_w)/2:y='${animY}':expansion=none`;
@@ -569,23 +425,22 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     vFilter += `,fade=t=out:st=${fadeOutStart}:d=${fadeSec}[v${i}]`;
     filters.push(vFilter);
 
-    // --- [4번 해결: 사운드 페이드인 조정] ---
-   // --- [오디오 필터 고도화] ---
+    // --- [오디오 필터 고도화] ---
     // i: 하이라이트 오디오 인덱스, n+i: TTS 오디오 인덱스
     let aFilter = `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo`;
-    
+
     // 1. 하이라이트 배경음 처리 (0.8초까지 20% 볼륨, 이후 페이드인)
     aFilter += `,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5`;
-    
+
     // 2. TTS와 믹싱 (amix)
-    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다.
-    // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다.
+    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다. 속도 x1.2배: atempo=1.2
+    // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다. 100|100 -> 왼쪽 오른쪽 
     const ttsIndex = n + i;
-    const ttsFilter = `[${ttsIndex}:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
+    const ttsFilter = `[${ttsIndex}:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
     filters.push(ttsFilter);
 
     aFilter += `[bg${i}];[bg${i}][tts${i}]amix=inputs=2:duration=first:dropout_transition=2`;
-    
+
     // 3. 최종 페이드 아웃
     aFilter += `,afade=t=out:st=${fadeOutStart}:d=${fadeSec}[a${i}]`;
 
@@ -612,3 +467,27 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
   console.log(`[${slotID}] 🚀 고도화 V2: 슬라이딩 애니메이션 & 사운드 믹스 적용`);
   await exec(cmd);
 }
+
+
+/**
+ * [신규] 자막 다운로드 (yt-dlp 활용)
+ */
+export async function downloadSubtitles(videoId, outDir) {
+  const subPath = path.join(outDir, `${videoId}.ko.srt`);
+  if (existsSync(subPath)) return subPath;
+
+  const cookiesAbs = getCookiesPath();
+  const cookiesArg = cookiesAbs ? `--cookies "${cookiesAbs}"` : "";
+
+  // --write-auto-subs: 자동 자막, --convert-subs srt: SRT 변환
+  const cmd = `yt-dlp ${cookiesArg} --write-auto-subs --sub-lang ko --convert-subs srt --skip-download -o "${path.join(outDir, videoId)}" "https://www.youtube.com/watch?v=${videoId}"`;
+
+  try {
+    await exec(cmd);
+    return existsSync(subPath) ? subPath : null;
+  } catch (err) {
+    console.warn(`[videoEdit] 자막 다운로드 실패 (자막이 없을 수 있음): ${err.message}`);
+    return null;
+  }
+}
+

@@ -15,13 +15,14 @@ import { generateTtsFiles } from "../audio/tts.service.js";
 import {
   ensureDir,
   downloadVideoIfNeeded,
-  cutLastSecondsIfNeeded,
   mergeHighlightsWithIntegratedTitles,
+  downloadSubtitles,
+  getSmartHighlightTimestamps,
+  cutSmartHighlight
 } from "../video/videoEdit.service_Demo.js";
 import llm from "../llm/llm.js";
 import { resolveAssetPath, writeJsonAtomic } from "./utils.js";
 
-const signatureImagePath = resolveAssetPath("5토끼_유튜브 프로필.png");
 const titleFontPath = resolveAssetPath("memomentKkukkkuk.ttf");
 
 /**
@@ -122,28 +123,46 @@ const server = http.createServer(async (req, res) => {
       // 1) 소스 결정 및 다운로드
       console.log(`[${slotID}] Step 1: 비디오 소스 다운로드 및 로컬 확인 중...`);
       const selectedSources = await resolveSelectedSources({ workDir, bodySources });
-      if (selectedSources.length < 4) {
-        throw new Error("사용 가능한 소스 영상이 4개 미만입니다.");
+      // [수정] 소스가 없는데 강행하면 undefined[0] 에러가 발생하므로 여기서 차단
+      if (!selectedSources || selectedSources.length < 1) {
+        console.error(`[${slotID}] 에러: 소스 영상이 없습니다.`);
+        return sendJson(res, 400, { ok: false, error: "No source videos found." });
+      }
+      else if (selectedSources.length < 3) {
+        throw new Error(`사용 가능한 소스 영상이 부족합니다. (현재: ${selectedSources.length}개)`);
       }
 
       const inputFiles = [];
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < selectedSources.length; i++) {
         const s = selectedSources[i];
         const localPath = await downloadVideoIfNeeded({ videoId: s.videoId, outDir: inputsDir });
         inputFiles.push({ ...s, inputPath: localPath });
       }
+      const videoCount = inputFiles.length; // 동적 개수 확보
 
       // 2) 하이라이트 추출
-      console.log(`[${slotID}] Step 2: 10초 하이라이트 컷팅 시작...`);
+      console.log(`[${slotID}] Step 2: Gemini 시맨틱 분석 및 하이라이트 컷팅 시작 (총 ${videoCount}개)...`);
       const highlightPaths = [];
-      for (let i = 0; i < 4; i++) {
+      const highlightDurations = []; // [신규] 동적 길이를 담을 배열 선언
+
+      for (let i = 0; i < videoCount; i++) {
+        const source = inputFiles[i];
         const outPath = path.join(outputsDir, `highlight_${i + 1}.mp4`);
-        await cutLastSecondsIfNeeded({
-          inputPath: inputFiles[i].inputPath,
+
+        const subPath = await downloadSubtitles(source.videoId, inputsDir);
+        const analysis = await getSmartHighlightTimestamps(subPath); // Gemini 분석
+
+        const actualDuration = analysis?.duration || HIGHLIGHT_SECOND; // 분석 결과가 없으면 기본값(11.2) 사용
+
+        await cutSmartHighlight({
+          inputPath: source.inputPath,
           outputPath: outPath,
-          seconds: HIGHLIGHT_SECOND,
+          startTime: analysis?.startTime,
+          duration: actualDuration,
         });
+
         highlightPaths.push(outPath);
+        highlightDurations.push(actualDuration); // [추가] 각 하이라이트의 실제 길이를 저장
       }
 
       // 3) LLM: 캡션 및 메타데이터 생성
@@ -156,11 +175,11 @@ const server = http.createServer(async (req, res) => {
           description: v.description,
         })),
         task: [
-          `참조 영상 4개의 제목/설명을 바탕으로, 각 클립 시작 전 타이틀 카드에 넣을 ${targetLanguage} caption 4개를 만들어라(각 1~6단어).`,
+          `참조 영상 ${videoCount}개의 제목/설명을 바탕으로, 각 클립 시작 전 타이틀 카드에 넣을 ${targetLanguage} caption ${videoCount}개를 만들어라(각 1~6단어).`,
           `또한 최종 업로드용 ${targetLanguage} 제목(40자 이내), 설명(2~3문장), tags 배열(5~10개)을 만들어라.`,
           `캡션은 자극적이고 키치한 ${targetLanguage} 후킹 문구로 작성하라(어그로 허용).`,
           "문장보다 명사구(noun phrase) 형태를 권장한다.",
-          "각 캡션은 4단어 이하를 권장한다(최대 6단어).",
+          "각 캡션은 4단어 이하를 권장한다(최대 6단어, 공백포함 20자).",
           "대주제(topic)를 그대로 반복하지 말고, 각 영상 고유의 특징을 반영하라.",
           `반드시 모든 텍스트 결과물은 ${targetLanguage}로 작성해야 한다.`, // 강제성 추가
           "잡담/설명/마크다운 없이 outputFormat에 맞는 JSON만 반환하라.",
@@ -173,7 +192,8 @@ const server = http.createServer(async (req, res) => {
 
       let uploadMeta;
       let captions;
-      const fallbackCaptions = ["WOW", "NO WAY", "INSANE", "MUST WATCH"];
+      const defaultCaptions = ["WOW", "NO WAY", "INSANE", "UNREAL", "AMAZING", "LEGEND"]; //향후 그냥 에러로 처리
+      const fallbackCaptions = defaultCaptions.slice(0, inputFiles.length);
 
       try {
         console.log(`[${slotID}] LLM 메타데이터 생성 및 시작...✍️`);
@@ -229,6 +249,8 @@ const server = http.createServer(async (req, res) => {
       await mergeHighlightsWithIntegratedTitles({
         slotID,
         highlightPaths,      // 이미 추출된 11.2초 하이라이트 파일들의 경로 배열
+        highlightDurations,
+        durations: highlightDurations,
         titleInfos,          // 방금 만든 {index, caption} 배열
         outputPath: finalOut,
         highlightSec: HIGHLIGHT_SECOND,

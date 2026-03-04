@@ -1,0 +1,885 @@
+{
+  "runId": "2026-02-25",
+  "date": "2026-02-25",
+  "createdAt": "2026-02-25T02:50:02.059Z",
+  "updatedAt": "2026-02-25T03:00:35.945Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "노래",
+          "노래 모음",
+          "asmr",
+          "뉴스",
+          "플레이 리스트",
+          "노래방",
+          "뱅뱅",
+          "레이디 두아",
+          "핑계 고",
+          "라이벌",
+          "한로 로",
+          "브이 로그",
+          "민와 와",
+          "이혼 숙려 캠프",
+          "잠뜰",
+          "손흥 민 메시",
+          "먹방",
+          "백색 소음",
+          "쇼트 트랙 여자 계주",
+          "파반느",
+          "런닝 맨"
+        ],
+        "updatedAt": "2026-02-25T02:50:13.976Z",
+        "assignedKeywords": [
+          "노래",
+          "노래 모음",
+          "asmr",
+          "뉴스"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "노래",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "트로트 경연 인기곡",
+                "tags": [
+                  "현역가왕3",
+                  "빈예서노래",
+                  "김태연",
+                  "트로트",
+                  "트로트메들리",
+                  "무대영상",
+                  "라이브가수"
+                ]
+              },
+              {
+                "name": "AI 생성 음악/뮤비",
+                "tags": [
+                  "AI노래",
+                  "AI뮤직비디오",
+                  "AI음악",
+                  "SunoAI",
+                  "생성형AI",
+                  "AI Cover",
+                  "AIMV"
+                ]
+              },
+              {
+                "name": "감성 플레이리스트",
+                "tags": [
+                  "플레이리스트",
+                  "노래모음",
+                  "감성 발라드",
+                  "음악추천",
+                  "광고없음",
+                  "하루종일듣기좋은노래",
+                  "위로곡"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "노래 현역가왕3 빈예서 -AI노래 -플레이리스트",
+                "theme": "현재 인기 있는 트로트 경연 프로그램 및 출연 가수의 화제성 높은 노래를 찾는 사용자.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "노래 현역가왕3 빈예서 -AI노래 -플레이리스트",
+          "selectedTheme": "현재 인기 있는 트로트 경연 프로그램 및 출연 가수의 화제성 높은 노래를 찾는 사용자.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Bi9fIJZJgwA",
+              "title": "현역가왕3 11회 예고 빈예서 신곡 쫌쫌 노래유출",
+              "channelTitle": "밤작가tv",
+              "predicted7d": 277710
+            },
+            {
+              "videoId": "5jjLbsvEJ9A",
+              "title": "아버지의강 - 빈예서  모나미tv",
+              "channelTitle": "모나미 tv",
+              "predicted7d": 163075
+            },
+            {
+              "videoId": "j88FgZf8ZEw",
+              "title": "[빈예서 - 유랑청춘] #빈예서 #유랑청춘 #현역가왕3 #트로트 #kpop #내사랑이야 #쇼츠 #트롯 #한일톱텐쇼 #song #노래 #shorts #음악 #music",
+              "channelTitle": "국악트롯 소릿길TV",
+              "predicted7d": 135392
+            },
+            {
+              "videoId": "iiZj6aIAhko",
+              "title": "빈예서 준결승전 5위로 결승전 진출:'유랑청춘'(원곡 송해,작곡 신재동:전국노래자랑 악단장)",
+              "channelTitle": "트롯무대",
+              "predicted7d": 104071
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-25/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "빈예서 AI도 놀란 현역가왕3 무대 TOP",
+            "description": "2026-02-25_KR_1\n현역가왕3 빈예서의 레전드 무대들을 한 번에 만나보세요! AI도 감탄할 빈예서의 폭발적인 가창력과 감동적인 퍼포먼스를 놓치지 마세요. 그녀의 신곡 유출부터 결승 진출까지, 모든 순간을 담았습니다.",
+            "tags": [
+              "#빈예서",
+              "#현역가왕3",
+              "#유랑청춘",
+              "#아버지의강",
+              "#신곡유출",
+              "#AI노래",
+              "#트로트",
+              "#쇼츠",
+              "#레전드무대",
+              "#결승진출"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "e4PSGrx6qPs"
+          },
+          "updatedAt": "2026-02-25T02:51:10.848Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "뉴스",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "실시간/속보 및 주요 방송사 뉴스",
+                "tags": [
+                  "뉴스",
+                  "실시간",
+                  "뉴스속보",
+                  "MBC뉴스",
+                  "뉴스데스크",
+                  "SBS뉴스",
+                  "KBS"
+                ]
+              },
+              {
+                "name": "심층 분석 및 특정 이슈/정치 뉴스",
+                "tags": [
+                  "시사",
+                  "정치",
+                  "이슈",
+                  "선거",
+                  "윤석열",
+                  "더불어민주당",
+                  "주식",
+                  "경제방송"
+                ]
+              },
+              {
+                "name": "특정 방송사 프로그램 및 라디오 뉴스",
+                "tags": [
+                  "채널A 뉴스",
+                  "뉴스A",
+                  "라디오",
+                  "MBC라디오",
+                  "뉴스투데이",
+                  "930뉴스",
+                  "12시뉴스"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "뉴스 실시간 뉴스속보 MBC뉴스 -시사 -정치 -채널A -라디오",
+                "theme": "최신 속보 및 주요 방송사의 실시간 뉴스 업데이트",
+                "status": "FAIL",
+                "reason": "쇼츠 개수 부족 (적합: 1개 / 최소: 3개)"
+              },
+              {
+                "q": "뉴스 시사 정치 이슈 -실시간 -뉴스속보 -MBC뉴스 -채널A -라디오",
+                "theme": "정치, 사회 현안에 대한 심층 분석 및 논평",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "뉴스 시사 정치 이슈 -실시간 -뉴스속보 -MBC뉴스 -채널A -라디오",
+          "selectedTheme": "정치, 사회 현안에 대한 심층 분석 및 논평",
+          "selectedSourceVideos": [
+            {
+              "videoId": "OTCTUJk_szI",
+              "title": "신인규! “정청래, 뉴이재명 현상엔 관심 없다!?",
+              "channelTitle": "이송원TV",
+              "predicted7d": 138674
+            },
+            {
+              "videoId": "UdfBF7Davic",
+              "title": "흑백요리사 셰프가 차린 대통령 만찬의 진짜 의미 #shorts",
+              "channelTitle": "시사뉴스모음e",
+              "predicted7d": 158896
+            },
+            {
+              "videoId": "uYL3plPRfas",
+              "title": "리튬 확보전 본격화 💥 남미 공급망 잡는다 #shortsnews #뉴스 #이슈 #쇼츠뉴스 #1분뉴스",
+              "channelTitle": "1분요약소",
+              "predicted7d": 52151
+            },
+            {
+              "videoId": "pBxM7WEWvFU",
+              "title": "미군이 사과했다고 거짓말까지 하는 이재명 정부",
+              "channelTitle": "한민규의 이슈분석",
+              "predicted7d": 88550
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-25/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "실시간 정치 뉴스! 이재명, 리튬, 만찬 속 숨겨진 진실은?",
+            "description": "2026-02-25_KR_2\n정치권의 뜨거운 감자, 이재명 대표를 둘러싼 논란부터 글로벌 리튬 확보전의 숨겨진 이야기까지! 놓치지 말아야 할 실시간 시사 이슈들을 지금 바로 확인하세요.",
+            "tags": [
+              "뉴스",
+              "시사",
+              "정치",
+              "이슈",
+              "실시간뉴스",
+              "이재명",
+              "정청래",
+              "리튬",
+              "대통령만찬",
+              "거짓말논란"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "6yqnDX5yBQc"
+          },
+          "updatedAt": "2026-02-25T02:52:36.381Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-25T02:52:36.389Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "nba youngboy",
+          "karaoke",
+          "lego",
+          "kill tony",
+          "winter olympics 2026",
+          "katseye",
+          "funk",
+          "funny",
+          "kpop demon hunters",
+          "white noise",
+          "fnaf",
+          "paw patrol",
+          "chris brown",
+          "ryan garcia vs mario barrios",
+          "poppy playtime chapter 5",
+          "peppa pig",
+          "usa vs canada hockey",
+          "techy",
+          "caylus",
+          "67",
+          "el mencho",
+          "songs"
+        ],
+        "updatedAt": "2026-02-25T02:52:59.474Z",
+        "assignedKeywords": [
+          "nba youngboy",
+          "karaoke",
+          "lego",
+          "kill tony",
+          "winter olympics 2026"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "originalKeyword": "lego",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "LEGO MOCs & Advanced Building Techniques",
+                "tags": [
+                  "lego moc",
+                  "lego custom build",
+                  "lego upgrade",
+                  "lego modification",
+                  "lego build guide",
+                  "lego tutorial",
+                  "lego how to build",
+                  "lego mech moc",
+                  "lego ninjago moc",
+                  "lego articulation",
+                  "lego moc tutorial",
+                  "ninjago mech moc",
+                  "lego mech upgrade",
+                  "best lego mech"
+                ]
+              },
+              {
+                "name": "LEGO Ninjago New Sets & Reviews",
+                "tags": [
+                  "lego ninjago",
+                  "lego ninjago 2025",
+                  "lego ninjago mech",
+                  "lego ninjago review",
+                  "lego cole",
+                  "cole ninjago",
+                  "lego cole mission mech",
+                  "ninjago cole mech",
+                  "cole earth mech",
+                  "lego earth mech",
+                  "lego ninjago fans",
+                  "lego review",
+                  "set",
+                  "sets"
+                ]
+              },
+              {
+                "name": "LEGO ASMR & Satisfying Shorts",
+                "tags": [
+                  "Lego ASMR",
+                  "Satisfying Sounds",
+                  "Oddly Satisfying",
+                  "Macro ASMR",
+                  "Relaxing Sounds",
+                  "No Talking ASMR",
+                  "Lego Sorting",
+                  "asmr",
+                  "satisfying",
+                  "extremesatisfying",
+                  "oddlysatisfying",
+                  "crunchysounds",
+                  "brickcrunch",
+                  "cleanbreak",
+                  "legodestruction",
+                  "legoexplode",
+                  "perfectcrunch",
+                  "cleanbreaks",
+                  "shorts",
+                  "youtubeshorts",
+                  "viralshorts",
+                  "viralvideo",
+                  "4kshorts",
+                  "loopvideo",
+                  "endlessloop",
+                  "watchtillend",
+                  "watchagain",
+                  "repeatloop",
+                  "cinematic",
+                  "highquality",
+                  "cleanvisuals"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "lego MOC custom build tutorial -Ninjago -ASMR",
+                "theme": "Targeting creators and enthusiasts interested in original LEGO designs, modifications, and detailed building instructions.",
+                "status": "FAIL",
+                "reason": "쇼츠 개수 부족 (적합: 0개 / 최소: 3개)"
+              },
+              {
+                "q": "lego Ninjago review sets 2025 -MOC -ASMR",
+                "theme": "Focusing on fans of the LEGO Ninjago theme, seeking reviews of new and upcoming official sets.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "lego ASMR satisfying shorts -MOC -Ninjago",
+                "theme": "Capturing audiences interested in sensory LEGO content, including satisfying sounds, destruction, and quick, engaging videos.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "lego ASMR satisfying shorts -MOC -Ninjago",
+          "selectedTheme": "Capturing audiences interested in sensory LEGO content, including satisfying sounds, destruction, and quick, engaging videos.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "0jiEHDcY-xk",
+              "title": "Satisfying Green Lego Brick Chocolate ASMR #DoctorTristanPeh #ASMR",
+              "channelTitle": "Doctor Tristan Peh",
+              "predicted7d": 80038
+            },
+            {
+              "videoId": "GnJ1Q5lOfZ0",
+              "title": "Purple BMW LEGO Steering Wheel – EXTREME Satisfying ASMR 💜🧱🔥",
+              "channelTitle": "MegaPress",
+              "predicted7d": 464898
+            },
+            {
+              "videoId": "9DhRZpI6a2M",
+              "title": "Orange & Blue BMW LEGO Steering Wheel – EXTREME Satisfying ASMR 🧡💙🧱🔥",
+              "channelTitle": "MegaPress",
+              "predicted7d": 62861
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "winter olympics 2026",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Official Event & Host City Details",
+                "tags": [
+                  "milan cortina olympics",
+                  "2026 winter olympics milan",
+                  "Milano Cortina 2026",
+                  "Milano Cortina Olympics",
+                  "Italy Winter Olympics",
+                  "Italian Alps",
+                  "Olympic venues",
+                  "Milan Cortina Closing Ceremony",
+                  "Closing Ceremony",
+                  "Olympic closing ceremony",
+                  "opening ceremony"
+                ]
+              },
+              {
+                "name": "Athlete Performance & Sport Highlights",
+                "tags": [
+                  "Winter Olympics highlights",
+                  "Olympic highlights",
+                  "Olympic moments",
+                  "Olympic athletes",
+                  "Winter sports",
+                  "Alpine skiing",
+                  "Figure skating",
+                  "Ice hockey",
+                  "Curling",
+                  "Bobsleigh",
+                  "team usa olympics",
+                  "Ilia Malinin",
+                  "Alysa Liu",
+                  "usa hockey",
+                  "team usa figure skating",
+                  "hockey highlights",
+                  "olympic hockey",
+                  "2026 winter olympics hockey"
+                ]
+              },
+              {
+                "name": "Media Coverage & News Updates",
+                "tags": [
+                  "NBC Sports",
+                  "sports news",
+                  "NBC",
+                  "Olympic controversies",
+                  "Olympic scandals",
+                  "live sports",
+                  "live streaming",
+                  "Global sports event"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "winter olympics 2026 \"Milano Cortina\" venues ceremony -highlights -\"NBC Sports\"",
+                "theme": "Targeting users seeking official information, host city details, and event ceremonies for the 2026 Winter Olympics.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소: 3개)"
+              },
+              {
+                "q": "winter olympics 2026 highlights athletes figure skating|hockey -\"Milano Cortina\" -\"NBC Sports\"",
+                "theme": "Focusing on competitive action, athlete performances, and memorable moments from specific sports at the 2026 Winter Olympics.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "winter olympics 2026 highlights athletes figure skating|hockey -\"Milano Cortina\" -\"NBC Sports\"",
+          "selectedTheme": "Focusing on competitive action, athlete performances, and memorable moments from specific sports at the 2026 Winter Olympics.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "zyWY3N54XEk",
+              "title": "Peewee hockey stops games to celebrate TEAM USA 🇺🇸🏒 #shorts",
+              "channelTitle": "MaxPreps",
+              "predicted7d": 181241
+            },
+            {
+              "videoId": "QSVJQW1Cgbo",
+              "title": "At Age 20, Alysa Liu JUST PROVED You Don't Have To Suffer To Be An Olympic Champion!",
+              "channelTitle": "CloudSports",
+              "predicted7d": 57012
+            },
+            {
+              "videoId": "K9DzJsg75oA",
+              "title": "Jack Hughes Lost His TEETH for Olympic Gold #JackHughes#WinterOlympics #shorts #viral #trending",
+              "channelTitle": "Pomi cric",
+              "predicted7d": 48174
+            },
+            {
+              "videoId": "woJeXs17708",
+              "title": "Horror moment Winter Olympics skater left covered in blood after being sliced by opponent’s blade",
+              "channelTitle": "The Sun",
+              "predicted7d": 159138
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-25/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Winter Olympics: Ice, Blood & Glory!",
+            "description": "2026-02-25_US_2\nExperience the raw intensity of Winter Olympics 2026! From breathtaking figure skating to brutal hockey moments, witness the athletes' ultimate sacrifices for glory. Don't miss these unforgettable highlights!",
+            "tags": [
+              "WinterOlympics",
+              "Olympics2026",
+              "FigureSkating",
+              "IceHockey",
+              "AthleteHighlights",
+              "OlympicMoments",
+              "SportsShorts",
+              "ViralSports",
+              "GoldMedal",
+              "ExtremeSports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ov1ivfeVV_Q"
+          },
+          "updatedAt": "2026-02-25T02:55:08.008Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-25T02:55:08.016Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "peliculas completas en español latino",
+          "josé josé",
+          "peliculas",
+          "videos",
+          "amor",
+          "videos de risa",
+          "fede vigevani",
+          "makabelico",
+          "grupo firme",
+          "plim plim",
+          "musica",
+          "tiktok",
+          "la llorona",
+          "karol g",
+          "la rosa de guadalupe",
+          "fuerza regida",
+          "musica para dormir bebes",
+          "peliculas de terror",
+          "toy story 5",
+          "junior h"
+        ],
+        "updatedAt": "2026-02-25T02:55:21.937Z",
+        "assignedKeywords": [
+          "peliculas completas en español latino",
+          "josé josé",
+          "peliculas",
+          "videos",
+          "amor",
+          "videos de risa",
+          "fede vigevani",
+          "makabelico",
+          "grupo firme",
+          "plim plim",
+          "musica"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "videos de risa",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Desafíos de Risa",
+                "tags": [
+                  "si te ries pierdes",
+                  "si te ries pierdes nivel dios",
+                  "si te ries pierdes nivel extremo",
+                  "si te ries pierdes nivel supremo",
+                  "imposible no reírse",
+                  "si te ríes",
+                  "risa asegurada"
+                ]
+              },
+              {
+                "name": "Memes y Compilaciones Virales",
+                "tags": [
+                  "memes",
+                  "memes mexicanos",
+                  "humor latino",
+                  "videos virales",
+                  "los mejores memes",
+                  "comedia",
+                  "chistes",
+                  "risas",
+                  "humor",
+                  "momos"
+                ]
+              },
+              {
+                "name": "Humor Corto y Divertido",
+                "tags": [
+                  "shorts graciosos",
+                  "TikTok funny",
+                  "YouTube Shorts",
+                  "fails graciosos",
+                  "perros graciosos",
+                  "Gatos graciosos",
+                  "videos divertidos",
+                  "animales graciosos",
+                  "videos de risa de animales",
+                  "mascotas graciosas",
+                  "caídas graciosas"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "videos de risa si te ries pierdes imposible no reírse nivel dios -memes -shorts",
+                "theme": "Videos interactivos donde el espectador intenta no reírse, a menudo con niveles de dificultad y desafíos específicos.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "videos de risa si te ries pierdes imposible no reírse nivel dios -memes -shorts",
+          "selectedTheme": "Videos interactivos donde el espectador intenta no reírse, a menudo con niveles de dificultad y desafíos específicos.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "94dfKqRyn1s",
+              "title": "SI TE RÍES PIERDES NIVEL DIOS 🤣 [999.99 IMPOSIBLE NO REÍRSE] 🤯 Videos De Risa Muy Graciosos",
+              "channelTitle": "Daniela Sabrosita",
+              "predicted7d": 95013
+            },
+            {
+              "videoId": "4b0sPHJ5q2k",
+              "title": "SI TE RÍES PIERDES NIVEL DIOS 🤣 [999.99 IMPOSIBLE NO REÍRSE] 🤯 Videos De Risa Muy Graciosos",
+              "channelTitle": "Daniela Sabrosita",
+              "predicted7d": 64568
+            },
+            {
+              "videoId": "oSfJ-YmHckw",
+              "title": "SI TE RÍES PIERDES NIVEL DIOS 🤣 [999.99 IMPOSIBLE NO REÍRSE] 🤯 Videos De Risa Muy Graciosos",
+              "channelTitle": "+HUMOR",
+              "predicted7d": 60022
+            },
+            {
+              "videoId": "ziTnBAHR65E",
+              "title": "SI TE RÍES PIERDES NIVEL DIOS 🤣 [999.99 IMPOSIBLE NO REÍRSE] 🤯 Videos De Risa Muy Graciosos",
+              "channelTitle": "+HUMOR",
+              "predicted7d": 31154
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-25/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "SI TE RÍES PIERDES NIVEL DIOS 🤣 ¡Imposible!",
+            "description": "2026-02-25_MX_1\n¿Podrás aguantar la risa? Te desafiamos con los memes más graciosos y videos de risa nivel dios. ¡Si te ríes, pierdes! Demuestra que eres invencible.",
+            "tags": [
+              "videos de risa",
+              "si te ries pierdes",
+              "memes graciosos",
+              "humor",
+              "shorts",
+              "videos virales",
+              "reto de risa",
+              "imposible no reírse",
+              "nivel dios",
+              "comedia"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "SNBgnbVdpCY"
+          },
+          "updatedAt": "2026-02-25T02:58:25.677Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "musica",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Música Romántica y Pop Latino",
+                "tags": [
+                  "baladas romanticas",
+                  "musica romantica",
+                  "viejitas pero bonitas",
+                  "romantica",
+                  "pop en español",
+                  "pop baladas",
+                  "pop latino",
+                  "EXITOS Romanticos",
+                  "baladas romanticas en español",
+                  "musica pop en español",
+                  "pop baladas en español",
+                  "latin pop",
+                  "baladas",
+                  "mejores baladas",
+                  "latin pop de oro",
+                  "latin pop éxitos",
+                  "roberto carlos exitos",
+                  "GRANDES ÉXITOS INOLVIDABLES",
+                  "camilo seso"
+                ]
+              },
+              {
+                "name": "Música Regional Mexicana y Banda",
+                "tags": [
+                  "musica de banda",
+                  "banda musica",
+                  "banda romantica",
+                  "carin leon",
+                  "banda lo mas nuevo",
+                  "banda lo mas sonadas",
+                  "banda lo mas romantico",
+                  "lo mejor de banda",
+                  "banda mix",
+                  "banda ms",
+                  "bandas romanticas",
+                  "la adictiva",
+                  "la arrolladora",
+                  "calibre 50",
+                  "banda Mexicana",
+                  "mix de bandas",
+                  "banda el recodo",
+                  "banda",
+                  "julión Álvarez",
+                  "bandas mix",
+                  "lo mejor banda romanticas",
+                  "bandas",
+                  "gerardo Ortiz",
+                  "alfredo olivas",
+                  "grupo firme",
+                  "mix banda",
+                  "christian nodal",
+                  "banda el limon",
+                  "grupo frontera",
+                  "banda romantica mix",
+                  "mix bandas",
+                  "musica banda",
+                  "#Corridos"
+                ]
+              },
+              {
+                "name": "Música Tropical y Bachata",
+                "tags": [
+                  "tropical",
+                  "bachata",
+                  "romeo santos",
+                  "merengue",
+                  "salsa",
+                  "aventura",
+                  "todavía me amas",
+                  "lo mejor de aventura",
+                  "mejores canciones de aventura",
+                  "aventura el perdedor",
+                  "aventura obsesion",
+                  "aventura la boda",
+                  "aventura mix 2025 - mejor colección de canciones de aventura - mix bachatas 2025",
+                  "tropicales de siempre",
+                  "tropicales del momento"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "musica baladas romanticas pop latino -banda -bachata",
+                "theme": "Explora las baladas románticas y el pop latino más populares y atemporales para el público hispanohablante.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개 / 최소: 3개)"
+              },
+              {
+                "q": "musica banda regional mexicana corridos -baladas -tropical",
+                "theme": "Descubre los éxitos más recientes y clásicos de la música regional mexicana y banda, incluyendo corridos y artistas populares.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "musica banda regional mexicana corridos -baladas -tropical",
+          "selectedTheme": "Descubre los éxitos más recientes y clásicos de la música regional mexicana y banda, incluyendo corridos y artistas populares.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Vbir9awCy8s",
+              "title": "Jesús Mendoza x Luis Coronel - Murío Mi Padre #fyp #jesusmendoza #luiscoronel",
+              "channelTitle": "Musica de Arranque (Suscribete)",
+              "predicted7d": 346511
+            },
+            {
+              "videoId": "DSZHCZJ842A",
+              "title": "Jesús Mendoza x Hugo Navarro - La Korita #fyp #jesusmendoza",
+              "channelTitle": "Musica de Arranque (Suscribete)",
+              "predicted7d": 295946
+            },
+            {
+              "videoId": "lwF7V3vWi2Y",
+              "title": "No Les Importa Lo Que Digan 😳🔥#natanaelcano #gabitoballesteros",
+              "channelTitle": "El F Music",
+              "predicted7d": 174407
+            },
+            {
+              "videoId": "ObO6n0ube60",
+              "title": "Me hiciste sentir... #tusmentiras #moybobadilla #corridos_bandamx #corridosybanda #corridosvip",
+              "channelTitle": "RU Music",
+              "predicted7d": 128876
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-25/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Corridos y Baladas: ¡Pura Pasión!",
+            "description": "2026-02-25_MX_2\nSumérgete en la pasión del regional mexicano con los corridos más intensos y las baladas que tocan el alma. Una selección explosiva de música que te hará vibrar. ¡Descubre tus nuevos favoritos!",
+            "tags": [
+              "Corridos",
+              "RegionalMexicano",
+              "Baladas",
+              "MusicaMexicana",
+              "Shorts",
+              "JesusMendoza",
+              "NatanaelCano",
+              "CorridosTumbados",
+              "Banda",
+              "Musica"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "IK2uTUCBz2k"
+          },
+          "updatedAt": "2026-02-25T03:00:35.934Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-25T03:00:35.943Z"
+    }
+  },
+  "finishedAt": "2026-02-25T03:00:35.945Z"
+}

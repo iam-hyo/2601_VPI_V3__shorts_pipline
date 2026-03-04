@@ -73,10 +73,16 @@ export class ValidationService {
     }
 
     if (scored.length < VALIDATION.minQualifiedVideos) {
-      return { ok: false, reason: `조회수 조건 미달 (조건만족: ${scored.length}개 / 최소: ${VALIDATION.minQualifiedVideos}개)` };
+      return { ok: false, reason: `조회수 조건 미달 (조건만족: ${scored.length}개 / 최소 필요: ${VALIDATION.minQualifiedVideos}개)` };
     }
 
     scored.sort((a, b) => b.delta - a.delta);
-    return { ok: true, videos: scored.slice(0, VALIDATION.topK) };
+    const finalVideos = scored.slice(0, VALIDATION.targetVideoCount);
+
+    return {
+      ok: true,
+      videos: finalVideos,
+      count: finalVideos.length // 실제 담긴 개수를 명시적으로 전달
+    };
   }
 }

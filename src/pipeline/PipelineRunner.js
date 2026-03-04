@@ -161,6 +161,7 @@ export class PipelineRunner {
       return;
     }
 
+    rs.assignedKeywords = rs.assignedKeywords || [];
     const job = rs.videos.find((v) => v.slot === slot);
     if (!job) {
       console.error(`❌ [${slotID}] slot(${slot})에 해당하는 job을 찾을 수 없습니다.`);
@@ -172,7 +173,7 @@ export class PipelineRunner {
       log.info({ slotID }, `👌 [${slotID}] 이미 제작-업로드 완료(DONE) 상태입니다. 종료합니다.`);
       return;
     }
-
+    
     // 작업 디렉토리는 "재시도/재실행"에서도 동일해야 하므로 초반에 고정 생성
     const workDir = path.join(
       this.paths.workDir,
@@ -222,12 +223,7 @@ export class PipelineRunner {
         return;
       }
 
-      // "점유중 키워드" 계산: 재시도 관점에서 현재 slot의 키워드는 제외하는 게 안전함
-      // (현재 job이 ERROR 상태로 재실행되는데 assignedKeywords에 본인 키워드가 남아있으면 영구 점유처럼 동작 가능)
-      const assignedKeywords = rs.videos
-        .filter((v) => v.slot !== slot) // ✅ 현재 slot 제외
-        .map((v) => v.keyword)
-        .filter((k) => k != null);
+      const excludeList = rs.assignedKeywords.filter(k => k !== job.originalKeyword); // 이번 슬롯에서 제외할 키워드 목록 (다른 슬롯에 이미 할당된 키워드 + 이번 슬롯의 기존 원본 키워드)
 
       // 실행 상태 마킹
       job.status = "RUNNING";
@@ -235,7 +231,7 @@ export class PipelineRunner {
 
       // [외곽 루프] 트렌드 키워드 순회
       for (const rawKeyword of keywords) {
-        if (assignedKeywords.includes(rawKeyword)) continue;
+        if (excludeList.includes(rawKeyword)) continue; // 이미 다른 슬롯에 할당된 키워드는 건너뜀
 
         log.info(`[${slotID}] 트렌드 '${rawKeyword}'에 대한 QE 및 검증 시작`);
 
@@ -290,14 +286,37 @@ export class PipelineRunner {
           }
 
           // 분석 데이터와 검증 이력을 함께 저장 (디버깅 핵심 데이터)
-          job.originalKeyword = picked.originalKeyword; // 처음에 제시된 원본 트렌드 (예: '2026 동계올림픽')
           job.queryEngineering = {
             ...analysis,
             validationHistory
           };
           this.save(state);
 
-          if (picked) break; // 적합한 쿼리 찾았으므로 외곽 루프 탈출
+          if (picked) {
+            job.originalKeyword = picked.originalKeyword;
+            job.keyword = picked.keyword; // 최종 채택된 구체화 쿼리
+            job.queryEngineering = { ...analysis, validationHistory };
+
+            // '성공'한 키워드를 소비 목록에 추가 (중복 방지)
+            if (!rs.assignedKeywords.includes(rawKeyword)) {
+              rs.assignedKeywords.push(rawKeyword);
+            }
+
+            this.save(state);
+            break; // 적합한 쿼리를 찾았으므로 외곽(Keyword) 루프 탈출
+          } else {
+            // [실패] 실패한 키워드도 '소비'된 것으로 간주하여 다시 시도하지 않음
+            if (!rs.assignedKeywords.includes(rawKeyword)) {
+              rs.assignedKeywords.push(rawKeyword);
+            }
+
+            job.queryEngineering = job.queryEngineering || {};
+            job.queryEngineering.lastFailedKeyword = rawKeyword;
+            job.queryEngineering.validationHistory = (job.queryEngineering.validationHistory || []).concat(validationHistory);
+            this.save(state);
+
+            log.warn(`[${slotID}] '${rawKeyword}'의 모든 후보가 탈락하여 소비 목록에 등록하고 다음 트렌드로 이동합니다.`);
+          }
         } catch (err) {
           log.error({ err }, `[${slotID}] '${rawKeyword}' 처리 중 오류 발생, 다음 키워드로 이동`);
         }
@@ -370,7 +389,14 @@ export class PipelineRunner {
         this.save(state);
 
         const vpRes = await withRetry(
-          async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND, region }),
+          async () => this.videoApi.process({
+            workDir,
+            topic: picked.keyword,
+            slotID,
+            HIGHLIGHT_SECOND,
+            region,
+            sources: picked.selectedSourceVideos // 👈 이 부분을 반드시 추가해야 합니다!
+          }),
           `videoApi:${region}:slot${slot}`
         );
 
@@ -395,7 +421,15 @@ export class PipelineRunner {
 
       log.info({ slotID, keyword: picked.keyword }, `🎬 [${slotID}] 비디오 생성 시작`);
       const vpRes = await withRetry(
-        async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND, region }),
+        async () => this.videoApi.process({
+          workDir,
+          topic: picked.keyword,
+          slotID,
+          HIGHLIGHT_SECOND,
+          region,
+          // [수정] 수집된 소스 영상 데이터를 명시적으로 전달
+          sources: job.selectedSourceVideos
+        }),
         `videoApi:${region}:slot${slot}`
       );
 

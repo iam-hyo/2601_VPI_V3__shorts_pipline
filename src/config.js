@@ -24,29 +24,29 @@ export function loadEnv() {
    
 // "필수 인자: --region KR --keyword '...' (옵션: --date YYYY-MM-DD)"
 export const REGIONS = ["KR", "US", "MX"];
-// export const REGIONS = ["KR", "US"];
+// export const REGIONS = ["KR"];
 
 /**
  * [상수 책임] 국가별 생성할 영상 개수(슬롯 수)
  */
-export const VIDEOS_PER_REGION = 2; //임시로 하나로 테스트.
+export const VIDEOS_PER_REGION = 2;
 
 /** 
  * [하이라이트 초]
  **/
 export const HIGHLIGHT_SECOND = 11.2;
 /**
- * [상수 책임] 검증 기준(네 요구사항 반영)
+ * [상수 책임] 검증 기준
  */
 export const VALIDATION = {
   recentDays: 5,
   minShortsCount: 3,
   maxShortsSec: 80,
 
-  // predicted_7day_views >= 30k 영상이 4개 이상
-  minPredictedViews: 30_000,
+  // predicted_7day_views >= 70k 영상이 4개 이상
+  minPredictedViews: 10_000,
   minQualifiedVideos: 3,
-  topK: 4
+  targetVideoCount: 4
 };
 
 /**

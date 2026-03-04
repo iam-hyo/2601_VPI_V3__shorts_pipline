@@ -1,0 +1,692 @@
+{
+  "runId": "2026-02-23",
+  "date": "2026-02-23",
+  "createdAt": "2026-02-23T05:36:41.578Z",
+  "updatedAt": "2026-02-23T06:16:01.863Z",
+  "status": "PENDING",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "쇼트 트랙 여자 계주",
+          "손흥 민 메시",
+          "파피 플레이 타임 5",
+          "김길리",
+          "1 등 들",
+          "유혜 주",
+          "박지훈",
+          "단종",
+          "약한 영웅",
+          "이란",
+          "왕 과 사는 남자",
+          "리쥬 라이크",
+          "봄동 비빔밥",
+          "하츠 투 하츠",
+          "우주 를 줄게",
+          "ufc"
+        ],
+        "updatedAt": "2026-02-23T05:36:58.413Z",
+        "assignedKeywords": [
+          "쇼트 트랙 여자 계주",
+          "손흥 민 메시",
+          "파피 플레이 타임 5"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "손흥 민 메시",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "경기 하이라이트 및 분석",
+                "tags": [
+                  "손흥민",
+                  "메시",
+                  "하이라이트",
+                  "MLS",
+                  "LAFC",
+                  "인터마이애미",
+                  "축구",
+                  "해외축구",
+                  "손흥민 메시",
+                  "손흥민 하이라이트",
+                  "메시침묵",
+                  "MLS 개막전",
+                  "축구하이라이트",
+                  "축구분석",
+                  "MLS하이라이트",
+                  "LAFC 인터마이애미",
+                  "손흥민 메시 경기",
+                  "LAFC 마이애미 하이라이트",
+                  "손흥민 메시 하이라이트"
+                ]
+              },
+              {
+                "name": "선수 관계 및 이슈",
+                "tags": [
+                  "손흥민",
+                  "메시",
+                  "유니폼",
+                  "대화",
+                  "손흥민 메시",
+                  "메시 손흥민",
+                  "손흥민 메시 대화",
+                  "손흥민 유니폼",
+                  "손흥민 유니폼 교환",
+                  "해외반응",
+                  "월드클래스",
+                  "손흥민 인싸력",
+                  "손흥민 케미",
+                  "월드클래스 케미",
+                  "베컴",
+                  "데이비드베컴",
+                  "Rodrigo De Paul",
+                  "로드리고 데 파울",
+                  "데파울",
+                  "수아레즈"
+                ]
+              },
+              {
+                "name": "경기 외적 정보 및 근황",
+                "tags": [
+                  "손흥민",
+                  "메시",
+                  "근황",
+                  "이강인",
+                  "LAFC",
+                  "MLS",
+                  "인터마이애미",
+                  "축구",
+                  "해외축구",
+                  "MLS개막전",
+                  "프리미어리그",
+                  "토트넘",
+                  "김민재",
+                  "선수근황",
+                  "빅매치",
+                  "첫맞대결",
+                  "MLS2026",
+                  "미국축구",
+                  "K리그"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "손흥민 메시|하이라이트|MLS|LAFC -유니폼 -근황",
+                "theme": "손흥민과 메시의 경기 활약상, 주요 장면, 리그 분석에 초점을 맞춘 쿼리입니다.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "손흥민 메시|하이라이트|MLS|LAFC -유니폼 -근황",
+          "selectedTheme": "손흥민과 메시의 경기 활약상, 주요 장면, 리그 분석에 초점을 맞춘 쿼리입니다.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4lIt4MPQqJk",
+              "title": "손흥민 메시 대결 보러온 박서준ㄷㄷ",
+              "channelTitle": "언리얼 보이",
+              "predicted7d": 423054
+            },
+            {
+              "videoId": "q7Y2qwZTyZE",
+              "title": "끝이 좋지 않았던 손흥민과 메시",
+              "channelTitle": "잼롱도르",
+              "predicted7d": 418852
+            },
+            {
+              "videoId": "PS69eBp0mqA",
+              "title": "7년 만의 재대결, 승자는 손흥민! 메시는 침묵",
+              "channelTitle": "재미있는세상",
+              "predicted7d": 95062
+            },
+            {
+              "videoId": "NFU1YK8pc00",
+              "title": "손흥민, 메시 눌렀다!  #손흥민 #메시 #LAFC #MLS #강혜신의 오늘의 미국",
+              "channelTitle": "강혜신의 오늘의 미국",
+              "predicted7d": 78527
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "박서준도 놀란 손흥민 메시 대결 하이라이트!",
+            "description": "2026-02-23_KR_1\n손흥민과 메시의 7년 만의 재대결! LAFC에서 펼쳐진 역사적인 경기의 하이라이트를 놓치지 마세요. 박서준도 직관하며 뜨거운 관심을 보인 이 경기의 충격적인 결말을 지금 바로 확인하세요!",
+            "tags": [
+              "손흥민",
+              "메시",
+              "MLS",
+              "LAFC",
+              "하이라이트",
+              "박서준",
+              "축구",
+              "재대결",
+              "쇼츠",
+              "해외축구"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Dl-rdphcYM4"
+          },
+          "updatedAt": "2026-02-23T05:38:02.195Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "파피 플레이 타임 5",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "게임 정보 및 스토리",
+                "tags": [
+                  "파피플레이타임 5 출시일",
+                  "파피플레이타임 5 스토리",
+                  "파피플레이타임 챕터5",
+                  "허기워기"
+                ]
+              },
+              {
+                "name": "플레이 및 반응",
+                "tags": [
+                  "공포게임",
+                  "공포게임 반응",
+                  "공포게임 리액션",
+                  "shorts"
+                ]
+              },
+              {
+                "name": "트레일러 및 예측",
+                "tags": [
+                  "파피플레이타임 5 트레일러",
+                  "파피플레이타임 노래",
+                  "파피 신작",
+                  "파피플레이타임 6"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "파피 플레이 타임 5|출시일|스토리|챕터5|허기워기 -공포게임 -트레일러",
+                "theme": "파피 플레이 타임 5의 공식 출시 정보, 심층 스토리 분석, 챕터별 내용, 주요 캐릭터(허기워기 등)에 대한 정보를 찾는 쿼리.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개 / 최소: 3개)"
+              },
+              {
+                "q": "파피 플레이 타임 5|공포게임|반응|리액션|shorts -출시일 -트레일러",
+                "theme": "파피 플레이 타임 5의 실제 플레이 영상, 유튜버들의 공포게임 반응 및 리액션 콘텐츠, 짧은 형식의 하이라이트 영상을 찾는 쿼리.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "파피 플레이 타임 5|공포게임|반응|리액션|shorts -출시일 -트레일러",
+          "selectedTheme": "파피 플레이 타임 5의 실제 플레이 영상, 유튜버들의 공포게임 반응 및 리액션 콘텐츠, 짧은 형식의 하이라이트 영상을 찾는 쿼리.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "maJXVNTgi5I",
+              "title": "세계최초 아무도 못본 엔딩 [파피플레이5] #게임 #파피플레이타임 #공포게임",
+              "channelTitle": "와팬 Wapan",
+              "predicted7d": 129122
+            },
+            {
+              "videoId": "RyIeXPYKwWo",
+              "title": "파피 플레이타임 챕터5 왕의 귀환 | 허기워기의 비밀 | 파피 플레이타임 챕터5",
+              "channelTitle": "캐리덕션",
+              "predicted7d": 123788
+            },
+            {
+              "videoId": "QBntlaGx00c",
+              "title": "파피플레이타임 5 프로토타입 첫등장씬",
+              "channelTitle": "은아지",
+              "predicted7d": 52990
+            },
+            {
+              "videoId": "6U6AVi4Lj8w",
+              "title": "파피 5의 숨겨진 이스터에그와 리몬 얻는 법?! 🍋 #파피플레이타임 #poppyplaytime",
+              "channelTitle": "핑룡",
+              "predicted7d": 52599
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "파피 플레이타임 5 역대급 반응! 😱 #shorts",
+            "description": "2026-02-23_KR_2\n파피 플레이타임 챕터 5의 충격적인 순간들을 모아봤습니다! 아무도 몰랐던 엔딩부터 숨겨진 이스터에그까지, 역대급 공포 반응을 지금 바로 확인하세요. 절대 놓치지 마세요!",
+            "tags": [
+              "파피플레이타임5",
+              "파피플레이타임",
+              "공포게임",
+              "게임쇼츠",
+              "반응",
+              "리액션",
+              "허기워기",
+              "프로토타입",
+              "이스터에그",
+              "shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "pIFfKWkcyJA"
+          },
+          "updatedAt": "2026-02-23T05:38:51.353Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-23T05:38:51.353Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ryan garcia vs mario barrios",
+          "lil poppa",
+          "usa vs canada hockey",
+          "alysa liu",
+          "toy story 5",
+          "poppy playtime chapter 5",
+          "two birds on a wire"
+        ],
+        "updatedAt": "2026-02-23T05:39:04.130Z",
+        "assignedKeywords": [
+          "ryan garcia vs mario barrios",
+          "lil poppa",
+          "usa vs canada hockey",
+          "alysa liu",
+          "toy story 5"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "ryan garcia vs mario barrios",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Fight Action & Key Moments",
+                "tags": [
+                  "ryan garcia vs mario barrios full fight",
+                  "ryan garcia vs mario barrios highlights",
+                  "#EpicKnockout",
+                  "who won ryan garcia vs mario barrios"
+                ]
+              },
+              {
+                "name": "Fan Reactions & Event Coverage",
+                "tags": [
+                  "ryan garcia vs mario barrios reaction",
+                  "all access ryan garcia vs mario barrios",
+                  "boxing news",
+                  "boxing press conference"
+                ]
+              },
+              {
+                "name": "Fighter Profiles & Boxing Context",
+                "tags": [
+                  "Ryan Garcia",
+                  "Mario Barrios",
+                  "ryan garcia training",
+                  "boxing"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "ryan garcia vs mario barrios|full fight|highlights|knockout|winner -reaction -training",
+                "theme": "Comprehensive coverage of the fight itself, including the complete bout, key moments, and the final outcome.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "ryan garcia vs mario barrios|full fight|highlights|knockout|winner -reaction -training",
+          "selectedTheme": "Comprehensive coverage of the fight itself, including the complete bout, key moments, and the final outcome.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Yw5lbqwxg7E",
+              "title": "Rolando \"Rolly\" Romero SPOTTED at Ryan Garcia FIGHT against Mario Barrios 😳 #ryangarcia #shorts",
+              "channelTitle": "AuraMaxxCLPS",
+              "predicted7d": 87985
+            },
+            {
+              "videoId": "yZEGW3d-JH8",
+              "title": "Terence Crawford on Ryan Garcia vs Shakur Stevenson!",
+              "channelTitle": "FightLife",
+              "predicted7d": 66013
+            },
+            {
+              "videoId": "xoQs_hvduMM",
+              "title": "Ryan Garcia DROPS Mario Barrios | HIGHLIGHT 😳",
+              "channelTitle": "MMAWeekly.com",
+              "predicted7d": 68670
+            },
+            {
+              "videoId": "bEzKzwBB1pA",
+              "title": "Ryan Garcia (USA) vs Mario Barrios (USA) | Highlights | #boxing #ryangarcia #mariobarrios",
+              "channelTitle": "BoxingJRT",
+              "predicted7d": 46052
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_4.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_3.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_4.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='1. Rolly Romero'\\\\\\\\\\\\''s\\\\nSurprise\\\\nAppearance!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v0];[4:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='2. Crawford'\\\\\\\\\\\\''s\\\\nGarcia vs Shakur\\\\nTake!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v1];[5:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='3. Garcia Drops\\\\nBarrios\\\\: Must-See!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='4. Garcia vs\\\\nBarrios\\\\: Top\\\\nHighlights!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v3];[7:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:08.08, start: 0.000000, bitrate: 699 kb/s\\n  Stream #0:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 564 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:04.99, start: 0.000000, bitrate: 410 kb/s\\n  Stream #1:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 275 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 1365 kb/s\\n  Stream #2:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 824 kb/s, SAR 1:1 DAR 76:135, 23.98 fps, 23.98 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #3, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/highlight_4.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 1689 kb/s\\n  Stream #3:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 1110 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #3:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x564b4b708940] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_1.mp3':\\n  Duration: 00:00:03.10, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x564b4b71aa00] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_2.mp3':\\n  Duration: 00:00:03.41, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x564b4b8d0540] Estimating duration from bitrate, this may be inaccurate\\nInput #6, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_3.mp3':\\n  Duration: 00:00:03.41, start: 0.000000, bitrate: 48 kb/s\\n  Stream #6:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x564b4b8d3c40] Estimating duration from bitrate, this may be inaccurate\\nInput #7, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/outputs/tts_4.mp3':\\n  Duration: 00:00:03.77, start: 0.000000, bitrate: 48 kb/s\\n  Stream #7:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[Parsed_drawtext_7 @ 0x564b4b9aec00] [Eval @ 0x7ffe8c33b190] Invalid chars ',fade=t=out' at the end of expression 'none,fade=t=out'\\n[Parsed_drawtext_7 @ 0x564b4b9aec00] Unable to parse option value \\\"none,fade=t=out\\\"\\nError opening file none,fade=t=out.\\nError loading value for option 'xpansion' from file 'none,fade=t=out'\\nError initializing complex filters.\\nInput/output error\\n\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Garcia vs Barrios: Knockout & Reactions!",
+            "description": "2026-02-23_US_1\nWitness the explosive highlights from Ryan Garcia's epic clash against Mario Barrios! See every knockout punch, dramatic moment, and the reactions from boxing's biggest stars. Don't miss the action!",
+            "tags": [
+              "ryangarcia",
+              "mariobarrios",
+              "boxing",
+              "shorts",
+              "knockout",
+              "highlights",
+              "fight",
+              "rollyromero",
+              "terencecrawford",
+              "boxinghighlights"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "OZhY-xrPxtg"
+          },
+          "updatedAt": "2026-02-23T06:15:41.839Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "toy story 5",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Official Updates & Visuals",
+                "tags": [
+                  "toy story 5",
+                  "toy story 5 trailer",
+                  "Toy Story 5",
+                  "Toy Story 5 trailer",
+                  "toy story 5 official trailer",
+                  "toy story 5 movie",
+                  "toy story 5 trailer 2026",
+                  "toy story 5 teaser",
+                  "Toy Story 5 official trailer",
+                  "Toy Story 5 teaser trailer",
+                  "movie",
+                  "trailers",
+                  "toy story 5 announcement",
+                  "toy story 5 announcement d23",
+                  "pixar new movie",
+                  "Toy Story 5 (2026) With Tom Hanks & Tim Allen",
+                  "Toy Story 5 2026"
+                ]
+              },
+              {
+                "name": "Speculation & Deep Dives",
+                "tags": [
+                  "toy story 5 rumors",
+                  "toy story 5 explained",
+                  "toy story 5 breakdown",
+                  "Toy Story fan theories",
+                  "toy story 5 news",
+                  "Toy Story Easter eggs",
+                  "Easter eggs Toy Story 5",
+                  "2 Hidden Secrets You Didn't Notice in The Toy Story 5 Trailer",
+                  "movie facts",
+                  "did you know facts",
+                  "fact",
+                  "amazing facts",
+                  "film facts",
+                  "facts",
+                  "interesting movie facts",
+                  "fun facts",
+                  "toy story 5 leak",
+                  "toy story 5 leaked opening",
+                  "toy story 5 opening",
+                  "toy story 5 andy",
+                  "toy story 5 lilypad"
+                ]
+              },
+              {
+                "name": "Audience Engagement & Franchise Context",
+                "tags": [
+                  "Toy Story 5 trailer reaction",
+                  "toy story 5 trailer reaction",
+                  "Toy Story 5 official trailer reaction",
+                  "toy story reaction",
+                  "Toy Story 5 Trailer Breakdown",
+                  "Disney Pixar",
+                  "disney pixar",
+                  "Pixar Toy Story 5",
+                  "disney",
+                  "Pixar",
+                  "Animation",
+                  "Disney",
+                  "Toy Story",
+                  "toy story",
+                  "woody",
+                  "buzz lightyear",
+                  "Woody",
+                  "Buzz Lightyear",
+                  "Jessie",
+                  "Bullseye",
+                  "Toy Story 2",
+                  "Toy Story 3",
+                  "Toy Story 4",
+                  "pixar toy story",
+                  "toy story ending",
+                  "toy story 4 ending",
+                  "unnecessary sequels",
+                  "sequel fatigue",
+                  "millennial nostalgia",
+                  "Small Soldiers comparison",
+                  "Toy Story vs Small Soldiers",
+                  "toy story small soldiers",
+                  "small soldiers buzz lightyear",
+                  "small soldiers"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "toy story 5|trailer|official trailer|teaser|announcement -rumors -reaction",
+                "theme": "Focuses on official content, trailers, teasers, and announcements, excluding speculative content and audience reactions.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "toy story 5|trailer|official trailer|teaser|announcement -rumors -reaction",
+          "selectedTheme": "Focuses on official content, trailers, teasers, and announcements, excluding speculative content and audience reactions.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ULj6EumI5XQ",
+              "title": "TOY STORY TRAILER, 🧸 Is out, But many details 🔍has changed and woody is bald? 😑😆 #TOYSTORY",
+              "channelTitle": "CARTOON SECRETS",
+              "predicted7d": 68499
+            },
+            {
+              "videoId": "TcGTHrMQEps",
+              "title": "2 Hidden Secrets You Didn't Notice in The Toy Story 5 Trailer",
+              "channelTitle": "EGGXPOSE",
+              "predicted7d": 57318
+            },
+            {
+              "videoId": "cUOY8CUdMT0",
+              "title": "¿Viste esto en el TRAILER de TOY STORY 5? #toystory #shorts #trailer",
+              "channelTitle": "DOCTOR RANDOM",
+              "predicted7d": 55725
+            },
+            {
+              "videoId": "LCIcEdNZzjI",
+              "title": "Woody Goes Bald in First 'Toy Story 5' Trailer #ToyStory5 #Woody #BuzzLightyear #Pixar #TomHanks",
+              "channelTitle": "THE REAL FACTS ",
+              "predicted7d": 80475
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_4.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_3.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_4.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='1. Woody'\\\\\\\\\\\\''s Bald\\\\nSecret!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v0];[4:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='2. 2 Hidden\\\\nTrailer Shocks!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v1];[5:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='3. Unbelievable\\\\nTrailer Detail!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.6:width=iw:height=ih:t=fill:enable='lt(t\\\\,1.2)',drawbox=y=130:color=black@0.4:width=iw:height=220:t=fill:enable='gt(t\\\\,1.2)',drawtext=text='4. Pixar'\\\\\\\\\\\\''s Bald\\\\nWoody Reveal!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t\\\\,0.8)\\\\, 85\\\\, if(lt(t\\\\,1.2)\\\\, 85-(85-55)*(t-0.8)/0.4\\\\, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t\\\\,0.8)\\\\, (h-th)/2\\\\, if(lt(t\\\\,1.2)\\\\, (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4\\\\, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v3];[7:a]adelay=200|200,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t\\\\,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 1056 kb/s\\n  Stream #0:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 845 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 546 kb/s\\n  Stream #1:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 300 kb/s, SAR 1:1 DAR 76:135, 29.97 fps, 29.97 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 580 kb/s\\n  Stream #2:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 387 kb/s, SAR 1:1 DAR 76:135, 25 fps, 25 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #3, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/highlight_4.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:05.06, start: 0.000000, bitrate: 290 kb/s\\n  Stream #3:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 154 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #3:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x5642a4f85d40] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_1.mp3':\\n  Duration: 00:00:02.28, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5642a5146fc0] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_2.mp3':\\n  Duration: 00:00:02.66, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5642a517ff00] Estimating duration from bitrate, this may be inaccurate\\nInput #6, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_3.mp3':\\n  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s\\n  Stream #6:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5642a517aa00] Estimating duration from bitrate, this may be inaccurate\\nInput #7, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/outputs/tts_4.mp3':\\n  Duration: 00:00:02.78, start: 0.000000, bitrate: 48 kb/s\\n  Stream #7:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[Parsed_drawtext_7 @ 0x5642a4ff3a00] [Eval @ 0x7ffc6b321cf0] Invalid chars ',fade=t=out' at the end of expression 'none,fade=t=out'\\n[Parsed_drawtext_7 @ 0x5642a4ff3a00] Unable to parse option value \\\"none,fade=t=out\\\"\\nError opening file none,fade=t=out.\\nError loading value for option 'xpansion' from file 'none,fade=t=out'\\nError initializing complex filters.\\nInput/output error\\n\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Toy Story 5 Trailer: Woody's Shocking Look!",
+            "description": "2026-02-23_US_2\nDive into the latest Toy Story 5 trailer rumors and uncover shocking details you might have missed! From hidden secrets to Woody's unexpected new look, we break down everything.",
+            "tags": [
+              "Toy Story 5",
+              "Toy Story Trailer",
+              "Woody",
+              "Buzz Lightyear",
+              "Pixar",
+              "Hidden Secrets",
+              "Easter Eggs",
+              "Bald Woody",
+              "Movie Rumors",
+              "Animation"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "YtC8Gn63mbs"
+          },
+          "updatedAt": "2026-02-23T06:16:01.849Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-23T06:16:01.857Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "willie colón",
+          "toy story 5",
+          "cruz azul vs chivas",
+          "therian",
+          "poppy playtime 5",
+          "omenaso",
+          "silvio gamer"
+        ],
+        "updatedAt": "2026-02-23T05:41:31.545Z",
+        "assignedKeywords": [
+          "willie colón",
+          "toy story 5",
+          "cruz azul vs chivas",
+          "therian",
+          "poppy playtime 5",
+          "omenaso",
+          "silvio gamer"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "originalKeyword": "silvio gamer",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Contenido de Juegos y Series de Silvio Gamer",
+                "tags": [
+                  "silvio gamer",
+                  "silviogamer",
+                  "minecraft",
+                  "roblox",
+                  "99 noches",
+                  "99 nights",
+                  "bioma volcanico",
+                  "minecraft silvio",
+                  "silvio minecraft",
+                  "silviogamer minecraft",
+                  "minecraft silviogamer",
+                  "99 noches en el bosque",
+                  "99 dias meteoritos",
+                  "1500 noches",
+                  "2000 noches"
+                ]
+              },
+              {
+                "name": "Misterios, Curiosidades y Contenido Perturbador",
+                "tags": [
+                  "Mas que curiosos",
+                  "curiosamente",
+                  "misterios",
+                  "historias",
+                  "misteriosas",
+                  "tesoros minecraft",
+                  "el misterio",
+                  "interesante",
+                  "datos curiosos",
+                  "educativo",
+                  "fin del mundo",
+                  "minecraft perturbador",
+                  "herobrine",
+                  "creepypasta"
+                ]
+              },
+              {
+                "name": "Colaboraciones, Desafíos y Eventos Especiales",
+                "tags": [
+                  "videos divertidos",
+                  "shorts",
+                  "super battle golf",
+                  "pancracio",
+                  "dany",
+                  "permon",
+                  "mis amigos",
+                  "amigos",
+                  "y yo",
+                  "mis amigos y yo",
+                  "jugar",
+                  "jugar golf",
+                  "halloween",
+                  "actualizacion",
+                  "nuevas fogatas"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "silvio gamer|minecraft|roblox|99 noches|bioma volcanico -misterios -\"mis amigos y yo\"",
+                "theme": "Búsqueda de contenido principal de juegos y series de Silvio Gamer, enfocándose en sus aventuras en Minecraft y Roblox, así como en sus populares series de supervivencia, excluyendo temas de misterio y colaboraciones.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "silvio gamer|misterios|datos curiosos|historias misteriosas|minecraft perturbador|creepypasta -minecraft -\"mis amigos y yo\"",
+                "theme": "Enfoque en el contenido de Silvio Gamer relacionado con misterios, curiosidades, historias intrigantes y temas perturbadores, incluyendo creepypastas de Minecraft, excluyendo el juego general de Minecraft y colaboraciones.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "silvio gamer|\"mis amigos y yo\"|super battle golf|pancracio|dany|permon -minecraft -misterios",
+                "theme": "Búsqueda de videos de Silvio Gamer que presenten colaboraciones con otros youtubers como Pancracio, Dany y Permon, desafíos específicos o juegos con amigos, excluyendo contenido de Minecraft y misterios.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              }
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING"
+    }
+  }
+}

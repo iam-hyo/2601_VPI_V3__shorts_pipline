@@ -1,0 +1,166 @@
+{
+  "runId": "2026-02-23__MANUAL__KR__손흥민-메시-경기-이라이트",
+  "date": "2026-02-23__MANUAL__KR__손흥민-메시-경기-이라이트",
+  "createdAt": "2026-02-23T07:05:18.213Z",
+  "updatedAt": "2026-02-23T07:06:01.988Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "손흥민 메시 경기  이라이트"
+        ],
+        "assignedKeywords": [
+          "손흥민 메시 경기  이라이트"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "손흥민 메시 경기  이라이트",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "경기 명장면/기술",
+                "tags": [
+                  "하이라이트",
+                  "골",
+                  "명장면",
+                  "스페셜"
+                ]
+              },
+              {
+                "name": "선수 대결/분석",
+                "tags": [
+                  "손흥민",
+                  "메시",
+                  "대결",
+                  "분석"
+                ]
+              },
+              {
+                "name": "팬 반응/해설",
+                "tags": [
+                  "반응",
+                  "해설",
+                  "해외반응",
+                  "평가"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "손흥민 메시 경기 | 하이라이트|골|명장면|스페셜 -손흥민 -반응",
+                "theme": "두 선수의 경기 중 가장 인상 깊었던 기술과 득점 장면을 집중적으로 탐색합니다.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "손흥민 메시 경기 | 대결|분석|비교|역대 -하이라이트 -반응",
+                "theme": "손흥민과 메시의 맞대결 양상과 경기력에 대한 심층적인 분석 콘텐츠를 찾습니다.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "손흥민 메시 경기 | 대결|분석|비교|역대 -하이라이트 -반응",
+          "selectedTheme": "손흥민과 메시의 맞대결 양상과 경기력에 대한 심층적인 분석 콘텐츠를 찾습니다.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4lIt4MPQqJk", 
+              "title": "손흥민 메시 대결 보러온 박서준ㄷㄷ",
+              "channelTitle": "언리얼 보이",
+              "predicted7d": 639210
+            },
+            {
+              "videoId": "gfcTBl0BDX8",
+              "title": "손흥민이 메시와 유니폼 교환을 하지 못한 이유ㄷㄷㄷ ( lafc 대 인터 마이애미 )",
+              "channelTitle": "디피풋볼  DPFUTBOL",
+              "predicted7d": 362464
+            },
+            {
+              "videoId": "z6gsJDoPClk",
+              "title": "메시 관람에 난리난 LA 메시 팬들ㄷㄷㄷ ( lafc 대 인터 마이애미 )",
+              "channelTitle": "디피풋볼  DPFUTBOL",
+              "predicted7d": 257398
+            },
+            {
+              "videoId": "NFU1YK8pc00",
+              "title": "손흥민, 메시 눌렀다!  #손흥민 #메시 #LAFC #MLS #강혜신의 오늘의 미국",
+              "channelTitle": "강혜신의 오늘의 미국",
+              "predicted7d": 105362
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-23__MANUAL__KR__손흥민-메시-경기-이라이트/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "손흥민 vs 메시: 역대급 대결? 숨겨진 진실!",
+            "description": "2026-02-23__MANUAL__KR__손흥민-메시-경기-이라이트_KR_1\n손흥민과 메시, 두 축구 스타의 만남은 언제나 화제입니다. 과연 그들은 직접 맞붙었을까요? LA에서 펼쳐진 그날의 뜨거운 현장과 숨겨진 비하인드 스토리를 지금 확인하세요!",
+            "tags": [
+              "손흥민",
+              "메시",
+              "축구",
+              "쇼츠",
+              "하이라이트",
+              "대결",
+              "비교",
+              "LAFC",
+              "인터마이애미"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Yo_xYhu4Dxg"
+          },
+          "updatedAt": "2026-02-23T07:06:01.978Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-23T07:06:01.987Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-02-23T07:06:01.988Z"
+}
