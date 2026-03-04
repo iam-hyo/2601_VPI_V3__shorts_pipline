@@ -270,10 +270,23 @@ async function safeStat(p) {
  * [하이라이트] 가변 시작 시간 대응 하이라이트 컷
  */
 export async function cutSmartHighlight({ inputPath, outputPath, startTime, duration = 10 }) {
-  // startTime이 Gemini 분석 결과로 들어오면 -ss를 사용, 없으면 기존처럼 -sseof 사용
-  const inputSeek = startTime ? `-ss ${startTime}` : `-sseof -${duration}`;
-  
+  // [수정] startTime 형식이 HH:MM:SS:mmm 일 경우 HH:MM:SS.mmm으로 교정
+  let formattedStartTime = startTime;
+  if (formattedStartTime && typeof formattedStartTime === 'string') {
+    // 마지막에 등장하는 콜론(:)을 마침표(.)로 변경 (정규식 사용)
+    // 00:00:23:119 -> 00:00:23.119
+    const parts = formattedStartTime.split(':');
+    if (parts.length === 4) {
+      formattedStartTime = `${parts[0]}:${parts[1]}:${parts[2]}.${parts[3]}`;
+    }
+  }
+
+  // 교정된 formattedStartTime 사용
+  const inputSeek = formattedStartTime ? `-ss ${formattedStartTime}` : `-sseof -${duration}`;
+
   const cmd = `ffmpeg -y ${inputSeek} -i "${inputPath}" -t ${duration} -c copy "${outputPath}"`;
+
+  console.log(`[FFmpeg Execution] ${cmd}`); // 디버깅을 위해 로그 출력 권장
   await exec(cmd);
   return outputPath;
 }
@@ -289,7 +302,7 @@ async function logHighlightDecision(videoId, analysis, fullSubtitle) {
     videoId,
     decision: analysis,
     // 필요 시 자막 전체를 저장하거나 요약본 저장
-    subtitleSnippet: fullSubtitle.slice(0, 2000) 
+    subtitleSnippet: fullSubtitle.slice(0, 2000)
   };
 
   const logPath = path.join(logDir, `${videoId}_decision.json`);
@@ -314,7 +327,8 @@ export async function getSmartHighlightTimestamps(subPath, videoId) {
 
     [결과 형식]
     반드시 아래 JSON 포맷으로만 응답하라:
-    {"startTime": "HH:MM:SS", "duration": 12.5, "reason": "이유 설명", "isAdFree": true}
+    특히 startTime은 FFmpeg 표준인 'HH:MM:SS.mmm' 형식을 엄수하라 (초와 밀리초 사이는 반드시 마침표 '.' 사용).
+    {"startTime": "00:00:23.119", "duration": 12.5, "reason": "이유 설명", "isAdFree": true}
 
     [자막 데이터]
     ${subtitleText.slice(0, 5000)}
@@ -323,10 +337,10 @@ export async function getSmartHighlightTimestamps(subPath, videoId) {
   try {
     const response = await generateContent("gemini-3.1-flash-lite-preview", prompt, true);
     const result = JSON.parse(response);
-    
+
     // 로깅 데이터 구성 (2번 항목 대응)
     await logHighlightDecision(videoId, result, subtitleText);
-    
+
     return result;
   } catch (err) {
     console.error("[SmartHighlight] 분석 실패:", err);
@@ -616,13 +630,13 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     filters.push(vFilter);
 
     // --- [4번 해결: 사운드 페이드인 조정] ---
-   // --- [오디오 필터 고도화] ---
+    // --- [오디오 필터 고도화] ---
     // i: 하이라이트 오디오 인덱스, n+i: TTS 오디오 인덱스
     let aFilter = `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo`;
-    
+
     // 1. 하이라이트 배경음 처리 (0.8초까지 20% 볼륨, 이후 페이드인)
     aFilter += `,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5`;
-    
+
     // 2. TTS와 믹싱 (amix)
     // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다.
     // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다.
@@ -631,7 +645,7 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     filters.push(ttsFilter);
 
     aFilter += `[bg${i}];[bg${i}][tts${i}]amix=inputs=2:duration=first:dropout_transition=2`;
-    
+
     // 3. 최종 페이드 아웃
     aFilter += `,afade=t=out:st=${fadeOutStart}:d=${fadeSec}[a${i}]`;
 
@@ -669,10 +683,10 @@ export async function downloadSubtitles(videoId, outDir) {
 
   const cookiesAbs = getCookiesPath();
   const cookiesArg = cookiesAbs ? `--cookies "${cookiesAbs}"` : "";
-  
+
   // --write-auto-subs: 자동 자막, --convert-subs srt: SRT 변환
   const cmd = `yt-dlp ${cookiesArg} --write-auto-subs --sub-lang ko --convert-subs srt --skip-download -o "${path.join(outDir, videoId)}" "https://www.youtube.com/watch?v=${videoId}"`;
-  
+
   try {
     await exec(cmd);
     return existsSync(subPath) ? subPath : null;
