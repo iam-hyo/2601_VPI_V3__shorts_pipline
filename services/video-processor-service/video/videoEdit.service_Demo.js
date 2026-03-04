@@ -6,7 +6,7 @@
  * 제공 기능:
  * - exists, ensureDir
  * - downloadVideoIfNeeded            (yt-dlp)
- * - cutLastSecondsIfNeeded           (ffmpeg, 하이라이트)
+ * - cutSmartHighlight               (ffmpeg, 하이라이트, genemi)
  * - createTitleCardIfNeeded          (ffmpeg, 타이틀 카드 + 시그니처 이미지 + 서브타이틀 폰트)
  * - mergeHighlightsWithIntegratedTitles  (ffmpeg filter_complex, 안정적 병합 + fade)
  *
@@ -23,6 +23,7 @@ import { exec as execCb } from "node:child_process";
 import { spawn } from "child_process";
 import { promisify } from "node:util";
 import os from "os";
+import { generateContent } from "../llm/gemini.service.js";
 
 const exec = promisify(execCb);
 // const fontConfigDir = path.resolve("data/assets");
@@ -265,31 +266,75 @@ async function safeStat(p) {
 /* =======================================================================================
  * 2) 하이라이트 추출 (ffmpeg)
  * ======================================================================================= */
-
 /**
- * [자르기] 영상의 마지막 N초를 잘라내어 하이라이트 생성 (멱등)
- *
- * - 도구: ffmpeg
- * - 방식: -sseof -N (파일 끝에서 N초 전으로 시킹) + -c copy(스트림 복사)
- *
- * ⚠️ 주의:
- * - -c copy는 “코덱/타임베이스” 차이가 있으면 후속 병합에서 이슈가 날 수 있습니다.
- * - 최종 병합은 filter_complex 기반으로 재인코딩(안정성↑)하는 mergeHighlightsWithIntegratedTitles를 사용합니다.
- *
- * @param {{ inputPath: string, outputPath: string, seconds?: number }} args
- * @returns {Promise<string>}
+ * [하이라이트] 가변 시작 시간 대응 하이라이트 컷
  */
-export async function cutLastSecondsIfNeeded({ inputPath, outputPath, seconds = 10 }) {
-  if (await existsNonEmpty(outputPath, 50_000)) {
-    console.log(`[videoEdit.demo] highlight skip (exists): ${outputPath}`);
-    return outputPath;
-  }
-
-  const cmd = `ffmpeg -y -sseof -${seconds} -i "${inputPath}" -t ${seconds} -c copy "${outputPath}"`;
-  console.log(`[videoEdit.demo] cut highlight: ${path.basename(outputPath)}`);
+export async function cutSmartHighlight({ inputPath, outputPath, startTime, duration = 10 }) {
+  // startTime이 Gemini 분석 결과로 들어오면 -ss를 사용, 없으면 기존처럼 -sseof 사용
+  const inputSeek = startTime ? `-ss ${startTime}` : `-sseof -${duration}`;
+  
+  const cmd = `ffmpeg -y ${inputSeek} -i "${inputPath}" -t ${duration} -c copy "${outputPath}"`;
   await exec(cmd);
   return outputPath;
 }
+
+
+// [신규] 하이라이트 선정 분석 로그 저장 (데모용)
+async function logHighlightDecision(videoId, analysis, fullSubtitle) {
+  const logDir = path.join(process.cwd(), 'data', 'logs', 'highlights');
+  if (!existsSync(logDir)) await fs.mkdir(logDir, { recursive: true });
+
+  const logEntry = {
+    timestamp: new Date().toISOString(),
+    videoId,
+    decision: analysis,
+    // 필요 시 자막 전체를 저장하거나 요약본 저장
+    subtitleSnippet: fullSubtitle.slice(0, 2000) 
+  };
+
+  const logPath = path.join(logDir, `${videoId}_decision.json`);
+  await fs.writeFile(logPath, JSON.stringify(logEntry, null, 2));
+  console.log(`[VPI-Logger] 하이라이트 결정 로그 저장 완료: ${logPath}`);
+}
+
+/**
+ * [하이라이트] Gemini 시맨틱 타임라인 분석
+ */
+export async function getSmartHighlightTimestamps(subPath, videoId) {
+  if (!subPath) return null;
+  const subtitleText = await fs.readFile(subPath, "utf-8");
+
+  const prompt = `
+    유튜브 자막을 분석하여 숏폼으로 제작할 '골든 하이라이트' 구간을 선정하라.
+    
+    [핵심 제약 사항]
+    1. 시간: 반드시 10초일 필요 없으며, 문맥이 끝나는 지점에 맞춰 8~16초 사이를 권장한다. 시작 시점은 문장이 자연스럽게 시작되는 부분으로 선정하라.
+    2. 광고 제거: "구독", "좋아요", "알림 설정", "더보기란", "고정 댓글", "후원", "광고" 등의 멘트가 포함된 구간은 기피대상으로 간주하라. 
+    3. 논리적 완결성: 문장이 중간에 끊기지 않고 결론이나 반전이 포함된 구간을 우선하라.
+
+    [결과 형식]
+    반드시 아래 JSON 포맷으로만 응답하라:
+    {"startTime": "HH:MM:SS", "duration": 12.5, "reason": "이유 설명", "isAdFree": true}
+
+    [자막 데이터]
+    ${subtitleText.slice(0, 5000)}
+  `;
+
+  try {
+    const response = await generateContent("gemini-3.1-flash-lite-preview", prompt, true);
+    const result = JSON.parse(response);
+    
+    // 로깅 데이터 구성 (2번 항목 대응)
+    await logHighlightDecision(videoId, result, subtitleText);
+    
+    return result;
+  } catch (err) {
+    console.error("[SmartHighlight] 분석 실패:", err);
+    return { startTime: null, duration: 10, reason: "Fallback to default" };
+  }
+}
+
+
 
 /* =======================================================================================
  * 3) 타이틀 카드 생성 (ffmpeg)
@@ -495,13 +540,13 @@ export async function createTitleCardIfNeeded(args) {
 export async function mergeHighlightsWithIntegratedTitles(args) {
   const {
     highlightPaths,
+    durations = [],
     ttsPaths,
     titleInfos,
     outputPath,
     width = 1080,
     height = 1920,
     fps = 30,
-    highlightSec = 11.2,
     fadeSec = 0.3,
     sampleRate = 44100,
     titleFontPath,
@@ -537,7 +582,8 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     const wrappedCaption = wrapText(`${titleInfos[i].index}. ${rawCaption}`, 18);
     const safeCaption = wrappedCaption.replace(/'/g, "'\\\\\\''").replace(/:/g, "\\:");
     const fontPath = titleFontPath.replace(/\\/g, '/');
-    const fadeOutStart = (highlightSec - fadeSec).toFixed(1);
+    const currentDur = durations[i] || 10.0; // 해당 클립의 동적 길이 사용
+    const fadeOutStart = (currentDur - fadeSec).toFixed(1);
 
     // --- [1번 해결: 애니메이션 수식 설계] ---
     const moveStart = 0.8;
@@ -612,3 +658,27 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
   console.log(`[${slotID}] 🚀 고도화 V2: 슬라이딩 애니메이션 & 사운드 믹스 적용`);
   await exec(cmd);
 }
+
+
+/**
+ * [신규] 자막 다운로드 (yt-dlp 활용)
+ */
+export async function downloadSubtitles(videoId, outDir) {
+  const subPath = path.join(outDir, `${videoId}.ko.srt`);
+  if (existsSync(subPath)) return subPath;
+
+  const cookiesAbs = getCookiesPath();
+  const cookiesArg = cookiesAbs ? `--cookies "${cookiesAbs}"` : "";
+  
+  // --write-auto-subs: 자동 자막, --convert-subs srt: SRT 변환
+  const cmd = `yt-dlp ${cookiesArg} --write-auto-subs --sub-lang ko --convert-subs srt --skip-download -o "${path.join(outDir, videoId)}" "https://www.youtube.com/watch?v=${videoId}"`;
+  
+  try {
+    await exec(cmd);
+    return existsSync(subPath) ? subPath : null;
+  } catch (err) {
+    console.warn(`[videoEdit] 자막 다운로드 실패 (자막이 없을 수 있음): ${err.message}`);
+    return null;
+  }
+}
+

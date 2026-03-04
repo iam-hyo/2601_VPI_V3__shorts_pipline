@@ -1,0 +1,954 @@
+{
+  "runId": "2026-02-26",
+  "date": "2026-02-26",
+  "createdAt": "2026-02-26T02:50:02.160Z",
+  "updatedAt": "2026-02-26T02:58:20.149Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "민와 와",
+          "손흥 민 메시",
+          "파반느",
+          "오현규",
+          "파피 플레이 타임 5",
+          "김길리",
+          "이란",
+          "쇼트 트랙 여자 계주",
+          "장항준",
+          "봄동 비빔밥",
+          "하츠 투 하츠",
+          "사장 남천동",
+          "박지훈",
+          "한국 경제 tv",
+          "전한길",
+          "엄태웅",
+          "원큐",
+          "날씨",
+          "단종",
+          "미스 트롯 4"
+        ],
+        "updatedAt": "2026-02-26T02:50:13.918Z",
+        "assignedKeywords": [
+          "민와 와",
+          "손흥 민 메시",
+          "파반느",
+          "오현규",
+          "파피 플레이 타임 5",
+          "김길리"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "손흥 민 메시",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "경기 결과 및 하이라이트",
+                "tags": [
+                  "LAFC",
+                  "인터마이애미",
+                  "MLS",
+                  "LAFC 경기",
+                  "MLS 경기",
+                  "손흥민 메시 맞대결",
+                  "3대0 경기",
+                  "메시 완패",
+                  "LAFC인터마이애미",
+                  "슈퍼매치",
+                  "축구직관 레전드매치",
+                  "lafc vs inter miami"
+                ]
+              },
+              {
+                "name": "팬 및 해외 반응",
+                "tags": [
+                  "해외반응",
+                  "메시 반응",
+                  "손흥민 팬 반응",
+                  "월드클라스 대결",
+                  "월클 대결",
+                  "월클손흥민",
+                  "메시 자존심",
+                  "메시 표정",
+                  "메시 리액션",
+                  "국뽕",
+                  "해외축구 이슈",
+                  "현지반응",
+                  "손흥민 영향력",
+                  "메시 손흥민 비교"
+                ]
+              },
+              {
+                "name": "선수 개별 활약 분석",
+                "tags": [
+                  "손흥민 골",
+                  "메시 골",
+                  "손흥민 하이라이트",
+                  "메시 하이라이트",
+                  "축구분석",
+                  "손흥민 클라스",
+                  "메시 개인기",
+                  "손흥민 스페셜",
+                  "손흥민 존재감",
+                  "손흥민어시스트",
+                  "축구드리블",
+                  "손흥민스피드",
+                  "축구레전드"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "손흥민 메시 LAFC 인터마이애미 맞대결 -해외반응 -분석",
+                "theme": "손흥민과 메시의 가상 또는 실제 경기 결과, 주요 장면 및 하이라이트에 대한 정보를 찾는 사용자.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "손흥민 메시 LAFC 인터마이애미 맞대결 -해외반응 -분석",
+          "selectedTheme": "손흥민과 메시의 가상 또는 실제 경기 결과, 주요 장면 및 하이라이트에 대한 정보를 찾는 사용자.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "IXizHFwxBks",
+              "title": "굳어버린 손흥민의 표정…2분을 남기고 감독에게 항의한 진짜 이유...외신도 술렁인 그 눈빛",
+              "channelTitle": "드립극장",
+              "predicted7d": 107568
+            },
+            {
+              "videoId": "Cv63tOZetos",
+              "title": "“메시보다 무섭다” 손흥민 충격 고백 #shorts #mls #이슈 #축구 #LAFC #인터마이애미",
+              "channelTitle": "스포츠 간단 뉴스",
+              "predicted7d": 101621
+            },
+            {
+              "videoId": "ggfwnghNs7g",
+              "title": "메시와의 맞대결 앞둔 손흥민의 솔직한 심정!",
+              "channelTitle": "축구히어로",
+              "predicted7d": 145051
+            },
+            {
+              "videoId": "CdpBMn1NLAs",
+              "title": "손흥민이 메시와 유니폼을 교환 안한 진짜 이유? 약속지킨 손흥민 인성도 월드클래스 #손흥민 #메시 #LAFC  #MLS #유니폼교환 #팔콘 #인성 #축구비하인드 #스포츠버라이어티",
+              "channelTitle": "스포츠 버라이어티",
+              "predicted7d": 48340
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-26/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "손흥민 메시 맞대결! 해외반응과 숨겨진 진실은?",
+            "description": "2026-02-26_KR_1\n손흥민과 메시의 역사적인 맞대결, 그 현장의 뜨거운 해외반응과 숨겨진 비하인드 스토리를 파헤칩니다. 손흥민의 솔직한 심정과 유니폼 교환 비하인드까지, 놓치지 마세요!",
+            "tags": [
+              "손흥민",
+              "메시",
+              "LAFC",
+              "인터마이애미",
+              "해외반응",
+              "축구쇼츠",
+              "MLS",
+              "손흥민인성",
+              "유니폼교환",
+              "축구분석"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ZVOYGiDjm4s"
+          },
+          "updatedAt": "2026-02-26T02:51:35.994Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "김길리",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "경기 하이라이트 및 성과 분석",
+                "tags": [
+                  "쇼트트랙",
+                  "올림픽",
+                  "동계올림픽",
+                  "금메달",
+                  "최민정",
+                  "국가대표",
+                  "밀라노",
+                  "세계선수권",
+                  "계주",
+                  "김길리 쇼트트랙 금메달",
+                  "김길리 금메달",
+                  "금메달리스트",
+                  "메달리스트",
+                  "팀코리아",
+                  "쇼트트랙국가대표"
+                ]
+              },
+              {
+                "name": "미디어 출연 및 화제성",
+                "tags": [
+                  "람보르길리",
+                  "람보르기니",
+                  "뉴스",
+                  "배성재",
+                  "배텐",
+                  "배성재의텐",
+                  "라디오",
+                  "SBS SPORTSMUG",
+                  "SPORTSMUG",
+                  "스포츠 MUG",
+                  "김길리인터뷰",
+                  "람보르길리 뜨자 람보르기니 응답했다 쇼트트랙 김길리선수",
+                  "보는 라디오",
+                  "보이는 라디오",
+                  "인터뷰"
+                ]
+              },
+              {
+                "name": "팬 소통 및 비하인드 스토리",
+                "tags": [
+                  "인천공항",
+                  "팬",
+                  "인천국제공항",
+                  "입국",
+                  "태극기",
+                  "선수촌 생활",
+                  "룸메이트",
+                  "에피소드",
+                  "클릭크크",
+                  "ㅋㄹㅋㅋ",
+                  "웃긴",
+                  "유머",
+                  "개그",
+                  "웃긴 짤",
+                  "비하인드"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "김길리 쇼트트랙 금메달 올림픽 -인터뷰 -공항",
+                "theme": "김길리 선수의 쇼트트랙 경기 하이라이트, 메달 획득 순간, 올림픽 등 주요 대회에서의 성과를 집중적으로 탐색합니다.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "김길리 쇼트트랙 금메달 올림픽 -인터뷰 -공항",
+          "selectedTheme": "김길리 선수의 쇼트트랙 경기 하이라이트, 메달 획득 순간, 올림픽 등 주요 대회에서의 성과를 집중적으로 탐색합니다.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "u4kg5h2w__4",
+              "title": "#김길리 선수, 기자들에게 메달 보여주며 포토타임ㅣ#동계올림픽 #쇼트트랙 #금메달 #람보르기니",
+              "channelTitle": "미디어몽구",
+              "predicted7d": 152376
+            },
+            {
+              "videoId": "wRegyQACVhg",
+              "title": "金金銅 김길리, 왜 모두가 감동의 박수를 보낼까?",
+              "channelTitle": "뉴스 픽",
+              "predicted7d": 60393
+            },
+            {
+              "videoId": "1WO9uQRFmuM",
+              "title": "'람보르길리' 김길리, 진짜 람보르기니 타고 집으로! #쇼트트랙 #동계올림픽 #금메달",
+              "channelTitle": "더쎈뉴스",
+              "predicted7d": 57896
+            },
+            {
+              "videoId": "jGHglC3ixmc",
+              "title": "'손가락 3개' 세리머니, 김길리의 '1등 부적'? #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 98706
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-26/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "김길리 금메달 플렉스! 람보르길리 타고 귀국 현장",
+            "description": "2026-02-26_KR_2\n김길리 선수의 금메달 귀국 현장부터 람보르기니 탑승까지! 뜨거운 환영 속 그녀의 빛나는 순간들을 담았습니다. 감동과 재미가 가득한 김길리 선수의 쇼트트랙 여정을 지금 바로 확인하세요!",
+            "tags": [
+              "김길리",
+              "쇼트트랙",
+              "금메달",
+              "올림픽",
+              "람보르길리",
+              "귀국",
+              "인터뷰",
+              "포토타임",
+              "메달플렉스",
+              "스포츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "J4olUUWEoqk"
+          },
+          "updatedAt": "2026-02-26T02:53:16.114Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-26T02:53:16.123Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "usa vs canada hockey",
+          "claressa shields",
+          "toy story 5",
+          "willie colón",
+          "alysa liu",
+          "baby keem",
+          "lil poppa",
+          "poppy playtime chapter 5",
+          "mexico"
+        ],
+        "updatedAt": "2026-02-26T02:53:27.432Z",
+        "assignedKeywords": [
+          "usa vs canada hockey",
+          "claressa shields"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "usa vs canada hockey",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Iconic Matches & Highlights",
+                "tags": [
+                  "Winter Olympics",
+                  "Olympics",
+                  "USA Canada Gold Medal",
+                  "USA Gold Medal",
+                  "Gold Medal",
+                  "USA Hockey Highlights",
+                  "Women's Olympic hockey gold",
+                  "USA Canada overtime gold",
+                  "Gold Medal Overtime Game",
+                  "USA Hockey 2018 Gold",
+                  "USA wins gold",
+                  "hockey overtime winner",
+                  "USA Canada gold medal game",
+                  "USA overtime goal",
+                  "international hockey gold"
+                ]
+              },
+              {
+                "name": "Fan Reactions & Post-Game Analysis",
+                "tags": [
+                  "USA Canada Postgame",
+                  "USA Reaction Canada",
+                  "USA Hockey Reaction",
+                  "USA Canada Reaction",
+                  "USA Reaction",
+                  "Canada Reaction",
+                  "USA Celebration",
+                  "Isles Nation Reaction",
+                  "Canada Reaction USA",
+                  "POV",
+                  "USA Canada POV",
+                  "hockey fan reactions",
+                  "everyone goes nuts",
+                  "USA hockey celebration",
+                  "Canada hockey heartbreak",
+                  "wild hockey reactions"
+                ]
+              },
+              {
+                "name": "Team & Player Focus (Current/Future)",
+                "tags": [
+                  "Team USA",
+                  "USA Hockey",
+                  "Canada Hockey",
+                  "jack hughes",
+                  "jack hughes golden goal",
+                  "USA Hockey Players",
+                  "U.S. Olympic hockey team",
+                  "Team USA hockey honored",
+                  "news",
+                  "sports"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "\"usa vs canada hockey\" Olympics \"Gold Medal\" Highlights -Reaction -Postgame -Fan -\"Team USA\" -\"Canada Hockey\" -\"Jack Hughes\"",
+                "theme": "Targets viewers interested in historical games, significant victories, and memorable moments, especially from major tournaments like the Olympics.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "\"usa vs canada hockey\" Olympics \"Gold Medal\" Highlights -Reaction -Postgame -Fan -\"Team USA\" -\"Canada Hockey\" -\"Jack Hughes\"",
+          "selectedTheme": "Targets viewers interested in historical games, significant victories, and memorable moments, especially from major tournaments like the Olympics.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "JeLEf0iSx2s",
+              "title": "Jack Hughes: the golden goal compilation! 🇺🇸 #jackhughes #goldengoal #teamusa #usahockey",
+              "channelTitle": "laughub laughub",
+              "predicted7d": 367986
+            },
+            {
+              "videoId": "jU1cuFQ1YQo",
+              "title": "#FirstpostNews: Trump Celebrates Team USA Hockey Gold Win at White House | N18G",
+              "channelTitle": "Firstpost",
+              "predicted7d": 57501
+            },
+            {
+              "videoId": "lpl9ofXwlN4",
+              "title": "Jack Hughes Bleeds for Olympic Gold 🇺🇸🥇 #jackhughes #usahockey #olympicgold #shorts",
+              "channelTitle": "Loyal Luxury",
+              "predicted7d": 44896
+            },
+            {
+              "videoId": "cGOzWyz22Mw",
+              "title": "USA Wins Hockey Gold After 46 Years 🥇🔥 #usahockey #olympicgold #milano2026 #shorts",
+              "channelTitle": "Loyal Luxury",
+              "predicted7d": 40390
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-26/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "USA vs Canada: Hughes' Gold Medal Win!",
+            "description": "2026-02-26_US_1\nRelive the epic USA vs Canada Olympic Gold Medal hockey game! Witness Jack Hughes' legendary golden goal and the incredible post-game celebrations. This historic victory ended a 46-year wait for Team USA!",
+            "tags": [
+              "USA vs Canada Hockey",
+              "Olympic Gold",
+              "Jack Hughes",
+              "Golden Goal",
+              "Team USA",
+              "Hockey Highlights",
+              "USA Hockey",
+              "Historic Win",
+              "Sports Reaction",
+              "Milano 2026"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "o_o2uLis5X8"
+          },
+          "updatedAt": "2026-02-26T02:54:24.138Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "claressa shields",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Professional Boxing Career",
+                "tags": [
+                  "boxing",
+                  "claressa shields vs franchon crews",
+                  "boxing news",
+                  "claressa shields highlights",
+                  "womens boxing",
+                  "franchon crews-dezurn",
+                  "gwoat",
+                  "knock out",
+                  "laila ali callout",
+                  "laila ali boxing debate",
+                  "championship mentality",
+                  "mma",
+                  "ufc",
+                  "boxing workout",
+                  "boxing commentary",
+                  "sky sports boxing",
+                  "premier boxing champions",
+                  "boxing rankings",
+                  "gervonta davis",
+                  "bud crawford"
+                ]
+              },
+              {
+                "name": "Personal Life & Drama",
+                "tags": [
+                  "papoose",
+                  "remy ma",
+                  "remy ma and papoose",
+                  "claressa shields and papoose",
+                  "papoose expose remy ma",
+                  "papoose and remy ma",
+                  "clarissa shields and papoose",
+                  "clarissa shields remy ma",
+                  "papoose and easy fight",
+                  "papoose claressa shields breakup",
+                  "papoose regrets breakup",
+                  "papoose confirms breakup",
+                  "papoose claressa shields drama",
+                  "Papoose spends time with Remy",
+                  "TashaK",
+                  "Geisha305",
+                  "Tasha K & Geisha 305",
+                  "easy the block captain",
+                  "remy and easy da block captain",
+                  "Podcast",
+                  "Reality Show",
+                  "Zeus Network"
+                ]
+              },
+              {
+                "name": "Interviews, Media & Viral Moments",
+                "tags": [
+                  "claressa shields viral",
+                  "claressa shields interview",
+                  "claressa shields blasts opponent",
+                  "claressa shields heated moment",
+                  "franchon crews dezurn drama",
+                  "crews dezurn reaction",
+                  "women boxing beef",
+                  "women boxing drama",
+                  "boxing trash talk",
+                  "boxing verbal war",
+                  "boxing confrontation",
+                  "boxing media tension",
+                  "boxing viral clip",
+                  "combat sports drama",
+                  "sports controversy",
+                  "trending boxing shorts",
+                  "tiktok",
+                  "espn"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "claressa shields boxing fight highlights -papoose -interview",
+                "theme": "Targeting fans interested in her athletic performance, match analyses, and career milestones within professional boxing.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "claressa shields boxing fight highlights -papoose -interview",
+          "selectedTheme": "Targeting fans interested in her athletic performance, match analyses, and career milestones within professional boxing.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "hucnvUuwSuA",
+              "title": "Claressa Shields Unstoppable! Must-See 2026 Fight Highlights#womensboxing #mma",
+              "channelTitle": "Fight Tip",
+              "predicted7d": 68862
+            },
+            {
+              "videoId": "8ddEze8vvkQ",
+              "title": "Claressa Shields Celebrates With Boosie After Historic Win! #claressashields #boosie #shorts",
+              "channelTitle": "LOUD & LYRICAL ",
+              "predicted7d": 66676
+            },
+            {
+              "videoId": "aG7u8UJ7LzY",
+              "title": "The Comeback Queen: Claressa Shields Stuns Fans in 2026 Fight#womensboxing #mma",
+              "channelTitle": "Fight Tip",
+              "predicted7d": 66084
+            },
+            {
+              "videoId": "sSAvtsYqAIE",
+              "title": "Shield – Latest Claressa Shields Boxing Updates & Highlights #Shield",
+              "channelTitle": "RINGSIDE EXPOSSE",
+              "predicted7d": 64857
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-26/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Claressa Shields: Epic Fights & Celebs!",
+            "description": "2026-02-26_US_2\nDive into the world of Claressa Shields with these electrifying fight highlights! Witness her unstoppable power, historic wins, and even celebrity celebrations with Boosie. Get the latest updates on the GWOAT's incredible journey in boxing!",
+            "tags": [
+              "ClaressaShields",
+              "WomensBoxing",
+              "BoxingHighlights",
+              "GWOAT",
+              "FightShorts",
+              "Boosie",
+              "MMA",
+              "BoxingInterview"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Q64ZmOZfOi8"
+          },
+          "updatedAt": "2026-02-26T02:55:15.219Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-26T02:55:15.228Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "willie colón",
+          "toy story 5",
+          "cruz azul vs chivas",
+          "top top dharius",
+          "poppy playtime",
+          "brawl stars",
+          "penitencia",
+          "iker unzu",
+          "therian"
+        ],
+        "updatedAt": "2026-02-26T02:55:26.483Z",
+        "assignedKeywords": [
+          "willie colón",
+          "toy story 5",
+          "cruz azul vs chivas",
+          "top top dharius",
+          "poppy playtime"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "toy story 5",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Noticias y Actualizaciones",
+                "tags": [
+                  "toy story 5 trailer",
+                  "Tráiler 2 Toy Story 5",
+                  "Toy Story 5 tráiler 2",
+                  "noticias Pixar",
+                  "noticias cine 2026",
+                  "Toy Story 5 trailer",
+                  "Toy Story 5 tráiler",
+                  "lançamentos de animação",
+                  "toy story 5 announcement",
+                  "toy story trailer",
+                  "toy story 5 teaser trailer",
+                  "toy story 5 teaser",
+                  "Reaction",
+                  "Trailer reaction",
+                  "Toy Story 5 reaction",
+                  "novidades cinema",
+                  "películas animación 2026"
+                ]
+              },
+              {
+                "name": "Análisis y Teorías",
+                "tags": [
+                  "toy story 5 teoria",
+                  "Pixar análisis",
+                  "Pixar futuro",
+                  "toy story 5 segredos",
+                  "toy story 5 analise",
+                  "detalhes escondidos toy story 5",
+                  "curiosidades pixar",
+                  "easter eggs toy story 5",
+                  "detalles ocultos Toy Story 5",
+                  "Toy Story secretos",
+                  "curiosidades",
+                  "detalhes",
+                  "Easter Eggs",
+                  "Referências",
+                  "Detalhes",
+                  "Curiosidades",
+                  "animacao 2d pixar",
+                  "nuevo estilo animación Pixar",
+                  "mudanca visual pixar",
+                  "estilo de animacao toy story 5"
+                ]
+              },
+              {
+                "name": "Personajes y Especulaciones",
+                "tags": [
+                  "Buzz y Woody",
+                  "woody",
+                  "buzz lightyear",
+                  "toy story 5 lilypad",
+                  "Gatto Pixar",
+                  "woody theory deltarune",
+                  "woody theory",
+                  "toby fox toy story 5",
+                  "toby fox in toy story 5",
+                  "will toby fox be in toy story 5",
+                  "toby fox voicing gaster",
+                  "gaster in toy story 5",
+                  "toby fox",
+                  "gaster voice",
+                  "toby fox voice",
+                  "deltarune toy story",
+                  "friend inside me",
+                  "friend in side me",
+                  "friend in me",
+                  "gatto",
+                  "woody toy story",
+                  "woody careca",
+                  "Toy Story 5 Bald Woody Tutorial",
+                  "Toy Story 5 Bald Woody",
+                  "Bald Woody",
+                  "Bald Woody Toy Story 5",
+                  "Woody Bald",
+                  "Woody is Bald",
+                  "Woody is Bald Toy Story 5",
+                  "Toy Story 5 Woody is bald",
+                  "custom woody",
+                  "movie accurate woody",
+                  "custom movie accurate woody",
+                  "woody doll"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "Toy Story 5 español tráiler noticias fecha lanzamiento -teorías -análisis -Woody -personajes",
+                "theme": "Para usuarios interesados en las últimas noticias, anuncios oficiales, fechas de estreno y avances de la película.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "Toy Story 5 español teorías análisis curiosidades -tráiler -noticias -Woody -personajes",
+                "theme": "Para fans que buscan inmersiones profundas, detalles ocultos, especulaciones y análisis del universo de Toy Story 5.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "Toy Story 5 español Woody Buzz Lightyear personajes -tráiler -noticias -teorías -análisis",
+                "theme": "Para la audiencia enfocada en los personajes principales, sus arcos, posibles regresos y teorías específicas sobre ellos.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "Toy Story 5 español Woody Buzz Lightyear personajes -tráiler -noticias -teorías -análisis",
+          "selectedTheme": "Para la audiencia enfocada en los personajes principales, sus arcos, posibles regresos y teorías específicas sobre ellos.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "VerQs8oCYFs",
+              "title": "Toy Story 5 Voice Cast is Just INSANE ...🔥",
+              "channelTitle": "EGGXPOSE",
+              "predicted7d": 207065
+            },
+            {
+              "videoId": "0G1XD8m4jOI",
+              "title": "LILYPAD VA A REVELAR EL MAYOR SECRETO DE LOS JUGUETES #toystory #pixar #woody #buzzlightyear #fyp",
+              "channelTitle": "Rey Geek",
+              "predicted7d": 40093
+            },
+            {
+              "videoId": "x9PX3UrHKpY",
+              "title": "Woody’s Bald Spot EXPOSED, Buzz Hug Moment, You Won’t Believe Toy Story 5 #ToyStory5 #Disney",
+              "channelTitle": "Daz Animation ",
+              "predicted7d": 43300
+            },
+            {
+              "videoId": "w9bRl9MJHD8",
+              "title": "Toy Story 5 Should End Like THIS! #shorts",
+              "channelTitle": "ScreenTime Secrets",
+              "predicted7d": 66503
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-26/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Toy Story 5: Secretos Revelados!",
+            "description": "2026-02-26_MX_1\n¡Prepárate para los secretos más impactantes de Toy Story 5! Descubre el elenco de voces, el misterio de Lilypad y el sorprendente final que nadie espera. ¡No te pierdas los detalles más locos de Woody y Buzz Lightyear!",
+            "tags": [
+              "ToyStory5",
+              "Woody",
+              "BuzzLightyear",
+              "Pixar",
+              "Disney",
+              "SecretosToyStory",
+              "TeoriasToyStory",
+              "FinalToyStory",
+              "ElencoToyStory",
+              "Lilypad"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "9sMIvGslIeo"
+          },
+          "updatedAt": "2026-02-26T02:56:47.510Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "poppy playtime",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Capítulo 5 y Juego Completo",
+                "tags": [
+                  "poppy playtime chapter 5",
+                  "poppy playtime 5",
+                  "poppy 5",
+                  "poppy playtime chapter 5 gameplay",
+                  "chapter 5",
+                  "poppy playtime chapter 5 full game",
+                  "jugando poppy playtime",
+                  "juego completo",
+                  "poppy playtime juego completo",
+                  "poppy playtime capitulo 5",
+                  "final completo",
+                  "poppy playtime 5 gameplay",
+                  "gameplay",
+                  "poppy playtime chapter 5 all bosses",
+                  "final",
+                  "todo los finales",
+                  "nuevo",
+                  "Poppy Playtime 5",
+                  "Poppy Playtime capitulo 5",
+                  "Secret Ending Chapter 5"
+                ]
+              },
+              {
+                "name": "Personajes, Lore y Teorías",
+                "tags": [
+                  "huggy wuggy",
+                  "prototipo",
+                  "poppy playtime prototype",
+                  "prototype",
+                  "lily lovebraids",
+                  "pianosaurus",
+                  "mob entertainment",
+                  "prototype",
+                  "kissy missy",
+                  "experimento 1102",
+                  "el prototipo 1006",
+                  "lily",
+                  "poppy playtime kissy missy",
+                  "poppy playtime catnap",
+                  "poppy playtime dog day",
+                  "poppy playtime yarnaby",
+                  "poppy playtime doey",
+                  "poppy playtime harley sawyer prototype",
+                  "poppy playtime lily",
+                  "poppy playtime giblet",
+                  "mommy long legs",
+                  "catnap",
+                  "prototype poppy playtime",
+                  "lily love braids",
+                  "lily love braids jumpscare",
+                  "Prototype 1006",
+                  "Lily Love Braids",
+                  "Huggy Wuggy",
+                  "New Jester Monster",
+                  "Kissy Missy",
+                  "Prototype vs Lily"
+                ]
+              },
+              {
+                "name": "Contenido de Fans y Entretenimiento",
+                "tags": [
+                  "memes",
+                  "poppy playtime animation",
+                  "shorts",
+                  "gameplay gracioso",
+                  "humor",
+                  "videojuegos",
+                  "gameplay español latino",
+                  "directo",
+                  "Poppy Playtime memes",
+                  "Poppy Playtime animações",
+                  "coda animações Poppy Playtime",
+                  "Poppy Playtime 5 memes",
+                  "Poppy Playtime 5 animações dubladas",
+                  "ROBLOX",
+                  "RECREARON POPPY PLAYTIME EN ROBLOX",
+                  "roblox",
+                  "roblox poppy playtime",
+                  "poppy playtime roblox",
+                  "poppy playtime rap",
+                  "huggy wuggy song",
+                  "huggy wuggy cancion"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "poppy playtime capítulo 5 juego completo gameplay -prototipo -animaciones",
+                "theme": "Guías de juego y recorridos completos del Capítulo 5, incluyendo finales y momentos destacados.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "poppy playtime capítulo 5 juego completo gameplay -prototipo -animaciones",
+          "selectedTheme": "Guías de juego y recorridos completos del Capítulo 5, incluyendo finales y momentos destacados.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "cGfmyclBB8c",
+              "title": "HUGGY AND KISSY DEATH REACTION (POPPY PLAYTIME CHAPTER 5) #shorts",
+              "channelTitle": "Nicktrix",
+              "predicted7d": 49740
+            },
+            {
+              "videoId": "w4XbqCtiMfw",
+              "title": "Cash Plays Poppy Playtime Chapter 5 (FULL GAME)",
+              "channelTitle": "CashClips",
+              "predicted7d": 43202
+            },
+            {
+              "videoId": "SzsVlY1I5XQ",
+              "title": "ALL The JUMPSCARES In Poppy Playtime Chapter 5😱#zaydecay #shorts #shortsfeed #poppyplaytimechapter5",
+              "channelTitle": "ZayDecay",
+              "predicted7d": 53964
+            },
+            {
+              "videoId": "018tcseCVRk",
+              "title": "What ULTIMATE POWER Feels Like...",
+              "channelTitle": "Chester Rushing",
+              "predicted7d": 30131
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-26/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Poppy Playtime Cap. 5: ¡Sustos y Prototipo!",
+            "description": "2026-02-26_MX_2\n¡Prepárate para el gameplay completo de Poppy Playtime Capítulo 5! Descubre el terror del Prototipo, las animaciones más impactantes y los jumpscares que te harán saltar. ¡No te pierdas las reacciones más épicas!",
+            "tags": [
+              "Poppy Playtime 5",
+              "Capítulo 5",
+              "Gameplay Español",
+              "Prototipo",
+              "Jumpscares",
+              "Terror",
+              "Horror Game",
+              "Animaciones",
+              "Shorts",
+              "Videojuego"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "yxiiNM82hOo"
+          },
+          "updatedAt": "2026-02-26T02:58:20.138Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-26T02:58:20.147Z"
+    }
+  },
+  "finishedAt": "2026-02-26T02:58:20.149Z"
+}

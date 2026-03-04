@@ -370,7 +370,14 @@ export class PipelineRunner {
         this.save(state);
 
         const vpRes = await withRetry(
-          async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND, region }),
+          async () => this.videoApi.process({
+            workDir,
+            topic: picked.keyword,
+            slotID,
+            HIGHLIGHT_SECOND,
+            region,
+            sources: picked.selectedSourceVideos // 👈 이 부분을 반드시 추가해야 합니다!
+          }),
           `videoApi:${region}:slot${slot}`
         );
 
@@ -395,7 +402,15 @@ export class PipelineRunner {
 
       log.info({ slotID, keyword: picked.keyword }, `🎬 [${slotID}] 비디오 생성 시작`);
       const vpRes = await withRetry(
-        async () => this.videoApi.process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND, region }),
+        async () => this.videoApi.process({
+          workDir,
+          topic: picked.keyword,
+          slotID,
+          HIGHLIGHT_SECOND,
+          region,
+          // [수정] 수집된 소스 영상 데이터를 명시적으로 전달
+          sources: job.selectedSourceVideos
+        }),
         `videoApi:${region}:slot${slot}`
       );
 

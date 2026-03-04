@@ -7,7 +7,7 @@
  * - GEMINI_API_KEY: Google AI Studio / Generative Language API Key
  *
  * [권장 환경변수]
- * - GEMINI_MODEL: 예) gemini-1.5-flash, gemini-1.5-pro 등
+ * - GEMINI_MODEL: 예) gemini-3.1-flash-lite-preview, gemini-1.5-pro 등
  *
  * [주의]
  * - 이 함수는 "문자열"을 반환합니다. (JSON 모드여도 문자열)
@@ -24,7 +24,7 @@ const API_KEY = process.env.GEMINI_API_01_ILL2;
  * [함수 책임]
  * - Gemini API에 프롬프트를 전달하고 생성 결과 텍스트를 반환한다.
  *
- * @param {string} model - Gemini 모델명 (예: 'gemini-1.5-flash')
+ * @param {string} model - Gemini 모델명 (예: 'gemini-3.1-flash-lite-preview')
  * @param {string|object} prompt - 문자열 또는 객체(객체면 JSON.stringify 후 전달)
  * @param {boolean} isJson - true면 responseMimeType을 application/json으로 요청
  * @returns {Promise<string>} - Gemini가 반환한 텍스트(대부분 JSON 문자열)

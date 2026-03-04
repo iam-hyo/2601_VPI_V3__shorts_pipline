@@ -1,0 +1,799 @@
+{
+  "runId": "2026-02-27",
+  "date": "2026-02-27",
+  "createdAt": "2026-02-27T02:50:01.855Z",
+  "updatedAt": "2026-02-27T02:57:53.439Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "민와 와",
+          "손흥 민 메시",
+          "정국 라이브",
+          "파반느",
+          "갤럭시 s26",
+          "닥터 후",
+          "오현규",
+          "봄동 비빔밥",
+          "주키니",
+          "김길리",
+          "장항준",
+          "하츠 투 하츠",
+          "민희 진",
+          "사장 남천동",
+          "한국 경제 tv",
+          "박지훈",
+          "블랙 핑크",
+          "원큐",
+          "삼성 전자"
+        ],
+        "updatedAt": "2026-02-27T02:50:16.090Z",
+        "assignedKeywords": [
+          "민와 와",
+          "손흥 민 메시",
+          "정국 라이브"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "손흥 민 메시",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "경기력 심층 분석 및 비교",
+                "tags": [
+                  "손흥민",
+                  "메시",
+                  "하이라이트",
+                  "골",
+                  "월드클래스",
+                  "축구분석",
+                  "대결",
+                  "분석"
+                ]
+              },
+              {
+                "name": "팬덤 및 해외 반응",
+                "tags": [
+                  "해외반응",
+                  "미국반응",
+                  "국뽕",
+                  "메시 반응",
+                  "손흥민 해외반응",
+                  "외국인반응",
+                  "한국반응"
+                ]
+              },
+              {
+                "name": "특정 경기 및 리그 이슈",
+                "tags": [
+                  "LAFC",
+                  "인터마이애미",
+                  "MLS",
+                  "프리미어리그",
+                  "토트넘",
+                  "경기",
+                  "손메대전",
+                  "LAFC 인터마이애미"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "손흥민 메시 분석 비교 하이라이트 -해외반응 -LAFC",
+                "theme": "손흥민과 메시의 개인 기량, 경기력, 주요 장면 등을 심층적으로 분석하고 비교하는 콘텐츠를 찾습니다.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "손흥민 메시 해외반응 미국반응 국뽕 -분석 -LAFC",
+                "theme": "손흥민과 메시 관련 소식에 대한 국내외 팬들의 반응, 여론, 그리고 국뽕 콘텐츠를 탐색합니다.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "손흥민 메시 LAFC 인터마이애미 MLS 경기 -분석 -해외반응",
+                "theme": "손흥민과 메시가 연관된 특정 경기, 리그(MLS, EPL), 또는 가상 대결 시나리오 등 구체적인 이벤트 관련 콘텐츠를 검색합니다.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "손흥민 메시 LAFC 인터마이애미 MLS 경기 -분석 -해외반응",
+          "selectedTheme": "손흥민과 메시가 연관된 특정 경기, 리그(MLS, EPL), 또는 가상 대결 시나리오 등 구체적인 이벤트 관련 콘텐츠를 검색합니다.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "gfcTBl0BDX8",
+              "title": "손흥민이 메시와 유니폼 교환을 하지 못한 이유ㄷㄷㄷ ( lafc 대 인터 마이애미 )",
+              "channelTitle": "디피풋볼  DPFUTBOL",
+              "predicted7d": 652596
+            },
+            {
+              "videoId": "a36Kwh7vlNQ",
+              "title": "손흥민 MLS 흥행 또 흥행ㄷㄷㄷ",
+              "channelTitle": "디피풋볼  DPFUTBOL",
+              "predicted7d": 285295
+            },
+            {
+              "videoId": "KkRgVz4k5Ug",
+              "title": "메시 보러 왔다가 멘붕 ㅋㅋ \"손흥민 끔찍하게 싫어!\" 마이애미 팬들 찐반응 (단 2경기 1골 4도움🔥)",
+              "channelTitle": "헤드라인큐",
+              "predicted7d": 146374
+            },
+            {
+              "videoId": "7SOlDrDzE-8",
+              "title": "메시가 손흥민과의 경기에서 화가 난 이유",
+              "channelTitle": "골드립",
+              "predicted7d": 264552
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-27/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "손흥민 메시 MLS 경기! 해외반응 역대급ㄷㄷ",
+            "description": "2026-02-27_KR_1\n손흥민과 메시의 MLS 경기, 그 뜨거웠던 현장과 해외 팬들의 역대급 반응을 모았습니다. 유니폼 교환부터 메시의 분노, 손흥민의 미친 활약까지! 놓치지 마세요.",
+            "tags": [
+              "손흥민",
+              "메시",
+              "MLS",
+              "인터마이애미",
+              "LAFC",
+              "해외반응",
+              "축구",
+              "쇼츠",
+              "손흥민메시",
+              "유니폼교환"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "IvBu3RcFiuw"
+          },
+          "updatedAt": "2026-02-27T02:51:24.347Z"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "originalKeyword": "정국 라이브",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "논란 및 이슈 분석",
+                "tags": [
+                  "정국",
+                  "라이브",
+                  "이슈",
+                  "논란",
+                  "뉴스",
+                  "연예뉴스",
+                  "사고",
+                  "정국음주라이브",
+                  "정국논란",
+                  "아이돌이슈",
+                  "취중",
+                  "심야",
+                  "흡연",
+                  "고백",
+                  "욕설논란",
+                  "아이돌논란",
+                  "공식입장",
+                  "소속사이슈",
+                  "돌발 발언",
+                  "엇갈린 반응"
+                ]
+              },
+              {
+                "name": "팬덤 반응 및 소통",
+                "tags": [
+                  "정국",
+                  "라이브",
+                  "아미",
+                  "팬반응",
+                  "위버스",
+                  "위버스라이브",
+                  "정국위버스",
+                  "BTS",
+                  "방탄소년단",
+                  "jungkook"
+                ]
+              },
+              {
+                "name": "최신 라이브 및 콘텐츠",
+                "tags": [
+                  "정국",
+                  "라이브",
+                  "정국라이브",
+                  "실시간",
+                  "방송",
+                  "BTS",
+                  "방탄소년단",
+                  "jungkook",
+                  "bts jk",
+                  "bts live",
+                  "정국라방"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "정국 라이브 논란 음주라이브 이슈 -아미 -팬반응 -위버스 -실시간",
+                "theme": "정국 라이브와 관련된 부정적 이슈, 논란, 사건 사고 및 언론 보도를 심층적으로 분석합니다.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "정국 라이브 논란 음주라이브 이슈 -아미 -팬반응 -위버스 -실시간",
+          "selectedTheme": "정국 라이브와 관련된 부정적 이슈, 논란, 사건 사고 및 언론 보도를 심층적으로 분석합니다.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "z-Fb2q38mHg",
+              "title": "술먹고 욕까지? BTS 정국 라이브 논란; 하이브 불만 표출",
+              "channelTitle": "이슈컬렉터",
+              "predicted7d": 227288
+            },
+            {
+              "videoId": "ZiMcmUvC7Ww",
+              "title": "BTS 정국, 컴백 앞두고 왜 이러나…음주 라방 중 욕설 논란[숏뉴스]",
+              "channelTitle": "MBN News",
+              "predicted7d": 49306
+            },
+            {
+              "videoId": "tD3-DDJLrgc",
+              "title": "팬들도 말린 정국 '음주 라이브'",
+              "channelTitle": "김팩트",
+              "predicted7d": 774376
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-27T02:51:24.355Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "claressa shields",
+          "willie colón",
+          "ryan garcia vs mario barrios",
+          "usa vs canada hockey",
+          "alysa liu",
+          "baby keem",
+          "toy story 5"
+        ],
+        "updatedAt": "2026-02-27T02:51:54.569Z",
+        "assignedKeywords": [
+          "claressa shields",
+          "willie colón",
+          "ryan garcia vs mario barrios",
+          "usa vs canada hockey",
+          "alysa liu"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "usa vs canada hockey",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Game Action & Iconic Moments",
+                "tags": [
+                  "Hockey Highlights",
+                  "Golden Goal",
+                  "Overtime",
+                  "Game Winner",
+                  "jack hughes goal vs canada",
+                  "usa vs canada hockey final",
+                  "Historic Win",
+                  "Highlights"
+                ]
+              },
+              {
+                "name": "Tournament Context & Future Outlook",
+                "tags": [
+                  "Olympics",
+                  "Winter Olympics",
+                  "2026 Olympics",
+                  "Gold Medal",
+                  "nhl players olympics 2026",
+                  "Olympic Hockey",
+                  "Milan Cortina",
+                  "Milano 2026",
+                  "Team USA Gold Medal 2026",
+                  "2026 Winter Olympics hockey"
+                ]
+              },
+              {
+                "name": "Fan Engagement & Commentary",
+                "tags": [
+                  "USA Reaction Canada",
+                  "USA Canada Postgame",
+                  "angry canadian fan reactions",
+                  "usa vs canad fan reactiosn",
+                  "canada vs usa watch party",
+                  "viral olympic fan reactions",
+                  "usa hockey commentary",
+                  "Sports Reaction",
+                  "Interview",
+                  "Funny"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "USA Canada Hockey highlights \"golden goal\" overtime -Olympics -\"fan reactions\"",
+                "theme": "Targeting viewers interested in specific game plays, decisive moments, and highlight reels of USA vs Canada hockey matches.",
+                "status": "FAIL",
+                "reason": "쇼츠 개수 부족 (적합: 2개 / 최소: 3개)"
+              },
+              {
+                "q": "USA Canada Hockey Olympics 2026 \"Gold Medal\" -highlights -\"fan reactions\"",
+                "theme": "Focusing on content related to major tournament contexts, particularly the Olympics, future events like 2026, and the pursuit of gold medals.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "USA Canada Hockey Olympics 2026 \"Gold Medal\" -highlights -\"fan reactions\"",
+          "selectedTheme": "Focusing on content related to major tournament contexts, particularly the Olympics, future events like 2026, and the pursuit of gold medals.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "GVrECqGybD8",
+              "title": "Team USA Honors Johnny Gaudreau After Gold Medal Win: “He Put a Spell Around Our Net” #TeamUSA",
+              "channelTitle": "THE REAL FACTS ",
+              "predicted7d": 264453
+            },
+            {
+              "videoId": "haHKGBg_jTY",
+              "title": "Jack Hughes Wins Olympic Gold for Team USA—Minus a Tooth #JackHughes #QuinnHughes #TeamUSA",
+              "channelTitle": "THE REAL FACTS ",
+              "predicted7d": 215360
+            },
+            {
+              "videoId": "72wzyMDREzg",
+              "title": "USA HOCKEY WINS THE GOLD! #news",
+              "channelTitle": "TheNinjaSlime",
+              "predicted7d": 228269
+            },
+            {
+              "videoId": "0e96lSQ3Bjc",
+              "title": "USA Men's hockey team wins Gold in overtime! #usa",
+              "channelTitle": "Average Joselito ",
+              "predicted7d": 33852
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-27/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "USA Hockey Gold! Olympic 2026 Thrills",
+            "description": "2026-02-27_US_1\nRelive the most electrifying moments from Team USA's incredible journey to the 2026 Olympic Gold Medal in hockey! Witness the drama, the skill, and the pure joy as they defeat Canada in a historic showdown. Don't miss these unforgettable highlights!",
+            "tags": [
+              "USA Hockey",
+              "Olympic Gold",
+              "2026 Olympics",
+              "Team USA",
+              "Hockey Highlights",
+              "Gold Medal",
+              "Ice Hockey",
+              "Sports Shorts",
+              "Jack Hughes",
+              "Johnny Gaudreau"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "aL0B5OzTZvI"
+          },
+          "updatedAt": "2026-02-27T02:53:35.989Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "alysa liu",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Competitive Skating & Olympic Journey",
+                "tags": [
+                  "olympics",
+                  "figure skating",
+                  "Milano Cortina 2026",
+                  "performance",
+                  "gold medal",
+                  "Team USA",
+                  "Winter Olympics",
+                  "Figure Skating Highlights",
+                  "Alysa Liu Comeback",
+                  "Olympic Nostalgia",
+                  "Figure Skating Aesthetic",
+                  "Figure Skating Records",
+                  "ISU Figure Skating",
+                  "Technical Skating Breakdown",
+                  "Skating Analysis"
+                ]
+              },
+              {
+                "name": "Personal Life & Family Story",
+                "tags": [
+                  "alysa liu dad",
+                  "Arthur Liu",
+                  "Surrogacy",
+                  "family life",
+                  "inspiring sports story",
+                  "athlete family",
+                  "parenting tips",
+                  "alysa liu story",
+                  "alysa lia father",
+                  "surrogacy family",
+                  "Olympic athlete parent",
+                  "sports family journey",
+                  "Olympic figure skating family"
+                ]
+              },
+              {
+                "name": "Viral Moments & Pop Culture Influence",
+                "tags": [
+                  "KPOP",
+                  "pinkpantheress",
+                  "viral",
+                  "shorts",
+                  "youtube shorts",
+                  "memes",
+                  "gen z icon",
+                  "skating to pinkpantheress",
+                  "ALYSA LIU WAS A KPOP FAN",
+                  "ALYSA LIU ITZY",
+                  "ALYSA LIU STAYC",
+                  "KPOP IDOL",
+                  "LOCO",
+                  "ITSY",
+                  "STAYC",
+                  "pop music on ice",
+                  "olympic routine viral",
+                  "sports meets music",
+                  "youtube shorts 🎶⛸️",
+                  "funny",
+                  "funny content",
+                  "funny youtube shorts",
+                  "trending",
+                  "funny memes",
+                  "know your meme",
+                  "memes explained"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "alysa liu figure skating olympics performance -dad -KPOP -viral",
+                "theme": "In-depth analysis of Alysa Liu's competitive figure skating career, Olympic performances, and future prospects.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "alysa liu figure skating olympics performance -dad -KPOP -viral",
+          "selectedTheme": "In-depth analysis of Alysa Liu's competitive figure skating career, Olympic performances, and future prospects.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4wwa9otqc5A",
+              "title": "I drew 650+ frames for this animation 😭 rotoscope of Alysa Liu’s gold winning figure skating!",
+              "channelTitle": "Amii Illustrates",
+              "predicted7d": 99883
+            },
+            {
+              "videoId": "p336y3Il5jM",
+              "title": "Alysa Liu's Dream Performance ⛸️✨",
+              "channelTitle": "Next Level Tickets",
+              "predicted7d": 198089
+            },
+            {
+              "videoId": "n2-HIC0cDGM",
+              "title": "Alysa Liu’s GOLDEN moment #winterolympics #alysaliu #skate #figureskating #skating #usa #gold #fyp",
+              "channelTitle": "Giang Hoang",
+              "predicted7d": 46480
+            },
+            {
+              "videoId": "PEy5PazcbXE",
+              "title": "500+ drawings, one groovy lil skater 😭 rotoscope animation of Alysa Liu’s figure skating!",
+              "channelTitle": "Amii Illustrates",
+              "predicted7d": 41294
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-27/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Alysa Liu's Golden Olympic Skates",
+            "description": "2026-02-27_US_2\nRelive Alysa Liu's breathtaking Olympic figure skating performances. Witness the artistry and power that captivated the world, showcasing her unforgettable golden moments on ice.",
+            "tags": [
+              "AlysaLiu",
+              "FigureSkating",
+              "Olympics",
+              "WinterOlympics",
+              "Skating",
+              "USA",
+              "GoldMedal",
+              "Performance",
+              "IceSkating",
+              "Sports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "0M7IEE6RFbQ"
+          },
+          "updatedAt": "2026-02-27T02:54:22.463Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-02-27T02:54:22.471Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "mexico vs islandia",
+          "willie colón",
+          "cruz azul vs chivas",
+          "noticias de hoy",
+          "penitencia",
+          "toy story 5",
+          "foro tv en vivo",
+          "brawl stars",
+          "poppy playtime",
+          "blackpink"
+        ],
+        "updatedAt": "2026-02-27T02:54:37.631Z",
+        "assignedKeywords": [
+          "mexico vs islandia",
+          "willie colón",
+          "cruz azul vs chivas",
+          "noticias de hoy",
+          "penitencia",
+          "toy story 5",
+          "foro tv en vivo",
+          "brawl stars",
+          "poppy playtime"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "originalKeyword": "penitencia",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Controversia Mediática y Podcast",
+                "tags": [
+                  "carmen salinas",
+                  "penitencia podcast",
+                  "saskia niño de rivera",
+                  "farandula mexico",
+                  "controversia viral mexico",
+                  "noticias espectaculos mexico",
+                  "polemica mediática mexico",
+                  "famosos mexico hoy",
+                  "debate etico periodismo",
+                  "medios y responsabilidad",
+                  "actriz mexicana noticias",
+                  "Penitencia Saskia",
+                  "ESPECTACULOS",
+                  "FARANDULA",
+                  "ESCANDALO",
+                  "VIRAL",
+                  "PERIODISMO"
+                ]
+              },
+              {
+                "name": "Significado Religioso y Tradiciones",
+                "tags": [
+                  "Procesiones",
+                  "Tradicion",
+                  "Cuaresma",
+                  "Miércoles de Ceniza",
+                  "Calvario",
+                  "Jesús Justicia",
+                  "RELIGIOSA"
+                ]
+              },
+              {
+                "name": "Juegos y Fantasía",
+                "tags": [
+                  "CAMPAÑA",
+                  "GAMEPLAY",
+                  "JUEGO",
+                  "VIDEOJUEGO",
+                  "THE WITCHER",
+                  "GERALT",
+                  "NARRATIVA",
+                  "SHOOTER",
+                  "DEMONIOS",
+                  "BRUJO",
+                  "ESPADAS"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "penitencia Saskia Niño de Rivera podcast -cuaresma -videojuego",
+                "theme": "Análisis de la controversia mediática y el impacto del podcast 'Penitencia' con Saskia Niño de Rivera y el caso Carmen Salinas.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "penitencia Saskia Niño de Rivera podcast -cuaresma -videojuego",
+          "selectedTheme": "Análisis de la controversia mediática y el impacto del podcast 'Penitencia' con Saskia Niño de Rivera y el caso Carmen Salinas.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "WC6pmfGAviE",
+              "title": "Carmen Salinas en polémica tras confesión viral del Podcast Penitencia",
+              "channelTitle": "JennaPop",
+              "predicted7d": 233338
+            },
+            {
+              "videoId": "8IPqEthAeo8",
+              "title": "¡Escándalo! Acusan a Carmen Salinas de rituales en impactante testimonio",
+              "channelTitle": "La Zotehuela Noticias",
+              "predicted7d": 69058
+            },
+            {
+              "videoId": "-PBXDk_u2mo",
+              "title": "ACUSAN A CARMELITA SALINAS DE REALIZAR RITUALES S4TAN1C0Z🚨🎙️🔥",
+              "channelTitle": "Buena Fama",
+              "predicted7d": 55148
+            }
+          ],
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"사용 가능한 소스 영상이 4개 미만입니다.\"}"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "originalKeyword": "poppy playtime",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Gameplay y Guías",
+                "tags": [
+                  "poppy playtime chapter 5",
+                  "poppy playtime 5",
+                  "poppy playtime 5 gameplay",
+                  "poppy playtime capitulo 5",
+                  "jugando poppy playtime",
+                  "poppy playtime juego completo",
+                  "final completo",
+                  "todo los finales",
+                  "playthrough"
+                ]
+              },
+              {
+                "name": "Historia y Teorías",
+                "tags": [
+                  "huggy wuggy",
+                  "lily lovebraids",
+                  "kissy missy",
+                  "catnap",
+                  "the prototype",
+                  "smiling critters",
+                  "prototype",
+                  "prototipo",
+                  "el prototipo 1006",
+                  "poppy playtime história",
+                  "poppy playtime teoria",
+                  "experiencias da playtime co",
+                  "lily lovebraids explained"
+                ]
+              },
+              {
+                "name": "Contenido Creativo y Reacciones",
+                "tags": [
+                  "poppy playtime 5 trailer",
+                  "memes",
+                  "poppy playtime animation",
+                  "trailer poppy playtime 5",
+                  "gameplay gracioso",
+                  "poppy playtime comics",
+                  "smiling critters comics",
+                  "meme",
+                  "humor",
+                  "poppy playtime reaction",
+                  "animation",
+                  "sfm",
+                  "Poppy Playtime 5 Comic Dub",
+                  "PP5 Fan Animation"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "poppy playtime capítulo 5 gameplay -historia -animación",
+                "theme": "Contenido centrado en la experiencia de juego, tutoriales, gameplays completos y finales del último capítulo de Poppy Playtime.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "keyword": "poppy playtime capítulo 5 gameplay -historia -animación",
+          "selectedTheme": "Contenido centrado en la experiencia de juego, tutoriales, gameplays completos y finales del último capítulo de Poppy Playtime.",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4Jhh3P9UGK0",
+              "title": "Poppy Playtime Chapter 5 - Accolades Trailer",
+              "channelTitle": "Mob Entertainment",
+              "predicted7d": 1792423
+            },
+            {
+              "videoId": "DS_1190C6M0",
+              "title": "New Jumpscare of Prototype 1006 - POPPY PLAYTIME Chapter 5",
+              "channelTitle": "LumajusoTV",
+              "predicted7d": 234636
+            },
+            {
+              "videoId": "OuOHRxF4yyg",
+              "title": "Creepy Stalker in CHAPTER 5! #mobpartnersincrime #poppyplaytimechapter5 #poppyplaytime",
+              "channelTitle": "Nized",
+              "predicted7d": 190736
+            },
+            {
+              "videoId": "8bsanvO-G50",
+              "title": "Poppy Playtime Chapter 5 edit | Everyone is dumb. #foryou #shorts",
+              "channelTitle": "Billy Mines",
+              "predicted7d": 65274
+            }
+          ],
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-02-27/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Poppy Playtime Capítulo 5: ¡Terror y Stalkers!",
+            "description": "2026-02-27_MX_2\n¡Prepárate para el terror en Poppy Playtime Capítulo 5! Descubre los nuevos jumpscares, el misterioso stalker y la increíble animación que te dejará sin aliento. No te pierdas esta aventura llena de suspenso y secretos.",
+            "tags": [
+              "PoppyPlaytimeCapítulo5",
+              "GameplayPoppyPlaytime",
+              "TerrorJuegos",
+              "Jumpscare",
+              "StalkerPoppyPlaytime",
+              "AnimaciónJuegos",
+              "HistoriaJuegos",
+              "MobEntertainment",
+              "VideojuegosTerror",
+              "ShortsGaming"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Oq7Mnd0Zqjw"
+          },
+          "updatedAt": "2026-02-27T02:57:53.427Z"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-02-27T02:57:53.436Z"
+    }
+  },
+  "finishedAt": "2026-02-27T02:57:53.439Z"
+}

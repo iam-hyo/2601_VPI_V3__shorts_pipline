@@ -21,10 +21,11 @@ export class VideoProcessorApiClient {
    * @returns {Promise<{ok:boolean, outputFileAbs?:string, outputFile?:string, uploadMeta?:any, error?:string}>}
    */
   async process(req) {
+    // 호출부: process({ workDir, topic: picked.keyword, slotID, HIGHLIGHT_SECOND, region }),
     const { slotID, topic, sources = [], region } = req; // 구조 분해 할당으로 변수 추출
     
-    console.log(`[${slotID}] 📤 process 호출 (req: ${JSON.stringify(req, null, 2)})`); // 호출 로그 추가
-    console.log(`[${slotID}] 📤 process 호출 (Region: ${region})`); // 호출 로그 추가
+    // console.log(`[${slotID}] 📤 process 호출 (req: ${JSON.stringify(req, null, 2)})`); // 호출 로그 추가
+    // console.log(`[${slotID}] 📤 process 호출 (Region: ${region})`); // 호출 로그 추가
     const url = `${this.baseUrl}/process`;
 
     // 10분(600,000ms) 타임아웃 설정
