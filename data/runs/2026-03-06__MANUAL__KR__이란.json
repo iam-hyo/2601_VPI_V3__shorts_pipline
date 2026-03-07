@@ -1,0 +1,169 @@
+{
+  "runId": "2026-03-06__MANUAL__KR__이란",
+  "date": "2026-03-06__MANUAL__KR__이란",
+  "createdAt": "2026-03-06T04:33:22.534Z",
+  "updatedAt": "2026-03-06T04:35:11.364Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "이란"
+        ]
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "originalKeyword": "이란",
+          "keyword": "이란 핵 중동 정세",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "국제 정세 및 안보",
+                "logic": "이란의 지정학적 중요성, 핵 프로그램, 국제 관계 및 분쟁 관련 이슈에 초점을 맞춘 군집입니다.",
+                "identity_tags": [
+                  "이란 핵",
+                  "중동 정세",
+                  "이란 미국",
+                  "이란 전쟁"
+                ]
+              },
+              {
+                "name": "문화, 여행 및 사회",
+                "logic": "이란의 독특한 문화유산, 여행 경험, 일상생활, 사회적 특징 등 인문학적 관점에 중점을 둔 군집입니다.",
+                "identity_tags": [
+                  "이란 여행",
+                  "이란 문화",
+                  "이란 음식",
+                  "페르시아",
+                  "이란 생활"
+                ]
+              },
+              {
+                "name": "경제 및 에너지 산업",
+                "logic": "이란의 경제 상황, 주요 산업(특히 석유 및 가스), 국제 제재의 영향 등 경제적 관점에 집중한 군집입니다.",
+                "identity_tags": [
+                  "이란 경제",
+                  "이란 석유",
+                  "이란 원유",
+                  "이란 제재"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "이란 핵 중동 정세",
+                "theme": "이란의 핵 개발 및 중동 지역 안보에 대한 국제적 관심과 분석 트렌드",
+                "status": "PASS"
+              }
+            ]
+          },
+          "selectedSourceVideos": [
+            {
+              "videoId": "qpY46h0aSgw",
+              "title": "트럼프 대통령의 강력한 의지",
+              "channelTitle": "숏플릭",
+              "predicted7d": 841865,
+              "delta": 118442
+            },
+            {
+              "videoId": "JR5FzSuAvCk",
+              "title": "\"핵무기 방지 작전\" vs \"명백한 전쟁범죄\" ‘미국 vs 이란’ 정면 충돌에 UN 긴급회의 #쇼츠 #UN안보리 #중동위기 #이란공습 #핵개발차단 #미국이스라엘",
+              "channelTitle": "OBS뉴스",
+              "predicted7d": 64933,
+              "delta": 27727
+            },
+            {
+              "videoId": "0Z463ZKtfHw",
+              "title": "트럼프가 이란을 공격한 진짜 이유! #중동정세 #이란공습 #트럼프 #미국이스라엘 #페트로달러 #안보전략 #시아파초승달",
+              "channelTitle": "밀리터리 리포트",
+              "predicted7d": 20565,
+              "delta": 12456
+            },
+            {
+              "videoId": "doA53Wc19_8",
+              "title": "[충격]단 1분, 이란 지도자의 최후… 다음은 김정은?",
+              "channelTitle": "코리안드림 포커스 | Korean Dream Focus",
+              "predicted7d": 26095,
+              "delta": 12390
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-06__MANUAL__KR__이란/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "이란 핵 위기: 트럼프의 진짜 노림수는?",
+            "description": "2026-03-06__MANUAL__KR__이란_KR_1\n중동을 뒤흔든 이란 핵 개발 논란! 트럼프 대통령의 강력한 의지와 숨겨진 전략, 그리고 UN의 긴급 대응까지. 과연 이란의 운명은 어떻게 될까요?",
+            "tags": [
+              "이란핵",
+              "중동정세",
+              "트럼프",
+              "미국이란",
+              "핵개발",
+              "UN안보리",
+              "국제정세",
+              "쇼츠",
+              "시사",
+              "페트로달러"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "W5HV_ef2DtM"
+          },
+          "updatedAt": "2026-03-06T04:35:11.355Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "assignedKeywords": [
+        "이란"
+      ],
+      "updatedAt": "2026-03-06T04:35:11.363Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-06T04:35:11.364Z"
+}

@@ -1,0 +1,601 @@
+{
+  "runId": "2026-03-05",
+  "date": "2026-03-05",
+  "createdAt": "2026-03-05T02:50:01.402Z",
+  "updatedAt": "2026-03-05T09:20:49.503Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김선태 유튜브",
+          "개기 월식",
+          "바이오 하자드 레퀴엠",
+          "블랙핑크",
+          "효리 수",
+          "센서 스튜디오",
+          "갤럭시 s26 울트라",
+          "보겸",
+          "정국",
+          "자두 두"
+        ],
+        "updatedAt": "2026-03-05T02:50:15.843Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "음악 활동 및 퍼포먼스",
+                "logic": "정국의 솔로 음악 활동, 앨범, 라이브 무대, 퍼포먼스 등 아티스트로서의 면모에 집중.",
+                "identity_tags": [
+                  "솔로곡",
+                  "앨범",
+                  "라이브",
+                  "퍼포먼스"
+                ]
+              },
+              {
+                "name": "개인 콘텐츠 및 일상",
+                "logic": "정국의 브이로그, 비하인드 스토리, 인터뷰, 일상 모습 등 팬들과 소통하는 개인적인 콘텐츠에 집중.",
+                "identity_tags": [
+                  "브이로그",
+                  "비하인드",
+                  "인터뷰",
+                  "일상"
+                ]
+              },
+              {
+                "name": "팬덤 반응 및 기록",
+                "logic": "정국 관련 팬들의 반응, 뉴스, 기록, 수상 등 대중적 관심과 성과에 집중.",
+                "identity_tags": [
+                  "팬 반응",
+                  "기록",
+                  "수상",
+                  "이슈"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "정국 솔로곡 앨범 라이브 퍼포먼스",
+                "theme": "정국의 음악적 역량과 무대 위 아티스트로서의 활동에 대한 관심",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "정국 브이로그 비하인드 인터뷰 일상",
+                "theme": "정국의 인간적인 면모와 팬들과의 소통을 담은 개인 콘텐츠에 대한 관심",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "정국 팬 반응 기록 수상 이슈",
+                "theme": "정국 관련 팬덤의 반응, 대중적 성과 및 화제성에 대한 관심",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "정국 솔로곡 앨범 라이브 퍼포먼스",
+                "theme": "정국의 음악적 역량과 무대 위 아티스트로서의 활동에 대한 관심",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "정국 브이로그 비하인드 인터뷰 일상",
+                "theme": "정국의 인간적인 면모와 팬들과의 소통을 담은 개인 콘텐츠에 대한 관심",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "정국 팬 반응 기록 수상 이슈",
+                "theme": "정국 관련 팬덤의 반응, 대중적 성과 및 화제성에 대한 관심",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "자두 두 자두 효능 자두 먹는 법",
+                "theme": "자두의 건강상 이점과 섭취 방법에 대한 정보",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "자두 두 자두 농사 자두 품종",
+                "theme": "자두 재배 기술 및 다양한 품종 정보",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "자두 두 자두청 자두 가격",
+                "theme": "자두 가공 제품 및 구매 관련 시장 정보",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              }
+            ],
+            "lastFailedKeyword": "자두 두"
+          }
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING",
+      "assignedKeywords": [
+        "김선태 유튜브",
+        "개기 월식",
+        "바이오 하자드 레퀴엠",
+        "블랙핑크",
+        "효리 수",
+        "센서 스튜디오",
+        "갤럭시 s26 울트라",
+        "보겸",
+        "정국",
+        "자두 두"
+      ]
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "scary movie 6",
+          "jim carrey",
+          "macbook neo",
+          "lanterns trailer",
+          "resident evil requiem",
+          "scream 7",
+          "call her daddy",
+          "SNL",
+          "blackpink",
+          "bruno mars",
+          "marathon",
+          "pokemon",
+          "jeffy"
+        ],
+        "updatedAt": "2026-03-05T09:16:10.839Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "originalKeyword": "scary movie 6",
+          "keyword": "scary movie 6 sequel release date",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Future & Speculation",
+                "logic": "Focuses on the potential existence, timing, and rumors surrounding a sixth installment of the 'Scary Movie' franchise.",
+                "identity_tags": [
+                  "sequel",
+                  "release date",
+                  "rumors",
+                  "confirmed"
+                ]
+              },
+              {
+                "name": "Parody & Comedy Analysis",
+                "logic": "Explores the comedic elements, potential modern horror film targets for parody, and the series' unique humor style.",
+                "identity_tags": [
+                  "parody",
+                  "horror movies",
+                  "spoof",
+                  "comedy"
+                ]
+              },
+              {
+                "name": "Cast & Franchise Legacy",
+                "logic": "Discusses the potential returning cast, the impact of original actors, and the overall historical significance and impact of the 'Scary Movie' franchise.",
+                "identity_tags": [
+                  "cast",
+                  "franchise",
+                  "legacy",
+                  "original actors"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "scary movie 6 sequel release date",
+                "theme": "Discussions and predictions about the potential continuation and release of the next installment.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "selectedSourceVideos": [
+            {
+              "videoId": "DIjLSuC-5-M",
+              "title": "Poppy Playtime Chapter 5 – Player Saves Lily Lovebraids | Emotional and Happy Ending 🥹💔",
+              "channelTitle": "HamburToons",
+              "predicted7d": 10681856,
+              "delta": 3431902
+            },
+            {
+              "videoId": "W0S9mDGdJY0",
+              "title": "Fem Naoya's Dilemma Ft. @sourbunz #jujutsukaisen",
+              "channelTitle": "King Soda",
+              "predicted7d": 3183896,
+              "delta": 1182116
+            },
+            {
+              "videoId": "jAKJcqovQF4",
+              "title": "Capcom Actually Cares About Realism in Resident Evil 9 #ResidentEvilRequiem #ResidentEvil9 #RE9",
+              "channelTitle": "Kenzuax Games",
+              "predicted7d": 423614,
+              "delta": 162684
+            },
+            {
+              "videoId": "2OyMlBTFEPc",
+              "title": "PRETTY NEAT, Don't ya think? 🍴 #bfdi",
+              "channelTitle": "jacknjellify",
+              "predicted7d": 545273,
+              "delta": 146222
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_4.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_3.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_4.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. Horror'\\\\\\\\\\\\''s Happy Ending?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v0];[4:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Sequel'\\\\\\\\\\\\''s Big Dilemma':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 452 kb/s\\n  Stream #0:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 320 kb/s, SAR 1:1 DAR 76:135, 12 fps, 12 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 826 kb/s\\n  Stream #1:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 518 kb/s, SAR 1:1 DAR 76:135, 24 fps, 24 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:05.04, start: 0.000000, bitrate: 1148 kb/s\\n  Stream #2:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 1023 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #3, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_4.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:13.37, start: 0.000000, bitrate: 374 kb/s\\n  Stream #3:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 224 kb/s, SAR 1:1 DAR 76:135, 24 fps, 24 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #3:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x5585497aed40] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_1.mp3':\\n  Duration: 00:00:02.23, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5585497daf40] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_2.mp3':\\n  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5585497e8c40] Estimating duration from bitrate, this may be inaccurate\\nInput #6, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_3.mp3':\\n  Duration: 00:00:02.90, start: 0.000000, bitrate: 48 kb/s\\n  Stream #6:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x558549830a00] Estimating duration from bitrate, this may be inaccurate\\nInput #7, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_4.mp3':\\n  Duration: 00:00:02.21, start: 0.000000, bitrate: 48 kb/s\\n  Stream #7:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[AVFilterGraph @ 0x55854981e640] No option name near '/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf:fontcolor=white:fontsize=if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55)):line_spacing=15:x=(w-text_w)/2:y=if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180)):expansion=none'\\n[AVFilterGraph @ 0x55854981e640] Error parsing a filter description around: ,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\n[AVFilterGraph @ 0x55854981e640] Error parsing filterchain '[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. Horror'\\\\\\\\''s Happy Ending?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v0];[4:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Sequel'\\\\\\\\''s Big Dilemma':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]' around: ,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\nError initializing complex filters.\\nInvalid argument\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_4.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_3.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_4.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. Horror'\\\\\\\\\\\\''s Happy Ending?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v0];[4:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Sequel'\\\\\\\\\\\\''s Big Dilemma':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 452 kb/s\\n  Stream #0:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 320 kb/s, SAR 1:1 DAR 76:135, 12 fps, 12 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 826 kb/s\\n  Stream #1:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 518 kb/s, SAR 1:1 DAR 76:135, 24 fps, 24 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:05.04, start: 0.000000, bitrate: 1148 kb/s\\n  Stream #2:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 1023 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #3, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/highlight_4.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:13.37, start: 0.000000, bitrate: 374 kb/s\\n  Stream #3:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 224 kb/s, SAR 1:1 DAR 76:135, 24 fps, 24 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #3:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x5585497aed40] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_1.mp3':\\n  Duration: 00:00:02.23, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5585497daf40] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_2.mp3':\\n  Duration: 00:00:02.38, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5585497e8c40] Estimating duration from bitrate, this may be inaccurate\\nInput #6, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_3.mp3':\\n  Duration: 00:00:02.90, start: 0.000000, bitrate: 48 kb/s\\n  Stream #6:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x558549830a00] Estimating duration from bitrate, this may be inaccurate\\nInput #7, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_01/outputs/tts_4.mp3':\\n  Duration: 00:00:02.21, start: 0.000000, bitrate: 48 kb/s\\n  Stream #7:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[AVFilterGraph @ 0x55854981e640] No option name near '/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf:fontcolor=white:fontsize=if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55)):line_spacing=15:x=(w-text_w)/2:y=if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180)):expansion=none'\\n[AVFilterGraph @ 0x55854981e640] Error parsing a filter description around: ,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\n[AVFilterGraph @ 0x55854981e640] Error parsing filterchain '[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. Horror'\\\\\\\\''s Happy Ending?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v0];[4:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Sequel'\\\\\\\\''s Big Dilemma':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]' around: ,fade=t=out:st=10.9:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. RE9\\\\: Shockingly Real?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Sequel Release Date?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.0:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.0:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\nError initializing complex filters.\\nInvalid argument\\n\"}"
+        },
+        {
+          "slot": 2,
+          "status": "ERROR",
+          "originalKeyword": "jim carrey",
+          "keyword": "jim carrey stand up comedy funny moments",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Iconic Filmography & Performances",
+                "logic": "Focuses on his acting career, specific movies, and memorable roles that define his cinematic legacy.",
+                "identity_tags": [
+                  "movies",
+                  "best roles",
+                  "iconic scenes"
+                ]
+              },
+              {
+                "name": "Personal Life & Artistic Expression",
+                "logic": "Explores his life beyond acting, including his philosophical views, artistic pursuits, and personal struggles.",
+                "identity_tags": [
+                  "interviews",
+                  "philosophy",
+                  "art",
+                  "mental health"
+                ]
+              },
+              {
+                "name": "Comedy Style & Stand-up Legacy",
+                "logic": "Concentrates on his unique comedic style, stand-up career, and funniest moments that established him as a comedic genius.",
+                "identity_tags": [
+                  "stand up",
+                  "comedy",
+                  "funny moments"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "jim carrey movies best roles iconic scenes",
+                "theme": "Analysis of Jim Carrey's most impactful films and memorable acting performances.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "jim carrey interviews philosophy art mental health",
+                "theme": "Exploration of Jim Carrey's personal journey, philosophical insights, and artistic endeavors.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 1개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "jim carrey stand up comedy funny moments",
+                "theme": "Deep dive into Jim Carrey's unique comedic style, stand-up career, and funniest on-screen moments.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "selectedSourceVideos": [
+            {
+              "videoId": "xl85EPdoVsw",
+              "title": "Ranking The Best Jim Carrey Impressions While Celebrities Watch",
+              "channelTitle": "Top Ranks",
+              "predicted7d": 796538,
+              "delta": 209715
+            },
+            {
+              "videoId": "zj-Nxe5yq4c",
+              "title": "Jim Carrey y su Look de Hombre Blanco Soltero que hace Reír a David Letterman",
+              "channelTitle": "El Ojo Del Paparazzi",
+              "predicted7d": 42398,
+              "delta": 29613
+            },
+            {
+              "videoId": "0eQO2VbEdLI",
+              "title": "Ranking Jim Carrey's wildest transformations #shorts #funny",
+              "channelTitle": "Rank1Nation",
+              "predicted7d": 22781,
+              "delta": 16478
+            },
+            {
+              "videoId": "HRf7Z21Czs8",
+              "title": "Jim Carrey's \"Mediocre\" French Acceptance Speech! 😂 | Honorary César Awards #shorts",
+              "channelTitle": "Topify 5",
+              "predicted7d": 14850,
+              "delta": 2980
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "ERROR",
+            "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_4.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_3.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_4.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. Celebs React to Jim!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.7:d=0.3[v0];[4:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.7:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Letterman Can'\\\\\\\\\\\\''t Handle Jim!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=15.2:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=15.2:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. Wildest Jim Carrey Transformations!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.2:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.2:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Jim'\\\\\\\\\\\\''s '\\\\\\\\\\\\''Mediocre'\\\\\\\\\\\\'' French Speech!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:14.02, start: 0.000000, bitrate: 786 kb/s\\n  Stream #0:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 536 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:15.52, start: 0.000000, bitrate: 472 kb/s\\n  Stream #1:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 333 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:10.49, start: 0.000000, bitrate: 543 kb/s\\n  Stream #2:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, smpte170m/bt470bg/bt709), 608x1080, 279 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #3, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_4.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 1039 kb/s\\n  Stream #3:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 821 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #3:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x55f4ad881140] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_1.mp3':\\n  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55f4ad8e3900] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_2.mp3':\\n  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55f4ad88aac0] Estimating duration from bitrate, this may be inaccurate\\nInput #6, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_3.mp3':\\n  Duration: 00:00:03.31, start: 0.000000, bitrate: 48 kb/s\\n  Stream #6:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55f4ad88d940] Estimating duration from bitrate, this may be inaccurate\\nInput #7, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_4.mp3':\\n  Duration: 00:00:02.86, start: 0.000000, bitrate: 48 kb/s\\n  Stream #7:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[AVFilterGraph @ 0x55f4ad881400] No option name near '/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf:fontcolor=white:fontsize=if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55)):line_spacing=15:x=(w-text_w)/2:y=if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180)):expansion=none'\\n[AVFilterGraph @ 0x55f4ad881400] Error parsing a filter description around: ,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\n[AVFilterGraph @ 0x55f4ad881400] Error parsing filterchain '[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Letterman Can'\\\\\\\\''t Handle Jim!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=15.2:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=15.2:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. Wildest Jim Carrey Transformations!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.2:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.2:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Jim'\\\\\\\\''s '\\\\\\\\''Mediocre'\\\\\\\\'' French Speech!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]' around: ,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\nError initializing complex filters.\\nInvalid argument\\n\"}"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_4.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_3.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_4.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. Celebs React to Jim!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=13.7:d=0.3[v0];[4:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=13.7:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Letterman Can'\\\\\\\\\\\\''t Handle Jim!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=15.2:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=15.2:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. Wildest Jim Carrey Transformations!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.2:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.2:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Jim'\\\\\\\\\\\\''s '\\\\\\\\\\\\''Mediocre'\\\\\\\\\\\\'' French Speech!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:14.02, start: 0.000000, bitrate: 786 kb/s\\n  Stream #0:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 536 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:15.52, start: 0.000000, bitrate: 472 kb/s\\n  Stream #1:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 333 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:10.49, start: 0.000000, bitrate: 543 kb/s\\n  Stream #2:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, smpte170m/bt470bg/bt709), 608x1080, 279 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #3, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/highlight_4.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.20, start: 0.000000, bitrate: 1039 kb/s\\n  Stream #3:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 821 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #3:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x55f4ad881140] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_1.mp3':\\n  Duration: 00:00:02.52, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55f4ad8e3900] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_2.mp3':\\n  Duration: 00:00:02.59, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55f4ad88aac0] Estimating duration from bitrate, this may be inaccurate\\nInput #6, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_3.mp3':\\n  Duration: 00:00:03.31, start: 0.000000, bitrate: 48 kb/s\\n  Stream #6:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55f4ad88d940] Estimating duration from bitrate, this may be inaccurate\\nInput #7, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/US_video_02/outputs/tts_4.mp3':\\n  Duration: 00:00:02.86, start: 0.000000, bitrate: 48 kb/s\\n  Stream #7:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[AVFilterGraph @ 0x55f4ad881400] No option name near '/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf:fontcolor=white:fontsize=if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55)):line_spacing=15:x=(w-text_w)/2:y=if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180)):expansion=none'\\n[AVFilterGraph @ 0x55f4ad881400] Error parsing a filter description around: ,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\n[AVFilterGraph @ 0x55f4ad881400] Error parsing filterchain '[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. Letterman Can'\\\\\\\\''t Handle Jim!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=15.2:d=0.3[v1];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=15.2:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. Wildest Jim Carrey Transformations!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.2:d=0.3[v2];[6:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.2:d=0.3[a2];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='4. Jim'\\\\\\\\''s '\\\\\\\\''Mediocre'\\\\\\\\'' French Speech!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]' around: ,fade=t=out:st=10.9:d=0.3[v3];[7:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg3];[bg3][tts3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.9:d=0.3[a3];[v0][a0][v1][a1][v2][a2][v3][a3]concat=n=4:v=1:a=1[vout][aout]\\nError initializing complex filters.\\nInvalid argument\\n\"}"
+        }
+      ],
+      "status": "RUNNING",
+      "assignedKeywords": [
+        "scary movie 6",
+        "jim carrey"
+      ]
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "scary movie 6 trailer",
+          "america vs juarez",
+          "puebla vs tigres",
+          "resident evil requiem",
+          "penitencia",
+          "saskia niño de rivera",
+          "shakira",
+          "blackpink",
+          "bruno mars",
+          "layun tv",
+          "fer jalil",
+          "podcast"
+        ],
+        "updatedAt": "2026-03-05T09:17:48.857Z"
+      },
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Análisis de la Trama y Teorías",
+                "logic": "Enfoque en la narrativa, el desarrollo de personajes y las interpretaciones profundas de la historia y el universo de Resident Evil.",
+                "identity_tags": [
+                  "historia",
+                  "teorías",
+                  "lore"
+                ]
+              },
+              {
+                "name": "Contenido de Juego y Experiencia",
+                "logic": "Centrado en la experiencia interactiva, mecánicas de juego, guías y cómo sería jugar este hipotético título o concepto.",
+                "identity_tags": [
+                  "gameplay",
+                  "jugabilidad",
+                  "guía"
+                ]
+              },
+              {
+                "name": "Noticias, Rumores y Proyectos de Fans",
+                "logic": "Cobertura de novedades, especulaciones, filtraciones y creaciones de la comunidad en torno a 'Resident Evil Requiem'.",
+                "identity_tags": [
+                  "noticias",
+                  "rumores",
+                  "fan-made"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "resident evil requiem historia teorías lore",
+                "theme": "Análisis profundo de la narrativa, el universo y las posibles implicaciones argumentales de 'Resident Evil Requiem'.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "resident evil requiem",
+          "keyword": "resident evil requiem historia teorías lore",
+          "selectedSourceVideos": [
+            {
+              "videoId": "MiyC6KrVKm8",
+              "title": "EL SECRETO DE LA RULETA EN RESIDENT EVIL 9 REQUIEM #shorts",
+              "channelTitle": "Ray Snakeyes",
+              "predicted7d": 1288004,
+              "delta": 401326
+            },
+            {
+              "videoId": "2dxXLzlVrfY",
+              "title": "5 Detalles RESIDENT EVIL REQUIEM 🧟🔥 #residentevil #residentevilrequiem #videojuegos #capcom",
+              "channelTitle": "3DJuegos",
+              "predicted7d": 1039390,
+              "delta": 328526
+            },
+            {
+              "videoId": "NfZusr6QZfo",
+              "title": "O HUNK NÃO MORRE E EU POSSO PROVAR! #HUNK #LEON #residentevil #requiem #jogos #TERROR #GRACE",
+              "channelTitle": "JFBRINE",
+              "predicted7d": 34319,
+              "delta": 25561
+            },
+            {
+              "videoId": "HeUDFfr1TAE",
+              "title": "When You Wait 3 Hours Just for Leon - Resident Evil Requiem",
+              "channelTitle": "YUMITO",
+              "predicted7d": 53601,
+              "delta": 22350
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "RE Requiem: ¡Teorías que te Volarán!",
+            "description": "2026-03-05_MX_1\nDescubre los secretos más profundos de Resident Evil Requiem. Exploramos teorías impactantes, el lore oculto y detalles que cambiarán tu visión del juego. ¡No te pierdas estas revelaciones!",
+            "tags": [
+              "ResidentEvilRequiem",
+              "ResidentEvil",
+              "LoreRE",
+              "TeoriasRE",
+              "SecretosVideojuegos",
+              "HUNK",
+              "LeonKennedy",
+              "Capcom",
+              "GamingShorts",
+              "Videojuegos"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "84Wsk4orFh8"
+          },
+          "updatedAt": "2026-03-05T09:19:31.648Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Carrera Musical y Discografía",
+                "logic": "Se centra en su producción musical, álbumes, sencillos, colaboraciones y evolución artística a lo largo de su carrera.",
+                "identity_tags": [
+                  "música",
+                  "canciones",
+                  "álbumes",
+                  "éxitos",
+                  "colaboraciones",
+                  "discografía"
+                ]
+              },
+              {
+                "name": "Actuaciones en Vivo y Coreografías",
+                "logic": "Aborda sus espectáculos en directo, coreografías icónicas, presencia escénica y eventos especiales que demuestran su habilidad como performer.",
+                "identity_tags": [
+                  "baile",
+                  "coreografía",
+                  "actuación",
+                  "en vivo",
+                  "conciertos",
+                  "Super Bowl",
+                  "escenario"
+                ]
+              },
+              {
+                "name": "Vida Personal y Figura Pública",
+                "logic": "Explora su biografía, relaciones personales, controversias, entrevistas y su impacto como figura pública más allá de su música.",
+                "identity_tags": [
+                  "biografía",
+                  "vida personal",
+                  "entrevistas",
+                  "polémica",
+                  "familia",
+                  "curiosidades",
+                  "fortuna"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "shakira música éxitos álbumes",
+                "theme": "Exploración de su trayectoria musical, sus mayores éxitos y su discografía completa.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "shakira baile actuación conciertos",
+                "theme": "Análisis de sus icónicas coreografías, espectáculos en vivo y su impacto como performer.",
+                "status": "PASS"
+              }
+            ]
+          },
+          "originalKeyword": "shakira",
+          "keyword": "shakira baile actuación conciertos",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Nn_8JaOvFNs",
+              "title": "Shakira en el Zócalo de la CDMX #Shakira #cdmx #Zócalo #mexico #lasmujeresyanolloran 🇲🇽🐺🔥",
+              "channelTitle": "What's Up?",
+              "predicted7d": 453084,
+              "delta": 140545
+            },
+            {
+              "videoId": "L6OWRo7NlSU",
+              "title": "Shakira en Mérida",
+              "channelTitle": "Eventos SK Prensa",
+              "predicted7d": 222952,
+              "delta": 91217
+            },
+            {
+              "videoId": "qwVhveo-Exw",
+              "title": "GIRL LIKE ME - Shakira en CDMX 🇲🇽🐺 #Shakira #LMYNLWorldTourCDMX",
+              "channelTitle": "Shakira Snowy Wolf 🐾",
+              "predicted7d": 136058,
+              "delta": 55930
+            },
+            {
+              "videoId": "NDG1D1hrNhU",
+              "title": "LAS DE LA INTUICIÓN - Shakira en CDMX 🇲🇽🐺 #Shakira #LMYNLWorldTourCDMX",
+              "channelTitle": "Shakira Snowy Wolf 🐾",
+              "predicted7d": 127774,
+              "delta": 49693
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-05/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Shakira: ¡Momentos épicos en concierto!",
+            "description": "2026-03-05_MX_2\nRevive los momentos más electrizantes de Shakira en sus conciertos. Desde el Zócalo hasta Mérida, cada actuación es pura energía y pasión. ¡No te pierdas sus bailes icónicos y la magia de sus éxitos como 'Girl Like Me' y 'Las de la Intuición'!",
+            "tags": [
+              "Shakira",
+              "ConciertosShakira",
+              "ShakiraEnVivo",
+              "BailesShakira",
+              "GirlLikeMe",
+              "LasDeLaIntuicion",
+              "ZocaloCDMX",
+              "Merida",
+              "PopLatino",
+              "LMYNLWorldTour"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "yQVp-XEW4lQ"
+          },
+          "updatedAt": "2026-03-05T09:20:49.490Z"
+        }
+      ],
+      "status": "DONE",
+      "assignedKeywords": [
+        "scary movie 6 trailer",
+        "america vs juarez",
+        "puebla vs tigres",
+        "resident evil requiem",
+        "penitencia",
+        "saskia niño de rivera",
+        "shakira"
+      ],
+      "updatedAt": "2026-03-05T09:20:49.499Z"
+    }
+  },
+  "finishedAt": "2026-03-05T09:20:49.503Z"
+}

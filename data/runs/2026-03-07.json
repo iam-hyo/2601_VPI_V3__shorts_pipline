@@ -1,0 +1,364 @@
+{
+  "runId": "2026-03-07",
+  "date": "2026-03-07",
+  "createdAt": "2026-03-07T02:50:02.062Z",
+  "updatedAt": "2026-03-07T02:58:54.958Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김선태 유튜브",
+          "천궁 2",
+          "개기 월식",
+          "조정식",
+          "wbc",
+          "센서 스튜디오",
+          "보겸",
+          "이소 나",
+          "그것이 알고 싶다",
+          "자두 두",
+          "충주 맨",
+          "김원",
+          "바이오 하자드 레퀴엠",
+          "ytn 실시간"
+        ],
+        "updatedAt": "2026-03-07T02:50:17.968Z"
+      },
+      "assignedKeywords": [
+        "김선태 유튜브",
+        "천궁 2",
+        "개기 월식",
+        "조정식",
+        "wbc",
+        "센서 스튜디오",
+        "보겸",
+        "이소 나",
+        "그것이 알고 싶다",
+        "자두 두",
+        "충주 맨",
+        "김원",
+        "바이오 하자드 레퀴엠",
+        "ytn 실시간"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "originalKeyword": "ytn 실시간",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "속보 및 심층 분석",
+                "logic": "YTN 실시간 방송의 핵심 기능인 긴급 뉴스 보도와 이에 대한 전문가의 심층적인 해설 및 분석에 초점을 맞춥니다. '지금 이 순간' 가장 뜨거운 사건의 본질을 파악하려는 의도를 반영합니다.",
+                "identity_tags": [
+                  "속보",
+                  "사건사고",
+                  "정치",
+                  "경제",
+                  "사회",
+                  "현장",
+                  "분석",
+                  "해설",
+                  "기자",
+                  "앵커"
+                ]
+              },
+              {
+                "name": "라이브 시청 및 접근",
+                "logic": "YTN 실시간 방송을 시청하고자 하는 사용자의 접근 방식과 플랫폼에 대한 의도를 반영합니다. '어떻게' YTN 라이브를 볼 수 있는지에 대한 정보를 찾는 사용자에게 적합합니다.",
+                "identity_tags": [
+                  "생방송",
+                  "라이브",
+                  "유튜브",
+                  "스트리밍",
+                  "온에어",
+                  "무료",
+                  "다시보기",
+                  "시청"
+                ]
+              },
+              {
+                "name": "특정 주요 이슈/테마",
+                "logic": "YTN 실시간 방송에서 다루는 특정하고 중요한 이슈나 테마에 대한 정보를 찾는 의도를 반영합니다. 일반적인 뉴스보다는 현재 사회적으로 큰 파장을 일으키거나 주목받는 '특정 현안'에 집중합니다.",
+                "identity_tags": [
+                  "재난",
+                  "선거",
+                  "특보",
+                  "국제",
+                  "날씨",
+                  "연예"
+                ]
+              },
+              {
+                "name": "범용/노이즈 태그",
+                "logic": "검색 의도를 명확히 구분하기 어렵거나, 다른 군집의 핵심 태그와 중복되어 검색 결과를 모호하게 만들 수 있는 범용적인 태그들입니다. 단, 검색 결과 확보를 위해 '이슈'와 같은 범용 태그는 제외어에 사용하지 않습니다.",
+                "identity_tags": [
+                  "뉴스",
+                  "방송",
+                  "채널",
+                  "이슈",
+                  "추천"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
+                "theme": "긴급 뉴스 및 전문가 해설",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
+                "theme": "긴급 뉴스 및 전문가 해설",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
+                "theme": "YTN 라이브 스트리밍 시청 방법",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
+                "theme": "YTN 라이브 스트리밍 시청 방법",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
+                "theme": "특정 현안 및 긴급 상황 보도",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
+                "theme": "특정 현안 및 긴급 상황 보도",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
+                "theme": "긴급 뉴스 및 전문가 해설",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
+                "theme": "긴급 뉴스 및 전문가 해설",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
+                "theme": "YTN 라이브 스트리밍 시청 방법",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
+                "theme": "YTN 라이브 스트리밍 시청 방법",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
+                "theme": "특정 현안 및 긴급 상황 보도",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
+                "theme": "특정 현안 및 긴급 상황 보도",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              }
+            ],
+            "lastFailedKeyword": "ytn 실시간"
+          }
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "mcdonalds ceo eating burger",
+          "macbook neo",
+          "jim carrey",
+          "scary movie 6",
+          "SNL",
+          "harry styles",
+          "bruno mars",
+          "resident evil requiem",
+          "gorillaz",
+          "tousi tv",
+          "marathon"
+        ],
+        "updatedAt": "2026-03-07T02:55:29.573Z"
+      },
+      "assignedKeywords": [
+        "mcdonalds ceo eating burger",
+        "macbook neo",
+        "jim carrey",
+        "scary movie 6",
+        "SNL",
+        "harry styles",
+        "bruno mars",
+        "resident evil requiem",
+        "gorillaz",
+        "tousi tv",
+        "marathon"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "originalKeyword": "gorillaz",
+          "queryEngineering": {
+            "clusters": [
+              {
+                "name": "Latest Music & Collaborations",
+                "logic": "Focuses on the most recent album, its specific tracks, and notable collaborations, representing the current musical output and news.",
+                "identity_tags": [
+                  "Cracker Island",
+                  "new album",
+                  "Bad Bunny",
+                  "Tame Impala",
+                  "Stevie Nicks",
+                  "songs",
+                  "music video",
+                  "collaborations"
+                ]
+              },
+              {
+                "name": "Lore, Characters & Art Style",
+                "logic": "Emphasizes the unique visual identity, fictional band members, and the overarching narrative that defines the Gorillaz universe.",
+                "identity_tags": [
+                  "2D",
+                  "Murdoc",
+                  "Noodle",
+                  "Russel",
+                  "Jamie Hewlett",
+                  "animation",
+                  "art style",
+                  "lore",
+                  "fan theories",
+                  "characters"
+                ]
+              },
+              {
+                "name": "Live Performances & Tour History",
+                "logic": "Highlights the band's live presence, concert experiences, and historical tours, focusing on their stage presence and event-based content.",
+                "identity_tags": [
+                  "concert",
+                  "live",
+                  "tour",
+                  "performance",
+                  "festival",
+                  "setlist",
+                  "history",
+                  "tour dates",
+                  "live performance"
+                ]
+              },
+              {
+                "name": "Generic/Noise Tags",
+                "logic": "These tags are too broad or could cause significant overlap across clusters without adding specific value, thus they are excluded to refine search intent.",
+                "identity_tags": [
+                  "band",
+                  "artist",
+                  "interview",
+                  "documentary",
+                  "review",
+                  "best",
+                  "music"
+                ]
+              }
+            ],
+            "validationHistory": [
+              {
+                "q": "gorillaz Cracker Island collaborations -characters -lore -live performance -tour dates",
+                "theme": "Exploring the latest album, its tracks, and significant musical partnerships.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "gorillaz Cracker Island collaborations -characters -lore -live performance -tour dates",
+                "theme": "Exploring the latest album, its tracks, and significant musical partnerships.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "gorillaz characters lore -Cracker Island -collaborations -live performance -tour dates",
+                "theme": "Delving into the fictional world, animated members, and unique visual identity.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              },
+              {
+                "q": "gorillaz characters lore -Cracker Island -collaborations -live performance -tour dates",
+                "theme": "Delving into the fictional world, animated members, and unique visual identity.",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+              }
+            ]
+          }
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "shakira en el zocalo",
+          "scary movie 6 trailer",
+          "lebriah",
+          "harry styles",
+          "markitos toys",
+          "resident evil requiem",
+          "bruno mars",
+          "gorillaz"
+        ],
+        "updatedAt": "2026-03-07T02:58:53.966Z"
+      },
+      "assignedKeywords": [
+        "shakira en el zocalo",
+        "scary movie 6 trailer",
+        "lebriah",
+        "harry styles",
+        "markitos toys",
+        "resident evil requiem",
+        "bruno mars",
+        "gorillaz"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING"
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "RUNNING"
+    }
+  },
+  "finishedAt": "2026-03-07T02:58:54.957Z"
+}

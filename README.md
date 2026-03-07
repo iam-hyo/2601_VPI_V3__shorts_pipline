@@ -120,7 +120,7 @@ node scripts/manual_run.js --region KR --keyword "My Topic" --date 2026-01-02
 
 ## 5) 디버깅/로깅 팁
 - `data/runs/YYYY-MM-DD.json`을 보면 **어디까지 DONE**인지 바로 확인 가능
-- `data/work/.../meta.json`에 선정된 키워드, 선정된 videoId가 남습니다.
+- `data/work/.../source_meta`에 선정된 키워드, 선정된 videoId가 남습니다.
 - Trend Service 로그에는 days(몇 일치), traffic(검색량) 등 디버깅 정보를 기록합니다.
 
 ---

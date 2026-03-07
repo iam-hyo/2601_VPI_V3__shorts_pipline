@@ -425,6 +425,7 @@ const server = http.createServer(async (req, res) => {
       }
 
       console.log(`[QE] '${keyword}' 분석 시작 (태그 수: ${tags.length})`);
+      console.log(`[QE] '${keyword}' 태그 샘플:`, tags.slice(0, 60));
 
       // SPF 전처리: Saturation Penalty 계산
       const sigma = 12;
@@ -438,11 +439,11 @@ const server = http.createServer(async (req, res) => {
         role: "Senior_VPI_Query_Architect",
         context: `'${keyword}' 주제를 분석하여 ${targetLanguage} 시장을 타겟팅하는 3가지 상호 배타적 검색 쿼리를 생성하십시오.`,
 
-         instructions: [
-          "1. 수집된 태그를 의미론적으로 분석하여 유튜브 주제로 적절한 3개의 독자적인 군집(Cluster)으로 분류하십시오.",
-          "2. 각 군집별로 그 성격을 가장 잘 나타내는 핵심 태그 2~4개를 선정하여 AND(공백) 조건으로 엮으십시오.",
-          // "3. 쿼리 형식: '키워드 핵심태그1 핵심태그2 (2개 ~ 3개) -타군집태그1 -타군집태그2'",
-          "3. outputExample에는 제외어가 포함되어 있지만 본 시행에서는 제외어를 붙이지 말고, and연산자에 해당하는 핵심 태그만으로 쿼리를 작성하십시오.",
+        instructions: [
+          "1. 수집된 태그를 분석하여 3개의 독자적인 군집(Positive Cluster)으로 분류하십시오. 이때 태그들 사이의 연관성을 분석하여 '지금 이 순간' 가장 뜨거운 이슈(밈, 뉴스, 사건, 특정 인물)를 우선적으로 군집화하십시오",
+          "2. 각 군집의 검색 의도를 방해하거나 범용어로 선정된 '제외어 군집(Negative Cluster)'을 반드시 별도로 정의하십시오.", // ✅ 제외어 정의 지시 추가
+          "3. 쿼리 작성 시: '핵심태그 2개' 정도만 사용하여 검색 범위를 확보하고, '제외어'를 통해 타 군집과의 중복을 제거하십시오.",
+          //"3.1 쿼리 형식: '키워드 핵심태그1 핵심태그2 (2개 ~ 3개) -타군집태그1 -타군집태그2'",",
           "4. 3개의 슬롯은 반드시 서로 다른 시각(Angle)을 가져야 하며, 검색 결과가 겹치지 않아야 합니다."
         ],
 
@@ -456,9 +457,10 @@ const server = http.createServer(async (req, res) => {
         outputFormat: {
           analysis: {
             clusters: [
-              { name: "군집1 이름", logic: "선정 근거", identity_tags: ["군집1 태그들"] },
-              { name: "군집2 이름", logic: "선정 근거", identity_tags: ["군집2 태그들"] },
-              { name: "군집3 이름", logic: "선정 근거", identity_tags: ["군집3 태그들"] }
+              { name: "군집1 이름", logic: "선정 근거", identity_tags: ["군집1 핵심 태그들"] },
+              { name: "군집2 이름", logic: "선정 근거", identity_tags: ["군집2 핵심 태그들"] },
+              { name: "군집3 이름", logic: "선정 근거", identity_tags: ["군집3 핵심 태그들"] },
+              { name: "범용/노이즈 태그", logic: "선정 근거", identity_tags: ["범용/노이즈 태그 태그들"] }
             ]
           },
           slots: [
@@ -468,29 +470,29 @@ const server = http.createServer(async (req, res) => {
           ]
         },
 
-        outputExample: {
-          analysis: {
-            clusters: [
-              { name: "기술 성능 분석", logic: "수치 데이터와 벤치마크 위주 태그", identity_tags: ["성능", "벤치마크", "스펙"] },
-              { name: "현지 발표", logic: "가격 및 출시일 등 실구매 정보", identity_tags: ["가격", "출시일", "사전예약"] },
-              { name: "실사용 리뷰", logic: "실제 사용 환경 및 장단점", identity_tags: ["사용기", "장단점", "꿀팁"] }
-            ]
-          },
-          slots: [
-            {
-              q: "iPhone16 성능 벤치마크 스펙 -가격 -사용기",
-              theme: "하드웨어 성능 및 기술적 진보에 집중한 트렌드"
-            },
-            {
-              q: "iPhone16 가격 출시일 사전예약 -성능 -사용기",
-              theme: "구매 시점 및 비용 효율성을 중시하는 소비자 트렌드"
-            },
-            {
-              q: "iPhone16 사용기 장단점 꿀팁 -성능 -가격",
-              theme: "실제 사용자 경험과 라이프스타일 중심의 트렌드"
-            }
-          ]
-        }
+        // outputExample: {
+        //   analysis: {
+        //     clusters: [
+        //       { name: "기술 성능 분석", logic: "수치 데이터와 벤치마크 위주 태그", identity_tags: ["성능", "벤치마크", "스펙"] },
+        //       { name: "현지 발표", logic: "가격 및 출시일 등 실구매 정보", identity_tags: ["가격", "출시일", "사전예약"] },
+        //       { name: "실사용 리뷰", logic: "실제 사용 환경 및 장단점", identity_tags: ["사용기", "장단점", "꿀팁"] }
+        //     ]
+        //   },
+        //   slots: [
+        //     {
+        //       q: "iPhone16 성능 벤치마크 스펙 -가격 -사용기",
+        //       theme: "하드웨어 성능 및 기술적 진보에 집중한 트렌드"
+        //     },
+        //     {
+        //       q: "iPhone16 가격 출시일 사전예약 -성능 -사용기",
+        //       theme: "구매 시점 및 비용 효율성을 중시하는 소비자 트렌드"
+        //     },
+        //     {
+        //       q: "iPhone16 사용기 장단점 꿀팁 -성능 -가격",
+        //       theme: "실제 사용자 경험과 라이프스타일 중심의 트렌드"
+        //     }
+        //   ]
+        // }
       };
       const llmRaw = await llm.generateJson(prompt);
       return sendJson(res, 200, JSON.parse(llmRaw));

@@ -38,6 +38,7 @@ export class YouTubeClient {
       order: "date",
       publishedAfter: args.publishedAfterISO,
       regionCode: args.region,
+      videoDuration: "short"
     });
 
     const items = res.data.items ?? [];

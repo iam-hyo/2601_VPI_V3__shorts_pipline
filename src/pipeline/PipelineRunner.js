@@ -173,7 +173,7 @@ export class PipelineRunner {
       log.info({ slotID }, `👌 [${slotID}] 이미 제작-업로드 완료(DONE) 상태입니다. 종료합니다.`);
       return;
     }
-    
+
     // 작업 디렉토리는 "재시도/재실행"에서도 동일해야 하므로 초반에 고정 생성
     const workDir = path.join(
       this.paths.workDir,
@@ -200,8 +200,8 @@ export class PipelineRunner {
 
       picked = { keyword: job.keyword, videos: job.selectedSourceVideos };
 
-      // 재실행 시 meta.json이 없을 수도 있으니(중간에 죽은 경우) 여기서도 한번 써주면 안전함
-      writeJsonAtomic(path.join(workDir, "meta.json"), {
+      // 재실행 시 sourceMeta.json이 없을 수도 있으니(중간에 죽은 경우) 여기서도 한번 써주면 안전함
+      writeJsonAtomic(path.join(workDir, "sourceMeta.json"), {
         runId,
         date: runId,
         region,
@@ -212,6 +212,8 @@ export class PipelineRunner {
     } else {
       // 트렌드 키워드 존재 여부 확인 (pick이 필요할 때만 검사)
       const keywords = rs.trends?.keywords || [];
+      const totalKeywords = keywords.length;
+
       if (!keywords.length) {
         const errorMsg = `[${region}] 트렌드 키워드가 비어 있습니다 (status: ${rs.trends?.status})`;
         job.status = "ERROR";
@@ -242,19 +244,32 @@ export class PipelineRunner {
 
           // 2. 서버(QE API) 호출하여 구체화된 쿼리 후보 3개 획득
           const { slots, analysis } = await this.trendApi.refineTrendKeyword(rawKeyword, tags, region);
+          job.originalKeyword = rawKeyword;
+          job.queryEngineering = {
+            ...analysis,
+            validationHistory: [] // 초기화
+          };
+          this.save(state); // 즉시 파일 저장
 
           // [내부 루프] 3. 3개의 구체화 쿼리 후보 순회 검증
           const validationHistory = [];
 
           for (const slotCandidate of slots) {
-            log.info(`[${slotID}] 후보 검증 시도: ${slotCandidate.q} (${slotCandidate.theme})`);
+            log.info(`[${slotID}] 후보 검증 시도: ${slotCandidate.q}`);
 
-            // validateSingleQuery는 이제 { ok, reason, videos }를 반환함
-            const vResult = await this.validator.validateSingleQuery({
+            const vResult = await this.validator.validateSingleQuery({ q: slotCandidate.q, region, slot });
+
+            // [클러스터링 로깅] 검증 결과가 나올 때마다 history에 push하고 즉시 저장
+            const historyItem = {
               q: slotCandidate.q,
-              region,
-              slot
-            });
+              theme: slotCandidate.theme,
+              status: vResult.ok ? "PASS" : "FAIL",
+              reason: vResult.ok ? null : vResult.reason
+            };
+
+            validationHistory.push(historyItem);
+            job.queryEngineering.validationHistory = validationHistory;
+            this.save(state); // 매 후보 검증마다 상태 업데이트 (덮어쓰기 형식)
 
             if (vResult.ok) {
               // 성공 시 데이터 세팅
@@ -286,12 +301,6 @@ export class PipelineRunner {
           }
 
           // 분석 데이터와 검증 이력을 함께 저장 (디버깅 핵심 데이터)
-          job.queryEngineering = {
-            ...analysis,
-            validationHistory
-          };
-          this.save(state);
-
           if (picked) {
             job.originalKeyword = picked.originalKeyword;
             job.keyword = picked.keyword; // 최종 채택된 구체화 쿼리
@@ -318,12 +327,21 @@ export class PipelineRunner {
             log.warn(`[${slotID}] '${rawKeyword}'의 모든 후보가 탈락하여 소비 목록에 등록하고 다음 트렌드로 이동합니다.`);
           }
         } catch (err) {
-          log.error({ err }, `[${slotID}] '${rawKeyword}' 처리 중 오류 발생, 다음 키워드로 이동`);
+          // QE API 500 에러 등 예상치 못한 오류 발생 시 처리
+          log.error({ err: err.message }, `[${slotID}] '${rawKeyword}' 처리 중 런타임 오류 발생`);
+
+          // 오류가 난 키워드도 '소비'된 것으로 간주할지 선택 가능 (현재는 다음 키워드 시도를 위해 push)
+          if (!rs.assignedKeywords.includes(rawKeyword)) rs.assignedKeywords.push(rawKeyword);
+          this.save(state);
         }
       }
 
       if (!picked) {
-        throw new Error("모든 트렌드 키워드와 쿼리 후보군이 조건을 만족하지 못했습니다.");
+        log.error(`[${slotID}] ⚠️ ${region} 국가의 모든 Trend keyword(${totalKeywords}개)가 소진되었거나 검증에 실패했습니다.`);
+        log.info(`[${slotID}] 현재 슬롯 작업을 건너뛰고 다음 프로세스로 이동합니다.`);
+
+        // 여기서 throw 대신 return을 하여 Orchestrator가 다음 국가/작업을 계속하게 함
+        return null;
       }
 
       // 4) 상태 객체(runId.json)에 상세 정보 기록
@@ -346,9 +364,9 @@ export class PipelineRunner {
       job.status = "RUNNING";
       this.save(state); // runId.json 저장
 
-      // 5) 작업 디렉토리의 meta.json 기록 (Video Processor 참조용)
+      // 5) 작업 디렉토리의 sourceMeta.json 기록 (Video Processor 참조용)
       // 원본 키워드와 구체화된 쿼리를 모두 넘겨주어 편집 시 LLM이 맥락을 파악하게 함
-      writeJsonAtomic(path.join(workDir, "meta.json"), {
+      writeJsonAtomic(path.join(workDir, "sourceMeta.json"), {
         runId,
         date: runId,
         region,
@@ -490,8 +508,6 @@ export class PipelineRunner {
 
         // 2. 최종 설명란 조립 (줄바꿈 \n 포함)
         const description = [
-          `SlotID: ${slotID}`, // slotID 기록
-          "\n",
           job.uploadMeta?.description || "No description provided.", // 기존 설명글
           "\n",
           tagString, // 가공된 해시태그들
