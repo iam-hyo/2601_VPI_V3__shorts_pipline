@@ -60,8 +60,8 @@ function mustExist(p) {
 
 /**
  * [함수 책임]
- * - body.sources 또는 workDir/meta.json에서 "선택된 소스 영상 리스트"를 얻는다.
- * - 우선순위: body.sources(명시) > meta.json(selected)
+ * - body.sources 또는 workDir/sourceMeta.json에서 "선택된 소스 영상 리스트"를 얻는다.
+ * - 우선순위: body.sources(명시) > sourceMeta.json(selected)
  *
  * @param {{ workDir: string, bodySources: any[] }} args
  * @returns {Promise<Array<{videoId:string,title?:string,channelTitle?:string,description?:string,inputPath?:string}>>}
@@ -72,8 +72,8 @@ async function resolveSelectedSources({ workDir, bodySources }) {
     return bodySources;
   }
 
-  // 2) meta.json에서 selected 읽기
-  const metaPath = path.join(workDir, "meta.json");
+  // 2) sourceMeta.json에서 selected 읽기
+  const metaPath = path.join(workDir, "sourceMeta.json");
   const meta = await readJsonSafe(metaPath);
   const selected = meta?.selected || meta?.selectedSourceVideos || [];
   return Array.isArray(selected) ? selected : [];
@@ -150,20 +150,53 @@ const server = http.createServer(async (req, res) => {
         const outPath = path.join(outputsDir, `highlight_${i + 1}.mp4`);
 
         const subPath = await downloadSubtitles(source.videoId, inputsDir);
-        const analysis = await getSmartHighlightTimestamps(subPath); // Gemini 분석
+        // const analysis = await getSmartHighlightTimestamps(subPath); // Gemini 분석
+        const analysis = subPath ? await getSmartHighlightTimestamps(subPath, source.videoId) : null;
 
-        const actualDuration = analysis?.duration || HIGHLIGHT_SECOND; // 분석 결과가 없으면 기본값(11.2) 사용
+        // 3. Fallback 판정 (자막 없음 OR 분석 실패 OR 길이가 3초 미만으로 너무 짧음)
+        const isInvalid = !analysis || !analysis.startTime || (analysis.duration && analysis.duration < 3);
+
+        const startTime = isInvalid ? null : analysis.startTime; // null이면 FFmpeg에서 -sseof 작동
+        const endTime = isInvalid ? null : analysis.endTime;     // null이면 FFmpeg에서 -sseof 작동
+        const duration = isInvalid ? 10 : analysis.duration;
+        const reason = isInvalid ? "No subtitles or analysis failed. Fallback to last 10s." : analysis.reason;
+
+        // [중요] 원본 소스 객체에 분석 결과 기록 (메모리상)
+        source.analysis = {
+          startTime: startTime || "EOF-10s",
+          endTime: endTime ? endTime : "EOF",
+          duration: duration,
+          reason: reason,
+          isSmart: !isInvalid
+        };
 
         await cutSmartHighlight({
           inputPath: source.inputPath,
           outputPath: outPath,
-          startTime: analysis?.startTime,
-          duration: actualDuration,
+          startTime: startTime,
+          duration: duration,
         });
 
         highlightPaths.push(outPath);
-        highlightDurations.push(actualDuration); // [추가] 각 하이라이트의 실제 길이를 저장
+        highlightDurations.push(duration);
       }
+
+      // [신규 추가] Step 2 종료 후 sourceMeta.json 업데이트
+      const metaPath = path.join(workDir, "sourceMeta.json");
+      const currentMeta = await readJsonSafe(metaPath);
+      if (currentMeta) {
+        // selected 배열의 각 항목에 분석 결과 매핑
+        currentMeta.selected = inputFiles.map(f => ({
+          videoId: f.videoId,
+          title: f.title,
+          channelTitle: f.channelTitle,
+          sevenDelta: f.delta,
+          analysis: f.analysis // 여기에 startTime, duration, reason 기록됨
+        }));
+        await writeJsonAtomic(metaPath, currentMeta);
+        console.log(`[${slotID}] ✅ sourceMeta.json에 하이라이트 분석 데이터 기록 완료`);
+      }
+      
 
       // 3) LLM: 캡션 및 메타데이터 생성
       console.log(`[${slotID}] Step 3: LLM 메타데이터 생성 시도...`);
@@ -225,7 +258,7 @@ const server = http.createServer(async (req, res) => {
         };
 
         // 중간 상태 저장 (디버깅용)
-        await writeJsonAtomic(path.join(workDir, "subT_result.json"), { slotID, topic, parsedJson });
+        await writeJsonAtomic(path.join(workDir, "uploadMeta.json"), { slotID, topic, parsedJson });
         console.log(`[${slotID}] ✍️ LLM 메타데이터 생성 및 저장 완료`);
       } catch (err) {
         console.warn(`[${slotID}] LLM 생성 실패: ${err.message}. 기본값 사용.`);

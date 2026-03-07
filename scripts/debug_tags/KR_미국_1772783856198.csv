@@ -1,0 +1,285 @@
+Tag,Frequency(f),Sat_Penalty,Is_Valid
+"뉴스",8,0.8007,YES
+"news",8,0.8007,YES
+"MBC",4,0.946,YES
+"MBC뉴스",4,0.946,YES
+"뉴스데스크",4,0.946,YES
+"newsdesk",4,0.946,YES
+"뉴스투데이",4,0.946,YES
+"newstoday",4,0.946,YES
+"8시뉴스",4,0.946,YES
+"아침뉴스",4,0.946,YES
+"정오뉴스",4,0.946,YES
+"YTN실시간",3,0.9692,YES
+"YTN",3,0.9692,YES
+"미국",3,0.9692,YES
+"트럼프",3,0.9692,YES
+"shorts",3,0.9692,YES
+"연합뉴스",2,0.9862,YES
+"yonhapnews",2,0.9862,YES
+"영상",2,0.9862,YES
+"이슈",2,0.9862,YES
+"디지털",2,0.9862,YES
+"화제",2,0.9862,YES
+"밀리터리",2,0.9862,YES
+"KBS",2,0.9862,YES
+"KBS NEWS",2,0.9862,YES
+"KBS뉴스",2,0.9862,YES
+"NEWS",2,0.9862,YES
+"kbs뉴스",2,0.9862,YES
+"kbs 뉴스",2,0.9862,YES
+"kbs news",2,0.9862,YES
+"kbs",2,0.9862,YES
+"930뉴스",2,0.9862,YES
+"12시뉴스",2,0.9862,YES
+"930",2,0.9862,YES
+"12시",2,0.9862,YES
+"finance",2,0.9862,YES
+"world news",2,0.9862,YES
+"latest news",2,0.9862,YES
+"today news",2,0.9862,YES
+"실시간",2,0.9862,YES
+"실시간 뉴스",2,0.9862,YES
+"엠비씨 뉴스",2,0.9862,YES
+"엠비씨",2,0.9862,YES
+"뉴스 실시간",2,0.9862,YES
+"뉴스속보",2,0.9862,YES
+"한국전쟁",1,0.9965,YES
+"ai복원",1,0.9965,YES
+"참전용사",1,0.9965,YES
+"영웅",1,0.9965,YES
+"미국이란전쟁",1,0.9965,YES
+"쿠르드족",1,0.9965,YES
+"이란침공",1,0.9965,YES
+"지상전",1,0.9965,YES
+"중동전쟁",1,0.9965,YES
+"제3차세계대전",1,0.9965,YES
+"트럼프2기",1,0.9965,YES
+"시리아내전",1,0.9965,YES
+"튀르키예",1,0.9965,YES
+"국제정세",1,0.9965,YES
+"전쟁이슈",1,0.9965,YES
+"이스라엘",1,0.9965,YES
+"무장세력",1,0.9965,YES
+"독립전쟁",1,0.9965,YES
+"미국외교",1,0.9965,YES
+"세계뉴스",1,0.9965,YES
+"긴급속보",1,0.9965,YES
+"장기전",1,0.9965,YES
+"중동분쟁",1,0.9965,YES
+"바이든트럼프",1,0.9965,YES
+"지정학",1,0.9965,YES
+"석유가격",1,0.9965,YES
+"전쟁시나리오",1,0.9965,YES
+"쿠르드반군",1,0.9965,YES
+"이란핵",1,0.9965,YES
+"미군철수",1,0.9965,YES
+"용병",1,0.9965,YES
+"국제전략",1,0.9965,YES
+"자막뉴스",1,0.9965,YES
+"한국문학사",1,0.9965,YES
+"3050Club",1,0.9965,YES
+"source:영상",1,0.9965,YES
+"type:디지털",1,0.9965,YES
+"genre:국제",1,0.9965,YES
+"format:기타",1,0.9965,YES
+"series:자막뉴스",1,0.9965,YES
+"미국주식",1,0.9965,YES
+"나스닥",1,0.9965,YES
+"주식시황",1,0.9965,YES
+"경제뉴스",1,0.9965,YES
+"연준",1,0.9965,YES
+"bitcoin",1,0.9965,YES
+"인플레이션",1,0.9965,YES
+"금리상승",1,0.9965,YES
+"금리",1,0.9965,YES
+"fed",1,0.9965,YES
+"fomc",1,0.9965,YES
+"파월",1,0.9965,YES
+"증시전망",1,0.9965,YES
+"투자전략",1,0.9965,YES
+"금리전망",1,0.9965,YES
+"주가전망",1,0.9965,YES
+"금융시장브리핑",1,0.9965,YES
+"증시폭락",1,0.9965,YES
+"고용지표",1,0.9965,YES
+"산타랠리",1,0.9965,YES
+"재테크",1,0.9965,YES
+"주식",1,0.9965,YES
+"투자",1,0.9965,YES
+"환율",1,0.9965,YES
+"달러",1,0.9965,YES
+"도지",1,0.9965,YES
+"인플레",1,0.9965,YES
+"국제유가",1,0.9965,YES
+"일론머스크",1,0.9965,YES
+"애플",1,0.9965,YES
+"금리인상",1,0.9965,YES
+"금리인하",1,0.9965,YES
+"연준파월",1,0.9965,YES
+"파월의장",1,0.9965,YES
+"fed파월",1,0.9965,YES
+"금리결정",1,0.9965,YES
+"연준금리",1,0.9965,YES
+"금융시장",1,0.9965,YES
+"시황",1,0.9965,YES
+"해외시황",1,0.9965,YES
+"스태그플레이션",1,0.9965,YES
+"tqqq",1,0.9965,YES
+"sqqq",1,0.9965,YES
+"테슬라",1,0.9965,YES
+"오늘의선물",1,0.9965,YES
+"오선",1,0.9965,YES
+"오늘시황",1,0.9965,YES
+"오늘의시황",1,0.9965,YES
+"인버스",1,0.9965,YES
+"인버스etf",1,0.9965,YES
+"통화전망",1,0.9965,YES
+"불라드",1,0.9965,YES
+"연준연설",1,0.9965,YES
+"연준라이브",1,0.9965,YES
+"soxl",1,0.9965,YES
+"soxs",1,0.9965,YES
+"미국경제시황",1,0.9965,YES
+"미국시황",1,0.9965,YES
+"나스닥시황",1,0.9965,YES
+"에센피",1,0.9965,YES
+"블룸버그",1,0.9965,YES
+"바이든",1,0.9965,YES
+"미국뉴스",1,0.9965,YES
+"경제시황",1,0.9965,YES
+"FOMC",1,0.9965,YES
+"유럽중앙은행",1,0.9965,YES
+"ECB금리",1,0.9965,YES
+"유럽금리",1,0.9965,YES
+"미국경제",1,0.9965,YES
+"미경제",1,0.9965,YES
+"미국기업",1,0.9965,YES
+"미국투자",1,0.9965,YES
+"미국etf",1,0.9965,YES
+"미국배당",1,0.9965,YES
+"빅숏",1,0.9965,YES
+"etf",1,0.9965,YES
+"quiz",1,0.9965,YES
+"bloomberg",1,0.9965,YES
+"quicktake",1,0.9965,YES
+"business",1,0.9965,YES
+"bloomberg quicktake",1,0.9965,YES
+"quicktake originals",1,0.9965,YES
+"bloomberg quicktake by bloomberg",1,0.9965,YES
+"us news",1,0.9965,YES
+"science",1,0.9965,YES
+"climate",1,0.9965,YES
+"news today",1,0.9965,YES
+"breaking news",1,0.9965,YES
+"breaking news today",1,0.9965,YES
+"today's news",1,0.9965,YES
+"news today headlines",1,0.9965,YES
+"top news",1,0.9965,YES
+"current news",1,0.9965,YES
+"latest news today",1,0.9965,YES
+"russia",1,0.9965,YES
+"china",1,0.9965,YES
+"india",1,0.9965,YES
+"world news today",1,0.9965,YES
+"france russia",1,0.9965,YES
+"israel hamas",1,0.9965,YES
+"news flash",1,0.9965,YES
+"news of the day",1,0.9965,YES
+"news today live",1,0.9965,YES
+"north korea",1,0.9965,YES
+"documentary",1,0.9965,YES
+"mini doc",1,0.9965,YES
+"bloomberg tv",1,0.9965,YES
+"Current Affairs",1,0.9965,YES
+"World Affairs",1,0.9965,YES
+"US Submarine Torpedoes",1,0.9965,YES
+"Breaking News",1,0.9965,YES
+"이재명",1,0.9965,YES
+"온플법",1,0.9965,YES
+"hindustan times",1,0.9965,YES
+"ht media",1,0.9965,YES
+"ht news",1,0.9965,YES
+"hindustan",1,0.9965,YES
+"english news",1,0.9965,YES
+"ht",1,0.9965,YES
+"Iran",1,0.9965,YES
+"IRGC",1,0.9965,YES
+"Iran US Conflict",1,0.9965,YES
+"Persian Gulf",1,0.9965,YES
+"Strait of Hormuz",1,0.9965,YES
+"Oil Tanker Attack",1,0.9965,YES
+"Gulf Tensions",1,0.9965,YES
+"Middle East Crisis",1,0.9965,YES
+"US Iran",1,0.9965,YES
+"Abbas Araghchi",1,0.9965,YES
+"IRIS Dena",1,0.9965,YES
+"Naval Conflict",1,0.9965,YES
+"Oil Shipping",1,0.9965,YES
+"Global Oil Routes",1,0.9965,YES
+"Kuwait",1,0.9965,YES
+"Hormuz Crisis",1,0.9965,YES
+"Maritime Security",1,0.9965,YES
+"War At Sea",1,0.9965,YES
+"쇼츠",1,0.9965,YES
+"밀덕스",1,0.9965,YES
+"군사",1,0.9965,YES
+"무기",1,0.9965,YES
+"국방",1,0.9965,YES
+"밀덕",1,0.9965,YES
+"유용원",1,0.9965,YES
+"군사무기",1,0.9965,YES
+"샤를세환",1,0.9965,YES
+"KFN",1,0.9965,YES
+"국방홍보원",1,0.9965,YES
+"국방부",1,0.9965,YES
+"전투기",1,0.9965,YES
+"전차",1,0.9965,YES
+"미사일",1,0.9965,YES
+"함대",1,0.9965,YES
+"해군",1,0.9965,YES
+"공군",1,0.9965,YES
+"육군",1,0.9965,YES
+"군사력",1,0.9965,YES
+"Bandar Abbas port strike March 5 2026",1,0.9965,YES
+"IRINS Makran ship on fire video",1,0.9965,YES
+"US military strikes Iranian navy Bandar Abbas",1,0.9965,YES
+"Shahid Bagheri drone carrier sunk",1,0.9965,YES
+"Operation Epic Fury day 6 naval updates",1,0.9965,YES
+"Strait of Hormuz traffic status 2026",1,0.9965,YES
+"Iranian naval headquarters destroyed footage",1,0.9965,YES
+"Trump Iran war 10 ships destroyed",1,0.9965,YES
+"black smoke Bandar Abbas satellite imagery",1,0.9965,YES
+"국제커플",1,0.9965,YES
+"페르시아",1,0.9965,YES
+"이란",1,0.9965,YES
+"이란 여행",1,0.9965,YES
+"한국 이란 커플",1,0.9965,YES
+"이란 여자",1,0.9965,YES
+"페르시아 여자",1,0.9965,YES
+"이란 여자친구",1,0.9965,YES
+"페르시아 여자친구",1,0.9965,YES
+"중동 여행",1,0.9965,YES
+"중동 커플",1,0.9965,YES
+"이슬람",1,0.9965,YES
+"이슬람 국가 여행",1,0.9965,YES
+"중동 여자친구",1,0.9965,YES
+"korea iran couple",1,0.9965,YES
+"국제결혼",1,0.9965,YES
+"무슬림",1,0.9965,YES
+"세계여행",1,0.9965,YES
+"커플",1,0.9965,YES
+"국제",1,0.9965,YES
+"글로벌",1,0.9965,YES
+"중동",1,0.9965,YES
+"여행",1,0.9965,YES
+"외국인",1,0.9965,YES
+"iran",1,0.9965,YES
+"korea",1,0.9965,YES
+"Persian",1,0.9965,YES
+"persia",1,0.9965,YES
+"세계 여행",1,0.9965,YES
+"국제 결혼",1,0.9965,YES
+"이란여자",1,0.9965,YES
+"테헤란",1,0.9965,YES
+"외국인 유학생",1,0.9965,YES

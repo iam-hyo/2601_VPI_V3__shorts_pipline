@@ -21,6 +21,7 @@ function createDefaultRunState(runId) {
     regions[r] = {
       region: r,
       trends: { status: "PENDING" },
+      assignedKeywords: [], // ✅ 여기에 위치를 미리 선언 (순서 보장)
       videos: Array.from({ length: VIDEOS_PER_REGION }, (_, i) => ({
         slot: i + 1,
         status: "PENDING"

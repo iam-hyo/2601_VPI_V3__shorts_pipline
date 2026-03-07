@@ -1,0 +1,1730 @@
+[
+  {
+    "tag": "뉴스",
+    "f": 8,
+    "sat_penalty": 0.8007,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "news",
+    "f": 8,
+    "sat_penalty": 0.8007,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "MBC",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "MBC뉴스",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "뉴스데스크",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "newsdesk",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "뉴스투데이",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "newstoday",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "8시뉴스",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "아침뉴스",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "정오뉴스",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "shorts",
+    "f": 4,
+    "sat_penalty": 0.946,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "YTN실시간",
+    "f": 3,
+    "sat_penalty": 0.9692,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "YTN",
+    "f": 3,
+    "sat_penalty": 0.9692,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "트럼프",
+    "f": 3,
+    "sat_penalty": 0.9692,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "연합뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "yonhapnews",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "영상",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이슈",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "디지털",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "화제",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "밀리터리",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "KBS",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "KBS NEWS",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "KBS뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "NEWS",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "kbs뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "kbs 뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "kbs news",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "kbs",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "930뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "12시뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "930",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "12시",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "finance",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "world news",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "latest news",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "today news",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "실시간",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "실시간 뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "엠비씨 뉴스",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "엠비씨",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "뉴스 실시간",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "뉴스속보",
+    "f": 2,
+    "sat_penalty": 0.9862,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국이란전쟁",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "쿠르드족",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이란침공",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "지상전",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "중동전쟁",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "제3차세계대전",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "트럼프2기",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "시리아내전",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "튀르키예",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국제정세",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "전쟁이슈",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이스라엘",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "무장세력",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "독립전쟁",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국외교",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "세계뉴스",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "긴급속보",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "장기전",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "중동분쟁",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "바이든트럼프",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "지정학",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "석유가격",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "전쟁시나리오",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "쿠르드반군",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이란핵",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미군철수",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "용병",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국제전략",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "자막뉴스",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국 입국심사",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국 입국 심사",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "입국심사 질문",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "입국심사 영어",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국 입국 영어",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "esta 입국",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "esta 입국심사",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "한국문학사",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "3050Club",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "source:영상",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "type:디지털",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "genre:국제",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "format:기타",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "series:자막뉴스",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국주식",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "나스닥",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "주식시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "경제뉴스",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "연준",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "bitcoin",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "인플레이션",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금리상승",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금리",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "fed",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "fomc",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "파월",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "증시전망",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "투자전략",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금리전망",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "주가전망",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금융시장브리핑",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "증시폭락",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "고용지표",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "산타랠리",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "재테크",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "주식",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "투자",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "환율",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "달러",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "도지",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "인플레",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국제유가",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "일론머스크",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "애플",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금리인상",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금리인하",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "연준파월",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "파월의장",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "fed파월",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금리결정",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "연준금리",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "금융시장",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "해외시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "스태그플레이션",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "tqqq",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "sqqq",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "테슬라",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "오늘의선물",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "오선",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "오늘시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "오늘의시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "인버스",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "인버스etf",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "통화전망",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "불라드",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "연준연설",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "연준라이브",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "soxl",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "soxs",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국경제시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "나스닥시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "에센피",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "블룸버그",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "바이든",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국뉴스",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "경제시황",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "FOMC",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "유럽중앙은행",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "ECB금리",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "유럽금리",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국경제",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미경제",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국기업",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국투자",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국etf",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미국배당",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "빅숏",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "etf",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "quiz",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "bloomberg",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "quicktake",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "business",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "bloomberg quicktake",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "quicktake originals",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "bloomberg quicktake by bloomberg",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "us news",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "science",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "climate",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "news today",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "breaking news",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "breaking news today",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "today's news",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "news today headlines",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "top news",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "current news",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "latest news today",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "russia",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "china",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "india",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "world news today",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "france russia",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "israel hamas",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "news flash",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "news of the day",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "news today live",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "north korea",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "documentary",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "mini doc",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "bloomberg tv",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Current Affairs",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "World Affairs",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "US Submarine Torpedoes",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Breaking News",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "usa",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이재명",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "온플법",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "hindustan times",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "ht media",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "ht news",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "hindustan",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "english news",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "ht",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Iran",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "IRGC",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Iran US Conflict",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Persian Gulf",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Strait of Hormuz",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Oil Tanker Attack",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Gulf Tensions",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Middle East Crisis",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "US Iran",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Abbas Araghchi",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "IRIS Dena",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Naval Conflict",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Oil Shipping",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Global Oil Routes",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Kuwait",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Hormuz Crisis",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Maritime Security",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "War At Sea",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "쇼츠",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "밀덕스",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "군사",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "무기",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국방",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "밀덕",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "유용원",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "군사무기",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "샤를세환",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "KFN",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국방홍보원",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국방부",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "전투기",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "전차",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "미사일",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "함대",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "해군",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "공군",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "육군",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "군사력",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Bandar Abbas port strike March 5 2026",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "IRINS Makran ship on fire video",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "US military strikes Iranian navy Bandar Abbas",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Shahid Bagheri drone carrier sunk",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Operation Epic Fury day 6 naval updates",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Strait of Hormuz traffic status 2026",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Iranian naval headquarters destroyed footage",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Trump Iran war 10 ships destroyed",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "black smoke Bandar Abbas satellite imagery",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국제커플",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "페르시아",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이란",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이란 여행",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "한국 이란 커플",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이란 여자",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "페르시아 여자",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이란 여자친구",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "페르시아 여자친구",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "중동 여행",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "중동 커플",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이슬람",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이슬람 국가 여행",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "중동 여자친구",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "korea iran couple",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국제결혼",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "무슬림",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "세계여행",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "커플",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국제",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "글로벌",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "중동",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "여행",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "외국인",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "iran",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "korea",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "Persian",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "persia",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "세계 여행",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "국제 결혼",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "이란여자",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "테헤란",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  },
+  {
+    "tag": "외국인 유학생",
+    "f": 1,
+    "sat_penalty": 0.9965,
+    "is_valid": "YES"
+  }
+]
