@@ -1,0 +1,209 @@
+{
+  "runId": "2026-03-08__US__mcdonalds-ceo-eating-burger",
+  "date": "2026-03-08__US__mcdonalds-ceo-eating-burger",
+  "createdAt": "2026-03-07T16:22:21.051Z",
+  "updatedAt": "2026-03-07T17:26:24.004Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "mcdonalds ceo eating burger"
+        ]
+      },
+      "assignedKeywords": [
+        "mcdonalds ceo eating burger"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "ERROR",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 34
+            },
+            "vcClusters": [
+              {
+                "name": "맥도날드 CEO 버거 시식 원본 및 클립",
+                "description": "맥도날드 CEO의 논란이 된 버거 시식 영상 원본 또는 해당 장면을 직접 보여주며 짧게 반응하는 클립 모음. 주로 밈(meme) 형태로 소비됩니다.",
+                "query": "CEO 버거 시식 원본",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "0nqP9itmKBw",
+                    "title": "When the McDonald’s CEO finally eats The Big Arch Burger | #shorts",
+                    "predicted7d": 1636338
+                  },
+                  {
+                    "videoId": "PZZjwmUOOPU",
+                    "title": "McDonald’s NEW CEO Tries The Big Arch burger!",
+                    "predicted7d": 424499
+                  },
+                  {
+                    "videoId": "R_KY4Hpa4ZY",
+                    "title": "The McDonald’s CEO trying to eat the new McDonald’s burger 😭 #funny #comedy #meme #memes #fyp",
+                    "predicted7d": 238445
+                  },
+                  {
+                    "videoId": "z-sn8wNhYGg",
+                    "title": "McDonald’s CEO tasting his own burger 😂",
+                    "predicted7d": 115031
+                  },
+                  {
+                    "videoId": "cCOhCx1Tepo",
+                    "title": "McDonald’s CEO trying the “Big Arch” burger 🍔. #badnapoleon",
+                    "predicted7d": 81611
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "mcdonalds ceo eating burger",
+          "keyword": "CEO 버거 시식 원본",
+          "videos": [
+            {
+              "videoId": "0nqP9itmKBw",
+              "title": "When the McDonald’s CEO finally eats The Big Arch Burger | #shorts",
+              "channelTitle": "Thee BlackBadger",
+              "predicted7d": 1636338,
+              "viewCount": 1636338,
+              "delta": 1636338
+            },
+            {
+              "videoId": "PZZjwmUOOPU",
+              "title": "McDonald’s NEW CEO Tries The Big Arch burger!",
+              "channelTitle": "Mega64",
+              "predicted7d": 424499,
+              "viewCount": 424499,
+              "delta": 424499
+            },
+            {
+              "videoId": "R_KY4Hpa4ZY",
+              "title": "The McDonald’s CEO trying to eat the new McDonald’s burger 😭 #funny #comedy #meme #memes #fyp",
+              "channelTitle": "SaharanMo SHORTS",
+              "predicted7d": 238445,
+              "viewCount": 238445,
+              "delta": 238445
+            },
+            {
+              "videoId": "z-sn8wNhYGg",
+              "title": "McDonald’s CEO tasting his own burger 😂",
+              "channelTitle": "Matt Does Stuff",
+              "predicted7d": 115031,
+              "viewCount": 115031,
+              "delta": 115031
+            }
+          ],
+          "theme": "맥도날드 CEO 버거 시식 원본 및 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "0nqP9itmKBw",
+              "title": "When the McDonald’s CEO finally eats The Big Arch Burger | #shorts",
+              "channelTitle": "Thee BlackBadger",
+              "predicted7d": 1636338,
+              "delta": 1636338
+            },
+            {
+              "videoId": "PZZjwmUOOPU",
+              "title": "McDonald’s NEW CEO Tries The Big Arch burger!",
+              "channelTitle": "Mega64",
+              "predicted7d": 424499,
+              "delta": 424499
+            },
+            {
+              "videoId": "R_KY4Hpa4ZY",
+              "title": "The McDonald’s CEO trying to eat the new McDonald’s burger 😭 #funny #comedy #meme #memes #fyp",
+              "channelTitle": "SaharanMo SHORTS",
+              "predicted7d": 238445,
+              "delta": 238445
+            },
+            {
+              "videoId": "z-sn8wNhYGg",
+              "title": "McDonald’s CEO tasting his own burger 😂",
+              "channelTitle": "Matt Does Stuff",
+              "predicted7d": 115031,
+              "delta": 115031
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08__US__mcdonalds-ceo-eating-burger/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "CEO Tries His Own Burger: Shocking Reaction!",
+            "description": "2026-03-08__US__mcdonalds-ceo-eating-burger_US_1\nWatch the McDonald's CEO finally taste his own creation, the infamous Big Arch Burger! His reaction might surprise you. Don't miss this hilarious and viral moment!",
+            "tags": [
+              "CEOBurger",
+              "McDonaldsCEO",
+              "BigArchBurger",
+              "BurgerReview",
+              "FunnyReaction",
+              "CEOChallenge",
+              "FoodReview",
+              "Shorts",
+              "Viral",
+              "Comedy"
+            ]
+          },
+          "thumbnail": {
+            "status": "DONE",
+            "path": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08__US__mcdonalds-ceo-eating-burger/thumbnail.jpg",
+            "uploadStatus": "ERROR",
+            "uploadError": "The authenticated user doesn't have permissions to upload and set custom video thumbnails."
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "AcY2LzT8eiI"
+          },
+          "updatedAt": "2026-03-07T16:56:42.183Z"
+        }
+      ],
+      "status": "PENDING",
+      "updatedAt": "2026-03-07T16:56:42.192Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-07T17:26:24.004Z"
+}

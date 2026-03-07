@@ -525,10 +525,22 @@ const server = http.createServer(async (req, res) => {
           const langCode = region === "KR" ? "ko" : region === "US" ? "en" : region === "MX" ? "es" : "en";
           const ytKey = process.env.YOUTUBE_API_KEY || "YOUR_YOUTUBE_API_KEY"; // 환경변수 확인 필요
 
-          // 2. 유튜브 Search API 호출 (모수 50개 확보, relevanceLanguage 추가)
-          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=date&key=${ytKey}`;
+          // 2. 유튜브 Search API 호출 (모수 50개 확보, relevanceLanguage 추가)                                                                     // order=relevance or order=date
+          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&key=${ytKey}`;
           const searchRes = await fetch(searchUrl);
           const searchData = await searchRes.json();
+
+          // 🔥 [추가] YouTube API 자체 에러 처리 (Quota Exceeded, Invalid Key 등)
+          if (!searchRes.ok || searchData.error) {
+            console.error(`[VC_SEARCH] 🚨 YouTube API 에러 발생:`, searchData.error);
+            return sendJson(res, 200, {
+              clusters: [],
+              analysis: { reason: `YouTube API 실패: ${searchData.error?.message || "Unknown"}` },
+              // 클라이언트의 PipelineRunner가 undefined를 띄우지 않도록 stats 객체 강제 포함
+              stats: { totalSearched: 0, totalShorts: 0 }
+            });
+          }
+          
           console.log(`[VC_SEARCH] Keyword: '${keyword}', Found: ${searchData.items?.length || 0} items`);
           if (!searchData.items || searchData.items.length === 0) {
             return sendJson(res, 200, { clusters: [], analysis: { reason: "검색 결과 없음" } });

@@ -36,7 +36,7 @@ export class ValidationService {
     log.info(`[${region}_${slot}] 쿼리 적합성 검사: ${q}`);
 
     // 1) 검색 수행
-    const searched = await this.yt.searchVideos({ q, maxResults: 50, publishedAfterISO, region });
+    const searched = await this.yt.searchVideos({ q, maxResults: 50, publishedAfterISO, region }); //최신순
     if ((searched?.length || 0) < VALIDATION.minShortsCount) {
       return {
         ok: false,
