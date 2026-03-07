@@ -18,7 +18,7 @@ import path from "node:path";
 import { spawn } from "node:child_process";
 import { GeminiClient } from "./geminiClient.js";
 
-dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.Trend_env") });
+dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.env.trend") });
 console.log("[DEBUG] TREND_SERVICE_PORT raw =", JSON.stringify(process.env.TREND_SERVICE_PORT));
 const PORT = Number(process.env.TREND_SERVICE_PORT);
 
@@ -540,7 +540,7 @@ const server = http.createServer(async (req, res) => {
               stats: { totalSearched: 0, totalShorts: 0 }
             });
           }
-          
+
           console.log(`[VC_SEARCH] Keyword: '${keyword}', Found: ${searchData.items?.length || 0} items`);
           if (!searchData.items || searchData.items.length === 0) {
             return sendJson(res, 200, { clusters: [], analysis: { reason: "검색 결과 없음" } });

@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 
 // 서비스 루트: .../VIDEO-PROCESSOR-SERVICE
 const serviceRoot = path.resolve(__dirname, "..");
-dotenv.config({ path: path.join(serviceRoot, ".vid_env") });
+dotenv.config({ path: path.join(serviceRoot, ".env.vid") });
 
 const HELLO = process.env.HELLO;
 console.log(HELLO)
