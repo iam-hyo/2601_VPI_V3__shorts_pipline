@@ -25,12 +25,6 @@ import os from "os";
 import { generateContent } from "../llm/gemini.service.js";
 
 const exec = promisify(execCb);
-// const fontConfigDir = path.resolve("data/assets");
-// const fontConfigFile = path.join(fontConfigDir, "fonts.conf");
-
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-// const VIDEOEDIT_DEBUG = process.env.VIDEOEDIT_DEBUG === "1";
 
 
 function getCookiesPath() {
@@ -40,6 +34,68 @@ function getCookiesPath() {
   return path.isAbsolute(v) ? v : path.resolve(process.cwd(), v);
 }
 
+/* =======================================================================================
+ * 공통 유틸
+ * ======================================================================================= */
+
+/**
+ * [함수 책임] 파일 존재 여부 확인(비동기)
+ * @param {string} filePath
+ * @returns {Promise<boolean>}
+ */
+export async function exists(filePath) {
+  try {
+    await fs.access(filePath);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * [함수 책임] 디렉토리 생성(없으면 생성)
+ * @param {string} dir
+ * @returns {Promise<void>}
+ */
+export async function ensureDir(dir) {
+  await fs.mkdir(dir, { recursive: true });
+}
+
+
+/* =======================================================================================
+ * FFmpeg 유틸
+ * ======================================================================================= */
+/**
+ * [역할] FFmpeg 필터 및 입력값에 쓰일 경로와 텍스트를 안전하게 변환 (통합 버전)
+ * @param {string} input - 변환할 경로 또는 텍스트
+ * @param {string} mode - 'input' | 'drawtextFontfile' | 'drawtext'
+ */
+export function fixPathForFfmpeg(input, mode = "input") {
+  if (!input) return "";
+
+  // 1) 텍스트 본문 이스케이프 처리 (drawtext 필터 내부용)
+  if (mode === "drawtext") {
+    return String(input)
+      .replace(/'/g, "’")     // 작은따옴표를 유사 문자로 치환 (에러의 근본 원인 해결)
+      .replace(/:/g, "\\:")   // 콜론 이스케이프
+      .replace(/%/g, "\\%")   // 퍼센트 기호 이스케이프
+      .replace(/,/g, "\\,");  // 쉼표 이스케이프
+  }
+
+  // 2) 경로 관련 처리
+  let abs = path.resolve(input).replace(/\\/g, "/");
+
+  if (mode === "drawtextFontfile") {
+    // 윈도우 드라이브 콜론 보호 (C:/ -> C\:/)
+    if (process.platform === "win32") {
+      abs = abs.replace(/^([A-Za-z]):/, "$1\\:");
+    }
+    // 경로 내 작은따옴표 보호
+    abs = abs.replace(/'/g, "'\\''");
+  }
+
+  return abs;
+}
 
 /**
  * [역할] FFmpeg filter 문자열 내부에서 안전하게 쓰기 위한 경로 변환
@@ -134,52 +190,6 @@ async function existsNonEmpty(filePath, minBytes = 1024) {
 }
 
 
-/* =======================================================================================
- * 공통 유틸
- * ======================================================================================= */
-
-/**
- * [함수 책임] 파일 존재 여부 확인(비동기)
- * @param {string} filePath
- * @returns {Promise<boolean>}
- */
-export async function exists(filePath) {
-  try {
-    await fs.access(filePath);
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-/**
- * [함수 책임] 디렉토리 생성(없으면 생성)
- * @param {string} dir
- * @returns {Promise<void>}
- */
-export async function ensureDir(dir) {
-  await fs.mkdir(dir, { recursive: true });
-}
-
-/**
- * [헬퍼] 윈도우 경로의 콜론(:) 및 백슬래시(\)를 FFmpeg 필터용으로 변환
- */
-export function fixPathForFfmpeg(p, mode = "input") {
-  if (!p) return "";
-
-  // 1) 절대경로화 + 슬래시 통일 (윈도우 역슬래시 문제 방지)
-  let abs = path.resolve(p).replace(/\\/g, "/");
-
-  // 2) 사용처별 추가 처리
-  if (mode === "drawtextFontfile") {
-    if (process.platform === "win32") {
-      abs = abs.replace(/^([A-Za-z]):/, "$1\\:");
-    } // 윈도우 드라이브 "C:"의 콜론을 -> "C\:"로 변환
-    abs = abs.replace(/'/g, "\\'"); // 경로에 "'"가 있을 때만 처리 필요 (거의 없지만 안전하게)
-  }
-
-  return abs;
-}
 /**
  * [유틸] Windows 경로를 FFmpeg가 안전하게 읽을 수 있도록 '/'로 치환
  * @param {string} p
@@ -250,24 +260,40 @@ async function safeStat(p) {
 /**
  * [하이라이트] 가변 시작 시간 대응 하이라이트 컷
  */
-export async function cutSmartHighlight({ inputPath, outputPath, startTime, duration = 10 }) {
-  // [수정] startTime 형식이 HH:MM:SS:mmm 일 경우 HH:MM:SS.mmm으로 교정
-  let formattedStartTime = startTime;
-  if (formattedStartTime && typeof formattedStartTime === 'string') {
-    // 마지막에 등장하는 콜론(:)을 마침표(.)로 변경 (정규식 사용)
-    // 00:00:23:119 -> 00:00:23.119
-    const parts = formattedStartTime.split(':');
-    if (parts.length === 4) {
-      formattedStartTime = `${parts[0]}:${parts[1]}:${parts[2]}.${parts[3]}`;
+export async function cutSmartHighlight({ inputPath, outputPath, startTime, duration = 10, audioFadeInDuration = 1.3 }) {
+  // 1. startTime을 초 단위 숫자로 변환하는 헬퍼 함수
+  const parseToSeconds = (time) => {
+    if (typeof time === 'number') return time;
+    if (!time) return 0;
+    // HH:MM:SS:mmm 또는 HH:MM:SS.mmm 대응
+    const parts = time.replace(/:(\d{3})$/, '.$1').split(':');
+    let seconds = 0;
+    if (parts.length === 3) {
+      seconds = parseInt(parts[0]) * 3600 + parseInt(parts[1]) * 60 + parseFloat(parts[2]);
+    } else if (parts.length === 2) {
+      seconds = parseInt(parts[0]) * 60 + parseFloat(parts[1]);
+    } else {
+      seconds = parseFloat(parts[0]);
     }
-  }
+    return seconds;
+  };
 
-  // 교정된 formattedStartTime 사용
-  const inputSeek = formattedStartTime ? `-ss ${formattedStartTime}` : `-sseof -${duration}`;
+  const startSec = parseToSeconds(startTime);
 
-  const cmd = `ffmpeg -y ${inputSeek} -i "${inputPath}" -t ${duration} -c copy "${outputPath}"`;
+  // 2. 여유 시간(Padding) 계산: 시작 시간을 당기고 길이를 그만큼 늘림
+  // 0초보다 작아지지 않도록 Math.max 처리
+  const finalStart = Math.max(0, startSec - audioFadeInDuration);
+  const actualPadding = startSec - finalStart; // 실제로 당겨진 시간
+  const finalDuration = duration + actualPadding; // 늘어난 전체 길이
 
-  console.log(`[FFmpeg Execution] ${cmd}`); // 디버깅을 위해 로그 출력 권장
+  // 3. FFmpeg 인자 설정
+  // 정밀한 커팅을 위해 -ss를 -i 뒤에 배치하고 재인코딩(-c:v libx264)을 사용하는 것이 안전함
+  // 만약 반드시 속도가 중요하다면 -c copy를 유지하되 시작점 화면 깨짐이 발생할 수 있음
+  const cmd = `ffmpeg -y -ss ${finalStart.toFixed(3)} -t ${finalDuration.toFixed(3)} -i "${inputPath}" -c:v libx264 -preset ultrafast -crf 18 -c:a aac "${outputPath}"`;
+
+  console.log(`[SmartCut] 원본:${startSec}s -> 조정:${finalStart.toFixed(3)}s (확장길이:${finalDuration.toFixed(3)}s)`);
+  console.log(`[FFmpeg Execution] ${cmd}`);
+
   await exec(cmd);
   return outputPath;
 }
@@ -302,7 +328,7 @@ export async function getSmartHighlightTimestamps(subPath, videoId) {
     유튜브 자막을 분석하여 숏폼으로 제작할 '골든 하이라이트' 구간을 선정하라.
     
     [핵심 제약 사항]
-    1. 시간: 반드시 10초일 필요 없으며, 문맥이 끝나는 지점에 맞춰 8~18초 사이를 권장한다. 시작 시점은 문장이 자연스럽게 시작되는 부분으로 선정하라.
+    1. 시간: 반드시 10초일 필요 없으며, 문맥이 끝나는 지점에 맞춰 8~24초 사이를 권장한다. 시작 시점은 문장이 자연스럽게 시작되는 부분으로 선정하라.
     2. 광고 제거: "구독", "좋아요", "알림 설정", "더보기란", "고정 댓글", "후원", "광고" 등의 멘트가 포함된 구간은 기피대상으로 간주하라. 
     3. 논리적 완결성(중요): 끝나는 지점에는 흐름의 완결성이 포함되도록 선정하여라. 핵심문구 혹은 마무리 멘트가 포함되면 좋다. 문장이 중간에 끊기지 않고 결론이나 반전이 포함된 구간을 우선하라.
 
@@ -350,10 +376,12 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     width = 1080,
     height = 1920,
     fps = 30,
-    fadeSec = 0.3,
+    vidFadeSec = 0.3,
     sampleRate = 44100,
     titleFontPath,
-    slotID = "UNKNOWN"
+    slotID = "UNKNOWN",
+    moveStart = 1, // 타이틀 애니메이션 시작
+    moveEnd // 타이틀 애니메이션 종료
   } = args;
 
   const wrapText = (text, maxChars = 18) => {
@@ -382,17 +410,18 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
 
   for (let i = 0; i < n; i++) {
     const rawCaption = titleInfos[i].caption;
-    const safeCaption = `${titleInfos[i].index}. ${rawCaption}`
-      .replace(/'/g, "'\\\\\\''")
-      .replace(/:/g, "\\\\:"); // drawtext 콜론 탈출 강화
-    const fontPath = titleFontPath.replace(/\\/g, '/');
+    const fullText = `${titleInfos[i].index}. ${rawCaption}`;
+
+    // 2. 통합 유틸리티의 'drawtext' 모드를 사용하여 한 번에 처리
+    // 이 함수가 내부에서 ' -> ’ 변환 및 : 이스케이프를 모두 수행합니다.
+    const safeCaption = fixPathForFfmpeg(fullText, "drawtext");
+    const fontPath = fixPathForFfmpeg(titleFontPath, "drawtextFontfile");
     const currentDur = durations[i] || 10.0; // 해당 클립의 동적 길이 사용
-    const fadeOutStart = (currentDur - fadeSec).toFixed(1);
+    const fadeOutStart = (currentDur - vidFadeSec).toFixed(1);
 
     // --- [1번 해결: 애니메이션 수식 설계] ---
-    const moveStart = 0.8;
-    const moveEnd = 1.2;
     const moveDur = (moveEnd - moveStart).toFixed(1); // 0.4초
+    const fadeDuration = moveEnd + 0.2 - moveStart;
 
     const startY = `(h-th)/2`; // 중앙
     const endY = `180`;        // 상단
@@ -405,7 +434,7 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     const animFS = `if(lt(t,${moveStart}), ${startFS}, if(lt(t,${moveEnd}), ${startFS}-(${startFS}-${endFS})*(t-${moveStart})/${moveDur}, ${endFS}))`;
 
     // --- [비디오 필터] ---
-    let vFilter = `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p`;
+    let vFilter = `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p,setsar=1`;
 
     // 암전 레이어 (애니메이션에 맞춰 딤 처리)
     vFilter += `,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
@@ -422,7 +451,7 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     vFilter += `fontsize='${animFS}':line_spacing=15:`;
     vFilter += `x=(w-text_w)/2:y='${animY}':expansion=none`;
 
-    vFilter += `,fade=t=out:st=${fadeOutStart}:d=${fadeSec}[v${i}]`;
+    vFilter += `,fade=t=out:st=${fadeOutStart}:d=${vidFadeSec}[v${i}]`;
     filters.push(vFilter);
 
     // --- [오디오 필터 고도화] ---
@@ -430,19 +459,19 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     let aFilter = `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo`;
 
     // 1. 하이라이트 배경음 처리 (0.8초까지 20% 볼륨, 이후 페이드인)
-    aFilter += `,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5`;
+    aFilter += `,volume=enable='lt(t,${moveStart})':volume=0.2,afade=t=in:st=${moveStart}:d=${fadeDuration}`;
 
     // 2. TTS와 믹싱 (amix)
-    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다. 속도 x1.2배: atempo=1.2
+    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다. 속도 x1.3배: atempo=1.3
     // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다. 100|100 -> 왼쪽 오른쪽 
     const ttsIndex = n + i;
-    const ttsFilter = `[${ttsIndex}:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
+    const ttsFilter = `[${ttsIndex}:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
     filters.push(ttsFilter);
 
     aFilter += `[bg${i}];[bg${i}][tts${i}]amix=inputs=2:duration=first:dropout_transition=2`;
 
     // 3. 최종 페이드 아웃
-    aFilter += `,afade=t=out:st=${fadeOutStart}:d=${fadeSec}[a${i}]`;
+    aFilter += `,afade=t=out:st=${fadeOutStart}:d=${vidFadeSec}[a${i}]`;
 
     filters.push(aFilter);
   }

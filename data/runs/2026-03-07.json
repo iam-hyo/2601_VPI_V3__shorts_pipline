@@ -2,52 +2,40 @@
   "runId": "2026-03-07",
   "date": "2026-03-07",
   "createdAt": "2026-03-07T02:50:02.062Z",
-  "updatedAt": "2026-03-07T02:58:54.958Z",
-  "status": "ERROR",
+  "updatedAt": "2026-03-07T12:40:25.831Z",
+  "status": "DONE",
   "regions": {
     "KR": {
       "region": "KR",
       "trends": {
         "status": "DONE",
         "keywords": [
-          "김선태 유튜브",
           "천궁 2",
-          "개기 월식",
-          "조정식",
           "wbc",
-          "센서 스튜디오",
-          "보겸",
-          "이소 나",
-          "그것이 알고 싶다",
-          "자두 두",
-          "충주 맨",
-          "김원",
-          "바이오 하자드 레퀴엠",
-          "ytn 실시간"
+          "충주맨"
         ],
         "updatedAt": "2026-03-07T02:50:17.968Z"
       },
       "assignedKeywords": [
         "김선태 유튜브",
-        "천궁 2",
         "개기 월식",
         "조정식",
-        "wbc",
         "센서 스튜디오",
         "보겸",
         "이소 나",
         "그것이 알고 싶다",
         "자두 두",
-        "충주 맨",
         "김원",
         "바이오 하자드 레퀴엠",
-        "ytn 실시간"
+        "ytn 실시간",
+        "천궁 2",
+        "wbc"
       ],
       "videos": [
         {
           "slot": 1,
-          "status": "RUNNING",
-          "originalKeyword": "ytn 실시간",
+          "status": "DONE",
+          "originalKeyword": "천궁 2",
           "queryEngineering": {
             "clusters": [
               {
@@ -104,89 +92,290 @@
                 ]
               }
             ],
-            "validationHistory": [
+            "validationHistory": [],
+            "lastFailedKeyword": "ytn 실시간",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 44
+            },
+            "vcClusters": [
               {
-                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
-                "theme": "긴급 뉴스 및 전문가 해설",
+                "name": "중동 위기 및 글로벌 정세 - 실시간 뉴스 특보",
+                "description": "앵커 브리핑과 자막 중심의 공식 뉴스 보도 형식으로, 중동 전쟁 상황, 하메네이 사망 속보, 경제 지표 등 주요 국제 현안을 다루는 영상군",
+                "query": "중동 전쟁 실시간 뉴스",
                 "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+                "reason": "실제 조회수 조건 미달 (7만 이상: 0개 / 최소: 3개)",
+                "topVideos": []
               },
               {
-                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
-                "theme": "긴급 뉴스 및 전문가 해설",
+                "name": "국제 분쟁 및 군사 전략 - 숏폼 하이라이트",
+                "description": "이란의 드론 기술, 미국의 공습 작전, 중국의 핵실험 폭로 등 국가 간 군사적 갈등과 외교적 대립을 짧고 강렬한 편집으로 전달하는 세로형 영상군",
+                "query": "글로벌 군사 분쟁 숏츠",
                 "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)",
+                "topVideos": []
               },
               {
-                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
-                "theme": "YTN 라이브 스트리밍 시청 방법",
+                "name": "국내 사회 이슈 및 사건사고 - 숏폼 현장 포착",
+                "description": "국내 정치인의 발언 논란, 연예계 이슈, 보이스피싱 검거 현장 및 생활 밀착형 사건사고를 현장감 있는 영상과 자막으로 요약한 숏폼 영상군",
+                "query": "국내 사건사고 이슈 숏츠",
                 "status": "FAIL",
-                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
-                "theme": "YTN 라이브 스트리밍 시청 방법",
-                "status": "FAIL",
-                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
-                "theme": "특정 현안 및 긴급 상황 보도",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
-                "theme": "특정 현안 및 긴급 상황 보도",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
-                "theme": "긴급 뉴스 및 전문가 해설",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 속보 분석 -생방송 -유튜브 -재난 -선거",
-                "theme": "긴급 뉴스 및 전문가 해설",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
-                "theme": "YTN 라이브 스트리밍 시청 방법",
-                "status": "FAIL",
-                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 생방송 유튜브 -속보 -분석 -재난 -선거",
-                "theme": "YTN 라이브 스트리밍 시청 방법",
-                "status": "FAIL",
-                "reason": "조회수 조건 미달 (조건만족: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
-                "theme": "특정 현안 및 긴급 상황 보도",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "ytn 실시간 재난 특보 -속보 -분석 -생방송 -유튜브",
-                "theme": "특정 현안 및 긴급 상황 보도",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)",
+                "topVideos": []
               }
             ],
-            "lastFailedKeyword": "ytn 실시간"
-          }
+            "clusterLogs": [
+              {
+                "name": "중동 실전 뉴스 및 시사 분석",
+                "description": "UAE-이란 충돌 상황에서 천궁-II의 실전 활약상을 다루는 공식 뉴스 보도 및 시사 분석 영상 모음입니다. 앵커, 뉴스 그래픽, 전문가 패널 등이 등장하여 사실 전달 및 현상 분석에 중점을 둡니다.",
+                "query": "천궁2 뉴스 보도",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 2개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "OOxOFV-1nTI",
+                    "title": "한국이 저지른 치명적 실수… UAE에 2조짜리 천궁2를 팔아버린 이유 #천궁 #천궁2 #countryballs #뉴스 #UAE #이란",
+                    "predicted7d": 448491
+                  },
+                  {
+                    "videoId": "noCUNfUpgJk",
+                    "title": "강훈식 대통령 실장과 UAE 칼둔 청장 콜라보, \"천궁2 주고, 600만 베럴 확보 + 체류 국민 귀국\"",
+                    "predicted7d": 100671
+                  }
+                ]
+              },
+              {
+                "name": "K-방산 위상 강조 및 성과 조명",
+                "description": "천궁-II의 압도적인 성능과 K-방산의 우수성을 강조하며, 중동 국가들의 뜨거운 반응과 한국의 국방 기술력에 대한 자부심을 고취하는 콘텐츠입니다. 드라마틱한 편집, 강렬한 내레이션, 국뽕적 요소가 특징입니다.",
+                "query": "천궁2 K방산 위상",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "wPuKwEhPW98",
+                    "title": "UAE 천궁2 요격률 96%.. 석유 줄 테니 무기 더 달라 #김성완",
+                    "predicted7d": 122381
+                  },
+                  {
+                    "videoId": "zWBGvPWx8do",
+                    "title": "중동에서 불티나게 주문하는 천궁2",
+                    "predicted7d": 100913
+                  },
+                  {
+                    "videoId": "uBWeI5U1jgI",
+                    "title": "UAE 천궁2 실전데이터 공개",
+                    "predicted7d": 86994
+                  },
+                  {
+                    "videoId": "dod0g_1axUc",
+                    "title": "이란의 공격 받은 UAE를 살려낸 천궁-2",
+                    "predicted7d": 77948
+                  }
+                ]
+              }
+            ]
+          },
+          "keyword": "천궁2 K방산 위상",
+          "selectedSourceVideos": [
+            {
+              "videoId": "wPuKwEhPW98",
+              "title": "UAE 천궁2 요격률 96%.. 석유 줄 테니 무기 더 달라 #김성완",
+              "channelTitle": "민주숏폼 어설텍",
+              "predicted7d": 122381,
+              "delta": 122381
+            },
+            {
+              "videoId": "zWBGvPWx8do",
+              "title": "중동에서 불티나게 주문하는 천궁2",
+              "channelTitle": "짬날때 세상이야기",
+              "predicted7d": 100913,
+              "delta": 100913
+            },
+            {
+              "videoId": "uBWeI5U1jgI",
+              "title": "UAE 천궁2 실전데이터 공개",
+              "channelTitle": "썰매",
+              "predicted7d": 86994,
+              "delta": 86994
+            },
+            {
+              "videoId": "dod0g_1axUc",
+              "title": "이란의 공격 받은 UAE를 살려낸 천궁-2",
+              "channelTitle": "방구석숏월드",
+              "predicted7d": 77948,
+              "delta": 77948
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/tts_3.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='1. 중동 3국, 천궁에 줄섰다!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=14.6:d=0.3[v0];[3:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=14.6:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='2. 미제 뺨치는 천궁2 성능!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=9.2:d=0.3[v1];[4:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=9.2:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.2)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.2)',drawtext=text='3. 천궁 성공 뒤, 숨겨진 희생!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,0.8), 85, if(lt(t,1.2), 85-(85-55)*(t-0.8)/0.4, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,0.8), (h-th)/2, if(lt(t,1.2), (h-th)/2-((h-th)/2-180)*(t-0.8)/0.4, 180))':expansion=none,fade=t=out:st=10.8:d=0.3[v2];[5:a]atempo=1.2,adelay=80|80,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,0.8)':volume=0.2,afade=t=in:st=0.8:d=1.5[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.8:d=0.3[a2];[v0][a0][v1][a1][v2][a2]concat=n=3:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:14.88, start: 0.000000, bitrate: 543 kb/s\\n  Stream #0:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 356 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:09.53, start: 0.000000, bitrate: 686 kb/s\\n  Stream #1:0[0x1](eng): Video: vp9 (Profile 0) (vp09 / 0x39307076), yuv420p(tv, bt709), 608x1080, 501 kb/s, SAR 1:1 DAR 76:135, 30 fps, 30 tbr, 16k tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:11.17, start: 0.000000, bitrate: 2411 kb/s\\n  Stream #2:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1424 kb/s, 29.97 fps, 29.97 tbr, 30k tbn (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n  Stream #2:1[0x2](eng): Audio: aac (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x5607b99bba00] Estimating duration from bitrate, this may be inaccurate\\nInput #3, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/tts_1.mp3':\\n  Duration: 00:00:03.36, start: 0.000000, bitrate: 48 kb/s\\n  Stream #3:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5607b99c3900] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/tts_2.mp3':\\n  Duration: 00:00:03.00, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x5607b9e8cd40] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/outputs/tts_3.mp3':\\n  Duration: 00:00:03.48, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\nStream mapping:\\n  Stream #0:0 (vp9) -> scale:default\\n  Stream #0:1 (aac) -> aformat:default\\n  Stream #1:0 (vp9) -> scale:default\\n  Stream #1:1 (aac) -> aformat:default\\n  Stream #2:0 (h264) -> scale:default\\n  Stream #2:1 (aac) -> aformat:default\\n  Stream #3:0 (mp3float) -> atempo:default\\n  Stream #4:0 (mp3float) -> atempo:default\\n  Stream #5:0 (mp3float) -> atempo:default\\n  concat -> Stream #0:0 (libx264)\\n  concat -> Stream #0:1 (aac)\\nPress [q] to stop, [?] for help\\n[Parsed_concat_48 @ 0x5607b9a3d700] Input link in0:v0 parameters (size 1080x1920, SAR 10240:10239) do not match the corresponding output link in0:v0 parameters (1080x1920, SAR 9728:9729)\\n[Parsed_concat_48 @ 0x5607b9a3d700] Failed to configure output pad on Parsed_concat_48\\nError reinitializing filters!\\nFailed to inject frame into filter network: Invalid argument\\nError while processing the decoded data for stream #5:0\\nConversion failed!\\n\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "UAE를 살린 K방산 천궁2! 중동이 열광하는 이유",
+            "description": "2026-03-07_KR_1\nUAE가 이란의 공격을 막아낸 비결은 바로 K방산 천궁2였습니다. 96%의 경이로운 요격률로 중동을 사로잡은 천궁2의 실전 데이터를 공개합니다. 왜 중동 국가들이 천궁2에 열광하며 추가 주문을 쏟아내는지 지금 바로 확인하세요!",
+            "tags": [
+              "천궁2",
+              "K방산",
+              "UAE",
+              "중동",
+              "미사일",
+              "요격미사일",
+              "방공시스템",
+              "국방",
+              "무기",
+              "Kdefense"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "RgKwX7p85To"
+          },
+          "updatedAt": "2026-03-07T11:12:17.173Z"
         },
         {
           "slot": 2,
-          "status": "RUNNING"
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 16
+            },
+            "vcClusters": [
+              {
+                "name": "일타강사 조정식 - 예능 및 교육 콘텐츠",
+                "description": "영어 강사 조정식의 방송 출연분, 공부 자극 영상, 학생들과의 소통 및 교육 팁을 담은 예능형 클립과 팬 메이드 영상 모음",
+                "query": "조정식 일타강사 예능",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "사교육 카르텔 논란 - 공식 뉴스 보도",
+                "description": "수능 문항 거래 의혹 및 검찰 기소 등 사교육계 논란을 다룬 주요 방송사(JTBC, MBN, TV조선 등)의 공식 뉴스 보도 및 시사 프로그램 영상",
+                "query": "조정식 문항거래 뉴스",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 2개 / 최소 필요: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "정치인 조정식 - 현장 스케치 및 행사 쇼츠",
+                "description": "국회의원 조정식의 북콘서트, 장례식 조문, 동료 의원과의 만남 등 정치 활동 현장을 담은 세로형 쇼츠(Shorts) 및 현장 스케치 영상",
+                "query": "조정식 의원 현장",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "정치 현안 및 인터뷰 - 공식 미디어 브리핑",
+                "description": "라디오 인터뷰(시선집중), 공식 기자회견, 베트남 급파 소식 등 정치적 현안에 대해 정식 매체를 통해 전달되는 정보성 영상",
+                "query": "조정식 정무특보 인터뷰",
+                "status": "FAIL",
+                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)",
+                "topVideos": []
+              }
+            ],
+            "clusterLogs": [
+              {
+                "name": "경기 하이라이트 및 현장 반응",
+                "description": "WBC 경기 중 주요 장면, 선수들의 인상적인 플레이, 현장 분위기 또는 팬들의 즉각적인 반응을 담은 짧은 영상 모음입니다. 주로 현장 촬영, 편집된 하이라이트, 또는 간결한 해설이 특징입니다.",
+                "query": "WBC 경기 하이라이트",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 1개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "KDuG2jHKb50",
+                    "title": "【WBC初戦7回コールド勝ち⚾️】#wbc  #侍ジャパン",
+                    "predicted7d": 354990
+                  }
+                ]
+              },
+              {
+                "name": "전문가 분석 및 예측",
+                "description": "WBC 팀 전력, 선수 라인업, 경기 결과 예측, 특정 이슈에 대한 전문가 또는 채널의 분석 및 해설을 제공하는 영상 모음입니다. 주로 해설자의 얼굴, 자료 화면, 통계 그래픽 등이 활용됩니다.",
+                "query": "WBC 전문가 분석",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "exP0KuHggEA",
+                    "title": "이번 WBC 도미니카 팀 상대하면 생기는 일",
+                    "predicted7d": 146060
+                  },
+                  {
+                    "videoId": "sOZTfqhwpLE",
+                    "title": "이순철이 뽑은 WBC 베스트 라인업(타자)",
+                    "predicted7d": 104132
+                  },
+                  {
+                    "videoId": "ZMIMRFOTcAA",
+                    "title": "ピアジンスキーがWBC優勝を予想！#野球 #海外の反応 #大谷翔平 #wbc",
+                    "predicted7d": 97521
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "wbc",
+          "keyword": "WBC 전문가 분석",
+          "selectedSourceVideos": [
+            {
+              "videoId": "exP0KuHggEA",
+              "title": "이번 WBC 도미니카 팀 상대하면 생기는 일",
+              "channelTitle": "스포츠 메이트",
+              "predicted7d": 146060,
+              "delta": 146060
+            },
+            {
+              "videoId": "sOZTfqhwpLE",
+              "title": "이순철이 뽑은 WBC 베스트 라인업(타자)",
+              "channelTitle": "톡톡숏카",
+              "predicted7d": 104132,
+              "delta": 104132
+            },
+            {
+              "videoId": "ZMIMRFOTcAA",
+              "title": "ピアジンスキーがWBC優勝を予想！#野球 #海外の反応 #大谷翔平 #wbc",
+              "channelTitle": "MLB翻訳ジャパン",
+              "predicted7d": 97521,
+              "delta": 97521
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/tts_1.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/tts_2.mp3\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/tts_3.mp3\\\" -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.3)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.3)',drawtext=text='1. 도미니카\\\\, 그들의 위엄':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,1), 85, if(lt(t,1.3), 85-(85-55)*(t-1)/0.3, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,1), (h-th)/2, if(lt(t,1.3), (h-th)/2-((h-th)/2-180)*(t-1)/0.3, 180))':expansion=none,fade=t=out:st=14.8:d=0.3[v0];[3:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1)':volume=0.2,afade=t=in:st=1:d=0.30.2[bg0];[bg0][tts0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=14.8:d=0.3[a0];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.3)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.3)',drawtext=text='2. 이순철의 타자픽은?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,1), 85, if(lt(t,1.3), 85-(85-55)*(t-1)/0.3, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,1), (h-th)/2, if(lt(t,1.3), (h-th)/2-((h-th)/2-180)*(t-1)/0.3, 180))':expansion=none,fade=t=out:st=9.7:d=0.3[v1];[4:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1)':volume=0.2,afade=t=in:st=1:d=0.30.2[bg1];[bg1][tts1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=9.7:d=0.3[a1];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.3)',drawbox=y=130:color=black@0.6:width=iw:height=220:t=fill:enable='gt(t,1.3)',drawtext=text='3. 해외 전문가 우승 예측!':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize='if(lt(t,1), 85, if(lt(t,1.3), 85-(85-55)*(t-1)/0.3, 55))':line_spacing=15:x=(w-text_w)/2:y='if(lt(t,1), (h-th)/2, if(lt(t,1.3), (h-th)/2-((h-th)/2-180)*(t-1)/0.3, 180))':expansion=none,fade=t=out:st=15.0:d=0.3[v2];[5:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1)':volume=0.2,afade=t=in:st=1:d=0.30.2[bg2];[bg2][tts2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=15.0:d=0.3[a2];[v0][a0][v1][a1][v2][a2]concat=n=3:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/final.mp4\\\"\\nffmpeg version 6.0.1 Copyright (c) 2000-2023 the FFmpeg developers\\n  built with gcc 12.3.0 (conda-forge gcc 12.3.0-2)\\n  configuration: --prefix=/home/hjj/miniconda3 --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --disable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --enable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-vaapi --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libopus --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1699623786183/_build_env/bin/pkg-config\\n  libavutil      58.  2.100 / 58.  2.100\\n  libavcodec     60.  3.100 / 60.  3.100\\n  libavformat    60.  3.100 / 60.  3.100\\n  libavdevice    60.  1.100 / 60.  1.100\\n  libavfilter     9.  3.100 /  9.  3.100\\n  libswscale      7.  1.100 /  7.  1.100\\n  libswresample   4. 10.100 /  4. 10.100\\n  libpostproc    57.  1.100 / 57.  1.100\\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/highlight_1.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:15.13, start: 0.000000, bitrate: 7132 kb/s\\n  Stream #0:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 608x1080 [SAR 1:1 DAR 76:135], 6989 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n      encoder         : Lavc60.3.100 libx264\\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 135 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #1, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/highlight_2.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:10.00, start: 0.000000, bitrate: 4578 kb/s\\n  Stream #1:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 608x1080 [SAR 1:1 DAR 76:135], 4438 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n      encoder         : Lavc60.3.100 libx264\\n  Stream #1:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 132 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\nInput #2, mov,mp4,m4a,3gp,3g2,mj2, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/highlight_3.mp4':\\n  Metadata:\\n    major_brand     : isom\\n    minor_version   : 512\\n    compatible_brands: isomiso2avc1mp41\\n    encoder         : Lavf60.3.100\\n  Duration: 00:00:16.67, start: 0.000000, bitrate: 5848 kb/s\\n  Stream #2:0[0x1](eng): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 608x1080 [SAR 1:1 DAR 76:135], 5706 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\\n    Metadata:\\n      handler_name    : VideoHandler\\n      vendor_id       : [0][0][0][0]\\n      encoder         : Lavc60.3.100 libx264\\n  Stream #2:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 134 kb/s (default)\\n    Metadata:\\n      handler_name    : ISO Media file produced by Google Inc.\\n      vendor_id       : [0][0][0][0]\\n[mp3 @ 0x55b480866980] Estimating duration from bitrate, this may be inaccurate\\nInput #3, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/tts_1.mp3':\\n  Duration: 00:00:03.12, start: 0.000000, bitrate: 48 kb/s\\n  Stream #3:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55b4807d51c0] Estimating duration from bitrate, this may be inaccurate\\nInput #4, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/tts_2.mp3':\\n  Duration: 00:00:02.33, start: 0.000000, bitrate: 48 kb/s\\n  Stream #4:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[mp3 @ 0x55b4807d8900] Estimating duration from bitrate, this may be inaccurate\\nInput #5, mp3, from '/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/outputs/tts_3.mp3':\\n  Duration: 00:00:02.76, start: 0.000000, bitrate: 48 kb/s\\n  Stream #5:0: Audio: mp3, 24000 Hz, mono, fltp, 48 kb/s\\n[Parsed_afade_14 @ 0x55b480c1abc0] Unable to parse option value \\\"0.30.2\\\" as duration\\nError opening file 0.30.2.\\nError loading value for option '' from file '0.30.2'\\nError initializing complex filters.\\nInput/output error\\n\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-07/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "WBC 전문가 분석: 우승팀, 베스트 라인업은?",
+            "description": "2026-03-07_KR_2\nWBC 전문가들이 예상하는 우승팀과 베스트 라인업은? 도미니카 공포부터 이순철 해설위원의 타자 픽까지, 놓치지 마세요! 해외 반응과 함께 WBC를 더 깊이 즐겨보세요.",
+            "tags": [
+              "WBC",
+              "월드베이스볼클래식",
+              "야구",
+              "전문가분석",
+              "이순철",
+              "도미니카",
+              "오타니쇼헤이",
+              "WBC예측",
+              "베스트라인업",
+              "스포츠쇼츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Nw6lmDCaCjU"
+          },
+          "updatedAt": "2026-03-07T12:40:25.830Z"
         }
       ],
-      "status": "RUNNING"
+      "status": "DONE",
+      "updatedAt": "2026-03-07T12:40:25.831Z"
     },
     "US": {
       "region": "US",
@@ -226,90 +415,55 @@
           "status": "RUNNING",
           "originalKeyword": "gorillaz",
           "queryEngineering": {
-            "clusters": [
+            "status": "FAILED",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 45
+            },
+            "vcClusters": [
               {
-                "name": "Latest Music & Collaborations",
-                "logic": "Focuses on the most recent album, its specific tracks, and notable collaborations, representing the current musical output and news.",
-                "identity_tags": [
-                  "Cracker Island",
-                  "new album",
-                  "Bad Bunny",
-                  "Tame Impala",
-                  "Stevie Nicks",
-                  "songs",
-                  "music video",
-                  "collaborations"
+                "name": "고릴라즈 게임 및 크로스오버 콘텐츠",
+                "description": "고릴라즈 캐릭터, 음악, 아이템이 등장하는 포트나이트 게임 플레이, 아이템 상점 업데이트, 관련 뉴스 및 기타 게임(Roblox, Geoguessr) 콘텐츠. 주로 게임 화면이나 게임 내 아이템/캐릭터를 보여주는 형식입니다.",
+                "query": "고릴라즈 게임",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "고릴라즈 팬 편집 및 숏폼 영상",
+                "description": "고릴라즈 캐릭터나 음악을 활용한 짧은 팬 편집 영상, 밈, 바이럴 클립 등 시각적 효과와 빠른 전환이 특징인 콘텐츠. 주로 팬들이 제작한 짧은 영상 클립입니다.",
+                "query": "고릴라즈 팬 편집",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 1개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "JJjvgm0v8Sg",
+                    "title": "Did anyone else notice that #gorillaz #gorillazedit #blowup #viral #fyp",
+                    "predicted7d": 418020
+                  }
                 ]
               },
               {
-                "name": "Lore, Characters & Art Style",
-                "logic": "Emphasizes the unique visual identity, fictional band members, and the overarching narrative that defines the Gorillaz universe.",
-                "identity_tags": [
-                  "2D",
-                  "Murdoc",
-                  "Noodle",
-                  "Russel",
-                  "Jamie Hewlett",
-                  "animation",
-                  "art style",
-                  "lore",
-                  "fan theories",
-                  "characters"
+                "name": "고릴라즈 음악 분석, 커버 및 리뷰",
+                "description": "고릴라즈 음악에 대한 분석, 앨범 리뷰, 피아노 튜토리얼, 라이브 루핑 커버, 로파이 커버 등 음악 자체에 초점을 맞춘 영상. 주로 연주 화면, 앨범 아트워크, 또는 해설자의 얼굴이 등장하는 형식입니다.",
+                "query": "고릴라즈 음악 분석",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "고릴라즈 굿즈, 창작물 및 공식 미디어 클립",
+                "description": "고릴라즈 관련 상품(바이닐, 러그, 레고, 아이팟) 언박싱 및 창작물 전시 영상, 그리고 공식 애니메이션 클립이나 TV 프로그램 출연 홍보 영상 등 다양한 형태의 미디어 콘텐츠입니다.",
+                "query": "고릴라즈 굿즈/미디어",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 1개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "JB_Ysdl-kfQ",
+                    "title": "Ashley Padilla Bet Money on Ryan Gosling's SNL Promo",
+                    "predicted7d": 156403
+                  }
                 ]
-              },
-              {
-                "name": "Live Performances & Tour History",
-                "logic": "Highlights the band's live presence, concert experiences, and historical tours, focusing on their stage presence and event-based content.",
-                "identity_tags": [
-                  "concert",
-                  "live",
-                  "tour",
-                  "performance",
-                  "festival",
-                  "setlist",
-                  "history",
-                  "tour dates",
-                  "live performance"
-                ]
-              },
-              {
-                "name": "Generic/Noise Tags",
-                "logic": "These tags are too broad or could cause significant overlap across clusters without adding specific value, thus they are excluded to refine search intent.",
-                "identity_tags": [
-                  "band",
-                  "artist",
-                  "interview",
-                  "documentary",
-                  "review",
-                  "best",
-                  "music"
-                ]
-              }
-            ],
-            "validationHistory": [
-              {
-                "q": "gorillaz Cracker Island collaborations -characters -lore -live performance -tour dates",
-                "theme": "Exploring the latest album, its tracks, and significant musical partnerships.",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "gorillaz Cracker Island collaborations -characters -lore -live performance -tour dates",
-                "theme": "Exploring the latest album, its tracks, and significant musical partnerships.",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "gorillaz characters lore -Cracker Island -collaborations -live performance -tour dates",
-                "theme": "Delving into the fictional world, animated members, and unique visual identity.",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
-              },
-              {
-                "q": "gorillaz characters lore -Cracker Island -collaborations -live performance -tour dates",
-                "theme": "Delving into the fictional world, animated members, and unique visual identity.",
-                "status": "FAIL",
-                "reason": "검색 결과 부족 (검색됨: 0개 / 최소 필요: 3개)"
               }
             ]
           }
@@ -360,5 +514,5 @@
       "status": "RUNNING"
     }
   },
-  "finishedAt": "2026-03-07T02:58:54.957Z"
+  "finishedAt": "2026-03-07T12:40:25.831Z"
 }

@@ -1,0 +1,117 @@
+{
+  "runId": "2026-03-07__MANUAL__KR__미국",
+  "date": "2026-03-07__MANUAL__KR__미국",
+  "createdAt": "2026-03-07T08:09:33.886Z",
+  "updatedAt": "2026-03-07T08:09:51.476Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "미국"
+        ]
+      },
+      "assignedKeywords": [
+        "미국"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "vcClusters": [
+              {
+                "name": "미국-이란 분쟁: 주요 방송사 공식 보도 및 속보",
+                "description": "국내 주요 언론사(연합뉴스, JTBC, MBC 등)의 앵커와 기자가 전달하는 공식 뉴스 리포트 및 현장 공습 속보 영상 모음",
+                "query": "미국 이란 전쟁 속보",
+                "status": "FAIL",
+                "reason": "군집 내 쇼츠 개수 부족 (0개)",
+                "topVideos": []
+              },
+              {
+                "name": "국제 정세 및 경제: 전문가 심층 해설 및 대담",
+                "description": "전문가나 언론인이 스튜디오에 출연하여 중동 전쟁의 배경, 경제적 여파, 부동산 전망 등을 심층적으로 분석하는 토크 및 해설 영상",
+                "query": "미국 중동 정책 분석",
+                "status": "FAIL",
+                "reason": "군집 내 쇼츠 개수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "스포츠 및 라이프스타일: 경기 하이라이트와 트렌드 정보",
+                "description": "WBC 야구 경기 하이라이트와 같이 현장감이 강조된 스포츠 영상 및 미국의 특정 문화/제품 정보를 전달하는 정보성 영상",
+                "query": "미국 스포츠 문화 정보",
+                "status": "FAIL",
+                "reason": "군집 내 쇼츠 개수 부족 (1개)",
+                "topVideos": []
+              },
+              {
+                "name": "1분 이슈 요약: 세로형 숏폼 뉴스 및 정보",
+                "description": "핵심적인 뉴스나 흥미로운 사실을 1분 내외로 빠르게 전달하는 세로형(Shorts) 포맷의 영상 모음",
+                "query": "미국 이슈 쇼츠",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개)",
+                "topVideos": [
+                  {
+                    "videoId": "kJLltdSsX8M",
+                    "title": "미국 전쟁 비용, 최대 300조😱?",
+                    "predicted7d": 13
+                  },
+                  {
+                    "videoId": "S16xYOMPeao",
+                    "title": "미국서 제2외국어로 '한국어'? #shorts / YTN",
+                    "predicted7d": 12
+                  },
+                  {
+                    "videoId": "QWMw0Buv1BE",
+                    "title": "이란, 미국 대사관 폭격 [티조Clip] #shorts",
+                    "predicted7d": 0
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-07T08:09:51.476Z"
+}

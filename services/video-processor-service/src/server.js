@@ -23,7 +23,7 @@ import {
 import llm from "../llm/llm.js";
 import { resolveAssetPath, writeJsonAtomic } from "./utils.js";
 
-const titleFontPath = resolveAssetPath("memomentKkukkkuk.ttf");
+const titleFontPath = resolveAssetPath("Pretendard-ExtraBold.otf");
 
 /**
  * [추가] 요청 바디를 읽어오는 헬퍼 함수
@@ -117,6 +117,7 @@ const server = http.createServer(async (req, res) => {
       // 0) 디렉토리 구성
       const inputsDir = path.join(workDir, "inputs");
       const outputsDir = path.join(workDir, "outputs");
+      const audioFadeInDuration = 1.3
       await ensureDir(inputsDir);
       await ensureDir(outputsDir);
 
@@ -160,7 +161,7 @@ const server = http.createServer(async (req, res) => {
         const endTime = isInvalid ? null : analysis.endTime;     // null이면 FFmpeg에서 -sseof 작동
         const duration = isInvalid ? 10 : analysis.duration;
         const reason = isInvalid ? "No subtitles or analysis failed. Fallback to last 10s." : analysis.reason;
-
+        
         // [중요] 원본 소스 객체에 분석 결과 기록 (메모리상)
         source.analysis = {
           startTime: startTime || "EOF-10s",
@@ -175,6 +176,7 @@ const server = http.createServer(async (req, res) => {
           outputPath: outPath,
           startTime: startTime,
           duration: duration,
+          audioFadeInDuration: audioFadeInDuration
         });
 
         highlightPaths.push(outPath);
@@ -291,7 +293,8 @@ const server = http.createServer(async (req, res) => {
         width: 1080,
         height: 1920,
         fps: 30,
-        ttsPaths
+        ttsPaths,
+        moveEnd: audioFadeInDuration
       });
 
       // 6) 최종 결과 응답
