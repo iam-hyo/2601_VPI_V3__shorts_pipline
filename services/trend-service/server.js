@@ -23,7 +23,7 @@ console.log("[DEBUG] TREND_SERVICE_PORT raw =", JSON.stringify(process.env.TREND
 const PORT = Number(process.env.TREND_SERVICE_PORT);
 
 const llm = new GeminiClient({
-  model: process.env.GEMINI_MODEL || "gemini-1.5-pro",
+  model: process.env.GEMINI_MODEL || "gemini-3-flash",
   apiKeyPrefix: "GEMINI_API_"
 });
 
@@ -78,6 +78,18 @@ function openCircuit() {
 function closeCircuit() {
   circuit.consecutive429 = 0;
   circuit.openUntilMs = 0;
+}
+
+/**
+ * ISO 8601 Duration (예: PT1M20S)을 초 단위 숫자로 변환
+ */
+function parseIsoDurationToSec(iso) {
+  const m = String(iso).match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/);
+  if (!m) return 0;
+  const h = Number(m[1] ?? 0);
+  const min = Number(m[2] ?? 0);
+  const s = Number(m[3] ?? 0);
+  return h * 3600 + min * 60 + s;
 }
 
 /**
@@ -499,7 +511,114 @@ const server = http.createServer(async (req, res) => {
     }
 
     // -------------------------------------------------------------------------
-    // 3. 404 Not Found
+    // 3. [POST] 쿼리 구체화 Video Clustering (Query Engineering)  
+    // -------------------------------------------------------------------------
+    else if (req.method === "POST" && u.pathname === "/trends/refine_vc") {
+      // [신규 API] Video Clustering 기반 쿼리 구체화
+      let body = "";
+      req.on("data", (chunk) => { body += chunk; });
+      req.on("end", async () => {
+        try {
+          const { keyword, region } = JSON.parse(body);
+
+          // 1. 국가코드 및 언어코드 맵핑
+          const langCode = region === "KR" ? "ko" : region === "US" ? "en" : region === "MX" ? "es" : "en";
+          const ytKey = process.env.YOUTUBE_API_KEY || "YOUR_YOUTUBE_API_KEY"; // 환경변수 확인 필요
+
+          // 2. 유튜브 Search API 호출 (모수 50개 확보, relevanceLanguage 추가)
+          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=date&key=${ytKey}`;
+          const searchRes = await fetch(searchUrl);
+          const searchData = await searchRes.json();
+          console.log(`[VC_SEARCH] Keyword: '${keyword}', Found: ${searchData.items?.length || 0} items`);
+          if (!searchData.items || searchData.items.length === 0) {
+            return sendJson(res, 200, { clusters: [], analysis: { reason: "검색 결과 없음" } });
+          }
+
+          const videoIds = searchData.items.map(it => it.id.videoId).join(',');
+
+          // 2. 상세 정보(duration 포함) 조회를 위해 videos API 호출
+          const videoUrl = `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=${videoIds}&key=${ytKey}`;
+          const videoRes = await fetch(videoUrl);
+          const videoData = await videoRes.json();
+
+          // [로깅] 상세 정보 반환 개수 출력
+          console.log(`[VC_VIDEOS] ID Fetch Result: ${videoData.items?.length || 0} items`);
+
+          // 3. 파이프라인 정책에 맞는 '진짜 쇼츠' 필터링 (예: 60초 또는 80초 이하)
+          // ISO 8601 duration(PT1M10S)을 초단위로 변환하는 간단한 함수 내장 필요
+          const videoList = (videoData.items || [])
+            .map(v => {
+              const duration = v.contentDetails.duration;
+              const sec = parseIsoDurationToSec(duration);
+              return {
+                videoId: v.id,
+                title: v.snippet.title,
+                description: v.snippet.description ? v.snippet.description.substring(0, 200).replace(/\n/g, " ") : "",
+                channelTitle: v.snippet.channelTitle,
+                viewCount: v.statistics?.viewCount ? Number(v.statistics.viewCount) : null,
+                durationSec: sec
+              };
+            })
+            // [추가 필터] Pipeline 정책에 따라 일정 시간 이하만 LLM에게 전달 (예: 80초)
+            .filter(v => v.durationSec > 0 && v.durationSec <= 80);
+
+          console.log(`[VC_FILTER] Final Shorts Candidates after duration filter: ${videoList.length} items`);
+
+
+          // 5. 정교한 프롬프트 디자인 (주제 + 영상 형식/장면 동시 고려)
+          const prompt = `
+            당신은 유튜브 영상 큐레이션 및 트렌드 분석 전문가입니다.
+            다음은 '${keyword}' 키워드로 검색된 유튜브 영상들의 제목과 설명 데이터입니다.
+
+            [요구사항]
+            이 영상들을 의미론적 '주제'뿐만 아니라 "영상 형식/장면(Scene)"을 기준으로 3~4개의 군집(Cluster)으로 분류하세요.
+            예를 들어, 같은 주제라도 '뉴스 데스크 공식 보도', '현지인 반응 및 인터뷰', '전문가 해설 및 교육', '개인 브이로그' 등 장면과 형식이 다르면 별도의 군집으로 분리해야 시각적 일관성이 유지됩니다.
+
+            결과는 반드시 아래 JSON 형식으로만 반환하세요. (마크다운 포맷팅 제외)
+
+            {
+              "clusters": [
+                {
+                  "name": "군집 이름 (예: 미국 이란 위기 - 공식 뉴스 특보)",
+                  "description": "이 군집의 주제와 시각적 형식에 대한 설명 (예: 앵커가 등장하는 공식 뉴스 채널들의 보도 영상 모음)",
+                  "query": "이 군집을 가장 잘 대표하는 파생 검색어 (10자 내외의 명사형)",
+                  "videoIds": ["videoId1", "videoId2"]
+                }
+              ]
+            }
+
+            영상 데이터:
+            ${JSON.stringify(videoList, null, 2)}
+            `;
+
+          const llmRaw = await llm.generateJson(prompt);
+          const result = JSON.parse(llmRaw);
+
+          // 반환할 클러스터 객체에 원본 영상 정보 매핑
+          result.clusters.forEach(c => {
+            c.videos = c.videoIds.map(id => videoList.find(v => v.videoId === id)).filter(Boolean);
+          });
+
+          res.writeHead(200, { "Content-Type": "application/json" });
+          res.end(JSON.stringify({
+            clusters: result.clusters,
+            analysis: {
+              totalAnalyzed: videoData.items?.length || 0, // 상세 정보 조회 성공 수
+              totalSearched: searchData.items?.length || 0, // 최초 검색 결과 수
+              totalShorts: videoList.length,                // 시간 필터(80초) 통과 수
+              region,
+              keyword
+            }
+          }));
+        } catch (err) {
+          console.error("QE VC Error:", err);
+          res.writeHead(500).end(JSON.stringify({ error: err.message }));
+        }
+      });
+    }
+
+    // -------------------------------------------------------------------------
+    // 4. 404 Not Found
     // -------------------------------------------------------------------------
     else {
       return sendJson(res, 404, { error: "Not Found" });
@@ -518,3 +637,5 @@ const server = http.createServer(async (req, res) => {
 server.listen(PORT, () => {
   console.log(`[trend-service] listening on http://localhost:${PORT}`);
 });
+
+

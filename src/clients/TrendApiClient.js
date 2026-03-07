@@ -56,4 +56,23 @@ export class TrendApiClient {
     if (!res.ok) throw new Error(`QE API 요청 실패: ${res.statusText}`);
     return res.json(); // { slots: [{ id, theme, q }], analysis: {...} } 반환 예상
   }
+
+  /**
+   * [신규] Video Clustering(VC) 기반 쿼리 구체화 요청
+   * @param {string} keyword 원본 트렌드 키워드
+   * @param {string} region 국가 코드
+   */
+  async refineTrendKeywordVC(keyword, region) {
+    const res = await fetch(`${this.baseUrl}/trends/refine_vc`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ keyword, region })
+    });
+
+    if (!res.ok) {
+      throw new Error(`QE VC API 요청 실패: ${res.statusText}`);
+    }
+    return res.json();
+  }
 }
+

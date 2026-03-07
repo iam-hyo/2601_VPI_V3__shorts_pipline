@@ -85,4 +85,91 @@ export class ValidationService {
       count: finalVideos.length // 실제 담긴 개수를 명시적으로 전달
     };
   }
+
+  /**
+   * [신규] Cluster 내 비디오 목록을 그대로 검증 (재검색 안함)
+   * 로깅을 위해 실패하더라도 산출된 pred7 스코어 객체를 반환합니다.
+   */
+  async validateCluster({ clusterVideos, region }) {
+    const videoIds = clusterVideos.map(v => v.videoId);
+    if (videoIds.length < VALIDATION.minShortsCount) {
+      return { ok: false, reason: `군집 내 영상 수 부족 (${videoIds.length}개)`, scored: [] };
+    }
+
+    // 1. 영상 특징치 빌드 및 쇼츠 필터링
+    const features = await this.yt.buildVideoFeatures({ videoIds, region });
+    const filteredFeatures = features.filter(f => f.is_short === true);
+
+    if (filteredFeatures.length < VALIDATION.minShortsCount) {
+      return { ok: false, reason: `군집 내 쇼츠 개수 부족 (${filteredFeatures.length}개)`, scored: [] };
+    }
+
+    // 2. 조회수 예측 API 호출
+    const preds = await this.predictor.predictPred7(filteredFeatures);
+
+    const scored = [];
+    for (const p of preds) {
+      const f = filteredFeatures.find(x => x.id === p.id);
+      if (!f) continue;
+
+      const predicted7d = Number(p.predicted_7day_views ?? 0);
+      scored.push({
+        videoId: p.id,
+        title: f.title,
+        channelTitle: f.channel_title,
+        predicted7d,
+        viewCount: Number(f.view_count ?? 0),
+        delta: predicted7d - Number(f.view_count ?? 0)
+      });
+    }
+
+    // pred7 내림차순 정렬 (로깅에서 상위 6개를 뽑기 위함)
+    scored.sort((a, b) => b.predicted7d - a.predicted7d);
+
+    // 검증 통과 필터링
+    const qualified = scored.filter(s => s.predicted7d >= VALIDATION.minPredictedViews);
+
+    if (qualified.length < VALIDATION.minQualifiedVideos) {
+      return { ok: false, reason: `조회수 조건 미달 (조건만족: ${qualified.length}개)`, scored };
+    }
+
+    // 최종 통과시 topK 반환
+    return { ok: true, videos: qualified.slice(0, VALIDATION.topK), scored };
+  }
+
+  async validateCluster4ViewCount({ clusterVideos, region, slot }) {
+    log.info(`[${region}_${slot}] 🔍 군집 검증 시작 (입력: ${clusterVideos?.length || 0}개)`);
+
+    const MIN_VIEW_COUNT = 70000;
+    const MIN_QUALIFIED = 3; // 3개만 있어도 제작 가능하도록 완화된 기준 적용
+    const scored = [];
+
+    for (const v of clusterVideos) {
+      const viewCount = Number(v.viewCount || v.view_count || 0);
+      if (viewCount >= MIN_VIEW_COUNT) {
+        scored.push({
+          videoId: v.videoId || v.id,
+          title: v.title,
+          channelTitle: v.channelTitle || v.channel_title,
+          predicted7d: viewCount,
+          viewCount: viewCount,
+          delta: viewCount
+        });
+      }
+    }
+
+    // 조회수 내림차순 정렬
+    scored.sort((a, b) => b.viewCount - a.viewCount);
+
+    const isOk = scored.length >= MIN_QUALIFIED;
+
+    return {
+      ok: isOk,
+      videos: scored, // 발견된 모든 적합 영상 반환 (이후 동적 슬라이싱)
+      scored: scored, // 로깅용 전체 데이터
+      reason: isOk ? "검증 통과" : `조회수 7만 이상 영상 부족 (발견: ${scored.length}개 / 최소: ${MIN_QUALIFIED}개)`
+    };
+  }
 }
+
+

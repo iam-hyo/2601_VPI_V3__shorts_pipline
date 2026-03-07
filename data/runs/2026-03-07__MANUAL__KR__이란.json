@@ -1,0 +1,65 @@
+{
+  "runId": "2026-03-07__MANUAL__KR__이란",
+  "date": "2026-03-07__MANUAL__KR__이란",
+  "createdAt": "2026-03-07T08:58:30.635Z",
+  "updatedAt": "2026-03-07T10:32:20.505Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "이란"
+        ]
+      },
+      "assignedKeywords": [
+        "이란"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "RUNNING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-07T10:32:20.505Z"
+}

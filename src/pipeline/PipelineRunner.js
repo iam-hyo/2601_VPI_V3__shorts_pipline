@@ -195,7 +195,7 @@ export class PipelineRunner {
     if (hasPickedKeywordAndSources) {
       log.info(
         { slotID, keyword: job.keyword },
-        `⏭️ [${slotID}] 키워드/소스(4개)가 이미 존재합니다. validateSingleQuery() 스킵`
+        `⏭️ [${slotID}] 키워드/소스(4개)가 이미 존재합니다.`
       );
 
       picked = { keyword: job.keyword, videos: job.selectedSourceVideos };
@@ -231,116 +231,134 @@ export class PipelineRunner {
       job.status = "RUNNING";
       this.save(state);
 
-      // [외곽 루프] 트렌드 키워드 순회
-      for (const rawKeyword of keywords) {
-        if (excludeList.includes(rawKeyword)) continue; // 이미 다른 슬롯에 할당된 키워드는 건너뜀
+      if (job.queryEngineering?.status === "DONE" && job.keyword && job.selectedSourceVideos?.length > 0) {
+        log.info(`[${slotID}] 이미 쿼리 엔지니어링이 완료된 슬롯입니다. (Keyword: ${job.keyword}) 단계를 스킵합니다.`);
+        // 바로 비디오 제작 단계로 진입하기 위해 picked 설정
+        picked = {
+          keyword: job.keyword,
+          videos: job.selectedSourceVideos,
+          originalKeyword: job.originalKeyword
+        };
+      } else {
 
-        log.info(`[${slotID}] 트렌드 '${rawKeyword}'에 대한 QE 및 검증 시작`);
+        // [외곽 루프] 트렌드 키워드 순회
+        for (const rawKeyword of keywords) {
+          if (excludeList.includes(rawKeyword)) continue;
 
-        try {
-          // 1. 태그 수집
-          const searchForTags = await this.yt.searchVideos({ q: rawKeyword, maxResults: 50, region });
-          const tags = await this.yt.collectHashtags(searchForTags.map(v => v.videoId));
+          log.info(`[${slotID}] 트렌드 '${rawKeyword}'에 대한 영상 클러스터링(VC) 및 검증 시작`);
 
-          // 2. 서버(QE API) 호출하여 구체화된 쿼리 후보 3개 획득
-          const { slots, analysis } = await this.trendApi.refineTrendKeyword(rawKeyword, tags, region);
-          job.originalKeyword = rawKeyword;
-          job.queryEngineering = {
-            ...analysis,
-            validationHistory: [] // 초기화
-          };
-          this.save(state); // 즉시 파일 저장
+          try {
+            // 1. 서버 호출하여 검색 -> 군집화(형식+주제)된 클러스터 수신
+            const vcResult = await this.trendApi.refineTrendKeywordVC(rawKeyword, region);
+            const { clusters, analysis } = vcResult;
 
-          // [내부 루프] 3. 3개의 구체화 쿼리 후보 순회 검증
-          const validationHistory = [];
+            log.info(
+              `[${slotID}] 🔍 검색 결과 요약: 총 ${analysis.totalSearched}개 발견 -> 쇼츠(80s) ${analysis.totalShorts}개 분류 완료`
+            );
 
-          for (const slotCandidate of slots) {
-            log.info(`[${slotID}] 후보 검증 시도: ${slotCandidate.q}`);
+            const clusterLogs = [];
+            // 2. 군집별로 순회하며 pred7 예측 및 검증
+            for (const cluster of clusters) {
+              log.info(`[${slotID}] 군집 검증 시도: [${cluster.name}] ${cluster.query} (영상 ${cluster.videos.length}개)`);
 
-            const vResult = await this.validator.validateSingleQuery({ q: slotCandidate.q, region, slot });
+              // 재검색 없이 군집 내부 영상을 그대로 Validation // 임시 공사 시작 구간 🛠️🛠️🛠️🛠️🛠️🛠️🛠️
+              // const vResult = await this.validator.validateCluster({  
+              //   clusterVideos: cluster.videos,
+              //   region
+              // });
 
-            // [클러스터링 로깅] 검증 결과가 나올 때마다 history에 push하고 즉시 저장
-            const historyItem = {
-              q: slotCandidate.q,
-              theme: slotCandidate.theme,
-              status: vResult.ok ? "PASS" : "FAIL",
-              reason: vResult.ok ? null : vResult.reason
+              // 로깅용: 각 군집별 pred7 기준 상위 6개 비디오 추출
+              // const top6Videos = (vResult.scored || []).slice(0, 6).map(v => ({
+              //   videoId: v.videoId,
+              //   title: v.title,
+              //   predicted7d: v.predicted7d 
+              // }));  // 임시 공사 끝 구간 🛠️🛠️🛠️🛠️🛠️🛠️🛠️
+
+              // 임시 사용 시작 구간 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈
+              const vResult = await this.validator.validateCluster4ViewCount({ // 교체된 호출
+                clusterVideos: cluster.videos,
+                region,
+                slot
+              });
+
+              // 1. 로깅 데이터 생성: 예측 API OFF 상태이므로 viewCount를 predicted7d로 매핑하여 기록
+              const top6Videos = (vResult.scored || []).slice(0, 6).map(v => ({
+                videoId: v.videoId,
+                title: v.title,
+                predicted7d: v.viewCount // 실제 조회수를 기록하여 리포트 가시성 확보
+              }));
+              // 임시 사용 끝 구간 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈
+
+              // 로깅 데이터 적재
+              clusterLogs.push({
+                name: cluster.name,
+                description: cluster.description,
+                query: cluster.query,
+                status: vResult.ok ? "PASS" : "FAIL",
+                reason: vResult.reason,
+                topVideos: top6Videos
+              });
+
+              // 2. 최초 통과 군집이 나오면 'picked' 객체 생성 (루프는 계속 돌며 로그 수집 가능하나, 리소스 위해 break 추천)
+              if (vResult.ok && !picked) {
+                // 3개면 3개, 4개면 4개 있는 그대로를 사용 (동적 대응)
+                const selectedVideos = vResult.videos.slice(0, 4);
+
+                picked = {
+                  keyword: cluster.query,
+                  videos: selectedVideos,
+                  originalKeyword: rawKeyword,
+                  theme: cluster.name
+                };
+                log.info(`[${slotID}] ✅ 주제 확정: ${picked.theme} (영상 ${selectedVideos.length}개)`);
+
+                log.info(`[${slotID}] ✅ 주제 확정: ${picked.theme} (영상 ${selectedVideos.length}개)`);
+
+                // 모든 군집의 예측 결과를 로깅하려면 여기서 break 하지 않고 플래그만 세움
+                break;
+              } else {
+                log.warn(`[${slotID}] ⛔ 군집 결격: ${vResult.reason}`);
+              }
+            }
+
+            // 3. [핵심] 최종 상태 업데이트 (루프 종료 후 딱 한 번만 수행)
+            job.queryEngineering = {
+              status: picked ? "DONE" : "FAILED", // 선정 완료 여부
+              stats: {
+                totalSearched: analysis.totalSearched,
+                totalShorts: analysis.totalShorts
+              },
+              vcClusters: clusterLogs // 모든 군집 시도 이력 통합
             };
 
-            validationHistory.push(historyItem);
-            job.queryEngineering.validationHistory = validationHistory;
-            this.save(state); // 매 후보 검증마다 상태 업데이트 (덮어쓰기 형식)
+            if (picked) {
+              // 성공 시 최종 데이터 바인딩
+              job.originalKeyword = picked.originalKeyword;
+              job.keyword = picked.keyword;
+              job.videos = picked.videos;
+              job.theme = picked.theme;
 
-            if (vResult.ok) {
-              // 성공 시 데이터 세팅
-              picked = {
-                keyword: slotCandidate.q,
-                videos: vResult.videos,
-                originalKeyword: rawKeyword // 원본 키워드 보존
-              };
-
-              validationHistory.push({
-                q: slotCandidate.q,
-                theme: slotCandidate.theme,
-                status: "PASS"
-              });
-
-              log.info(`[${slotID}] ✅ 후보 검증 통과!`);
-              break; // 내부 루프 탈출
+              if (!rs.assignedKeywords.includes(rawKeyword)) rs.assignedKeywords.push(rawKeyword);
+              this.save(state);
+              break; // 다른 트렌드 키워드 시도 중단 (슬롯 채움)
             } else {
-              // 실패 시 사유 로깅 및 기록
-              log.warn(`[${slotID}] ⛔ 후보 결격: ${vResult.reason}`);
-
-              validationHistory.push({
-                q: slotCandidate.q,
-                theme: slotCandidate.theme,
-                status: "FAIL",
-                reason: vResult.reason
-              });
-            }
-          }
-
-          // 분석 데이터와 검증 이력을 함께 저장 (디버깅 핵심 데이터)
-          if (picked) {
-            job.originalKeyword = picked.originalKeyword;
-            job.keyword = picked.keyword; // 최종 채택된 구체화 쿼리
-            job.queryEngineering = { ...analysis, validationHistory };
-
-            // '성공'한 키워드를 소비 목록에 추가 (중복 방지)
-            if (!rs.assignedKeywords.includes(rawKeyword)) {
-              rs.assignedKeywords.push(rawKeyword);
+              // 실패 시에도 키워드 소비 처리
+              if (!rs.assignedKeywords.includes(rawKeyword)) rs.assignedKeywords.push(rawKeyword);
+              this.save(state);
+              log.warn(`[${slotID}] '${rawKeyword}'의 모든 군집이 탈락하였습니다.`);
             }
 
+          } catch (err) {
+            log.error({ err: err.message }, `[${slotID}] '${rawKeyword}' 처리 중 런타임 오류 발생`);
+            if (!rs.assignedKeywords.includes(rawKeyword)) rs.assignedKeywords.push(rawKeyword);
             this.save(state);
-            break; // 적합한 쿼리를 찾았으므로 외곽(Keyword) 루프 탈출
-          } else {
-            // [실패] 실패한 키워드도 '소비'된 것으로 간주하여 다시 시도하지 않음
-            if (!rs.assignedKeywords.includes(rawKeyword)) {
-              rs.assignedKeywords.push(rawKeyword);
-            }
-
-            job.queryEngineering = job.queryEngineering || {};
-            job.queryEngineering.lastFailedKeyword = rawKeyword;
-            job.queryEngineering.validationHistory = (job.queryEngineering.validationHistory || []).concat(validationHistory);
-            this.save(state);
-
-            log.warn(`[${slotID}] '${rawKeyword}'의 모든 후보가 탈락하여 소비 목록에 등록하고 다음 트렌드로 이동합니다.`);
           }
-        } catch (err) {
-          // QE API 500 에러 등 예상치 못한 오류 발생 시 처리
-          log.error({ err: err.message }, `[${slotID}] '${rawKeyword}' 처리 중 런타임 오류 발생`);
-
-          // 오류가 난 키워드도 '소비'된 것으로 간주할지 선택 가능 (현재는 다음 키워드 시도를 위해 push)
-          if (!rs.assignedKeywords.includes(rawKeyword)) rs.assignedKeywords.push(rawKeyword);
-          this.save(state);
         }
       }
-
+      
       if (!picked) {
         log.error(`[${slotID}] ⚠️ ${region} 국가의 모든 Trend keyword(${totalKeywords}개)가 소진되었거나 검증에 실패했습니다.`);
         log.info(`[${slotID}] 현재 슬롯 작업을 건너뛰고 다음 프로세스로 이동합니다.`);
-
-        // 여기서 throw 대신 return을 하여 Orchestrator가 다음 국가/작업을 계속하게 함
         return null;
       }
 
@@ -595,21 +613,17 @@ export class PipelineRunner {
     // 수동 run은 상태 파일 구조를 단순하게 쓰기 위해: region 1개만 사용
     let state = this.load(runId);
 
-    // 1. regions 객체가 없으면 생성
-    if (!state.regions) state.regions = {};
-
-    // 2. 해당 리전 데이터를 강제로 셋팅 (이미 있어도 덮어씀)
-    state.regions[args.region] = {
-      region: args.region,
-      // 수동 실행이므로 trends를 SKIPPED로 하고 키워드를 직접 주입
-      trends: {
+    const rs = state.regions[args.region];
+    if (rs) {
+      rs.status = "PENDING";
+      rs.assignedKeywords = rs.assignedKeywords || []; // 기존 값 유지 혹은 초기화
+      rs.trends = {
         status: "SKIPPED",
         keywords: [args.keyword]
-      },
-      videos: state.regions[args.region]?.videos || [{ slot: 1, status: "PENDING" }],
-      status: "PENDING"
-    };
-
+      };
+      // 수동 실행은 보통 슬롯 1개만 타겟팅하므로 필터링
+      rs.videos = [{ slot: 1, status: "PENDING" }];
+    }
     // 3. 변경 사항 즉시 저장
     this.save(state);
     log.info({ runId, keyword: args.keyword }, "수동 실행 상태 초기화 완료");
