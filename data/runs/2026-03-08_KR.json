@@ -1,0 +1,405 @@
+{
+  "runId": "2026-03-08",
+  "date": "2026-03-08",
+  "createdAt": "2026-03-08T02:50:01.777Z",
+  "updatedAt": "2026-03-08T13:02:07.590Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "lastError": "Trend API 오류(503): {\"region\":\"KR\",\"days\":7,\"keywords\":[\"선재 업고 튀어\",\"변우석\",\"르세라핌\",\"뉴진스\",\"아일릿\",\"챌린지\",\"밈\",\"아이유\",\"세븐틴\",\"푸바오\",\"스트레이키즈\",\"팝업스토어\",\"제로콜라\",\"먹방\",\"여행 브이로그\",\"일상 브이로그\",\"카페 투어\",\"맛집 탐방\",\"패션 하울\",\"뷰티 팁\",\"운동 루틴\",\"ASMR\",\"MBTI\",\"아이패드\",\"갤럭시 Z 플립\"],\"debug\":{\"rawItems\":0,\"candidates\":0,\"trafficAvg\":null,\"trafficMax\":null,\"llmUsed\":true,\"python\":{\"pythonOk\":false,\"reason\":\"PYTHON_FAILED\",\"attempts\":1,\"circuit\":{\"consecutive429\":0,\"openUntilMs\":0},\"error\":\"pytrends_fetch 실패(code=1): Traceback (most recent call last):\\n  File \\\"/home/hjj/2601_VPI_V3__shorts_pipline/services/trend-service/pytrends_fetch.py\\\", line 28, in <module>\\n    from pytrends.request import TrendReq\\nModuleNotFoundError: No module named 'pytrends'\\n\"}}}",
+        "keywords": [
+          "김선태",
+          "한국 일본 야구",
+          "WBC",
+          "야구",
+          "조정식",
+          "충주맨",
+          "보겸",
+          "스포츠",
+          "그것이 알고 싶다",
+          "센서 스튜디오",
+          "붉은 사막",
+          "황룡 갑"
+        ],
+        "updatedAt": "2026-03-08T12:43:15.961Z"
+      },
+      "assignedKeywords": [
+        "김선태",
+        "한국 일본 야구"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 33
+            },
+            "vcClusters": [
+              {
+                "name": "김선태 관련 공식 뉴스 보도",
+                "description": "주요 언론사 뉴스 채널에서 김선태 주무관의 사직, 청와대 면접설, 개인 유튜브 개설, 내부 논란 등 주요 이슈를 보도하는 영상 모음. 앵커 브리핑, 현장 영상, 기자 리포트 등 정형화된 뉴스 형식.",
+                "query": "김선태 뉴스",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 2개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "AVLu4WZwNJ4",
+                    "title": "[속보] '충주맨' 김선태 \"세상 모든 것을 홍보\"…유튜브 개설 [자막뉴스] / 채널A",
+                    "predicted7d": 96340
+                  },
+                  {
+                    "videoId": "t4frQ1kosLM",
+                    "title": "'충주맨' 김선태, 다음 행선지는 청와대?…\"디지털소통비서실 면접\" #JTBC #Shorts",
+                    "predicted7d": 93718
+                  }
+                ]
+              },
+              {
+                "name": "김선태 본인 출연 방송 및 인터뷰",
+                "description": "김선태 주무관이 직접 방송 프로그램(토크쇼, 교양 프로그램 등)에 출연하거나 언론과 인터뷰한 영상 클립. 그의 생각, 경험, 비하인드 스토리를 직접 들을 수 있는 형식.",
+                "query": "김선태 방송",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 2개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "acTByIL7VEk",
+                    "title": "충주맨이 말하는 대한민국 공무원#충주맨#김선태",
+                    "predicted7d": 3229718
+                  },
+                  {
+                    "videoId": "UejCl87KCRA",
+                    "title": "【#예능썰】 구라도 한 수 접게 만든 충주맨의 노련함 | 예능썰 | TVPP | MBC 240403 방송",
+                    "predicted7d": 1858022
+                  }
+                ]
+              },
+              {
+                "name": "김선태 관련 분석 및 2차 창작 콘텐츠",
+                "description": "김선태의 성공 비결 분석, 퇴사 후 행보 예측, 그의 콘텐츠를 오마주하거나 패러디하는 개인 채널 및 기타 콘텐츠. 충주시 공식 채널에서 김선태가 직접 제작했거나 그를 기리는 영상 포함.",
+                "query": "충주맨 분석",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "7iPYhNbB-qI",
+                    "title": "나의 대통령에게",
+                    "predicted7d": 11726281
+                  },
+                  {
+                    "videoId": "nmAYloPFI0A",
+                    "title": "자유의 몸이 된 충주맨이 두려운 지방직 공무원들 ㅋㅋ #유머 #충주맨 #김선태",
+                    "predicted7d": 4530723
+                  },
+                  {
+                    "videoId": "j2CRWEDU-Jo",
+                    "title": "전격 사표낸 '충주맨' 김선태 주무관 조길형 전 충주시장의 발탁 뒷얘기",
+                    "predicted7d": 491401
+                  },
+                  {
+                    "videoId": "szRZZYrs8uE",
+                    "title": "도대체 왜 나한테 상을 안 줘 #김선태 #홍보맨",
+                    "predicted7d": 477334
+                  },
+                  {
+                    "videoId": "dtqkIMQ0-Tc",
+                    "title": "김선태 팀장이 최고의 상사였던 이유",
+                    "predicted7d": 259428
+                  },
+                  {
+                    "videoId": "bm3mB9MyXcU",
+                    "title": "김선태씨 보고 있나?",
+                    "predicted7d": 175669
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "김선태",
+          "keyword": "충주맨 분석",
+          "videos": [
+            {
+              "videoId": "7iPYhNbB-qI",
+              "title": "나의 대통령에게",
+              "channelTitle": "충주시",
+              "predicted7d": 11726281,
+              "viewCount": 11726281,
+              "delta": 11726281
+            },
+            {
+              "videoId": "nmAYloPFI0A",
+              "title": "자유의 몸이 된 충주맨이 두려운 지방직 공무원들 ㅋㅋ #유머 #충주맨 #김선태",
+              "channelTitle": "1분 예능몰아보기",
+              "predicted7d": 4530723,
+              "viewCount": 4530723,
+              "delta": 4530723
+            },
+            {
+              "videoId": "j2CRWEDU-Jo",
+              "title": "전격 사표낸 '충주맨' 김선태 주무관 조길형 전 충주시장의 발탁 뒷얘기",
+              "channelTitle": "미디어태희",
+              "predicted7d": 491401,
+              "viewCount": 491401,
+              "delta": 491401
+            },
+            {
+              "videoId": "szRZZYrs8uE",
+              "title": "도대체 왜 나한테 상을 안 줘 #김선태 #홍보맨",
+              "channelTitle": "인사처TV",
+              "predicted7d": 477334,
+              "viewCount": 477334,
+              "delta": 477334
+            }
+          ],
+          "theme": "김선태 관련 분석 및 2차 창작 콘텐츠",
+          "selectedSourceVideos": [
+            {
+              "videoId": "7iPYhNbB-qI",
+              "title": "나의 대통령에게",
+              "channelTitle": "충주시",
+              "predicted7d": 11726281,
+              "delta": 11726281
+            },
+            {
+              "videoId": "nmAYloPFI0A",
+              "title": "자유의 몸이 된 충주맨이 두려운 지방직 공무원들 ㅋㅋ #유머 #충주맨 #김선태",
+              "channelTitle": "1분 예능몰아보기",
+              "predicted7d": 4530723,
+              "delta": 4530723
+            },
+            {
+              "videoId": "j2CRWEDU-Jo",
+              "title": "전격 사표낸 '충주맨' 김선태 주무관 조길형 전 충주시장의 발탁 뒷얘기",
+              "channelTitle": "미디어태희",
+              "predicted7d": 491401,
+              "delta": 491401
+            },
+            {
+              "videoId": "szRZZYrs8uE",
+              "title": "도대체 왜 나한테 상을 안 줘 #김선태 #홍보맨",
+              "channelTitle": "인사처TV",
+              "predicted7d": 477334,
+              "delta": 477334
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "충주맨 김선태, 퇴사부터 수상까지! 그의 모든 것",
+            "description": "2026-03-08_KR_1\n충주맨 김선태 주무관의 모든 것을 파헤칩니다. 그의 퇴사 비하인드부터 대통령 언급, 그리고 수상 논란까지! 지금 바로 충주맨의 진짜 매력을 확인하세요.",
+            "tags": [
+              "충주맨",
+              "김선태",
+              "충주시",
+              "공무원",
+              "퇴사",
+              "유튜브쇼츠",
+              "홍보맨",
+              "어그로",
+              "분석",
+              "비하인드스토리"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "jF65d2ZRS6o"
+          },
+          "updatedAt": "2026-03-08T13:00:58.203Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "error": "[KR] 트렌드 키워드가 비어 있습니다 (status: ERROR)",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 24
+            },
+            "vcClusters": [
+              {
+                "name": "공식 경기 하이라이트 및 이벤트 예고",
+                "description": "주요 국제 야구 대회(WBC, K-BASEBALL SERIES 등)의 공식 채널에서 제공하는 경기 하이라이트 영상 및 대회 예고편 모음. 고화질의 경기 장면과 전문적인 편집이 특징입니다.",
+                "query": "공식 경기 하이라이트",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 1개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "SR_ZmtMlKTU",
+                    "title": "[일본 vs 대한민국] 이틀 연속!! 괴력의 사나이 안현민, 또 한 번 터진 홈런! | 11.16 | 크보모먼트 | 2025 NAVER K-BASEBALL SERIES",
+                    "predicted7d": 195460
+                  }
+                ]
+              },
+              {
+                "name": "한일전 명장면 & 레전드 플레이 (숏폼)",
+                "description": "한국과 일본 야구의 역사적인 명장면, 선수들의 인상 깊었던 플레이, 그리고 과거 한일전의 드라마틱한 순간들을 짧은 클립 형태로 재구성한 영상 모음. 주로 특정 선수나 상황에 초점을 맞춥니다.",
+                "query": "한일전 명장면",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 2개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "qH-OUcf-_q4",
+                    "title": "일본전에 빈볼 던지는 김병현 깡다구 ㅎㄷㄷ",
+                    "predicted7d": 1560299
+                  },
+                  {
+                    "videoId": "o7RqacaGAQg",
+                    "title": "한국 야구 일본 이기던 시절 투수들 ㄷㄷ",
+                    "predicted7d": 438123
+                  }
+                ]
+              },
+              {
+                "name": "선수 및 리그 비교 분석 & 비하인드 (숏폼)",
+                "description": "한국, 일본, 미국 야구 리그 및 선수들의 실력, 특징, 경험 등을 비교 분석하거나, 선수들의 인터뷰, 비하인드 스토리, 특정 발언 등을 짧은 형식으로 전달하는 영상 모음. 주로 정보 전달 및 의견 공유에 중점을 둡니다.",
+                "query": "야구 선수 비교 분석",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "2XtSD7RZx1g",
+                    "title": "오타니도 화나게 하는 한국 야구",
+                    "predicted7d": 20593169
+                  },
+                  {
+                    "videoId": "vmDxc3IUwp0",
+                    "title": "오심한 심판에게 날린 100만 원짜리 멘트",
+                    "predicted7d": 4180614
+                  },
+                  {
+                    "videoId": "hnynA-dVl4g",
+                    "title": "kbo vs mlb 클래스 차이 실감",
+                    "predicted7d": 4052650
+                  },
+                  {
+                    "videoId": "u7YSvXIeuAg",
+                    "title": "오타니 \"WBC 한국 대표팀은 탑 클래스\"",
+                    "predicted7d": 3625327
+                  },
+                  {
+                    "videoId": "ei0N4GwqBmY",
+                    "title": "\"분명.. 있었는데...\" 일본 대표팀의 혼란? | 프로야구",
+                    "predicted7d": 3347730
+                  },
+                  {
+                    "videoId": "JVa6nJCFCt8",
+                    "title": "일본에서 가장 빠르다는 '사사키 로키' 공 체감",
+                    "predicted7d": 2275814
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "한국 일본 야구",
+          "keyword": "야구 선수 비교 분석",
+          "videos": [
+            {
+              "videoId": "2XtSD7RZx1g",
+              "title": "오타니도 화나게 하는 한국 야구",
+              "channelTitle": "오타니17",
+              "predicted7d": 20593169,
+              "viewCount": 20593169,
+              "delta": 20593169
+            },
+            {
+              "videoId": "vmDxc3IUwp0",
+              "title": "오심한 심판에게 날린 100만 원짜리 멘트",
+              "channelTitle": "노빠꾸K썰",
+              "predicted7d": 4180614,
+              "viewCount": 4180614,
+              "delta": 4180614
+            },
+            {
+              "videoId": "hnynA-dVl4g",
+              "title": "kbo vs mlb 클래스 차이 실감",
+              "channelTitle": "오늘의 메이저",
+              "predicted7d": 4052650,
+              "viewCount": 4052650,
+              "delta": 4052650
+            },
+            {
+              "videoId": "u7YSvXIeuAg",
+              "title": "오타니 \"WBC 한국 대표팀은 탑 클래스\"",
+              "channelTitle": "오타니17",
+              "predicted7d": 3625327,
+              "viewCount": 3625327,
+              "delta": 3625327
+            }
+          ],
+          "theme": "선수 및 리그 비교 분석 & 비하인드 (숏폼)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "2XtSD7RZx1g",
+              "title": "오타니도 화나게 하는 한국 야구",
+              "channelTitle": "오타니17",
+              "predicted7d": 20593169,
+              "delta": 20593169
+            },
+            {
+              "videoId": "vmDxc3IUwp0",
+              "title": "오심한 심판에게 날린 100만 원짜리 멘트",
+              "channelTitle": "노빠꾸K썰",
+              "predicted7d": 4180614,
+              "delta": 4180614
+            },
+            {
+              "videoId": "hnynA-dVl4g",
+              "title": "kbo vs mlb 클래스 차이 실감",
+              "channelTitle": "오늘의 메이저",
+              "predicted7d": 4052650,
+              "delta": 4052650
+            },
+            {
+              "videoId": "u7YSvXIeuAg",
+              "title": "오타니 \"WBC 한국 대표팀은 탑 클래스\"",
+              "channelTitle": "오타니17",
+              "predicted7d": 3625327,
+              "delta": 3625327
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "오타니도 놀란 KBO vs MLB 클래스 차이!",
+            "description": "2026-03-08_KR_2\n오타니가 인정한 한국 야구의 위상부터 KBO와 MLB의 숨겨진 클래스 차이까지! 심판에게 날린 100만원짜리 멘트처럼 짜릿한 야구 명장면들을 지금 바로 확인하세요. 당신이 몰랐던 야구의 모든 것!",
+            "tags": [
+              "야구",
+              "KBO",
+              "MLB",
+              "오타니",
+              "WBC",
+              "야구쇼츠",
+              "야구비교",
+              "클래스차이",
+              "야구명장면",
+              "스포츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "GtnrNEJy4YU"
+          },
+          "updatedAt": "2026-03-08T13:02:07.582Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-08T13:02:07.590Z"
+    }
+  },
+  "finishedAt": "2026-03-08T02:50:43.146Z"
+}

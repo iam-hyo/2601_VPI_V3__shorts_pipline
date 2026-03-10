@@ -1,0 +1,655 @@
+{
+  "runId": "2026-03-09",
+  "date": "2026-03-09",
+  "createdAt": "2026-03-09T02:50:01.576Z",
+  "updatedAt": "2026-03-09T02:55:01.264Z",
+  "status": "DONE",
+  "regions": {
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "macbook neo",
+          "mcdonalds ceo eating burger",
+          "call her daddy",
+          "harry styles",
+          "f1",
+          "ufc",
+          "wwe 2k26"
+        ],
+        "updatedAt": "2026-03-09T02:50:19.607Z"
+      },
+      "assignedKeywords": [
+        "macbook neo",
+        "mcdonalds ceo eating burger",
+        "call her daddy"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 40
+            },
+            "vcClusters": [
+              {
+                "name": "맥북 네오 첫인상 및 가치 분석",
+                "description": "개인 테크 리뷰어들이 맥북 네오의 파격적인 가격과 성능에 대한 놀라움, 기대감, 또는 초기 문제점을 다루는 영상 모음. 주로 짧은 형식의 반응 영상이나 첫인상 리뷰입니다.",
+                "query": "맥북 네오 첫인상",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "jQmUsX6W1Vg",
+                    "title": "The MacBook NEO is overpowered.. #carterpcs #tech #macbookneo #laptop #schoollaptop",
+                    "predicted7d": 2002958
+                  },
+                  {
+                    "videoId": "zNe4S9beTCc",
+                    "title": "Apple’s newest MacBook is $499… MacBook Neo #c#carterpcstech #apple #macbook #macbookneo",
+                    "predicted7d": 1745441
+                  },
+                  {
+                    "videoId": "tEF_55c1Zbk",
+                    "title": "The Problems with the MacBook Neo.. #carterpcs #tech #macbook #macbookneo",
+                    "predicted7d": 867264
+                  },
+                  {
+                    "videoId": "zRkDUh4QnA4",
+                    "title": "NEW MacBook Neo - Worth it??",
+                    "predicted7d": 499925
+                  },
+                  {
+                    "videoId": "imIbZ1Qczbg",
+                    "title": "The $600 MacBook Neo is LEGIT",
+                    "predicted7d": 399259
+                  },
+                  {
+                    "videoId": "OTzhUXTukag",
+                    "title": "New MacBook Neo: The $599 Macbook!",
+                    "predicted7d": 163948
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "macbook neo",
+          "keyword": "맥북 네오 첫인상",
+          "videos": [
+            {
+              "videoId": "jQmUsX6W1Vg",
+              "title": "The MacBook NEO is overpowered.. #carterpcs #tech #macbookneo #laptop #schoollaptop",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 2002958,
+              "viewCount": 2002958,
+              "delta": 2002958
+            },
+            {
+              "videoId": "zNe4S9beTCc",
+              "title": "Apple’s newest MacBook is $499… MacBook Neo #c#carterpcstech #apple #macbook #macbookneo",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 1745441,
+              "viewCount": 1745441,
+              "delta": 1745441
+            },
+            {
+              "videoId": "tEF_55c1Zbk",
+              "title": "The Problems with the MacBook Neo.. #carterpcs #tech #macbook #macbookneo",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 867264,
+              "viewCount": 867264,
+              "delta": 867264
+            },
+            {
+              "videoId": "zRkDUh4QnA4",
+              "title": "NEW MacBook Neo - Worth it??",
+              "channelTitle": "Hayls World",
+              "predicted7d": 499925,
+              "viewCount": 499925,
+              "delta": 499925
+            }
+          ],
+          "theme": "맥북 네오 첫인상 및 가치 분석",
+          "selectedSourceVideos": [
+            {
+              "videoId": "jQmUsX6W1Vg",
+              "title": "The MacBook NEO is overpowered.. #carterpcs #tech #macbookneo #laptop #schoollaptop",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 2002958,
+              "delta": 2002958
+            },
+            {
+              "videoId": "zNe4S9beTCc",
+              "title": "Apple’s newest MacBook is $499… MacBook Neo #c#carterpcstech #apple #macbook #macbookneo",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 1745441,
+              "delta": 1745441
+            },
+            {
+              "videoId": "tEF_55c1Zbk",
+              "title": "The Problems with the MacBook Neo.. #carterpcs #tech #macbook #macbookneo",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 867264,
+              "delta": 867264
+            },
+            {
+              "videoId": "zRkDUh4QnA4",
+              "title": "NEW MacBook Neo - Worth it??",
+              "channelTitle": "Hayls World",
+              "predicted7d": 499925,
+              "delta": 499925
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-09/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "MacBook Neo: Overpowered or Overpriced?",
+            "description": "2026-03-09_US_1\nGet your first look at the new MacBook Neo! We dive into its performance, price, and potential problems to see if it's worth your money. Don't buy until you watch this!",
+            "tags": [
+              "MacBookNeo",
+              "Apple",
+              "MacBook",
+              "TechReview",
+              "Laptop",
+              "FirstImpressions",
+              "NewTech",
+              "CarterPCs",
+              "BudgetLaptop",
+              "AppleShorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "EC7sDgAG6JE"
+          },
+          "updatedAt": "2026-03-09T02:51:25.923Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 21
+            },
+            "vcClusters": [
+              {
+                "name": "공식 팟캐스트 하이라이트 클립",
+                "description": "'Call Her Daddy' 공식 채널에서 직접 업로드한, 유명인 게스트의 발언이나 특정 에피소드의 핵심 순간을 담은 짧은 영상 클립 모음. 주로 인터뷰 장면을 편집하여 보여줍니다.",
+                "query": "팟캐스트 명장면",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "CclD0DuJxh0",
+                    "title": "Simone Thought Everyone Was Adopted",
+                    "predicted7d": 10663800
+                  },
+                  {
+                    "videoId": "zQYBa84X-AU",
+                    "title": "Jack Harlow’s Celebrity Crush",
+                    "predicted7d": 4506719
+                  },
+                  {
+                    "videoId": "ouItRQvDUUo",
+                    "title": "How Post Malone Got His Name",
+                    "predicted7d": 1484060
+                  },
+                  {
+                    "videoId": "ONHoOUjsqQA",
+                    "title": "Kate Hudson on Being Married at 21",
+                    "predicted7d": 1140298
+                  },
+                  {
+                    "videoId": "sk6CLB2sFTc",
+                    "title": "Jack Harlow Loves Nurses, Librarians, and Waitresses",
+                    "predicted7d": 1113211
+                  },
+                  {
+                    "videoId": "_lhTP-2dAj0",
+                    "title": "Catherine Paiz opens up about Austin McBroom Cheating",
+                    "predicted7d": 841157
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "call her daddy",
+          "keyword": "팟캐스트 명장면",
+          "videos": [
+            {
+              "videoId": "CclD0DuJxh0",
+              "title": "Simone Thought Everyone Was Adopted",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 10663800,
+              "viewCount": 10663800,
+              "delta": 10663800
+            },
+            {
+              "videoId": "zQYBa84X-AU",
+              "title": "Jack Harlow’s Celebrity Crush",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 4506719,
+              "viewCount": 4506719,
+              "delta": 4506719
+            },
+            {
+              "videoId": "ouItRQvDUUo",
+              "title": "How Post Malone Got His Name",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 1484060,
+              "viewCount": 1484060,
+              "delta": 1484060
+            },
+            {
+              "videoId": "ONHoOUjsqQA",
+              "title": "Kate Hudson on Being Married at 21",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 1140298,
+              "viewCount": 1140298,
+              "delta": 1140298
+            }
+          ],
+          "theme": "공식 팟캐스트 하이라이트 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "CclD0DuJxh0",
+              "title": "Simone Thought Everyone Was Adopted",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 10663800,
+              "delta": 10663800
+            },
+            {
+              "videoId": "zQYBa84X-AU",
+              "title": "Jack Harlow’s Celebrity Crush",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 4506719,
+              "delta": 4506719
+            },
+            {
+              "videoId": "ouItRQvDUUo",
+              "title": "How Post Malone Got His Name",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 1484060,
+              "delta": 1484060
+            },
+            {
+              "videoId": "ONHoOUjsqQA",
+              "title": "Kate Hudson on Being Married at 21",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 1140298,
+              "delta": 1140298
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-09/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Call Her Daddy Podcast: Best Moments!",
+            "description": "2026-03-09_US_2\nDive into the most iconic and hilarious moments from the Call Her Daddy podcast! From celebrity confessions to wild theories, these clips are guaranteed to entertain. Don't miss out on the best of CHD!",
+            "tags": [
+              "CallHerDaddy",
+              "CHD",
+              "PodcastShorts",
+              "PodcastClips",
+              "CelebrityInterview",
+              "JackHarlow",
+              "PostMalone",
+              "KateHudson",
+              "Simone",
+              "FunnyMoments"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "fOhGBfSx3ts"
+          },
+          "updatedAt": "2026-03-09T02:52:40.013Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-09T02:52:40.022Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "america vs juarez",
+          "atlas vs chivas",
+          "tigres vs monterrey",
+          "lebriah",
+          "layun tv",
+          "markitos toys",
+          "scary movie 6 trailer",
+          "shakira"
+        ],
+        "updatedAt": "2026-03-09T02:52:48.589Z"
+      },
+      "assignedKeywords": [
+        "america vs juarez",
+        "atlas vs chivas"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 26
+            },
+            "vcClusters": [
+              {
+                "name": "경기 일정 및 시청 정보",
+                "description": "다가오는 아메리카 대 후아레스 경기(남성 및 여성 리그)의 일정, 시간, 시청 채널 등 사전 정보를 제공하는 영상 모음입니다. 주로 텍스트 오버레이나 정적 그래픽, 진행자의 안내 형식으로 구성됩니다.",
+                "query": "경기 시청 정보",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "경기 하이라이트 및 주요 장면",
+                "description": "아메리카 대 후아레스 경기 또는 관련 경기에서 발생한 골, 결정적인 플레이, 극적인 순간, 경기 요약 등을 실제 경기 영상과 리플레이를 통해 보여주는 영상 모음입니다. 주로 게임 플레이 화면과 해설이 포함됩니다.",
+                "query": "경기 골장면",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "선수 포커스 및 팬 콘텐츠",
+                "description": "라몬 후아레스, 사브리나 엔시소, 하나 구티에레스 등 특정 선수들의 활약, 개인적인 순간, 인터뷰, 팬이 제작한 편집 영상 등 선수 개인에 초점을 맞춘 영상 모음입니다. 짧은 클립, 인터뷰, 소셜 미디어 스타일의 편집 영상이 주를 이룹니다.",
+                "query": "선수 개인 활약",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "ITjQRfJymHg",
+                    "title": "El debut de Jana Gutiérrez con el América Femenil #americafemenil #janagutierrez",
+                    "predicted7d": 5454264
+                  },
+                  {
+                    "videoId": "BUcjI711rKs",
+                    "title": "SABRINA ENCISO 💜⚽ #tigresfemenil #amazonas #ligamx #futbol #tigres #clubamerica #ligamxfemenil",
+                    "predicted7d": 2974835
+                  },
+                  {
+                    "videoId": "Az51JS6kiUI",
+                    "title": "Cuiden a Sabrina 🤬👀🔥 #tigresfemenil  #ligamxfemenil #ligamx #clubamerica #futbol #america #tigres",
+                    "predicted7d": 1828979
+                  },
+                  {
+                    "videoId": "G1MDm32X5e8",
+                    "title": "Ramón Juárez vs Nacho Rivero América vs Cruz Azul Liguilla semifinal",
+                    "predicted7d": 483220
+                  },
+                  {
+                    "videoId": "0ldJ7hnpNuw",
+                    "title": "🥰 EMOTIVO 🦅 Ramón Juárez fue felicitado por su familia 🥹🫶 I América 2-1 Rayados I Final ida AP 2024",
+                    "predicted7d": 352395
+                  },
+                  {
+                    "videoId": "QfKlc7A8ygw",
+                    "title": "¡SABRINA ENCISO REVELA POR QUÉ SALIÓ DEL AMÉRICA! 🚨👀",
+                    "predicted7d": 306545
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "america vs juarez",
+          "keyword": "선수 개인 활약",
+          "videos": [
+            {
+              "videoId": "ITjQRfJymHg",
+              "title": "El debut de Jana Gutiérrez con el América Femenil #americafemenil #janagutierrez",
+              "channelTitle": "DeporMx",
+              "predicted7d": 5454264,
+              "viewCount": 5454264,
+              "delta": 5454264
+            },
+            {
+              "videoId": "BUcjI711rKs",
+              "title": "SABRINA ENCISO 💜⚽ #tigresfemenil #amazonas #ligamx #futbol #tigres #clubamerica #ligamxfemenil",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 2974835,
+              "viewCount": 2974835,
+              "delta": 2974835
+            },
+            {
+              "videoId": "Az51JS6kiUI",
+              "title": "Cuiden a Sabrina 🤬👀🔥 #tigresfemenil  #ligamxfemenil #ligamx #clubamerica #futbol #america #tigres",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 1828979,
+              "viewCount": 1828979,
+              "delta": 1828979
+            },
+            {
+              "videoId": "G1MDm32X5e8",
+              "title": "Ramón Juárez vs Nacho Rivero América vs Cruz Azul Liguilla semifinal",
+              "channelTitle": "FutBlog",
+              "predicted7d": 483220,
+              "viewCount": 483220,
+              "delta": 483220
+            }
+          ],
+          "theme": "선수 포커스 및 팬 콘텐츠",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ITjQRfJymHg",
+              "title": "El debut de Jana Gutiérrez con el América Femenil #americafemenil #janagutierrez",
+              "channelTitle": "DeporMx",
+              "predicted7d": 5454264,
+              "delta": 5454264
+            },
+            {
+              "videoId": "BUcjI711rKs",
+              "title": "SABRINA ENCISO 💜⚽ #tigresfemenil #amazonas #ligamx #futbol #tigres #clubamerica #ligamxfemenil",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 2974835,
+              "delta": 2974835
+            },
+            {
+              "videoId": "Az51JS6kiUI",
+              "title": "Cuiden a Sabrina 🤬👀🔥 #tigresfemenil  #ligamxfemenil #ligamx #clubamerica #futbol #america #tigres",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 1828979,
+              "delta": 1828979
+            },
+            {
+              "videoId": "G1MDm32X5e8",
+              "title": "Ramón Juárez vs Nacho Rivero América vs Cruz Azul Liguilla semifinal",
+              "channelTitle": "FutBlog",
+              "predicted7d": 483220,
+              "delta": 483220
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-09/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Cracks del Fútbol: Momentos Únicos!",
+            "description": "2026-03-09_MX_1\nRevive los momentos más espectaculares de tus jugadores favoritos. Desde debuts impactantes hasta duelos intensos, el talento individual brilla en cada jugada. ¡No te pierdas estas joyas del fútbol!",
+            "tags": [
+              "#JanaGutiérrez",
+              "#SabrinaEnciso",
+              "#AméricaFemenil",
+              "#TigresFemenil",
+              "#LigaMXFemenil",
+              "#FútbolMexicano",
+              "#JugadasÉpicas",
+              "#TalentoFutbolístico",
+              "#ShortsFútbol",
+              "#Deporte"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "8krJEzpRvJE"
+          },
+          "updatedAt": "2026-03-09T02:53:50.102Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 24
+            },
+            "vcClusters": [
+              {
+                "name": "뉴스, 분석 및 공식 채널 콘텐츠",
+                "description": "주요 언론사나 공식 스포츠 채널에서 제공하는 심층 분석, 역사적 맥락, 경기 전후 인터뷰, 전문가 논평, 구단 관련 뉴스 등 비교적 공식적이고 정보 전달 위주의 영상 모음입니다.",
+                "query": "클라시코 타파티오 분석",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "jEmEtTutaeM",
+                    "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+                    "predicted7d": 2290290
+                  },
+                  {
+                    "videoId": "vBVqvx7sgHc",
+                    "title": "🔥 Ines Sainz RESPONDE a FAITELSON tras sus CRÍTICAS. #ligamx #aztecadeportes #tudn",
+                    "predicted7d": 1336109
+                  },
+                  {
+                    "videoId": "Ycno3KA8DWY",
+                    "title": "El día que invadieron la cancha 😱 en el Clásico Tapatío #viral #ligamx #tudn #chivas #atlas",
+                    "predicted7d": 1212108
+                  },
+                  {
+                    "videoId": "jpU8b-N0PAA",
+                    "title": "MENSAJE BOFO BAUTISTA TRAS GOLEADA A ATLAS #chivas #ligamx #futbol",
+                    "predicted7d": 208964
+                  },
+                  {
+                    "videoId": "VdkT1eUBdRU",
+                    "title": "🔥EL ATLAS TIENE NUEVO DUEÑO ¡PROPIETARIO de los PERICOS del PUEBLA! #ligamx #atlasfc #futbolmexicano",
+                    "predicted7d": 114201
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "atlas vs chivas",
+          "keyword": "클라시코 타파티오 분석",
+          "videos": [
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2290290,
+              "viewCount": 2290290,
+              "delta": 2290290
+            },
+            {
+              "videoId": "vBVqvx7sgHc",
+              "title": "🔥 Ines Sainz RESPONDE a FAITELSON tras sus CRÍTICAS. #ligamx #aztecadeportes #tudn",
+              "channelTitle": "diegobonti",
+              "predicted7d": 1336109,
+              "viewCount": 1336109,
+              "delta": 1336109
+            },
+            {
+              "videoId": "Ycno3KA8DWY",
+              "title": "El día que invadieron la cancha 😱 en el Clásico Tapatío #viral #ligamx #tudn #chivas #atlas",
+              "channelTitle": "TUDN México",
+              "predicted7d": 1212108,
+              "viewCount": 1212108,
+              "delta": 1212108
+            },
+            {
+              "videoId": "jpU8b-N0PAA",
+              "title": "MENSAJE BOFO BAUTISTA TRAS GOLEADA A ATLAS #chivas #ligamx #futbol",
+              "channelTitle": "JK YEIKA",
+              "predicted7d": 208964,
+              "viewCount": 208964,
+              "delta": 208964
+            }
+          ],
+          "theme": "뉴스, 분석 및 공식 채널 콘텐츠",
+          "selectedSourceVideos": [
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2290290,
+              "delta": 2290290
+            },
+            {
+              "videoId": "vBVqvx7sgHc",
+              "title": "🔥 Ines Sainz RESPONDE a FAITELSON tras sus CRÍTICAS. #ligamx #aztecadeportes #tudn",
+              "channelTitle": "diegobonti",
+              "predicted7d": 1336109,
+              "delta": 1336109
+            },
+            {
+              "videoId": "Ycno3KA8DWY",
+              "title": "El día que invadieron la cancha 😱 en el Clásico Tapatío #viral #ligamx #tudn #chivas #atlas",
+              "channelTitle": "TUDN México",
+              "predicted7d": 1212108,
+              "delta": 1212108
+            },
+            {
+              "videoId": "jpU8b-N0PAA",
+              "title": "MENSAJE BOFO BAUTISTA TRAS GOLEADA A ATLAS #chivas #ligamx #futbol",
+              "channelTitle": "JK YEIKA",
+              "predicted7d": 208964,
+              "delta": 208964
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-09/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "¡Clásico Tapatío: Pasión y Polémica!",
+            "description": "2026-03-09_MX_2\nSumérgete en la historia del Clásico Tapatío, uno de los duelos más apasionantes de la Liga MX. Analizamos sus momentos más icónicos, desde invasiones de cancha hasta declaraciones explosivas de figuras como Bofo Bautista. ¡No te pierdas los secretos de esta rivalidad legendaria!",
+            "tags": [
+              "Clásico Tapatío",
+              "Chivas",
+              "Atlas",
+              "Liga MX",
+              "Fútbol Mexicano",
+              "Rivalidad",
+              "Momentos Épicos",
+              "Bofo Bautista",
+              "TUDN",
+              "Polémica"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "21baQrZidcE"
+          },
+          "updatedAt": "2026-03-09T02:55:01.254Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-09T02:55:01.262Z"
+    }
+  },
+  "finishedAt": "2026-03-09T02:55:01.264Z"
+}

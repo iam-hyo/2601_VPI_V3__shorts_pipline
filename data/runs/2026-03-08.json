@@ -1,0 +1,623 @@
+{
+  "runId": "2026-03-08",
+  "date": "2026-03-08",
+  "createdAt": "2026-03-08T13:30:35.779Z",
+  "updatedAt": "2026-03-08T13:35:21.375Z",
+  "status": "DONE",
+  "regions": {
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "mcdonalds ceo eating burger",
+          "macbook neo",
+          "call her daddy",
+          "harry styles",
+          "snl",
+          "ufc",
+          "scary movie 6",
+          "jim carrey"
+        ],
+        "updatedAt": "2026-03-08T13:30:46.587Z"
+      },
+      "assignedKeywords": [
+        "mcdonalds ceo eating burger",
+        "macbook neo"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 15
+            },
+            "vcClusters": [
+              {
+                "name": "맥도날드 CEO 버거 시식 - 원본 클립 및 밈",
+                "description": "맥도날드 CEO의 버거 시식 원본 영상 클립을 재업로드하거나, 짧은 개인 반응, 밈, 유머성 코멘트를 덧붙인 숏폼 영상 모음입니다.",
+                "query": "CEO 버거 밈",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "0nqP9itmKBw",
+                    "title": "When the McDonald’s CEO finally eats The Big Arch Burger | #shorts",
+                    "predicted7d": 1873806
+                  },
+                  {
+                    "videoId": "FaH_9Em1yUI",
+                    "title": "ONE BITE BURGER, MESSAGE TO MCDONALDS CEO #shorts #eating #burger",
+                    "predicted7d": 443417
+                  },
+                  {
+                    "videoId": "cCOhCx1Tepo",
+                    "title": "McDonald’s CEO trying the “Big Arch” burger 🍔. #badnapoleon",
+                    "predicted7d": 117093
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "mcdonalds ceo eating burger",
+          "keyword": "CEO 버거 밈",
+          "videos": [
+            {
+              "videoId": "0nqP9itmKBw",
+              "title": "When the McDonald’s CEO finally eats The Big Arch Burger | #shorts",
+              "channelTitle": "Thee BlackBadger",
+              "predicted7d": 1873806,
+              "viewCount": 1873806,
+              "delta": 1873806
+            },
+            {
+              "videoId": "FaH_9Em1yUI",
+              "title": "ONE BITE BURGER, MESSAGE TO MCDONALDS CEO #shorts #eating #burger",
+              "channelTitle": "galvsfood",
+              "predicted7d": 443417,
+              "viewCount": 443417,
+              "delta": 443417
+            },
+            {
+              "videoId": "cCOhCx1Tepo",
+              "title": "McDonald’s CEO trying the “Big Arch” burger 🍔. #badnapoleon",
+              "channelTitle": "Patrick W. Cutler",
+              "predicted7d": 117093,
+              "viewCount": 117093,
+              "delta": 117093
+            }
+          ],
+          "theme": "맥도날드 CEO 버거 시식 - 원본 클립 및 밈",
+          "selectedSourceVideos": [
+            {
+              "videoId": "0nqP9itmKBw",
+              "title": "When the McDonald’s CEO finally eats The Big Arch Burger | #shorts",
+              "channelTitle": "Thee BlackBadger",
+              "predicted7d": 1873806,
+              "delta": 1873806
+            },
+            {
+              "videoId": "FaH_9Em1yUI",
+              "title": "ONE BITE BURGER, MESSAGE TO MCDONALDS CEO #shorts #eating #burger",
+              "channelTitle": "galvsfood",
+              "predicted7d": 443417,
+              "delta": 443417
+            },
+            {
+              "videoId": "cCOhCx1Tepo",
+              "title": "McDonald’s CEO trying the “Big Arch” burger 🍔. #badnapoleon",
+              "channelTitle": "Patrick W. Cutler",
+              "predicted7d": 117093,
+              "delta": 117093
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "McDonald's CEO Burger Meme Reactions",
+            "description": "2026-03-08_US_1\nDive into the viral 'CEO Burger' meme! Watch hilarious reactions as McDonald's executives and fans take on the infamous 'Big Arch Burger.' See their priceless expressions and join the internet's latest food craze.",
+            "tags": [
+              "CEO Burger",
+              "McDonalds",
+              "Big Arch Burger",
+              "Meme",
+              "Viral",
+              "Shorts",
+              "Food Challenge",
+              "Funny Reactions",
+              "Burger Meme",
+              "CEO"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "yYkeLFj0D2U"
+          },
+          "updatedAt": "2026-03-08T13:31:39.305Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 39
+            },
+            "vcClusters": [
+              {
+                "name": "MacBook Neo 출시 소식 및 첫인상 (단편 영상)",
+                "description": "MacBook Neo의 출시 소식, 가격 정보, 그리고 이에 대한 즉각적인 반응과 흥분을 담은 짧고 간결한 영상들. 주로 1분 내외의 숏폼 형식으로, 제품의 존재와 주요 특징을 빠르게 전달합니다.",
+                "query": "맥북 네오 출시",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "jQmUsX6W1Vg",
+                    "title": "The MacBook NEO is overpowered.. #carterpcs #tech #macbookneo #laptop #schoollaptop",
+                    "predicted7d": 1857391
+                  },
+                  {
+                    "videoId": "zNe4S9beTCc",
+                    "title": "Apple’s newest MacBook is $499… MacBook Neo #c#carterpcstech #apple #macbook #macbookneo",
+                    "predicted7d": 1720887
+                  },
+                  {
+                    "videoId": "EC1xvU0v-Lw",
+                    "title": "Apple just launched MacBook Neo, its cheapest MacBook ever!",
+                    "predicted7d": 595529
+                  },
+                  {
+                    "videoId": "imIbZ1Qczbg",
+                    "title": "The $600 MacBook Neo is LEGIT",
+                    "predicted7d": 388711
+                  },
+                  {
+                    "videoId": "igGsNLG9ffg",
+                    "title": "MacBook Neo in 60 Seconds!",
+                    "predicted7d": 297333
+                  },
+                  {
+                    "videoId": "OTzhUXTukag",
+                    "title": "New MacBook Neo: The $599 Macbook!",
+                    "predicted7d": 162971
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "macbook neo",
+          "keyword": "맥북 네오 출시",
+          "videos": [
+            {
+              "videoId": "jQmUsX6W1Vg",
+              "title": "The MacBook NEO is overpowered.. #carterpcs #tech #macbookneo #laptop #schoollaptop",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 1857391,
+              "viewCount": 1857391,
+              "delta": 1857391
+            },
+            {
+              "videoId": "zNe4S9beTCc",
+              "title": "Apple’s newest MacBook is $499… MacBook Neo #c#carterpcstech #apple #macbook #macbookneo",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 1720887,
+              "viewCount": 1720887,
+              "delta": 1720887
+            },
+            {
+              "videoId": "EC1xvU0v-Lw",
+              "title": "Apple just launched MacBook Neo, its cheapest MacBook ever!",
+              "channelTitle": "Varun Mayya",
+              "predicted7d": 595529,
+              "viewCount": 595529,
+              "delta": 595529
+            },
+            {
+              "videoId": "imIbZ1Qczbg",
+              "title": "The $600 MacBook Neo is LEGIT",
+              "channelTitle": "Austin Evans",
+              "predicted7d": 388711,
+              "viewCount": 388711,
+              "delta": 388711
+            }
+          ],
+          "theme": "MacBook Neo 출시 소식 및 첫인상 (단편 영상)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "jQmUsX6W1Vg",
+              "title": "The MacBook NEO is overpowered.. #carterpcs #tech #macbookneo #laptop #schoollaptop",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 1857391,
+              "delta": 1857391
+            },
+            {
+              "videoId": "zNe4S9beTCc",
+              "title": "Apple’s newest MacBook is $499… MacBook Neo #c#carterpcstech #apple #macbook #macbookneo",
+              "channelTitle": "CarterPCs",
+              "predicted7d": 1720887,
+              "delta": 1720887
+            },
+            {
+              "videoId": "EC1xvU0v-Lw",
+              "title": "Apple just launched MacBook Neo, its cheapest MacBook ever!",
+              "channelTitle": "Varun Mayya",
+              "predicted7d": 595529,
+              "delta": 595529
+            },
+            {
+              "videoId": "imIbZ1Qczbg",
+              "title": "The $600 MacBook Neo is LEGIT",
+              "channelTitle": "Austin Evans",
+              "predicted7d": 388711,
+              "delta": 388711
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "MacBook Neo: Apple's Cheapest Laptop EVER!",
+            "description": "2026-03-08_US_2\nApple just launched the MacBook Neo, its most affordable laptop yet! Starting at just $499, is this the ultimate budget MacBook? We dive into its features, performance, and whether it's truly legit for the price.",
+            "tags": [
+              "macbookneo",
+              "apple",
+              "macbook",
+              "tech",
+              "laptop",
+              "cheapestmacbook",
+              "$499macbook",
+              "carterpcs",
+              "austinevans",
+              "newmacbook"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "aTXFd4nCt6w"
+          },
+          "updatedAt": "2026-03-08T13:32:51.107Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-08T13:32:51.116Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "america vs juarez",
+          "queretaro vs america",
+          "chivas vs atlas",
+          "tigres vs monterrey",
+          "lebriah",
+          "scary movie 6 trailer",
+          "layun tv",
+          "shakira",
+          "saskia niño de rivera"
+        ],
+        "updatedAt": "2026-03-08T13:33:03.609Z"
+      },
+      "assignedKeywords": [
+        "america vs juarez",
+        "queretaro vs america"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 30
+            },
+            "vcClusters": [
+              {
+                "name": "경기 정보 및 시청 가이드",
+                "description": "다가오는 축구 경기(남성 및 여성 리그)의 일정, 시간, 시청 채널 등 실용적인 정보를 제공하는 영상 모음. 주로 텍스트 정보와 간단한 해설로 구성됩니다.",
+                "query": "경기 시청 정보",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "경기 하이라이트 및 주요 장면",
+                "description": "과거 경기에서 발생한 골, 결정적인 플레이, 논란의 여지가 있는 판정 등 핵심적인 순간들을 짧고 간결하게 편집하여 보여주는 영상 모음. 주로 경기 장면 위주로 구성됩니다.",
+                "query": "경기 골장면",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "선수 집중 조명 및 클럽 이슈",
+                "description": "특정 선수(예: 라몬 후아레스, 사브리나 엔시소)의 활약상, 개인적인 이야기, 또는 클럽 아메리카와 관련된 주요 이슈 및 논쟁을 다루는 영상 모음. 인터뷰, 분석, 팬 반응 등이 포함될 수 있습니다.",
+                "query": "선수 분석 및 이슈",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "SMpYCgxrXfI",
+                    "title": "EXPLOTÓ ‘CHICHARITO’ HERNÁNDEZ 😱🤯 Y el #america celebrando TRICAMPEONATOS #chivas #kingsleague",
+                    "predicted7d": 3610693
+                  },
+                  {
+                    "videoId": "BUcjI711rKs",
+                    "title": "SABRINA ENCISO 💜⚽ #tigresfemenil #amazonas #ligamx #futbol #tigres #clubamerica #ligamxfemenil",
+                    "predicted7d": 2973526
+                  },
+                  {
+                    "videoId": "jEmEtTutaeM",
+                    "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+                    "predicted7d": 2285609
+                  },
+                  {
+                    "videoId": "Az51JS6kiUI",
+                    "title": "Cuiden a Sabrina 🤬👀🔥 #tigresfemenil  #ligamxfemenil #ligamx #clubamerica #futbol #america #tigres",
+                    "predicted7d": 1823920
+                  },
+                  {
+                    "videoId": "iSLlXHHTBoY",
+                    "title": "¡NO PODÍA FALTAR! Ludovico reaccionando a la remontada del América",
+                    "predicted7d": 1685088
+                  },
+                  {
+                    "videoId": "1epEdLCN7P8",
+                    "title": "BRIAN RODRÍGUEZ Y SCARLETT CAMBEROS ¿NUEVA PAREJA? #ligamx #ligamxfemenil #clubamerica #america",
+                    "predicted7d": 802649
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "america vs juarez",
+          "keyword": "선수 분석 및 이슈",
+          "videos": [
+            {
+              "videoId": "SMpYCgxrXfI",
+              "title": "EXPLOTÓ ‘CHICHARITO’ HERNÁNDEZ 😱🤯 Y el #america celebrando TRICAMPEONATOS #chivas #kingsleague",
+              "channelTitle": "Gera Suárez - Periodista",
+              "predicted7d": 3610693,
+              "viewCount": 3610693,
+              "delta": 3610693
+            },
+            {
+              "videoId": "BUcjI711rKs",
+              "title": "SABRINA ENCISO 💜⚽ #tigresfemenil #amazonas #ligamx #futbol #tigres #clubamerica #ligamxfemenil",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 2973526,
+              "viewCount": 2973526,
+              "delta": 2973526
+            },
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2285609,
+              "viewCount": 2285609,
+              "delta": 2285609
+            },
+            {
+              "videoId": "Az51JS6kiUI",
+              "title": "Cuiden a Sabrina 🤬👀🔥 #tigresfemenil  #ligamxfemenil #ligamx #clubamerica #futbol #america #tigres",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 1823920,
+              "viewCount": 1823920,
+              "delta": 1823920
+            }
+          ],
+          "theme": "선수 집중 조명 및 클럽 이슈",
+          "selectedSourceVideos": [
+            {
+              "videoId": "SMpYCgxrXfI",
+              "title": "EXPLOTÓ ‘CHICHARITO’ HERNÁNDEZ 😱🤯 Y el #america celebrando TRICAMPEONATOS #chivas #kingsleague",
+              "channelTitle": "Gera Suárez - Periodista",
+              "predicted7d": 3610693,
+              "delta": 3610693
+            },
+            {
+              "videoId": "BUcjI711rKs",
+              "title": "SABRINA ENCISO 💜⚽ #tigresfemenil #amazonas #ligamx #futbol #tigres #clubamerica #ligamxfemenil",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 2973526,
+              "delta": 2973526
+            },
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2285609,
+              "delta": 2285609
+            },
+            {
+              "videoId": "Az51JS6kiUI",
+              "title": "Cuiden a Sabrina 🤬👀🔥 #tigresfemenil  #ligamxfemenil #ligamx #clubamerica #futbol #america #tigres",
+              "channelTitle": "Fut Regio Femenil",
+              "predicted7d": 1823920,
+              "delta": 1823920
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡ESCÁNDALOS y CRACKS de la Liga MX!",
+            "description": "2026-03-08_MX_1\nDescubre los momentos más explosivos de la Liga MX con Chicharito, Sabrina Enciso y el Turco Mohamed. Desde polémicas hasta jugadas increíbles, este Shorts tiene todo el drama que amas. ¡No te pierdas los análisis más candentes del fútbol mexicano!",
+            "tags": [
+              "LigaMX",
+              "Chicharito",
+              "SabrinaEnciso",
+              "TurcoMohamed",
+              "FutbolMexicano",
+              "ShortsFutbol",
+              "ClubAmerica",
+              "TigresFemenil",
+              "Chivas",
+              "Pumas"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "cYrHowSI9VI"
+          },
+          "updatedAt": "2026-03-08T13:34:14.010Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 28
+            },
+            "vcClusters": [
+              {
+                "name": "경기 하이라이트 및 빠른 골 장면",
+                "description": "경기 중 특정 골, 멋진 선방, 또는 주요 플레이를 짧고 역동적으로 편집하여 보여주는 영상 모음입니다. 주로 소셜 미디어 공유에 적합한 짧은 길이의 클립들입니다.",
+                "query": "경기 하이라이트",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "공식 경기 요약 및 중계 정보",
+                "description": "경기 전 중계 채널 및 시간 안내, 또는 경기 후 공식 채널에서 제공하는 전체 경기 요약 및 분석 영상 모음입니다. 비교적 정돈된 형식과 해설을 포함합니다.",
+                "query": "경기 요약 및 중계",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 1개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "KD_NcJEOliQ",
+                    "title": "Resumen Querétaro vs América | Primer tiempo",
+                    "predicted7d": 82026
+                  }
+                ]
+              },
+              {
+                "name": "역사적 순간 및 선수 스토리",
+                "description": "과거 Querétaro와 América 간의 중요한 경기나 특정 선수의 인상 깊었던 활약(예: 호나우지뉴) 등 역사적 순간을 회고하거나 선수 스토리를 다루는 영상 모음입니다.",
+                "query": "축구 역사 회고",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "oDpcFlv_YTo",
+                    "title": "The day the Azteca made Ronaldinho 🇧🇷 cry 🥹🏟️🇲🇽",
+                    "predicted7d": 1909905
+                  },
+                  {
+                    "videoId": "NuRrIhs-6mg",
+                    "title": "Cuando Ronaldinho puso de pie al estadio Azteca",
+                    "predicted7d": 1036827
+                  },
+                  {
+                    "videoId": "haXKCLdpasg",
+                    "title": "El día que Ronaldinho y Querétaro destrozaron al América de México 🤯 #futbol #ronaldinho",
+                    "predicted7d": 145860
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "queretaro vs america",
+          "keyword": "축구 역사 회고",
+          "videos": [
+            {
+              "videoId": "oDpcFlv_YTo",
+              "title": "The day the Azteca made Ronaldinho 🇧🇷 cry 🥹🏟️🇲🇽",
+              "channelTitle": "Futbol Asada",
+              "predicted7d": 1909905,
+              "viewCount": 1909905,
+              "delta": 1909905
+            },
+            {
+              "videoId": "NuRrIhs-6mg",
+              "title": "Cuando Ronaldinho puso de pie al estadio Azteca",
+              "channelTitle": "FutbolMaster",
+              "predicted7d": 1036827,
+              "viewCount": 1036827,
+              "delta": 1036827
+            },
+            {
+              "videoId": "haXKCLdpasg",
+              "title": "El día que Ronaldinho y Querétaro destrozaron al América de México 🤯 #futbol #ronaldinho",
+              "channelTitle": "Eskorbutin ",
+              "predicted7d": 145860,
+              "viewCount": 145860,
+              "delta": 145860
+            }
+          ],
+          "theme": "역사적 순간 및 선수 스토리",
+          "selectedSourceVideos": [
+            {
+              "videoId": "oDpcFlv_YTo",
+              "title": "The day the Azteca made Ronaldinho 🇧🇷 cry 🥹🏟️🇲🇽",
+              "channelTitle": "Futbol Asada",
+              "predicted7d": 1909905,
+              "delta": 1909905
+            },
+            {
+              "videoId": "NuRrIhs-6mg",
+              "title": "Cuando Ronaldinho puso de pie al estadio Azteca",
+              "channelTitle": "FutbolMaster",
+              "predicted7d": 1036827,
+              "delta": 1036827
+            },
+            {
+              "videoId": "haXKCLdpasg",
+              "title": "El día que Ronaldinho y Querétaro destrozaron al América de México 🤯 #futbol #ronaldinho",
+              "channelTitle": "Eskorbutin ",
+              "predicted7d": 145860,
+              "delta": 145860
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-08/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Ronaldinho: El Rey del Azteca",
+            "description": "2026-03-08_MX_2\nRevive los momentos más icónicos de Ronaldinho en el Estadio Azteca. Desde lágrimas hasta ovaciones de pie, su magia dejó una huella imborrable. ¡No te pierdas estos goles y jugadas legendarias!",
+            "tags": [
+              "Ronaldinho",
+              "Azteca",
+              "Fútbol",
+              "Shorts",
+              "Magia",
+              "Goles",
+              "Querétaro",
+              "América",
+              "Leyenda",
+              "Brasil"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "lzbhPSAv0P0"
+          },
+          "updatedAt": "2026-03-08T13:35:21.365Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-08T13:35:21.373Z"
+    }
+  },
+  "finishedAt": "2026-03-08T13:35:21.375Z"
+}

@@ -76,6 +76,8 @@ export function fixPathForFfmpeg(input, mode = "input") {
   // 1) 텍스트 본문 이스케이프 처리 (drawtext 필터 내부용)
   if (mode === "drawtext") {
     return String(input)
+      .replace(/\\/g, "\\\\")     // 1. 백슬래시 자체를 이스케이프 (가장 먼저 수행)
+      .replace(/\n/g, "\\\n")     // 2. 줄바꿈 문자를 FFmpeg이 인식하는 줄바꿈으로 변경
       .replace(/'/g, "’")     // 작은따옴표를 유사 문자로 치환 (에러의 근본 원인 해결)
       .replace(/:/g, "\\:")   // 콜론 이스케이프
       .replace(/%/g, "\\%")   // 퍼센트 기호 이스케이프
@@ -384,22 +386,6 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
     moveEnd // 타이틀 애니메이션 종료
   } = args;
 
-  const wrapText = (text, maxChars = 18) => {
-    const words = text.split(' ');
-    let lines = [];
-    let currentLine = "";
-    words.forEach(word => {
-      if ((currentLine + word).length > maxChars) {
-        lines.push(currentLine.trim());
-        currentLine = word + " ";
-      } else {
-        currentLine += word + " ";
-      }
-    });
-    lines.push(currentLine.trim());
-    return lines.join('\\n');
-  };
-
   const n = highlightPaths.length;
   // 입력 순서: [영상1, 영상2, 영상3, 영상4, TTS1, TTS2, TTS3, TTS4]
   const inputArgs = [
@@ -411,10 +397,11 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
   for (let i = 0; i < n; i++) {
     const rawCaption = titleInfos[i].caption;
     const fullText = `${titleInfos[i].index}. ${rawCaption}`;
+    const wrappedText = wrapCaption(fullText, 25); // 25자 기준 줄바꿈
 
     // 2. 통합 유틸리티의 'drawtext' 모드를 사용하여 한 번에 처리
     // 이 함수가 내부에서 ' -> ’ 변환 및 : 이스케이프를 모두 수행합니다.
-    const safeCaption = fixPathForFfmpeg(fullText, "drawtext");
+    const safeCaption = fixPathForFfmpeg(wrappedText, "drawtext");
     const fontPath = fixPathForFfmpeg(titleFontPath, "drawtextFontfile");
     const currentDur = durations[i] || 10.0; // 해당 클립의 동적 길이 사용
     const fadeOutStart = (currentDur - vidFadeSec).toFixed(1);
@@ -447,7 +434,7 @@ export async function mergeHighlightsWithIntegratedTitles(args) {
 
     // 텍스트 필터 (애니메이션 적용)
     // 3) 텍스트 정중앙 배치 (drawtext 부분)
-    vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:`;
+    vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:line_spacing=10:`;
     vFilter += `fontsize='${animFS}':line_spacing=15:`;
     vFilter += `x=(w-text_w)/2:y='${animY}':expansion=none`;
 
@@ -517,6 +504,30 @@ export async function downloadSubtitles(videoId, outDir) {
   } catch (err) {
     console.warn(`[videoEdit] 자막 다운로드 실패 (자막이 없을 수 있음): ${err.message}`);
     return null;
+  }
+}
+
+/**
+ * @param {string} text - 원본 텍스트
+ * @param {number} limit - 줄바꿈 기준 글자 수 (26)
+ * @returns {string} - 줄바꿈이 적용된 텍스트
+ */
+function wrapCaption(text, limit = 26) {
+  if (text.length <= limit) return text;
+
+  // 1. 기준점(limit) 이전의 마지막 공백 위치를 찾음
+  const lastSpaceIndex = text.lastIndexOf(' ', limit);
+
+  // 2. 만약 공백이 있다면 그 위치를 줄바꿈(\n)으로 교체
+  // 공백이 아예 없다면(아주 긴 단어) 그냥 기준점에서 강제 줄바꿈
+  if (lastSpaceIndex !== -1) {
+    return (
+      text.substring(0, lastSpaceIndex) +
+      '\n' +
+      text.substring(lastSpaceIndex + 1)
+    );
+  } else {
+    return text.substring(0, limit) + '\n' + text.substring(limit);
   }
 }
 

@@ -1,0 +1,182 @@
+{
+  "runId": "2026-03-10__KR__한국-호주",
+  "date": "2026-03-10__KR__한국-호주",
+  "createdAt": "2026-03-10T05:20:35.040Z",
+  "updatedAt": "2026-03-10T05:21:53.842Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "한국 호주"
+        ]
+      },
+      "assignedKeywords": [
+        "한국 호주"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 45,
+              "totalShorts": 20
+            },
+            "vcClusters": [
+              {
+                "name": "WBC 야구 - 공식 뉴스 및 경기 분석",
+                "description": "WBC 한국-호주전의 경기 결과, 8강 진출 소식, 시청률 등 주요 이슈를 다루는 뉴스 채널의 공식 보도 및 심층 분석 영상 모음입니다. 앵커나 기자 리포트 형식의 정보 전달이 주를 이룹니다.",
+                "query": "WBC 야구 뉴스",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "2DP7yLiXOig",
+                    "title": "그시절 한국 야구대표팀의 82년생 라인 - WBC 대만전 #야구 #월드베이스볼클래식 #wbc",
+                    "predicted7d": 9274193
+                  },
+                  {
+                    "videoId": "ewQASpTYjtM",
+                    "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+                    "predicted7d": 180644
+                  },
+                  {
+                    "videoId": "24V1hVpdZn8",
+                    "title": "[속보] 한국 야구대표팀, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+                    "predicted7d": 126939
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "한국 호주",
+          "keyword": "WBC 야구 뉴스",
+          "videos": [
+            {
+              "videoId": "2DP7yLiXOig",
+              "title": "그시절 한국 야구대표팀의 82년생 라인 - WBC 대만전 #야구 #월드베이스볼클래식 #wbc",
+              "channelTitle": "야구에 반하다",
+              "predicted7d": 9274193,
+              "viewCount": 9274193,
+              "delta": 9274193
+            },
+            {
+              "videoId": "ewQASpTYjtM",
+              "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+              "channelTitle": "JTBC News",
+              "predicted7d": 180644,
+              "viewCount": 180644,
+              "delta": 180644
+            },
+            {
+              "videoId": "24V1hVpdZn8",
+              "title": "[속보] 한국 야구대표팀, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 126939,
+              "viewCount": 126939,
+              "delta": 126939
+            }
+          ],
+          "theme": "WBC 야구 - 공식 뉴스 및 경기 분석",
+          "selectedSourceVideos": [
+            {
+              "videoId": "2DP7yLiXOig",
+              "title": "그시절 한국 야구대표팀의 82년생 라인 - WBC 대만전 #야구 #월드베이스볼클래식 #wbc",
+              "channelTitle": "야구에 반하다",
+              "predicted7d": 9274193,
+              "delta": 9274193
+            },
+            {
+              "videoId": "ewQASpTYjtM",
+              "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+              "channelTitle": "JTBC News",
+              "predicted7d": 180644,
+              "delta": 180644
+            },
+            {
+              "videoId": "24V1hVpdZn8",
+              "title": "[속보] 한국 야구대표팀, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 126939,
+              "delta": 126939
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-10__KR__한국-호주/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "WBC 역대급 명승부! 한국 야구 레전드 총출동!",
+            "description": "2026-03-10__KR__한국-호주_KR_1\n그 시절 한국 야구 대표팀의 잊을 수 없는 WBC 순간들을 모았습니다. 82년생 레전드 라인업부터 대만 선수들의 눈물, 그리고 극적인 2라운드 진출까지! 다시 봐도 가슴 웅장해지는 명장면들을 지금 바로 확인하세요.",
+            "tags": [
+              "WBC",
+              "월드베이스볼클래식",
+              "한국야구",
+              "야구레전드",
+              "82년생",
+              "대만전",
+              "호주전",
+              "야구하이라이트",
+              "국가대표",
+              "KBO"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "3M_Q2rcUL_o"
+          },
+          "updatedAt": "2026-03-10T05:21:53.832Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-03-10T05:21:53.841Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-10T05:21:53.842Z"
+}
