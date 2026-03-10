@@ -355,7 +355,7 @@ export class PipelineRunner {
           }
         }
       }
-      
+
       if (!picked) {
         log.error(`[${slotID}] ⚠️ ${region} 국가의 모든 Trend keyword(${totalKeywords}개)가 소진되었거나 검증에 실패했습니다.`);
         log.info(`[${slotID}] 현재 슬롯 작업을 건너뛰고 다음 프로세스로 이동합니다.`);
@@ -608,31 +608,52 @@ export class PipelineRunner {
    * @param {{region:string, keyword:string, date:string}} args
    */
   async runManualOne(args) {
-    const runId = `${args.date}__MANUAL__${args.region}__${slugify(args.keyword)}`;
+    const startTime = Date.now(); // ⏱️ 시작 시간 기록
+    const runId = `${args.date}__${args.region}__${slugify(args.keyword)}`;
 
-    // 수동 run은 상태 파일 구조를 단순하게 쓰기 위해: region 1개만 사용
+    // 1. 상태 로드 및 초기화
     let state = this.load(runId);
-
     const rs = state.regions[args.region];
+
     if (rs) {
-      rs.status = "PENDING";
-      rs.assignedKeywords = rs.assignedKeywords || []; // 기존 값 유지 혹은 초기화
+      if (rs.status !== "DONE") rs.status = "PENDING";
+
+      rs.assignedKeywords = rs.assignedKeywords || [];
       rs.trends = {
         status: "SKIPPED",
         keywords: [args.keyword]
       };
-      // 수동 실행은 보통 슬롯 1개만 타겟팅하므로 필터링
-      rs.videos = [{ slot: 1, status: "PENDING" }];
-    }
-    // 3. 변경 사항 즉시 저장
-    this.save(state);
-    log.info({ runId, keyword: args.keyword }, "수동 실행 상태 초기화 완료");
 
-    // 4. 비디오 생성 시작
+      const existingJob = rs.videos.find(v => v.slot === 1);
+      if (!existingJob) {
+        rs.videos = [{ slot: 1, status: "PENDING" }];
+      }
+    }
+
+    this.save(state);
+    log.info({ runId, keyword: args.keyword }, "수동 실행 상태 로드 및 초기화 완료");
+
+    // 2. 비디오 생성 및 업로드 파이프라인 실행
     await this.runVideoSlot(args.region, runId, 1);
+
+    // 3. 전체 Run 종료 처리 (이 내부에서 최종 상태가 DONE인지 ERROR인지 결정됨)
     this.finishRun(runId, [args.region]);
 
-    log.info({ runId, keyword: args.keyword }, "영상 제작 완료");
+    // 🔥 4. 결과 판독 및 텔레메트리(Telemetry) 로깅
+    const finalState = this.load(runId); // 최신 상태 다시 로드
+    const durationSec = ((Date.now() - startTime) / 1000).toFixed(1); // 소요 시간(초) 계산
+
+    if (finalState.status === "DONE") {
+      log.info(
+        { runId, keyword: args.keyword, duration: `${durationSec}s` },
+        `✅ 수동 영상 제작 및 업로드 최종 성공 (${durationSec}초 소요)`
+      );
+    } else {
+      log.error(
+        { runId, keyword: args.keyword, duration: `${durationSec}s`, stateStatus: finalState.status },
+        `❌ 수동 영상 파이프라인 실패/중단 (${durationSec}초 소요). 상세 에러는 이전 로그를 확인하세요.`
+      );
+    }
 
     return runId;
   }

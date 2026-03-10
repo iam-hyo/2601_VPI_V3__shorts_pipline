@@ -1,0 +1,627 @@
+{
+  "runId": "2026-03-10",
+  "date": "2026-03-10",
+  "createdAt": "2026-03-10T02:50:02.156Z",
+  "updatedAt": "2026-03-10T02:56:17.534Z",
+  "status": "DONE",
+  "regions": {
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "mcdonalds ceo eating burger",
+          "call her daddy",
+          "harry styles",
+          "macbook neo",
+          "f1",
+          "ufc",
+          "wwe 2k26",
+          "coryxkenshin"
+        ],
+        "updatedAt": "2026-03-10T02:50:17.425Z"
+      },
+      "assignedKeywords": [
+        "mcdonalds ceo eating burger",
+        "call her daddy"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 30
+            },
+            "vcClusters": [
+              {
+                "name": "CEO 원본 영상 및 클립",
+                "description": "맥도날드 CEO의 버거 시식 원본 영상 또는 다른 경쟁사 CEO들의 대응 영상 클립을 직접적으로 보여주는 영상 모음. 주로 짧은 편집본이나 원본 영상의 재업로드 형태를 띱니다.",
+                "query": "CEO 버거 시식 원본",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "ZMW9fkJe9Sg",
+                    "title": "mcdonald's ceo eats burger",
+                    "predicted7d": 775555
+                  },
+                  {
+                    "videoId": "PZZjwmUOOPU",
+                    "title": "McDonald’s NEW CEO Tries The Big Arch burger!",
+                    "predicted7d": 499557
+                  },
+                  {
+                    "videoId": "X0gAKMAak2g",
+                    "title": "burger king ceo eating a burger",
+                    "predicted7d": 463298
+                  },
+                  {
+                    "videoId": "cCOhCx1Tepo",
+                    "title": "McDonald’s CEO trying the “Big Arch” burger 🍔. #badnapoleon",
+                    "predicted7d": 131209
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "mcdonalds ceo eating burger",
+          "keyword": "CEO 버거 시식 원본",
+          "videos": [
+            {
+              "videoId": "ZMW9fkJe9Sg",
+              "title": "mcdonald's ceo eats burger",
+              "channelTitle": "EchoTales",
+              "predicted7d": 775555,
+              "viewCount": 775555,
+              "delta": 775555
+            },
+            {
+              "videoId": "PZZjwmUOOPU",
+              "title": "McDonald’s NEW CEO Tries The Big Arch burger!",
+              "channelTitle": "Mega64",
+              "predicted7d": 499557,
+              "viewCount": 499557,
+              "delta": 499557
+            },
+            {
+              "videoId": "X0gAKMAak2g",
+              "title": "burger king ceo eating a burger",
+              "channelTitle": "EchoTales",
+              "predicted7d": 463298,
+              "viewCount": 463298,
+              "delta": 463298
+            },
+            {
+              "videoId": "cCOhCx1Tepo",
+              "title": "McDonald’s CEO trying the “Big Arch” burger 🍔. #badnapoleon",
+              "channelTitle": "Patrick W. Cutler",
+              "predicted7d": 131209,
+              "viewCount": 131209,
+              "delta": 131209
+            }
+          ],
+          "theme": "CEO 원본 영상 및 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ZMW9fkJe9Sg",
+              "title": "mcdonald's ceo eats burger",
+              "channelTitle": "EchoTales",
+              "predicted7d": 775555,
+              "delta": 775555
+            },
+            {
+              "videoId": "PZZjwmUOOPU",
+              "title": "McDonald’s NEW CEO Tries The Big Arch burger!",
+              "channelTitle": "Mega64",
+              "predicted7d": 499557,
+              "delta": 499557
+            },
+            {
+              "videoId": "X0gAKMAak2g",
+              "title": "burger king ceo eating a burger",
+              "channelTitle": "EchoTales",
+              "predicted7d": 463298,
+              "delta": 463298
+            },
+            {
+              "videoId": "cCOhCx1Tepo",
+              "title": "McDonald’s CEO trying the “Big Arch” burger 🍔. #badnapoleon",
+              "channelTitle": "Patrick W. Cutler",
+              "predicted7d": 131209,
+              "delta": 131209
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-10/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "CEO Burger Taste Test Compilation",
+            "description": "2026-03-10_US_1\nWatch top fast-food CEOs react to their own iconic burgers! From McDonald's to Burger King, see their genuine first impressions. Who truly enjoys their creation?",
+            "tags": [
+              "CEO Burger",
+              "Fast Food CEO",
+              "McDonalds CEO",
+              "Burger King CEO",
+              "Burger Taste Test",
+              "CEO Reaction",
+              "Shorts",
+              "Viral Food",
+              "Food Review",
+              "Big Arch Burger"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "KkN6fSyz72Y"
+          },
+          "updatedAt": "2026-03-10T02:51:42.159Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 45
+            },
+            "vcClusters": [
+              {
+                "name": "Call Her Daddy: 스타 인터뷰 하이라이트",
+                "description": "'Call Her Daddy' 공식 채널에서 제공하는 유명인 게스트 인터뷰의 짧은 클립 및 핵심 발언 모음. 주로 특정 주제나 질문에 대한 게스트의 답변을 보여주는 형식.",
+                "query": "셀럽 인터뷰 클립",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "CclD0DuJxh0",
+                    "title": "Simone Thought Everyone Was Adopted",
+                    "predicted7d": 10664018
+                  },
+                  {
+                    "videoId": "wHSKdklsPmw",
+                    "title": "Jack Harlow Talks Whips and Chains",
+                    "predicted7d": 6586995
+                  },
+                  {
+                    "videoId": "zQYBa84X-AU",
+                    "title": "Jack Harlow’s Celebrity Crush",
+                    "predicted7d": 4506997
+                  },
+                  {
+                    "videoId": "aw8mhOrcvx8",
+                    "title": "Jack Harlow Talks About His Type",
+                    "predicted7d": 2308895
+                  },
+                  {
+                    "videoId": "I3B6RqXKGA0",
+                    "title": "Paris Hilton’s Chanel Shopping Spree",
+                    "predicted7d": 1823590
+                  },
+                  {
+                    "videoId": "ouItRQvDUUo",
+                    "title": "How Post Malone Got His Name",
+                    "predicted7d": 1484111
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "call her daddy",
+          "keyword": "셀럽 인터뷰 클립",
+          "videos": [
+            {
+              "videoId": "CclD0DuJxh0",
+              "title": "Simone Thought Everyone Was Adopted",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 10664018,
+              "viewCount": 10664018,
+              "delta": 10664018
+            },
+            {
+              "videoId": "wHSKdklsPmw",
+              "title": "Jack Harlow Talks Whips and Chains",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 6586995,
+              "viewCount": 6586995,
+              "delta": 6586995
+            },
+            {
+              "videoId": "zQYBa84X-AU",
+              "title": "Jack Harlow’s Celebrity Crush",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 4506997,
+              "viewCount": 4506997,
+              "delta": 4506997
+            },
+            {
+              "videoId": "aw8mhOrcvx8",
+              "title": "Jack Harlow Talks About His Type",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 2308895,
+              "viewCount": 2308895,
+              "delta": 2308895
+            }
+          ],
+          "theme": "Call Her Daddy: 스타 인터뷰 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "CclD0DuJxh0",
+              "title": "Simone Thought Everyone Was Adopted",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 10664018,
+              "delta": 10664018
+            },
+            {
+              "videoId": "wHSKdklsPmw",
+              "title": "Jack Harlow Talks Whips and Chains",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 6586995,
+              "delta": 6586995
+            },
+            {
+              "videoId": "zQYBa84X-AU",
+              "title": "Jack Harlow’s Celebrity Crush",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 4506997,
+              "delta": 4506997
+            },
+            {
+              "videoId": "aw8mhOrcvx8",
+              "title": "Jack Harlow Talks About His Type",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 2308895,
+              "delta": 2308895
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-10/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Jack Harlow & Simone: Wildest Confessions!",
+            "description": "2026-03-10_US_2\nDive into the wildest moments from Call Her Daddy! Jack Harlow reveals his celebrity crush and dating type, while Simone shares her unique adoption theory. Don't miss these shocking celebrity confessions!",
+            "tags": [
+              "JackHarlow",
+              "CallHerDaddy",
+              "CelebrityInterview",
+              "Shorts",
+              "Simone",
+              "DatingType",
+              "CelebrityCrush",
+              "Confessions",
+              "PodcastClips",
+              "Entertainment"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "5Ivhs5D00CU"
+          },
+          "updatedAt": "2026-03-10T02:53:06.752Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-10T02:53:06.761Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "america vs juarez",
+          "layun tv",
+          "lebriah",
+          "ibai",
+          "markitos toys"
+        ],
+        "updatedAt": "2026-03-10T02:53:17.774Z"
+      },
+      "assignedKeywords": [
+        "america vs juarez",
+        "layun tv"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 18
+            },
+            "vcClusters": [
+              {
+                "name": "아메리카 vs 후아레스 - 경기 정보 및 시청 가이드",
+                "description": "다가오는 경기 일정, 중계 채널, 시청 방법 등 경기 전 필요한 정보를 제공하는 영상 모음입니다. 주로 텍스트 오버레이나 간단한 나레이션으로 구성됩니다.",
+                "query": "경기 정보",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 0개 / 최소: 3개)",
+                "topVideos": []
+              },
+              {
+                "name": "아메리카 vs 후아레스 - 경기 하이라이트 및 요약",
+                "description": "경기 중 주요 골 장면, 결정적인 순간, 경기 결과 요약 등을 담은 짧은 영상 모음입니다. 실제 경기 장면 위주로 빠르게 편집된 형태를 보입니다.",
+                "query": "경기 하이라이트",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 1개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "12nMogNuAb4",
+                    "title": "🚨 AMÉRICA 1-2 JUÁREZ / Jornada 9 #clubamerica #ligamx #juárezfc",
+                    "predicted7d": 103607
+                  }
+                ]
+              },
+              {
+                "name": "아메리카 vs 후아레스 - 경기 분석 및 팬 반응",
+                "description": "경기 결과에 대한 심층 분석, 팀의 문제점 지적, 특정 플레이에 대한 해설, 또는 강한 팬들의 비판적 의견을 담은 영상입니다. 주로 해설자나 팬의 얼굴이 등장하거나 목소리로 진행됩니다.",
+                "query": "경기 분석",
+                "status": "FAIL",
+                "reason": "조회수 7만 이상 영상 부족 (발견: 1개 / 최소: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "gyAY0VsE7f4",
+                    "title": "🔥EL AMÉRICA se CAE A PEDAZOS ¡PAPELÓN contra JUÁREZ!. #ligamx #clubamerica #aguilasdelamerica",
+                    "predicted7d": 172169
+                  }
+                ]
+              },
+              {
+                "name": "선수 '후아레스' 개인 포커스 (팀 FC 후아레스와 무관)",
+                "description": "FC 후아레스 팀과의 경기가 아닌, '라몬 후아레스' 또는 '에프라인 후아레스'와 같은 특정 선수 개인에 초점을 맞춘 영상 모음입니다. 선수 개인의 활약, 에피소드, 비교 분석 등이 포함됩니다.",
+                "query": "선수 포커스",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "jEmEtTutaeM",
+                    "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+                    "predicted7d": 2295883
+                  },
+                  {
+                    "videoId": "G1MDm32X5e8",
+                    "title": "Ramón Juárez vs Nacho Rivero América vs Cruz Azul Liguilla semifinal",
+                    "predicted7d": 483278
+                  },
+                  {
+                    "videoId": "0ldJ7hnpNuw",
+                    "title": "🥰 EMOTIVO 🦅 Ramón Juárez fue felicitado por su familia 🥹🫶 I América 2-1 Rayados I Final ida AP 2024",
+                    "predicted7d": 352496
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "america vs juarez",
+          "keyword": "선수 포커스",
+          "videos": [
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2295883,
+              "viewCount": 2295883,
+              "delta": 2295883
+            },
+            {
+              "videoId": "G1MDm32X5e8",
+              "title": "Ramón Juárez vs Nacho Rivero América vs Cruz Azul Liguilla semifinal",
+              "channelTitle": "FutBlog",
+              "predicted7d": 483278,
+              "viewCount": 483278,
+              "delta": 483278
+            },
+            {
+              "videoId": "0ldJ7hnpNuw",
+              "title": "🥰 EMOTIVO 🦅 Ramón Juárez fue felicitado por su familia 🥹🫶 I América 2-1 Rayados I Final ida AP 2024",
+              "channelTitle": "El Universal Deportes",
+              "predicted7d": 352496,
+              "viewCount": 352496,
+              "delta": 352496
+            }
+          ],
+          "theme": "선수 '후아레스' 개인 포커스 (팀 FC 후아레스와 무관)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2295883,
+              "delta": 2295883
+            },
+            {
+              "videoId": "G1MDm32X5e8",
+              "title": "Ramón Juárez vs Nacho Rivero América vs Cruz Azul Liguilla semifinal",
+              "channelTitle": "FutBlog",
+              "predicted7d": 483278,
+              "delta": 483278
+            },
+            {
+              "videoId": "0ldJ7hnpNuw",
+              "title": "🥰 EMOTIVO 🦅 Ramón Juárez fue felicitado por su familia 🥹🫶 I América 2-1 Rayados I Final ida AP 2024",
+              "channelTitle": "El Universal Deportes",
+              "predicted7d": 352496,
+              "delta": 352496
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-10/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Ramón Juárez: ¡Momentos Épicos! 🦅",
+            "description": "2026-03-10_MX_1\nRevive los momentos más intensos de Ramón Juárez en la cancha. Desde duelos épicos hasta celebraciones familiares, ¡no te pierdas a este crack! #LigaMX",
+            "tags": [
+              "Ramón Juárez",
+              "Club América",
+              "Liga MX",
+              "Fútbol Mexicano",
+              "Shorts",
+              "Momentos Épicos",
+              "Cruz Azul",
+              "Toluca",
+              "Pumas",
+              "Familia"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "dl_un6iLego"
+          },
+          "updatedAt": "2026-03-10T02:54:30.140Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 40
+            },
+            "vcClusters": [
+              {
+                "name": "미겔 라윤 개인 채널 (Vlog & Shorts)",
+                "description": "축구선수 미겔 라윤 본인이 직접 출연하여 일상, 유머, 팬 소통 등을 담은 짧은 형식의 개인 영상 콘텐츠. 주로 그의 개인 유튜브 채널에서 업로드됩니다.",
+                "query": "라윤 개인 영상",
+                "status": "PASS",
+                "reason": "검증 통과",
+                "topVideos": [
+                  {
+                    "videoId": "-HVIOmnjGD8",
+                    "title": "PINCH3 Rafa siempre me hace PERDER DINERO | Miguel Layún",
+                    "predicted7d": 2159907
+                  },
+                  {
+                    "videoId": "81aWPVe_H1g",
+                    "title": "ADIVINA el JUGADOR | Miguel Layún",
+                    "predicted7d": 980815
+                  },
+                  {
+                    "videoId": "MIPqgPSyOHY",
+                    "title": "El partido de HOY EN VIVO AQUÍ🔥 | Miguel Layún",
+                    "predicted7d": 201248
+                  },
+                  {
+                    "videoId": "49nuSNwBWfo",
+                    "title": "Como vene AL FABULOSO comentarias RAFA VACA, el a de ser un crack 🤣  | Miguel Layún",
+                    "predicted7d": 124024
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "layun tv",
+          "keyword": "라윤 개인 영상",
+          "videos": [
+            {
+              "videoId": "-HVIOmnjGD8",
+              "title": "PINCH3 Rafa siempre me hace PERDER DINERO | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 2159907,
+              "viewCount": 2159907,
+              "delta": 2159907
+            },
+            {
+              "videoId": "81aWPVe_H1g",
+              "title": "ADIVINA el JUGADOR | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 980815,
+              "viewCount": 980815,
+              "delta": 980815
+            },
+            {
+              "videoId": "MIPqgPSyOHY",
+              "title": "El partido de HOY EN VIVO AQUÍ🔥 | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 201248,
+              "viewCount": 201248,
+              "delta": 201248
+            },
+            {
+              "videoId": "49nuSNwBWfo",
+              "title": "Como vene AL FABULOSO comentarias RAFA VACA, el a de ser un crack 🤣  | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 124024,
+              "viewCount": 124024,
+              "delta": 124024
+            }
+          ],
+          "theme": "미겔 라윤 개인 채널 (Vlog & Shorts)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "-HVIOmnjGD8",
+              "title": "PINCH3 Rafa siempre me hace PERDER DINERO | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 2159907,
+              "delta": 2159907
+            },
+            {
+              "videoId": "81aWPVe_H1g",
+              "title": "ADIVINA el JUGADOR | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 980815,
+              "delta": 980815
+            },
+            {
+              "videoId": "MIPqgPSyOHY",
+              "title": "El partido de HOY EN VIVO AQUÍ🔥 | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 201248,
+              "delta": 201248
+            },
+            {
+              "videoId": "49nuSNwBWfo",
+              "title": "Como vene AL FABULOSO comentarias RAFA VACA, el a de ser un crack 🤣  | Miguel Layún",
+              "channelTitle": "Miguel Layún",
+              "predicted7d": 124024,
+              "delta": 124024
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-10/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Miguel Layún: ¡Momentos Épicos!",
+            "description": "2026-03-10_MX_2\n¡No te pierdas los mejores momentos de Miguel Layún en Shorts! Desde desafíos divertidos hasta análisis de partidos y comentarios exclusivos. ¡Suscríbete para más contenido!",
+            "tags": [
+              "MiguelLayun",
+              "Layun",
+              "Futbol",
+              "Shorts",
+              "Deportes",
+              "Rafa",
+              "Crack",
+              "Desafios",
+              "Entretenimiento",
+              "Mexico"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "8HmCumycbbM"
+          },
+          "updatedAt": "2026-03-10T02:56:17.523Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-10T02:56:17.532Z"
+    }
+  },
+  "finishedAt": "2026-03-10T02:56:17.533Z"
+}

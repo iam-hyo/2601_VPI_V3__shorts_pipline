@@ -18,7 +18,7 @@ import path from "node:path";
 import { spawn } from "node:child_process";
 import { GeminiClient } from "./geminiClient.js";
 
-dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.Trend_env") });
+dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.env.trend") });
 console.log("[DEBUG] TREND_SERVICE_PORT raw =", JSON.stringify(process.env.TREND_SERVICE_PORT));
 const PORT = Number(process.env.TREND_SERVICE_PORT);
 
@@ -525,10 +525,22 @@ const server = http.createServer(async (req, res) => {
           const langCode = region === "KR" ? "ko" : region === "US" ? "en" : region === "MX" ? "es" : "en";
           const ytKey = process.env.YOUTUBE_API_KEY || "YOUR_YOUTUBE_API_KEY"; // 환경변수 확인 필요
 
-          // 2. 유튜브 Search API 호출 (모수 50개 확보, relevanceLanguage 추가)
-          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=date&key=${ytKey}`;
+          // 2. 유튜브 Search API 호출 (모수 50개 확보, relevanceLanguage 추가)                                                                     // order=relevance or order=date
+          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&key=${ytKey}`;
           const searchRes = await fetch(searchUrl);
           const searchData = await searchRes.json();
+
+          // 🔥 [추가] YouTube API 자체 에러 처리 (Quota Exceeded, Invalid Key 등)
+          if (!searchRes.ok || searchData.error) {
+            console.error(`[VC_SEARCH] 🚨 YouTube API 에러 발생:`, searchData.error);
+            return sendJson(res, 200, {
+              clusters: [],
+              analysis: { reason: `YouTube API 실패: ${searchData.error?.message || "Unknown"}` },
+              // 클라이언트의 PipelineRunner가 undefined를 띄우지 않도록 stats 객체 강제 포함
+              stats: { totalSearched: 0, totalShorts: 0 }
+            });
+          }
+
           console.log(`[VC_SEARCH] Keyword: '${keyword}', Found: ${searchData.items?.length || 0} items`);
           if (!searchData.items || searchData.items.length === 0) {
             return sendJson(res, 200, { clusters: [], analysis: { reason: "검색 결과 없음" } });
@@ -574,7 +586,7 @@ const server = http.createServer(async (req, res) => {
             이 영상들을 의미론적 '주제'뿐만 아니라 "영상 형식/장면(Scene)"을 기준으로 3~4개의 군집(Cluster)으로 분류하세요.
             예를 들어, 같은 주제라도 '뉴스 데스크 공식 보도', '현지인 반응 및 인터뷰', '전문가 해설 및 교육', '개인 브이로그' 등 장면과 형식이 다르면 별도의 군집으로 분리해야 시각적 일관성이 유지됩니다.
 
-            결과는 반드시 아래 JSON 형식으로만 반환하세요. (마크다운 포맷팅 제외)
+            결과는 반드시 아래 JSON 형식으로만 반환하세요. (설명 금지, 마크다운 코드블록 금지)
 
             {
               "clusters": [
