@@ -17,6 +17,7 @@ import { URL } from "node:url";
 import path from "node:path";
 import { spawn } from "node:child_process";
 import { GeminiClient } from "./geminiClient.js";
+import { channel } from "node:diagnostics_channel";
 
 dotenv.config({ path: path.resolve(process.cwd(), "services/trend-service/.env.trend") });
 console.log("[DEBUG] TREND_SERVICE_PORT raw =", JSON.stringify(process.env.TREND_SERVICE_PORT));
@@ -568,7 +569,8 @@ const server = http.createServer(async (req, res) => {
                 description: v.snippet.description ? v.snippet.description.substring(0, 200).replace(/\n/g, " ") : "",
                 channelTitle: v.snippet.channelTitle,
                 viewCount: v.statistics?.viewCount ? Number(v.statistics.viewCount) : null,
-                durationSec: sec
+                durationSec: sec,
+                channelId: v.snippet.channelId
               };
             })
             // [추가 필터] Pipeline 정책에 따라 일정 시간 이하만 LLM에게 전달 (예: 80초)

@@ -16,6 +16,7 @@ import { ValidationService } from "./ValidationService.js";
 import { VideoProcessorApiClient } from "../clients/VideoProcessorApiClient.js";
 import { YouTubeUploader } from "../clients/YouTubeUploader.js";
 import { HIGHLIGHT_SECOND } from "../config.js";
+import { ChannelStorageService } from './ChannelStorageService.js';
 import fs from "node:fs";
 
 const log = createLogger("PipelineRunner");
@@ -42,7 +43,7 @@ export class PipelineRunner {
       endpoint: args.env.VPI_PREDICTOR_ENDPOINT
     });
     this.validator = new ValidationService({ yt: this.yt, predictor: this.predictor });
-
+    this.channelStorage = new ChannelStorageService();
     this.videoApi = new VideoProcessorApiClient({ baseUrl: args.env.VIDEO_PROCESSOR_API_BASE_URL });
 
     this.uploader = new YouTubeUploader({
@@ -261,33 +262,33 @@ export class PipelineRunner {
             for (const cluster of clusters) {
               log.info(`[${slotID}] 군집 검증 시도: [${cluster.name}] ${cluster.query} (영상 ${cluster.videos.length}개)`);
 
-              // 재검색 없이 군집 내부 영상을 그대로 Validation // 임시 공사 시작 구간 🛠️🛠️🛠️🛠️🛠️🛠️🛠️
-              // const vResult = await this.validator.validateCluster({  
-              //   clusterVideos: cluster.videos,
-              //   region
-              // });
-
-              // 로깅용: 각 군집별 pred7 기준 상위 6개 비디오 추출
-              // const top6Videos = (vResult.scored || []).slice(0, 6).map(v => ({
-              //   videoId: v.videoId,
-              //   title: v.title,
-              //   predicted7d: v.predicted7d 
-              // }));  // 임시 공사 끝 구간 🛠️🛠️🛠️🛠️🛠️🛠️🛠️
-
-              // 임시 사용 시작 구간 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈
-              const vResult = await this.validator.validateCluster4ViewCount({ // 교체된 호출
+              // 재검색 없이 군집 내부 영상을 그대로 Validation // 예측치를 기준으로 영상 우수 🛠️🛠️🛠️🛠️🛠️🛠️🛠️
+              const vResult = await this.validator.validateCluster({
                 clusterVideos: cluster.videos,
-                region,
-                slot
+                region
               });
 
-              // 1. 로깅 데이터 생성: 예측 API OFF 상태이므로 viewCount를 predicted7d로 매핑하여 기록
+              // 로깅용: 각 군집별 pred7 기준 상위 6개 비디오 추출
               const top6Videos = (vResult.scored || []).slice(0, 6).map(v => ({
                 videoId: v.videoId,
                 title: v.title,
-                predicted7d: v.viewCount // 실제 조회수를 기록하여 리포트 가시성 확보
-              }));
-              // 임시 사용 끝 구간 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈
+                predicted7d: v.predicted7d
+              }));  // 예측치를 기준으로 영상 우수 🛠️🛠️🛠️🛠️🛠️🛠️🛠️
+
+              // 나이브 현재 조회수 기반 예측값 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈
+              // const vResult = await this.validator.validateCluster4ViewCount({ // 교체된 호출
+              //   clusterVideos: cluster.videos,
+              //   region,
+              //   slot
+              // });
+
+              // // 1. 로깅 데이터 생성: 예측 API OFF 상태이므로 viewCount를 predicted7d로 매핑하여 기록
+              // const top6Videos = (vResult.scored || []).slice(0, 6).map(v => ({
+              //   videoId: v.videoId,
+              //   title: v.title,
+              //   predicted7d: v.viewCount // 실제 조회수를 기록하여 리포트 가시성 확보
+              // }));
+              // 나이브 현재 조회수 기반 예측 끝 🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈
 
               // 로깅 데이터 적재
               clusterLogs.push({
@@ -310,10 +311,10 @@ export class PipelineRunner {
                   originalKeyword: rawKeyword,
                   theme: cluster.name
                 };
-                log.info(`[${slotID}] ✅ 주제 확정: ${picked.theme} (영상 ${selectedVideos.length}개)`);
+                this.channelStorage.recordChannels(selectedVideos, slotID)
+                  .catch(err => log.error(`[${slotID}] 채널 로그 기록 실패: ${err.message}`));
 
                 log.info(`[${slotID}] ✅ 주제 확정: ${picked.theme} (영상 ${selectedVideos.length}개)`);
-
                 // 모든 군집의 예측 결과를 로깅하려면 여기서 break 하지 않고 플래그만 세움
                 break;
               } else {
