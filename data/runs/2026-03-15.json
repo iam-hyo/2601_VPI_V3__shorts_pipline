@@ -1,0 +1,974 @@
+{
+  "runId": "2026-03-15",
+  "date": "2026-03-15",
+  "createdAt": "2026-03-15T02:50:02.365Z",
+  "updatedAt": "2026-03-15T02:57:06.139Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "장꾸 커플",
+          "한국 호주",
+          "mc 딩동",
+          "장인수",
+          "한국 도미니카",
+          "김가람",
+          "wbc",
+          "프리지아",
+          "차지연",
+          "버터 떡",
+          "이정후",
+          "pba",
+          "김하 온",
+          "월간 남친",
+          "나 우아 임영",
+          "paralympics 2026",
+          "야구",
+          "야구 중계 실시간",
+          "던파",
+          "내 새끼 의 연애 2"
+        ],
+        "updatedAt": "2026-03-15T02:50:16.153Z"
+      },
+      "assignedKeywords": [
+        "장꾸 커플",
+        "한국 호주"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 49
+            },
+            "vcClusters": [
+              {
+                "name": "장꾸커플 채널의 숏폼 챌린지/상황극",
+                "description": "유튜브 채널 '장꾸커플'에서 직접 제작한 짧은 형식의 영상들로, 주로 유행하는 챌린지, 댄스, 코믹 상황극 또는 브랜드 협찬 콘텐츠를 포함합니다. 장난기 많고 유쾌한 커플의 일상을 보여주는 것이 특징입니다.",
+                "query": "장꾸커플 숏폼",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "ZNq7otlquoE",
+                    "title": "형우씨와 요염 재대결 했습니다🥊 이번엔 누가 더 요염한가요. #EAT_IT_UP_SPAGHETTI  #제작비지원",
+                    "predicted7d": 1242550
+                  },
+                  {
+                    "videoId": "tZkxaw8HOnc",
+                    "title": "좋은 이별이 뭐라고 생각하세요?💭",
+                    "predicted7d": 1191843
+                  },
+                  {
+                    "videoId": "tJjHtkKUwQg",
+                    "title": "내 취향대로 남자친구 옷 입히기☃️🩵",
+                    "predicted7d": 722805
+                  },
+                  {
+                    "videoId": "DnFrRLkbVuY",
+                    "title": "요염 대결에선 매번 져서 다른 대결 해봤습니다. 누가 더 힙한가요. #WEGOUP_challenge #제작비지원",
+                    "predicted7d": 522084
+                  },
+                  {
+                    "videoId": "AJL_1aeF_Xk",
+                    "title": "AI 남친 VS 현실 남친.. 누가 더 스윗할까?ㅋㅋㅋㅋㅋ",
+                    "predicted7d": 317591
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "장꾸 커플",
+          "keyword": "장꾸커플 숏폼",
+          "videos": [
+            {
+              "videoId": "ZNq7otlquoE",
+              "title": "형우씨와 요염 재대결 했습니다🥊 이번엔 누가 더 요염한가요. #EAT_IT_UP_SPAGHETTI  #제작비지원",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1242550,
+              "viewCount": 969822,
+              "delta": 272728
+            },
+            {
+              "videoId": "tZkxaw8HOnc",
+              "title": "좋은 이별이 뭐라고 생각하세요?💭",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1191843,
+              "viewCount": 913380,
+              "delta": 278463
+            },
+            {
+              "videoId": "tJjHtkKUwQg",
+              "title": "내 취향대로 남자친구 옷 입히기☃️🩵",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 722805,
+              "viewCount": 630279,
+              "delta": 92526
+            },
+            {
+              "videoId": "DnFrRLkbVuY",
+              "title": "요염 대결에선 매번 져서 다른 대결 해봤습니다. 누가 더 힙한가요. #WEGOUP_challenge #제작비지원",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 522084,
+              "viewCount": 453854,
+              "delta": 68230
+            }
+          ],
+          "theme": "장꾸커플 채널의 숏폼 챌린지/상황극",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ZNq7otlquoE",
+              "title": "형우씨와 요염 재대결 했습니다🥊 이번엔 누가 더 요염한가요. #EAT_IT_UP_SPAGHETTI  #제작비지원",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1242550,
+              "delta": 272728
+            },
+            {
+              "videoId": "tZkxaw8HOnc",
+              "title": "좋은 이별이 뭐라고 생각하세요?💭",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1191843,
+              "delta": 278463
+            },
+            {
+              "videoId": "tJjHtkKUwQg",
+              "title": "내 취향대로 남자친구 옷 입히기☃️🩵",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 722805,
+              "delta": 92526
+            },
+            {
+              "videoId": "DnFrRLkbVuY",
+              "title": "요염 대결에선 매번 져서 다른 대결 해봤습니다. 누가 더 힙한가요. #WEGOUP_challenge #제작비지원",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 522084,
+              "delta": 68230
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-15/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "장꾸커플의 예측불허 일상! 요염부터 힙까지?",
+            "description": "2026-03-15_KR_1\n장꾸커플의 솔직하고 유쾌한 숏폼 모음! 요염 대결부터 남친 코디, 그리고 진지한 이별 이야기까지, 예측불허 매력에 빠져보세요. 매번 새로운 도전을 즐기는 장꾸커플의 다채로운 일상을 지금 바로 확인하세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=ZNq7otlquoE\n2) https://www.youtube.com/watch?v=tZkxaw8HOnc\n3) https://www.youtube.com/watch?v=tJjHtkKUwQg\n4) https://www.youtube.com/watch?v=DnFrRLkbVuY\n\n#Shorts #KR",
+            "tags": [
+              "장꾸커플",
+              "커플숏츠",
+              "커플일상",
+              "요염대결",
+              "힙챌린지",
+              "남친코디",
+              "이별이야기",
+              "연애고민",
+              "숏폼",
+              "유튜브숏츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "fidMWHb3lrs"
+          },
+          "updatedAt": "2026-03-15T02:51:24.277Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 45,
+              "totalShorts": 17
+            },
+            "vcClusters": [
+              {
+                "name": "WBC 공식 뉴스 및 심층 보도",
+                "description": "주요 언론사에서 WBC 한국-호주전 결과, 경기 분석, 선수단 소식 등을 앵커 보도, 현장 리포트, 그래픽 등을 활용하여 전달하는 공식 뉴스 영상 모음입니다.",
+                "query": "WBC 공식 보도",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "DykEqHrTrjs",
+                    "title": "'경우의 수'를 뚫어낸 대한민국ㄷㄷ",
+                    "predicted7d": 1623109
+                  },
+                  {
+                    "videoId": "ewQASpTYjtM",
+                    "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+                    "predicted7d": 386607
+                  },
+                  {
+                    "videoId": "24V1hVpdZn8",
+                    "title": "[속보] 한국 야구대표팀, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+                    "predicted7d": 153134
+                  },
+                  {
+                    "videoId": "ZcUOFtV96cY",
+                    "title": "'팔꿈치 부상' 손주영 결국 귀국…대체자는 '구속 163km' 한국계 빅리거?｜지금 이 쇼츠",
+                    "predicted7d": 132319
+                  },
+                  {
+                    "videoId": "1FbEGSkOoHc",
+                    "title": "한국 대표팀 호주전 승리하고 17년 만에 8강 진출 확정 #WBC #shorts #스브스뉴스",
+                    "predicted7d": 31379
+                  },
+                  {
+                    "videoId": "hhxCjDn3uBM",
+                    "title": "'도쿄의 기적' 한국, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+                    "predicted7d": 8281
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "한국 호주",
+          "keyword": "WBC 공식 보도",
+          "videos": [
+            {
+              "videoId": "DykEqHrTrjs",
+              "title": "'경우의 수'를 뚫어낸 대한민국ㄷㄷ",
+              "channelTitle": "뉴스래빗",
+              "predicted7d": 1623109,
+              "viewCount": 1229576,
+              "delta": 393533
+            },
+            {
+              "videoId": "ewQASpTYjtM",
+              "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+              "channelTitle": "JTBC News",
+              "predicted7d": 386607,
+              "viewCount": 329115,
+              "delta": 57492
+            },
+            {
+              "videoId": "24V1hVpdZn8",
+              "title": "[속보] 한국 야구대표팀, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 153134,
+              "viewCount": 131394,
+              "delta": 21740
+            },
+            {
+              "videoId": "ZcUOFtV96cY",
+              "title": "'팔꿈치 부상' 손주영 결국 귀국…대체자는 '구속 163km' 한국계 빅리거?｜지금 이 쇼츠",
+              "channelTitle": "JTBC News",
+              "predicted7d": 132319,
+              "viewCount": 113850,
+              "delta": 18469
+            }
+          ],
+          "theme": "WBC 공식 뉴스 및 심층 보도",
+          "selectedSourceVideos": [
+            {
+              "videoId": "DykEqHrTrjs",
+              "title": "'경우의 수'를 뚫어낸 대한민국ㄷㄷ",
+              "channelTitle": "뉴스래빗",
+              "predicted7d": 1623109,
+              "delta": 393533
+            },
+            {
+              "videoId": "ewQASpTYjtM",
+              "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+              "channelTitle": "JTBC News",
+              "predicted7d": 386607,
+              "delta": 57492
+            },
+            {
+              "videoId": "24V1hVpdZn8",
+              "title": "[속보] 한국 야구대표팀, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+              "channelTitle": "연합뉴스TV",
+              "predicted7d": 153134,
+              "delta": 21740
+            },
+            {
+              "videoId": "ZcUOFtV96cY",
+              "title": "'팔꿈치 부상' 손주영 결국 귀국…대체자는 '구속 163km' 한국계 빅리거?｜지금 이 쇼츠",
+              "channelTitle": "JTBC News",
+              "predicted7d": 132319,
+              "delta": 18469
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-15/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "WBC 한국 대표팀, 희비 교차 순간들!",
+            "description": "2026-03-15_KR_2\nWBC에서 펼쳐진 한국 대표팀의 드라마틱한 순간들을 모았습니다. 예상치 못한 경우의 수를 뚫고 2라운드에 진출한 감동부터, 상대팀마저 울린 투혼, 그리고 새로운 얼굴의 등장까지! 뜨거웠던 WBC 현장의 모든 것을 쇼츠로 만나보세요.\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=DykEqHrTrjs\n2) https://www.youtube.com/watch?v=ewQASpTYjtM\n3) https://www.youtube.com/watch?v=24V1hVpdZn8\n4) https://www.youtube.com/watch?v=ZcUOFtV96cY\n\n#Shorts #KR",
+            "tags": [
+              "#WBC",
+              "#월드베이스볼클래식",
+              "#한국야구",
+              "#야구대표팀",
+              "#스포츠쇼츠",
+              "#KBO",
+              "#야구하이라이트",
+              "#감동실화",
+              "#역전승",
+              "#국가대표"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "a_WXv7k0j-I"
+          },
+          "updatedAt": "2026-03-15T02:52:23.426Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-15T02:52:23.435Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "bam adebayo 83 points",
+          "bam adebayo",
+          "coryxkenshin",
+          "party at the beach"
+        ],
+        "updatedAt": "2026-03-15T02:52:36.757Z"
+      },
+      "assignedKeywords": [
+        "bam adebayo 83 points",
+        "bam adebayo"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 25
+            },
+            "vcClusters": [
+              {
+                "name": "속보 및 하이라이트",
+                "description": "가상의 83점 득점 소식을 속보 형식으로 전달하거나, 짧고 강렬한 하이라이트 장면을 통해 사건 자체를 알리는 영상들. 주로 공식 채널이나 스포츠 미디어에서 제작된 짧은 클립 형태입니다.",
+                "query": "뱀 아데바요 83점 속보",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "lbuEdt80xB4",
+                    "title": "How did BAM ADEBAYO drop 83 points??",
+                    "predicted7d": 352575
+                  },
+                  {
+                    "videoId": "6p89v6pPltQ",
+                    "title": "BAM ADEBAYO'S 83 PT GAME BREAKDOWN IN 4K 🔥",
+                    "predicted7d": 275178
+                  },
+                  {
+                    "videoId": "_tfUWKVCvCk",
+                    "title": "Bam finished the game with 83 POINTS😳",
+                    "predicted7d": 239948
+                  },
+                  {
+                    "videoId": "yiEUiV_ksRs",
+                    "title": "BAM SCORED 83 POINTS 🤯😳 @whristan",
+                    "predicted7d": 209771
+                  },
+                  {
+                    "videoId": "lDfbRulFqIY",
+                    "title": "Bam 83 PTS PASSES KOBE BRYANT🚨",
+                    "predicted7d": 171970
+                  },
+                  {
+                    "videoId": "PfZHnX48Kdo",
+                    "title": "83 PONTOS! ADEBAYO FEZ HISTÓRIA! 🔥 #nba #basquete #shorts",
+                    "predicted7d": 122109
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bam adebayo 83 points",
+          "keyword": "뱀 아데바요 83점 속보",
+          "videos": [
+            {
+              "videoId": "lbuEdt80xB4",
+              "title": "How did BAM ADEBAYO drop 83 points??",
+              "channelTitle": "MegaCasuals",
+              "predicted7d": 352575,
+              "viewCount": 201813,
+              "delta": 150762
+            },
+            {
+              "videoId": "6p89v6pPltQ",
+              "title": "BAM ADEBAYO'S 83 PT GAME BREAKDOWN IN 4K 🔥",
+              "channelTitle": "Overtime",
+              "predicted7d": 275178,
+              "viewCount": 191919,
+              "delta": 83259
+            },
+            {
+              "videoId": "_tfUWKVCvCk",
+              "title": "Bam finished the game with 83 POINTS😳",
+              "channelTitle": "House of Highlights",
+              "predicted7d": 239948,
+              "viewCount": 182962,
+              "delta": 56986
+            },
+            {
+              "videoId": "yiEUiV_ksRs",
+              "title": "BAM SCORED 83 POINTS 🤯😳 @whristan",
+              "channelTitle": "House of Highlights",
+              "predicted7d": 209771,
+              "viewCount": 157026,
+              "delta": 52745
+            }
+          ],
+          "theme": "속보 및 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "lbuEdt80xB4",
+              "title": "How did BAM ADEBAYO drop 83 points??",
+              "channelTitle": "MegaCasuals",
+              "predicted7d": 352575,
+              "delta": 150762
+            },
+            {
+              "videoId": "6p89v6pPltQ",
+              "title": "BAM ADEBAYO'S 83 PT GAME BREAKDOWN IN 4K 🔥",
+              "channelTitle": "Overtime",
+              "predicted7d": 275178,
+              "delta": 83259
+            },
+            {
+              "videoId": "_tfUWKVCvCk",
+              "title": "Bam finished the game with 83 POINTS😳",
+              "channelTitle": "House of Highlights",
+              "predicted7d": 239948,
+              "delta": 56986
+            },
+            {
+              "videoId": "yiEUiV_ksRs",
+              "title": "BAM SCORED 83 POINTS 🤯😳 @whristan",
+              "channelTitle": "House of Highlights",
+              "predicted7d": 209771,
+              "delta": 52745
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-15/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bam Adebayo's INSANE 83-Point Game!",
+            "description": "2026-03-15_US_1\nYou won't believe your eyes! Bam Adebayo went absolutely OFF, scoring an incredible 83 points. Dive into the highlights and see how this historic game unfolded.\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=lbuEdt80xB4\n2) https://www.youtube.com/watch?v=6p89v6pPltQ\n3) https://www.youtube.com/watch?v=_tfUWKVCvCk\n4) https://www.youtube.com/watch?v=yiEUiV_ksRs\n\n#Shorts #US",
+            "tags": [
+              "#BamAdebayo",
+              "#83Points",
+              "#NBA",
+              "#Shorts",
+              "#Basketball",
+              "#MiamiHeat",
+              "#RecordBreaker",
+              "#Highlights",
+              "#NBANews",
+              "#Sports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "CTsLXiu1e6g"
+          },
+          "updatedAt": "2026-03-15T02:53:43.909Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 11
+            },
+            "vcClusters": [
+              {
+                "name": "뱀 아데바요 83점 경기 - 전문가 분석",
+                "description": "뱀 아데바요의 83점 경기와 관련된 스포츠 전문가 및 유명 평론가들의 심층 분석, 논평, 그리고 공식 채널의 해설 영상 모음입니다. 스튜디오 토론이나 분석적 시각을 제공하는 형식의 영상들입니다.",
+                "query": "뱀 아데바요 전문가 분석",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "XYcf7GzmTHk",
+                    "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+                    "predicted7d": 500590
+                  },
+                  {
+                    "videoId": "OmRAdxAWxs8",
+                    "title": "Chuck on Bam Adebayo's 83-PT game 😅",
+                    "predicted7d": 133951
+                  },
+                  {
+                    "videoId": "NdzmJRmFZCc",
+                    "title": "The negativity from NBA fans following Bam Adebayo's 83 point game 😯 #nba #kobebryant",
+                    "predicted7d": 59318
+                  }
+                ]
+              },
+              {
+                "name": "뱀 아데바요 83점 - 팬 반응 및 논쟁",
+                "description": "뱀 아데바요의 83점 경기에 대한 팬들의 즉각적인 반응, 논쟁, 코비 브라이언트와의 비교, 그리고 유머러스한 밈이나 짧은 바이럴 클립 등 커뮤니티 중심의 영상 모음입니다. 짧은 형식의 의견 제시나 반응 영상이 주를 이룹니다.",
+                "query": "뱀 아데바요 팬 반응",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Jg9obn1AOKA",
+                    "title": "What Kobe fans wanted Bam Adebayo to do #relatable #bamadebayo #kobebryant #nba",
+                    "predicted7d": 2004251
+                  },
+                  {
+                    "videoId": "MGChnd6nFoI",
+                    "title": "Bam Adebayo Fires Back At Critics After 83-Point Game 😤",
+                    "predicted7d": 1023031
+                  },
+                  {
+                    "videoId": "3EYnzwbBuCY",
+                    "title": "Bam Adebayo’s 83 Point Game be like 😭🏀 #basketball #nba #funny",
+                    "predicted7d": 239188
+                  },
+                  {
+                    "videoId": "lDfbRulFqIY",
+                    "title": "Bam 83 PTS PASSES KOBE BRYANT🚨",
+                    "predicted7d": 171970
+                  },
+                  {
+                    "videoId": "gDEI8S1VC_g",
+                    "title": "Did Bam Adebayo really deserve the 83 points ? #basketball #nba #bamadebayo",
+                    "predicted7d": 51226
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bam adebayo",
+          "keyword": "뱀 아데바요 팬 반응",
+          "videos": [
+            {
+              "videoId": "Jg9obn1AOKA",
+              "title": "What Kobe fans wanted Bam Adebayo to do #relatable #bamadebayo #kobebryant #nba",
+              "channelTitle": "zaydante",
+              "predicted7d": 2004251,
+              "viewCount": 1269381,
+              "delta": 734870
+            },
+            {
+              "videoId": "MGChnd6nFoI",
+              "title": "Bam Adebayo Fires Back At Critics After 83-Point Game 😤",
+              "channelTitle": "Inspiredbyhoops",
+              "predicted7d": 1023031,
+              "viewCount": 564987,
+              "delta": 458044
+            },
+            {
+              "videoId": "3EYnzwbBuCY",
+              "title": "Bam Adebayo’s 83 Point Game be like 😭🏀 #basketball #nba #funny",
+              "channelTitle": "ColladoTV",
+              "predicted7d": 239188,
+              "viewCount": 205700,
+              "delta": 33488
+            },
+            {
+              "videoId": "lDfbRulFqIY",
+              "title": "Bam 83 PTS PASSES KOBE BRYANT🚨",
+              "channelTitle": "House of Highlights",
+              "predicted7d": 171970,
+              "viewCount": 130975,
+              "delta": 40995
+            }
+          ],
+          "theme": "뱀 아데바요 83점 - 팬 반응 및 논쟁",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Jg9obn1AOKA",
+              "title": "What Kobe fans wanted Bam Adebayo to do #relatable #bamadebayo #kobebryant #nba",
+              "channelTitle": "zaydante",
+              "predicted7d": 2004251,
+              "delta": 734870
+            },
+            {
+              "videoId": "MGChnd6nFoI",
+              "title": "Bam Adebayo Fires Back At Critics After 83-Point Game 😤",
+              "channelTitle": "Inspiredbyhoops",
+              "predicted7d": 1023031,
+              "delta": 458044
+            },
+            {
+              "videoId": "3EYnzwbBuCY",
+              "title": "Bam Adebayo’s 83 Point Game be like 😭🏀 #basketball #nba #funny",
+              "channelTitle": "ColladoTV",
+              "predicted7d": 239188,
+              "delta": 33488
+            },
+            {
+              "videoId": "lDfbRulFqIY",
+              "title": "Bam 83 PTS PASSES KOBE BRYANT🚨",
+              "channelTitle": "House of Highlights",
+              "predicted7d": 171970,
+              "delta": 40995
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-15/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "NBA Fans React: Bam's 83-Point Masterpiece",
+            "description": "2026-03-15_US_2\nDive into the wild world of NBA fan reactions to Bam Adebayo's hypothetical 83-point game! From Kobe fans' fury to hilarious takes, see how the basketball world would react to this legendary performance. Would Bam truly surpass a legend?\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=Jg9obn1AOKA\n2) https://www.youtube.com/watch?v=MGChnd6nFoI\n3) https://www.youtube.com/watch?v=3EYnzwbBuCY\n4) https://www.youtube.com/watch?v=lDfbRulFqIY\n\n#Shorts #US",
+            "tags": [
+              "BamAdebayo",
+              "NBA",
+              "NBAShorts",
+              "Basketball",
+              "KobeBryant",
+              "FanReactions",
+              "83Points",
+              "SportsHumor",
+              "HeatNation",
+              "ViralShorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "_ZW1pwesVYg"
+          },
+          "updatedAt": "2026-03-15T02:54:47.156Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-15T02:54:47.165Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ring royale",
+          "pinky promise",
+          "ibai",
+          "fernanfloo",
+          "hotspanish vlogs"
+        ],
+        "updatedAt": "2026-03-15T02:54:54.666Z"
+      },
+      "assignedKeywords": [
+        "ring royale",
+        "pinky promise"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 28
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale - 계체량 및 대면식 신경전",
+                "description": "셀럽 참가자들의 계체량 행사, 대면식, 그리고 그 과정에서 벌어지는 격렬한 언쟁과 물리적 충돌을 담은 짧고 긴장감 넘치는 영상 모음입니다.",
+                "query": "링 로얄 계체량 대결",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Q9cePrvDYns",
+                    "title": "MARCELA Y KARELY EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #boxeo #fypシ゚viral",
+                    "predicted7d": 382458
+                  },
+                  {
+                    "videoId": "eN915THpfFY",
+                    "title": "ALBERTO EL PATRÓN ENCIENDE LA POLÉMICA EN SU PESAJE DE RING ROYALE",
+                    "predicted7d": 192322
+                  },
+                  {
+                    "videoId": "s1zkhmHeWVc",
+                    "title": "ABELITO Y BULL TERRIE EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+                    "predicted7d": 184577
+                  },
+                  {
+                    "videoId": "KGT-sU-GDDc",
+                    "title": "ALDO Y NICOLA EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+                    "predicted7d": 171186
+                  },
+                  {
+                    "videoId": "IkRevXWa3VM",
+                    "title": "ABELITO EN PESAJE RING ROYALE 😅😎#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+                    "predicted7d": 168189
+                  },
+                  {
+                    "videoId": "CX3zfABcWlw",
+                    "title": "KARELY RUIZ Y MARCELA MISTRAL ENCIENDEN EL PESAJE DE RING ROYALE",
+                    "predicted7d": 158978
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "keyword": "링 로얄 계체량 대결",
+          "videos": [
+            {
+              "videoId": "Q9cePrvDYns",
+              "title": "MARCELA Y KARELY EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #boxeo #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 382458,
+              "viewCount": 73827,
+              "delta": 308631
+            },
+            {
+              "videoId": "eN915THpfFY",
+              "title": "ALBERTO EL PATRÓN ENCIENDE LA POLÉMICA EN SU PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 192322,
+              "viewCount": 30176,
+              "delta": 162146
+            },
+            {
+              "videoId": "s1zkhmHeWVc",
+              "title": "ABELITO Y BULL TERRIE EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 184577,
+              "viewCount": 48309,
+              "delta": 136268
+            },
+            {
+              "videoId": "KGT-sU-GDDc",
+              "title": "ALDO Y NICOLA EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 171186,
+              "viewCount": 43844,
+              "delta": 127342
+            }
+          ],
+          "theme": "Ring Royale - 계체량 및 대면식 신경전",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Q9cePrvDYns",
+              "title": "MARCELA Y KARELY EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #boxeo #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 382458,
+              "delta": 308631
+            },
+            {
+              "videoId": "eN915THpfFY",
+              "title": "ALBERTO EL PATRÓN ENCIENDE LA POLÉMICA EN SU PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 192322,
+              "delta": 162146
+            },
+            {
+              "videoId": "s1zkhmHeWVc",
+              "title": "ABELITO Y BULL TERRIE EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 184577,
+              "delta": 136268
+            },
+            {
+              "videoId": "KGT-sU-GDDc",
+              "title": "ALDO Y NICOLA EN PESAJE RING ROYALE 😎😳#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 171186,
+              "delta": 127342
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-15/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Pesajes Ring Royale: ¡Pura Candela!",
+            "description": "2026-03-15_MX_1\n¡Prepárate para la acción más explosiva de Ring Royale! Revive los momentos más tensos y polémicos de los pesajes con tus estrellas favoritas. ¿Quién subirá al ring con la ventaja psicológica?\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=Q9cePrvDYns\n2) https://www.youtube.com/watch?v=eN915THpfFY\n3) https://www.youtube.com/watch?v=s1zkhmHeWVc\n4) https://www.youtube.com/watch?v=KGT-sU-GDDc\n\n#Shorts #MX",
+            "tags": [
+              "#RingRoyale",
+              "#Pesajes",
+              "#Boxeo",
+              "#Lucha",
+              "#Controversia",
+              "#Famosos",
+              "#ShortsViral",
+              "#Tension",
+              "#Duelo",
+              "#Celebridades"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "tyfYWHamApo"
+          },
+          "updatedAt": "2026-03-15T02:55:57.400Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 34
+            },
+            "vcClusters": [
+              {
+                "name": "핑크키 프라미스 공식 하이라이트",
+                "description": "인기 토크쇼 'Pinky Promise'의 공식 채널 및 제작사에서 직접 업로드한 짧은 하이라이트 클립 및 주요 장면 모음. 유명인 게스트들의 에피소드와 재치 있는 대화가 주를 이룹니다.",
+                "query": "핑크키 프라미스 명장면",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Yr9o_IpUlys",
+                    "title": "Lucerito imita a sus papás",
+                    "predicted7d": 7472172
+                  },
+                  {
+                    "videoId": "CHzoSLjRcXY",
+                    "title": "El peor invitado de Netas Divinas",
+                    "predicted7d": 4833971
+                  },
+                  {
+                    "videoId": "qp8-UyuMUnQ",
+                    "title": "Señora cachetada 😳😅",
+                    "predicted7d": 4378910
+                  },
+                  {
+                    "videoId": "NnfhgEoNEf0",
+                    "title": "La peor entrevista que ha tenido Yordi",
+                    "predicted7d": 1452332
+                  },
+                  {
+                    "videoId": "FujIqpUoovI",
+                    "title": "😱 Thalia nos reveló su más íntimo secreto",
+                    "predicted7d": 1424280
+                  },
+                  {
+                    "videoId": "8RPeAQiJo9o",
+                    "title": "José Eduardo tuvo un accidente",
+                    "predicted7d": 1268440
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "pinky promise",
+          "keyword": "핑크키 프라미스 명장면",
+          "videos": [
+            {
+              "videoId": "Yr9o_IpUlys",
+              "title": "Lucerito imita a sus papás",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 7472172,
+              "viewCount": 5730756,
+              "delta": 1741416
+            },
+            {
+              "videoId": "CHzoSLjRcXY",
+              "title": "El peor invitado de Netas Divinas",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 4833971,
+              "viewCount": 3994756,
+              "delta": 839215
+            },
+            {
+              "videoId": "qp8-UyuMUnQ",
+              "title": "Señora cachetada 😳😅",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 4378910,
+              "viewCount": 3692013,
+              "delta": 686897
+            },
+            {
+              "videoId": "NnfhgEoNEf0",
+              "title": "La peor entrevista que ha tenido Yordi",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 1452332,
+              "viewCount": 1181918,
+              "delta": 270414
+            }
+          ],
+          "theme": "핑크키 프라미스 공식 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Yr9o_IpUlys",
+              "title": "Lucerito imita a sus papás",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 7472172,
+              "delta": 1741416
+            },
+            {
+              "videoId": "CHzoSLjRcXY",
+              "title": "El peor invitado de Netas Divinas",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 4833971,
+              "delta": 839215
+            },
+            {
+              "videoId": "qp8-UyuMUnQ",
+              "title": "Señora cachetada 😳😅",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 4378910,
+              "delta": 686897
+            },
+            {
+              "videoId": "NnfhgEoNEf0",
+              "title": "La peor entrevista que ha tenido Yordi",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 1452332,
+              "delta": 270414
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-15/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Los momentos más icónicos de Pinky Promise",
+            "description": "2026-03-15_MX_2\nRevive los momentos más impactantes y divertidos de Pinky Promise. Desde imitaciones virales hasta invitados polémicos y sorpresas inesperadas, ¡este Shorts lo tiene todo! No te pierdas las escenas que hicieron historia.\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=Yr9o_IpUlys\n2) https://www.youtube.com/watch?v=CHzoSLjRcXY\n3) https://www.youtube.com/watch?v=qp8-UyuMUnQ\n4) https://www.youtube.com/watch?v=NnfhgEoNEf0\n\n#Shorts #MX",
+            "tags": [
+              "PinkyPromise",
+              "Shorts",
+              "MomentosVirales",
+              "EscenasIconicas",
+              "Lucerito",
+              "Yordi",
+              "Drama",
+              "Comedia",
+              "Entretenimiento",
+              "Celebridades"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "CTl6zBIv3QA"
+          },
+          "updatedAt": "2026-03-15T02:57:06.135Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-15T02:57:06.136Z"
+    }
+  },
+  "finishedAt": "2026-03-15T02:57:06.139Z"
+}

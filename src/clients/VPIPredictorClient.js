@@ -13,7 +13,7 @@ export class VPIPredictorClient {
    */
   constructor(args) {
     this.baseUrl = (args.baseUrl || "").replace(/\/$/, "");
-    this.endpoint = (args.endpoint || "/predict/pred7").startsWith("/") ? (args.endpoint || "/predict/pred7") : `/${args.endpoint}`;
+    this.endpoint = (args.endpoint || "/predict/day7").startsWith("/") ? (args.endpoint || "/predict/day7") : `/${args.endpoint}`;
   }
 
   /**

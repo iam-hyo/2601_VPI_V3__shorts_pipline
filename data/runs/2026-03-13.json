@@ -1,0 +1,836 @@
+{
+  "runId": "2026-03-13",
+  "date": "2026-03-13",
+  "createdAt": "2026-03-13T02:50:02.033Z",
+  "updatedAt": "2026-03-13T03:00:19.726Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "장꾸 커플",
+          "mc 딩동",
+          "장인수",
+          "버터 떡",
+          "월간 남친",
+          "pba",
+          "딩동 폭행",
+          "김하 온 나 우아 임영",
+          "레알 맨시티",
+          "프리지아",
+          "wbc",
+          "쇼미 디스 전",
+          "운 파이",
+          "차지연",
+          "윤후",
+          "야구",
+          "던파",
+          "포코 피아",
+          "낙원",
+          "쿠키 런 킹덤",
+          "오킹"
+        ],
+        "updatedAt": "2026-03-13T02:50:48.746Z"
+      },
+      "assignedKeywords": [
+        "장꾸 커플",
+        "mc 딩동",
+        "장인수"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 49
+            },
+            "vcClusters": [
+              {
+                "name": "장꾸커플 채널의 일상 & 챌린지",
+                "description": "'장꾸커플' 채널에서 직접 제작한 영상들로, 커플의 일상적인 모습, 유행하는 챌린지 참여, 상황극 등을 담은 숏폼 콘텐츠입니다.",
+                "query": "장꾸커플 일상",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "ZNq7otlquoE",
+                    "title": "형우씨와 요염 재대결 했습니다🥊 이번엔 누가 더 요염한가요. #EAT_IT_UP_SPAGHETTI  #제작비지원",
+                    "predicted7d": 1192446
+                  },
+                  {
+                    "videoId": "tZkxaw8HOnc",
+                    "title": "좋은 이별이 뭐라고 생각하세요?💭",
+                    "predicted7d": 1070325
+                  },
+                  {
+                    "videoId": "xv75NP_FML4",
+                    "title": "동거 규칙 3번 : 집안일은 현명하게 해결할 것",
+                    "predicted7d": 696266
+                  },
+                  {
+                    "videoId": "tJjHtkKUwQg",
+                    "title": "내 취향대로 남자친구 옷 입히기☃️🩵",
+                    "predicted7d": 678364
+                  },
+                  {
+                    "videoId": "DnFrRLkbVuY",
+                    "title": "요염 대결에선 매번 져서 다른 대결 해봤습니다. 누가 더 힙한가요. #WEGOUP_challenge #제작비지원",
+                    "predicted7d": 493149
+                  },
+                  {
+                    "videoId": "AJL_1aeF_Xk",
+                    "title": "AI 남친 VS 현실 남친.. 누가 더 스윗할까?ㅋㅋㅋㅋㅋ",
+                    "predicted7d": 301944
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "장꾸 커플",
+          "keyword": "장꾸커플 일상",
+          "videos": [
+            {
+              "videoId": "ZNq7otlquoE",
+              "title": "형우씨와 요염 재대결 했습니다🥊 이번엔 누가 더 요염한가요. #EAT_IT_UP_SPAGHETTI  #제작비지원",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1192446,
+              "viewCount": 931171,
+              "delta": 261275
+            },
+            {
+              "videoId": "tZkxaw8HOnc",
+              "title": "좋은 이별이 뭐라고 생각하세요?💭",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1070325,
+              "viewCount": 832289,
+              "delta": 238036
+            },
+            {
+              "videoId": "xv75NP_FML4",
+              "title": "동거 규칙 3번 : 집안일은 현명하게 해결할 것",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 696266,
+              "viewCount": 577653,
+              "delta": 118613
+            },
+            {
+              "videoId": "tJjHtkKUwQg",
+              "title": "내 취향대로 남자친구 옷 입히기☃️🩵",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 678364,
+              "viewCount": 591527,
+              "delta": 86837
+            }
+          ],
+          "theme": "장꾸커플 채널의 일상 & 챌린지",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ZNq7otlquoE",
+              "title": "형우씨와 요염 재대결 했습니다🥊 이번엔 누가 더 요염한가요. #EAT_IT_UP_SPAGHETTI  #제작비지원",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1192446,
+              "delta": 261275
+            },
+            {
+              "videoId": "tZkxaw8HOnc",
+              "title": "좋은 이별이 뭐라고 생각하세요?💭",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 1070325,
+              "delta": 238036
+            },
+            {
+              "videoId": "xv75NP_FML4",
+              "title": "동거 규칙 3번 : 집안일은 현명하게 해결할 것",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 696266,
+              "delta": 118613
+            },
+            {
+              "videoId": "tJjHtkKUwQg",
+              "title": "내 취향대로 남자친구 옷 입히기☃️🩵",
+              "channelTitle": "장꾸커플",
+              "predicted7d": 678364,
+              "delta": 86837
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-13/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "장꾸커플 일상: 요염 대결부터 동거 규칙까지!🤣",
+            "description": "2026-03-13_KR_1\n장꾸커플의 예측불가 일상 모음! 요염 대결부터 동거 규칙, 남친 코디까지, 매일매일이 시트콤 같은 이들의 하루를 엿보세요. 웃음 가득한 장꾸커플의 리얼리티에 빠져들 준비 되셨나요?\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=ZNq7otlquoE\n2) https://www.youtube.com/watch?v=tZkxaw8HOnc\n3) https://www.youtube.com/watch?v=xv75NP_FML4\n4) https://www.youtube.com/watch?v=tJjHtkKUwQg\n\n#Shorts #KR",
+            "tags": [
+              "장꾸커플",
+              "커플일상",
+              "커플브이로그",
+              "요염대결",
+              "동거커플",
+              "남친코디",
+              "이별토크",
+              "유튜브쇼츠",
+              "숏츠",
+              "웃긴영상"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "W2fYv5MLDqg"
+          },
+          "updatedAt": "2026-03-13T02:52:23.913Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 35
+            },
+            "vcClusters": [
+              {
+                "name": "장인수 공소취소 거래설 - 공식 뉴스 보도",
+                "description": "주요 언론사 채널에서 '장인수 공소취소 거래설' 관련 사건의 발생 및 진행 상황을 객관적으로 보도하는 뉴스 영상입니다. 주로 앵커나 기자 목소리로 사실 전달에 집중하며, 짧은 속보 형태가 많습니다.",
+                "query": "장인수 고발 뉴스",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "8G-L3RVnWlM",
+                    "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\" #JTBC #Shorts",
+                    "predicted7d": 578165
+                  },
+                  {
+                    "videoId": "kfcOIE6JT7s",
+                    "title": "공소 취소 거래? 장인수 고발‥김어준 방송은? #Shorts (MBC뉴스)",
+                    "predicted7d": 82507
+                  },
+                  {
+                    "videoId": "n6oeTa_hb5E",
+                    "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\"｜지금 이 쇼츠",
+                    "predicted7d": 75237
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "장인수",
+          "keyword": "장인수 고발 뉴스",
+          "videos": [
+            {
+              "videoId": "8G-L3RVnWlM",
+              "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\" #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 578165,
+              "viewCount": 303110,
+              "delta": 275055
+            },
+            {
+              "videoId": "kfcOIE6JT7s",
+              "title": "공소 취소 거래? 장인수 고발‥김어준 방송은? #Shorts (MBC뉴스)",
+              "channelTitle": "MBCNEWS",
+              "predicted7d": 82507,
+              "viewCount": 12592,
+              "delta": 69915
+            },
+            {
+              "videoId": "n6oeTa_hb5E",
+              "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\"｜지금 이 쇼츠",
+              "channelTitle": "JTBC News",
+              "predicted7d": 75237,
+              "viewCount": 34766,
+              "delta": 40471
+            }
+          ],
+          "theme": "장인수 공소취소 거래설 - 공식 뉴스 보도",
+          "selectedSourceVideos": [
+            {
+              "videoId": "8G-L3RVnWlM",
+              "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\" #JTBC #Shorts",
+              "channelTitle": "JTBC News",
+              "predicted7d": 578165,
+              "delta": 275055
+            },
+            {
+              "videoId": "kfcOIE6JT7s",
+              "title": "공소 취소 거래? 장인수 고발‥김어준 방송은? #Shorts (MBC뉴스)",
+              "channelTitle": "MBCNEWS",
+              "predicted7d": 82507,
+              "delta": 69915
+            },
+            {
+              "videoId": "n6oeTa_hb5E",
+              "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\"｜지금 이 쇼츠",
+              "channelTitle": "JTBC News",
+              "predicted7d": 75237,
+              "delta": 40471
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-13/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "충격! 김어준·장인수 '공소취소 거래설' 고발 전말",
+            "description": "2026-03-13_KR_2\n김어준과 장인수가 '공소취소 거래설' 허위사실 유포 혐의로 고발당했습니다. 과연 이 사건의 진실은 무엇이며, 김어준 방송은 어떤 입장을 보일까요? 논란의 중심에 선 두 인물의 고발 뉴스를 쇼츠로 빠르게 확인하세요.\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=8G-L3RVnWlM\n2) https://www.youtube.com/watch?v=kfcOIE6JT7s\n3) https://www.youtube.com/watch?v=n6oeTa_hb5E\n\n#Shorts #KR",
+            "tags": [
+              "장인수",
+              "김어준",
+              "공소취소",
+              "거래설",
+              "고발",
+              "허위사실유포",
+              "뉴스",
+              "쇼츠",
+              "시사",
+              "논란"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "1h0ZvVaJ5Cs"
+          },
+          "updatedAt": "2026-03-13T02:54:07.241Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-13T02:54:07.250Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "bam adebayo",
+          "harry styles",
+          "the amazing digital circus",
+          "f1",
+          "ufc",
+          "coryxkenshin",
+          "wwe 2k26",
+          "pokopia"
+        ],
+        "updatedAt": "2026-03-13T02:55:14.812Z"
+      },
+      "assignedKeywords": [
+        "bam adebayo",
+        "harry styles",
+        "the amazing digital circus"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 34
+            },
+            "vcClusters": [
+              {
+                "name": "뱀 아데바요 83점 - 가상 뉴스 및 하이라이트",
+                "description": "뱀 아데바요의 가상 83점 기록을 실제 사건처럼 보도하거나 하이라이트 형식으로 구성한 영상 모음. 주로 스포츠 미디어 채널에서 제작된 짧은 클립 형태.",
+                "query": "아데바요 83점 기록",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "ja7TNa4XENA",
+                    "title": "Kobe’s 81 Point Game Isn’t Bam Adebayo’s 83 😳",
+                    "predicted7d": 1115527
+                  },
+                  {
+                    "videoId": "xqq8r_ZH-_g",
+                    "title": "The moment Bam Adebayo made NBA history 🔥",
+                    "predicted7d": 662230
+                  },
+                  {
+                    "videoId": "d40xVccYZHM",
+                    "title": "HISTORY FOR BAM ADEBAYO 🤯",
+                    "predicted7d": 409942
+                  },
+                  {
+                    "videoId": "6p89v6pPltQ",
+                    "title": "BAM ADEBAYO'S 83 PT GAME BREAKDOWN IN 4K 🔥",
+                    "predicted7d": 291497
+                  },
+                  {
+                    "videoId": "S5T9eD661Oo",
+                    "title": "Bam Adebayo 83 points 🤯 #nba",
+                    "predicted7d": 101234
+                  },
+                  {
+                    "videoId": "5WG7oVWkXNM",
+                    "title": "Bam Adebayo's 83 point game was awesome! #shorts #nba #heat",
+                    "predicted7d": 78293
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bam adebayo",
+          "keyword": "아데바요 83점 기록",
+          "videos": [
+            {
+              "videoId": "ja7TNa4XENA",
+              "title": "Kobe’s 81 Point Game Isn’t Bam Adebayo’s 83 😳",
+              "channelTitle": "Inspiredbyhoops",
+              "predicted7d": 1115527,
+              "viewCount": 213599,
+              "delta": 901928
+            },
+            {
+              "videoId": "xqq8r_ZH-_g",
+              "title": "The moment Bam Adebayo made NBA history 🔥",
+              "channelTitle": "Bleacher Report",
+              "predicted7d": 662230,
+              "viewCount": 433917,
+              "delta": 228313
+            },
+            {
+              "videoId": "d40xVccYZHM",
+              "title": "HISTORY FOR BAM ADEBAYO 🤯",
+              "channelTitle": "NBA",
+              "predicted7d": 409942,
+              "viewCount": 268020,
+              "delta": 141922
+            },
+            {
+              "videoId": "6p89v6pPltQ",
+              "title": "BAM ADEBAYO'S 83 PT GAME BREAKDOWN IN 4K 🔥",
+              "channelTitle": "Overtime",
+              "predicted7d": 291497,
+              "viewCount": 172404,
+              "delta": 119093
+            }
+          ],
+          "theme": "뱀 아데바요 83점 - 가상 뉴스 및 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ja7TNa4XENA",
+              "title": "Kobe’s 81 Point Game Isn’t Bam Adebayo’s 83 😳",
+              "channelTitle": "Inspiredbyhoops",
+              "predicted7d": 1115527,
+              "delta": 901928
+            },
+            {
+              "videoId": "xqq8r_ZH-_g",
+              "title": "The moment Bam Adebayo made NBA history 🔥",
+              "channelTitle": "Bleacher Report",
+              "predicted7d": 662230,
+              "delta": 228313
+            },
+            {
+              "videoId": "d40xVccYZHM",
+              "title": "HISTORY FOR BAM ADEBAYO 🤯",
+              "channelTitle": "NBA",
+              "predicted7d": 409942,
+              "delta": 141922
+            },
+            {
+              "videoId": "6p89v6pPltQ",
+              "title": "BAM ADEBAYO'S 83 PT GAME BREAKDOWN IN 4K 🔥",
+              "channelTitle": "Overtime",
+              "predicted7d": 291497,
+              "delta": 119093
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-13/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bam Adebayo's INSANE 83-Point Game!",
+            "description": "2026-03-13_US_1\nWitness Bam Adebayo's historic 83-point performance that shattered expectations and made NBA history. This incredible scoring outburst is a must-see for every basketball fan. Don't miss the breakdown of this legendary game!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=ja7TNa4XENA\n2) https://www.youtube.com/watch?v=xqq8r_ZH-_g\n3) https://www.youtube.com/watch?v=d40xVccYZHM\n4) https://www.youtube.com/watch?v=6p89v6pPltQ\n\n#Shorts #US",
+            "tags": [
+              "BamAdebayo",
+              "Adebayo83Points",
+              "NBAShorts",
+              "BasketballHistory",
+              "ScoringRecord",
+              "HeatCulture",
+              "NBAHighlights",
+              "Kobe81",
+              "ViralSports"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "UbR99XDgLlI"
+          },
+          "updatedAt": "2026-03-13T02:56:41.647Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 39
+            },
+            "vcClusters": [
+              {
+                "name": "공식 예고편 및 제작진 발표",
+                "description": "제작사 GLITCH 및 Gooseworx에서 직접 공개하는 영상으로, 에피소드 예고편, 티저, 캐릭터 소개, 크레딧 등 공식적인 정보 전달 목적의 영상들입니다. 고품질의 원작 애니메이션 장면을 주로 포함합니다.",
+                "query": "공식 예고편",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "iuaRQ5NQFq8",
+                    "title": "THE AMAZING DIGITAL CIRCUS [OFFICIAL TRAILER]",
+                    "predicted7d": 40491947
+                  },
+                  {
+                    "videoId": "We52q8vv8Wc",
+                    "title": "MEET THE GANG: The Amazing Digital Circus",
+                    "predicted7d": 22721975
+                  },
+                  {
+                    "videoId": "9FY0Pt9fyxY",
+                    "title": "THE AMAZING DIGITAL CIRCUS (teaser)",
+                    "predicted7d": 20749934
+                  },
+                  {
+                    "videoId": "4lFnIlH06Sw",
+                    "title": "Digital Circus Ep 8 Trailer.",
+                    "predicted7d": 13422948
+                  },
+                  {
+                    "videoId": "v0j4Xf5R2v8",
+                    "title": "THE AMAZING DIGITAL CIRCUS Credits!",
+                    "predicted7d": 1453813
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "the amazing digital circus",
+          "keyword": "공식 예고편",
+          "videos": [
+            {
+              "videoId": "iuaRQ5NQFq8",
+              "title": "THE AMAZING DIGITAL CIRCUS [OFFICIAL TRAILER]",
+              "channelTitle": "GLITCH",
+              "predicted7d": 40491947,
+              "viewCount": 32116037,
+              "delta": 8375910
+            },
+            {
+              "videoId": "We52q8vv8Wc",
+              "title": "MEET THE GANG: The Amazing Digital Circus",
+              "channelTitle": "Gooseworx",
+              "predicted7d": 22721975,
+              "viewCount": 17988028,
+              "delta": 4733947
+            },
+            {
+              "videoId": "9FY0Pt9fyxY",
+              "title": "THE AMAZING DIGITAL CIRCUS (teaser)",
+              "channelTitle": "Gooseworx",
+              "predicted7d": 20749934,
+              "viewCount": 15760094,
+              "delta": 4989840
+            },
+            {
+              "videoId": "4lFnIlH06Sw",
+              "title": "Digital Circus Ep 8 Trailer.",
+              "channelTitle": "GLITCH",
+              "predicted7d": 13422948,
+              "viewCount": 8981369,
+              "delta": 4441579
+            }
+          ],
+          "theme": "공식 예고편 및 제작진 발표",
+          "selectedSourceVideos": [
+            {
+              "videoId": "iuaRQ5NQFq8",
+              "title": "THE AMAZING DIGITAL CIRCUS [OFFICIAL TRAILER]",
+              "channelTitle": "GLITCH",
+              "predicted7d": 40491947,
+              "delta": 8375910
+            },
+            {
+              "videoId": "We52q8vv8Wc",
+              "title": "MEET THE GANG: The Amazing Digital Circus",
+              "channelTitle": "Gooseworx",
+              "predicted7d": 22721975,
+              "delta": 4733947
+            },
+            {
+              "videoId": "9FY0Pt9fyxY",
+              "title": "THE AMAZING DIGITAL CIRCUS (teaser)",
+              "channelTitle": "Gooseworx",
+              "predicted7d": 20749934,
+              "delta": 4989840
+            },
+            {
+              "videoId": "4lFnIlH06Sw",
+              "title": "Digital Circus Ep 8 Trailer.",
+              "channelTitle": "GLITCH",
+              "predicted7d": 13422948,
+              "delta": 4441579
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-13/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Digital Circus: Official Trailers!",
+            "description": "2026-03-13_US_2\nGet ready for the mind-bending world of The Amazing Digital Circus! This compilation features all the official trailers and teasers, giving you a glimpse into the digital madness. Prepare to be amazed!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=iuaRQ5NQFq8\n2) https://www.youtube.com/watch?v=We52q8vv8Wc\n3) https://www.youtube.com/watch?v=9FY0Pt9fyxY\n4) https://www.youtube.com/watch?v=4lFnIlH06Sw\n\n#Shorts #US",
+            "tags": [
+              "DigitalCircus",
+              "AmazingDigitalCircus",
+              "GLITCH",
+              "Gooseworx",
+              "OfficialTrailer",
+              "AnimatedSeries",
+              "IndieAnimation",
+              "NewShow",
+              "Cartoon",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "pB7yERTb5SQ"
+          },
+          "updatedAt": "2026-03-13T02:58:21.625Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-13T02:58:21.633Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ibai",
+          "harry styles"
+        ],
+        "updatedAt": "2026-03-13T02:58:29.796Z"
+      },
+      "assignedKeywords": [
+        "ibai",
+        "harry styles"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 34
+            },
+            "vcClusters": [
+              {
+                "name": "이바이의 개인 방송 하이라이트 및 일상 클립",
+                "description": "이바이 본인의 채널에서 올라온 짧은 영상들로, 그의 일상, 재미있는 도전, 개인적인 업데이트, 또는 스트리밍 중 발생한 유머러스한 순간들을 담고 있습니다. 주로 짧은 길이의 클립 형식입니다.",
+                "query": "이바이 일상 클립",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "PDjBT_jkr6s",
+                    "title": "¿Cuántos espaguetis puedo romper con mis manos?",
+                    "predicted7d": 92989014
+                  },
+                  {
+                    "videoId": "W_sUiDaQBIg",
+                    "title": "Amarilla por llorón y roja por chulo",
+                    "predicted7d": 12201437
+                  },
+                  {
+                    "videoId": "rNrEnirMKDQ",
+                    "title": "Mariana le trajo un \"regalo\" a Plex",
+                    "predicted7d": 10254267
+                  },
+                  {
+                    "videoId": "8Vy4h0dgYyE",
+                    "title": "Se os ha ido de las manos.",
+                    "predicted7d": 4854349
+                  },
+                  {
+                    "videoId": "JKeFxt10QNY",
+                    "title": "El cara a cara entre Yosoyplex VS elMariana",
+                    "predicted7d": 4083975
+                  },
+                  {
+                    "videoId": "sdHQr2VVkMw",
+                    "title": "Me he afeitado después de muchos años.",
+                    "predicted7d": 2745018
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ibai",
+          "keyword": "이바이 일상 클립",
+          "videos": [
+            {
+              "videoId": "PDjBT_jkr6s",
+              "title": "¿Cuántos espaguetis puedo romper con mis manos?",
+              "channelTitle": "Ibai",
+              "predicted7d": 92989014,
+              "viewCount": 67098036,
+              "delta": 25890978
+            },
+            {
+              "videoId": "W_sUiDaQBIg",
+              "title": "Amarilla por llorón y roja por chulo",
+              "channelTitle": "Ibai",
+              "predicted7d": 12201437,
+              "viewCount": 9258985,
+              "delta": 2942452
+            },
+            {
+              "videoId": "rNrEnirMKDQ",
+              "title": "Mariana le trajo un \"regalo\" a Plex",
+              "channelTitle": "Ibai",
+              "predicted7d": 10254267,
+              "viewCount": 7851419,
+              "delta": 2402848
+            },
+            {
+              "videoId": "8Vy4h0dgYyE",
+              "title": "Se os ha ido de las manos.",
+              "channelTitle": "Ibai",
+              "predicted7d": 4854349,
+              "viewCount": 3732379,
+              "delta": 1121970
+            }
+          ],
+          "theme": "이바이의 개인 방송 하이라이트 및 일상 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "PDjBT_jkr6s",
+              "title": "¿Cuántos espaguetis puedo romper con mis manos?",
+              "channelTitle": "Ibai",
+              "predicted7d": 92989014,
+              "delta": 25890978
+            },
+            {
+              "videoId": "W_sUiDaQBIg",
+              "title": "Amarilla por llorón y roja por chulo",
+              "channelTitle": "Ibai",
+              "predicted7d": 12201437,
+              "delta": 2942452
+            },
+            {
+              "videoId": "rNrEnirMKDQ",
+              "title": "Mariana le trajo un \"regalo\" a Plex",
+              "channelTitle": "Ibai",
+              "predicted7d": 10254267,
+              "delta": 2402848
+            },
+            {
+              "videoId": "8Vy4h0dgYyE",
+              "title": "Se os ha ido de las manos.",
+              "channelTitle": "Ibai",
+              "predicted7d": 4854349,
+              "delta": 1121970
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-13/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Ibai: Risas, caos y momentos virales",
+            "description": "2026-03-13_MX_1\nRevive los clips más divertidos y sorprendentes del día a día de Ibai. Desde desafíos absurdos hasta reacciones épicas, no te pierdas la esencia de su canal. ¡Pura diversión garantizada!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=PDjBT_jkr6s\n2) https://www.youtube.com/watch?v=W_sUiDaQBIg\n3) https://www.youtube.com/watch?v=rNrEnirMKDQ\n4) https://www.youtube.com/watch?v=8Vy4h0dgYyE\n\n#Shorts #MX",
+            "tags": [
+              "Ibai",
+              "IbaiLlanos",
+              "Shorts",
+              "Humor",
+              "MomentosVirales",
+              "ClipsIbai",
+              "Reacciones",
+              "Twitch",
+              "Streamer",
+              "Entretenimiento"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "DneXeSrFIpA"
+          },
+          "updatedAt": "2026-03-13T03:00:04.128Z"
+        },
+        {
+          "slot": 2,
+          "status": "RUNNING",
+          "queryEngineering": {
+            "status": "FAILED",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 6
+            },
+            "vcClusters": [
+              {
+                "name": "해리 스타일스 커리어 분석 및 스토리 요약",
+                "description": "해리 스타일스의 경력 발전 과정, 주요 사건, 또는 전반적인 스토리를 요약하고 설명하는 영상 모음. 주로 과거 영상 클립을 편집하거나 내레이션으로 구성된 형식입니다.",
+                "query": "해리 스타일스 스토리",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "해리 스타일스 공식 방송 출연 및 이벤트 홍보",
+                "description": "TV 프로그램의 공식 채널에서 해리 스타일스의 출연을 홍보하거나, 특정 이벤트의 공식 클립을 제공하는 영상 모음. 주로 방송사나 주최 측에서 제작한 프로모션 형식입니다.",
+                "query": "해리 스타일스 공식",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (1개)",
+                "topVideos": []
+              },
+              {
+                "name": "해리 스타일스 특정 커버곡 공연 및 미디어 반응",
+                "description": "해리 스타일스의 특정 커버곡('Everybody Wants to Rule the World') 공연 장면을 담거나, 이에 대한 팬 및 음악 미디어 채널의 반응, 편집본을 다루는 영상 모음. 주로 팬 채널, 음악 뉴스 채널, 라디오 채널 등에서 제작된 편집/반응 형식입니다.",
+                "query": "해리 스타일스 커버",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개)",
+                "topVideos": [
+                  {
+                    "videoId": "JG6druLQkxY",
+                    "title": "Harry Styles PERFORMS Everybody Wants To Rule The World at BBC Radio 1",
+                    "predicted7d": 115372
+                  },
+                  {
+                    "videoId": "2KKWR-rz4YE",
+                    "title": "\"Everybody Wants to Rule the World\" por #harrystyles #tearsforfears #musica",
+                    "predicted7d": 18018
+                  },
+                  {
+                    "videoId": "d36XYluRAEI",
+                    "title": "¡El poder de Harry Styles! 🥹🎶  ¿Qué te pareció este cover de “Everybody Wants to Rule the World”? 🩷💎",
+                    "predicted7d": 10228
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-03-13T03:00:04.136Z"
+    }
+  },
+  "finishedAt": "2026-03-13T03:00:19.726Z"
+}

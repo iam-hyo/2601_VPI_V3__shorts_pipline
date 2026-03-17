@@ -528,6 +528,8 @@ const server = http.createServer(async (req, res) => {
 
           // 2. 유튜브 Search API 호출 (모수 50개 확보, relevanceLanguage 추가)                                                                     // order=relevance or order=date
           const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&key=${ytKey}`;
+          // 2. URL에 publishedAfter 파라미터 추가
+          // const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&publishedAfter=${publishedAfter}&key=${ytKey}`;
           const searchRes = await fetch(searchUrl);
           const searchData = await searchRes.json();
 
@@ -595,7 +597,7 @@ const server = http.createServer(async (req, res) => {
                 {
                   "name": "군집 이름 (예: 미국 이란 위기 - 공식 뉴스 특보)",
                   "description": "이 군집의 주제와 시각적 형식에 대한 설명 (예: 앵커가 등장하는 공식 뉴스 채널들의 보도 영상 모음)",
-                  "query": "이 군집을 가장 잘 대표하는 파생 검색어 (10자 내외의 명사형)",
+                  "clusterLabel": "이 군집을 가장 잘 대표하는 파생 검색어 (10자 내외의 명사형)",
                   "videoIds": ["videoId1", "videoId2"]
                 }
               ]

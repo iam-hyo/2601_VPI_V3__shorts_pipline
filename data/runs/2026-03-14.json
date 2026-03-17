@@ -1,0 +1,916 @@
+{
+  "runId": "2026-03-14",
+  "date": "2026-03-14",
+  "createdAt": "2026-03-14T02:50:01.989Z",
+  "updatedAt": "2026-03-14T02:59:51.067Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "장꾸 커플",
+          "mc 딩동",
+          "한국 호주",
+          "장인수",
+          "WBC",
+          "야구 중계 실시간",
+          "버터 떡",
+          "프리지아",
+          "차지연",
+          "월간 남친",
+          "pba",
+          "이정후",
+          "동훈 이일걸",
+          "야구",
+          "김하 온",
+          "던파",
+          "나 우아 임영",
+          "미혼 남녀 의 효율적 만남",
+          "ufc",
+          "포코 피아"
+        ],
+        "updatedAt": "2026-03-14T02:50:17.268Z"
+      },
+      "assignedKeywords": [
+        "장꾸 커플",
+        "mc 딩동",
+        "한국 호주",
+        "장인수"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 23
+            },
+            "vcClusters": [
+              {
+                "name": "MC딩동 사회적 물의 사건 보도",
+                "description": "MC딩동의 음주운전, BJ 폭행 등 사회적 논란과 관련된 언론사들의 공식 뉴스 보도 및 사건 분석 영상 모음. 앵커나 기자 리포트 형식으로 사건의 경과와 결과를 전달합니다.",
+                "query": "MC딩동 논란 뉴스",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "HfcMmzVXzXY",
+                    "title": "\"합의금 천만 원 거절\" MC딩동에 머리채 잡힌 BJ, 결국... / YTN star",
+                    "predicted7d": 365177
+                  },
+                  {
+                    "videoId": "JxU1ng1wyO4",
+                    "title": "MC딩동, 생방 중 여성BJ 폭행 논란 / YTN star",
+                    "predicted7d": 127175
+                  },
+                  {
+                    "videoId": "r9tEZFsJTZY",
+                    "title": "MC딩동에 머리채 잡힌 BJ, 결국... / YTN star",
+                    "predicted7d": 81747
+                  },
+                  {
+                    "videoId": "ZwRy5c7Ag6E",
+                    "title": "[사건파일24] MC 딩동, 방송 중 여성 출연자가 '음주 전과' 언급하며 농담하자 머리채 잡고 '폭행' #shorts",
+                    "predicted7d": 28315
+                  },
+                  {
+                    "videoId": "J5CMjmz91Uc",
+                    "title": "고영욱 \"이런 저급한 놈도...\" MC딩동·이재룡 언급하며 불만 토로 / YTN star",
+                    "predicted7d": 24737
+                  },
+                  {
+                    "videoId": "lfcMneWbc8g",
+                    "title": "'음주운전 적발되자 도주' 방송인 MC딩동 구속 / SBS / 굿모닝연예",
+                    "predicted7d": 18077
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "mc 딩동",
+          "keyword": "MC딩동 논란 뉴스",
+          "videos": [
+            {
+              "videoId": "HfcMmzVXzXY",
+              "title": "\"합의금 천만 원 거절\" MC딩동에 머리채 잡힌 BJ, 결국... / YTN star",
+              "channelTitle": "YTN star",
+              "predicted7d": 365177,
+              "viewCount": 234629,
+              "delta": 130548
+            },
+            {
+              "videoId": "JxU1ng1wyO4",
+              "title": "MC딩동, 생방 중 여성BJ 폭행 논란 / YTN star",
+              "channelTitle": "YTN star",
+              "predicted7d": 127175,
+              "viewCount": 106071,
+              "delta": 21104
+            },
+            {
+              "videoId": "r9tEZFsJTZY",
+              "title": "MC딩동에 머리채 잡힌 BJ, 결국... / YTN star",
+              "channelTitle": "YTN star",
+              "predicted7d": 81747,
+              "viewCount": 49561,
+              "delta": 32186
+            }
+          ],
+          "theme": "MC딩동 사회적 물의 사건 보도",
+          "selectedSourceVideos": [
+            {
+              "videoId": "HfcMmzVXzXY",
+              "title": "\"합의금 천만 원 거절\" MC딩동에 머리채 잡힌 BJ, 결국... / YTN star",
+              "channelTitle": "YTN star",
+              "predicted7d": 365177,
+              "delta": 130548
+            },
+            {
+              "videoId": "JxU1ng1wyO4",
+              "title": "MC딩동, 생방 중 여성BJ 폭행 논란 / YTN star",
+              "channelTitle": "YTN star",
+              "predicted7d": 127175,
+              "delta": 21104
+            },
+            {
+              "videoId": "r9tEZFsJTZY",
+              "title": "MC딩동에 머리채 잡힌 BJ, 결국... / YTN star",
+              "channelTitle": "YTN star",
+              "predicted7d": 81747,
+              "delta": 32186
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-14/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "MC딩동 생방 중 BJ 폭행 논란, 합의금 천만원 거절까지?",
+            "description": "2026-03-14_KR_1\nMC딩동의 충격적인 생방송 중 BJ 폭행 논란 사건을 정리했습니다. 합의금 천만원을 거절한 BJ의 선택과 그 이후의 이야기가 담겨 있습니다.\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=HfcMmzVXzXY\n2) https://www.youtube.com/watch?v=JxU1ng1wyO4\n3) https://www.youtube.com/watch?v=r9tEZFsJTZY\n\n#Shorts #KR",
+            "tags": [
+              "MC딩동",
+              "MC딩동논란",
+              "BJ폭행",
+              "생방송사건",
+              "합의금거절",
+              "연예인이슈",
+              "유튜브쇼츠",
+              "사건사고",
+              "YTN스타",
+              "충격실화"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "GBrTlnPcLGc"
+          },
+          "updatedAt": "2026-03-14T02:51:44.934Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 17
+            },
+            "vcClusters": [
+              {
+                "name": "장인수 공소취소설 - 공식 뉴스 보도 및 요약",
+                "description": "주요 언론사 또는 뉴스 전문 채널에서 '장인수 공소취소 거래설' 관련 사건을 보도하거나 핵심 내용을 요약하여 전달하는 영상 모음입니다.",
+                "query": "장인수 뉴스 보도",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "장인수 공소취소설 - 시사 토크/라디오 발언 클립",
+                "description": "정치 시사 토크쇼, 라디오 프로그램, 또는 인터뷰에서 '장인수 공소취소 거래설'에 대해 논의하거나 관련 인물의 발언을 담은 짧은 클립 영상 모음입니다.",
+                "query": "장인수 토크쇼",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "vndcmRv71VA",
+                    "title": "장인수기자의 입을꼬매고 싶었던 최욱의 과거발언 #장인수",
+                    "predicted7d": 825907
+                  },
+                  {
+                    "videoId": "nX6z7uCEHp0",
+                    "title": "최선호 \"장인수 보도가 완결성가지려면, '고위 정부 관계자' 누군지 밝혀야\"",
+                    "predicted7d": 218676
+                  },
+                  {
+                    "videoId": "XQjY9Ib-3Nw",
+                    "title": "그들은 대체..ㅣ#장인수 #김어준",
+                    "predicted7d": 186754
+                  },
+                  {
+                    "videoId": "Q_CI3q6LNLQ",
+                    "title": "노영희 “장인수에 직접 물었다”  #뉴스다이브 #검찰 #국민의힘 #김어준",
+                    "predicted7d": 81537
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "장인수",
+          "keyword": "장인수 토크쇼",
+          "videos": [
+            {
+              "videoId": "vndcmRv71VA",
+              "title": "장인수기자의 입을꼬매고 싶었던 최욱의 과거발언 #장인수",
+              "channelTitle": "정치한스푼",
+              "predicted7d": 825907,
+              "viewCount": 549040,
+              "delta": 276867
+            },
+            {
+              "videoId": "nX6z7uCEHp0",
+              "title": "최선호 \"장인수 보도가 완결성가지려면, '고위 정부 관계자' 누군지 밝혀야\"",
+              "channelTitle": "SBS 시사교양 라디오 - 시교라",
+              "predicted7d": 218676,
+              "viewCount": 177629,
+              "delta": 41047
+            },
+            {
+              "videoId": "XQjY9Ib-3Nw",
+              "title": "그들은 대체..ㅣ#장인수 #김어준",
+              "channelTitle": "장르만 여의도",
+              "predicted7d": 186754,
+              "viewCount": 151603,
+              "delta": 35151
+            },
+            {
+              "videoId": "Q_CI3q6LNLQ",
+              "title": "노영희 “장인수에 직접 물었다”  #뉴스다이브 #검찰 #국민의힘 #김어준",
+              "channelTitle": "한겨레TV",
+              "predicted7d": 81537,
+              "viewCount": 5498,
+              "delta": 76039
+            }
+          ],
+          "theme": "장인수 공소취소설 - 시사 토크/라디오 발언 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "vndcmRv71VA",
+              "title": "장인수기자의 입을꼬매고 싶었던 최욱의 과거발언 #장인수",
+              "channelTitle": "정치한스푼",
+              "predicted7d": 825907,
+              "delta": 276867
+            },
+            {
+              "videoId": "nX6z7uCEHp0",
+              "title": "최선호 \"장인수 보도가 완결성가지려면, '고위 정부 관계자' 누군지 밝혀야\"",
+              "channelTitle": "SBS 시사교양 라디오 - 시교라",
+              "predicted7d": 218676,
+              "delta": 41047
+            },
+            {
+              "videoId": "XQjY9Ib-3Nw",
+              "title": "그들은 대체..ㅣ#장인수 #김어준",
+              "channelTitle": "장르만 여의도",
+              "predicted7d": 186754,
+              "delta": 35151
+            },
+            {
+              "videoId": "Q_CI3q6LNLQ",
+              "title": "노영희 “장인수에 직접 물었다”  #뉴스다이브 #검찰 #국민의힘 #김어준",
+              "channelTitle": "한겨레TV",
+              "predicted7d": 81537,
+              "delta": 76039
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-14/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "장인수 기자, 최욱도 입 막고 싶었던 그의 진실은?",
+            "description": "2026-03-14_KR_2\n장인수 기자의 날카로운 보도와 그를 둘러싼 뜨거운 논란들을 한눈에! 최욱의 거침없는 발언부터 김어준, 노영희, 최선호 등 다양한 인물들이 말하는 장인수 기자의 모든 것을 담았습니다. 그의 보도 핵심과 숨겨진 이야기가 궁금하다면 지금 바로 확인하세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=vndcmRv71VA\n2) https://www.youtube.com/watch?v=nX6z7uCEHp0\n3) https://www.youtube.com/watch?v=XQjY9Ib-3Nw\n4) https://www.youtube.com/watch?v=Q_CI3q6LNLQ\n\n#Shorts #KR",
+            "tags": [
+              "장인수",
+              "최욱",
+              "김어준",
+              "노영희",
+              "최선호",
+              "장인수기자",
+              "시사토크",
+              "정치뉴스",
+              "논란의중심",
+              "유튜브쇼츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "lfQ1qFkoC_U"
+          },
+          "updatedAt": "2026-03-14T02:52:59.545Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-14T02:52:59.553Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "bam adebayo",
+          "coryxkenshin",
+          "the amazing digital circus",
+          "ufc",
+          "party at the beach",
+          "lil poppa",
+          "pokopia"
+        ],
+        "updatedAt": "2026-03-14T02:53:10.380Z"
+      },
+      "assignedKeywords": [
+        "bam adebayo",
+        "coryxkenshin"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 38
+            },
+            "vcClusters": [
+              {
+                "name": "공식 채널 및 전문가 분석",
+                "description": "NBA, ESPN 등 공식 스포츠 채널이나 농구 전문가들이 밤 아데바요의 83점 기록에 대해 보도, 심층 분석, 경기 하이라이트, 공식 인터뷰 등을 다루는 영상 모음입니다. 주로 해설, 통계 분석, 감독/선수 인터뷰 등 정보 전달과 전문적인 의견 제시가 특징입니다.",
+                "query": "밤 아데바요 기록 분석",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "PimlagbXzUA",
+                    "title": "Was Bam Adebayo’s 83 Ethical?",
+                    "predicted7d": 646724
+                  },
+                  {
+                    "videoId": "XYcf7GzmTHk",
+                    "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+                    "predicted7d": 607603
+                  },
+                  {
+                    "videoId": "kwRAe5YHDRA",
+                    "title": "Where will Bam Adebayo rank all-time?",
+                    "predicted7d": 398211
+                  },
+                  {
+                    "videoId": "d40xVccYZHM",
+                    "title": "HISTORY FOR BAM ADEBAYO 🤯",
+                    "predicted7d": 371613
+                  },
+                  {
+                    "videoId": "v0uRWQHkycU",
+                    "title": "The Lakers fans' reaction to the news of Bam Adebayo's 83 points 👀 (via @charliewaltonmn/X)",
+                    "predicted7d": 193362
+                  },
+                  {
+                    "videoId": "CyS_6HVOlpY",
+                    "title": "What a moment for Bam Adebayo 🙌",
+                    "predicted7d": 140097
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bam adebayo",
+          "keyword": "밤 아데바요 기록 분석",
+          "videos": [
+            {
+              "videoId": "PimlagbXzUA",
+              "title": "Was Bam Adebayo’s 83 Ethical?",
+              "channelTitle": "Andrew Fenichel",
+              "predicted7d": 646724,
+              "viewCount": 276670,
+              "delta": 370054
+            },
+            {
+              "videoId": "XYcf7GzmTHk",
+              "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+              "channelTitle": "Bill Simmons",
+              "predicted7d": 607603,
+              "viewCount": 242646,
+              "delta": 364957
+            },
+            {
+              "videoId": "kwRAe5YHDRA",
+              "title": "Where will Bam Adebayo rank all-time?",
+              "channelTitle": "Andrew Fenichel",
+              "predicted7d": 398211,
+              "viewCount": 216125,
+              "delta": 182086
+            },
+            {
+              "videoId": "d40xVccYZHM",
+              "title": "HISTORY FOR BAM ADEBAYO 🤯",
+              "channelTitle": "NBA",
+              "predicted7d": 371613,
+              "viewCount": 270343,
+              "delta": 101270
+            }
+          ],
+          "theme": "공식 채널 및 전문가 분석",
+          "selectedSourceVideos": [
+            {
+              "videoId": "PimlagbXzUA",
+              "title": "Was Bam Adebayo’s 83 Ethical?",
+              "channelTitle": "Andrew Fenichel",
+              "predicted7d": 646724,
+              "delta": 370054
+            },
+            {
+              "videoId": "XYcf7GzmTHk",
+              "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+              "channelTitle": "Bill Simmons",
+              "predicted7d": 607603,
+              "delta": 364957
+            },
+            {
+              "videoId": "kwRAe5YHDRA",
+              "title": "Where will Bam Adebayo rank all-time?",
+              "channelTitle": "Andrew Fenichel",
+              "predicted7d": 398211,
+              "delta": 182086
+            },
+            {
+              "videoId": "d40xVccYZHM",
+              "title": "HISTORY FOR BAM ADEBAYO 🤯",
+              "channelTitle": "NBA",
+              "predicted7d": 371613,
+              "delta": 101270
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-14/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bam Adebayo: 83 Points & NBA Legacy",
+            "description": "2026-03-14_US_1\nDive into Bam Adebayo's controversial 83-point performance and its impact on his NBA legacy. Was it ethical, and where does this historic game place him among the all-time greats?\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=PimlagbXzUA\n2) https://www.youtube.com/watch?v=XYcf7GzmTHk\n3) https://www.youtube.com/watch?v=kwRAe5YHDRA\n4) https://www.youtube.com/watch?v=d40xVccYZHM\n\n#Shorts #US",
+            "tags": [
+              "BamAdebayo",
+              "NBA",
+              "NBAShorts",
+              "Basketball",
+              "HeatCulture",
+              "MiamiHeat",
+              "83Points",
+              "NBAHistory",
+              "NBALegacy",
+              "SportsAnalysis"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "W3YpboCk2eI"
+          },
+          "updatedAt": "2026-03-14T02:54:13.772Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 20
+            },
+            "vcClusters": [
+              {
+                "name": "CoryxKenshin 공식 채널 클립 및 하이라이트",
+                "description": "CoryxKenshin 본인의 채널 또는 라이브 채널에서 직접 업로드되거나, 그의 실제 게임 플레이 및 코멘터리 중 특정 순간을 편집한 짧은 클립 모음입니다. 주로 그의 오리지널 콘텐츠를 직접 보여주는 형식입니다.",
+                "query": "코리켄신 본인 영상",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "O3085MDV1T8",
+                    "title": "CORYXKENSHIN DOESN'T PLAY IT SAFE.",
+                    "predicted7d": 11732661
+                  },
+                  {
+                    "videoId": "x5bZ5Si2yPw",
+                    "title": "Coryxkenshin showing them how it's done",
+                    "predicted7d": 5565061
+                  },
+                  {
+                    "videoId": "eW2UuKY0HHs",
+                    "title": "CoryxKenshin talking about him cussing",
+                    "predicted7d": 3314617
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "coryxkenshin",
+          "keyword": "코리켄신 본인 영상",
+          "videos": [
+            {
+              "videoId": "O3085MDV1T8",
+              "title": "CORYXKENSHIN DOESN'T PLAY IT SAFE.",
+              "channelTitle": "CoryxKenshin",
+              "predicted7d": 11732661,
+              "viewCount": 7250604,
+              "delta": 4482057
+            },
+            {
+              "videoId": "x5bZ5Si2yPw",
+              "title": "Coryxkenshin showing them how it's done",
+              "channelTitle": "CoryxKenshin Live",
+              "predicted7d": 5565061,
+              "viewCount": 4066139,
+              "delta": 1498922
+            },
+            {
+              "videoId": "eW2UuKY0HHs",
+              "title": "CoryxKenshin talking about him cussing",
+              "channelTitle": "CoryxKenshin Live",
+              "predicted7d": 3314617,
+              "viewCount": 2181783,
+              "delta": 1132834
+            }
+          ],
+          "theme": "CoryxKenshin 공식 채널 클립 및 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "O3085MDV1T8",
+              "title": "CORYXKENSHIN DOESN'T PLAY IT SAFE.",
+              "channelTitle": "CoryxKenshin",
+              "predicted7d": 11732661,
+              "delta": 4482057
+            },
+            {
+              "videoId": "x5bZ5Si2yPw",
+              "title": "Coryxkenshin showing them how it's done",
+              "channelTitle": "CoryxKenshin Live",
+              "predicted7d": 5565061,
+              "delta": 1498922
+            },
+            {
+              "videoId": "eW2UuKY0HHs",
+              "title": "CoryxKenshin talking about him cussing",
+              "channelTitle": "CoryxKenshin Live",
+              "predicted7d": 3314617,
+              "delta": 1132834
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-14/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "CoryxKenshin's Wildest Moments!",
+            "description": "2026-03-14_US_2\nDive into the best of CoryxKenshin! From his fearless gameplay to his unfiltered thoughts, this compilation captures why he's a legend. Get ready for pure entertainment!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=O3085MDV1T8\n2) https://www.youtube.com/watch?v=x5bZ5Si2yPw\n3) https://www.youtube.com/watch?v=eW2UuKY0HHs\n\n#Shorts #US",
+            "tags": [
+              "CoryxKenshin",
+              "CoryxKenshinShorts",
+              "Gaming",
+              "FunnyMoments",
+              "YouTubeShorts",
+              "BestOfCoryxKenshin",
+              "Gamer",
+              "Reaction",
+              "Unfiltered",
+              "Legend"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "vDfEGfGunPg"
+          },
+          "updatedAt": "2026-03-14T02:57:11.133Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-14T02:57:11.142Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ibai",
+          "pinky promise",
+          "fernanfloo"
+        ],
+        "updatedAt": "2026-03-14T02:57:21.125Z"
+      },
+      "assignedKeywords": [
+        "ibai",
+        "pinky promise"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 36
+            },
+            "vcClusters": [
+              {
+                "name": "Ibai 공식 이벤트: 벨라다 델 아뇨 & 프로모션",
+                "description": "이바이의 주요 복싱/엔터테인먼트 이벤트인 '벨라다 델 아뇨' 관련 공식 발표, 대결 장면, 스포일러, 하이라이트 영상 모음입니다. 주로 이바이의 공식 채널에서 제작 및 업로드된 콘텐츠로, 이벤트의 진행 상황이나 주요 인물들의 상호작용을 보여줍니다.",
+                "query": "이바이 벨라다",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "rNrEnirMKDQ",
+                    "title": "Mariana le trajo un \"regalo\" a Plex",
+                    "predicted7d": 10345690
+                  },
+                  {
+                    "videoId": "7te3kQM1NeY",
+                    "title": "¿Velada del Año VI?",
+                    "predicted7d": 7637579
+                  },
+                  {
+                    "videoId": "zeprDHfEGkk",
+                    "title": "Momento incomodo en La Velada?",
+                    "predicted7d": 4987452
+                  },
+                  {
+                    "videoId": "UgFdsmwIoSM",
+                    "title": "ILLOJUAN RETA A XOKAS PARA LA VELADA DEL AÑO 6",
+                    "predicted7d": 4733313
+                  },
+                  {
+                    "videoId": "JKeFxt10QNY",
+                    "title": "El cara a cara entre Yosoyplex VS elMariana",
+                    "predicted7d": 4123504
+                  },
+                  {
+                    "videoId": "m5F_faF0bq4",
+                    "title": "LAS RIVERS SE CONFUNDEN: VELADA DEL AÑO 3 🥊",
+                    "predicted7d": 3502722
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ibai",
+          "keyword": "이바이 벨라다",
+          "videos": [
+            {
+              "videoId": "rNrEnirMKDQ",
+              "title": "Mariana le trajo un \"regalo\" a Plex",
+              "channelTitle": "Ibai",
+              "predicted7d": 10345690,
+              "viewCount": 7921419,
+              "delta": 2424271
+            },
+            {
+              "videoId": "7te3kQM1NeY",
+              "title": "¿Velada del Año VI?",
+              "channelTitle": "Ibai",
+              "predicted7d": 7637579,
+              "viewCount": 5264150,
+              "delta": 2373429
+            },
+            {
+              "videoId": "zeprDHfEGkk",
+              "title": "Momento incomodo en La Velada?",
+              "channelTitle": "Ibai",
+              "predicted7d": 4987452,
+              "viewCount": 3632324,
+              "delta": 1355128
+            },
+            {
+              "videoId": "UgFdsmwIoSM",
+              "title": "ILLOJUAN RETA A XOKAS PARA LA VELADA DEL AÑO 6",
+              "channelTitle": "Ibai",
+              "predicted7d": 4733313,
+              "viewCount": 3815611,
+              "delta": 917702
+            }
+          ],
+          "theme": "Ibai 공식 이벤트: 벨라다 델 아뇨 & 프로모션",
+          "selectedSourceVideos": [
+            {
+              "videoId": "rNrEnirMKDQ",
+              "title": "Mariana le trajo un \"regalo\" a Plex",
+              "channelTitle": "Ibai",
+              "predicted7d": 10345690,
+              "delta": 2424271
+            },
+            {
+              "videoId": "7te3kQM1NeY",
+              "title": "¿Velada del Año VI?",
+              "channelTitle": "Ibai",
+              "predicted7d": 7637579,
+              "delta": 2373429
+            },
+            {
+              "videoId": "zeprDHfEGkk",
+              "title": "Momento incomodo en La Velada?",
+              "channelTitle": "Ibai",
+              "predicted7d": 4987452,
+              "delta": 1355128
+            },
+            {
+              "videoId": "UgFdsmwIoSM",
+              "title": "ILLOJUAN RETA A XOKAS PARA LA VELADA DEL AÑO 6",
+              "channelTitle": "Ibai",
+              "predicted7d": 4733313,
+              "delta": 917702
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-14/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Momentos Épicos de La Velada de Ibai!",
+            "description": "2026-03-14_MX_1\nRevive los momentos más impactantes y virales de La Velada del Año. Desde regalos inesperados hasta desafíos épicos y tensiones en el escenario. ¡No te pierdas lo mejor de Ibai y sus invitados!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=rNrEnirMKDQ\n2) https://www.youtube.com/watch?v=7te3kQM1NeY\n3) https://www.youtube.com/watch?v=zeprDHfEGkk\n4) https://www.youtube.com/watch?v=UgFdsmwIoSM\n\n#Shorts #MX",
+            "tags": [
+              "Ibai",
+              "LaVeladaDelAño",
+              "Velada",
+              "Shorts",
+              "Twitch",
+              "IlloJuan",
+              "Xokas",
+              "Mariana",
+              "Plex",
+              "MomentosVirales"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "vZoAqlKOS_E"
+          },
+          "updatedAt": "2026-03-14T02:58:32.840Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 35
+            },
+            "vcClusters": [
+              {
+                "name": "핑크키 프라미스 공식 쇼츠/하이라이트",
+                "description": "유튜브 채널 'Pinky Promise'에서 직접 업로드한, 유명인 인터뷰 쇼의 짧은 하이라이트 클립 또는 예고편 모음입니다. 주로 쇼의 특정 재미있는 순간이나 중요한 발언을 담고 있습니다.",
+                "query": "핑크키 프라미스 쇼츠",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Yr9o_IpUlys",
+                    "title": "Lucerito imita a sus papás",
+                    "predicted7d": 7429754
+                  },
+                  {
+                    "videoId": "qp8-UyuMUnQ",
+                    "title": "Señora cachetada 😳😅",
+                    "predicted7d": 4378885
+                  },
+                  {
+                    "videoId": "zEHN5hUc940",
+                    "title": "Cuando se enamoró de Ricardo Pérez",
+                    "predicted7d": 3803616
+                  },
+                  {
+                    "videoId": "ENb-B48jE44",
+                    "title": "Un crush con Paulina Rubio 😱💖",
+                    "predicted7d": 1742667
+                  },
+                  {
+                    "videoId": "NnfhgEoNEf0",
+                    "title": "La peor entrevista que ha tenido Yordi",
+                    "predicted7d": 1449355
+                  },
+                  {
+                    "videoId": "FujIqpUoovI",
+                    "title": "😱 Thalia nos reveló su más íntimo secreto",
+                    "predicted7d": 1424262
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "pinky promise",
+          "keyword": "핑크키 프라미스 쇼츠",
+          "videos": [
+            {
+              "videoId": "Yr9o_IpUlys",
+              "title": "Lucerito imita a sus papás",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 7429754,
+              "viewCount": 5698224,
+              "delta": 1731530
+            },
+            {
+              "videoId": "qp8-UyuMUnQ",
+              "title": "Señora cachetada 😳😅",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 4378885,
+              "viewCount": 3691992,
+              "delta": 686893
+            },
+            {
+              "videoId": "zEHN5hUc940",
+              "title": "Cuando se enamoró de Ricardo Pérez",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 3803616,
+              "viewCount": 3030519,
+              "delta": 773097
+            },
+            {
+              "videoId": "ENb-B48jE44",
+              "title": "Un crush con Paulina Rubio 😱💖",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 1742667,
+              "viewCount": 1403424,
+              "delta": 339243
+            }
+          ],
+          "theme": "핑크키 프라미스 공식 쇼츠/하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Yr9o_IpUlys",
+              "title": "Lucerito imita a sus papás",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 7429754,
+              "delta": 1731530
+            },
+            {
+              "videoId": "qp8-UyuMUnQ",
+              "title": "Señora cachetada 😳😅",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 4378885,
+              "delta": 686893
+            },
+            {
+              "videoId": "zEHN5hUc940",
+              "title": "Cuando se enamoró de Ricardo Pérez",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 3803616,
+              "delta": 773097
+            },
+            {
+              "videoId": "ENb-B48jE44",
+              "title": "Un crush con Paulina Rubio 😱💖",
+              "channelTitle": "Pinky Promise",
+              "predicted7d": 1742667,
+              "delta": 339243
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-14/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "¡Momentos Inolvidables de Pinky Promise!",
+            "description": "2026-03-14_MX_2\nRevive los momentos más impactantes y divertidos de Pinky Promise. Desde imitaciones virales hasta confesiones de amor y sorpresas inesperadas. ¡No te pierdas este resumen lleno de emociones!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=Yr9o_IpUlys\n2) https://www.youtube.com/watch?v=qp8-UyuMUnQ\n3) https://www.youtube.com/watch?v=zEHN5hUc940\n4) https://www.youtube.com/watch?v=ENb-B48jE44\n\n#Shorts #MX",
+            "tags": [
+              "PinkyPromise",
+              "Shorts",
+              "MomentosVirales",
+              "Lucerito",
+              "Cachetada",
+              "RicardoPerez",
+              "PaulinaRubio",
+              "Famosos",
+              "Entrevistas",
+              "Chismes"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "sUMU6h1LzIc"
+          },
+          "updatedAt": "2026-03-14T02:59:51.055Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-14T02:59:51.064Z"
+    }
+  },
+  "finishedAt": "2026-03-14T02:59:51.067Z"
+}

@@ -34,18 +34,18 @@ export const VIDEOS_PER_REGION = 2;
 /** 
  * [하이라이트 초]
  **/
-export const HIGHLIGHT_SECOND = 11.2;
+export const HIGHLIGHT_SECOND = 11.3;
 /**
  * [상수 책임] 검증 기준
  */
 export const VALIDATION = {
-  recentDays: 5,
-  minShortsCount: 3,
+  recentDays: 3,
+  minShortsCount: 4,
   maxShortsSec: 80,
 
   // predicted_7day_views >= 70k 영상이 4개 이상
   minPredictedViews: 70_000,
-  minQualifiedVideos: 3,
+  minQualifiedVideos: 4,
   targetVideoCount: 4
 };
 

@@ -40,12 +40,20 @@ async function main() {
   const runner = new PipelineRunner({ env, paths, store }); // Resume/상태관리/재시도/서비스 호출을 담당하는 클래스
 
   log.info({ runId }, "=== DAILY PIPELINE을 시작합니다. ===");
+  
+  const stats = await runner.evaluatePastPredictions();
+  if (stats && stats.count > 0) {
+    // 소수점 2자리까지만 예쁘게 출력
+    log.info(`[시스템 지표] 현재까지 누적 MAPE: ${stats.mape.toFixed(2)}% (총 ${stats.count}건 검증)`);
+  } else {
+    log.info(`[시스템 지표] 검증 가능한 7일 경과 데이터가 아직 없습니다.`);
+  }
 
   // ✅ 실행 순서만 남김 (가독성 최우선)
   for (const region of REGIONS) {
     await runner.runRegionKeword(region, runId); // 산출물로 region의 트랜드 데이터 저장. 순위 필터링 로직 필요.
 
-    for (let slot =1; slot <= VIDEOS_PER_REGION; slot += 1) { // 반복이 끝나면 slot을 1 증가시킴.
+    for (let slot = 1; slot <= VIDEOS_PER_REGION; slot += 1) { // 반복이 끝나면 slot을 1 증가시킴.
       await runner.runVideoSlot(region, runId, slot);
     }
   }

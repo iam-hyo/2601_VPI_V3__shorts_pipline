@@ -2,8 +2,6 @@
  * [파일 책임]
  * - 파일/폴더 유틸(원자적 JSON 저장 포함)
  */
-
-import { file } from "googleapis/build/src/apis/file";
 import fs from "node:fs";
 import path from "node:path";
 

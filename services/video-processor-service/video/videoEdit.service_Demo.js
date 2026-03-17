@@ -370,117 +370,116 @@ export async function getSmartHighlightTimestamps(subPath, videoId) {
  */
 export async function mergeHighlightsWithIntegratedTitles(args) {
   const {
-    highlightPaths,
-    durations = [],
-    ttsPaths,
-    titleInfos,
-    outputPath,
-    width = 1080,
-    height = 1920,
-    fps = 30,
-    vidFadeSec = 0.3,
-    sampleRate = 44100,
-    titleFontPath,
-    slotID = "UNKNOWN",
-    moveStart = 1, // 타이틀 애니메이션 시작
-    moveEnd // 타이틀 애니메이션 종료
+    highlightPaths, durations = [], ttsPaths, titleInfos, outputPath,
+    topic,
+    region = 'US',
+    width = 1080, height = 1920, fps = 30, vidFadeSec = 0.3, sampleRate = 44100,
+    titleFontPath, slotID = "UNKNOWN", moveStart = 1, moveEnd
   } = args;
 
   const n = highlightPaths.length;
-  // 입력 순서: [영상1, 영상2, 영상3, 영상4, TTS1, TTS2, TTS3, TTS4]
+  if (n !== 4) throw new Error("4분할 인트로를 구성하려면 정확히 4개의 영상이 필요합니다.");
+
   const inputArgs = [
     ...highlightPaths.map(p => `-i "${path.resolve(p)}"`),
     ...ttsPaths.map(p => `-i "${path.resolve(p)}"`)
   ].join(" ");
+
   const filters = [];
+  const introTranslations = {
+    'KR': "이번주엔 이 클립이 뜰 꺼라고?",
+    'US': "Viral this week?",
+    'MX': "¿Viral esta semana?"
+  };
+  const subText = introTranslations[region] || introTranslations['US'];
+  const fontPath = fixPathForFfmpeg(titleFontPath, "drawtextFontfile");
+  
+  const introDur = 2.0; // 앞서 논의한 2.0초 인트로 유지
 
+  // =========================================================================
+  // [PART 1] 비디오 입력 복제
+  // =========================================================================
   for (let i = 0; i < n; i++) {
-    const rawCaption = titleInfos[i].caption;
-    const fullText = `${titleInfos[i].index}. ${rawCaption}`;
-    const wrappedText = wrapCaption(fullText, 25); // 25자 기준 줄바꿈
+    filters.push(`[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p,setsar=1,split=2[intro_v${i}_base][main_v${i}_base]`);
+  }
 
-    // 2. 통합 유틸리티의 'drawtext' 모드를 사용하여 한 번에 처리
-    // 이 함수가 내부에서 ' -> ’ 변환 및 : 이스케이프를 모두 수행합니다.
-    const safeCaption = fixPathForFfmpeg(wrappedText, "drawtext");
-    const fontPath = fixPathForFfmpeg(titleFontPath, "drawtextFontfile");
-    const currentDur = durations[i] || 10.0; // 해당 클립의 동적 길이 사용
-    const fadeOutStart = (currentDur - vidFadeSec).toFixed(1);
+  // =========================================================================
+  // [PART 2] 2초 4분할 인트로 (0th Clip) 구성
+  // =========================================================================
+  for (let i = 0; i < n; i++) {
+    filters.push(`[intro_v${i}_base]trim=0:${introDur},setpts=PTS-STARTPTS,scale=${width/2}:${height/2}[grid_v${i}]`);
+  }
+  
+  filters.push(`[grid_v0][grid_v1]hstack=inputs=2[top]`);
+  filters.push(`[grid_v2][grid_v3]hstack=inputs=2[bottom]`);
+  filters.push(`[top][bottom]vstack=inputs=2[intro_bg]`);
 
-    // --- [1번 해결: 애니메이션 수식 설계] ---
-    const moveDur = (moveEnd - moveStart).toFixed(1); // 0.4초
+  // 💡 인트로 비디오 페이드 아웃 추가 (끝나는 시점에 0.3초간 어두워짐)
+  let introFilter = `[intro_bg]drawtext=text='${topic}':fontfile='${fontPath}':fontcolor=yellow:fontsize=140:borderw=10:bordercolor=black:x=(w-text_w)/2:y=(h-text_h)/2-100`;
+  introFilter += `,drawtext=text='${subText}':fontfile='${fontPath}':fontcolor=white:fontsize=80:borderw=8:bordercolor=black:x=(w-text_w)/2:y=(h-text_h)/2+50`;
+  introFilter += `,fade=t=out:st=${introDur - vidFadeSec}:d=${vidFadeSec}[intro_vout]`;
+  filters.push(introFilter);
+
+  // 💡 인트로 오디오 페이드 아웃 추가
+  const introTtsIdx = n;
+  filters.push(`[${introTtsIdx}:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo,apad,atrim=0:${introDur},asetpts=PTS-STARTPTS,afade=t=out:st=${introDur - vidFadeSec}:d=${vidFadeSec}[intro_aout]`);
+
+  // =========================================================================
+  // [PART 3] 본문 영상 4개 (1st ~ 4th Clips)
+  // =========================================================================
+  for (let i = 0; i < n; i++) {
+    const currentDur = durations[i] || 10.0;
+    const fadeOutStart = (currentDur + moveEnd - vidFadeSec).toFixed(1);
     const fadeDuration = moveEnd + 0.2 - moveStart;
 
-    const startY = `(h-th)/2`; // 중앙
-    const endY = `180`;        // 상단
-    const startFS = 85;        // 시작 크기
-    const endFS = 55;          // 종료 크기
+    const rawCaption = titleInfos[i].caption;
+    const fullText = `${titleInfos[i].index}. ${rawCaption}`;
+    const wrappedText = wrapCaption(fullText, 25);
+    const safeCaption = fixPathForFfmpeg(wrappedText, "drawtext");
 
-    // Y 좌표: 0.8초부터 1.2초까지 선형 이동
+    const moveDur = (moveEnd - moveStart).toFixed(1);
+    const startY = `(h-th)/2`; const endY = `180`;
+    const startFS = 85; const endFS = 55;
     const animY = `if(lt(t,${moveStart}), ${startY}, if(lt(t,${moveEnd}), ${startY}-(${startY}-${endY})*(t-${moveStart})/${moveDur}, ${endY}))`;
-    // 폰트 크기: 0.8초부터 1.2초까지 선형 축소
     const animFS = `if(lt(t,${moveStart}), ${startFS}, if(lt(t,${moveEnd}), ${startFS}-(${startFS}-${endFS})*(t-${moveStart})/${moveDur}, ${endFS}))`;
 
-    // --- [비디오 필터] ---
-    let vFilter = `[${i}:v]scale=${width}:${height}:force_original_aspect_ratio=increase,crop=${width}:${height},fps=${fps},format=yuv420p,setsar=1`;
-
-    // 암전 레이어 (애니메이션에 맞춰 딤 처리)
-    vFilter += `,drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
-
-    // 2) [수정] 1.2초 후 배경 박스 위치를 텍스트 위치(180)에 맞춤
-    // 박스 높이가 220이므로 y=130 정도면 y=180인 텍스트의 위아래를 적절히 감쌉니다.
-    const boxY = 130;
-    const boxHeight = 220;
-    vFilter += `,drawbox=y=${boxY}:color=black@0.6:width=iw:height=${boxHeight}:t=fill:enable='gt(t,${moveEnd})'`;
-
-    // 텍스트 필터 (애니메이션 적용)
-    // 3) 텍스트 정중앙 배치 (drawtext 부분)
-    vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:line_spacing=10:`;
-    vFilter += `fontsize='${animFS}':line_spacing=15:`;
-    vFilter += `x=(w-text_w)/2:y='${animY}':expansion=none`;
-
-    vFilter += `,fade=t=out:st=${fadeOutStart}:d=${vidFadeSec}[v${i}]`;
+    // 💡 비디오: 시작할 때 Fade-In (0초~0.3초), 끝날 때 Fade-Out 동시 적용
+    let vFilter = `[main_v${i}_base]drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,${moveEnd})'`;
+    vFilter += `,drawbox=y=0:color=black@0.6:width=iw:height=350:t=fill:enable='gt(t,${moveEnd})'`;
+    vFilter += `,drawtext=text='${safeCaption}':fontfile='${fontPath}':fontcolor=white:line_spacing=10:fontsize='${animFS}':x=(w-text_w)/2:y='${animY}':expansion=none`;
+    vFilter += `,fade=t=in:st=0:d=${vidFadeSec},fade=t=out:st=${fadeOutStart}:d=${vidFadeSec}[main_vout${i}]`;
     filters.push(vFilter);
 
-    // --- [오디오 필터 고도화] ---
-    // i: 하이라이트 오디오 인덱스, n+i: TTS 오디오 인덱스
     let aFilter = `[${i}:a]aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo`;
-
-    // 1. 하이라이트 배경음 처리 (0.8초까지 20% 볼륨, 이후 페이드인)
     aFilter += `,volume=enable='lt(t,${moveStart})':volume=0.2,afade=t=in:st=${moveStart}:d=${fadeDuration}`;
-
-    // 2. TTS와 믹싱 (amix)
-    // tts 오디오([n+i:a])를 가져와서 하이라이트 오디오와 섞습니다. 속도 x1.3배: atempo=1.3
-    // TTS는 0.2초 정도 살짝 늦게 나오게(adelay) 하면 더 자연스럽습니다. 100|100 -> 왼쪽 오른쪽 
-    const ttsIndex = n + i;
-    const ttsFilter = `[${ttsIndex}:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts${i}]`;
+    
+    const ttsIdx = n + 1 + i;
+    const ttsFilter = `[${ttsIdx}:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=${sampleRate}:channel_layouts=stereo[tts_a${i}]`;
     filters.push(ttsFilter);
 
-    aFilter += `[bg${i}];[bg${i}][tts${i}]amix=inputs=2:duration=first:dropout_transition=2`;
-
-    // 3. 최종 페이드 아웃
-    aFilter += `,afade=t=out:st=${fadeOutStart}:d=${vidFadeSec}[a${i}]`;
-
+    // 💡 오디오: 배경음과 TTS가 믹싱된 최종 사운드에 Fade-In/Out 동시 적용
+    aFilter += `[bg${i}];[bg${i}][tts_a${i}]amix=inputs=2:duration=first:dropout_transition=2`;
+    aFilter += `,afade=t=in:st=0:d=${vidFadeSec},afade=t=out:st=${fadeOutStart}:d=${vidFadeSec}[main_aout${i}]`;
     filters.push(aFilter);
   }
 
-  const concatInputs = highlightPaths.map((_, i) => `[v${i}][a${i}]`).join("");
-  filters.push(`${concatInputs}concat=n=${n}:v=1:a=1[vout][aout]`);
+  // =========================================================================
+  // [PART 4] 최종 병합
+  // =========================================================================
+  const concatInputs = `[intro_vout][intro_aout]` + Array.from({length: n}, (_, i) => `[main_vout${i}][main_aout${i}]`).join("");
+  filters.push(`${concatInputs}concat=n=${n + 1}:v=1:a=1[vout][aout]`);
 
   const filterComplex = filters.join(";");
   const cmd = [
     `ffmpeg -y ${inputArgs}`,
     `-filter_complex "${filterComplex}"`,
     `-map "[vout]" -map "[aout]"`,
-    `-c:v libx264`,
-    `-preset medium`,    // 품질 향상 (superfast -> medium)
-    `-crf 18`,           // 품질 향상 (23 -> 18)
-    `-pix_fmt yuv420p`,
-    `-c:a aac`,
-    `-b:a 192k`,
+    `-c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p`,
+    `-c:a aac -b:a 192k`,
     `"${path.resolve(outputPath)}"`
   ].join(" ");
 
-  console.log(`[${slotID}] 🚀 고도화 V2: 슬라이딩 애니메이션 & 사운드 믹스 적용`);
+  console.log(`[${slotID}] 🚀 고도화 V3: 트랜지션(Fade In/Out) 보강 적용`);
   await exec(cmd);
 }
 

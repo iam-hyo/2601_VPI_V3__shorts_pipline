@@ -1,0 +1,980 @@
+{
+  "runId": "2026-03-16",
+  "date": "2026-03-16",
+  "createdAt": "2026-03-16T02:50:01.664Z",
+  "updatedAt": "2026-03-16T03:02:22.827Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "일본 베네수엘라",
+          "mc 딩동",
+          "장인수",
+          "한국 호주",
+          "김가람",
+          "프리지아",
+          "차지연",
+          "버터 떡",
+          "로드 fc",
+          "WBC 한국",
+          "동훈 이일걸",
+          "이정후",
+          "김하온",
+          "전한길",
+          "paralympics 2026",
+          "pba",
+          "나 우아 임영",
+          "김태인",
+          "토트넘",
+          "내 새끼 의 연애 2"
+        ],
+        "updatedAt": "2026-03-16T02:50:16.333Z"
+      },
+      "assignedKeywords": [
+        "mc 딩동",
+        "장인수",
+        "한국 호주"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 39
+            },
+            "vcClusters": [
+              {
+                "name": "장인수 공소취소설 - 공식 언론 보도 및 분석",
+                "description": "JTBC, SBS 등 주류 언론 채널에서 '장인수 공소취소 거래설' 관련 사건을 보도하거나, 해당 이슈를 다루는 라디오/TV 프로그램의 공식 클립. 주로 사실 전달 및 전문가 분석에 초점을 맞춥니다.",
+                "query": "장인수 공식 보도",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "8G-L3RVnWlM",
+                    "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\" #JTBC #Shorts",
+                    "predicted7d": 585247
+                  },
+                  {
+                    "videoId": "nX6z7uCEHp0",
+                    "title": "최선호 \"장인수 보도가 완결성가지려면, '고위 정부 관계자' 누군지 밝혀야\"",
+                    "predicted7d": 308949
+                  },
+                  {
+                    "videoId": "n6oeTa_hb5E",
+                    "title": "'공소취소 거래설' 김어준·장인수 고발당해…\"허위사실 유포\"｜지금 이 쇼츠",
+                    "predicted7d": 49828
+                  }
+                ]
+              },
+              {
+                "name": "장인수 공소취소설 - 시사 평론 및 비판적 논평",
+                "description": "장인수 기자의 '공소취소 거래설' 보도와 김어준 등 관련 인물들의 행보에 대해 비판적 시각으로 분석하고 논평하는 영상들. 주로 정치 평론 채널이나 시사 토크쇼 클립 형태로, 논란의 책임 소재를 묻거나 의혹을 제기하는 내용이 많습니다.",
+                "query": "장인수 논란 비판",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "RbesIRVLBDo",
+                    "title": "근거 없이 정부 흔드는 장인수에 최욱 방송 중 긴급 손절ㄷㄷ",
+                    "predicted7d": 1143012
+                  },
+                  {
+                    "videoId": "n4YN7xNnmJo",
+                    "title": "정부고위관계자가 누군지 장인수가 특정만 해달라‼️",
+                    "predicted7d": 750017
+                  },
+                  {
+                    "videoId": "IjPPxxm8zgY",
+                    "title": "크게 불질러놓고!! 위험해지면 깐다고?? #이상호 #장인수 #공소취소 #쇼츠 #shorts",
+                    "predicted7d": 748333
+                  },
+                  {
+                    "videoId": "qnK8Lf-Lke0",
+                    "title": "장인수의 무차별 폭로. 얼마나 무책임한 짓이냐",
+                    "predicted7d": 743804
+                  },
+                  {
+                    "videoId": "MS5wacKZZUg",
+                    "title": "공소취소 거래가 말이 되냐? #최강욱 #공천취소 #장인수 #정치쇼츠 #메아리미디어",
+                    "predicted7d": 679393
+                  },
+                  {
+                    "videoId": "erVBsut4AOw",
+                    "title": "봉지욱이 장인수 기자하게 이 조언을 했는데! 그대로 됐다 #봉지욱 #장인수 #공천취소 #정치쇼츠 #메아리미디어",
+                    "predicted7d": 627746
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "장인수",
+          "keyword": "장인수 논란 비판",
+          "videos": [
+            {
+              "videoId": "RbesIRVLBDo",
+              "title": "근거 없이 정부 흔드는 장인수에 최욱 방송 중 긴급 손절ㄷㄷ",
+              "channelTitle": "애국청년김태풍",
+              "predicted7d": 1143012,
+              "viewCount": 839515,
+              "delta": 303497
+            },
+            {
+              "videoId": "n4YN7xNnmJo",
+              "title": "정부고위관계자가 누군지 장인수가 특정만 해달라‼️",
+              "channelTitle": "민주는 파출부",
+              "predicted7d": 750017,
+              "viewCount": 566081,
+              "delta": 183936
+            },
+            {
+              "videoId": "IjPPxxm8zgY",
+              "title": "크게 불질러놓고!! 위험해지면 깐다고?? #이상호 #장인수 #공소취소 #쇼츠 #shorts",
+              "channelTitle": "여러모로",
+              "predicted7d": 748333,
+              "viewCount": 510986,
+              "delta": 237347
+            },
+            {
+              "videoId": "qnK8Lf-Lke0",
+              "title": "장인수의 무차별 폭로. 얼마나 무책임한 짓이냐",
+              "channelTitle": "이동형TV",
+              "predicted7d": 743804,
+              "viewCount": 571735,
+              "delta": 172069
+            }
+          ],
+          "theme": "장인수 공소취소설 - 시사 평론 및 비판적 논평",
+          "selectedSourceVideos": [
+            {
+              "videoId": "RbesIRVLBDo",
+              "title": "근거 없이 정부 흔드는 장인수에 최욱 방송 중 긴급 손절ㄷㄷ",
+              "channelTitle": "애국청년김태풍",
+              "predicted7d": 1143012,
+              "delta": 303497
+            },
+            {
+              "videoId": "n4YN7xNnmJo",
+              "title": "정부고위관계자가 누군지 장인수가 특정만 해달라‼️",
+              "channelTitle": "민주는 파출부",
+              "predicted7d": 750017,
+              "delta": 183936
+            },
+            {
+              "videoId": "IjPPxxm8zgY",
+              "title": "크게 불질러놓고!! 위험해지면 깐다고?? #이상호 #장인수 #공소취소 #쇼츠 #shorts",
+              "channelTitle": "여러모로",
+              "predicted7d": 748333,
+              "delta": 237347
+            },
+            {
+              "videoId": "qnK8Lf-Lke0",
+              "title": "장인수의 무차별 폭로. 얼마나 무책임한 짓이냐",
+              "channelTitle": "이동형TV",
+              "predicted7d": 743804,
+              "delta": 172069
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "장인수 무책임 폭로, 결국 손절당한 이유?",
+            "description": "2026-03-16_KR_1\n근거 없는 폭로로 논란의 중심에 선 장인수! 최욱의 긴급 손절부터 무책임한 태도까지, 그의 문제점을 낱낱이 파헤칩니다. 과연 그의 폭로는 진실일까요?\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=RbesIRVLBDo\n2) https://www.youtube.com/watch?v=n4YN7xNnmJo\n3) https://www.youtube.com/watch?v=IjPPxxm8zgY\n4) https://www.youtube.com/watch?v=qnK8Lf-Lke0\n\n#Shorts #KR",
+            "tags": [
+              "장인수",
+              "장인수논란",
+              "장인수비판",
+              "최욱손절",
+              "무책임폭로",
+              "정부비판",
+              "이상호",
+              "공소취소",
+              "시사논평",
+              "유튜브쇼츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "_Wk-a6sP_OI"
+          },
+          "updatedAt": "2026-03-16T02:52:48.636Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 49,
+              "totalShorts": 23
+            },
+            "vcClusters": [
+              {
+                "name": "WBC 한국 호주 - 공식 뉴스 보도",
+                "description": "주요 언론사 채널에서 송출된 한국 대 호주 WBC 경기 결과 및 관련 소식을 다루는 공식 보도 영상 모음. 앵커 브리핑, 그래픽, 선수 부상 등 경기 외적 소식 포함.",
+                "query": "WBC 공식 보도",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "WBC 한국 호주 - 경기 하이라이트",
+                "description": "한국 대 호주 WBC 경기 중 결정적인 순간, 선수들의 활약, 극적인 상황 등을 편집하여 보여주는 영상. 짧은 쇼츠 형식이나 특정 장면 집중 편집 영상 포함.",
+                "query": "WBC 경기 명장면",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "DykEqHrTrjs",
+                    "title": "'경우의 수'를 뚫어낸 대한민국ㄷㄷ",
+                    "predicted7d": 1629541
+                  },
+                  {
+                    "videoId": "Is8V99CAkhU",
+                    "title": "호주전 끝나고 눈물을 보이는 고우석...",
+                    "predicted7d": 728271
+                  },
+                  {
+                    "videoId": "iHJVP1w5qwA",
+                    "title": "[2026 WBC] 42세 든든한 큰형님 I #shorts I TVINGSPORTS",
+                    "predicted7d": 707746
+                  },
+                  {
+                    "videoId": "Gfb-98iXAMc",
+                    "title": "소름 돋는 WBC 호주전 9회 하이라이트 #WBC #호주전 #경우의수",
+                    "predicted7d": 493569
+                  },
+                  {
+                    "videoId": "zOEj0gThurM",
+                    "title": "WBC 호주전 대한민국 기적의 8강 진출!!!(일본중계) #wbc #8강 ",
+                    "predicted7d": 255772
+                  },
+                  {
+                    "videoId": "K2p8pQuQ_sA",
+                    "title": "[대한민국vs호주] 1실점 했지만 다시 5점차 만드는 대한민국 ㄷㄷ",
+                    "predicted7d": 243959
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "한국 호주",
+          "keyword": "WBC 경기 명장면",
+          "videos": [
+            {
+              "videoId": "DykEqHrTrjs",
+              "title": "'경우의 수'를 뚫어낸 대한민국ㄷㄷ",
+              "channelTitle": "뉴스래빗",
+              "predicted7d": 1629541,
+              "viewCount": 1234449,
+              "delta": 395092
+            },
+            {
+              "videoId": "Is8V99CAkhU",
+              "title": "호주전 끝나고 눈물을 보이는 고우석...",
+              "channelTitle": "맛있스포츠 Deliciousports",
+              "predicted7d": 728271,
+              "viewCount": 516549,
+              "delta": 211722
+            },
+            {
+              "videoId": "iHJVP1w5qwA",
+              "title": "[2026 WBC] 42세 든든한 큰형님 I #shorts I TVINGSPORTS",
+              "channelTitle": "TVING SPORTS",
+              "predicted7d": 707746,
+              "viewCount": 513311,
+              "delta": 194435
+            },
+            {
+              "videoId": "Gfb-98iXAMc",
+              "title": "소름 돋는 WBC 호주전 9회 하이라이트 #WBC #호주전 #경우의수",
+              "channelTitle": "야구왕김삼진",
+              "predicted7d": 493569,
+              "viewCount": 392653,
+              "delta": 100916
+            }
+          ],
+          "theme": "WBC 한국 호주 - 경기 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "DykEqHrTrjs",
+              "title": "'경우의 수'를 뚫어낸 대한민국ㄷㄷ",
+              "channelTitle": "뉴스래빗",
+              "predicted7d": 1629541,
+              "delta": 395092
+            },
+            {
+              "videoId": "Is8V99CAkhU",
+              "title": "호주전 끝나고 눈물을 보이는 고우석...",
+              "channelTitle": "맛있스포츠 Deliciousports",
+              "predicted7d": 728271,
+              "delta": 211722
+            },
+            {
+              "videoId": "iHJVP1w5qwA",
+              "title": "[2026 WBC] 42세 든든한 큰형님 I #shorts I TVINGSPORTS",
+              "channelTitle": "TVING SPORTS",
+              "predicted7d": 707746,
+              "delta": 194435
+            },
+            {
+              "videoId": "Gfb-98iXAMc",
+              "title": "소름 돋는 WBC 호주전 9회 하이라이트 #WBC #호주전 #경우의수",
+              "channelTitle": "야구왕김삼진",
+              "predicted7d": 493569,
+              "delta": 100916
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "WBC 레전드 명장면: 눈물과 투혼의 순간들",
+            "description": "2026-03-16_KR_2\nWBC 경기 중 팬들의 심장을 울린 명장면들을 모았습니다. 경우의 수를 뚫어낸 기적부터 노장의 투혼, 그리고 아쉬움의 눈물까지, 잊을 수 없는 순간들을 다시 만나보세요.\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=DykEqHrTrjs\n2) https://www.youtube.com/watch?v=Is8V99CAkhU\n3) https://www.youtube.com/watch?v=iHJVP1w5qwA\n4) https://www.youtube.com/watch?v=Gfb-98iXAMc\n\n#Shorts #KR",
+            "tags": [
+              "WBC",
+              "WBC명장면",
+              "야구하이라이트",
+              "국가대표",
+              "야구쇼츠",
+              "스포츠명장면",
+              "고우석",
+              "경우의수",
+              "야구레전드"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "QgjgqgXKjDQ"
+          },
+          "updatedAt": "2026-03-16T02:55:47.919Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-16T02:55:47.928Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "bam adebayo",
+          "ring royale",
+          "oscars",
+          "enhypen",
+          "party at the beach"
+        ],
+        "updatedAt": "2026-03-16T02:55:58.917Z"
+      },
+      "assignedKeywords": [
+        "bam adebayo",
+        "ring royale"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 28
+            },
+            "vcClusters": [
+              {
+                "name": "농구 전문가 토론 및 분석",
+                "description": "샤크, 찰스 바클리, 빌 시몬스 등 유명 스포츠 평론가 및 전문가들이 뱀 아데바요의 83점 기록에 대해 토론하고 분석하는 스튜디오 또는 패널 형식의 영상 모음입니다.",
+                "query": "전문가 토론",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "XYcf7GzmTHk",
+                    "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+                    "predicted7d": 398357
+                  },
+                  {
+                    "videoId": "48PZwdbEi2I",
+                    "title": "Swaggy P says \"F*CK BAM ADEBAYO\"",
+                    "predicted7d": 333533
+                  },
+                  {
+                    "videoId": "OmRAdxAWxs8",
+                    "title": "Chuck on Bam Adebayo's 83-PT game 😅",
+                    "predicted7d": 120786
+                  },
+                  {
+                    "videoId": "I96PfjvaP5s",
+                    "title": "Shaq & Barkley React to Bam Adebayo’s INSANE 83 Points",
+                    "predicted7d": 46637
+                  },
+                  {
+                    "videoId": "KGKju0MBmAQ",
+                    "title": "Charles Barkley on the Wizards allowing Bam Adebayo to score 83 on them",
+                    "predicted7d": 41066
+                  },
+                  {
+                    "videoId": "cPWfueaOqoo",
+                    "title": "FROM BAM TO BUM!! 🤣 Chuck and Shaq roast Bam Adebayo for scoring just 20pts after scoring 83pts!",
+                    "predicted7d": 5390
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bam adebayo",
+          "keyword": "전문가 토론",
+          "videos": [
+            {
+              "videoId": "XYcf7GzmTHk",
+              "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+              "channelTitle": "Bill Simmons",
+              "predicted7d": 398357,
+              "viewCount": 286441,
+              "delta": 111916
+            },
+            {
+              "videoId": "48PZwdbEi2I",
+              "title": "Swaggy P says \"F*CK BAM ADEBAYO\"",
+              "channelTitle": "The Arena",
+              "predicted7d": 333533,
+              "viewCount": 280406,
+              "delta": 53127
+            },
+            {
+              "videoId": "OmRAdxAWxs8",
+              "title": "Chuck on Bam Adebayo's 83-PT game 😅",
+              "channelTitle": "ESPN",
+              "predicted7d": 120786,
+              "viewCount": 60827,
+              "delta": 59959
+            }
+          ],
+          "theme": "농구 전문가 토론 및 분석",
+          "selectedSourceVideos": [
+            {
+              "videoId": "XYcf7GzmTHk",
+              "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+              "channelTitle": "Bill Simmons",
+              "predicted7d": 398357,
+              "delta": 111916
+            },
+            {
+              "videoId": "48PZwdbEi2I",
+              "title": "Swaggy P says \"F*CK BAM ADEBAYO\"",
+              "channelTitle": "The Arena",
+              "predicted7d": 333533,
+              "delta": 53127
+            },
+            {
+              "videoId": "OmRAdxAWxs8",
+              "title": "Chuck on Bam Adebayo's 83-PT game 😅",
+              "channelTitle": "ESPN",
+              "predicted7d": 120786,
+              "delta": 59959
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "NBA Experts Debate Bam's 83-Point Game",
+            "description": "2026-03-16_US_1\nNBA analysts erupt over Bam Adebayo's historic 83-point performance! From wild praise to shocking outrage, hear the hottest takes. Who truly understands Bam's epic night?\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=XYcf7GzmTHk\n2) https://www.youtube.com/watch?v=48PZwdbEi2I\n3) https://www.youtube.com/watch?v=OmRAdxAWxs8\n\n#Shorts #US",
+            "tags": [
+              "BamAdebayo",
+              "NBA",
+              "Shorts",
+              "Basketball",
+              "HotTakes",
+              "SportsDebate",
+              "BillSimmons",
+              "SwaggyP",
+              "CharlesBarkley",
+              "83Points"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "S6I7w_FfUws"
+          },
+          "updatedAt": "2026-03-16T02:57:46.310Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 21
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale 공식 홍보 및 기자회견",
+                "description": "이벤트 주최측 또는 공식 채널에서 공개한 티저, 홍보 영상, 기자회견 현장 스케치 등 공식적인 정보 전달 및 행사 분위기를 담은 영상 모음입니다.",
+                "query": "링 로얄 공식",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "Ring Royale 계체량 및 대면식",
+                "description": "경기 전 선수들의 계체량 측정, 신경전, 대면식 등 긴장감 넘치는 사전 행사를 담은 뉴스 및 현장 스케치 영상 모음입니다.",
+                "query": "링 로얄 계체량",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "MJozBD6rEMI",
+                    "title": "Esposo de Karely Ruiz ENFRENTA a Alfredo Adame al terminar el careo en Ring Royale 😱 #DePrimeraMano",
+                    "predicted7d": 361414
+                  },
+                  {
+                    "videoId": "CX3zfABcWlw",
+                    "title": "KARELY RUIZ Y MARCELA MISTRAL ENCIENDEN EL PESAJE DE RING ROYALE",
+                    "predicted7d": 136458
+                  },
+                  {
+                    "videoId": "I1hW7ic1NAk",
+                    "title": "VEAN! Alfredo Adame Golpeado ASÍ LO DEFENDIO SU ENTRENADOR vs El esposo de Karely Ruiz RING ROYALE",
+                    "predicted7d": 113474
+                  },
+                  {
+                    "videoId": "pd_tWT_IFjA",
+                    "title": "EL PATRÓN pesó 103.800 kgs rumbo a pelea con CHUY ALMADA en el Ring Royale 🥊",
+                    "predicted7d": 90613
+                  },
+                  {
+                    "videoId": "DzhoCcT96-4",
+                    "title": "😱🔥 Karely Ruiz vs Marcela en el ring royale de poncho de Nigris #box #ringroyale #karely",
+                    "predicted7d": 64012
+                  },
+                  {
+                    "videoId": "qFP5hM-t7Lo",
+                    "title": "ELABELITO registró 30 kgs para la pelea que tendrá contra #BullTerrie en \"Ring Royale\" 🥊",
+                    "predicted7d": 55789
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "keyword": "링 로얄 계체량",
+          "videos": [
+            {
+              "videoId": "MJozBD6rEMI",
+              "title": "Esposo de Karely Ruiz ENFRENTA a Alfredo Adame al terminar el careo en Ring Royale 😱 #DePrimeraMano",
+              "channelTitle": "Imagen Entretenimiento",
+              "predicted7d": 361414,
+              "viewCount": 181574,
+              "delta": 179840
+            },
+            {
+              "videoId": "CX3zfABcWlw",
+              "title": "KARELY RUIZ Y MARCELA MISTRAL ENCIENDEN EL PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 136458,
+              "viewCount": 53608,
+              "delta": 82850
+            },
+            {
+              "videoId": "I1hW7ic1NAk",
+              "title": "VEAN! Alfredo Adame Golpeado ASÍ LO DEFENDIO SU ENTRENADOR vs El esposo de Karely Ruiz RING ROYALE",
+              "channelTitle": "StarsTV",
+              "predicted7d": 113474,
+              "viewCount": 49776,
+              "delta": 63698
+            },
+            {
+              "videoId": "pd_tWT_IFjA",
+              "title": "EL PATRÓN pesó 103.800 kgs rumbo a pelea con CHUY ALMADA en el Ring Royale 🥊",
+              "channelTitle": "AL PUNTO NOTICIAS",
+              "predicted7d": 90613,
+              "viewCount": 7524,
+              "delta": 83089
+            }
+          ],
+          "theme": "Ring Royale 계체량 및 대면식",
+          "selectedSourceVideos": [
+            {
+              "videoId": "MJozBD6rEMI",
+              "title": "Esposo de Karely Ruiz ENFRENTA a Alfredo Adame al terminar el careo en Ring Royale 😱 #DePrimeraMano",
+              "channelTitle": "Imagen Entretenimiento",
+              "predicted7d": 361414,
+              "delta": 179840
+            },
+            {
+              "videoId": "CX3zfABcWlw",
+              "title": "KARELY RUIZ Y MARCELA MISTRAL ENCIENDEN EL PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 136458,
+              "delta": 82850
+            },
+            {
+              "videoId": "I1hW7ic1NAk",
+              "title": "VEAN! Alfredo Adame Golpeado ASÍ LO DEFENDIO SU ENTRENADOR vs El esposo de Karely Ruiz RING ROYALE",
+              "channelTitle": "StarsTV",
+              "predicted7d": 113474,
+              "delta": 63698
+            },
+            {
+              "videoId": "pd_tWT_IFjA",
+              "title": "EL PATRÓN pesó 103.800 kgs rumbo a pelea con CHUY ALMADA en el Ring Royale 🥊",
+              "channelTitle": "AL PUNTO NOTICIAS",
+              "predicted7d": 90613,
+              "delta": 83089
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Ring Royale Weigh-in Chaos!",
+            "description": "2026-03-16_US_2\nExperience the wildest moments from Ring Royale weigh-ins! From celebrity confrontations to unexpected drama, this event had it all. Don't miss the pre-fight intensity!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=MJozBD6rEMI\n2) https://www.youtube.com/watch?v=CX3zfABcWlw\n3) https://www.youtube.com/watch?v=I1hW7ic1NAk\n4) https://www.youtube.com/watch?v=pd_tWT_IFjA\n\n#Shorts #US",
+            "tags": [
+              "RingRoyale",
+              "WeighIn",
+              "KarelyRuiz",
+              "AlfredoAdame",
+              "BoxingDrama",
+              "CelebrityFight",
+              "FaceOff",
+              "Shorts",
+              "ViralFight",
+              "ElPatron"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "yEqjeAiSlwM"
+          },
+          "updatedAt": "2026-03-16T02:59:33.695Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-16T02:59:33.704Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ring royale",
+          "pelea de karely ruiz y marcela mistral",
+          "pelea de alfredo adame y carlos trejo",
+          "oscars 2026",
+          "pumas vs cruz azul",
+          "ring my bell",
+          "poncho de nigris",
+          "pinky promise",
+          "ibai",
+          "aaa",
+          "hotspanish vlogs",
+          "fernanfloo",
+          "4x4",
+          "fede"
+        ],
+        "updatedAt": "2026-03-16T02:59:45.327Z"
+      },
+      "assignedKeywords": [
+        "ring royale",
+        "pelea de karely ruiz y marcela mistral"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 28
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale 공식 현장 및 주요 순간",
+                "description": "선수들의 계체량(pesaje), 기자회견(conferencia de prensa), 입장(entrada) 등 'Ring Royale' 이벤트의 주요 장면들을 직접 촬영하여 보여주는 영상 모음. 주로 스포츠 뉴스 채널이나 공식 채널에서 제공하는 현장 중계 또는 하이라이트 형식입니다.",
+                "query": "링 로얄 현장 영상",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "EVreYdNjSTU",
+                    "title": "Así las cosas en el pesaje del Ring Royale",
+                    "predicted7d": 322777
+                  },
+                  {
+                    "videoId": "CX3zfABcWlw",
+                    "title": "KARELY RUIZ Y MARCELA MISTRAL ENCIENDEN EL PESAJE DE RING ROYALE",
+                    "predicted7d": 136458
+                  },
+                  {
+                    "videoId": "eN915THpfFY",
+                    "title": "ALBERTO EL PATRÓN ENCIENDE LA POLÉMICA EN SU PESAJE DE RING ROYALE",
+                    "predicted7d": 111826
+                  },
+                  {
+                    "videoId": "ZvBSOW4M03s",
+                    "title": "MARCELA MISTRAL Y KARELY RUIZ carro y pesaje en \"Ring Royale\" 🥊🥊🥊",
+                    "predicted7d": 95667
+                  },
+                  {
+                    "videoId": "pd_tWT_IFjA",
+                    "title": "EL PATRÓN pesó 103.800 kgs rumbo a pelea con CHUY ALMADA en el Ring Royale 🥊",
+                    "predicted7d": 91359
+                  },
+                  {
+                    "videoId": "DzhoCcT96-4",
+                    "title": "😱🔥 Karely Ruiz vs Marcela en el ring royale de poncho de Nigris #box #ringroyale #karely",
+                    "predicted7d": 64514
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "keyword": "링 로얄 현장 영상",
+          "videos": [
+            {
+              "videoId": "EVreYdNjSTU",
+              "title": "Así las cosas en el pesaje del Ring Royale",
+              "channelTitle": "POSTAmx",
+              "predicted7d": 322777,
+              "viewCount": 23938,
+              "delta": 298839
+            },
+            {
+              "videoId": "CX3zfABcWlw",
+              "title": "KARELY RUIZ Y MARCELA MISTRAL ENCIENDEN EL PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 136458,
+              "viewCount": 53608,
+              "delta": 82850
+            },
+            {
+              "videoId": "eN915THpfFY",
+              "title": "ALBERTO EL PATRÓN ENCIENDE LA POLÉMICA EN SU PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 111826,
+              "viewCount": 47024,
+              "delta": 64802
+            },
+            {
+              "videoId": "ZvBSOW4M03s",
+              "title": "MARCELA MISTRAL Y KARELY RUIZ carro y pesaje en \"Ring Royale\" 🥊🥊🥊",
+              "channelTitle": "AL PUNTO NOTICIAS",
+              "predicted7d": 95667,
+              "viewCount": 37044,
+              "delta": 58623
+            }
+          ],
+          "theme": "Ring Royale 공식 현장 및 주요 순간",
+          "selectedSourceVideos": [
+            {
+              "videoId": "EVreYdNjSTU",
+              "title": "Así las cosas en el pesaje del Ring Royale",
+              "channelTitle": "POSTAmx",
+              "predicted7d": 322777,
+              "delta": 298839
+            },
+            {
+              "videoId": "CX3zfABcWlw",
+              "title": "KARELY RUIZ Y MARCELA MISTRAL ENCIENDEN EL PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 136458,
+              "delta": 82850
+            },
+            {
+              "videoId": "eN915THpfFY",
+              "title": "ALBERTO EL PATRÓN ENCIENDE LA POLÉMICA EN SU PESAJE DE RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 111826,
+              "delta": 64802
+            },
+            {
+              "videoId": "ZvBSOW4M03s",
+              "title": "MARCELA MISTRAL Y KARELY RUIZ carro y pesaje en \"Ring Royale\" 🥊🥊🥊",
+              "channelTitle": "AL PUNTO NOTICIAS",
+              "predicted7d": 95667,
+              "delta": 58623
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Ring Royale: ¡Pesaje, Polémica y Estrellas!",
+            "description": "2026-03-16_MX_1\nRevive los momentos más intensos del pesaje de Ring Royale. Karely Ruiz, Marcela Mistral y Alberto El Patrón desataron la locura y la polémica con sus apariciones. ¡No te pierdas la tensión previa a la gran batalla!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=EVreYdNjSTU\n2) https://www.youtube.com/watch?v=CX3zfABcWlw\n3) https://www.youtube.com/watch?v=eN915THpfFY\n4) https://www.youtube.com/watch?v=ZvBSOW4M03s\n\n#Shorts #MX",
+            "tags": [
+              "RingRoyale",
+              "Pesaje",
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "AlbertoElPatron",
+              "Polemic",
+              "LuchaLibre",
+              "Shorts",
+              "Viral",
+              "Espectaculo"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "dw7hz2iFyr8"
+          },
+          "updatedAt": "2026-03-16T03:01:03.242Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 17
+            },
+            "vcClusters": [
+              {
+                "name": "경기 전 대립 및 홍보 영상",
+                "description": "카렐리 루이즈와 마르셀라 미스트랄의 복싱 경기 전 계체량, 기자회견, 신경전, 그리고 경기 준비 모습을 담은 짧은 클립 및 홍보 영상 모음.",
+                "query": "경기 전 대립",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "AOBNgDsoOcM",
+                    "title": "Karely Ruiz está lista para su pelea de box… #karelyruiz",
+                    "predicted7d": 166976
+                  },
+                  {
+                    "videoId": "E4sK6SFcchc",
+                    "title": "Karely Ruiz y Marcela Mistral listas para su pelea de box… #karelyruiz #marcelamistral",
+                    "predicted7d": 95929
+                  },
+                  {
+                    "videoId": "fpbL8M-aBxA",
+                    "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+                    "predicted7d": 75475
+                  },
+                  {
+                    "videoId": "cYHDpUoEzYo",
+                    "title": "Marcela Mistral vs Karely Ruiz en el pesaje",
+                    "predicted7d": 50429
+                  },
+                  {
+                    "videoId": "uEGFaf5LorI",
+                    "title": "pelea de karely ruiz y Marcela mistral se pelean en previo al ringo royal",
+                    "predicted7d": 35496
+                  },
+                  {
+                    "videoId": "H9qVU3Gc2Io",
+                    "title": "😱🔥🥊KARELY RUIZ  Y MARCELA MISTRAL  SE ENCARAN  PARA EL COMBATE  EN MONTERREY!",
+                    "predicted7d": 20913
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "pelea de karely ruiz y marcela mistral",
+          "keyword": "경기 전 대립",
+          "videos": [
+            {
+              "videoId": "AOBNgDsoOcM",
+              "title": "Karely Ruiz está lista para su pelea de box… #karelyruiz",
+              "channelTitle": "México Mágico",
+              "predicted7d": 166976,
+              "viewCount": 128597,
+              "delta": 38379
+            },
+            {
+              "videoId": "E4sK6SFcchc",
+              "title": "Karely Ruiz y Marcela Mistral listas para su pelea de box… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 95929,
+              "viewCount": 42325,
+              "delta": 53604
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 75475,
+              "viewCount": 28033,
+              "delta": 47442
+            }
+          ],
+          "theme": "경기 전 대립 및 홍보 영상",
+          "selectedSourceVideos": [
+            {
+              "videoId": "AOBNgDsoOcM",
+              "title": "Karely Ruiz está lista para su pelea de box… #karelyruiz",
+              "channelTitle": "México Mágico",
+              "predicted7d": 166976,
+              "delta": 38379
+            },
+            {
+              "videoId": "E4sK6SFcchc",
+              "title": "Karely Ruiz y Marcela Mistral listas para su pelea de box… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 95929,
+              "delta": 53604
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 75475,
+              "delta": 47442
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "¡Tensión Pre-Pelea: Karely vs Marcela!",
+            "description": "2026-03-16_MX_2\n¡La tensión se dispara antes del gran combate! Karely Ruiz y Marcela Mistral se enfrentan en un explosivo cara a cara. ¿Quién saldrá victoriosa de este choque de titanes?\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=AOBNgDsoOcM\n2) https://www.youtube.com/watch?v=E4sK6SFcchc\n3) https://www.youtube.com/watch?v=fpbL8M-aBxA\n\n#Shorts #MX",
+            "tags": [
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "BoxeoFemenino",
+              "PeleaDeBox",
+              "KingRoyale",
+              "ShortsDeBox",
+              "Confrontacion",
+              "TensionPrePelea",
+              "DueloDeEstrellas",
+              "Viral"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "wXAb8-KLP7c"
+          },
+          "updatedAt": "2026-03-16T03:02:22.816Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-16T03:02:22.824Z"
+    }
+  },
+  "finishedAt": "2026-03-16T03:02:22.827Z"
+}
