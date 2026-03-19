@@ -72,6 +72,8 @@ export class YouTubeClient {
     const categoryTitles = await this.getCategoryTitles(args.region);
 
     const out = [];
+    const now = new Date();
+
     for (const it of items) {
       const id = it.id;
       const sn = it.snippet;
@@ -79,22 +81,28 @@ export class YouTubeClient {
       const cd = it.contentDetails;
       if (!id || !sn || !st || !cd) continue;
 
-      const viewCount = Number(st.viewCount ?? 0);
-      const likeCount = Number(st.likeCount ?? 0);
-      const commentCount = Number(st.commentCount ?? 0);
 
       const durationSec = parseIsoDurationToSec(cd.duration ?? "PT0S");
+      const likeCount = Number(st.likeCount ?? 0);
+      const commentCount = Number(st.commentCount ?? 0);
+      const viewCount = Number(st.viewCount ?? 0);
       const isShort = Number.isFinite(durationSec) ? durationSec <= VALIDATION.maxShortsSec : false;
-
       const categoryId = Number(sn.categoryId ?? 0);
       const categoryGroup = categoryTitles.get(String(categoryId)) ?? "Unknown";
-
       const subs = channelSubs.get(sn.channelId ?? "") ?? 0;
+
+      // 💡 2. age_hours 계산 (현재시간 - 공개시간)
+      const publishedAtStr = sn.publishedAt ?? now.toISOString();
+      const publishedDate = new Date(publishedAtStr);
+      // 밀리초 차이를 시간 단위로 변환 (ms / 1000 / 60 / 60)
+      const ageHours = Math.max(0, (now - publishedDate) / (1000 * 60 * 60));
 
       out.push({
         id,
-        subscriber_count: subs,
-        upload_date: sn.publishedAt ?? new Date().toISOString(),
+        channel_id: sn.channelId,       // 💡 [필수] 채널 ID 추가
+        subscriber_count: subs,        // 💡 [필수] 구독자 수
+        upload_date: publishedAtStr,   // 💡 [필수] 공개 시간 (7일 뒤 계산용)
+        age_hours: Number(ageHours.toFixed(2)), // 💡 [필수] 영상 나이 (소수점 2자리)
         video_length: Number.isFinite(durationSec) ? durationSec : 0,
         view_count: viewCount,
         like_count: likeCount,

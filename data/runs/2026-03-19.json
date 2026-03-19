@@ -1,0 +1,1135 @@
+{
+  "runId": "2026-03-19",
+  "date": "2026-03-19",
+  "createdAt": "2026-03-19T02:50:01.639Z",
+  "updatedAt": "2026-03-19T02:58:05.667Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김가람",
+          "윤경호",
+          "스파이더 맨 브랜드 뉴 데이",
+          "낙원",
+          "킹 피스",
+          "붉은 사막",
+          "차지연",
+          "lck",
+          "김하 온",
+          "롯데 자이언츠",
+          "버터 떡",
+          "나 우아 임영",
+          "골든",
+          "사또",
+          "기안 84",
+          "장인수",
+          "핑계 고",
+          "로얄 44",
+          "bts",
+          "메이플"
+        ],
+        "updatedAt": "2026-03-19T02:50:12.139Z"
+      },
+      "assignedKeywords": [
+        "김가람",
+        "윤경호"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 41
+            },
+            "vcClusters": [
+              {
+                "name": "김가람 논란 및 근황 보도",
+                "description": "김가람의 학교폭력 논란, 르세라핌 탈퇴, 그리고 그 이후의 근황을 다루는 영상들. 뉴스 형식의 요약, 기사/사진 정리, 댓글 반응 분석, 혹은 이슈를 다루는 채널의 편집 영상이 많습니다. 텍스트 오버레이와 자료 화면 위주로 구성됩니다.",
+                "query": "김가람 논란 근황",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "RSE8UAtSuSY",
+                    "title": "팀 탈퇴한 아이돌들의 충격적인 현재 근황 TOP4 #위너 #아이들 #다이아 #르세라핌",
+                    "predicted7d": 12398695
+                  },
+                  {
+                    "videoId": "ZKE2j4jwOV8",
+                    "title": "르세라핌 전 멤버 '김가람' 근황",
+                    "predicted7d": 2848902
+                  },
+                  {
+                    "videoId": "VgL_K8_NyVk",
+                    "title": "탈퇴 멤버들은 어떻게 살고 있을까?",
+                    "predicted7d": 2485616
+                  },
+                  {
+                    "videoId": "WACka6k_xVQ",
+                    "title": "학폭으로 활동 중지한 연예인 TOP3 #shorts",
+                    "predicted7d": 1951856
+                  },
+                  {
+                    "videoId": "R3FfQqPm3Ec",
+                    "title": "김가람 마지막  모습",
+                    "predicted7d": 1657939
+                  },
+                  {
+                    "videoId": "40fNUy-LdkU",
+                    "title": "(댓글반응)르세라핌 김가람 논란 총 정리🔥",
+                    "predicted7d": 953902
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "김가람",
+          "keyword": "김가람 논란 근황",
+          "videos": [
+            {
+              "videoId": "RSE8UAtSuSY",
+              "title": "팀 탈퇴한 아이돌들의 충격적인 현재 근황 TOP4 #위너 #아이들 #다이아 #르세라핌",
+              "channelTitle": "연예부기자 다람이",
+              "predicted7d": 12398695,
+              "viewCount": 9451217,
+              "delta": 2947478
+            },
+            {
+              "videoId": "ZKE2j4jwOV8",
+              "title": "르세라핌 전 멤버 '김가람' 근황",
+              "channelTitle": "김팩트",
+              "predicted7d": 2848902,
+              "viewCount": 2030979,
+              "delta": 817923
+            },
+            {
+              "videoId": "VgL_K8_NyVk",
+              "title": "탈퇴 멤버들은 어떻게 살고 있을까?",
+              "channelTitle": "아이돌월드",
+              "predicted7d": 2485616,
+              "viewCount": 1842824,
+              "delta": 642792
+            },
+            {
+              "videoId": "WACka6k_xVQ",
+              "title": "학폭으로 활동 중지한 연예인 TOP3 #shorts",
+              "channelTitle": "TVREPORT",
+              "predicted7d": 1951856,
+              "viewCount": 1632933,
+              "delta": 318923
+            }
+          ],
+          "theme": "김가람 논란 및 근황 보도",
+          "selectedSourceVideos": [
+            {
+              "videoId": "RSE8UAtSuSY",
+              "title": "팀 탈퇴한 아이돌들의 충격적인 현재 근황 TOP4 #위너 #아이들 #다이아 #르세라핌",
+              "channelTitle": "연예부기자 다람이",
+              "predicted7d": 12398695,
+              "delta": 2947478
+            },
+            {
+              "videoId": "ZKE2j4jwOV8",
+              "title": "르세라핌 전 멤버 '김가람' 근황",
+              "channelTitle": "김팩트",
+              "predicted7d": 2848902,
+              "delta": 817923
+            },
+            {
+              "videoId": "VgL_K8_NyVk",
+              "title": "탈퇴 멤버들은 어떻게 살고 있을까?",
+              "channelTitle": "아이돌월드",
+              "predicted7d": 2485616,
+              "delta": 642792
+            },
+            {
+              "videoId": "WACka6k_xVQ",
+              "title": "학폭으로 활동 중지한 연예인 TOP3 #shorts",
+              "channelTitle": "TVREPORT",
+              "predicted7d": 1951856,
+              "delta": 318923
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "르세라핌 김가람, 학폭 논란 후 충격 근황",
+            "description": "2026-03-19_KR_1\n르세라핌 탈퇴 후 대중의 시선에서 사라졌던 김가람. 학폭 논란의 중심에 섰던 그녀의 충격적인 현재 근황을 공개합니다. 과연 그녀는 지금 어떤 삶을 살고 있을까요?\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=RSE8UAtSuSY\n2) https://www.youtube.com/watch?v=ZKE2j4jwOV8\n3) https://www.youtube.com/watch?v=VgL_K8_NyVk\n4) https://www.youtube.com/watch?v=WACka6k_xVQ\n\n#Shorts #KR",
+            "tags": [
+              "김가람",
+              "르세라핌",
+              "학폭논란",
+              "아이돌근황",
+              "탈퇴아이돌",
+              "연예인근황",
+              "김가람근황",
+              "충격근황",
+              "shorts",
+              "kpop"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "l3HUHne590E"
+          },
+          "updatedAt": "2026-03-19T02:51:32.075Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 42
+            },
+            "vcClusters": [
+              {
+                "name": "윤경호의 솔직한 이야기 - 토크쇼 & 인터뷰",
+                "description": "'유퀴즈', '핑계고' 등 인기 토크쇼 및 다양한 인터뷰에서 윤경호 배우가 들려주는 개인적인 에피소드, 연기 비하인드, 인생 이야기 등을 담은 클립 모음. 주로 스튜디오나 대담 형식의 장면.",
+                "query": "윤경호 토크쇼",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "uMBC5lBOuvY",
+                    "title": "[#일분컷] 너무 웃픈 윤경호 썰ㅋㅋ #유퀴즈온더블럭",
+                    "predicted7d": 2490209
+                  },
+                  {
+                    "videoId": "rA3I3PCQS_4",
+                    "title": "아빠 생일날 딸이랑 아들 다른 점 토요일이 중요한 이유는?",
+                    "predicted7d": 1842852
+                  },
+                  {
+                    "videoId": "sXNkiyPFWNk",
+                    "title": "눈물바다 만든 윤경호의 텔레마케팅 알바",
+                    "predicted7d": 1484651
+                  },
+                  {
+                    "videoId": "WExg6G8ftSc",
+                    "title": "말이 너~~~무 많은 \"일절만\"아저씨 윤경호 #핑계고",
+                    "predicted7d": 1148331
+                  },
+                  {
+                    "videoId": "2OJ32BrLdFM",
+                    "title": "윤경호가 연기 인생에서 벽을 느꼈던 배역",
+                    "predicted7d": 923111
+                  },
+                  {
+                    "videoId": "ZrTsZUXG7wU",
+                    "title": "아들과 딸의 차이점 #핑계고",
+                    "predicted7d": 534017
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "윤경호",
+          "keyword": "윤경호 토크쇼",
+          "videos": [
+            {
+              "videoId": "uMBC5lBOuvY",
+              "title": "[#일분컷] 너무 웃픈 윤경호 썰ㅋㅋ #유퀴즈온더블럭",
+              "channelTitle": "tvN D ENT",
+              "predicted7d": 2490209,
+              "viewCount": 2010941,
+              "delta": 479268
+            },
+            {
+              "videoId": "rA3I3PCQS_4",
+              "title": "아빠 생일날 딸이랑 아들 다른 점 토요일이 중요한 이유는?",
+              "channelTitle": "iamenternews",
+              "predicted7d": 1842852,
+              "viewCount": 1178876,
+              "delta": 663976
+            },
+            {
+              "videoId": "sXNkiyPFWNk",
+              "title": "눈물바다 만든 윤경호의 텔레마케팅 알바",
+              "channelTitle": "최고의1분",
+              "predicted7d": 1484651,
+              "viewCount": 1191865,
+              "delta": 292786
+            },
+            {
+              "videoId": "WExg6G8ftSc",
+              "title": "말이 너~~~무 많은 \"일절만\"아저씨 윤경호 #핑계고",
+              "channelTitle": "햅삐HAPPY",
+              "predicted7d": 1148331,
+              "viewCount": 853548,
+              "delta": 294783
+            }
+          ],
+          "theme": "윤경호의 솔직한 이야기 - 토크쇼 & 인터뷰",
+          "selectedSourceVideos": [
+            {
+              "videoId": "uMBC5lBOuvY",
+              "title": "[#일분컷] 너무 웃픈 윤경호 썰ㅋㅋ #유퀴즈온더블럭",
+              "channelTitle": "tvN D ENT",
+              "predicted7d": 2490209,
+              "delta": 479268
+            },
+            {
+              "videoId": "rA3I3PCQS_4",
+              "title": "아빠 생일날 딸이랑 아들 다른 점 토요일이 중요한 이유는?",
+              "channelTitle": "iamenternews",
+              "predicted7d": 1842852,
+              "delta": 663976
+            },
+            {
+              "videoId": "sXNkiyPFWNk",
+              "title": "눈물바다 만든 윤경호의 텔레마케팅 알바",
+              "channelTitle": "최고의1분",
+              "predicted7d": 1484651,
+              "delta": 292786
+            },
+            {
+              "videoId": "WExg6G8ftSc",
+              "title": "말이 너~~~무 많은 \"일절만\"아저씨 윤경호 #핑계고",
+              "channelTitle": "햅삐HAPPY",
+              "predicted7d": 1148331,
+              "delta": 294783
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "배우 윤경호의 반전 매력 모음.zip",
+            "description": "2026-03-19_KR_2\n스크린과 브라운관을 넘나들며 깊은 연기를 선보이는 배우 윤경호! 유퀴즈 웃픈 썰부터 핑계고 일절만 아저씨까지, 그의 인간미 넘치는 반전 매력을 쇼츠로 만나보세요. 웃음과 감동을 동시에 선사하는 윤경호 배우의 다채로운 모습에 빠져들 준비되셨나요?\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=uMBC5lBOuvY\n2) https://www.youtube.com/watch?v=rA3I3PCQS_4\n3) https://www.youtube.com/watch?v=sXNkiyPFWNk\n4) https://www.youtube.com/watch?v=WExg6G8ftSc\n\n#Shorts #KR",
+            "tags": [
+              "윤경호",
+              "배우윤경호",
+              "유퀴즈",
+              "핑계고",
+              "일절만아저씨",
+              "텔레마케팅",
+              "웃픈썰",
+              "감동실화",
+              "윤경호쇼츠",
+              "shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "zX-dKEJBYAg"
+          },
+          "updatedAt": "2026-03-19T02:52:43.227Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-19T02:52:43.235Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "oscars 2026",
+          "ring royale",
+          "dune 3 trailer",
+          "brand new day",
+          "afroman",
+          "crimson desert",
+          "marvel rivals",
+          "fede vigevani",
+          "party at the beach"
+        ],
+        "updatedAt": "2026-03-19T02:52:53.731Z"
+      },
+      "assignedKeywords": [
+        "oscars 2026",
+        "ring royale",
+        "dune 3 trailer"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 26
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale 공식 홍보 및 예고편",
+                "description": "'Ring Royale' 공식 채널에서 제공하는 이벤트 예고, 티저, 컨퍼런스 프레스 영상 등 행사 자체를 홍보하는 콘텐츠 모음입니다.",
+                "query": "Ring Royale 공식 예고",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개)",
+                "topVideos": [
+                  {
+                    "videoId": "jCcYHo8fvc0",
+                    "title": "¡Lo que se viene con Ring Royale!👑  Este 15 de marzo la corona está en juego 🥊 Arena Monterrey",
+                    "predicted7d": 45929
+                  },
+                  {
+                    "videoId": "4QqMuQL2T3k",
+                    "title": "Teaser Ring Royale · Arena Monterrey · 15 de marzo 2026",
+                    "predicted7d": 29005
+                  },
+                  {
+                    "videoId": "v-s-gDIGU5Q",
+                    "title": "¡Así se vivió el Ring Royale👑  en su conferencia de prensa en la CDMX!",
+                    "predicted7d": 18433
+                  },
+                  {
+                    "videoId": "dDpDp2c-jV4",
+                    "title": "Ring Royale: la corona, no es para cualquiera",
+                    "predicted7d": 9527
+                  }
+                ]
+              },
+              {
+                "name": "Ring Royale 셀럽 입장 및 현장 분위기",
+                "description": "유명인들의 행사 입장 장면, 패션, 레드카펫 인터뷰, 현장 스케치 등 이벤트 전후의 화려한 분위기를 담은 영상들입니다.",
+                "query": "Ring Royale 셀럽 패션",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "kmeqCXuMMHg",
+                    "title": "Mejores y peores vestidos del Ring Royale 2026",
+                    "predicted7d": 715394
+                  },
+                  {
+                    "videoId": "UbGq8tm2RT4",
+                    "title": "ABELITO ENTRADA A RING ROYALE 😎🫰🏻#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+                    "predicted7d": 654307
+                  },
+                  {
+                    "videoId": "IAREPHrOy98",
+                    "title": "Así se vistieron los Tiktokers en el Ring Royale",
+                    "predicted7d": 508869
+                  },
+                  {
+                    "videoId": "RnAB-uhjm_8",
+                    "title": "Entrada Marcela Mistral Ring Royale #ringroyale #marcelamistral  #dayanechrissel #shorts",
+                    "predicted7d": 39450
+                  },
+                  {
+                    "videoId": "8ha9AN2ETP8",
+                    "title": "Entrada de abelito pelea ring Royale #abelito #ringroyale #dayanechrissel #shorts",
+                    "predicted7d": 29675
+                  },
+                  {
+                    "videoId": "qUwIuiwng_4",
+                    "title": "RING ROYALE: ¿cuál es tu comida favorita? Preguntándole a los famosos. #ringroyale #comida #abelito",
+                    "predicted7d": 14862
+                  }
+                ]
+              },
+              {
+                "name": "Ring Royale 경기 요약 및 결과 분석",
+                "description": "주요 경기 하이라이트, 승패 결과, 경기 후 선수 및 관계자들의 발언, 논란 분석 등 경기의 핵심 내용을 다루는 영상들입니다.",
+                "query": "Ring Royale 경기 분석",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "z0n76jkXJKc",
+                    "title": "Ganadores y perdedores del Ring Royale 2026",
+                    "predicted7d": 1075099
+                  },
+                  {
+                    "videoId": "pMY-OUjLATI",
+                    "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+                    "predicted7d": 193455
+                  },
+                  {
+                    "videoId": "e5PPBpUoBHw",
+                    "title": "🥊🔥 ¡Se acabó la rivalidad en el ring! Alfredo Adame noquea a Carlos Trejo en el primer round",
+                    "predicted7d": 74512
+                  },
+                  {
+                    "videoId": "XK0Y9Q_o1zU",
+                    "title": "Alfredo Adame vs Carlos Trejo Épica pelea Ring Royale #adame #ringroyale #rockybalboa #eyeofthetiger",
+                    "predicted7d": 53448
+                  },
+                  {
+                    "videoId": "92CSHs9GpLc",
+                    "title": "BLULL TERRIE‼️Gana Ring Royale #bullterrie #abelitooficial #chismesito #chismes #soyeddynieblas",
+                    "predicted7d": 4663
+                  }
+                ]
+              },
+              {
+                "name": "Ring Royale 유명인 반응 및 비하인드",
+                "description": "이벤트에 참여한 유명인들의 개인적인 반응, 인터뷰, 비하인드 스토리, 재미있는 순간들을 담은 짧은 클립 또는 팬 콘텐츠입니다.",
+                "query": "Ring Royale 셀럽 비하인드",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "MbRf9QnkT5Y",
+                    "title": "KONAN Y CHÁVEZ EN RING ROYALE 😂😅#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+                    "predicted7d": 5297748
+                  },
+                  {
+                    "videoId": "w4YBr-5yeUE",
+                    "title": "JUAN GUARNIZO ¡DEFIENDE A IBAI TRAS RING ROYALE!",
+                    "predicted7d": 225257
+                  },
+                  {
+                    "videoId": "mmC8ONaYuds",
+                    "title": "¿POR QUÉ ELI ESPARZA LLORÓ EN EL RING ROYALE? ¿NO LA DEJARON CONDUCIR EL EVENTO?",
+                    "predicted7d": 220723
+                  },
+                  {
+                    "videoId": "VdSHuS0BeMw",
+                    "title": "HACEN HISTORIA! Poncho de Nigris FELIZ x Alfredo Adame en RING ROYALE los numeros hablan #ringroyale",
+                    "predicted7d": 150122
+                  },
+                  {
+                    "videoId": "I1hW7ic1NAk",
+                    "title": "VEAN! Alfredo Adame Golpeado ASÍ LO DEFENDIO SU ENTRENADOR vs El esposo de Karely Ruiz RING ROYALE",
+                    "predicted7d": 92182
+                  },
+                  {
+                    "videoId": "P0uIAV_TCpg",
+                    "title": "SANTA FE KLAN VS CKAN EN RING ROYALE PROXIMAMENTE?! 👑🇲🇽🥊 NOS VEMOS EN MEXICO 🛩 #santafeklan",
+                    "predicted7d": 67279
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "keyword": "Ring Royale 셀럽 비하인드",
+          "videos": [
+            {
+              "videoId": "MbRf9QnkT5Y",
+              "title": "KONAN Y CHÁVEZ EN RING ROYALE 😂😅#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 5297748,
+              "viewCount": 3583788,
+              "delta": 1713960
+            },
+            {
+              "videoId": "w4YBr-5yeUE",
+              "title": "JUAN GUARNIZO ¡DEFIENDE A IBAI TRAS RING ROYALE!",
+              "channelTitle": "Shur News",
+              "predicted7d": 225257,
+              "viewCount": 95233,
+              "delta": 130024
+            },
+            {
+              "videoId": "mmC8ONaYuds",
+              "title": "¿POR QUÉ ELI ESPARZA LLORÓ EN EL RING ROYALE? ¿NO LA DEJARON CONDUCIR EL EVENTO?",
+              "channelTitle": "Eliot Channel Mx",
+              "predicted7d": 220723,
+              "viewCount": 49074,
+              "delta": 171649
+            },
+            {
+              "videoId": "VdSHuS0BeMw",
+              "title": "HACEN HISTORIA! Poncho de Nigris FELIZ x Alfredo Adame en RING ROYALE los numeros hablan #ringroyale",
+              "channelTitle": "StarsTV",
+              "predicted7d": 150122,
+              "viewCount": 115310,
+              "delta": 34812
+            }
+          ],
+          "theme": "Ring Royale 유명인 반응 및 비하인드",
+          "selectedSourceVideos": [
+            {
+              "videoId": "MbRf9QnkT5Y",
+              "title": "KONAN Y CHÁVEZ EN RING ROYALE 😂😅#lacasadelosfamosos #humor #comedia #fypシ゚viral",
+              "channelTitle": "Jalados con Arturo ",
+              "predicted7d": 5297748,
+              "delta": 1713960
+            },
+            {
+              "videoId": "w4YBr-5yeUE",
+              "title": "JUAN GUARNIZO ¡DEFIENDE A IBAI TRAS RING ROYALE!",
+              "channelTitle": "Shur News",
+              "predicted7d": 225257,
+              "delta": 130024
+            },
+            {
+              "videoId": "mmC8ONaYuds",
+              "title": "¿POR QUÉ ELI ESPARZA LLORÓ EN EL RING ROYALE? ¿NO LA DEJARON CONDUCIR EL EVENTO?",
+              "channelTitle": "Eliot Channel Mx",
+              "predicted7d": 220723,
+              "delta": 171649
+            },
+            {
+              "videoId": "VdSHuS0BeMw",
+              "title": "HACEN HISTORIA! Poncho de Nigris FELIZ x Alfredo Adame en RING ROYALE los numeros hablan #ringroyale",
+              "channelTitle": "StarsTV",
+              "predicted7d": 150122,
+              "delta": 34812
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Ring Royale: Drama, Fights & Tears!",
+            "description": "2026-03-19_US_1\nDive into the most iconic moments from Ring Royale! See Konan & Chávez's hilarious antics, Juan Guarnizo defending Ibai, and Eli Esparza's emotional breakdown. Plus, witness history made by Adame and Poncho de Nigris.\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=MbRf9QnkT5Y\n2) https://www.youtube.com/watch?v=w4YBr-5yeUE\n3) https://www.youtube.com/watch?v=mmC8ONaYuds\n4) https://www.youtube.com/watch?v=VdSHuS0BeMw\n\n#Shorts #US",
+            "tags": [
+              "RingRoyale",
+              "LaCasaDeLosFamosos",
+              "KonanChavez",
+              "JuanGuarnizo",
+              "Ibai",
+              "EliEsparza",
+              "AlfredoAdame",
+              "PonchoDeNigris",
+              "CelebrityBoxing",
+              "ViralDrama"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "rkZLO9X6PYE"
+          },
+          "updatedAt": "2026-03-19T02:54:20.441Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 25
+            },
+            "vcClusters": [
+              {
+                "name": "듄 공식 예고편 및 홍보 영상",
+                "description": "영화 제작사 및 배급사에서 직접 공개한 공식 예고편, 티저, 짧은 홍보 영상 모음입니다. 고품질의 영화 본편 장면 위주로 구성되어 있습니다.",
+                "query": "듄3 공식 예고편",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "4Nhq6ayN3y4",
+                    "title": "A friendship beyond space and time. #DunePartTwo only in theaters March 1. #DuneMovie",
+                    "predicted7d": 6388577
+                  },
+                  {
+                    "videoId": "zX1KVUEQRPA",
+                    "title": "Dune: Part Two | Official Trailer 3",
+                    "predicted7d": 120666
+                  },
+                  {
+                    "videoId": "YmCDk2oEB9c",
+                    "title": "Dune: Parte dos | Tráiler oficial 3",
+                    "predicted7d": 27876
+                  },
+                  {
+                    "videoId": "EFJbRw8n9v4",
+                    "title": "Dune: Part Two | Official Trailer 3 (ซับไทย)",
+                    "predicted7d": 3793
+                  }
+                ]
+              },
+              {
+                "name": "듄 감독/배우 인터뷰 및 전문가 분석",
+                "description": "드니 빌뇌브 감독, 배우 인터뷰, 영화 전문 팟캐스트/채널의 심층 분석 및 업데이트 영상 모음입니다. 주로 대담, 토론, 뉴스 형식으로 진행됩니다.",
+                "query": "듄3 감독 인터뷰",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "4lhFEbfXFSg",
+                    "title": "Dune deleted scene hinted at a big revelation 👀 (feat. Rebecca Ferguson) #duneparttwo",
+                    "predicted7d": 4644515
+                  },
+                  {
+                    "videoId": "HmPdj9pySsc",
+                    "title": "Denis Villeneuve on a possible Dune 3 #Dune #DunePartTwo",
+                    "predicted7d": 2117021
+                  },
+                  {
+                    "videoId": "eBqSQ99FpXQ",
+                    "title": "Denis Villeneuve on Dune 3 and beyond #duneparttwo",
+                    "predicted7d": 674700
+                  },
+                  {
+                    "videoId": "JPj742hF96o",
+                    "title": "'Dune 3' Update and Everything We Know So Far",
+                    "predicted7d": 556618
+                  },
+                  {
+                    "videoId": "RujWDlGth9g",
+                    "title": "Anya Taylor-Joy teases her \"Dune 3\" character 👀",
+                    "predicted7d": 50989
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "dune 3 trailer",
+          "keyword": "듄3 감독 인터뷰",
+          "videos": [
+            {
+              "videoId": "4lhFEbfXFSg",
+              "title": "Dune deleted scene hinted at a big revelation 👀 (feat. Rebecca Ferguson) #duneparttwo",
+              "channelTitle": "ReelBlend Podcast",
+              "predicted7d": 4644515,
+              "viewCount": 3483363,
+              "delta": 1161152
+            },
+            {
+              "videoId": "HmPdj9pySsc",
+              "title": "Denis Villeneuve on a possible Dune 3 #Dune #DunePartTwo",
+              "channelTitle": "Nerdist",
+              "predicted7d": 2117021,
+              "viewCount": 1581473,
+              "delta": 535548
+            },
+            {
+              "videoId": "eBqSQ99FpXQ",
+              "title": "Denis Villeneuve on Dune 3 and beyond #duneparttwo",
+              "channelTitle": "ReelBlend Podcast",
+              "predicted7d": 674700,
+              "viewCount": 545502,
+              "delta": 129198
+            },
+            {
+              "videoId": "JPj742hF96o",
+              "title": "'Dune 3' Update and Everything We Know So Far",
+              "channelTitle": "CinemaBlend",
+              "predicted7d": 556618,
+              "viewCount": 473573,
+              "delta": 83045
+            }
+          ],
+          "theme": "듄 감독/배우 인터뷰 및 전문가 분석",
+          "selectedSourceVideos": [
+            {
+              "videoId": "4lhFEbfXFSg",
+              "title": "Dune deleted scene hinted at a big revelation 👀 (feat. Rebecca Ferguson) #duneparttwo",
+              "channelTitle": "ReelBlend Podcast",
+              "predicted7d": 4644515,
+              "delta": 1161152
+            },
+            {
+              "videoId": "HmPdj9pySsc",
+              "title": "Denis Villeneuve on a possible Dune 3 #Dune #DunePartTwo",
+              "channelTitle": "Nerdist",
+              "predicted7d": 2117021,
+              "delta": 535548
+            },
+            {
+              "videoId": "eBqSQ99FpXQ",
+              "title": "Denis Villeneuve on Dune 3 and beyond #duneparttwo",
+              "channelTitle": "ReelBlend Podcast",
+              "predicted7d": 674700,
+              "delta": 129198
+            },
+            {
+              "videoId": "JPj742hF96o",
+              "title": "'Dune 3' Update and Everything We Know So Far",
+              "channelTitle": "CinemaBlend",
+              "predicted7d": 556618,
+              "delta": 83045
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Dune 3 Trailer: What We Know So Far!",
+            "description": "2026-03-19_US_2\nDive into the latest updates on Dune 3, from Denis Villeneuve's vision to potential plot points. We explore everything known so far, including hints from deleted scenes and the future of the Arrakis saga.\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=4lhFEbfXFSg\n2) https://www.youtube.com/watch?v=HmPdj9pySsc\n3) https://www.youtube.com/watch?v=eBqSQ99FpXQ\n4) https://www.youtube.com/watch?v=JPj742hF96o\n\n#Shorts #US",
+            "tags": [
+              "Dune3",
+              "DunePartTwo",
+              "DenisVilleneuve",
+              "DuneMovie",
+              "DuneTrailer",
+              "PaulAtreides",
+              "RebeccaFerguson",
+              "SciFi",
+              "MovieNews",
+              "Arrakis"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "_szB1MLtIwM"
+          },
+          "updatedAt": "2026-03-19T02:55:29.043Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-19T02:55:29.044Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ring royale",
+          "karely ruiz vs marcela mistral",
+          "alfredo adame vs carlos trejo",
+          "abelito vs bull terrier",
+          "spider man brand new day",
+          "supernova",
+          "poncho de nigris",
+          "pinky promise",
+          "hotspanish vlogs",
+          "fede vigevani",
+          "fernanfloo"
+        ],
+        "updatedAt": "2026-03-19T02:55:40.826Z"
+      },
+      "assignedKeywords": [
+        "ring royale",
+        "karely ruiz vs marcela mistral"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 27
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale 경기 하이라이트 및 결과",
+                "description": "인플루언서 복싱 이벤트 'Ring Royale'의 실제 경기 장면, 주요 경기 결과 및 하이라이트를 담은 영상 모음입니다. 주로 경기 자체의 진행과 결과에 초점을 맞춥니다.",
+                "query": "경기 하이라이트",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "2tbC_SWo7BI",
+                    "title": "ALFREDO ADAME LOGRA KO ANTE CARLOS TREJO EN RING ROYALE",
+                    "predicted7d": 984404
+                  },
+                  {
+                    "videoId": "pMY-OUjLATI",
+                    "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+                    "predicted7d": 193472
+                  },
+                  {
+                    "videoId": "Gk15jt9DvzQ",
+                    "title": "Se están dando con todo Karely Ruiz vs Marcela Mistral Ring Royale #parati #ringroyale #karelyruiz",
+                    "predicted7d": 162164
+                  },
+                  {
+                    "videoId": "gMIfrOtlYQw",
+                    "title": "ASÍ FUE! El patrón pierde contra Chuy almada en ring royale en vivo #ringroyale",
+                    "predicted7d": 138388
+                  },
+                  {
+                    "videoId": "W_kl07eUwoc",
+                    "title": "😱 Marcela Mistral derrota a Karely Ruiz en Ring Royale",
+                    "predicted7d": 113830
+                  },
+                  {
+                    "videoId": "PUp_5SYMqRo",
+                    "title": "El Patron Da Vergüenza y pierde vs Chuy Almada en Ring Royale",
+                    "predicted7d": 43385
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "keyword": "경기 하이라이트",
+          "videos": [
+            {
+              "videoId": "2tbC_SWo7BI",
+              "title": "ALFREDO ADAME LOGRA KO ANTE CARLOS TREJO EN RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 984404,
+              "viewCount": 657133,
+              "delta": 327271
+            },
+            {
+              "videoId": "pMY-OUjLATI",
+              "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+              "channelTitle": "Chepisfut",
+              "predicted7d": 193472,
+              "viewCount": 152515,
+              "delta": 40957
+            },
+            {
+              "videoId": "Gk15jt9DvzQ",
+              "title": "Se están dando con todo Karely Ruiz vs Marcela Mistral Ring Royale #parati #ringroyale #karelyruiz",
+              "channelTitle": "Alex Anta",
+              "predicted7d": 162164,
+              "viewCount": 135730,
+              "delta": 26434
+            },
+            {
+              "videoId": "gMIfrOtlYQw",
+              "title": "ASÍ FUE! El patrón pierde contra Chuy almada en ring royale en vivo #ringroyale",
+              "channelTitle": "StarsTV",
+              "predicted7d": 138388,
+              "viewCount": 113714,
+              "delta": 24674
+            }
+          ],
+          "theme": "Ring Royale 경기 하이라이트 및 결과",
+          "selectedSourceVideos": [
+            {
+              "videoId": "2tbC_SWo7BI",
+              "title": "ALFREDO ADAME LOGRA KO ANTE CARLOS TREJO EN RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 984404,
+              "delta": 327271
+            },
+            {
+              "videoId": "pMY-OUjLATI",
+              "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+              "channelTitle": "Chepisfut",
+              "predicted7d": 193472,
+              "delta": 40957
+            },
+            {
+              "videoId": "Gk15jt9DvzQ",
+              "title": "Se están dando con todo Karely Ruiz vs Marcela Mistral Ring Royale #parati #ringroyale #karelyruiz",
+              "channelTitle": "Alex Anta",
+              "predicted7d": 162164,
+              "delta": 26434
+            },
+            {
+              "videoId": "gMIfrOtlYQw",
+              "title": "ASÍ FUE! El patrón pierde contra Chuy almada en ring royale en vivo #ringroyale",
+              "channelTitle": "StarsTV",
+              "predicted7d": 138388,
+              "delta": 24674
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Ring Royale: Famosos en el Ring!",
+            "description": "2026-03-19_MX_1\nRevive los momentos más explosivos de Ring Royale. Desde el polémico KO de Adame a Trejo hasta las intensas batallas de Karely Ruiz y Marcela Mistral. ¡No te pierdas la acción y el drama de estas peleas inolvidables!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=2tbC_SWo7BI\n2) https://www.youtube.com/watch?v=pMY-OUjLATI\n3) https://www.youtube.com/watch?v=Gk15jt9DvzQ\n4) https://www.youtube.com/watch?v=gMIfrOtlYQw\n\n#Shorts #MX",
+            "tags": [
+              "RingRoyale",
+              "AlfredoAdame",
+              "CarlosTrejo",
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "ElPatron",
+              "ChuyAlmada",
+              "Boxeo",
+              "PeleasFamosos",
+              "KOViral"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "LOgRKmc97BA"
+          },
+          "updatedAt": "2026-03-19T02:57:04.193Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 15
+            },
+            "vcClusters": [
+              {
+                "name": "카렐리 루이즈 vs 마르셀라 미스트랄 - 경기 하이라이트 및 전체 영상",
+                "description": "카렐리 루이즈와 마르셀라 미스트랄의 실제 경기 장면, 주요 하이라이트, 또는 전체 경기를 요약하거나 시청 링크를 제공하는 영상 모음입니다. 짧은 클립부터 전체 요약까지 다양한 길이의 영상이 포함됩니다.",
+                "query": "경기 영상",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "2GsuPWJpEck",
+                    "title": "Donde ver Karely Ruiz vs Marcela Mistral EN VIVO Ring Royale 2026 resumen pelea completa HOY",
+                    "predicted7d": 1279581
+                  },
+                  {
+                    "videoId": "ZggjyalwFIE",
+                    "title": "Pelea completa de Karely Ruiz vs Marcela Mistral… #marcelamistral #karelyruiz",
+                    "predicted7d": 252843
+                  },
+                  {
+                    "videoId": "vpKcpGLp498",
+                    "title": "Karely Ruiz vs Marcela mistral",
+                    "predicted7d": 76720
+                  },
+                  {
+                    "videoId": "4wNniSSXPPA",
+                    "title": "Marcela vs Karely Ruiz #ringroyale #karely #mx",
+                    "predicted7d": 35266
+                  },
+                  {
+                    "videoId": "rqEdK8CzfEA",
+                    "title": "Karely Ruiz vs Marcela Mistral… #karelyruiz #marcelamistral",
+                    "predicted7d": 28188
+                  },
+                  {
+                    "videoId": "0HVxWla53vw",
+                    "title": "Karely Ruiz vs Marcela Mistral #ringroyale",
+                    "predicted7d": 25533
+                  }
+                ]
+              },
+              {
+                "name": "카렐리 루이즈 vs 마르셀라 미스트랄 - 경기 전 분위기 및 계체량",
+                "description": "경기 전 선수들의 대면, 계체량 행사, 인터뷰, 경기 예상 등 대결 분위기를 고조시키는 영상 모음입니다. 선수들의 긴장감 넘치는 모습과 팬들의 기대감을 엿볼 수 있습니다.",
+                "query": "경기 전 대결",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "wNOa3UNZ3tQ",
+                    "title": "Karely Ruiz y Marcela Mistral se van a dar con todo… #karelyruiz #marcelamistral",
+                    "predicted7d": 1687976
+                  },
+                  {
+                    "videoId": "Hwx0A5axoLc",
+                    "title": "Karely Ruiz lista para ganar su pelea contra Marcela Mistral… #karelyruiz #marcelamistral",
+                    "predicted7d": 422049
+                  },
+                  {
+                    "videoId": "fpbL8M-aBxA",
+                    "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+                    "predicted7d": 127222
+                  },
+                  {
+                    "videoId": "E4sK6SFcchc",
+                    "title": "Karely Ruiz y Marcela Mistral listas para su pelea de box… #karelyruiz #marcelamistral",
+                    "predicted7d": 124635
+                  },
+                  {
+                    "videoId": "cYHDpUoEzYo",
+                    "title": "Marcela Mistral vs Karely Ruiz en el pesaje",
+                    "predicted7d": 55658
+                  },
+                  {
+                    "videoId": "H9qVU3Gc2Io",
+                    "title": "😱🔥🥊KARELY RUIZ  Y MARCELA MISTRAL  SE ENCARAN  PARA EL COMBATE  EN MONTERREY!",
+                    "predicted7d": 25156
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "karely ruiz vs marcela mistral",
+          "keyword": "경기 전 대결",
+          "videos": [
+            {
+              "videoId": "wNOa3UNZ3tQ",
+              "title": "Karely Ruiz y Marcela Mistral se van a dar con todo… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 1687976,
+              "viewCount": 1227266,
+              "delta": 460710
+            },
+            {
+              "videoId": "Hwx0A5axoLc",
+              "title": "Karely Ruiz lista para ganar su pelea contra Marcela Mistral… #karelyruiz #marcelamistral",
+              "channelTitle": "México Mágico",
+              "predicted7d": 422049,
+              "viewCount": 288243,
+              "delta": 133806
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 127222,
+              "viewCount": 98642,
+              "delta": 28580
+            },
+            {
+              "videoId": "E4sK6SFcchc",
+              "title": "Karely Ruiz y Marcela Mistral listas para su pelea de box… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 124635,
+              "viewCount": 98491,
+              "delta": 26144
+            }
+          ],
+          "theme": "카렐리 루이즈 vs 마르셀라 미스트랄 - 경기 전 분위기 및 계체량",
+          "selectedSourceVideos": [
+            {
+              "videoId": "wNOa3UNZ3tQ",
+              "title": "Karely Ruiz y Marcela Mistral se van a dar con todo… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 1687976,
+              "delta": 460710
+            },
+            {
+              "videoId": "Hwx0A5axoLc",
+              "title": "Karely Ruiz lista para ganar su pelea contra Marcela Mistral… #karelyruiz #marcelamistral",
+              "channelTitle": "México Mágico",
+              "predicted7d": 422049,
+              "delta": 133806
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 127222,
+              "delta": 28580
+            },
+            {
+              "videoId": "E4sK6SFcchc",
+              "title": "Karely Ruiz y Marcela Mistral listas para su pelea de box… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 124635,
+              "delta": 26144
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Karely vs Marcela: ¡Choque de Reinas!",
+            "description": "2026-03-19_MX_2\n¡Prepárense para el evento más esperado! Karely Ruiz y Marcela Mistral se enfrentan en el ring. ¿Quién saldrá victoriosa de esta épica batalla?\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=wNOa3UNZ3tQ\n2) https://www.youtube.com/watch?v=Hwx0A5axoLc\n3) https://www.youtube.com/watch?v=fpbL8M-aBxA\n4) https://www.youtube.com/watch?v=E4sK6SFcchc\n\n#Shorts #MX",
+            "tags": [
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "BoxeoFemenino",
+              "PeleaDeFamosas",
+              "ShortsViral",
+              "Celebridades",
+              "RingCaliente",
+              "DueloDeEstrellas"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "4Q8FcgXzi5s"
+          },
+          "updatedAt": "2026-03-19T02:58:05.654Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-19T02:58:05.663Z"
+    }
+  },
+  "finishedAt": "2026-03-19T02:58:05.667Z"
+}

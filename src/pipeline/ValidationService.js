@@ -117,6 +117,10 @@ export class ValidationService {
         videoId: p.id,
         title: f.title,
         channelTitle: f.channel_title,
+        channelId: f.channel_id,               // 채널 ID
+        publishedAt: f.upload_date,
+        ageHours: f.age_hours,                 // 수집 당시 영상 나이
+        subscriberCount: f.subscriber_count,   // 수집 당시 구독자 수
         predicted7d,
         viewCount: Number(f.view_count ?? 0),
         delta: predicted7d - Number(f.view_count ?? 0)

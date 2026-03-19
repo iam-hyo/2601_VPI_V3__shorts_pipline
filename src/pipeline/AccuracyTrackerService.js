@@ -37,21 +37,26 @@ export class AccuracyTrackerService {
       VALUES (@vid_id, @ch_id, @region, @collected_at, @when_is_7, @age_hours, @sub_count, @current_views, @pred_7)
     `);
 
-    // 7일 뒤 날짜 계산
-    const whenIs7 = new Date(collectedAt);
-    whenIs7.setDate(whenIs7.getDate() + 7);
-    const whenIs7Str = whenIs7.toISOString().split('T')[0]; // YYYY-MM-DD 포맷
-
     const insertMany = this.db.transaction((vids) => {
       for (const v of vids) {
+        // 💡 [핵심 로직 변경] 수집일(collectedAt)이 아닌, 영상의 '실제 공개일(publishedAt)' 기준 + 7일 계산
+        let whenIs7Str = 'UNKNOWN';
+        if (v.publishedAt) {
+          const publishedDate = new Date(v.publishedAt);
+          publishedDate.setDate(publishedDate.getDate() + 7);
+          whenIs7Str = publishedDate.toISOString().split('T')[0]; // YYYY-MM-DD
+        } else {
+          console.warn(`[Tracker] ⚠️ ${v.videoId}의 publishedAt이 없습니다. 계산 불가.`);
+        }
+
         insert.run({
           vid_id: v.videoId,
-          ch_id: v.channelId || 'UNKNOWN',
+          ch_id: v.channelId || 'UNKNOWN', // ValidationService에서 살려준 데이터 매핑
           region: region,
           collected_at: collectedAt.toISOString(),
-          when_is_7: whenIs7Str,
-          age_hours: v.ageHours || 0,
-          sub_count: v.subscriberCount || 0,
+          when_is_7: whenIs7Str,           // 영상별 공개일 + 7일로 변경됨
+          age_hours: v.ageHours || 0,      // 정상 적재됨
+          sub_count: v.subscriberCount || 0, // 정상 적재됨
           current_views: v.viewCount || 0,
           pred_7: v.predicted7d || 0
         });
@@ -65,7 +70,7 @@ export class AccuracyTrackerService {
   // [삽입 시점 2] Orchestrator.js 에서 매일 파이프라인 실행 전/후 호출
   async evaluatePendingRecords() {
     const todayStr = new Date().toISOString().split('T')[0];
-    
+
     // 검증 대상 조회: 7일이 도래했고, 아직 실제 조회수가 기록되지 않은 영상
     const pendingStmt = this.db.prepare(`
       SELECT vid_id, pred_7 FROM predictions 

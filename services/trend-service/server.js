@@ -520,16 +520,18 @@ const server = http.createServer(async (req, res) => {
       req.on("data", (chunk) => { body += chunk; });
       req.on("end", async () => {
         try {
-          const { keyword, region } = JSON.parse(body);
+          const { keyword, region, recentDays } = JSON.parse(body);
 
           // 1. 국가코드 및 언어코드 맵핑
           const langCode = region === "KR" ? "ko" : region === "US" ? "en" : region === "MX" ? "es" : "en";
           const ytKey = process.env.YOUTUBE_API_KEY || "YOUR_YOUTUBE_API_KEY"; // 환경변수 확인 필요
 
           // 2. 유튜브 Search API 호출 (모수 50개 확보, relevanceLanguage 추가)                                                                     // order=relevance or order=date
-          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&key=${ytKey}`;
+          // const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&key=${ytKey}`;
           // 2. URL에 publishedAfter 파라미터 추가
-          // const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&publishedAfter=${publishedAfter}&key=${ytKey}`;
+          console.log(recentDays, typeof recentDays);
+          const publishedAfter = new Date(Date.now() - recentDays * 24 * 60 * 60 * 1000).toISOString(); // 최근 recentDays일
+          const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=${encodeURIComponent(keyword)}&type=video&videoDuration=short&regionCode=${region}&relevanceLanguage=${langCode}&order=relevance&publishedAfter=${publishedAfter}&key=${ytKey}`;
           const searchRes = await fetch(searchUrl);
           const searchData = await searchRes.json();
 

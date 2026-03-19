@@ -1,0 +1,1025 @@
+{
+  "runId": "2026-03-18",
+  "date": "2026-03-18",
+  "createdAt": "2026-03-18T02:50:01.524Z",
+  "updatedAt": "2026-03-18T02:57:37.091Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "김가람",
+          "mc 딩동",
+          "차지연",
+          "낙원",
+          "킹 피스",
+          "장인수",
+          "프리지아",
+          "동훈 이일걸",
+          "김하 온",
+          "lck",
+          "나 우아 임영",
+          "버터 떡",
+          "골든",
+          "핑계 고",
+          "로얄 44",
+          "내 새끼 의 연애 2",
+          "사또",
+          "메이플",
+          "bts"
+        ],
+        "updatedAt": "2026-03-18T02:50:12.127Z"
+      },
+      "assignedKeywords": [
+        "김가람",
+        "mc 딩동",
+        "차지연"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 41
+            },
+            "vcClusters": [
+              {
+                "name": "공식 언론 보도 및 이슈 브리핑",
+                "description": "주요 언론사 채널에서 김가람 학폭 논란, 탈퇴, 입장 발표 등 사건의 경과를 보도하는 뉴스 형식의 영상 모음입니다. 앵커나 기자가 출연하고, 공식 자료 화면 위주로 구성됩니다.",
+                "query": "김가람 뉴스 보도",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "WACka6k_xVQ",
+                    "title": "학폭으로 활동 중지한 연예인 TOP3 #shorts",
+                    "predicted7d": 1944489
+                  },
+                  {
+                    "videoId": "jyPnPDu3OfA",
+                    "title": "르세라핌 김가람, 학교 폭력 논란에 결국…활동 중단→탈퇴 / SBS / 굿모닝연예",
+                    "predicted7d": 755887
+                  },
+                  {
+                    "videoId": "ITvi8VzU3YA",
+                    "title": "김가람 \"학폭 가한 적 없다\"…탈퇴 후 첫 입장 발표 / SBS / 굿모닝 연예",
+                    "predicted7d": 43630
+                  },
+                  {
+                    "videoId": "OIV7_w9fTdg",
+                    "title": "“김가람, 3년 만에 인스타 등장…복귀 수순일까?”",
+                    "predicted7d": 21891
+                  },
+                  {
+                    "videoId": "YjuySJ0dUVQ",
+                    "title": "'르세라핌' 출신 김가람, '학폭위' 서류 직접 공개하며 최초로 심경 고백😶",
+                    "predicted7d": 19748
+                  },
+                  {
+                    "videoId": "dKkxmVjxne8",
+                    "title": "\"제 학폭 기록 지워질만 한가요\"…김가람 작성 추정글 논란[가장 HOT한 연예뉴스만]#shorts",
+                    "predicted7d": 7261
+                  }
+                ]
+              },
+              {
+                "name": "팬 편집 및 숏폼 이슈 요약",
+                "description": "짧은 길이의 영상(주로 Shorts)으로 김가람 관련 논란, 근황, 다른 멤버와의 비교, 팬들의 반응 등을 빠르게 요약하거나 편집한 콘텐츠입니다. 비공식 채널에서 제작된 영상이 많습니다.",
+                "query": "김가람 숏츠 요약",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "NSnuqWQ7xGc",
+                    "title": "멤버한테 손절 당한 아이돌 TOP3 #shorts #라이즈 #승한 #르세라핌 #김가람 #빅뱅 #승리",
+                    "predicted7d": 16433185
+                  },
+                  {
+                    "videoId": "bspYWkB8AKA",
+                    "title": "과거 무시 당했던 아이돌 TOP3 #shorts",
+                    "predicted7d": 5888282
+                  },
+                  {
+                    "videoId": "rNiNDgeWiCE",
+                    "title": "김가람 vs 설윤",
+                    "predicted7d": 3281270
+                  },
+                  {
+                    "videoId": "ZmCNmLXHaRI",
+                    "title": "[LESSERAFIM] 울음 참는 김가람",
+                    "predicted7d": 3093423
+                  },
+                  {
+                    "videoId": "ZKE2j4jwOV8",
+                    "title": "르세라핌 전 멤버 '김가람' 근황",
+                    "predicted7d": 2846384
+                  },
+                  {
+                    "videoId": "-sdTT8UVMLw",
+                    "title": "[르세라핌]김가람 활동 중단 후 갑자기 표정밝아진 멤버들",
+                    "predicted7d": 1941090
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "김가람",
+          "keyword": "김가람 숏츠 요약",
+          "videos": [
+            {
+              "videoId": "NSnuqWQ7xGc",
+              "title": "멤버한테 손절 당한 아이돌 TOP3 #shorts #라이즈 #승한 #르세라핌 #김가람 #빅뱅 #승리",
+              "channelTitle": "다이슈",
+              "predicted7d": 16433185,
+              "viewCount": 12420220,
+              "delta": 4012965
+            },
+            {
+              "videoId": "bspYWkB8AKA",
+              "title": "과거 무시 당했던 아이돌 TOP3 #shorts",
+              "channelTitle": "피플박스 People Box",
+              "predicted7d": 5888282,
+              "viewCount": 4320490,
+              "delta": 1567792
+            },
+            {
+              "videoId": "rNiNDgeWiCE",
+              "title": "김가람 vs 설윤",
+              "channelTitle": "티티티",
+              "predicted7d": 3281270,
+              "viewCount": 2654586,
+              "delta": 626684
+            },
+            {
+              "videoId": "ZmCNmLXHaRI",
+              "title": "[LESSERAFIM] 울음 참는 김가람",
+              "channelTitle": "SAZANKA",
+              "predicted7d": 3093423,
+              "viewCount": 2096434,
+              "delta": 996989
+            }
+          ],
+          "theme": "팬 편집 및 숏폼 이슈 요약",
+          "selectedSourceVideos": [
+            {
+              "videoId": "NSnuqWQ7xGc",
+              "title": "멤버한테 손절 당한 아이돌 TOP3 #shorts #라이즈 #승한 #르세라핌 #김가람 #빅뱅 #승리",
+              "channelTitle": "다이슈",
+              "predicted7d": 16433185,
+              "delta": 4012965
+            },
+            {
+              "videoId": "bspYWkB8AKA",
+              "title": "과거 무시 당했던 아이돌 TOP3 #shorts",
+              "channelTitle": "피플박스 People Box",
+              "predicted7d": 5888282,
+              "delta": 1567792
+            },
+            {
+              "videoId": "rNiNDgeWiCE",
+              "title": "김가람 vs 설윤",
+              "channelTitle": "티티티",
+              "predicted7d": 3281270,
+              "delta": 626684
+            },
+            {
+              "videoId": "ZmCNmLXHaRI",
+              "title": "[LESSERAFIM] 울음 참는 김가람",
+              "channelTitle": "SAZANKA",
+              "predicted7d": 3093423,
+              "delta": 996989
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-18/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "논란의 중심 김가람, 그녀의 모든 것 #shorts",
+            "description": "2026-03-18_KR_1\n르세라핌 전 멤버 김가람을 둘러싼 모든 논란과 이슈를 한눈에 모았습니다. 과거 무시당했던 순간부터 멤버들과의 관계, 그리고 설윤과의 비교까지, 그녀의 모든 것을 파헤쳐 봅니다. 과연 그녀의 진실은 무엇일까요?\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=NSnuqWQ7xGc\n2) https://www.youtube.com/watch?v=bspYWkB8AKA\n3) https://www.youtube.com/watch?v=rNiNDgeWiCE\n4) https://www.youtube.com/watch?v=ZmCNmLXHaRI\n\n#Shorts #KR",
+            "tags": [
+              "김가람",
+              "르세라핌",
+              "아이돌논란",
+              "학교폭력",
+              "KPOP",
+              "shorts",
+              "설윤",
+              "다이슈",
+              "피플박스",
+              "연예계이슈"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "5L4pEil2OTc"
+          },
+          "updatedAt": "2026-03-18T02:51:18.478Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 41
+            },
+            "vcClusters": [
+              {
+                "name": "차지연 현역가왕3 무대 공연",
+                "description": "MBN '현역가왕3'에서 차지연이 선보인 다양한 트로트 무대 공연 영상 모음. 공식 채널 클립, 팬 편집본, MR 제거 영상 등 실제 무대 장면을 담고 있습니다.",
+                "query": "현역가왕3 무대",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "HtDax6WYc8s",
+                    "title": "엄청난 환호의 무대_차지연,둥지 #현역가왕3  #차지연  #둥지",
+                    "predicted7d": 812719
+                  },
+                  {
+                    "videoId": "vOs1VL_e9Qw",
+                    "title": "차지연_갈라쇼,북 퍼포먼스 #현역가왕3  #갈라쇼  #차지연",
+                    "predicted7d": 724692
+                  },
+                  {
+                    "videoId": "85LKv26HIPE",
+                    "title": "차지연 눈물 뚝뚝 어깨춤 현역가왕3 봄날은 간다",
+                    "predicted7d": 605723
+                  },
+                  {
+                    "videoId": "Z5Yf7b4DPQo",
+                    "title": "둥지 남진&차지연 #현역가왕3 #차지연 #남진 #둥지 @백세인생사",
+                    "predicted7d": 579547
+                  },
+                  {
+                    "videoId": "CdBWMKd2-Xc",
+                    "title": "차지연 MR제거 봄날은 간다 현역가왕3",
+                    "predicted7d": 382511
+                  },
+                  {
+                    "videoId": "wu5QxkGHk0Y",
+                    "title": "다시 소환된 차지연 전율의 무대 송대관의 네박자 #차지연 #송대관 #네박자 #트로트해석 #불후의명곡 @백세인생사",
+                    "predicted7d": 368826
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "차지연",
+          "keyword": "현역가왕3 무대",
+          "videos": [
+            {
+              "videoId": "HtDax6WYc8s",
+              "title": "엄청난 환호의 무대_차지연,둥지 #현역가왕3  #차지연  #둥지",
+              "channelTitle": "chsk121",
+              "predicted7d": 812719,
+              "viewCount": 637027,
+              "delta": 175692
+            },
+            {
+              "videoId": "vOs1VL_e9Qw",
+              "title": "차지연_갈라쇼,북 퍼포먼스 #현역가왕3  #갈라쇼  #차지연",
+              "channelTitle": "chsk121",
+              "predicted7d": 724692,
+              "viewCount": 505872,
+              "delta": 218820
+            },
+            {
+              "videoId": "85LKv26HIPE",
+              "title": "차지연 눈물 뚝뚝 어깨춤 현역가왕3 봄날은 간다",
+              "channelTitle": "하늘엔눈",
+              "predicted7d": 605723,
+              "viewCount": 489250,
+              "delta": 116473
+            },
+            {
+              "videoId": "Z5Yf7b4DPQo",
+              "title": "둥지 남진&차지연 #현역가왕3 #차지연 #남진 #둥지 @백세인생사",
+              "channelTitle": "백세인생사",
+              "predicted7d": 579547,
+              "viewCount": 444352,
+              "delta": 135195
+            }
+          ],
+          "theme": "차지연 현역가왕3 무대 공연",
+          "selectedSourceVideos": [
+            {
+              "videoId": "HtDax6WYc8s",
+              "title": "엄청난 환호의 무대_차지연,둥지 #현역가왕3  #차지연  #둥지",
+              "channelTitle": "chsk121",
+              "predicted7d": 812719,
+              "delta": 175692
+            },
+            {
+              "videoId": "vOs1VL_e9Qw",
+              "title": "차지연_갈라쇼,북 퍼포먼스 #현역가왕3  #갈라쇼  #차지연",
+              "channelTitle": "chsk121",
+              "predicted7d": 724692,
+              "delta": 218820
+            },
+            {
+              "videoId": "85LKv26HIPE",
+              "title": "차지연 눈물 뚝뚝 어깨춤 현역가왕3 봄날은 간다",
+              "channelTitle": "하늘엔눈",
+              "predicted7d": 605723,
+              "delta": 116473
+            },
+            {
+              "videoId": "Z5Yf7b4DPQo",
+              "title": "둥지 남진&차지연 #현역가왕3 #차지연 #남진 #둥지 @백세인생사",
+              "channelTitle": "백세인생사",
+              "predicted7d": 579547,
+              "delta": 135195
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-18/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "차지연 현역가왕 레전드 무대 몰아보기!",
+            "description": "2026-03-18_KR_2\n현역가왕3에서 압도적인 존재감을 보여준 차지연! 둥지, 갈라쇼 북 퍼포먼스, 봄날은 간다까지, 그녀의 레전드 무대들을 한 번에 만나보세요. 폭발적인 가창력과 무대 장악력으로 모두를 사로잡은 순간들을 놓치지 마세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=HtDax6WYc8s\n2) https://www.youtube.com/watch?v=vOs1VL_e9Qw\n3) https://www.youtube.com/watch?v=85LKv26HIPE\n4) https://www.youtube.com/watch?v=Z5Yf7b4DPQo\n\n#Shorts #KR",
+            "tags": [
+              "차지연",
+              "현역가왕",
+              "현역가왕3",
+              "둥지",
+              "갈라쇼",
+              "북퍼포먼스",
+              "봄날은간다",
+              "남진",
+              "레전드무대",
+              "가창력"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "kVwkeJD0G6U"
+          },
+          "updatedAt": "2026-03-18T02:52:43.279Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-18T02:52:43.287Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "oscars 2026",
+          "ring royale",
+          "dune 3 trailer",
+          "bam adebayo 83 points",
+          "brand new day",
+          "mlb the show 26",
+          "kaed",
+          "crimson desert",
+          "marvel rivals",
+          "fede vigevani",
+          "brooke monk"
+        ],
+        "updatedAt": "2026-03-18T02:52:52.831Z"
+      },
+      "assignedKeywords": [
+        "oscars 2026",
+        "ring royale"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 11
+            },
+            "vcClusters": [
+              {
+                "name": "오스카 공식 수상 발표 및 뉴스 보도",
+                "description": "주요 언론사 채널에서 오스카 시상식의 특정 수상자나 공식 소식을 보도하는 영상 모음. 앵커나 공식 발표 장면이 주를 이룸.",
+                "query": "오스카 수상 발표",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (1개)",
+                "topVideos": []
+              },
+              {
+                "name": "레드카펫 패션 및 셀럽 스타일 분석",
+                "description": "오스카 시상식 레드카펫에 등장한 셀럽들의 의상, 스타일, 포즈 등을 분석하고 평가하는 영상 모음. 패션 평론 또는 하이라이트 형식.",
+                "query": "오스카 레드카펫",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "시상식 하이라이트, 화제성 순간 및 팬 코멘터리",
+                "description": "시상식 중 발생한 특정 화제성 순간, 호스트의 농담, 셀럽 간의 상호작용, 기록 경신 등 짧고 임팩트 있는 장면을 모아 보여주거나 팬들이 코멘터리하는 영상 모음.",
+                "query": "오스카 화제 장면",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "jWDMULbexBo",
+                    "title": "Meryl Streep vs Jennifer Lawrence and Jodie Foster at 90th #Oscars #shorts",
+                    "predicted7d": 117311251
+                  },
+                  {
+                    "videoId": "T0dp-0sThiU",
+                    "title": "Jimmy Kimmel Destroys Trump & Melania at The Oscars 2026!  😳 #Oscars #JimmyKimmel #Politics⸻",
+                    "predicted7d": 1683442
+                  },
+                  {
+                    "videoId": "3l0WP1ibiG0",
+                    "title": "Oscars 2026 Moments Everyone Is Talking About",
+                    "predicted7d": 454021
+                  },
+                  {
+                    "videoId": "gUG36yLyDcU",
+                    "title": "2026 Oscar Winners",
+                    "predicted7d": 171360
+                  },
+                  {
+                    "videoId": "tNSiazKR-yE",
+                    "title": "Records broken at 2026 Oscars #oscars #oscars2026 #academyawards",
+                    "predicted7d": 52623
+                  },
+                  {
+                    "videoId": "6NnrGiOCdsI",
+                    "title": "The Moment Grogu Stole The Entire Oscars 2026",
+                    "predicted7d": 11852
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "oscars 2026",
+          "keyword": "오스카 화제 장면",
+          "videos": [
+            {
+              "videoId": "jWDMULbexBo",
+              "title": "Meryl Streep vs Jennifer Lawrence and Jodie Foster at 90th #Oscars #shorts",
+              "channelTitle": "Oscars",
+              "predicted7d": 117311251,
+              "viewCount": 82230661,
+              "delta": 35080590
+            },
+            {
+              "videoId": "T0dp-0sThiU",
+              "title": "Jimmy Kimmel Destroys Trump & Melania at The Oscars 2026!  😳 #Oscars #JimmyKimmel #Politics⸻",
+              "channelTitle": "Lamont Tyson",
+              "predicted7d": 1683442,
+              "viewCount": 904541,
+              "delta": 778901
+            },
+            {
+              "videoId": "3l0WP1ibiG0",
+              "title": "Oscars 2026 Moments Everyone Is Talking About",
+              "channelTitle": "celebstage",
+              "predicted7d": 454021,
+              "viewCount": 216487,
+              "delta": 237534
+            },
+            {
+              "videoId": "gUG36yLyDcU",
+              "title": "2026 Oscar Winners",
+              "channelTitle": "WatchMojo.com",
+              "predicted7d": 171360,
+              "viewCount": 103009,
+              "delta": 68351
+            }
+          ],
+          "theme": "시상식 하이라이트, 화제성 순간 및 팬 코멘터리",
+          "selectedSourceVideos": [
+            {
+              "videoId": "jWDMULbexBo",
+              "title": "Meryl Streep vs Jennifer Lawrence and Jodie Foster at 90th #Oscars #shorts",
+              "channelTitle": "Oscars",
+              "predicted7d": 117311251,
+              "delta": 35080590
+            },
+            {
+              "videoId": "T0dp-0sThiU",
+              "title": "Jimmy Kimmel Destroys Trump & Melania at The Oscars 2026!  😳 #Oscars #JimmyKimmel #Politics⸻",
+              "channelTitle": "Lamont Tyson",
+              "predicted7d": 1683442,
+              "delta": 778901
+            },
+            {
+              "videoId": "3l0WP1ibiG0",
+              "title": "Oscars 2026 Moments Everyone Is Talking About",
+              "channelTitle": "celebstage",
+              "predicted7d": 454021,
+              "delta": 237534
+            },
+            {
+              "videoId": "gUG36yLyDcU",
+              "title": "2026 Oscar Winners",
+              "channelTitle": "WatchMojo.com",
+              "predicted7d": 171360,
+              "delta": 68351
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-18/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oscars 2026: Wildest Moments & Winners!",
+            "description": "2026-03-18_US_1\nRelive the most shocking, hilarious, and unforgettable moments from the 2026 Academy Awards! From Kimmel's political jabs to legendary actress showdowns and all the big winners, we've got the highlights everyone's still talking about. Don't miss the drama, the fashion, and the history!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=jWDMULbexBo\n2) https://www.youtube.com/watch?v=T0dp-0sThiU\n3) https://www.youtube.com/watch?v=3l0WP1ibiG0\n4) https://www.youtube.com/watch?v=gUG36yLyDcU\n\n#Shorts #US",
+            "tags": [
+              "Oscars2026",
+              "AcademyAwards",
+              "JimmyKimmel",
+              "MerylStreep",
+              "JenniferLawrence",
+              "JodieFoster",
+              "Trump",
+              "OscarWinners",
+              "ViralMoments",
+              "CelebrityNews"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "DtoAHkLaP7E"
+          },
+          "updatedAt": "2026-03-18T02:53:56.682Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 29
+            },
+            "vcClusters": [
+              {
+                "name": "주요 경기 하이라이트 및 결과 보도",
+                "description": "Ring Royale 이벤트의 주요 경기(예: Adame vs Trejo, Karely vs Marcela)의 실제 경기 장면, 하이라이트, KO 순간 및 경기 결과 발표를 담은 영상 모음입니다. 짧은 뉴스 형식의 경기 요약도 포함됩니다.",
+                "query": "경기 하이라이트",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "YiVHAIKDBT4",
+                    "title": "RING ROYALE: Los ganadores del evento que está en redes",
+                    "predicted7d": 400570
+                  },
+                  {
+                    "videoId": "pMY-OUjLATI",
+                    "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+                    "predicted7d": 235061
+                  },
+                  {
+                    "videoId": "6cWBEMT2Etk",
+                    "title": "Adame se llevó la victoria frente a Carlos Trejo en Ring Royale. 🥊 #adame #carlostrejo #ringroyale",
+                    "predicted7d": 229782
+                  },
+                  {
+                    "videoId": "GZezUO0lHV8",
+                    "title": "Marcela Mistral derrota a Karely Ruiz en Ring Royale",
+                    "predicted7d": 217594
+                  },
+                  {
+                    "videoId": "4MYdebXK-fk",
+                    "title": "¡Marcela Mistral vence a Karely Ruiz en Ring Royale",
+                    "predicted7d": 173296
+                  },
+                  {
+                    "videoId": "gMIfrOtlYQw",
+                    "title": "ASÍ FUE! El patrón pierde contra Chuy almada en ring royale en vivo #ringroyale",
+                    "predicted7d": 165469
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "keyword": "경기 하이라이트",
+          "videos": [
+            {
+              "videoId": "YiVHAIKDBT4",
+              "title": "RING ROYALE: Los ganadores del evento que está en redes",
+              "channelTitle": "JennaPop",
+              "predicted7d": 400570,
+              "viewCount": 245612,
+              "delta": 154958
+            },
+            {
+              "videoId": "pMY-OUjLATI",
+              "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+              "channelTitle": "Chepisfut",
+              "predicted7d": 235061,
+              "viewCount": 143631,
+              "delta": 91430
+            },
+            {
+              "videoId": "6cWBEMT2Etk",
+              "title": "Adame se llevó la victoria frente a Carlos Trejo en Ring Royale. 🥊 #adame #carlostrejo #ringroyale",
+              "channelTitle": "MILENIO SOFT",
+              "predicted7d": 229782,
+              "viewCount": 144379,
+              "delta": 85403
+            },
+            {
+              "videoId": "GZezUO0lHV8",
+              "title": "Marcela Mistral derrota a Karely Ruiz en Ring Royale",
+              "channelTitle": "Julian EME",
+              "predicted7d": 217594,
+              "viewCount": 137804,
+              "delta": 79790
+            }
+          ],
+          "theme": "주요 경기 하이라이트 및 결과 보도",
+          "selectedSourceVideos": [
+            {
+              "videoId": "YiVHAIKDBT4",
+              "title": "RING ROYALE: Los ganadores del evento que está en redes",
+              "channelTitle": "JennaPop",
+              "predicted7d": 400570,
+              "delta": 154958
+            },
+            {
+              "videoId": "pMY-OUjLATI",
+              "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+              "channelTitle": "Chepisfut",
+              "predicted7d": 235061,
+              "delta": 91430
+            },
+            {
+              "videoId": "6cWBEMT2Etk",
+              "title": "Adame se llevó la victoria frente a Carlos Trejo en Ring Royale. 🥊 #adame #carlostrejo #ringroyale",
+              "channelTitle": "MILENIO SOFT",
+              "predicted7d": 229782,
+              "delta": 85403
+            },
+            {
+              "videoId": "GZezUO0lHV8",
+              "title": "Marcela Mistral derrota a Karely Ruiz en Ring Royale",
+              "channelTitle": "Julian EME",
+              "predicted7d": 217594,
+              "delta": 79790
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-18/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Ring Royale: Epic Fight Highlights!",
+            "description": "2026-03-18_US_2\nDive into the most talked-about moments from Ring Royale! Witness the intense battles, shocking victories, and unforgettable showdowns that captivated social media. See who truly dominated the ring!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=YiVHAIKDBT4\n2) https://www.youtube.com/watch?v=pMY-OUjLATI\n3) https://www.youtube.com/watch?v=6cWBEMT2Etk\n4) https://www.youtube.com/watch?v=GZezUO0lHV8\n\n#Shorts #US",
+            "tags": [
+              "RingRoyale",
+              "CelebrityBoxing",
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "Adame",
+              "CarlosTrejo",
+              "FightHighlights",
+              "ViralShorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "rPDHRwEMxeE"
+          },
+          "updatedAt": "2026-03-18T02:55:15.203Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-18T02:55:15.211Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "Ring Royale",
+          "Karely Ruiz vs Marcela Mistral",
+          "Alfredo Adame vs Carlos Trejo",
+          "Abelito vs Bull Terrier",
+          "Poncho de Nigris",
+          "Supernova",
+          "Pinky Promise",
+          "Hotspanish Vlogs",
+          "Fede Vigevani",
+          "Fernanfloo"
+        ],
+        "updatedAt": "2026-03-18T02:55:26.863Z"
+      },
+      "assignedKeywords": [
+        "Ring Royale",
+        "Karely Ruiz vs Marcela Mistral"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 20
+            },
+            "vcClusters": [
+              {
+                "name": "경기 하이라이트 및 결과",
+                "description": "유명인들 간의 복싱 경기 하이라이트 장면이나 특정 경기의 결과를 직접적으로 전달하는 영상 모음. 짧고 강렬한 액션 중심의 편집 영상이 많습니다.",
+                "query": "경기 결과",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "2tbC_SWo7BI",
+                    "title": "ALFREDO ADAME LOGRA KO ANTE CARLOS TREJO EN RING ROYALE",
+                    "predicted7d": 1112882
+                  },
+                  {
+                    "videoId": "SGwyU_djSSQ",
+                    "title": "ALDO DE NIGRIS GANA POR NOCAUT A NICOLA PORCELLA EN RING ROYALE",
+                    "predicted7d": 309221
+                  },
+                  {
+                    "videoId": "pMY-OUjLATI",
+                    "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+                    "predicted7d": 235204
+                  },
+                  {
+                    "videoId": "4MYdebXK-fk",
+                    "title": "¡Marcela Mistral vence a Karely Ruiz en Ring Royale",
+                    "predicted7d": 173296
+                  },
+                  {
+                    "videoId": "gMIfrOtlYQw",
+                    "title": "ASÍ FUE! El patrón pierde contra Chuy almada en ring royale en vivo #ringroyale",
+                    "predicted7d": 165469
+                  },
+                  {
+                    "videoId": "PUp_5SYMqRo",
+                    "title": "El Patron Da Vergüenza y pierde vs Chuy Almada en Ring Royale",
+                    "predicted7d": 66077
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "Ring Royale",
+          "keyword": "경기 결과",
+          "videos": [
+            {
+              "videoId": "2tbC_SWo7BI",
+              "title": "ALFREDO ADAME LOGRA KO ANTE CARLOS TREJO EN RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 1112882,
+              "viewCount": 600807,
+              "delta": 512075
+            },
+            {
+              "videoId": "SGwyU_djSSQ",
+              "title": "ALDO DE NIGRIS GANA POR NOCAUT A NICOLA PORCELLA EN RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 309221,
+              "viewCount": 175584,
+              "delta": 133637
+            },
+            {
+              "videoId": "pMY-OUjLATI",
+              "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+              "channelTitle": "Chepisfut",
+              "predicted7d": 235204,
+              "viewCount": 143718,
+              "delta": 91486
+            },
+            {
+              "videoId": "4MYdebXK-fk",
+              "title": "¡Marcela Mistral vence a Karely Ruiz en Ring Royale",
+              "channelTitle": "CASOS VIRALES Y URBANOS",
+              "predicted7d": 173296,
+              "viewCount": 79935,
+              "delta": 93361
+            }
+          ],
+          "theme": "경기 하이라이트 및 결과",
+          "selectedSourceVideos": [
+            {
+              "videoId": "2tbC_SWo7BI",
+              "title": "ALFREDO ADAME LOGRA KO ANTE CARLOS TREJO EN RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 1112882,
+              "delta": 512075
+            },
+            {
+              "videoId": "SGwyU_djSSQ",
+              "title": "ALDO DE NIGRIS GANA POR NOCAUT A NICOLA PORCELLA EN RING ROYALE",
+              "channelTitle": "POSTA Deportes",
+              "predicted7d": 309221,
+              "delta": 133637
+            },
+            {
+              "videoId": "pMY-OUjLATI",
+              "title": "¿QUIÉN GANÓ LA PELEA ENTRE KARELY RUIZ Y MARCELA MISTRAL EN RING ROYALE? 🥊 #Box",
+              "channelTitle": "Chepisfut",
+              "predicted7d": 235204,
+              "delta": 91486
+            },
+            {
+              "videoId": "4MYdebXK-fk",
+              "title": "¡Marcela Mistral vence a Karely Ruiz en Ring Royale",
+              "channelTitle": "CASOS VIRALES Y URBANOS",
+              "predicted7d": 173296,
+              "delta": 93361
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-18/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Momentos Épicos Ring Royale!",
+            "description": "2026-03-18_MX_1\nRevive los nocauts más impactantes y las victorias más polémicas de Ring Royale. ¿Cuál fue tu pelea favorita? ¡Déjanos tu comentario!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=2tbC_SWo7BI\n2) https://www.youtube.com/watch?v=SGwyU_djSSQ\n3) https://www.youtube.com/watch?v=pMY-OUjLATI\n4) https://www.youtube.com/watch?v=4MYdebXK-fk\n\n#Shorts #MX",
+            "tags": [
+              "RingRoyale",
+              "BoxeoCelebridades",
+              "KO",
+              "Nocaut",
+              "PeleaFamosos",
+              "AlfredoAdame",
+              "AldoDeNigris",
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "NicolaPorcella"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "QBc5DT7AoNs"
+          },
+          "updatedAt": "2026-03-18T02:56:30.945Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 19
+            },
+            "vcClusters": [
+              {
+                "name": "카렐리 루이즈 vs 마르셀라 미스트랄 - 경기 하이라이트",
+                "description": "실제 복싱 경기 장면이나 주요 액션 순간을 담은 짧은 영상 클립 모음으로, 주로 경기 자체의 박진감 넘치는 모습을 보여줍니다.",
+                "query": "경기 주요 장면",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "ENSYniFGb_I",
+                    "title": "Karely Ruiz VS Marcela Mistral 🔥🔥🔥 La épica pelea..!!!",
+                    "predicted7d": 2966728
+                  },
+                  {
+                    "videoId": "ZggjyalwFIE",
+                    "title": "Pelea completa de Karely Ruiz vs Marcela Mistral… #marcelamistral #karelyruiz",
+                    "predicted7d": 242755
+                  },
+                  {
+                    "videoId": "fpbL8M-aBxA",
+                    "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+                    "predicted7d": 124874
+                  },
+                  {
+                    "videoId": "rqEdK8CzfEA",
+                    "title": "Karely Ruiz vs Marcela Mistral… #karelyruiz #marcelamistral",
+                    "predicted7d": 89383
+                  },
+                  {
+                    "videoId": "vpKcpGLp498",
+                    "title": "Karely Ruiz vs Marcela mistral",
+                    "predicted7d": 87220
+                  },
+                  {
+                    "videoId": "ogiMsWhtcr0",
+                    "title": "Karely Ruiz vs Marcela Mistral La pelea que todos esperaban #boxeo #viral",
+                    "predicted7d": 21042
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "Karely Ruiz vs Marcela Mistral",
+          "keyword": "경기 주요 장면",
+          "videos": [
+            {
+              "videoId": "ENSYniFGb_I",
+              "title": "Karely Ruiz VS Marcela Mistral 🔥🔥🔥 La épica pelea..!!!",
+              "channelTitle": "Lalito Guerra",
+              "predicted7d": 2966728,
+              "viewCount": 2387355,
+              "delta": 579373
+            },
+            {
+              "videoId": "ZggjyalwFIE",
+              "title": "Pelea completa de Karely Ruiz vs Marcela Mistral… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 242755,
+              "viewCount": 137102,
+              "delta": 105653
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 124874,
+              "viewCount": 94939,
+              "delta": 29935
+            },
+            {
+              "videoId": "rqEdK8CzfEA",
+              "title": "Karely Ruiz vs Marcela Mistral… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 89383,
+              "viewCount": 5764,
+              "delta": 83619
+            }
+          ],
+          "theme": "카렐리 루이즈 vs 마르셀라 미스트랄 - 경기 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ENSYniFGb_I",
+              "title": "Karely Ruiz VS Marcela Mistral 🔥🔥🔥 La épica pelea..!!!",
+              "channelTitle": "Lalito Guerra",
+              "predicted7d": 2966728,
+              "delta": 579373
+            },
+            {
+              "videoId": "ZggjyalwFIE",
+              "title": "Pelea completa de Karely Ruiz vs Marcela Mistral… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 242755,
+              "delta": 105653
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 124874,
+              "delta": 29935
+            },
+            {
+              "videoId": "rqEdK8CzfEA",
+              "title": "Karely Ruiz vs Marcela Mistral… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 89383,
+              "delta": 83619
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-18/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "¡Karely Ruiz vs Marcela Mistral: Pelea Épica!",
+            "description": "2026-03-18_MX_2\nPrepárate para la batalla más esperada: Karely Ruiz vs Marcela Mistral. Este video te trae los momentos clave y la tensión máxima de su épico enfrentamiento. ¡Descubre quién dominó el ring!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=ENSYniFGb_I\n2) https://www.youtube.com/watch?v=ZggjyalwFIE\n3) https://www.youtube.com/watch?v=fpbL8M-aBxA\n4) https://www.youtube.com/watch?v=rqEdK8CzfEA\n\n#Shorts #MX",
+            "tags": [
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "Pelea",
+              "Boxeo",
+              "Celebridades",
+              "Influencers",
+              "Duelo",
+              "Shorts",
+              "Viral",
+              "Espectáculo"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "AMx7pj1IxV8"
+          },
+          "updatedAt": "2026-03-18T02:57:37.080Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-18T02:57:37.088Z"
+    }
+  },
+  "finishedAt": "2026-03-18T02:57:37.091Z"
+}

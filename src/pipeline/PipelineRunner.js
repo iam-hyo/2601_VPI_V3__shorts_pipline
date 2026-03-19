@@ -17,6 +17,7 @@ import { VideoProcessorApiClient } from "../clients/VideoProcessorApiClient.js";
 import { YouTubeUploader } from "../clients/YouTubeUploader.js";
 import { HIGHLIGHT_SECOND } from "../config.js";
 import { AccuracyTrackerService } from './AccuracyTrackerService.js';
+import { VALIDATION } from "../config.js";
 import fs from "node:fs";
 
 const log = createLogger("PipelineRunner");
@@ -76,7 +77,7 @@ export class PipelineRunner {
     this.store.save(state);
   }
 
-// 💡오케스트레이터가 호출할 수 있도록 래퍼(Wrapper) 함수 생성
+// 💡Orchestrator.js에서 호출할 수 있도록 래퍼(Wrapper) 함수 생성
   async evaluatePastPredictions() {
     await this.tracker.evaluatePendingRecords();
     return this.tracker.getOverallMAPE();
@@ -256,7 +257,8 @@ export class PipelineRunner {
 
           try {
             // 1. 서버 호출하여 검색 -> 군집화(형식+주제)된 클러스터 수신
-            const vcResult = await this.trendApi.refineTrendKeywordVC(rawKeyword, region);
+            const recentDays = VALIDATION.recentDays
+            const vcResult = await this.trendApi.refineTrendKeywordVC(rawKeyword, region ,recentDays);
             const { clusters, analysis } = vcResult;
 
             log.info(
