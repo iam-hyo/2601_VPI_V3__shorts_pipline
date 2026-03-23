@@ -1,0 +1,1133 @@
+{
+  "runId": "2026-03-20",
+  "date": "2026-03-20",
+  "createdAt": "2026-03-20T02:50:02.365Z",
+  "updatedAt": "2026-03-20T03:01:17.232Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "오스카 케 데헌",
+          "윤경호",
+          "김가람",
+          "킹 피스",
+          "붉은 사막",
+          "lck",
+          "bts",
+          "낙원",
+          "골든",
+          "핑계 고",
+          "김하 온",
+          "나 우아 임영",
+          "사또",
+          "기안 84",
+          "메이플",
+          "리니지 m",
+          "로얄 44",
+          "나는 솔로 30 기",
+          "뜬뜬",
+          "차지연",
+          "쯔양"
+        ],
+        "updatedAt": "2026-03-20T02:50:12.707Z"
+      },
+      "assignedKeywords": [
+        "오스카 케 데헌",
+        "윤경호",
+        "김가람",
+        "킹 피스",
+        "붉은 사막",
+        "lck"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 40
+            },
+            "vcClusters": [
+              {
+                "name": "공식 뉴스 보도 - 감독 라면 먹방 이슈",
+                "description": "주요 언론사 채널에서 '케데헌' 감독의 오스카 시상식 라면 먹방을 보도하는 공식 뉴스 형식의 영상 모음입니다. 앵커의 진행과 현장 영상 자료를 활용합니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개)",
+                "topVideos": [
+                  {
+                    "videoId": "SRpoxveVzLE",
+                    "title": "케데헌 감독, 오스카 시상식에서 라면 봉지째 먹방｜지금 이 뉴스",
+                    "predicted7d": 150301
+                  },
+                  {
+                    "videoId": "sL5t2MHmnvI",
+                    "title": "시상식에서도 멈출 수 없는 라면 사랑...'케데헌' 감독 봉지째 먹방 [지금이뉴스] / YTN",
+                    "predicted7d": 58013
+                  },
+                  {
+                    "videoId": "J6pAfmFpL7o",
+                    "title": "오스카 시상식 격식 파괴! 트로피 들고 '신라면 생라면' 촵촵하는 미국 감독 포착 (feat. 맛잘알)",
+                    "predicted7d": 7302
+                  },
+                  {
+                    "videoId": "FDmXDEQElVo",
+                    "title": "오스카 입성한 '신라면 뽀글이' '케데헌' 감독의 객석 먹방 화제/ KNN",
+                    "predicted7d": 6489
+                  },
+                  {
+                    "videoId": "lKguiuUbUmE",
+                    "title": "'케데헌' 감독이 시상식장서 생라면을? [세상만사] #케데헌 #아카데미 #생라면 #시상식",
+                    "predicted7d": 1732
+                  }
+                ]
+              },
+              {
+                "name": "K-컬처 무대 하이라이트 및 국뽕 반응 (숏폼)",
+                "description": "오스카 시상식에서의 '케데헌' 공연 하이라이트, 한국 문화(국악, 한복, 응원봉)의 위상, 그리고 이에 대한 국내외의 열광적인 반응과 자부심을 다루는 짧고 편집된 영상들입니다. 주로 숏폼 형식으로 제작되었습니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "FeXtiAp-fmE",
+                    "title": "오스카 케데헌에 ‘한국인들이 열광하는 이유‘",
+                    "predicted7d": 2312840
+                  },
+                  {
+                    "videoId": "DV3soUMKJwc",
+                    "title": "오스카 안효섭 귀엽다고 난리(?)난 이유?",
+                    "predicted7d": 2232749
+                  },
+                  {
+                    "videoId": "aYDsNVf3NBI",
+                    "title": "사자보이즈 완전체 등장에 난리(?)난 댓글반응?",
+                    "predicted7d": 719201
+                  },
+                  {
+                    "videoId": "7szmd5zoBek",
+                    "title": "K응원봉에 난리(?)났던 MZ의 또다른 비밀?",
+                    "predicted7d": 370490
+                  },
+                  {
+                    "videoId": "pdHtmpZdB6k",
+                    "title": "오스카를 멈춘 3분…한국이 뭘 했길래?",
+                    "predicted7d": 364360
+                  },
+                  {
+                    "videoId": "GXEbF_pmqWM",
+                    "title": "오스카 케데헌 후 쏟아지는 극찬세례 #오스카 #케데헌",
+                    "predicted7d": 351875
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "오스카 케 데헌",
+          "videos": [
+            {
+              "videoId": "FeXtiAp-fmE",
+              "title": "오스카 케데헌에 ‘한국인들이 열광하는 이유‘",
+              "channelTitle": "팬픽",
+              "channelId": "UCt4PBS3VQaMiQVUIu2LvM6w",
+              "publishedAt": "2026-03-18T13:47:01Z",
+              "ageHours": 37.06,
+              "subscriberCount": 164000,
+              "predicted7d": 2312840,
+              "viewCount": 1232543,
+              "delta": 1080297
+            },
+            {
+              "videoId": "DV3soUMKJwc",
+              "title": "오스카 안효섭 귀엽다고 난리(?)난 이유?",
+              "channelTitle": "hypeDRIP",
+              "channelId": "UCI6H0cpbc6hupm_r-QZldDg",
+              "publishedAt": "2026-03-17T10:52:32Z",
+              "ageHours": 63.97,
+              "subscriberCount": 107000,
+              "predicted7d": 2232749,
+              "viewCount": 1317808,
+              "delta": 914941
+            },
+            {
+              "videoId": "aYDsNVf3NBI",
+              "title": "사자보이즈 완전체 등장에 난리(?)난 댓글반응?",
+              "channelTitle": "hypeDRIP",
+              "channelId": "UCI6H0cpbc6hupm_r-QZldDg",
+              "publishedAt": "2026-03-17T08:33:19Z",
+              "ageHours": 66.29,
+              "subscriberCount": 107000,
+              "predicted7d": 719201,
+              "viewCount": 462294,
+              "delta": 256907
+            },
+            {
+              "videoId": "7szmd5zoBek",
+              "title": "K응원봉에 난리(?)났던 MZ의 또다른 비밀?",
+              "channelTitle": "hypeDRIP",
+              "channelId": "UCI6H0cpbc6hupm_r-QZldDg",
+              "publishedAt": "2026-03-18T11:56:35Z",
+              "ageHours": 38.9,
+              "subscriberCount": 107000,
+              "predicted7d": 370490,
+              "viewCount": 225886,
+              "delta": 144604
+            }
+          ],
+          "theme": "K-컬처 무대 하이라이트 및 국뽕 반응 (숏폼)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "FeXtiAp-fmE",
+              "title": "오스카 케데헌에 ‘한국인들이 열광하는 이유‘",
+              "channelTitle": "팬픽",
+              "predicted7d": 2312840,
+              "delta": 1080297
+            },
+            {
+              "videoId": "DV3soUMKJwc",
+              "title": "오스카 안효섭 귀엽다고 난리(?)난 이유?",
+              "channelTitle": "hypeDRIP",
+              "predicted7d": 2232749,
+              "delta": 914941
+            },
+            {
+              "videoId": "aYDsNVf3NBI",
+              "title": "사자보이즈 완전체 등장에 난리(?)난 댓글반응?",
+              "channelTitle": "hypeDRIP",
+              "predicted7d": 719201,
+              "delta": 256907
+            },
+            {
+              "videoId": "7szmd5zoBek",
+              "title": "K응원봉에 난리(?)났던 MZ의 또다른 비밀?",
+              "channelTitle": "hypeDRIP",
+              "predicted7d": 370490,
+              "delta": 144604
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-20/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "오스카 케 데헌, 한국인 홀린 매력! 안효섭 덕질부터 K응원봉까지!",
+            "description": "2026-03-20_KR_1\n오스카 케 데헌이 한국인들을 사로잡은 이유, 궁금하지 않으신가요? 안효섭 배우를 향한 뜨거운 팬심부터 K-응원봉에 열광하는 모습까지, 그의 모든 매력을 쇼츠에서 확인하세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=FeXtiAp-fmE\n2) https://www.youtube.com/watch?v=DV3soUMKJwc\n3) https://www.youtube.com/watch?v=aYDsNVf3NBI\n4) https://www.youtube.com/watch?v=7szmd5zoBek\n\n#Shorts #KR",
+            "tags": [
+              "오스카케데헌",
+              "오스카",
+              "안효섭",
+              "사자보이즈",
+              "K팝",
+              "K응원봉",
+              "한국인반응",
+              "덕질",
+              "MZ세대",
+              "해외셀럽"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "PaZojSq6uuQ"
+          },
+          "updatedAt": "2026-03-20T02:51:33.308Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 42
+            },
+            "vcClusters": [
+              {
+                "name": "LCK 공식 채널 하이라이트 및 숏폼",
+                "description": "LCK 공식 채널에서 제공하는 경기 하이라이트, 선수들의 재치 있는 순간, 또는 짧은 인게임 클립 모음입니다. 주로 짧고 임팩트 있는 장면 위주로 구성됩니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Rs53mueFgqA",
+                    "title": "밟으면 아프지만 또 먹고싶은 컵케이크입니다",
+                    "predicted7d": 732382
+                  },
+                  {
+                    "videoId": "oyFR0qC_sUw",
+                    "title": "케어는 켈황",
+                    "predicted7d": 483051
+                  },
+                  {
+                    "videoId": "7dkMuIwBw8Y",
+                    "title": "5대5 협곡 한타 고수만@@@@@@",
+                    "predicted7d": 329765
+                  },
+                  {
+                    "videoId": "zN-ynSLNtqM",
+                    "title": "건강한 수면, 건강한 삶",
+                    "predicted7d": 314642
+                  },
+                  {
+                    "videoId": "vdLNQQ7LQb0",
+                    "title": "근데 이 선수 왜 화났나요?",
+                    "predicted7d": 296417
+                  },
+                  {
+                    "videoId": "sf69_3RrUrk",
+                    "title": "전캐로부터의 부재중 전화 +99",
+                    "predicted7d": 293827
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "lck",
+          "videos": [
+            {
+              "videoId": "Rs53mueFgqA",
+              "title": "밟으면 아프지만 또 먹고싶은 컵케이크입니다",
+              "channelTitle": "LCK",
+              "channelId": "UCw1DsweY9b2AKGjV4kGJP1A",
+              "publishedAt": "2026-03-19T16:16:53Z",
+              "ageHours": 10.61,
+              "subscriberCount": 1710000,
+              "predicted7d": 732382,
+              "viewCount": 96307,
+              "delta": 636075
+            },
+            {
+              "videoId": "oyFR0qC_sUw",
+              "title": "케어는 켈황",
+              "channelTitle": "LCK",
+              "channelId": "UCw1DsweY9b2AKGjV4kGJP1A",
+              "publishedAt": "2026-03-18T18:52:46Z",
+              "ageHours": 32.01,
+              "subscriberCount": 1710000,
+              "predicted7d": 483051,
+              "viewCount": 292880,
+              "delta": 190171
+            },
+            {
+              "videoId": "7dkMuIwBw8Y",
+              "title": "5대5 협곡 한타 고수만@@@@@@",
+              "channelTitle": "LCK",
+              "channelId": "UCw1DsweY9b2AKGjV4kGJP1A",
+              "publishedAt": "2026-03-17T13:45:41Z",
+              "ageHours": 61.13,
+              "subscriberCount": 1710000,
+              "predicted7d": 329765,
+              "viewCount": 243614,
+              "delta": 86151
+            },
+            {
+              "videoId": "zN-ynSLNtqM",
+              "title": "건강한 수면, 건강한 삶",
+              "channelTitle": "LCK",
+              "channelId": "UCw1DsweY9b2AKGjV4kGJP1A",
+              "publishedAt": "2026-03-19T14:20:28Z",
+              "ageHours": 12.55,
+              "subscriberCount": 1710000,
+              "predicted7d": 314642,
+              "viewCount": 44812,
+              "delta": 269830
+            }
+          ],
+          "theme": "LCK 공식 채널 하이라이트 및 숏폼",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Rs53mueFgqA",
+              "title": "밟으면 아프지만 또 먹고싶은 컵케이크입니다",
+              "channelTitle": "LCK",
+              "predicted7d": 732382,
+              "delta": 636075
+            },
+            {
+              "videoId": "oyFR0qC_sUw",
+              "title": "케어는 켈황",
+              "channelTitle": "LCK",
+              "predicted7d": 483051,
+              "delta": 190171
+            },
+            {
+              "videoId": "7dkMuIwBw8Y",
+              "title": "5대5 협곡 한타 고수만@@@@@@",
+              "channelTitle": "LCK",
+              "predicted7d": 329765,
+              "delta": 86151
+            },
+            {
+              "videoId": "zN-ynSLNtqM",
+              "title": "건강한 수면, 건강한 삶",
+              "channelTitle": "LCK",
+              "predicted7d": 314642,
+              "delta": 269830
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-20/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "LCK 명장면 모음: 컵케이크부터 켈황 케어까지!",
+            "description": "2026-03-20_KR_2\nLCK 팬이라면 놓칠 수 없는 역대급 명장면들을 모아봤습니다. 밟아도 먹고싶은 컵케이크 같은 플레이부터 켈황 케리아의 미친 서포팅, 그리고 숨 막히는 한타까지! 지금 바로 LCK의 짜릿함을 느껴보세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=Rs53mueFgqA\n2) https://www.youtube.com/watch?v=oyFR0qC_sUw\n3) https://www.youtube.com/watch?v=7dkMuIwBw8Y\n4) https://www.youtube.com/watch?v=zN-ynSLNtqM\n\n#Shorts #KR",
+            "tags": [
+              "LCK",
+              "롤",
+              "리그오브레전드",
+              "롤쇼츠",
+              "LCK쇼츠",
+              "롤하이라이트",
+              "롤명장면",
+              "케리아",
+              "켈황",
+              "한타"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ddHj7Ng8Phk"
+          },
+          "updatedAt": "2026-03-20T02:54:18.550Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-20T02:54:18.551Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "oscars 2026",
+          "ring royale",
+          "dune 3 trailer",
+          "spider man brand new day trailer",
+          "lemon pound cake afroman",
+          "el desorden de marko",
+          "march madness",
+          "crimson desert",
+          "marvel rivals",
+          "fortnite"
+        ],
+        "updatedAt": "2026-03-20T02:54:31.160Z"
+      },
+      "assignedKeywords": [
+        "oscars 2026",
+        "ring royale",
+        "dune 3 trailer",
+        "spider man brand new day trailer"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 38
+            },
+            "vcClusters": [
+              {
+                "name": "레드카펫 패션 & 스타 등장",
+                "description": "오스카 시상식 레드카펫에 등장한 셀럽들의 의상, 포즈, 커플 및 가족 동반 모습 등을 담은 영상 모음. '글램봇' 촬영 영상이나 베스트/워스트 드레서 리뷰가 포함됩니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "CbP9vv2Ui3A",
+                    "title": "Dragging the worst glambots from the 2026 Oscars",
+                    "predicted7d": 551178
+                  },
+                  {
+                    "videoId": "kf9vFReRzuQ",
+                    "title": "Best Dressed Couples Oscars 2026✨",
+                    "predicted7d": 394459
+                  },
+                  {
+                    "videoId": "kpQfNF6gGIc",
+                    "title": "Kurt Russell and Goldie Hawn arrived at the #oscars 2026.",
+                    "predicted7d": 257443
+                  },
+                  {
+                    "videoId": "ZEIbCaHNyKw",
+                    "title": "Best Dressed Celebrities at Oscars 2026! 👗✨",
+                    "predicted7d": 130287
+                  },
+                  {
+                    "videoId": "a8HNSF3VxQ8",
+                    "title": "Priyanka Chopra Goes Custom Dior In A Thigh-Slit Gown For Oscars 2026 With Nick Jonas",
+                    "predicted7d": 70418
+                  },
+                  {
+                    "videoId": "H_RyNSFGPJc",
+                    "title": "The Best Red Carpet Looks at the Oscars 2026 😍✨ #emmastone #mickey #annehathaway",
+                    "predicted7d": 49643
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "oscars 2026",
+          "videos": [
+            {
+              "videoId": "CbP9vv2Ui3A",
+              "title": "Dragging the worst glambots from the 2026 Oscars",
+              "channelTitle": "Celeb Buss Central",
+              "channelId": "UCxHJZx3_SBnYOuGotpWT-Tg",
+              "publishedAt": "2026-03-18T07:00:28Z",
+              "ageHours": 43.91,
+              "subscriberCount": 905000,
+              "predicted7d": 551178,
+              "viewCount": 325782,
+              "delta": 225396
+            },
+            {
+              "videoId": "kf9vFReRzuQ",
+              "title": "Best Dressed Couples Oscars 2026✨",
+              "channelTitle": "Celebrity's Info",
+              "channelId": "UCJFYC1ZIQmxvMaDShlOK5ug",
+              "publishedAt": "2026-03-18T01:09:21Z",
+              "ageHours": 49.76,
+              "subscriberCount": 5910,
+              "predicted7d": 394459,
+              "viewCount": 255093,
+              "delta": 139366
+            },
+            {
+              "videoId": "kpQfNF6gGIc",
+              "title": "Kurt Russell and Goldie Hawn arrived at the #oscars 2026.",
+              "channelTitle": "Thoughts",
+              "channelId": "UC1r1vWPiVafAOk3XgN5Dlgg",
+              "publishedAt": "2026-03-19T13:12:45Z",
+              "ageHours": 13.7,
+              "subscriberCount": 328000,
+              "predicted7d": 257443,
+              "viewCount": 19309,
+              "delta": 238134
+            },
+            {
+              "videoId": "ZEIbCaHNyKw",
+              "title": "Best Dressed Celebrities at Oscars 2026! 👗✨",
+              "channelTitle": "Celebrity's Info",
+              "channelId": "UCJFYC1ZIQmxvMaDShlOK5ug",
+              "publishedAt": "2026-03-17T19:08:23Z",
+              "ageHours": 55.77,
+              "subscriberCount": 5910,
+              "predicted7d": 130287,
+              "viewCount": 93698,
+              "delta": 36589
+            }
+          ],
+          "theme": "레드카펫 패션 & 스타 등장",
+          "selectedSourceVideos": [
+            {
+              "videoId": "CbP9vv2Ui3A",
+              "title": "Dragging the worst glambots from the 2026 Oscars",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 551178,
+              "delta": 225396
+            },
+            {
+              "videoId": "kf9vFReRzuQ",
+              "title": "Best Dressed Couples Oscars 2026✨",
+              "channelTitle": "Celebrity's Info",
+              "predicted7d": 394459,
+              "delta": 139366
+            },
+            {
+              "videoId": "kpQfNF6gGIc",
+              "title": "Kurt Russell and Goldie Hawn arrived at the #oscars 2026.",
+              "channelTitle": "Thoughts",
+              "predicted7d": 257443,
+              "delta": 238134
+            },
+            {
+              "videoId": "ZEIbCaHNyKw",
+              "title": "Best Dressed Celebrities at Oscars 2026! 👗✨",
+              "channelTitle": "Celebrity's Info",
+              "predicted7d": 130287,
+              "delta": 36589
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-20/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oscars 2026: Iconic Red Carpet Moments!",
+            "description": "2026-03-20_US_1\nRelive the most unforgettable fashion moments from the Oscars 2026 red carpet! From stunning best-dressed celebrities and power couples to legendary arrivals and shocking style fails, we've got all the highlights. Don't miss a single iconic look!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=CbP9vv2Ui3A\n2) https://www.youtube.com/watch?v=kf9vFReRzuQ\n3) https://www.youtube.com/watch?v=kpQfNF6gGIc\n4) https://www.youtube.com/watch?v=ZEIbCaHNyKw\n\n#Shorts #US",
+            "tags": [
+              "Oscars2026",
+              "RedCarpetFashion",
+              "CelebrityStyle",
+              "BestDressed",
+              "WorstDressed",
+              "HollywoodGlam",
+              "KurtGoldie",
+              "AwardShow",
+              "FashionReview",
+              "IconicMoments"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "kdvj8MbJ2PI"
+          },
+          "updatedAt": "2026-03-20T02:55:33.272Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 23
+            },
+            "vcClusters": [
+              {
+                "name": "스파이더맨: 브랜드 뉴 데이 - 공식/팬메이드 트레일러 공개 및 단순 공유",
+                "description": "영화 '스파이더맨: 브랜드 뉴 데이'의 공식 또는 팬메이드 트레일러 영상을 직접 공개하거나, 짧은 코멘트와 함께 공유하는 영상들입니다. 주로 트레일러 영상 자체를 보여주는 데 집중하며, 별도의 심층 분석이나 개인적인 반응은 최소화됩니다. 'Shorts' 형식으로 빠르게 트레일러를 알리는 영상도 포함됩니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "GpwaS99TMjw",
+                    "title": "Spider-Man: Brand New Day Official Trailer | All Clips",
+                    "predicted7d": 972124
+                  },
+                  {
+                    "videoId": "uo8152_e_4s",
+                    "title": "SPIDER-MAN: BRAND NEW DAY Official Trailer Teasers (2026)",
+                    "predicted7d": 504292
+                  },
+                  {
+                    "videoId": "P9VyY8PQB04",
+                    "title": "Spiderman brand new day trailer #spiderman",
+                    "predicted7d": 292265
+                  },
+                  {
+                    "videoId": "hg8J7fMQ6F0",
+                    "title": "Spider-Man: Brand New Day - Trailer (2026) Tom Holland, Sadie Sink, Zendaya (Concept Version)",
+                    "predicted7d": 154018
+                  },
+                  {
+                    "videoId": "d-DT5PkP8RM",
+                    "title": "Spider-Man: Brand New Day Official Teaser Trailer",
+                    "predicted7d": 83673
+                  },
+                  {
+                    "videoId": "MaAPX-BVFeE",
+                    "title": "Spider-Man: Brand New Day Trailer Is Out! 🔥 #marvel",
+                    "predicted7d": 44721
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "spider man brand new day trailer",
+          "videos": [
+            {
+              "videoId": "GpwaS99TMjw",
+              "title": "Spider-Man: Brand New Day Official Trailer | All Clips",
+              "channelTitle": "DesiNerd",
+              "channelId": "UCstnglENMRhOF17cD6iH6kA",
+              "publishedAt": "2026-03-17T23:50:05Z",
+              "ageHours": 51.11,
+              "subscriberCount": 1400000,
+              "predicted7d": 972124,
+              "viewCount": 606279,
+              "delta": 365845
+            },
+            {
+              "videoId": "uo8152_e_4s",
+              "title": "SPIDER-MAN: BRAND NEW DAY Official Trailer Teasers (2026)",
+              "channelTitle": "Movie Trailers Source",
+              "channelId": "UCpJN7kiUkDrH11p0GQhLyFw",
+              "publishedAt": "2026-03-17T23:30:36Z",
+              "ageHours": 51.43,
+              "subscriberCount": 2700000,
+              "predicted7d": 504292,
+              "viewCount": 309580,
+              "delta": 194712
+            },
+            {
+              "videoId": "P9VyY8PQB04",
+              "title": "Spiderman brand new day trailer #spiderman",
+              "channelTitle": "SGSamDaMan",
+              "channelId": "UC1kczbfxMltxmR4ydYbRCwQ",
+              "publishedAt": "2026-03-18T21:15:03Z",
+              "ageHours": 29.69,
+              "subscriberCount": 7640,
+              "predicted7d": 292265,
+              "viewCount": 126585,
+              "delta": 165680
+            },
+            {
+              "videoId": "hg8J7fMQ6F0",
+              "title": "Spider-Man: Brand New Day - Trailer (2026) Tom Holland, Sadie Sink, Zendaya (Concept Version)",
+              "channelTitle": "Teaser Universe",
+              "channelId": "UCa2MXjBtWn91WPHWRBCLI6Q",
+              "publishedAt": "2026-03-17T15:30:28Z",
+              "ageHours": 59.43,
+              "subscriberCount": 203000,
+              "predicted7d": 154018,
+              "viewCount": 105970,
+              "delta": 48048
+            }
+          ],
+          "theme": "스파이더맨: 브랜드 뉴 데이 - 공식/팬메이드 트레일러 공개 및 단순 공유",
+          "selectedSourceVideos": [
+            {
+              "videoId": "GpwaS99TMjw",
+              "title": "Spider-Man: Brand New Day Official Trailer | All Clips",
+              "channelTitle": "DesiNerd",
+              "predicted7d": 972124,
+              "delta": 365845
+            },
+            {
+              "videoId": "uo8152_e_4s",
+              "title": "SPIDER-MAN: BRAND NEW DAY Official Trailer Teasers (2026)",
+              "channelTitle": "Movie Trailers Source",
+              "predicted7d": 504292,
+              "delta": 194712
+            },
+            {
+              "videoId": "P9VyY8PQB04",
+              "title": "Spiderman brand new day trailer #spiderman",
+              "channelTitle": "SGSamDaMan",
+              "predicted7d": 292265,
+              "delta": 165680
+            },
+            {
+              "videoId": "hg8J7fMQ6F0",
+              "title": "Spider-Man: Brand New Day - Trailer (2026) Tom Holland, Sadie Sink, Zendaya (Concept Version)",
+              "channelTitle": "Teaser Universe",
+              "predicted7d": 154018,
+              "delta": 48048
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-20/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Spider-Man: Brand New Day Trailer Hype!",
+            "description": "2026-03-20_US_2\nDive into the world of Spider-Man: Brand New Day with this ultimate trailer compilation! Featuring official releases, exciting teasers, and incredible fan concepts with Tom Holland, Sadie Sink, and Zendaya. Get ready for the next era of Spidey!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=GpwaS99TMjw\n2) https://www.youtube.com/watch?v=uo8152_e_4s\n3) https://www.youtube.com/watch?v=P9VyY8PQB04\n4) https://www.youtube.com/watch?v=hg8J7fMQ6F0\n\n#Shorts #US",
+            "tags": [
+              "SpiderMan",
+              "BrandNewDay",
+              "SpideyTrailer",
+              "Marvel",
+              "MCU",
+              "TomHolland",
+              "SadieSink",
+              "Zendaya",
+              "ConceptTrailer",
+              "2026Movies"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "B3lWtvnE8s0"
+          },
+          "updatedAt": "2026-03-20T02:57:13.834Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-20T02:57:13.843Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ring royale en vivo",
+          "pelea de karely ruiz y marcela mistral",
+          "pelea de alfredo adame y carlos trejo",
+          "abelito vs bull terrier",
+          "spider man brand new day",
+          "chivas vs leon",
+          "poncho de nigris",
+          "supernova",
+          "pinky promise",
+          "bts",
+          "fernanfloo",
+          "fede vigevani"
+        ],
+        "updatedAt": "2026-03-20T02:57:26.270Z"
+      },
+      "assignedKeywords": [
+        "ring royale en vivo",
+        "pelea de karely ruiz y marcela mistral",
+        "pelea de alfredo adame y carlos trejo",
+        "abelito vs bull terrier",
+        "spider man brand new day"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 33
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale - 현장 하이라이트 (입장 및 주요 장면)",
+                "description": "카렐리 루이즈와 마르셀라 미스트랄의 '링 로얄' 경기 현장에서 포착된 입장, 퇴장, 그리고 경기 중 카렐리의 넘어짐과 같은 결정적인 순간들을 담은 영상 모음입니다. 주로 현장 직캠이나 짧게 편집된 클립 형식입니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "3QwXjZDOCWg",
+                    "title": "Marcela Mistral entrando a su pelea contra Karely Ruiz… #marcelamistral #karelyruiz #ringroyale",
+                    "predicted7d": 366116
+                  },
+                  {
+                    "videoId": "1VoeCP7k6oI",
+                    "title": "Karely Ruiz y Marcela Mistral se abrazaron al terminar su pelea… #marcelamistral #karelyruiz",
+                    "predicted7d": 216482
+                  },
+                  {
+                    "videoId": "5OgvbHbWbGA",
+                    "title": "Karely Ruiz enntrando a su pelea contra Marcela Mistral… #ringroyale #karelyruiz #marcelamistral",
+                    "predicted7d": 190491
+                  },
+                  {
+                    "videoId": "bT1jZ_WhoJI",
+                    "title": "Así llegó Karely Ruiz a su pelea contra Marcela Mistral… #karelyruiz #ringroyale",
+                    "predicted7d": 103241
+                  },
+                  {
+                    "videoId": "QH5k920V-78",
+                    "title": "Así entró Karely Ruiz a su pelea contra Marcela Mistral… #karelyruiz #marcelamistral",
+                    "predicted7d": 33404
+                  },
+                  {
+                    "videoId": "QeqxpVaLMZY",
+                    "title": "Entrada de #marcelamistral en #pelea contra #karely , 👑🥊🥊🏆♥️",
+                    "predicted7d": 11188
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "pelea de karely ruiz y marcela mistral",
+          "videos": [
+            {
+              "videoId": "3QwXjZDOCWg",
+              "title": "Marcela Mistral entrando a su pelea contra Karely Ruiz… #marcelamistral #karelyruiz #ringroyale",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-17T18:39:30Z",
+              "ageHours": 56.31,
+              "subscriberCount": 322000,
+              "predicted7d": 366116,
+              "viewCount": 237658,
+              "delta": 128458
+            },
+            {
+              "videoId": "1VoeCP7k6oI",
+              "title": "Karely Ruiz y Marcela Mistral se abrazaron al terminar su pelea… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-19T22:33:28Z",
+              "ageHours": 4.41,
+              "subscriberCount": 322000,
+              "predicted7d": 216482,
+              "viewCount": 27807,
+              "delta": 188675
+            },
+            {
+              "videoId": "5OgvbHbWbGA",
+              "title": "Karely Ruiz enntrando a su pelea contra Marcela Mistral… #ringroyale #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-19T22:00:44Z",
+              "ageHours": 4.96,
+              "subscriberCount": 322000,
+              "predicted7d": 190491,
+              "viewCount": 12276,
+              "delta": 178215
+            },
+            {
+              "videoId": "bT1jZ_WhoJI",
+              "title": "Así llegó Karely Ruiz a su pelea contra Marcela Mistral… #karelyruiz #ringroyale",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-19T05:50:57Z",
+              "ageHours": 21.12,
+              "subscriberCount": 322000,
+              "predicted7d": 103241,
+              "viewCount": 44127,
+              "delta": 59114
+            }
+          ],
+          "theme": "Ring Royale - 현장 하이라이트 (입장 및 주요 장면)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "3QwXjZDOCWg",
+              "title": "Marcela Mistral entrando a su pelea contra Karely Ruiz… #marcelamistral #karelyruiz #ringroyale",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 366116,
+              "delta": 128458
+            },
+            {
+              "videoId": "1VoeCP7k6oI",
+              "title": "Karely Ruiz y Marcela Mistral se abrazaron al terminar su pelea… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 216482,
+              "delta": 188675
+            },
+            {
+              "videoId": "5OgvbHbWbGA",
+              "title": "Karely Ruiz enntrando a su pelea contra Marcela Mistral… #ringroyale #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 190491,
+              "delta": 178215
+            },
+            {
+              "videoId": "bT1jZ_WhoJI",
+              "title": "Así llegó Karely Ruiz a su pelea contra Marcela Mistral… #karelyruiz #ringroyale",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 103241,
+              "delta": 59114
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-20/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Karely vs Marcela: Momentos Clave!",
+            "description": "2026-03-20_MX_1\nRevive los momentos más intensos de la esperada pelea entre Karely Ruiz y Marcela Mistral. Desde sus entradas triunfales hasta el sorprendente abrazo final, no te pierdas ningún detalle de este épico enfrentamiento. ¡Una noche llena de adrenalina y emociones!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=3QwXjZDOCWg\n2) https://www.youtube.com/watch?v=1VoeCP7k6oI\n3) https://www.youtube.com/watch?v=5OgvbHbWbGA\n4) https://www.youtube.com/watch?v=bT1jZ_WhoJI\n\n#Shorts #MX",
+            "tags": [
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "RingRoyale",
+              "PeleaDeFamosas",
+              "Influencers",
+              "Boxeo",
+              "Celebridades",
+              "Viral",
+              "Shorts",
+              "Mexico"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "7VVIZJe7pmo"
+          },
+          "updatedAt": "2026-03-20T02:59:14.460Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 21
+            },
+            "vcClusters": [
+              {
+                "name": "공식 예고편 및 프로모션 영상",
+                "description": "영화 스튜디오나 공식 배급 채널에서 공개한 '스파이더맨: 브랜드 뉴 데이'의 공식 예고편, 티저, 지역별 프로모션 영상 모음입니다. 주로 편집된 영화 장면으로 구성되며, 별도의 해설이나 개인적인 의견 없이 영화 정보를 직접 전달하는 형식입니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "uo8152_e_4s",
+                    "title": "SPIDER-MAN: BRAND NEW DAY Official Trailer Teasers (2026)",
+                    "predicted7d": 504378
+                  },
+                  {
+                    "videoId": "RkULXPRl2gQ",
+                    "title": "SPIDER-MAN: BRAND NEW DAY Tráiler Teaser Español (2026)",
+                    "predicted7d": 228726
+                  },
+                  {
+                    "videoId": "PO_3Vky4aPw",
+                    "title": "SPIDER-MAN: BRAND NEW DAY | In Cinemas July 30, 2026",
+                    "predicted7d": 108435
+                  },
+                  {
+                    "videoId": "fuuKzzpxvuM",
+                    "title": "SPIDER-MAN: BRAND NEW DAY - India Throw | Exclusively In Cinemas 31 July",
+                    "predicted7d": 99220
+                  },
+                  {
+                    "videoId": "OfhAbDLsIaE",
+                    "title": "SPIDER-MAN: Brand New Day Official Trailer Teaser (2026)",
+                    "predicted7d": 44691
+                  }
+                ]
+              },
+              {
+                "name": "예고편 상세 분석 및 디테일 해설",
+                "description": "공개된 예고편을 프레임 단위로 분석하여 숨겨진 디테일, 이스터 에그, 원작 코믹스와의 비교점 등을 찾아내고 설명하는 영상들입니다. 주로 유튜버의 해설과 함께 예고편 장면을 반복 재생하거나 확대하여 보여주는 형식입니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "VkRfyya0IiI",
+                    "title": "Did you catch these Spider-Man: Brand New Day details?",
+                    "predicted7d": 2273667
+                  },
+                  {
+                    "videoId": "QBNupI4_zkQ",
+                    "title": "Peter Ki Aankh Kaali Kyu Ho Gayi?😲⋮ Spider-Man Brand New Day Trailer Breakdown",
+                    "predicted7d": 656519
+                  },
+                  {
+                    "videoId": "9sHTlgDoyCw",
+                    "title": "Curiosidades trailer: Spider-Man Brand New Day ￼- The Top Comics￼",
+                    "predicted7d": 543070
+                  },
+                  {
+                    "videoId": "DE-qTKjgkYc",
+                    "title": "Spider-Man: Brand New Day vs comics",
+                    "predicted7d": 541788
+                  },
+                  {
+                    "videoId": "X23dVGYGTXM",
+                    "title": "DETALLES QUE NADIE NOTO EN SPIDERMAN BRAND NEW DAY 🤯",
+                    "predicted7d": 502134
+                  },
+                  {
+                    "videoId": "H2VmOVGhCH0",
+                    "title": "What You Missed in Spider-Man: Brand New Day",
+                    "predicted7d": 179010
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "spider man brand new day",
+          "videos": [
+            {
+              "videoId": "VkRfyya0IiI",
+              "title": "Did you catch these Spider-Man: Brand New Day details?",
+              "channelTitle": "IGN",
+              "channelId": "UCKy1dAqELo0zrOtPkf0eTMw",
+              "publishedAt": "2026-03-19T02:43:18Z",
+              "ageHours": 24.28,
+              "subscriberCount": 19800000,
+              "predicted7d": 2273667,
+              "viewCount": 966666,
+              "delta": 1307001
+            },
+            {
+              "videoId": "QBNupI4_zkQ",
+              "title": "Peter Ki Aankh Kaali Kyu Ho Gayi?😲⋮ Spider-Man Brand New Day Trailer Breakdown",
+              "channelTitle": "SuperNest",
+              "channelId": "UCgH6f_UOgx_A4ndq_wkQSNg",
+              "publishedAt": "2026-03-19T11:02:01Z",
+              "ageHours": 15.97,
+              "subscriberCount": 713000,
+              "predicted7d": 656519,
+              "viewCount": 241430,
+              "delta": 415089
+            },
+            {
+              "videoId": "9sHTlgDoyCw",
+              "title": "Curiosidades trailer: Spider-Man Brand New Day ￼- The Top Comics￼",
+              "channelTitle": "The Top Comics",
+              "channelId": "UCiBwOVBljEjcsLUjwI274Xw",
+              "publishedAt": "2026-03-18T18:26:11Z",
+              "ageHours": 32.57,
+              "subscriberCount": 4750000,
+              "predicted7d": 543070,
+              "viewCount": 222661,
+              "delta": 320409
+            },
+            {
+              "videoId": "DE-qTKjgkYc",
+              "title": "Spider-Man: Brand New Day vs comics",
+              "channelTitle": "IGN",
+              "channelId": "UCKy1dAqELo0zrOtPkf0eTMw",
+              "publishedAt": "2026-03-19T02:41:54Z",
+              "ageHours": 24.31,
+              "subscriberCount": 19800000,
+              "predicted7d": 541788,
+              "viewCount": 264714,
+              "delta": 277074
+            }
+          ],
+          "theme": "예고편 상세 분석 및 디테일 해설",
+          "selectedSourceVideos": [
+            {
+              "videoId": "VkRfyya0IiI",
+              "title": "Did you catch these Spider-Man: Brand New Day details?",
+              "channelTitle": "IGN",
+              "predicted7d": 2273667,
+              "delta": 1307001
+            },
+            {
+              "videoId": "QBNupI4_zkQ",
+              "title": "Peter Ki Aankh Kaali Kyu Ho Gayi?😲⋮ Spider-Man Brand New Day Trailer Breakdown",
+              "channelTitle": "SuperNest",
+              "predicted7d": 656519,
+              "delta": 415089
+            },
+            {
+              "videoId": "9sHTlgDoyCw",
+              "title": "Curiosidades trailer: Spider-Man Brand New Day ￼- The Top Comics￼",
+              "channelTitle": "The Top Comics",
+              "predicted7d": 543070,
+              "delta": 320409
+            },
+            {
+              "videoId": "DE-qTKjgkYc",
+              "title": "Spider-Man: Brand New Day vs comics",
+              "channelTitle": "IGN",
+              "predicted7d": 541788,
+              "delta": 277074
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-20/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Spider-Man: Brand New Day - ¡Lo que no sabes!",
+            "description": "2026-03-20_MX_2\n¡Sumérgete en el universo de Spider-Man: Brand New Day! Descubre detalles ocultos, curiosidades del tráiler y las diferencias clave con los cómics originales. ¿Estás listo para desentrañar todos sus secretos?\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=VkRfyya0IiI\n2) https://www.youtube.com/watch?v=QBNupI4_zkQ\n3) https://www.youtube.com/watch?v=9sHTlgDoyCw\n4) https://www.youtube.com/watch?v=DE-qTKjgkYc\n\n#Shorts #MX",
+            "tags": [
+              "SpiderMan",
+              "BrandNewDay",
+              "SpidermanBND",
+              "MarvelComics",
+              "Curiosidades",
+              "Secretos",
+              "PeterParker",
+              "TrailerBreakdown",
+              "ComicsVsGame",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "DGChS_fIKns"
+          },
+          "updatedAt": "2026-03-20T03:01:17.221Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-20T03:01:17.229Z"
+    }
+  },
+  "finishedAt": "2026-03-20T03:01:17.232Z"
+}

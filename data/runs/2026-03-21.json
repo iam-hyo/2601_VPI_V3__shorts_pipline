@@ -1,0 +1,1222 @@
+{
+  "runId": "2026-03-21",
+  "date": "2026-03-21",
+  "createdAt": "2026-03-21T02:50:01.509Z",
+  "updatedAt": "2026-03-21T02:58:35.453Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "오스카 케 데헌",
+          "대전 화재",
+          "bts swim",
+          "swim",
+          "윤경호",
+          "bts 아리랑",
+          "bts 광화문 콘서트",
+          "bts",
+          "붉은 사막",
+          "lck",
+          "이센스",
+          "골든",
+          "핑계 고",
+          "메이플",
+          "리니지 m",
+          "나는 솔로",
+          "공모주 린이"
+        ],
+        "updatedAt": "2026-03-21T02:50:24.415Z"
+      },
+      "assignedKeywords": [
+        "오스카 케 데헌",
+        "대전 화재",
+        "bts swim"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 43
+            },
+            "vcClusters": [
+              {
+                "name": "오스카 케데헌 - 공식 보도 및 시사 뉴스",
+                "description": "주요 언론사 및 시사 채널에서 '케이팝 데몬 헌터스'의 오스카 수상과 관련 논란을 다룬 정형화된 뉴스 보도 및 시사 분석 영상 모음입니다. 앵커나 기자가 출연하며 객관적인 정보 전달에 중점을 둡니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개)",
+                "topVideos": [
+                  {
+                    "videoId": "EqS1GuM88vg",
+                    "title": "케데헌, 아카데미 '장편 애니메이션상'과 '주제가상' 수상 #케데헌 #shorts #스브스뉴스",
+                    "predicted7d": 15661
+                  },
+                  {
+                    "videoId": "FmC4IvrfcOU",
+                    "title": "Oscars CUT OFF K-pop Speech Mid-Win 😳",
+                    "predicted7d": 7882
+                  },
+                  {
+                    "videoId": "FDmXDEQElVo",
+                    "title": "오스카 입성한 '신라면 뽀글이' '케데헌' 감독의 객석 먹방 화제/ KNN",
+                    "predicted7d": 4633
+                  },
+                  {
+                    "videoId": "mqVZEBUD-zg",
+                    "title": "화려한 오스카의 민낯?...쓰레기 뒤덮인 객석 '충격'[숏뉴스]",
+                    "predicted7d": 3382
+                  },
+                  {
+                    "videoId": "TnIx15KmWfk",
+                    "title": "1분도 안 돼 끊은 수상소감? 케데헌 인종차별 논란 #케데헌인종차별논란 [휙] #휙알파",
+                    "predicted7d": 2422
+                  },
+                  {
+                    "videoId": "lKguiuUbUmE",
+                    "title": "'케데헌' 감독이 시상식장서 생라면을? [세상만사] #케데헌 #아카데미 #생라면 #시상식",
+                    "predicted7d": 2343
+                  }
+                ]
+              },
+              {
+                "name": "오스카 케데헌 - 유튜브 심층 분석 및 해설",
+                "description": "다양한 유튜브 채널에서 '케이팝 데몬 헌터스' 오스카 수상의 배경, 논란, 해외 반응, 비하인드 스토리 등을 심층적으로 분석하고 해설하는 영상 모음입니다. 유튜버의 주관적 의견, 자료 화면 편집, 스토리텔링 방식이 특징입니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "hRa_RL9CzcA",
+                    "title": "데뷔 못한 12년 sm연습생 #이재 #ejae #sm #연습생 #케데헌 #오스카",
+                    "predicted7d": 5609399
+                  },
+                  {
+                    "videoId": "XGQGFmcM1hg",
+                    "title": "넷플릭스 역대 1위 #케데헌 #케이팝데몬헌터스 #메기강 #케이팝",
+                    "predicted7d": 4223688
+                  },
+                  {
+                    "videoId": "FeXtiAp-fmE",
+                    "title": "오스카 케데헌에 ‘한국인들이 열광하는 이유‘",
+                    "predicted7d": 2960647
+                  },
+                  {
+                    "videoId": "rcCkWpB5FQs",
+                    "title": "케데헌 진우 '안효섭'이 오스카에서 받은 이상한 질문의 정체",
+                    "predicted7d": 320948
+                  },
+                  {
+                    "videoId": "WnVtPteuv8U",
+                    "title": "KPDH's Oscars!",
+                    "predicted7d": 306087
+                  },
+                  {
+                    "videoId": "f5oBr6wIVJo",
+                    "title": "케데헌이 오스카에서 증명한 '진짜' 가치",
+                    "predicted7d": 262950
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "오스카 케 데헌",
+          "videos": [
+            {
+              "videoId": "hRa_RL9CzcA",
+              "title": "데뷔 못한 12년 sm연습생 #이재 #ejae #sm #연습생 #케데헌 #오스카",
+              "channelTitle": "노빠꾸패밀리",
+              "channelId": "UC1vISciach3nfl3WLoo5AvA",
+              "publishedAt": "2026-03-20T12:01:30Z",
+              "ageHours": 14.82,
+              "subscriberCount": 981,
+              "predicted7d": 5609399,
+              "viewCount": 1089488,
+              "delta": 4519911
+            },
+            {
+              "videoId": "XGQGFmcM1hg",
+              "title": "넷플릭스 역대 1위 #케데헌 #케이팝데몬헌터스 #메기강 #케이팝",
+              "channelTitle": "노빠꾸패밀리",
+              "channelId": "UC1vISciach3nfl3WLoo5AvA",
+              "publishedAt": "2026-03-18T10:00:59Z",
+              "ageHours": 64.83,
+              "subscriberCount": 981,
+              "predicted7d": 4223688,
+              "viewCount": 2519638,
+              "delta": 1704050
+            },
+            {
+              "videoId": "FeXtiAp-fmE",
+              "title": "오스카 케데헌에 ‘한국인들이 열광하는 이유‘",
+              "channelTitle": "팬픽",
+              "channelId": "UCt4PBS3VQaMiQVUIu2LvM6w",
+              "publishedAt": "2026-03-18T13:47:01Z",
+              "ageHours": 61.06,
+              "subscriberCount": 164000,
+              "predicted7d": 2960647,
+              "viewCount": 1739265,
+              "delta": 1221382
+            },
+            {
+              "videoId": "rcCkWpB5FQs",
+              "title": "케데헌 진우 '안효섭'이 오스카에서 받은 이상한 질문의 정체",
+              "channelTitle": "제노 플래쉬",
+              "channelId": "UCKsJ7kENUMxpZo22m27l9KA",
+              "publishedAt": "2026-03-20T10:16:51Z",
+              "ageHours": 16.57,
+              "subscriberCount": 3730,
+              "predicted7d": 320948,
+              "viewCount": 131625,
+              "delta": 189323
+            }
+          ],
+          "theme": "오스카 케데헌 - 유튜브 심층 분석 및 해설",
+          "selectedSourceVideos": [
+            {
+              "videoId": "hRa_RL9CzcA",
+              "title": "데뷔 못한 12년 sm연습생 #이재 #ejae #sm #연습생 #케데헌 #오스카",
+              "channelTitle": "노빠꾸패밀리",
+              "predicted7d": 5609399,
+              "delta": 4519911
+            },
+            {
+              "videoId": "XGQGFmcM1hg",
+              "title": "넷플릭스 역대 1위 #케데헌 #케이팝데몬헌터스 #메기강 #케이팝",
+              "channelTitle": "노빠꾸패밀리",
+              "predicted7d": 4223688,
+              "delta": 1704050
+            },
+            {
+              "videoId": "FeXtiAp-fmE",
+              "title": "오스카 케데헌에 ‘한국인들이 열광하는 이유‘",
+              "channelTitle": "팬픽",
+              "predicted7d": 2960647,
+              "delta": 1221382
+            },
+            {
+              "videoId": "rcCkWpB5FQs",
+              "title": "케데헌 진우 '안효섭'이 오스카에서 받은 이상한 질문의 정체",
+              "channelTitle": "제노 플래쉬",
+              "predicted7d": 320948,
+              "delta": 189323
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-21/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "SM 연습생부터 넷플릭스 1위까지! 오스카 케데헌의 모든 것",
+            "description": "2026-03-21_KR_1\nSM 연습생 이재부터 넷플릭스 1위 케이팝 데몬 헌터스, 그리고 배우 안효섭까지! 오스카 케데헌이 한국인들을 사로잡은 이유를 파헤쳐 봅니다. 당신이 몰랐던 오스카 케데헌의 모든 비밀을 지금 확인하세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=hRa_RL9CzcA\n2) https://www.youtube.com/watch?v=XGQGFmcM1hg\n3) https://www.youtube.com/watch?v=FeXtiAp-fmE\n4) https://www.youtube.com/watch?v=rcCkWpB5FQs\n\n#Shorts #KR",
+            "tags": [
+              "오스카",
+              "케데헌",
+              "케이팝데몬헌터스",
+              "SM이재",
+              "안효섭",
+              "넷플릭스1위",
+              "KPOP",
+              "팬픽",
+              "밈",
+              "유튜브쇼츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "FX3p8DiIrvo"
+          },
+          "updatedAt": "2026-03-21T02:51:31.843Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 39
+            },
+            "vcClusters": [
+              {
+                "name": "BTS 'SWIM' 뮤비 감상 및 개인 반응",
+                "description": "유튜버나 팬들이 BTS 'SWIM' 뮤직비디오를 처음 보고 느끼는 감정이나 개인적인 감상, 리뷰를 공유하는 영상 모음. 주로 리액션 캠이나 해설 위주로 구성됩니다.",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (3개)",
+                "topVideos": []
+              },
+              {
+                "name": "BTS 'SWIM' 뮤비 스토리 및 메시지 분석",
+                "description": "'SWIM' 뮤직비디오의 숨겨진 의미, 캐스팅 비화, 멤버별 역할, 곡의 서사 등을 심층적으로 분석하고 해석하는 영상 모음. 뉴스 보도 형식이나 전문가 해설처럼 구성될 수 있습니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "mo9K10dLSXk",
+                    "title": "army did you notice👀🤯bts swim teaser #bts #v #jk #jin #rm #suga #jimin #jhope #shorts #youtubeshorts",
+                    "predicted7d": 1185990
+                  },
+                  {
+                    "videoId": "M-ptC9CBkUc",
+                    "title": "BTS Fans Are Fighting Over Their New Song \"SWIM\"! 🤯",
+                    "predicted7d": 256310
+                  },
+                  {
+                    "videoId": "3EfL7qFcXbU",
+                    "title": "Mystery behind BTS swim teaser 2 🙀#bts#btsmember#shorts#shortvideo#viral#fyp#fypシ#rude#funny#edit",
+                    "predicted7d": 95215
+                  },
+                  {
+                    "videoId": "FuxVbjyYfHg",
+                    "title": "BTS ‘SWIM’ 뮤비 여주 정체가 소름 돋는 이유 ㄷㄷ",
+                    "predicted7d": 56926
+                  },
+                  {
+                    "videoId": "zIPLCdRIOnQ",
+                    "title": "BTS “SWIM” teaser girl is it Lili Reinhart? #bts #btsswim #arirang",
+                    "predicted7d": 50750
+                  },
+                  {
+                    "videoId": "Yt5CjNiwegQ",
+                    "title": "BTS “Swim”: 감정에 몸을 맡기는 순간",
+                    "predicted7d": 17657
+                  }
+                ]
+              },
+              {
+                "name": "BTS 'SWIM' 출시 및 현장 프로모션",
+                "description": "'SWIM' 뮤직비디오 출시 전후의 공식 티저, MV 공개 알림, 광화문/명동 등에서 진행된 드론쇼나 대형 스크린 상영 등 현장 프로모션 및 관련 뉴스 영상 모음.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "5MSMgN2o8Sw",
+                    "title": "BTS “SWIM” MV Breaks YouTube #1 Trending in Hours #shorts #shortsfeed",
+                    "predicted7d": 153403
+                  },
+                  {
+                    "videoId": "7R6UP9Qps7I",
+                    "title": "BTS Swim teaser 2 🌊",
+                    "predicted7d": 134979
+                  },
+                  {
+                    "videoId": "8_ZYr5hV_B4",
+                    "title": "BTS Swim official mv is out",
+                    "predicted7d": 72896
+                  },
+                  {
+                    "videoId": "dBmpebfhA_o",
+                    "title": "BTS Swim Drone Show #bts #arirang",
+                    "predicted7d": 49073
+                  },
+                  {
+                    "videoId": "OUeUeocVVvs",
+                    "title": "#BTS SWIM MV drops on 3/20 at 9:30 Am for 🇮🇳 #bts #fypviralシ #kpop #btscomeback",
+                    "predicted7d": 43881
+                  },
+                  {
+                    "videoId": "rcolZL27DoE",
+                    "title": "Swim premier is in the corner 😍😭",
+                    "predicted7d": 30580
+                  }
+                ]
+              },
+              {
+                "name": "BTS 'SWIM' 팬 편집, 가사, 튜토리얼 및 숏폼",
+                "description": "'SWIM' 뮤직비디오의 특정 장면 하이라이트, 멤버별 편집, 가사 영상, 피아노 커버/튜토리얼, 앨범 언박싱, 짧은 의견 공유 등 팬들이 제작한 다양한 숏폼 콘텐츠 및 2차 창작물 모음.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "OunYzGccR98",
+                    "title": "BTS \"Swim\" is confusing #kpop #kpopedit #bts #btsarmy",
+                    "predicted7d": 1483057
+                  },
+                  {
+                    "videoId": "8z8R0X6s7Ck",
+                    "title": "이 장면 왜이래..? ㅋㅋ #BTS #SWIM",
+                    "predicted7d": 293104
+                  },
+                  {
+                    "videoId": "-Q5na2rcpdE",
+                    "title": "My opinion on bts's Swim #bts #swim #arirang #trending #kpop #viral #btsarmy",
+                    "predicted7d": 246419
+                  },
+                  {
+                    "videoId": "yEp2uCohld4",
+                    "title": "Is BTS’ ‘Swim’ Being Called Their Worst Song Yet…#shorts#bts#btscomeback#swim#kpop#fyp#fypシ",
+                    "predicted7d": 222100
+                  },
+                  {
+                    "videoId": "AaZcnZ2gMJw",
+                    "title": "BTS - \"SWIM\" Song #lyrics #swim #bts #song #arirang #shorts",
+                    "predicted7d": 66744
+                  },
+                  {
+                    "videoId": "MB2Af8Emw_I",
+                    "title": "BTS Swim MV duration is 04:05💀 #kpop #bts #btsarmy #btsmember #new #swim #mv #btsswim #btscomeback",
+                    "predicted7d": 65747
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bts swim",
+          "videos": [
+            {
+              "videoId": "OunYzGccR98",
+              "title": "BTS \"Swim\" is confusing #kpop #kpopedit #bts #btsarmy",
+              "channelTitle": "THE DUKE",
+              "channelId": "UCpfUYGc9zvUMzWQhZBRU_CQ",
+              "publishedAt": "2026-03-20T07:46:39Z",
+              "ageHours": 19.09,
+              "subscriberCount": 385000,
+              "predicted7d": 1483057,
+              "viewCount": 600335,
+              "delta": 882722
+            },
+            {
+              "videoId": "8z8R0X6s7Ck",
+              "title": "이 장면 왜이래..? ㅋㅋ #BTS #SWIM",
+              "channelTitle": "꾸미의 보석함 JEWCOOKME",
+              "channelId": "UCV0j_ZsFgL4iMw94snKNqig",
+              "publishedAt": "2026-03-20T05:56:57Z",
+              "ageHours": 20.92,
+              "subscriberCount": 64600,
+              "predicted7d": 293104,
+              "viewCount": 126024,
+              "delta": 167080
+            },
+            {
+              "videoId": "-Q5na2rcpdE",
+              "title": "My opinion on bts's Swim #bts #swim #arirang #trending #kpop #viral #btsarmy",
+              "channelTitle": "Starlight7",
+              "channelId": "UCQw7y4FgjdisI9MZPBBzZ7A",
+              "publishedAt": "2026-03-20T05:10:42Z",
+              "ageHours": 21.69,
+              "subscriberCount": 11300,
+              "predicted7d": 246419,
+              "viewCount": 103565,
+              "delta": 142854
+            },
+            {
+              "videoId": "yEp2uCohld4",
+              "title": "Is BTS’ ‘Swim’ Being Called Their Worst Song Yet…#shorts#bts#btscomeback#swim#kpop#fyp#fypシ",
+              "channelTitle": "Bts forever",
+              "channelId": "UCovj9nsR7XJyC8RvtvSbWbA",
+              "publishedAt": "2026-03-20T12:13:34Z",
+              "ageHours": 14.65,
+              "subscriberCount": 1010000,
+              "predicted7d": 222100,
+              "viewCount": 13287,
+              "delta": 208813
+            }
+          ],
+          "theme": "BTS 'SWIM' 팬 편집, 가사, 튜토리얼 및 숏폼",
+          "selectedSourceVideos": [
+            {
+              "videoId": "OunYzGccR98",
+              "title": "BTS \"Swim\" is confusing #kpop #kpopedit #bts #btsarmy",
+              "channelTitle": "THE DUKE",
+              "predicted7d": 1483057,
+              "delta": 882722
+            },
+            {
+              "videoId": "8z8R0X6s7Ck",
+              "title": "이 장면 왜이래..? ㅋㅋ #BTS #SWIM",
+              "channelTitle": "꾸미의 보석함 JEWCOOKME",
+              "predicted7d": 293104,
+              "delta": 167080
+            },
+            {
+              "videoId": "-Q5na2rcpdE",
+              "title": "My opinion on bts's Swim #bts #swim #arirang #trending #kpop #viral #btsarmy",
+              "channelTitle": "Starlight7",
+              "predicted7d": 246419,
+              "delta": 142854
+            },
+            {
+              "videoId": "yEp2uCohld4",
+              "title": "Is BTS’ ‘Swim’ Being Called Their Worst Song Yet…#shorts#bts#btscomeback#swim#kpop#fyp#fypシ",
+              "channelTitle": "Bts forever",
+              "predicted7d": 222100,
+              "delta": 208813
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-21/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "BTS 수영, 역대급 논란? 아미 반응은?",
+            "description": "2026-03-21_KR_2\nBTS의 'Swim' 콘텐츠가 아미들 사이에서 뜨거운 감자입니다. 과연 이 장면에 숨겨진 비밀은 무엇일까요? 팬들의 다양한 반응과 솔직한 의견을 지금 바로 확인해보세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=OunYzGccR98\n2) https://www.youtube.com/watch?v=8z8R0X6s7Ck\n3) https://www.youtube.com/watch?v=-Q5na2rcpdE\n4) https://www.youtube.com/watch?v=yEp2uCohld4\n\n#Shorts #KR",
+            "tags": [
+              "#BTS",
+              "#방탄소년단",
+              "#BTS수영",
+              "#BTS_Swim",
+              "#아미",
+              "#KPOP",
+              "#케이팝",
+              "#쇼츠",
+              "#BTS쇼츠",
+              "#논란"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "epLpOlsqqXE"
+          },
+          "updatedAt": "2026-03-21T02:53:07.799Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-21T02:53:07.807Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "oscars",
+          "afroman",
+          "spider man brand new day",
+          "dune 3 trailer",
+          "ring royale",
+          "bts",
+          "el desorden de marko",
+          "chuck norris",
+          "the amazing digital circus",
+          "crimson desert",
+          "march madness",
+          "glitch productions",
+          "latto",
+          "marvel rivals"
+        ],
+        "updatedAt": "2026-03-21T02:53:20.388Z"
+      },
+      "assignedKeywords": [
+        "oscars",
+        "afroman",
+        "spider man brand new day"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 40
+            },
+            "vcClusters": [
+              {
+                "name": "오스카 레드카펫 & 셀럽 스타일/이슈 (단편 클립)",
+                "description": "오스카 시상식 및 애프터 파티의 레드카펫 패션, 셀럽들의 등장, 예상치 못한 순간이나 가벼운 해프닝을 담은 짧은 영상 클립 모음. 주로 엔터테인먼트 채널이나 팬 계정에서 제작됩니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "CbP9vv2Ui3A",
+                    "title": "Dragging the worst glambots from the 2026 Oscars",
+                    "predicted7d": 511458
+                  },
+                  {
+                    "videoId": "5hwEYcM-KW0",
+                    "title": "Kim Kardashian trips while heading to the Oscars party",
+                    "predicted7d": 431934
+                  },
+                  {
+                    "videoId": "uWVj4ZGQCOg",
+                    "title": "Oscars outfit vs after party outfit comparison",
+                    "predicted7d": 333310
+                  },
+                  {
+                    "videoId": "etdiGC3UdA8",
+                    "title": "How celebrity couples take over the Oscars night",
+                    "predicted7d": 257675
+                  },
+                  {
+                    "videoId": "lusn2kYdyAo",
+                    "title": "Zendaya Wears Her 2015 Oscars Dress Again at the Premiere ✨👗#Zendaya #TomHolland #Tomdaya",
+                    "predicted7d": 126590
+                  },
+                  {
+                    "videoId": "YPHe30I0K3Q",
+                    "title": "Anna Wintour at the Academy Awards wearing Dior #oscars #fashion",
+                    "predicted7d": 121846
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "oscars",
+          "videos": [
+            {
+              "videoId": "CbP9vv2Ui3A",
+              "title": "Dragging the worst glambots from the 2026 Oscars",
+              "channelTitle": "Celeb Buss Central",
+              "channelId": "UCxHJZx3_SBnYOuGotpWT-Tg",
+              "publishedAt": "2026-03-18T07:00:28Z",
+              "ageHours": 67.89,
+              "subscriberCount": 905000,
+              "predicted7d": 511458,
+              "viewCount": 348169,
+              "delta": 163289
+            },
+            {
+              "videoId": "5hwEYcM-KW0",
+              "title": "Kim Kardashian trips while heading to the Oscars party",
+              "channelTitle": "Celeb Buss Central",
+              "channelId": "UCxHJZx3_SBnYOuGotpWT-Tg",
+              "publishedAt": "2026-03-19T00:11:04Z",
+              "ageHours": 50.71,
+              "subscriberCount": 905000,
+              "predicted7d": 431934,
+              "viewCount": 270027,
+              "delta": 161907
+            },
+            {
+              "videoId": "uWVj4ZGQCOg",
+              "title": "Oscars outfit vs after party outfit comparison",
+              "channelTitle": "Celeb Buss Central",
+              "channelId": "UCxHJZx3_SBnYOuGotpWT-Tg",
+              "publishedAt": "2026-03-19T07:52:09Z",
+              "ageHours": 43.03,
+              "subscriberCount": 905000,
+              "predicted7d": 333310,
+              "viewCount": 196491,
+              "delta": 136819
+            },
+            {
+              "videoId": "etdiGC3UdA8",
+              "title": "How celebrity couples take over the Oscars night",
+              "channelTitle": "Celeb Buss Central",
+              "channelId": "UCxHJZx3_SBnYOuGotpWT-Tg",
+              "publishedAt": "2026-03-19T01:08:59Z",
+              "ageHours": 49.75,
+              "subscriberCount": 905000,
+              "predicted7d": 257675,
+              "viewCount": 155114,
+              "delta": 102561
+            }
+          ],
+          "theme": "오스카 레드카펫 & 셀럽 스타일/이슈 (단편 클립)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "CbP9vv2Ui3A",
+              "title": "Dragging the worst glambots from the 2026 Oscars",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 511458,
+              "delta": 163289
+            },
+            {
+              "videoId": "5hwEYcM-KW0",
+              "title": "Kim Kardashian trips while heading to the Oscars party",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 431934,
+              "delta": 161907
+            },
+            {
+              "videoId": "uWVj4ZGQCOg",
+              "title": "Oscars outfit vs after party outfit comparison",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 333310,
+              "delta": 136819
+            },
+            {
+              "videoId": "etdiGC3UdA8",
+              "title": "How celebrity couples take over the Oscars night",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 257675,
+              "delta": 102561
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-21/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oscars 2026: Celeb Fails & Fashion!",
+            "description": "2026-03-21_US_1\nRelive the most iconic and hilarious moments from the 2026 Oscars! From red carpet glambot fails to celebrity couple takeovers and after-party fashion, we've got it all. Don't miss Kim K's unforgettable trip!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=CbP9vv2Ui3A\n2) https://www.youtube.com/watch?v=5hwEYcM-KW0\n3) https://www.youtube.com/watch?v=uWVj4ZGQCOg\n4) https://www.youtube.com/watch?v=etdiGC3UdA8\n\n#Shorts #US",
+            "tags": [
+              "Oscars2026",
+              "CelebrityFails",
+              "RedCarpetFashion",
+              "KimKardashian",
+              "AfterPartyLooks",
+              "HollywoodCouples",
+              "GlambotFails",
+              "AwardSeason",
+              "ViralMoments",
+              "FashionDisasters"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "21xO26GRUPs"
+          },
+          "updatedAt": "2026-03-21T02:54:36.175Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 22
+            },
+            "vcClusters": [
+              {
+                "name": "스파이더맨: 브랜드 뉴 데이 - 공식 예고편 및 전문 분석",
+                "description": "영화 제작사 및 주요 엔터테인먼트 미디어 채널에서 제공하는 공식 예고편, 영화 세부 정보 분석, 코믹스 비교 등 전문적인 시각의 영상 모음입니다.",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (3개)",
+                "topVideos": []
+              },
+              {
+                "name": "스파이더맨: 브랜드 뉴 데이 - 팬들의 즉각적인 반응 및 첫인상",
+                "description": "트레일러 공개 직후 팬들이 보이는 즉각적인 감탄, 놀라움, 흥분 등 개인적인 첫인상과 감상평을 담은 영상들입니다. 주로 짧고 감성적인 반응 위주입니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "UNJoGPFoS1I",
+                    "title": "Whats Happening in The Spider Man Brand New Day Trailer",
+                    "predicted7d": 2044324
+                  },
+                  {
+                    "videoId": "5IXZJ052-I0",
+                    "title": "Spider man brand new day movie trailer some little information......#Spiderman",
+                    "predicted7d": 144817
+                  },
+                  {
+                    "videoId": "EthI7JMM8gE",
+                    "title": "Spider-man Brand New Day Trailer Thoughts? #escapepod #brandnewday #spiderman",
+                    "predicted7d": 127909
+                  },
+                  {
+                    "videoId": "IMref1A_E7g",
+                    "title": "Brand New Day Trailer Initial thoughts #escapepod #brandnewday #spiderman",
+                    "predicted7d": 121958
+                  },
+                  {
+                    "videoId": "vDtxQVnSu3M",
+                    "title": "Ninjas! 😱 Spiderman Brand New Day Trailer REACTION!",
+                    "predicted7d": 34338
+                  },
+                  {
+                    "videoId": "_bjikjwtDfs",
+                    "title": "Spiderman Brand New Day Teaser REACTION! 😱",
+                    "predicted7d": 33387
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "spider man brand new day",
+          "videos": [
+            {
+              "videoId": "UNJoGPFoS1I",
+              "title": "Whats Happening in The Spider Man Brand New Day Trailer",
+              "channelTitle": "Tyrecordslol",
+              "channelId": "UC-A2WBfHTnWkhNvehNo-MaA",
+              "publishedAt": "2026-03-18T22:35:40Z",
+              "ageHours": 52.32,
+              "subscriberCount": 5940000,
+              "predicted7d": 2044324,
+              "viewCount": 1170068,
+              "delta": 874256
+            },
+            {
+              "videoId": "5IXZJ052-I0",
+              "title": "Spider man brand new day movie trailer some little information......#Spiderman",
+              "channelTitle": "SantoshView",
+              "channelId": "UCUreoa31dKie49T5-9RitoA",
+              "publishedAt": "2026-03-20T06:58:12Z",
+              "ageHours": 19.95,
+              "subscriberCount": 38900,
+              "predicted7d": 144817,
+              "viewCount": 53756,
+              "delta": 91061
+            },
+            {
+              "videoId": "EthI7JMM8gE",
+              "title": "Spider-man Brand New Day Trailer Thoughts? #escapepod #brandnewday #spiderman",
+              "channelTitle": "escapepodsclips",
+              "channelId": "UC6TYBCvcZql5_7N5aAiZuLQ",
+              "publishedAt": "2026-03-18T16:07:07Z",
+              "ageHours": 58.8,
+              "subscriberCount": 19400,
+              "predicted7d": 127909,
+              "viewCount": 83960,
+              "delta": 43949
+            },
+            {
+              "videoId": "IMref1A_E7g",
+              "title": "Brand New Day Trailer Initial thoughts #escapepod #brandnewday #spiderman",
+              "channelTitle": "escapepodsclips",
+              "channelId": "UC6TYBCvcZql5_7N5aAiZuLQ",
+              "publishedAt": "2026-03-18T18:00:16Z",
+              "ageHours": 56.91,
+              "subscriberCount": 19400,
+              "predicted7d": 121958,
+              "viewCount": 90779,
+              "delta": 31179
+            }
+          ],
+          "theme": "스파이더맨: 브랜드 뉴 데이 - 팬들의 즉각적인 반응 및 첫인상",
+          "selectedSourceVideos": [
+            {
+              "videoId": "UNJoGPFoS1I",
+              "title": "Whats Happening in The Spider Man Brand New Day Trailer",
+              "channelTitle": "Tyrecordslol",
+              "predicted7d": 2044324,
+              "delta": 874256
+            },
+            {
+              "videoId": "5IXZJ052-I0",
+              "title": "Spider man brand new day movie trailer some little information......#Spiderman",
+              "channelTitle": "SantoshView",
+              "predicted7d": 144817,
+              "delta": 91061
+            },
+            {
+              "videoId": "EthI7JMM8gE",
+              "title": "Spider-man Brand New Day Trailer Thoughts? #escapepod #brandnewday #spiderman",
+              "channelTitle": "escapepodsclips",
+              "predicted7d": 127909,
+              "delta": 43949
+            },
+            {
+              "videoId": "IMref1A_E7g",
+              "title": "Brand New Day Trailer Initial thoughts #escapepod #brandnewday #spiderman",
+              "channelTitle": "escapepodsclips",
+              "predicted7d": 121958,
+              "delta": 31179
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-21/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Spider-Man: Brand New Day Trailer Deep Dive!",
+            "description": "2026-03-21_US_2\nDive into the controversial world of Spider-Man's Brand New Day! We break down everything you need to know about the trailer, fan reactions, and what's next for Peter Parker. Don't miss this essential guide to the new era!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=UNJoGPFoS1I\n2) https://www.youtube.com/watch?v=5IXZJ052-I0\n3) https://www.youtube.com/watch?v=EthI7JMM8gE\n4) https://www.youtube.com/watch?v=IMref1A_E7g\n\n#Shorts #US",
+            "tags": [
+              "SpiderMan",
+              "BrandNewDay",
+              "Spidey",
+              "MarvelComics",
+              "TrailerReaction",
+              "PeterParker",
+              "ComicBooks",
+              "ComicsExplained",
+              "WhatIf",
+              "Marvel"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "A8d3_IXp-uw"
+          },
+          "updatedAt": "2026-03-21T02:55:55.729Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-21T02:55:55.737Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ring royale",
+          "pelea de karely ruiz y marcela mistral",
+          "pelea de alfredo adame y carlos trejo",
+          "bts swim",
+          "abelito vs bull terrier",
+          "spider man brand new day",
+          "swim",
+          "poncho de nigris",
+          "digital circus",
+          "supernova",
+          "tigres vs cincinnati",
+          "glitch",
+          "kenia os"
+        ],
+        "updatedAt": "2026-03-21T02:56:11.146Z"
+      },
+      "assignedKeywords": [
+        "ring royale",
+        "pelea de karely ruiz y marcela mistral"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 39
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale 이벤트 하이라이트 및 현장 반응",
+                "description": "'Ring Royale' 이벤트 중 발생한 주요 장면, 유명인들의 퍼포먼스, 논란의 순간 등을 짧고 직접적인 클립 형태로 보여주는 영상 모음. 주로 현장 영상이나 짧은 편집본 위주로 구성됩니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Y7MMXrr8YMk",
+                    "title": "AZUKY le TIRÓ a WENDY GUEVARA en RING ROYALE🤬🔥 #Azuky #Ringroyale #batallasderap #freestyle",
+                    "predicted7d": 1929960
+                  },
+                  {
+                    "videoId": "TTXNajpU_rg",
+                    "title": "Babo se Burla de Dharius y C-Kan en el Ring Royale",
+                    "predicted7d": 867726
+                  },
+                  {
+                    "videoId": "D0NMudBYGEI",
+                    "title": "¡PELEA! EL GRAN RIDÍCULO😱│RING ROYALE",
+                    "predicted7d": 443367
+                  },
+                  {
+                    "videoId": "6GqB3vuSz3M",
+                    "title": "Critican a Santa Fe Klan por Hacer Esto en el Ring Royale",
+                    "predicted7d": 276018
+                  },
+                  {
+                    "videoId": "F3cMndO3xSM",
+                    "title": "SE QUEJAN DE LA DINAMICA DE KARELY RUIZ EN EL RING ROYALE 😎 #ElCapitánDelChisme #ElCapitanDelChisme",
+                    "predicted7d": 241377
+                  },
+                  {
+                    "videoId": "zZ-SwQqTtZE",
+                    "title": "Llega A Regañar A Santa Fe Klan En Ring Royale",
+                    "predicted7d": 180759
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "videos": [
+            {
+              "videoId": "Y7MMXrr8YMk",
+              "title": "AZUKY le TIRÓ a WENDY GUEVARA en RING ROYALE🤬🔥 #Azuky #Ringroyale #batallasderap #freestyle",
+              "channelTitle": "Academia Del Rap",
+              "channelId": "UC15iE8pDdJMxrsvs_75x86w",
+              "publishedAt": "2026-03-18T03:08:56Z",
+              "ageHours": 71.79,
+              "subscriberCount": 514000,
+              "predicted7d": 1929960,
+              "viewCount": 1340139,
+              "delta": 589821
+            },
+            {
+              "videoId": "TTXNajpU_rg",
+              "title": "Babo se Burla de Dharius y C-Kan en el Ring Royale",
+              "channelTitle": "El F Music",
+              "channelId": "UCnTcFzKOV993rT42D7lBhMg",
+              "publishedAt": "2026-03-19T01:00:00Z",
+              "ageHours": 49.94,
+              "subscriberCount": 532000,
+              "predicted7d": 867726,
+              "viewCount": 558126,
+              "delta": 309600
+            },
+            {
+              "videoId": "D0NMudBYGEI",
+              "title": "¡PELEA! EL GRAN RIDÍCULO😱│RING ROYALE",
+              "channelTitle": "ELPOLLOXD",
+              "channelId": "UCX74Fq4UeqFIgZF1ZJzriNg",
+              "publishedAt": "2026-03-18T23:19:00Z",
+              "ageHours": 51.63,
+              "subscriberCount": 1400000,
+              "predicted7d": 443367,
+              "viewCount": 288058,
+              "delta": 155309
+            },
+            {
+              "videoId": "6GqB3vuSz3M",
+              "title": "Critican a Santa Fe Klan por Hacer Esto en el Ring Royale",
+              "channelTitle": "Luis Angel Rap",
+              "channelId": "UChd4leK3-MXzmJujHje9PVg",
+              "publishedAt": "2026-03-20T20:05:55Z",
+              "ageHours": 6.84,
+              "subscriberCount": 330000,
+              "predicted7d": 276018,
+              "viewCount": 16318,
+              "delta": 259700
+            }
+          ],
+          "theme": "Ring Royale 이벤트 하이라이트 및 현장 반응",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Y7MMXrr8YMk",
+              "title": "AZUKY le TIRÓ a WENDY GUEVARA en RING ROYALE🤬🔥 #Azuky #Ringroyale #batallasderap #freestyle",
+              "channelTitle": "Academia Del Rap",
+              "predicted7d": 1929960,
+              "delta": 589821
+            },
+            {
+              "videoId": "TTXNajpU_rg",
+              "title": "Babo se Burla de Dharius y C-Kan en el Ring Royale",
+              "channelTitle": "El F Music",
+              "predicted7d": 867726,
+              "delta": 309600
+            },
+            {
+              "videoId": "D0NMudBYGEI",
+              "title": "¡PELEA! EL GRAN RIDÍCULO😱│RING ROYALE",
+              "channelTitle": "ELPOLLOXD",
+              "predicted7d": 443367,
+              "delta": 155309
+            },
+            {
+              "videoId": "6GqB3vuSz3M",
+              "title": "Critican a Santa Fe Klan por Hacer Esto en el Ring Royale",
+              "channelTitle": "Luis Angel Rap",
+              "predicted7d": 276018,
+              "delta": 259700
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-21/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Ring Royale: Duelos, Burlas y Polémicas!",
+            "description": "2026-03-21_MX_1\nRevive los momentos más explosivos y virales de Ring Royale. Desde las tiraderas más picantes hasta las burlas épicas y las polémicas que encendieron las redes. ¡No te pierdas la acción y el drama!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=Y7MMXrr8YMk\n2) https://www.youtube.com/watch?v=TTXNajpU_rg\n3) https://www.youtube.com/watch?v=D0NMudBYGEI\n4) https://www.youtube.com/watch?v=6GqB3vuSz3M\n\n#Shorts #MX",
+            "tags": [
+              "RingRoyale",
+              "BatallasDeRap",
+              "Freestyle",
+              "Azuky",
+              "WendyGuevara",
+              "Babo",
+              "SantaFeKlan",
+              "Polemica",
+              "Drama",
+              "RapMexicano"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "7aJimox1mvk"
+          },
+          "updatedAt": "2026-03-21T02:57:27.024Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 35,
+              "totalShorts": 26
+            },
+            "vcClusters": [
+              {
+                "name": "링 로얄 경기 하이라이트 및 주요 장면",
+                "description": "카렐리 루이즈와 마르셀라 미스트랄의 링 로얄 경기 중 입장, 주요 액션, 경기 후 포옹 등 핵심 순간들을 편집하여 보여주는 영상 모음.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개)",
+                "topVideos": [
+                  {
+                    "videoId": "qpLOAZ9K5k4",
+                    "title": "😱 RESULTADOS Ring Royale Karely Ruiz y Adame ¡NO LO CREERÁS! #RingRoyale #KarelyRuiz #AlfredoAdame",
+                    "predicted7d": 31686
+                  },
+                  {
+                    "videoId": "7VVIZJe7pmo",
+                    "title": "¡Karely vs Marcela: Momentos Clave!",
+                    "predicted7d": 5317
+                  },
+                  {
+                    "videoId": "YqBIYw_63G4",
+                    "title": "PELEA MARECELA MISTRAL Y KARELY RUIZ.mp4 #shorts",
+                    "predicted7d": 1664
+                  },
+                  {
+                    "videoId": "AMx7pj1IxV8",
+                    "title": "¡Karely Ruiz vs Marcela Mistral: Pelea Épica!",
+                    "predicted7d": 1590
+                  },
+                  {
+                    "videoId": "0KCQQ4CX2qo",
+                    "title": "MARCELA MISTRAL VS KARELY RUIZ  BOX GANADORA🥊🥊🥊",
+                    "predicted7d": 26
+                  }
+                ]
+              },
+              {
+                "name": "경기 전후 특정 순간 포착 숏폼 영상",
+                "description": "선수들의 경기장 도착, 입장, 퇴장, 특정 발언, 짧은 경기 장면 등 하나의 순간에 집중하여 빠르게 보여주는 숏폼(Shorts) 형식의 영상 모음.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "TBKMnWXhdq8",
+                    "title": "Karely Ruiz no llevó a su hija a su pelea contra Marcela Mistral… #karelyruiz #marcelamistral",
+                    "predicted7d": 201591
+                  },
+                  {
+                    "videoId": "YnF2-4Ykr18",
+                    "title": "Karely Ruiz antes de la pelea con Marcela Mistral… #karelyruiz #marcelamistral #ringroyale",
+                    "predicted7d": 185979
+                  },
+                  {
+                    "videoId": "1VoeCP7k6oI",
+                    "title": "Karely Ruiz y Marcela Mistral se abrazaron al terminar su pelea… #marcelamistral #karelyruiz",
+                    "predicted7d": 150480
+                  },
+                  {
+                    "videoId": "5OgvbHbWbGA",
+                    "title": "Karely Ruiz enntrando a su pelea contra Marcela Mistral… #ringroyale #karelyruiz #marcelamistral",
+                    "predicted7d": 111187
+                  },
+                  {
+                    "videoId": "bT1jZ_WhoJI",
+                    "title": "Así llegó Karely Ruiz a su pelea contra Marcela Mistral… #karelyruiz #ringroyale",
+                    "predicted7d": 96297
+                  },
+                  {
+                    "videoId": "0Jy_X6Ot7KQ",
+                    "title": "Marcela Mistral entrando a su pelea con Karely #ringroyale #pelea #box #mujeres #chorts #fypviralシ",
+                    "predicted7d": 32942
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "pelea de karely ruiz y marcela mistral",
+          "videos": [
+            {
+              "videoId": "TBKMnWXhdq8",
+              "title": "Karely Ruiz no llevó a su hija a su pelea contra Marcela Mistral… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-20T21:29:19Z",
+              "ageHours": 5.47,
+              "subscriberCount": 325000,
+              "predicted7d": 201591,
+              "viewCount": 43485,
+              "delta": 158106
+            },
+            {
+              "videoId": "YnF2-4Ykr18",
+              "title": "Karely Ruiz antes de la pelea con Marcela Mistral… #karelyruiz #marcelamistral #ringroyale",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-20T21:00:27Z",
+              "ageHours": 5.95,
+              "subscriberCount": 325000,
+              "predicted7d": 185979,
+              "viewCount": 11464,
+              "delta": 174515
+            },
+            {
+              "videoId": "1VoeCP7k6oI",
+              "title": "Karely Ruiz y Marcela Mistral se abrazaron al terminar su pelea… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-19T22:33:28Z",
+              "ageHours": 28.4,
+              "subscriberCount": 325000,
+              "predicted7d": 150480,
+              "viewCount": 68645,
+              "delta": 81835
+            },
+            {
+              "videoId": "5OgvbHbWbGA",
+              "title": "Karely Ruiz enntrando a su pelea contra Marcela Mistral… #ringroyale #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "channelId": "UCkO41NZWhivM4MCQvmshwGA",
+              "publishedAt": "2026-03-19T22:00:44Z",
+              "ageHours": 28.95,
+              "subscriberCount": 325000,
+              "predicted7d": 111187,
+              "viewCount": 50905,
+              "delta": 60282
+            }
+          ],
+          "theme": "경기 전후 특정 순간 포착 숏폼 영상",
+          "selectedSourceVideos": [
+            {
+              "videoId": "TBKMnWXhdq8",
+              "title": "Karely Ruiz no llevó a su hija a su pelea contra Marcela Mistral… #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 201591,
+              "delta": 158106
+            },
+            {
+              "videoId": "YnF2-4Ykr18",
+              "title": "Karely Ruiz antes de la pelea con Marcela Mistral… #karelyruiz #marcelamistral #ringroyale",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 185979,
+              "delta": 174515
+            },
+            {
+              "videoId": "1VoeCP7k6oI",
+              "title": "Karely Ruiz y Marcela Mistral se abrazaron al terminar su pelea… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 150480,
+              "delta": 81835
+            },
+            {
+              "videoId": "5OgvbHbWbGA",
+              "title": "Karely Ruiz enntrando a su pelea contra Marcela Mistral… #ringroyale #karelyruiz #marcelamistral",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 111187,
+              "delta": 60282
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-21/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "¡Karely Ruiz vs Marcela Mistral: La Pelea!",
+            "description": "2026-03-21_MX_2\nRevive los momentos más impactantes de la épica pelea entre Karely Ruiz y Marcela Mistral. Desde la tensión previa hasta el inesperado abrazo final, ¡no te pierdas ningún detalle de este Ring Royale!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=TBKMnWXhdq8\n2) https://www.youtube.com/watch?v=YnF2-4Ykr18\n3) https://www.youtube.com/watch?v=1VoeCP7k6oI\n4) https://www.youtube.com/watch?v=5OgvbHbWbGA\n\n#Shorts #MX",
+            "tags": [
+              "karelyruiz",
+              "marcelamistral",
+              "ringroyale",
+              "pelea",
+              "shorts",
+              "viral",
+              "polemica",
+              "celebridades",
+              "mexico",
+              "influencers"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "UrDM7G8e1NE"
+          },
+          "updatedAt": "2026-03-21T02:58:35.442Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-21T02:58:35.450Z"
+    }
+  },
+  "finishedAt": "2026-03-21T02:58:35.453Z"
+}
