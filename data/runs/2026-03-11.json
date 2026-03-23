@@ -1,0 +1,1023 @@
+{
+  "runId": "2026-03-11",
+  "date": "2026-03-11",
+  "createdAt": "2026-03-11T02:17:58.467Z",
+  "updatedAt": "2026-03-11T08:33:41.188Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "한국 호주",
+          "WBC 한국",
+          "마브",
+          "야구 중계 실시간",
+          "조정식",
+          "월간 남친",
+          "포코 피아",
+          "안세영",
+          "이소 나",
+          "싹",
+          "충주 맨",
+          "야구",
+          "김선태",
+          "김원",
+          "한두 자니",
+          "붉은 사막",
+          "스포츠",
+          "던파"
+        ],
+        "updatedAt": "2026-03-11T02:18:13.367Z"
+      },
+      "assignedKeywords": [
+        "한국 호주",
+        "WBC 한국",
+        "마브",
+        "야구 중계 실시간"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 40
+            },
+            "vcClusters": [
+              {
+                "name": "쇼미더머니12 - 마브 공연 및 하이라이트",
+                "description": "래퍼 '마브'가 출연한 '쇼미더머니12'의 공식 공연 영상, 풀버전 무대, 하이라이트 클립, 그리고 관련 팬 편집 및 분석 영상들을 모아놓은 군집입니다. 주로 마브의 랩 실력과 무대 장악력을 보여주는 장면들로 구성됩니다.",
+                "query": "쇼미12 마브 무대",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "p7X2qt4X5f4",
+                    "title": "[SMTM12] 둘이 앞으로 안 볼 건가?",
+                    "predicted7d": 1842926
+                  },
+                  {
+                    "videoId": "jBox3qBnEE0",
+                    "title": "이번 쇼미 레전드 무대 갱신한 Marv의 반란 #쇼미더머니12",
+                    "predicted7d": 1183654
+                  },
+                  {
+                    "videoId": "qLM78vnOpT8",
+                    "title": "버리는 카드에서 곡을 살리는 카드로 바뀐 마브",
+                    "predicted7d": 940464
+                  },
+                  {
+                    "videoId": "Pk3nBDMHNoE",
+                    "title": "[SMTM12] 내가 무슨 말 할지 걱정되지?",
+                    "predicted7d": 878725
+                  },
+                  {
+                    "videoId": "KzvwWPKVq0o",
+                    "title": "할렐야루 극락 마브 벌스..😇ㅣTVING | #쇼미더머니12",
+                    "predicted7d": 831722
+                  },
+                  {
+                    "videoId": "RKjPlQw9N64",
+                    "title": "[SMTM12] TICK TOCK 챌린지 온다",
+                    "predicted7d": 822281
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "마브",
+          "keyword": "쇼미12 마브 무대",
+          "videos": [
+            {
+              "videoId": "p7X2qt4X5f4",
+              "title": "[SMTM12] 둘이 앞으로 안 볼 건가?",
+              "channelTitle": "Mnet TV",
+              "predicted7d": 1842926,
+              "viewCount": 1461513,
+              "delta": 381413
+            },
+            {
+              "videoId": "jBox3qBnEE0",
+              "title": "이번 쇼미 레전드 무대 갱신한 Marv의 반란 #쇼미더머니12",
+              "channelTitle": "통화씨네마",
+              "predicted7d": 1183654,
+              "viewCount": 830236,
+              "delta": 353418
+            },
+            {
+              "videoId": "qLM78vnOpT8",
+              "title": "버리는 카드에서 곡을 살리는 카드로 바뀐 마브",
+              "channelTitle": "힙합갤러리",
+              "predicted7d": 940464,
+              "viewCount": 657125,
+              "delta": 283339
+            },
+            {
+              "videoId": "Pk3nBDMHNoE",
+              "title": "[SMTM12] 내가 무슨 말 할지 걱정되지?",
+              "channelTitle": "Mnet TV",
+              "predicted7d": 878725,
+              "viewCount": 676655,
+              "delta": 202070
+            }
+          ],
+          "theme": "쇼미더머니12 - 마브 공연 및 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "p7X2qt4X5f4",
+              "title": "[SMTM12] 둘이 앞으로 안 볼 건가?",
+              "channelTitle": "Mnet TV",
+              "predicted7d": 1842926,
+              "delta": 381413
+            },
+            {
+              "videoId": "jBox3qBnEE0",
+              "title": "이번 쇼미 레전드 무대 갱신한 Marv의 반란 #쇼미더머니12",
+              "channelTitle": "통화씨네마",
+              "predicted7d": 1183654,
+              "delta": 353418
+            },
+            {
+              "videoId": "qLM78vnOpT8",
+              "title": "버리는 카드에서 곡을 살리는 카드로 바뀐 마브",
+              "channelTitle": "힙합갤러리",
+              "predicted7d": 940464,
+              "delta": 283339
+            },
+            {
+              "videoId": "Pk3nBDMHNoE",
+              "title": "[SMTM12] 내가 무슨 말 할지 걱정되지?",
+              "channelTitle": "Mnet TV",
+              "predicted7d": 878725,
+              "delta": 202070
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-11/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "쇼미12 마브 무대: 버리는 카드? 레전드 탄생!",
+            "description": "2026-03-11_KR_1\n쇼미더머니12에서 모두의 예상을 뒤엎고 레전드 무대를 선보인 마브! 버리는 카드 취급받던 그가 어떻게 모두를 놀라게 했는지 지금 바로 확인하세요. 심사위원들의 극과 극 반응까지 놓치지 마세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=p7X2qt4X5f4\n2) https://www.youtube.com/watch?v=jBox3qBnEE0\n3) https://www.youtube.com/watch?v=qLM78vnOpT8\n4) https://www.youtube.com/watch?v=Pk3nBDMHNoE\n\n#Shorts #KR",
+            "tags": [
+              "쇼미더머니12",
+              "마브",
+              "쇼미12",
+              "SMTM12",
+              "힙합",
+              "레전드무대",
+              "반란",
+              "역전승"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "zMsrBXkFwG0"
+          },
+          "updatedAt": "2026-03-11T08:25:33.956Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 30
+            },
+            "vcClusters": [
+              {
+                "name": "야구 소식 - 공식 뉴스 및 현장 보도",
+                "description": "주요 언론사 채널에서 제공하는 야구 관련 속보, 경기 결과, 팀 소식, 현장 스케치 등 공식적인 보도 영상 모음. 앵커 브리핑, 기자 리포트 형식이 주를 이룹니다.",
+                "query": "야구 뉴스 속보",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "ewQASpTYjtM",
+                    "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+                    "predicted7d": 430510
+                  },
+                  {
+                    "videoId": "24V1hVpdZn8",
+                    "title": "[속보] 한국 야구대표팀, 호주 꺾고 WBC 2라운드 진출 / 연합뉴스TV (YonhapnewsTV)",
+                    "predicted7d": 191444
+                  },
+                  {
+                    "videoId": "SupM9ITotpk",
+                    "title": "국립중앙과학관 야구 중계 실시간 현장 | 10월 21일 플레이오프 3차전 #한화이글스 #삼성라이온즈 #대전",
+                    "predicted7d": 31830
+                  },
+                  {
+                    "videoId": "yuBZobtbxno",
+                    "title": "야구 대표팀 오늘 저녁 일본과 평가전‥MBC 중계 (2025.11.15/뉴스투데이/MBC)",
+                    "predicted7d": 11460
+                  }
+                ]
+              },
+              {
+                "name": "야구 명장면 - 숏폼 하이라이트 및 바이럴 클립",
+                "description": "경기 중 인상 깊었던 플레이, 선수들의 활약, 시구, 팬 반응 등 짧고 강렬한 순간들을 담은 숏폼 영상 및 하이라이트 클립 모음. 빠른 편집과 임팩트 있는 장면 위주입니다.",
+                "query": "야구 하이라이트",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "1CjszQkrCeY",
+                    "title": "[2024 KBO]눈치챈  추신수",
+                    "predicted7d": 7625652
+                  },
+                  {
+                    "videoId": "2z_KtrG7cbM",
+                    "title": "[2026 WBC] 오타니와 김혜성 I #shorts I TVINGSPORTS",
+                    "predicted7d": 3276280
+                  },
+                  {
+                    "videoId": "wWMOdjUkhVo",
+                    "title": "모두 잃은 안타까운 관중 | 240815",
+                    "predicted7d": 3082838
+                  },
+                  {
+                    "videoId": "8-LCpvzYmvY",
+                    "title": "\"제가 전문가로서 한마디 하겠습니다\"",
+                    "predicted7d": 2729766
+                  },
+                  {
+                    "videoId": "hN0EcQbVmbY",
+                    "title": "윤석열의 시구를 날려버린 박민우#shorts",
+                    "predicted7d": 2695210
+                  },
+                  {
+                    "videoId": "pwbBE5lMLSo",
+                    "title": "보고만 있어도 포스 개쩌는 WBC 미국 대표팀",
+                    "predicted7d": 653450
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "야구 중계 실시간",
+          "keyword": "야구 하이라이트",
+          "videos": [
+            {
+              "videoId": "1CjszQkrCeY",
+              "title": "[2024 KBO]눈치챈  추신수",
+              "channelTitle": "마!! 야구",
+              "predicted7d": 7625652,
+              "viewCount": 5583971,
+              "delta": 2041681
+            },
+            {
+              "videoId": "2z_KtrG7cbM",
+              "title": "[2026 WBC] 오타니와 김혜성 I #shorts I TVINGSPORTS",
+              "channelTitle": "TVING SPORTS",
+              "predicted7d": 3276280,
+              "viewCount": 2388130,
+              "delta": 888150
+            },
+            {
+              "videoId": "wWMOdjUkhVo",
+              "title": "모두 잃은 안타까운 관중 | 240815",
+              "channelTitle": "별의별것",
+              "predicted7d": 3082838,
+              "viewCount": 2341043,
+              "delta": 741795
+            },
+            {
+              "videoId": "8-LCpvzYmvY",
+              "title": "\"제가 전문가로서 한마디 하겠습니다\"",
+              "channelTitle": "야구채널S",
+              "predicted7d": 2729766,
+              "viewCount": 1738807,
+              "delta": 990959
+            }
+          ],
+          "theme": "야구 명장면 - 숏폼 하이라이트 및 바이럴 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "1CjszQkrCeY",
+              "title": "[2024 KBO]눈치챈  추신수",
+              "channelTitle": "마!! 야구",
+              "predicted7d": 7625652,
+              "delta": 2041681
+            },
+            {
+              "videoId": "2z_KtrG7cbM",
+              "title": "[2026 WBC] 오타니와 김혜성 I #shorts I TVINGSPORTS",
+              "channelTitle": "TVING SPORTS",
+              "predicted7d": 3276280,
+              "delta": 888150
+            },
+            {
+              "videoId": "wWMOdjUkhVo",
+              "title": "모두 잃은 안타까운 관중 | 240815",
+              "channelTitle": "별의별것",
+              "predicted7d": 3082838,
+              "delta": 741795
+            },
+            {
+              "videoId": "8-LCpvzYmvY",
+              "title": "\"제가 전문가로서 한마디 하겠습니다\"",
+              "channelTitle": "야구채널S",
+              "predicted7d": 2729766,
+              "delta": 990959
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-11/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "야구팬들 심장 쫄깃! 레전드 명장면 모음",
+            "description": "2026-03-11_KR_2\n추신수의 날카로운 눈썰미부터 오타니와 김혜성의 불꽃 튀는 대결, 그리고 짠내나는 관중의 모습까지! 야구팬이라면 놓칠 수 없는 역대급 하이라이트들을 한 번에 만나보세요. 과연 당신의 최애 장면은?\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=1CjszQkrCeY\n2) https://www.youtube.com/watch?v=2z_KtrG7cbM\n3) https://www.youtube.com/watch?v=wWMOdjUkhVo\n4) https://www.youtube.com/watch?v=8-LCpvzYmvY\n\n#Shorts #KR",
+            "tags": [
+              "야구",
+              "KBO",
+              "WBC",
+              "야구하이라이트",
+              "야구명장면",
+              "추신수",
+              "오타니",
+              "김혜성",
+              "야구쇼츠",
+              "스포츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "sKoAnkH5WxQ"
+          },
+          "updatedAt": "2026-03-11T08:26:59.552Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-11T08:26:59.561Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "harry styles",
+          "the amazing digital circus",
+          "call her daddy",
+          "mcdonalds ceo eating burger",
+          "f1",
+          "ufc",
+          "coryxkenshin",
+          "pokopia",
+          "macbook neo",
+          "wwe 2k26"
+        ],
+        "updatedAt": "2026-03-11T02:26:13.332Z"
+      },
+      "assignedKeywords": [
+        "harry styles",
+        "the amazing digital circus",
+        "call her daddy"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 9
+            },
+            "vcClusters": [
+              {
+                "name": "해리 스타일스 넷플릭스 콘서트 공식 홍보",
+                "description": "넷플릭스 공식 채널에서 공개된 해리 스타일스 콘서트 스페셜의 예고편 및 발표 영상 모음입니다. 공식적인 홍보물 형태로 제작되었습니다.",
+                "query": "넷플릭스 콘서트",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "팬덤 문화 및 콘서트 현장 쇼츠",
+                "description": "해리 스타일스 팬들의 반응, 콘서트 후기, 짧은 바이럴 영상 등 팬덤 문화를 보여주는 숏폼 콘텐츠 모음입니다. 주로 팬 채널이나 개인적인 관찰을 담은 짧은 영상 형식입니다.",
+                "query": "팬 쇼츠",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "해리 스타일스 인물 분석 및 연예 뉴스",
+                "description": "해리 스타일스의 경력, 사생활, 관계, 음악 순위 등 인물에 대한 분석 및 연예계 소식을 다루는 영상 모음입니다. 인터뷰 클립, 리스트, 토론, 전기적 요약 등 다양한 정보성 형식입니다.",
+                "query": "인물 분석",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "g2aJsLCqvN4",
+                    "title": "Harry Styles’ EVOLUTION: From X Factor Hopeful to Global Superstar 💫💰(1994-2025) #evolution #shorts",
+                    "predicted7d": 1377958
+                  },
+                  {
+                    "videoId": "7i4YX0wD4Gk",
+                    "title": "Top 10 Harry Styles' Most Liked Songs #harrystyles",
+                    "predicted7d": 535106
+                  },
+                  {
+                    "videoId": "aAQD4Gt4pFo",
+                    "title": "Lord @HarryStyles got unbelievably candid about his yogurt habits.",
+                    "predicted7d": 382588
+                  },
+                  {
+                    "videoId": "ey0wq8pgp10",
+                    "title": "Have One Direction’s obsessive fans stunted Harry Styles’ creative freedom? 🤔",
+                    "predicted7d": 86620
+                  },
+                  {
+                    "videoId": "Y8dq5ejIXsc",
+                    "title": "Harry Styles and Zoë Kravitz continue to thrive as a couple despite being apart #zoekravitz",
+                    "predicted7d": 44023
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "harry styles",
+          "keyword": "인물 분석",
+          "videos": [
+            {
+              "videoId": "g2aJsLCqvN4",
+              "title": "Harry Styles’ EVOLUTION: From X Factor Hopeful to Global Superstar 💫💰(1994-2025) #evolution #shorts",
+              "channelTitle": "Wealth & Harmony",
+              "predicted7d": 1377958,
+              "viewCount": 963665,
+              "delta": 414293
+            },
+            {
+              "videoId": "7i4YX0wD4Gk",
+              "title": "Top 10 Harry Styles' Most Liked Songs #harrystyles",
+              "channelTitle": "ESC MKD",
+              "predicted7d": 535106,
+              "viewCount": 425258,
+              "delta": 109848
+            },
+            {
+              "videoId": "aAQD4Gt4pFo",
+              "title": "Lord @HarryStyles got unbelievably candid about his yogurt habits.",
+              "channelTitle": "Royal Court",
+              "predicted7d": 382588,
+              "viewCount": 87257,
+              "delta": 295331
+            },
+            {
+              "videoId": "ey0wq8pgp10",
+              "title": "Have One Direction’s obsessive fans stunted Harry Styles’ creative freedom? 🤔",
+              "channelTitle": "The Rest Is Entertainment",
+              "predicted7d": 86620,
+              "viewCount": 5458,
+              "delta": 81162
+            }
+          ],
+          "theme": "해리 스타일스 인물 분석 및 연예 뉴스",
+          "selectedSourceVideos": [
+            {
+              "videoId": "g2aJsLCqvN4",
+              "title": "Harry Styles’ EVOLUTION: From X Factor Hopeful to Global Superstar 💫💰(1994-2025) #evolution #shorts",
+              "channelTitle": "Wealth & Harmony",
+              "predicted7d": 1377958,
+              "delta": 414293
+            },
+            {
+              "videoId": "7i4YX0wD4Gk",
+              "title": "Top 10 Harry Styles' Most Liked Songs #harrystyles",
+              "channelTitle": "ESC MKD",
+              "predicted7d": 535106,
+              "delta": 109848
+            },
+            {
+              "videoId": "aAQD4Gt4pFo",
+              "title": "Lord @HarryStyles got unbelievably candid about his yogurt habits.",
+              "channelTitle": "Royal Court",
+              "predicted7d": 382588,
+              "delta": 295331
+            },
+            {
+              "videoId": "ey0wq8pgp10",
+              "title": "Have One Direction’s obsessive fans stunted Harry Styles’ creative freedom? 🤔",
+              "channelTitle": "The Rest Is Entertainment",
+              "predicted7d": 86620,
+              "delta": 81162
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-11/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Harry Styles: Icon, Artist, Enigma!",
+            "description": "2026-03-11_US_1\nDive into the multifaceted world of Harry Styles! From his musical evolution to candid moments and fan impact, discover what makes him a global phenomenon. Uncover the layers of this pop culture icon.\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=g2aJsLCqvN4\n2) https://www.youtube.com/watch?v=7i4YX0wD4Gk\n3) https://www.youtube.com/watch?v=aAQD4Gt4pFo\n4) https://www.youtube.com/watch?v=ey0wq8pgp10\n\n#Shorts #US",
+            "tags": [
+              "HarryStyles",
+              "PopCulture",
+              "CelebrityAnalysis",
+              "MusicIcon",
+              "OneDirection",
+              "Evolution",
+              "FanImpact",
+              "YogurtGate",
+              "Superstar",
+              "ArtistJourney"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "K6YbPwbwOjU"
+          },
+          "updatedAt": "2026-03-11T08:28:22.853Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 42
+            },
+            "vcClusters": [
+              {
+                "name": "Call Her Daddy 공식 인터뷰 하이라이트",
+                "description": "'Call Her Daddy' 채널에서 직접 업로드한 유명인 게스트 인터뷰의 짧은 하이라이트 영상 모음입니다. 주로 특정 발언이나 재밌는 순간을 편집하여 본편 시청을 유도하는 형식입니다.",
+                "query": "CHD 게스트 인터뷰",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "CclD0DuJxh0",
+                    "title": "Simone Thought Everyone Was Adopted",
+                    "predicted7d": 15236253
+                  },
+                  {
+                    "videoId": "zQYBa84X-AU",
+                    "title": "Jack Harlow’s Celebrity Crush",
+                    "predicted7d": 6193642
+                  },
+                  {
+                    "videoId": "aw8mhOrcvx8",
+                    "title": "Jack Harlow Talks About His Type",
+                    "predicted7d": 3643894
+                  },
+                  {
+                    "videoId": "I3B6RqXKGA0",
+                    "title": "Paris Hilton’s Chanel Shopping Spree",
+                    "predicted7d": 2236990
+                  },
+                  {
+                    "videoId": "D3UX7tZPf5M",
+                    "title": "ACE Family’s Catherine Paiz on Call Her Daddy",
+                    "predicted7d": 1877334
+                  },
+                  {
+                    "videoId": "ONHoOUjsqQA",
+                    "title": "Kate Hudson on Being Married at 21",
+                    "predicted7d": 1712642
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "call her daddy",
+          "keyword": "CHD 게스트 인터뷰",
+          "videos": [
+            {
+              "videoId": "CclD0DuJxh0",
+              "title": "Simone Thought Everyone Was Adopted",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 15236253,
+              "viewCount": 10664148,
+              "delta": 4572105
+            },
+            {
+              "videoId": "zQYBa84X-AU",
+              "title": "Jack Harlow’s Celebrity Crush",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 6193642,
+              "viewCount": 4507308,
+              "delta": 1686334
+            },
+            {
+              "videoId": "aw8mhOrcvx8",
+              "title": "Jack Harlow Talks About His Type",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 3643894,
+              "viewCount": 2309043,
+              "delta": 1334851
+            },
+            {
+              "videoId": "I3B6RqXKGA0",
+              "title": "Paris Hilton’s Chanel Shopping Spree",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 2236990,
+              "viewCount": 1823871,
+              "delta": 413119
+            }
+          ],
+          "theme": "Call Her Daddy 공식 인터뷰 하이라이트",
+          "selectedSourceVideos": [
+            {
+              "videoId": "CclD0DuJxh0",
+              "title": "Simone Thought Everyone Was Adopted",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 15236253,
+              "delta": 4572105
+            },
+            {
+              "videoId": "zQYBa84X-AU",
+              "title": "Jack Harlow’s Celebrity Crush",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 6193642,
+              "delta": 1686334
+            },
+            {
+              "videoId": "aw8mhOrcvx8",
+              "title": "Jack Harlow Talks About His Type",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 3643894,
+              "delta": 1334851
+            },
+            {
+              "videoId": "I3B6RqXKGA0",
+              "title": "Paris Hilton’s Chanel Shopping Spree",
+              "channelTitle": "Call Her Daddy",
+              "predicted7d": 2236990,
+              "delta": 413119
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-11/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "CHD Guests Spill ALL! 🤫",
+            "description": "2026-03-11_US_2\nGet ready for the wildest confessions and untold stories from your favorite Call Her Daddy guests. We've compiled the best interview highlights that you won't want to miss. Subscribe for more exclusive content!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=CclD0DuJxh0\n2) https://www.youtube.com/watch?v=zQYBa84X-AU\n3) https://www.youtube.com/watch?v=aw8mhOrcvx8\n4) https://www.youtube.com/watch?v=I3B6RqXKGA0\n\n#Shorts #US",
+            "tags": [
+              "CallHerDaddy",
+              "CHD",
+              "AlexCooper",
+              "PodcastHighlights",
+              "CelebrityInterview",
+              "YouTubeShorts",
+              "JackHarlow",
+              "ParisHilton",
+              "GuestConfessions",
+              "PopCulture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "Vg2rP2MDu0s"
+          },
+          "updatedAt": "2026-03-11T08:30:28.943Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-11T08:30:28.952Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "america vs juarez",
+          "ibai",
+          "harry styles",
+          "layun tv",
+          "lebriah"
+        ],
+        "updatedAt": "2026-03-11T02:29:51.831Z"
+      },
+      "assignedKeywords": [
+        "america vs juarez",
+        "ibai"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 9
+            },
+            "vcClusters": [
+              {
+                "name": "아메리카 vs 후아레스 - 경기 정보 및 중계 안내",
+                "description": "아메리카 대 후아레스 경기(남성 및 여성 리그 포함)의 일정, 시간, 중계 채널 등 시청 정보를 제공하는 영상들. 주로 텍스트 오버레이, 그래픽, 간결한 설명으로 구성됩니다.",
+                "query": "경기 일정 안내",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 0개)",
+                "topVideos": [
+                  {
+                    "videoId": "70jWyRVth9o",
+                    "title": "AMERICA VS JUAREZ FEMENIL EN VIVO 🔴 CLAUSURA 2026 JORNADA 7 LIGA MX FEMENIL ▶️ HORARIO Y DONDE VER",
+                    "predicted7d": 10729
+                  },
+                  {
+                    "videoId": "iES_LARfibY",
+                    "title": "AMERICA VS JUAREZ 🔴 JORNADA 9 LIGA MX 2026 , HORARIO Y FECHA DONDE VER EN VIVO",
+                    "predicted7d": 6010
+                  },
+                  {
+                    "videoId": "Jr9ymIiEAiA",
+                    "title": "AMERICA VS JUAREZ HORARIO FECHA Y CANAL JORNADA 9 LIGA MX CLAUSURA 2026",
+                    "predicted7d": 2601
+                  }
+                ]
+              },
+              {
+                "name": "아메리카 vs 후아레스 - 경기 리뷰 및 팬 반응",
+                "description": "아메리카 대 후아레스 경기의 결과 요약, 경기 내용 분석, 팬 또는 전문가의 반응 및 해설을 담은 영상들. 짧은 하이라이트, 스코어 보드, 해설자의 얼굴이 등장하는 형식입니다.",
+                "query": "경기 후 분석",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "gyAY0VsE7f4",
+                    "title": "🔥EL AMÉRICA se CAE A PEDAZOS ¡PAPELÓN contra JUÁREZ!. #ligamx #clubamerica #aguilasdelamerica",
+                    "predicted7d": 226430
+                  },
+                  {
+                    "videoId": "12nMogNuAb4",
+                    "title": "🚨 AMÉRICA 1-2 JUÁREZ / Jornada 9 #clubamerica #ligamx #juárezfc",
+                    "predicted7d": 127015
+                  },
+                  {
+                    "videoId": "a_Ji06hWRNw",
+                    "title": "america vs Juarez en vivo, apareció la magia de América, pero tiro suave y fácil al portero",
+                    "predicted7d": 32816
+                  }
+                ]
+              },
+              {
+                "name": "멕시코 축구 - 일반 뉴스 및 이슈",
+                "description": "'아메리카 대 후아레스' 경기 자체와는 직접적인 관련이 없거나, 다른 팀 간의 경기, 혹은 일반적인 멕시코 축구 이슈를 다루는 영상들. 주로 짧은 뉴스 클립, 특정 사건 요약, 또는 다른 경기 하이라이트 형식입니다.",
+                "query": "멕시코 축구 소식",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "SMpYCgxrXfI",
+                    "title": "EXPLOTÓ ‘CHICHARITO’ HERNÁNDEZ 😱🤯 Y el #america celebrando TRICAMPEONATOS #chivas #kingsleague",
+                    "predicted7d": 4881134
+                  },
+                  {
+                    "videoId": "jEmEtTutaeM",
+                    "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+                    "predicted7d": 2860652
+                  },
+                  {
+                    "videoId": "fzGA-x4F9ik",
+                    "title": "🚨😨 Se armó la BRONCA en el América vs Pachuca #shorts",
+                    "predicted7d": 2687230
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "america vs juarez",
+          "keyword": "멕시코 축구 소식",
+          "videos": [
+            {
+              "videoId": "SMpYCgxrXfI",
+              "title": "EXPLOTÓ ‘CHICHARITO’ HERNÁNDEZ 😱🤯 Y el #america celebrando TRICAMPEONATOS #chivas #kingsleague",
+              "channelTitle": "Gera Suárez - Periodista",
+              "predicted7d": 4881134,
+              "viewCount": 3620714,
+              "delta": 1260420
+            },
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2860652,
+              "viewCount": 2302199,
+              "delta": 558453
+            },
+            {
+              "videoId": "fzGA-x4F9ik",
+              "title": "🚨😨 Se armó la BRONCA en el América vs Pachuca #shorts",
+              "channelTitle": "TUDN México",
+              "predicted7d": 2687230,
+              "viewCount": 2104584,
+              "delta": 582646
+            }
+          ],
+          "theme": "멕시코 축구 - 일반 뉴스 및 이슈",
+          "selectedSourceVideos": [
+            {
+              "videoId": "SMpYCgxrXfI",
+              "title": "EXPLOTÓ ‘CHICHARITO’ HERNÁNDEZ 😱🤯 Y el #america celebrando TRICAMPEONATOS #chivas #kingsleague",
+              "channelTitle": "Gera Suárez - Periodista",
+              "predicted7d": 4881134,
+              "delta": 1260420
+            },
+            {
+              "videoId": "jEmEtTutaeM",
+              "title": "🔥 TURCO MOHAMED vs EFRAÍN JUÁREZ ¿QUÉ PASÓ? #ligamx #tolucafc #pumas",
+              "channelTitle": "diegobonti",
+              "predicted7d": 2860652,
+              "delta": 558453
+            },
+            {
+              "videoId": "fzGA-x4F9ik",
+              "title": "🚨😨 Se armó la BRONCA en el América vs Pachuca #shorts",
+              "channelTitle": "TUDN México",
+              "predicted7d": 2687230,
+              "delta": 582646
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-11/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Liga MX: Drama, Goles y Polémica!",
+            "description": "2026-03-11_MX_1\nRevive los momentos más intensos del fútbol mexicano. Desde explosiones de Chicharito hasta broncas en la cancha y duelos de entrenadores. ¡No te pierdas el resumen más picante de la Liga MX!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=SMpYCgxrXfI\n2) https://www.youtube.com/watch?v=jEmEtTutaeM\n3) https://www.youtube.com/watch?v=fzGA-x4F9ik\n\n#Shorts #MX",
+            "tags": [
+              "LigaMX",
+              "FutbolMexicano",
+              "Chicharito",
+              "America",
+              "Chivas",
+              "Pachuca",
+              "TurcoMohamed",
+              "Bronca",
+              "ShortsFutbol",
+              "NoticiasFutbol"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "xbTVHicrauQ"
+          },
+          "updatedAt": "2026-03-11T08:32:02.294Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 15
+            },
+            "vcClusters": [
+              {
+                "name": "이바이의 개인 일상 및 챌린지 쇼츠",
+                "description": "이바이 본인이 직접 출연하여 개인적인 소식, 재미있는 챌린지, 또는 일상적인 반응을 보여주는 짧은 영상 클립 모음입니다. 주로 그의 트위치 스트리밍에서 발췌되거나 브이로그 형식으로 제작됩니다.",
+                "query": "이바이 일상 챌린지",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "PDjBT_jkr6s",
+                    "title": "¿Cuántos espaguetis puedo romper con mis manos?",
+                    "predicted7d": 92316752
+                  },
+                  {
+                    "videoId": "W_sUiDaQBIg",
+                    "title": "Amarilla por llorón y roja por chulo",
+                    "predicted7d": 12180205
+                  },
+                  {
+                    "videoId": "8Vy4h0dgYyE",
+                    "title": "Se os ha ido de las manos.",
+                    "predicted7d": 4851264
+                  },
+                  {
+                    "videoId": "6asyOfo6eiU",
+                    "title": "El talento más raro que he visto en mi vida",
+                    "predicted7d": 2818575
+                  },
+                  {
+                    "videoId": "sdHQr2VVkMw",
+                    "title": "Me he afeitado después de muchos años.",
+                    "predicted7d": 2738407
+                  },
+                  {
+                    "videoId": "UxJpu5T5IbY",
+                    "title": "REACCIONO A MEME RANDOM",
+                    "predicted7d": 2003039
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ibai",
+          "keyword": "이바이 일상 챌린지",
+          "videos": [
+            {
+              "videoId": "PDjBT_jkr6s",
+              "title": "¿Cuántos espaguetis puedo romper con mis manos?",
+              "channelTitle": "Ibai",
+              "predicted7d": 92316752,
+              "viewCount": 66612952,
+              "delta": 25703800
+            },
+            {
+              "videoId": "W_sUiDaQBIg",
+              "title": "Amarilla por llorón y roja por chulo",
+              "channelTitle": "Ibai",
+              "predicted7d": 12180205,
+              "viewCount": 9242873,
+              "delta": 2937332
+            },
+            {
+              "videoId": "8Vy4h0dgYyE",
+              "title": "Se os ha ido de las manos.",
+              "channelTitle": "Ibai",
+              "predicted7d": 4851264,
+              "viewCount": 3730007,
+              "delta": 1121257
+            },
+            {
+              "videoId": "6asyOfo6eiU",
+              "title": "El talento más raro que he visto en mi vida",
+              "channelTitle": "Ibai",
+              "predicted7d": 2818575,
+              "viewCount": 2375249,
+              "delta": 443326
+            }
+          ],
+          "theme": "이바이의 개인 일상 및 챌린지 쇼츠",
+          "selectedSourceVideos": [
+            {
+              "videoId": "PDjBT_jkr6s",
+              "title": "¿Cuántos espaguetis puedo romper con mis manos?",
+              "channelTitle": "Ibai",
+              "predicted7d": 92316752,
+              "delta": 25703800
+            },
+            {
+              "videoId": "W_sUiDaQBIg",
+              "title": "Amarilla por llorón y roja por chulo",
+              "channelTitle": "Ibai",
+              "predicted7d": 12180205,
+              "delta": 2937332
+            },
+            {
+              "videoId": "8Vy4h0dgYyE",
+              "title": "Se os ha ido de las manos.",
+              "channelTitle": "Ibai",
+              "predicted7d": 4851264,
+              "delta": 1121257
+            },
+            {
+              "videoId": "6asyOfo6eiU",
+              "title": "El talento más raro que he visto en mi vida",
+              "channelTitle": "Ibai",
+              "predicted7d": 2818575,
+              "delta": 443326
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-11/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Ibai: ¡Desafíos diarios al límite!",
+            "description": "2026-03-11_MX_2\nDescubre los momentos más épicos y absurdos de Ibai en sus desafíos diarios. Desde romper espaguetis hasta reacciones virales, ¡nada se le resiste! Prepárate para reír y sorprenderte con su ingenio.\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=PDjBT_jkr6s\n2) https://www.youtube.com/watch?v=W_sUiDaQBIg\n3) https://www.youtube.com/watch?v=8Vy4h0dgYyE\n4) https://www.youtube.com/watch?v=6asyOfo6eiU\n\n#Shorts #MX",
+            "tags": [
+              "#Ibai",
+              "#IbaiShorts",
+              "#DesafíoIbai",
+              "#RetosVirales",
+              "#Humor",
+              "#Risas",
+              "#MomentosIbai",
+              "#Streamer",
+              "#ClipsVirales",
+              "#Entretenimiento"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "e6amfHp-aRU"
+          },
+          "updatedAt": "2026-03-11T08:33:41.177Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-11T08:33:41.186Z"
+    }
+  },
+  "finishedAt": "2026-03-11T08:33:41.188Z"
+}

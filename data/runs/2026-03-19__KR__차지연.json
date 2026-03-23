@@ -1,0 +1,227 @@
+{
+  "runId": "2026-03-19__KR__차지연",
+  "date": "2026-03-19__KR__차지연",
+  "createdAt": "2026-03-19T05:46:02.927Z",
+  "updatedAt": "2026-03-19T05:51:53.235Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "차지연"
+        ]
+      },
+      "assignedKeywords": [
+        "차지연"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 39
+            },
+            "vcClusters": [
+              {
+                "name": "차지연 현역가왕 무대 풀영상 및 주요 공연 클립",
+                "description": "차지연이 '현역가왕' 및 기타 방송에서 선보인 주요 곡들의 풀 버전 또는 핵심 공연 장면을 담은 영상 모음입니다. 뛰어난 가창력과 무대 장악력을 온전히 감상할 수 있는 클립들로 구성됩니다.",
+                "query": "차지연 무대영상",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "HtDax6WYc8s",
+                    "title": "엄청난 환호의 무대_차지연,둥지 #현역가왕3  #차지연  #둥지",
+                    "predicted7d": 831159
+                  },
+                  {
+                    "videoId": "DluxFLiq_Do",
+                    "title": "#현역가왕3 #차지연 #봄날은간다 3/5",
+                    "predicted7d": 764900
+                  },
+                  {
+                    "videoId": "j3yH3Ackb44",
+                    "title": "차지연_급이 다른 무대,봄날은 간다 #현역가왕3  #차지연  #봄날은간다",
+                    "predicted7d": 411256
+                  },
+                  {
+                    "videoId": "wu5QxkGHk0Y",
+                    "title": "다시 소환된 차지연 전율의 무대 송대관의 네박자 #차지연 #송대관 #네박자 #트로트해석 #불후의명곡 @백세인생사",
+                    "predicted7d": 380533
+                  },
+                  {
+                    "videoId": "NnWAYBTYrdk",
+                    "title": "차지연의 신들린 무대, 경연을 넘어 예술의 경지! #현역가왕3",
+                    "predicted7d": 247975
+                  },
+                  {
+                    "videoId": "VSe7bjTzoFQ",
+                    "title": "현역가왕3 결승전파이널,차지연,봄날은 간다",
+                    "predicted7d": 222959
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "차지연",
+          "keyword": "차지연 무대영상",
+          "videos": [
+            {
+              "videoId": "HtDax6WYc8s",
+              "title": "엄청난 환호의 무대_차지연,둥지 #현역가왕3  #차지연  #둥지",
+              "channelTitle": "chsk121",
+              "channelId": "UCKJsBmL_7X--PZeYDSKZihw",
+              "publishedAt": "2026-02-22T21:23:49Z",
+              "ageHours": 584.45,
+              "subscriberCount": 85300,
+              "predicted7d": 831159,
+              "viewCount": 649670,
+              "delta": 181489
+            },
+            {
+              "videoId": "DluxFLiq_Do",
+              "title": "#현역가왕3 #차지연 #봄날은간다 3/5",
+              "channelTitle": "산타자타조타",
+              "channelId": "UCCASqXmwN-oOA-cXK-_BF0Q",
+              "publishedAt": "2026-03-11T11:55:53Z",
+              "ageHours": 185.92,
+              "subscriberCount": 7320,
+              "predicted7d": 764900,
+              "viewCount": 611704,
+              "delta": 153196
+            },
+            {
+              "videoId": "j3yH3Ackb44",
+              "title": "차지연_급이 다른 무대,봄날은 간다 #현역가왕3  #차지연  #봄날은간다",
+              "channelTitle": "chsk121",
+              "channelId": "UCKJsBmL_7X--PZeYDSKZihw",
+              "publishedAt": "2026-03-14T06:42:23Z",
+              "ageHours": 119.14,
+              "subscriberCount": 85300,
+              "predicted7d": 411256,
+              "viewCount": 302108,
+              "delta": 109148
+            },
+            {
+              "videoId": "wu5QxkGHk0Y",
+              "title": "다시 소환된 차지연 전율의 무대 송대관의 네박자 #차지연 #송대관 #네박자 #트로트해석 #불후의명곡 @백세인생사",
+              "channelTitle": "백세인생사",
+              "channelId": "UCWGRIhX0pbkS4Yh0izOhLKA",
+              "publishedAt": "2026-03-15T03:30:43Z",
+              "ageHours": 98.34,
+              "subscriberCount": 40600,
+              "predicted7d": 380533,
+              "viewCount": 236165,
+              "delta": 144368
+            }
+          ],
+          "theme": "차지연 현역가왕 무대 풀영상 및 주요 공연 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "HtDax6WYc8s",
+              "title": "엄청난 환호의 무대_차지연,둥지 #현역가왕3  #차지연  #둥지",
+              "channelTitle": "chsk121",
+              "predicted7d": 831159,
+              "delta": 181489
+            },
+            {
+              "videoId": "DluxFLiq_Do",
+              "title": "#현역가왕3 #차지연 #봄날은간다 3/5",
+              "channelTitle": "산타자타조타",
+              "predicted7d": 764900,
+              "delta": 153196
+            },
+            {
+              "videoId": "j3yH3Ackb44",
+              "title": "차지연_급이 다른 무대,봄날은 간다 #현역가왕3  #차지연  #봄날은간다",
+              "channelTitle": "chsk121",
+              "predicted7d": 411256,
+              "delta": 109148
+            },
+            {
+              "videoId": "wu5QxkGHk0Y",
+              "title": "다시 소환된 차지연 전율의 무대 송대관의 네박자 #차지연 #송대관 #네박자 #트로트해석 #불후의명곡 @백세인생사",
+              "channelTitle": "백세인생사",
+              "predicted7d": 380533,
+              "delta": 144368
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19__KR__차지연/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "차지연 레전드 무대 모음: 현역가왕부터 불후의명곡까지!",
+            "description": "2026-03-19__KR__차지연_KR_1\n가왕 차지연의 역대급 무대들을 한 번에! 현역가왕 '둥지', '봄날은 간다'부터 불후의 명곡 '네박자'까지, 그녀의 폭발적인 가창력과 무대 장악력을 지금 바로 확인하세요! 당신의 귀를 사로잡을 전율의 순간들이 펼쳐집니다.\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=HtDax6WYc8s\n2) https://www.youtube.com/watch?v=DluxFLiq_Do\n3) https://www.youtube.com/watch?v=j3yH3Ackb44\n4) https://www.youtube.com/watch?v=wu5QxkGHk0Y\n\n#Shorts #KR",
+            "tags": [
+              "차지연",
+              "현역가왕",
+              "불후의명곡",
+              "둥지",
+              "봄날은간다",
+              "네박자",
+              "레전드무대",
+              "가창력",
+              "shorts",
+              "트로트"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "LjBsT0rgEsU"
+          },
+          "updatedAt": "2026-03-19T05:51:53.225Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-03-19T05:51:53.234Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-19T05:51:53.235Z"
+}

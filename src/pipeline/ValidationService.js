@@ -6,8 +6,8 @@
  * [로직 요약]
  * 1) keyword로 최근 5일 내 영상 50개 검색
  * 2) 쇼츠(<=60s) 개수 5개 이상인지 확인
- * 3) VPI Predictor(배치)로 predicted_7day_views - view_count(Δ) 계산
- * 4) predicted_7day_views >= 50k 를 만족하는 영상이 4개 이상인지 확인
+ * 3) VPI Predictor(배치)로 pred - view_count(Δ) 계산
+ * 4) pred >= 50k 를 만족하는 영상이 4개 이상인지 확인
  * 5) Δ 상위 4개를 최종 후보로 반환
  */
 
@@ -59,7 +59,7 @@ export class ValidationService {
       const f = filteredFeatures.find(x => x.id === p.id);
       if (!f) continue;
 
-      const predicted7d = Number(p.predicted_7day_views ?? 0);
+      const predicted7d = Number(p.pred ?? 0);
       if (predicted7d < VALIDATION.minPredictedViews) continue;
 
       scored.push({
@@ -112,11 +112,15 @@ export class ValidationService {
       const f = filteredFeatures.find(x => x.id === p.id);
       if (!f) continue;
 
-      const predicted7d = Number(p.predicted_7day_views ?? 0);
+      const predicted7d = Number(p.pred ?? 0);
       scored.push({
         videoId: p.id,
         title: f.title,
         channelTitle: f.channel_title,
+        channelId: f.channel_id,               // 채널 ID
+        publishedAt: f.upload_date,
+        ageHours: f.age_hours,                 // 수집 당시 영상 나이
+        subscriberCount: f.subscriber_count,   // 수집 당시 구독자 수
         predicted7d,
         viewCount: Number(f.view_count ?? 0),
         delta: predicted7d - Number(f.view_count ?? 0)

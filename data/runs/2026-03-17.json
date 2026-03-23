@@ -1,0 +1,1013 @@
+{
+  "runId": "2026-03-17",
+  "date": "2026-03-17",
+  "createdAt": "2026-03-17T02:50:02.128Z",
+  "updatedAt": "2026-03-17T12:00:19.600Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "장인수",
+          "mc 딩동",
+          "오스카 케 데헌",
+          "아카데미 시상식",
+          "김가람",
+          "미국 도미니카",
+          "차지연",
+          "프리지아",
+          "버터 떡",
+          "김하 온",
+          "동훈 이일걸",
+          "장꾸 커플",
+          "나 우아 임영",
+          "paralympics 2026",
+          "pba",
+          "토트넘",
+          "내 새끼 의 연애 2",
+          "메이플",
+          "핑계 고"
+        ],
+        "updatedAt": "2026-03-17T02:50:14.519Z"
+      },
+      "assignedKeywords": [
+        "장인수",
+        "mc 딩동",
+        "오스카 케 데헌"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 32
+            },
+            "vcClusters": [
+              {
+                "name": "장인수 관련 공식 뉴스 및 요약",
+                "description": "JTBC와 같은 주요 언론사 또는 뉴스 요약 전문 채널에서 '장인수 공소취소 거래설' 관련 사건을 보도하거나 핵심 내용을 요약하여 전달하는 영상입니다. 앵커나 기자가 등장하는 뉴스 형식의 보도입니다.",
+                "query": "장인수 뉴스 보도",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "시사 토크쇼/라디오 클립 및 평론가 발언",
+                "description": "'김어준의 겸손은힘들다 뉴스공장', '매불쇼', '장르만 여의도' 등 인기 시사 토크쇼나 라디오 프로그램에서 '장인수 사태'를 다룬 짧은 클립 또는 해당 프로그램 출연진, 평론가들의 즉각적인 반응과 논평을 담은 영상입니다. 대부분 1분 내외의 짧은 '쇼츠' 형식으로 구성됩니다.",
+                "query": "장인수 시사쇼 클립",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "vndcmRv71VA",
+                    "title": "장인수기자의 입을꼬매고 싶었던 최욱의 과거발언 #장인수",
+                    "predicted7d": 830825
+                  },
+                  {
+                    "videoId": "erVBsut4AOw",
+                    "title": "봉지욱이 장인수 기자하게 이 조언을 했는데! 그대로 됐다 #봉지욱 #장인수 #공천취소 #정치쇼츠 #메아리미디어",
+                    "predicted7d": 661422
+                  },
+                  {
+                    "videoId": "MS5wacKZZUg",
+                    "title": "공소취소 거래가 말이 되냐? #최강욱 #공천취소 #장인수 #정치쇼츠 #메아리미디어",
+                    "predicted7d": 619987
+                  },
+                  {
+                    "videoId": "nX6z7uCEHp0",
+                    "title": "최선호 \"장인수 보도가 완결성가지려면, '고위 정부 관계자' 누군지 밝혀야\"",
+                    "predicted7d": 314561
+                  },
+                  {
+                    "videoId": "LqO5znXFrEY",
+                    "title": "매불쇼 최욱에게 섭섭했던 장인수기자 #최욱 #매불쇼 #장인수 #저널리스트",
+                    "predicted7d": 233246
+                  },
+                  {
+                    "videoId": "XQjY9Ib-3Nw",
+                    "title": "그들은 대체..ㅣ#장인수 #김어준",
+                    "predicted7d": 196450
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "장인수",
+          "keyword": "장인수 시사쇼 클립",
+          "videos": [
+            {
+              "videoId": "vndcmRv71VA",
+              "title": "장인수기자의 입을꼬매고 싶었던 최욱의 과거발언 #장인수",
+              "channelTitle": "정치한스푼",
+              "predicted7d": 830825,
+              "viewCount": 609470,
+              "delta": 221355
+            },
+            {
+              "videoId": "erVBsut4AOw",
+              "title": "봉지욱이 장인수 기자하게 이 조언을 했는데! 그대로 됐다 #봉지욱 #장인수 #공천취소 #정치쇼츠 #메아리미디어",
+              "channelTitle": "메아리미디어",
+              "predicted7d": 661422,
+              "viewCount": 363955,
+              "delta": 297467
+            },
+            {
+              "videoId": "MS5wacKZZUg",
+              "title": "공소취소 거래가 말이 되냐? #최강욱 #공천취소 #장인수 #정치쇼츠 #메아리미디어",
+              "channelTitle": "메아리미디어",
+              "predicted7d": 619987,
+              "viewCount": 452671,
+              "delta": 167316
+            },
+            {
+              "videoId": "nX6z7uCEHp0",
+              "title": "최선호 \"장인수 보도가 완결성가지려면, '고위 정부 관계자' 누군지 밝혀야\"",
+              "channelTitle": "SBS 시사교양 라디오 - 시교라",
+              "predicted7d": 314561,
+              "viewCount": 263883,
+              "delta": 50678
+            }
+          ],
+          "theme": "시사 토크쇼/라디오 클립 및 평론가 발언",
+          "selectedSourceVideos": [
+            {
+              "videoId": "vndcmRv71VA",
+              "title": "장인수기자의 입을꼬매고 싶었던 최욱의 과거발언 #장인수",
+              "channelTitle": "정치한스푼",
+              "predicted7d": 830825,
+              "delta": 221355
+            },
+            {
+              "videoId": "erVBsut4AOw",
+              "title": "봉지욱이 장인수 기자하게 이 조언을 했는데! 그대로 됐다 #봉지욱 #장인수 #공천취소 #정치쇼츠 #메아리미디어",
+              "channelTitle": "메아리미디어",
+              "predicted7d": 661422,
+              "delta": 297467
+            },
+            {
+              "videoId": "MS5wacKZZUg",
+              "title": "공소취소 거래가 말이 되냐? #최강욱 #공천취소 #장인수 #정치쇼츠 #메아리미디어",
+              "channelTitle": "메아리미디어",
+              "predicted7d": 619987,
+              "delta": 167316
+            },
+            {
+              "videoId": "nX6z7uCEHp0",
+              "title": "최선호 \"장인수 보도가 완결성가지려면, '고위 정부 관계자' 누군지 밝혀야\"",
+              "channelTitle": "SBS 시사교양 라디오 - 시교라",
+              "predicted7d": 314561,
+              "delta": 50678
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-17/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "장인수 시사쇼: 최욱, 봉지욱, 최강욱, 최선호 핫이슈!",
+            "description": "2026-03-17_KR_1\n장인수 시사쇼의 핵심 클립들을 모았습니다. 최욱, 봉지욱, 최강욱, 최선호 등 주요 인물들의 발언과 논쟁을 한눈에 확인하세요. 놓치지 말아야 할 정치 이슈들을 지금 바로 시청하세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=vndcmRv71VA\n2) https://www.youtube.com/watch?v=erVBsut4AOw\n3) https://www.youtube.com/watch?v=MS5wacKZZUg\n4) https://www.youtube.com/watch?v=nX6z7uCEHp0\n\n#Shorts #KR",
+            "tags": [
+              "장인수",
+              "시사쇼",
+              "정치",
+              "최욱",
+              "봉지욱",
+              "최강욱",
+              "최선호",
+              "공천취소",
+              "공소취소",
+              "정치이슈"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "pJEBOKtXFbI"
+          },
+          "updatedAt": "2026-03-17T02:52:04.226Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 26
+            },
+            "vcClusters": [
+              {
+                "name": "오스카 '케데헌' 수상 및 논란 - 공식 뉴스 보도",
+                "description": "'케이팝 데몬 헌터스'의 오스카 수상 소식과 수상 소감 중단 논란을 다루는 주요 언론사들의 공식 뉴스 보도 영상 모음. 앵커 브리핑, 현장 클립, 기자 해설 등이 포함됩니다.",
+                "query": "케데헌 오스카 뉴스",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개)",
+                "topVideos": [
+                  {
+                    "videoId": "mdwsMFSevvY",
+                    "title": "'인종차별? 무례?' 케데헌 수상 소감 끊은 아카데미 시상식",
+                    "predicted7d": 123366
+                  },
+                  {
+                    "videoId": "R0j78VPAjTE",
+                    "title": "케데헌 수상소감 '뚝' 자른 오스카 '논란' #shorts",
+                    "predicted7d": 49100
+                  },
+                  {
+                    "videoId": "buhIptuKOPQ",
+                    "title": "케데헌 오스카 논란",
+                    "predicted7d": 38452
+                  },
+                  {
+                    "videoId": "-DjaPIRxDHM",
+                    "title": "'케데헌' 이번엔 오스카 영예까지...한국에 전한 감독의 감동 소감 [지금이뉴스] / YTN",
+                    "predicted7d": 34701
+                  },
+                  {
+                    "videoId": "JA0u8voaoWU",
+                    "title": "'케데헌', 오스카 2관왕…장편 애니메이션·주제가상 / 연합뉴스TV(YonhapnewsTV)",
+                    "predicted7d": 33110
+                  },
+                  {
+                    "videoId": "6oO_CNHCids",
+                    "title": "“오스카가 K팝 무시해” 아카데미 2관왕 ‘케데헌’ 수상소감 도중 마이크 ‘뚝’",
+                    "predicted7d": 21205
+                  }
+                ]
+              },
+              {
+                "name": "오스카 '골든' 무대 및 현장 반응 클립",
+                "description": "'케이팝 데몬 헌터스'의 '골든' 공연 무대, 관객들의 응원봉 반응, 할리우드 배우들의 모습 등 오스카 시상식 현장의 생생한 하이라이트 장면을 담은 영상 모음.",
+                "query": "케데헌 오스카 무대",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "N43e1QzcJu0",
+                    "title": "케데헌 공연장이 되어버린 아카데미 시상식 ㄷㄷ #케데헌 #오스카",
+                    "predicted7d": 2040684
+                  },
+                  {
+                    "videoId": "zHzedaqjY3s",
+                    "title": "관객석 꽉 채운 응원봉..케데헌 '골든' 아카데미 무대",
+                    "predicted7d": 305107
+                  },
+                  {
+                    "videoId": "13hvCLQ4Tfc",
+                    "title": "관객석 꽉 채운 응원봉..케데헌 '골든' 아카데미 무대ㅣ  #골든 #주제가상 #헌트릭스 #이재",
+                    "predicted7d": 268204
+                  },
+                  {
+                    "videoId": "Osr8-Zm1MwU",
+                    "title": "'오스카도 석권!' 케데헌 금빛 레드카펫✨   #케데헌 #이재 #ejae #오스카 #아카데미시상식",
+                    "predicted7d": 118368
+                  },
+                  {
+                    "videoId": "ofm48MqQQyk",
+                    "title": "오스카 주제가상 케데헌 골든 ㄷㄷ",
+                    "predicted7d": 84330
+                  },
+                  {
+                    "videoId": "_ZhK79uxHZM",
+                    "title": "오스카 시상식에서 케데헌 응원봉 흔드는 헐리우드 배우들ㄷㄷㄷㄷ",
+                    "predicted7d": 59911
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "오스카 케 데헌",
+          "keyword": "케데헌 오스카 무대",
+          "videos": [
+            {
+              "videoId": "N43e1QzcJu0",
+              "title": "케데헌 공연장이 되어버린 아카데미 시상식 ㄷㄷ #케데헌 #오스카",
+              "channelTitle": "주파수 ON",
+              "predicted7d": 2040684,
+              "viewCount": 780989,
+              "delta": 1259695
+            },
+            {
+              "videoId": "zHzedaqjY3s",
+              "title": "관객석 꽉 채운 응원봉..케데헌 '골든' 아카데미 무대",
+              "channelTitle": "라이브캐스트24",
+              "predicted7d": 305107,
+              "viewCount": 120440,
+              "delta": 184667
+            },
+            {
+              "videoId": "13hvCLQ4Tfc",
+              "title": "관객석 꽉 채운 응원봉..케데헌 '골든' 아카데미 무대ㅣ  #골든 #주제가상 #헌트릭스 #이재",
+              "channelTitle": "K-Culture NOW by 연합뉴스",
+              "predicted7d": 268204,
+              "viewCount": 111576,
+              "delta": 156628
+            },
+            {
+              "videoId": "Osr8-Zm1MwU",
+              "title": "'오스카도 석권!' 케데헌 금빛 레드카펫✨   #케데헌 #이재 #ejae #오스카 #아카데미시상식",
+              "channelTitle": "K-Culture NOW by 연합뉴스",
+              "predicted7d": 118368,
+              "viewCount": 53706,
+              "delta": 64662
+            }
+          ],
+          "theme": "오스카 '골든' 무대 및 현장 반응 클립",
+          "selectedSourceVideos": [
+            {
+              "videoId": "N43e1QzcJu0",
+              "title": "케데헌 공연장이 되어버린 아카데미 시상식 ㄷㄷ #케데헌 #오스카",
+              "channelTitle": "주파수 ON",
+              "predicted7d": 2040684,
+              "delta": 1259695
+            },
+            {
+              "videoId": "zHzedaqjY3s",
+              "title": "관객석 꽉 채운 응원봉..케데헌 '골든' 아카데미 무대",
+              "channelTitle": "라이브캐스트24",
+              "predicted7d": 305107,
+              "delta": 184667
+            },
+            {
+              "videoId": "13hvCLQ4Tfc",
+              "title": "관객석 꽉 채운 응원봉..케데헌 '골든' 아카데미 무대ㅣ  #골든 #주제가상 #헌트릭스 #이재",
+              "channelTitle": "K-Culture NOW by 연합뉴스",
+              "predicted7d": 268204,
+              "delta": 156628
+            },
+            {
+              "videoId": "Osr8-Zm1MwU",
+              "title": "'오스카도 석권!' 케데헌 금빛 레드카펫✨   #케데헌 #이재 #ejae #오스카 #아카데미시상식",
+              "channelTitle": "K-Culture NOW by 연합뉴스",
+              "predicted7d": 118368,
+              "delta": 64662
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-17/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "오스카 뒤집어놓은 케데헌 무대!",
+            "description": "2026-03-17_KR_2\n케데헌이 아카데미 시상식 무대를 뜨겁게 달궜습니다. 관객석을 가득 채운 응원봉 물결과 함께 '골든' 무대를 선보이며 오스카를 케데헌 공연장으로 만들었죠. 이재의 금빛 레드카펫까지, 오스카를 석권한 케데헌의 전설적인 순간들을 지금 바로 확인하세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=N43e1QzcJu0\n2) https://www.youtube.com/watch?v=zHzedaqjY3s\n3) https://www.youtube.com/watch?v=13hvCLQ4Tfc\n4) https://www.youtube.com/watch?v=Osr8-Zm1MwU\n\n#Shorts #KR",
+            "tags": [
+              "#케데헌",
+              "#오스카",
+              "#아카데미시상식",
+              "#골든",
+              "#이재",
+              "#헌트릭스",
+              "#응원봉물결",
+              "#레드카펫",
+              "#KPOP",
+              "#Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "TP7gwNgeLdE"
+          },
+          "updatedAt": "2026-03-17T02:53:38.387Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-17T02:53:38.387Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "oscars",
+          "bam adebayo",
+          "ring royale",
+          "pelea de karely ruiz y marcela mistral",
+          "usa vs dominican republic baseball",
+          "enhypen",
+          "fede vigevani",
+          "el desorden de marko",
+          "kaed"
+        ],
+        "updatedAt": "2026-03-17T02:54:04.536Z"
+      },
+      "assignedKeywords": [
+        "oscars",
+        "bam adebayo"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 18
+            },
+            "vcClusters": [
+              {
+                "name": "레드카펫 & 셀럽 인터뷰",
+                "description": "오스카 시상식의 레드카펫 현장, 스타들의 패션, 짧은 인터뷰 및 현장 비하인드 순간들을 담은 영상 모음. 주로 연예 매체나 공식 채널에서 제작됩니다.",
+                "query": "오스카 레드카펫",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "NwFWxgVeJpc",
+                    "title": "MORE OSCAR’S #fashion #redcarpet #oscars",
+                    "predicted7d": 2388673
+                  },
+                  {
+                    "videoId": "RG9xliSNRQk",
+                    "title": "Emotional oscars play | Timothee Chalamet vs Michael B. Jordan  #timotheechalamet  #oscars",
+                    "predicted7d": 1216738
+                  },
+                  {
+                    "videoId": "nQNbdruauw4",
+                    "title": "Zendaya and Robert Pattinson made a surprise appearance at the #Oscars.",
+                    "predicted7d": 961767
+                  },
+                  {
+                    "videoId": "bxcEZ_H-JYk",
+                    "title": "Scream Queen McKenna Grace Teaches Amelia How to Scream on the Red Carpet",
+                    "predicted7d": 699422
+                  },
+                  {
+                    "videoId": "Fk49HAcFGcw",
+                    "title": "Oscars Outfits Everyone Talked About✨👗#shorts #usa #oscars #zendaya #timotheechalamet #annehathaway",
+                    "predicted7d": 32330
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "oscars",
+          "keyword": "오스카 레드카펫",
+          "videos": [
+            {
+              "videoId": "NwFWxgVeJpc",
+              "title": "MORE OSCAR’S #fashion #redcarpet #oscars",
+              "channelTitle": "HauteLeMode",
+              "predicted7d": 2388673,
+              "viewCount": 682155,
+              "delta": 1706518
+            },
+            {
+              "videoId": "RG9xliSNRQk",
+              "title": "Emotional oscars play | Timothee Chalamet vs Michael B. Jordan  #timotheechalamet  #oscars",
+              "channelTitle": "Aditya Gautam",
+              "predicted7d": 1216738,
+              "viewCount": 508142,
+              "delta": 708596
+            },
+            {
+              "videoId": "nQNbdruauw4",
+              "title": "Zendaya and Robert Pattinson made a surprise appearance at the #Oscars.",
+              "channelTitle": "Entertainment Tonight",
+              "predicted7d": 961767,
+              "viewCount": 440267,
+              "delta": 521500
+            },
+            {
+              "videoId": "bxcEZ_H-JYk",
+              "title": "Scream Queen McKenna Grace Teaches Amelia How to Scream on the Red Carpet",
+              "channelTitle": "Oscars",
+              "predicted7d": 699422,
+              "viewCount": 259493,
+              "delta": 439929
+            }
+          ],
+          "theme": "레드카펫 & 셀럽 인터뷰",
+          "selectedSourceVideos": [
+            {
+              "videoId": "NwFWxgVeJpc",
+              "title": "MORE OSCAR’S #fashion #redcarpet #oscars",
+              "channelTitle": "HauteLeMode",
+              "predicted7d": 2388673,
+              "delta": 1706518
+            },
+            {
+              "videoId": "RG9xliSNRQk",
+              "title": "Emotional oscars play | Timothee Chalamet vs Michael B. Jordan  #timotheechalamet  #oscars",
+              "channelTitle": "Aditya Gautam",
+              "predicted7d": 1216738,
+              "delta": 708596
+            },
+            {
+              "videoId": "nQNbdruauw4",
+              "title": "Zendaya and Robert Pattinson made a surprise appearance at the #Oscars.",
+              "channelTitle": "Entertainment Tonight",
+              "predicted7d": 961767,
+              "delta": 521500
+            },
+            {
+              "videoId": "bxcEZ_H-JYk",
+              "title": "Scream Queen McKenna Grace Teaches Amelia How to Scream on the Red Carpet",
+              "channelTitle": "Oscars",
+              "predicted7d": 699422,
+              "delta": 439929
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"3 INVALID_ARGUMENT: Request contains an invalid argument.\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-17/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oscars Red Carpet: Iconic Moments!",
+            "description": "2026-03-17_US_1\nRelive the most unforgettable moments from the Oscars red carpet! From stunning fashion to unexpected celebrity encounters and viral reactions, this Shorts compilation has it all. Don't miss the drama and glamour!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=NwFWxgVeJpc\n2) https://www.youtube.com/watch?v=RG9xliSNRQk\n3) https://www.youtube.com/watch?v=nQNbdruauw4\n4) https://www.youtube.com/watch?v=bxcEZ_H-JYk\n\n#Shorts #US",
+            "tags": [
+              "Oscars",
+              "RedCarpet",
+              "OscarsFashion",
+              "CelebrityStyle",
+              "TimotheeChalamet",
+              "Zendaya",
+              "RobertPattinson",
+              "McKennaGrace",
+              "HollywoodGlam",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "agfEzKBq9Zw"
+          },
+          "updatedAt": "2026-03-17T05:22:18.793Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 29
+            },
+            "vcClusters": [
+              {
+                "name": "스포츠 분석 및 토론",
+                "description": "스포츠 전문가, 해설가, 팟캐스터들이 뱀 아데바요의 83점 기록에 대해 분석하고 논쟁하는 영상들. 주로 스튜디오 토론, 인터뷰 클립, 전문가 해설 형식.",
+                "query": "농구 전문가 토론",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "e-BFjyR72WU",
+                    "title": "Erik Spoelstra defends Bam's 83-pt game (via MikeCugnoCBS4/X, @CBSMiami)",
+                    "predicted7d": 944602
+                  },
+                  {
+                    "videoId": "iaPJ6KTXZYw",
+                    "title": "Ranking Bam Adebayo & Other 70 Point NBA Games! 👀🏀",
+                    "predicted7d": 918289
+                  },
+                  {
+                    "videoId": "PimlagbXzUA",
+                    "title": "Was Bam Adebayo’s 83 Ethical?",
+                    "predicted7d": 439261
+                  },
+                  {
+                    "videoId": "XYcf7GzmTHk",
+                    "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+                    "predicted7d": 399603
+                  },
+                  {
+                    "videoId": "48PZwdbEi2I",
+                    "title": "Swaggy P says \"F*CK BAM ADEBAYO\"",
+                    "predicted7d": 343173
+                  },
+                  {
+                    "videoId": "OmRAdxAWxs8",
+                    "title": "Chuck on Bam Adebayo's 83-PT game 😅",
+                    "predicted7d": 104639
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bam adebayo",
+          "keyword": "농구 전문가 토론",
+          "videos": [
+            {
+              "videoId": "e-BFjyR72WU",
+              "title": "Erik Spoelstra defends Bam's 83-pt game (via MikeCugnoCBS4/X, @CBSMiami)",
+              "channelTitle": "Bleacher Report",
+              "predicted7d": 944602,
+              "viewCount": 774509,
+              "delta": 170093
+            },
+            {
+              "videoId": "iaPJ6KTXZYw",
+              "title": "Ranking Bam Adebayo & Other 70 Point NBA Games! 👀🏀",
+              "channelTitle": "The Deep 3",
+              "predicted7d": 918289,
+              "viewCount": 682822,
+              "delta": 235467
+            },
+            {
+              "videoId": "PimlagbXzUA",
+              "title": "Was Bam Adebayo’s 83 Ethical?",
+              "channelTitle": "Andrew Fenichel",
+              "predicted7d": 439261,
+              "viewCount": 283120,
+              "delta": 156141
+            },
+            {
+              "videoId": "XYcf7GzmTHk",
+              "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+              "channelTitle": "Bill Simmons",
+              "predicted7d": 399603,
+              "viewCount": 291364,
+              "delta": 108239
+            }
+          ],
+          "theme": "스포츠 분석 및 토론",
+          "selectedSourceVideos": [
+            {
+              "videoId": "e-BFjyR72WU",
+              "title": "Erik Spoelstra defends Bam's 83-pt game (via MikeCugnoCBS4/X, @CBSMiami)",
+              "channelTitle": "Bleacher Report",
+              "predicted7d": 944602,
+              "delta": 170093
+            },
+            {
+              "videoId": "iaPJ6KTXZYw",
+              "title": "Ranking Bam Adebayo & Other 70 Point NBA Games! 👀🏀",
+              "channelTitle": "The Deep 3",
+              "predicted7d": 918289,
+              "delta": 235467
+            },
+            {
+              "videoId": "PimlagbXzUA",
+              "title": "Was Bam Adebayo’s 83 Ethical?",
+              "channelTitle": "Andrew Fenichel",
+              "predicted7d": 439261,
+              "delta": 156141
+            },
+            {
+              "videoId": "XYcf7GzmTHk",
+              "title": "Bill praises Bam Adebayo’s historic 83-point performance while trashing the Wizards for allowing it.",
+              "channelTitle": "Bill Simmons",
+              "predicted7d": 399603,
+              "delta": 108239
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"3 INVALID_ARGUMENT: Request contains an invalid argument.\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-17/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Bam Adebayo's 83-Point Game: Ethical?",
+            "description": "2026-03-17_US_2\nNBA experts debate Bam Adebayo's controversial 83-point performance. Was it ethical, or just a historic moment? Dive into the hottest takes and share your opinion!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=e-BFjyR72WU\n2) https://www.youtube.com/watch?v=iaPJ6KTXZYw\n3) https://www.youtube.com/watch?v=PimlagbXzUA\n4) https://www.youtube.com/watch?v=XYcf7GzmTHk\n\n#Shorts #US",
+            "tags": [
+              "BamAdebayo",
+              "NBA",
+              "Shorts",
+              "Basketball",
+              "ErikSpoelstra",
+              "BillSimmons",
+              "83Points",
+              "HeatCulture",
+              "NBADebate",
+              "Wizards"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "RUWKTFkd0fg"
+          },
+          "updatedAt": "2026-03-17T05:22:51.968Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-17T05:22:51.976Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ring royale",
+          "karely ruiz vs marcela mistral",
+          "alfredo adame vs carlos trejo",
+          "abelito vs bull terrier",
+          "oscars 2026",
+          "poncho de nigris",
+          "supernova",
+          "pinky promise",
+          "hotspanish vlogs",
+          "fernanfloo",
+          "fede",
+          "zootopia 2"
+        ],
+        "updatedAt": "2026-03-17T02:56:44.309Z"
+      },
+      "assignedKeywords": [
+        "ring royale",
+        "karely ruiz vs marcela mistral"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 20,
+              "totalShorts": 9
+            },
+            "vcClusters": [
+              {
+                "name": "Ring Royale 경기 결과 및 분석 (연예 뉴스/가십 채널)",
+                "description": "'Ring Royale' 이벤트의 주요 경기 결과, 승패, 참가자들의 반응, 재정적 측면 등을 다루는 연예 뉴스 또는 가십 전문 채널들의 보도 및 분석 영상 모음입니다. 주로 진행자가 등장하여 정보를 전달하거나 특정 장면을 편집하여 보여주는 형식입니다.",
+                "query": "링 로얄 경기 분석",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "z0n76jkXJKc",
+                    "title": "Ganadores y perdedores del Ring Royale 2026",
+                    "predicted7d": 288969
+                  },
+                  {
+                    "videoId": "GZezUO0lHV8",
+                    "title": "Marcela Mistral derrota a Karely Ruiz en Ring Royale",
+                    "predicted7d": 247749
+                  },
+                  {
+                    "videoId": "VdSHuS0BeMw",
+                    "title": "HACEN HISTORIA! Poncho de Nigris FELIZ x Alfredo Adame en RING ROYALE los numeros hablan #ringroyale",
+                    "predicted7d": 181372
+                  },
+                  {
+                    "videoId": "I1hW7ic1NAk",
+                    "title": "VEAN! Alfredo Adame Golpeado ASÍ LO DEFENDIO SU ENTRENADOR vs El esposo de Karely Ruiz RING ROYALE",
+                    "predicted7d": 106427
+                  },
+                  {
+                    "videoId": "7E0I3y7TWG0",
+                    "title": "CUANTO DINERO GANÓ PONCHO DE NIGRIS CON RING ROYALE #catarinoleosjr #kato #MAQUILERO",
+                    "predicted7d": 27234
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ring royale",
+          "keyword": "링 로얄 경기 분석",
+          "videos": [
+            {
+              "videoId": "z0n76jkXJKc",
+              "title": "Ganadores y perdedores del Ring Royale 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 288969,
+              "viewCount": 59415,
+              "delta": 229554
+            },
+            {
+              "videoId": "GZezUO0lHV8",
+              "title": "Marcela Mistral derrota a Karely Ruiz en Ring Royale",
+              "channelTitle": "Julian EME",
+              "predicted7d": 247749,
+              "viewCount": 97891,
+              "delta": 149858
+            },
+            {
+              "videoId": "VdSHuS0BeMw",
+              "title": "HACEN HISTORIA! Poncho de Nigris FELIZ x Alfredo Adame en RING ROYALE los numeros hablan #ringroyale",
+              "channelTitle": "StarsTV",
+              "predicted7d": 181372,
+              "viewCount": 46807,
+              "delta": 134565
+            },
+            {
+              "videoId": "I1hW7ic1NAk",
+              "title": "VEAN! Alfredo Adame Golpeado ASÍ LO DEFENDIO SU ENTRENADOR vs El esposo de Karely Ruiz RING ROYALE",
+              "channelTitle": "StarsTV",
+              "predicted7d": 106427,
+              "viewCount": 67542,
+              "delta": 38885
+            }
+          ],
+          "theme": "Ring Royale 경기 결과 및 분석 (연예 뉴스/가십 채널)",
+          "selectedSourceVideos": [
+            {
+              "videoId": "z0n76jkXJKc",
+              "title": "Ganadores y perdedores del Ring Royale 2026",
+              "channelTitle": "Las Muñecas",
+              "predicted7d": 288969,
+              "delta": 229554
+            },
+            {
+              "videoId": "GZezUO0lHV8",
+              "title": "Marcela Mistral derrota a Karely Ruiz en Ring Royale",
+              "channelTitle": "Julian EME",
+              "predicted7d": 247749,
+              "delta": 149858
+            },
+            {
+              "videoId": "VdSHuS0BeMw",
+              "title": "HACEN HISTORIA! Poncho de Nigris FELIZ x Alfredo Adame en RING ROYALE los numeros hablan #ringroyale",
+              "channelTitle": "StarsTV",
+              "predicted7d": 181372,
+              "delta": 134565
+            },
+            {
+              "videoId": "I1hW7ic1NAk",
+              "title": "VEAN! Alfredo Adame Golpeado ASÍ LO DEFENDIO SU ENTRENADOR vs El esposo de Karely Ruiz RING ROYALE",
+              "channelTitle": "StarsTV",
+              "predicted7d": 106427,
+              "delta": 38885
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"3 INVALID_ARGUMENT: Voice 'es-MX-Standard-A' does not exist. Is it misspelled?\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-17/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Ring Royale: ¡Momentos Épicos y Caídas!",
+            "description": "2026-03-17_MX_1\nRevive los momentos más impactantes del Ring Royale, desde las victorias inesperadas hasta las polémicas derrotas. Analizamos las peleas de Marcela Mistral, Karely Ruiz, Alfredo Adame y Poncho de Nigris. ¡No te pierdas este resumen explosivo!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=z0n76jkXJKc\n2) https://www.youtube.com/watch?v=GZezUO0lHV8\n3) https://www.youtube.com/watch?v=VdSHuS0BeMw\n4) https://www.youtube.com/watch?v=I1hW7ic1NAk\n\n#Shorts #MX",
+            "tags": [
+              "RingRoyale",
+              "AlfredoAdame",
+              "MarcelaMistral",
+              "KarelyRuiz",
+              "PonchodeNigris",
+              "PeleasFamosas",
+              "Celebridades",
+              "Escándalo",
+              "BoxeoFamosos",
+              "AnálisisDePeleas"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "5gcQieH3jGs"
+          },
+          "updatedAt": "2026-03-17T11:59:27.434Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 20
+            },
+            "vcClusters": [
+              {
+                "name": "경기 하이라이트 및 전체 영상",
+                "description": "카렐리 루이즈와 마르셀라 미스트랄의 실제 복싱 경기 장면, 하이라이트 또는 전체 경기를 담은 영상 모음입니다. 주로 경기 자체의 액션과 결과를 보여줍니다.",
+                "query": "경기 영상",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "ENSYniFGb_I",
+                    "title": "Karely Ruiz VS Marcela Mistral 🔥🔥🔥 La épica pelea..!!!",
+                    "predicted7d": 2867936
+                  },
+                  {
+                    "videoId": "ZggjyalwFIE",
+                    "title": "Pelea completa de Karely Ruiz vs Marcela Mistral… #marcelamistral #karelyruiz",
+                    "predicted7d": 351542
+                  },
+                  {
+                    "videoId": "vpKcpGLp498",
+                    "title": "Karely Ruiz vs Marcela mistral",
+                    "predicted7d": 156300
+                  },
+                  {
+                    "videoId": "fpbL8M-aBxA",
+                    "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+                    "predicted7d": 140091
+                  },
+                  {
+                    "videoId": "hwnhA-HuBwA",
+                    "title": "Marcela Mistral derrota a Karely Ruiz en una de las peleas más virales | Ring royale",
+                    "predicted7d": 67228
+                  },
+                  {
+                    "videoId": "0WQc12ECOWo",
+                    "title": "Se prendió el cerro en Monterrey 🔥 Karely Ruiz Vs Marcela Mistral 😈",
+                    "predicted7d": 2290
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "karely ruiz vs marcela mistral",
+          "keyword": "경기 영상",
+          "videos": [
+            {
+              "videoId": "ENSYniFGb_I",
+              "title": "Karely Ruiz VS Marcela Mistral 🔥🔥🔥 La épica pelea..!!!",
+              "channelTitle": "Lalito Guerra",
+              "predicted7d": 2867936,
+              "viewCount": 2307856,
+              "delta": 560080
+            },
+            {
+              "videoId": "ZggjyalwFIE",
+              "title": "Pelea completa de Karely Ruiz vs Marcela Mistral… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 351542,
+              "viewCount": 91796,
+              "delta": 259746
+            },
+            {
+              "videoId": "vpKcpGLp498",
+              "title": "Karely Ruiz vs Marcela mistral",
+              "channelTitle": "Fiestas tradicionales (Producciones Lopez Tv)",
+              "predicted7d": 156300,
+              "viewCount": 14722,
+              "delta": 141578
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 140091,
+              "viewCount": 88224,
+              "delta": 51867
+            }
+          ],
+          "theme": "경기 하이라이트 및 전체 영상",
+          "selectedSourceVideos": [
+            {
+              "videoId": "ENSYniFGb_I",
+              "title": "Karely Ruiz VS Marcela Mistral 🔥🔥🔥 La épica pelea..!!!",
+              "channelTitle": "Lalito Guerra",
+              "predicted7d": 2867936,
+              "delta": 560080
+            },
+            {
+              "videoId": "ZggjyalwFIE",
+              "title": "Pelea completa de Karely Ruiz vs Marcela Mistral… #marcelamistral #karelyruiz",
+              "channelTitle": "Guanajuato Cultural MX",
+              "predicted7d": 351542,
+              "delta": 259746
+            },
+            {
+              "videoId": "vpKcpGLp498",
+              "title": "Karely Ruiz vs Marcela mistral",
+              "channelTitle": "Fiestas tradicionales (Producciones Lopez Tv)",
+              "predicted7d": 156300,
+              "delta": 141578
+            },
+            {
+              "videoId": "fpbL8M-aBxA",
+              "title": "KARELY RUIZ VS MARCELA MISTRAL… SE CALIENTA EL RING #karelyruiz #kingroyale #box #marcelamistral",
+              "channelTitle": "YAYA LA FAMOSA",
+              "predicted7d": 140091,
+              "delta": 51867
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"3 INVALID_ARGUMENT: Voice 'es-MX-Standard-A' does not exist. Is it misspelled?\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-17/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Karely Ruiz vs Marcela Mistral: ¡Pelea Épica!",
+            "description": "2026-03-17_MX_2\nRevive los momentos más intensos de la épica pelea entre Karely Ruiz y Marcela Mistral. No te pierdas ni un segundo de esta batalla inolvidable en el ring. ¿Quién fue la verdadera campeona?\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=ENSYniFGb_I\n2) https://www.youtube.com/watch?v=ZggjyalwFIE\n3) https://www.youtube.com/watch?v=vpKcpGLp498\n4) https://www.youtube.com/watch?v=fpbL8M-aBxA\n\n#Shorts #MX",
+            "tags": [
+              "KarelyRuiz",
+              "MarcelaMistral",
+              "Pelea",
+              "Boxeo",
+              "Shorts",
+              "Viral",
+              "Ring",
+              "Famosas",
+              "Influencers",
+              "Mexico"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "u344-WnnQGs"
+          },
+          "updatedAt": "2026-03-17T12:00:19.589Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-17T12:00:19.597Z"
+    }
+  },
+  "finishedAt": "2026-03-17T12:00:19.600Z"
+}

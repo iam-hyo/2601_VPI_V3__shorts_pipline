@@ -10,6 +10,8 @@
     "video": "node services/video-processor-service/src/server.js"
   },
   "dependencies": {
+    "@google-cloud/text-to-speech": "^6.4.0",
+    "better-sqlite3": "^12.8.0",
     "dotenv": "^16.4.5",
     "googleapis": "^144.0.0",
     "pino": "^9.3.2"

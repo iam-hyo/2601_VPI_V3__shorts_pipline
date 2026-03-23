@@ -1,0 +1,217 @@
+{
+  "runId": "2026-03-17__US__oscars-2026",
+  "date": "2026-03-17__US__oscars-2026",
+  "createdAt": "2026-03-17T12:43:40.215Z",
+  "updatedAt": "2026-03-17T13:03:26.153Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "oscars 2026"
+        ]
+      },
+      "assignedKeywords": [
+        "oscars 2026"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 47,
+              "totalShorts": 11
+            },
+            "vcClusters": [
+              {
+                "name": "공식 시상 및 뉴스 보도",
+                "description": "주요 수상자 발표, 특정 수상 순간을 다루는 공식 뉴스 채널 또는 보도 형식의 영상 모음입니다. 앵커의 진행이나 현장 연결 화면이 특징입니다.",
+                "query": "오스카 수상 발표",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (3개)",
+                "topVideos": []
+              },
+              {
+                "name": "레드카펫 패션 및 스타일 분석",
+                "description": "오스카 시상식 레드카펫 의상, 베스트 드레서, 패션 트렌드를 분석하고 리뷰하는 영상 모음입니다. 모델 워크, 의상 클로즈업, 전문가 해설이 주를 이룹니다.",
+                "query": "오스카 패션 리뷰",
+                "status": "FAIL",
+                "reason": "군집 내 영상 수 부족 (2개)",
+                "topVideos": []
+              },
+              {
+                "name": "시상식 하이라이트 및 수상자 총정리",
+                "description": "2026 오스카 시상식의 주요 순간, 모든 수상자 목록, 가장 큰 화제가 된 장면들을 요약하여 보여주는 편집 영상 모음입니다. 짧은 클립들의 몽타주나 리스트업 형식입니다.",
+                "query": "오스카 하이라이트",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "3l0WP1ibiG0",
+                    "title": "Oscars 2026 Moments Everyone Is Talking About",
+                    "predicted7d": 411894
+                  },
+                  {
+                    "videoId": "pVhposajGJ4",
+                    "title": "Here Are All The 2026 Oscar Winners…",
+                    "predicted7d": 221244
+                  },
+                  {
+                    "videoId": "gUG36yLyDcU",
+                    "title": "2026 Oscar Winners",
+                    "predicted7d": 165418
+                  },
+                  {
+                    "videoId": "yeBAW-5kdU4",
+                    "title": "Biggest Wins at the Oscars 2026 😤",
+                    "predicted7d": 164853
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "oscars 2026",
+          "keyword": "오스카 하이라이트",
+          "videos": [
+            {
+              "videoId": "3l0WP1ibiG0",
+              "title": "Oscars 2026 Moments Everyone Is Talking About",
+              "channelTitle": "celebstage",
+              "predicted7d": 411894,
+              "viewCount": 149512,
+              "delta": 262382
+            },
+            {
+              "videoId": "pVhposajGJ4",
+              "title": "Here Are All The 2026 Oscar Winners…",
+              "channelTitle": "Brandon Conner",
+              "predicted7d": 221244,
+              "viewCount": 103063,
+              "delta": 118181
+            },
+            {
+              "videoId": "gUG36yLyDcU",
+              "title": "2026 Oscar Winners",
+              "channelTitle": "WatchMojo.com",
+              "predicted7d": 165418,
+              "viewCount": 75796,
+              "delta": 89622
+            },
+            {
+              "videoId": "yeBAW-5kdU4",
+              "title": "Biggest Wins at the Oscars 2026 😤",
+              "channelTitle": "Mr Critical",
+              "predicted7d": 164853,
+              "viewCount": 75935,
+              "delta": 88918
+            }
+          ],
+          "theme": "시상식 하이라이트 및 수상자 총정리",
+          "selectedSourceVideos": [
+            {
+              "videoId": "3l0WP1ibiG0",
+              "title": "Oscars 2026 Moments Everyone Is Talking About",
+              "channelTitle": "celebstage",
+              "predicted7d": 411894,
+              "delta": 262382
+            },
+            {
+              "videoId": "pVhposajGJ4",
+              "title": "Here Are All The 2026 Oscar Winners…",
+              "channelTitle": "Brandon Conner",
+              "predicted7d": 221244,
+              "delta": 118181
+            },
+            {
+              "videoId": "gUG36yLyDcU",
+              "title": "2026 Oscar Winners",
+              "channelTitle": "WatchMojo.com",
+              "predicted7d": 165418,
+              "delta": 89622
+            },
+            {
+              "videoId": "yeBAW-5kdU4",
+              "title": "Biggest Wins at the Oscars 2026 😤",
+              "channelTitle": "Mr Critical",
+              "predicted7d": 164853,
+              "delta": 88918
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-17__US__oscars-2026/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oscars 2026: Winners & Wildest Moments!",
+            "description": "2026-03-17__US__oscars-2026_US_1\nRelive the most talked-about moments and discover all the big winners from the 2026 Academy Awards! From shocking upsets to emotional speeches, we've got every highlight you need to see. Don't miss out on the biggest night in film!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=3l0WP1ibiG0\n2) https://www.youtube.com/watch?v=pVhposajGJ4\n3) https://www.youtube.com/watch?v=gUG36yLyDcU\n4) https://www.youtube.com/watch?v=yeBAW-5kdU4\n\n#Shorts #US",
+            "tags": [
+              "Oscars2026",
+              "AcademyAwards",
+              "OscarWinners",
+              "FilmAwards",
+              "BestPicture",
+              "Hollywood",
+              "Celebrity",
+              "MovieNews",
+              "AwardSeason",
+              "ViralMoments"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "2JdbCqf_FHs"
+          },
+          "updatedAt": "2026-03-17T13:03:26.143Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-03-17T13:03:26.151Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-17T13:03:26.153Z"
+}

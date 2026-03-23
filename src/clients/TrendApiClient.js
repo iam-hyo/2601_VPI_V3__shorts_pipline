@@ -61,12 +61,13 @@ export class TrendApiClient {
    * [신규] Video Clustering(VC) 기반 쿼리 구체화 요청
    * @param {string} keyword 원본 트렌드 키워드
    * @param {string} region 국가 코드
+   * @param {number} recentDays 수집 영상 일수 제한 (예: 최근 3일, 7일)
    */
-  async refineTrendKeywordVC(keyword, region) {
+  async refineTrendKeywordVC(keyword, region, recentDays) {
     const res = await fetch(`${this.baseUrl}/trends/refine_vc`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ keyword, region })
+      body: JSON.stringify({ keyword, region, recentDays })
     });
 
     if (!res.ok) {

@@ -1,0 +1,225 @@
+{
+  "runId": "2026-03-19__US__oscar-2026",
+  "date": "2026-03-19__US__oscar-2026",
+  "createdAt": "2026-03-19T05:54:39.110Z",
+  "updatedAt": "2026-03-19T05:59:33.860Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "oscar 2026"
+        ]
+      },
+      "assignedKeywords": [
+        "oscar 2026"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 19
+            },
+            "vcClusters": [
+              {
+                "name": "오스카 레드카펫 패션 분석 및 베스트/워스트 드레서",
+                "description": "오스카 시상식 레드카펫에 등장한 셀럽들의 의상을 분석하고, 베스트 및 워스트 드레서를 선정하는 영상 모음입니다. 주로 패션 전문가의 해설이나 시각적 편집 위주로 구성됩니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "a-6M2WZA0_k",
+                    "title": "The Best Glambots at the 2026 Oscars 🏆🤔",
+                    "predicted7d": 580706
+                  },
+                  {
+                    "videoId": "tSRrJZIdOEI",
+                    "title": "Best Dressed Men at the 2026 Oscars Red Carpet",
+                    "predicted7d": 171939
+                  },
+                  {
+                    "videoId": "etSGNqX6aQs",
+                    "title": "Best Looks of the Night: 2026 Oscars Edition 🏆👗",
+                    "predicted7d": 139840
+                  },
+                  {
+                    "videoId": "uEqfbcYIslc",
+                    "title": "The five worst-dressed celebrities at the 2026 Oscars. #us #celebrity",
+                    "predicted7d": 131621
+                  },
+                  {
+                    "videoId": "7Ng7C0HisVQ",
+                    "title": "It girls at the Oscar’s 2026 #oscars #oscars2026 #itgirl #haileybieber #bellahadid #kendalljenner",
+                    "predicted7d": 112379
+                  },
+                  {
+                    "videoId": "RWhw7zkaJGw",
+                    "title": "Why Kim Kardashian in Gucci Feels Off | Oscars 2026",
+                    "predicted7d": 73689
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "oscar 2026",
+          "videos": [
+            {
+              "videoId": "a-6M2WZA0_k",
+              "title": "The Best Glambots at the 2026 Oscars 🏆🤔",
+              "channelTitle": "Celeb Buss Central",
+              "channelId": "UCxHJZx3_SBnYOuGotpWT-Tg",
+              "publishedAt": "2026-03-16T21:26:12Z",
+              "ageHours": 56.54,
+              "subscriberCount": 905000,
+              "predicted7d": 580706,
+              "viewCount": 409336,
+              "delta": 171370
+            },
+            {
+              "videoId": "tSRrJZIdOEI",
+              "title": "Best Dressed Men at the 2026 Oscars Red Carpet",
+              "channelTitle": "He Spoke Style",
+              "channelId": "UC4A7_ROn-bKRIHaRxfWVaOw",
+              "publishedAt": "2026-03-16T12:01:41Z",
+              "ageHours": 65.95,
+              "subscriberCount": 587000,
+              "predicted7d": 171939,
+              "viewCount": 127461,
+              "delta": 44478
+            },
+            {
+              "videoId": "etSGNqX6aQs",
+              "title": "Best Looks of the Night: 2026 Oscars Edition 🏆👗",
+              "channelTitle": "Celeb Buss Central",
+              "channelId": "UCxHJZx3_SBnYOuGotpWT-Tg",
+              "publishedAt": "2026-03-17T01:20:01Z",
+              "ageHours": 52.65,
+              "subscriberCount": 905000,
+              "predicted7d": 139840,
+              "viewCount": 83225,
+              "delta": 56615
+            },
+            {
+              "videoId": "uEqfbcYIslc",
+              "title": "The five worst-dressed celebrities at the 2026 Oscars. #us #celebrity",
+              "channelTitle": "Austin Wood",
+              "channelId": "UCnrjTNjRAWzUEvjg6cE-toQ",
+              "publishedAt": "2026-03-16T18:00:00Z",
+              "ageHours": 59.98,
+              "subscriberCount": 3230,
+              "predicted7d": 131621,
+              "viewCount": 95935,
+              "delta": 35686
+            }
+          ],
+          "theme": "오스카 레드카펫 패션 분석 및 베스트/워스트 드레서",
+          "selectedSourceVideos": [
+            {
+              "videoId": "a-6M2WZA0_k",
+              "title": "The Best Glambots at the 2026 Oscars 🏆🤔",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 580706,
+              "delta": 171370
+            },
+            {
+              "videoId": "tSRrJZIdOEI",
+              "title": "Best Dressed Men at the 2026 Oscars Red Carpet",
+              "channelTitle": "He Spoke Style",
+              "predicted7d": 171939,
+              "delta": 44478
+            },
+            {
+              "videoId": "etSGNqX6aQs",
+              "title": "Best Looks of the Night: 2026 Oscars Edition 🏆👗",
+              "channelTitle": "Celeb Buss Central",
+              "predicted7d": 139840,
+              "delta": 56615
+            },
+            {
+              "videoId": "uEqfbcYIslc",
+              "title": "The five worst-dressed celebrities at the 2026 Oscars. #us #celebrity",
+              "channelTitle": "Austin Wood",
+              "predicted7d": 131621,
+              "delta": 35686
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-19__US__oscar-2026/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Oscars 2026: Red Carpet Fashion Recap!",
+            "description": "2026-03-19__US__oscar-2026_US_1\nRelive the most iconic and shocking fashion moments from the 2026 Oscars red carpet! From glambot perfection to unforgettable style disasters, see who slayed and who swayed. Don't miss the ultimate fashion breakdown!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=a-6M2WZA0_k\n2) https://www.youtube.com/watch?v=tSRrJZIdOEI\n3) https://www.youtube.com/watch?v=etSGNqX6aQs\n4) https://www.youtube.com/watch?v=uEqfbcYIslc\n\n#Shorts #US",
+            "tags": [
+              "Oscars2026",
+              "RedCarpetFashion",
+              "CelebrityStyle",
+              "BestDressed",
+              "WorstDressed",
+              "HollywoodGlam",
+              "FashionReview",
+              "Glambots",
+              "AwardSeason",
+              "StyleWatch"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "tFgQUaV5mqI"
+          },
+          "updatedAt": "2026-03-19T05:59:33.850Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-03-19T05:59:33.859Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-19T05:59:33.860Z"
+}

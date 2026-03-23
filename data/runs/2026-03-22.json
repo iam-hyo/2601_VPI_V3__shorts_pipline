@@ -1,0 +1,1243 @@
+{
+  "runId": "2026-03-22",
+  "date": "2026-03-22",
+  "createdAt": "2026-03-22T02:50:01.400Z",
+  "updatedAt": "2026-03-22T03:00:06.299Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "bts 광화문 콘서트",
+          "bts swim",
+          "오스카 케 데헌",
+          "대전 화재",
+          "bts 아리랑",
+          "bts",
+          "파코",
+          "프로젝트 헤일 메리",
+          "lck",
+          "붉은 사막",
+          "젠지",
+          "골든",
+          "나는 솔로 30 기",
+          "리니지 m"
+        ],
+        "updatedAt": "2026-03-22T02:50:18.007Z"
+      },
+      "assignedKeywords": [
+        "bts 광화문 콘서트",
+        "bts swim",
+        "오스카 케 데헌"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 33
+            },
+            "vcClusters": [
+              {
+                "name": "BTS 'SWIM' 공식 무대 및 공연 현장",
+                "description": "BTS의 'SWIM' 실제 공연 영상, 멤버들이 직접 참여하는 공식 콘텐츠, 또는 광화문 공연 현장의 생생한 모습과 주요 장면을 담은 영상 모음입니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "HbRDen7YZkQ",
+                    "title": "BTS가 직접 말아주는 SWIM 뮤비 감상회",
+                    "predicted7d": 483764
+                  },
+                  {
+                    "videoId": "jBbLdPBqIN4",
+                    "title": "BTS swim performance",
+                    "predicted7d": 464164
+                  },
+                  {
+                    "videoId": "GuPWp92oknY",
+                    "title": "BTS ‘SWIM’ 지옥.. 넷플릭스팀 탈출 못함 ㅋㅋ #kpop #bts",
+                    "predicted7d": 176698
+                  },
+                  {
+                    "videoId": "rDK6qqKJhtc",
+                    "title": "BTS swim choreo is so beautiful #bts #v #jk #jimin #jhope #suga #jin #rm #shorts #youtubeshorts",
+                    "predicted7d": 166089
+                  },
+                  {
+                    "videoId": "EHErtITsuQY",
+                    "title": "BTS swim performance 🔥￼",
+                    "predicted7d": 142323
+                  },
+                  {
+                    "videoId": "VEGos8n5yPQ",
+                    "title": "BTS 'SWIM' IN GWANGHWAMUN CONCERT",
+                    "predicted7d": 45825
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bts swim",
+          "videos": [
+            {
+              "videoId": "HbRDen7YZkQ",
+              "title": "BTS가 직접 말아주는 SWIM 뮤비 감상회",
+              "channelTitle": "방탄소년(진)",
+              "channelId": "UC7EFi734l-SKatdt-Fxb3Lg",
+              "publishedAt": "2026-03-21T01:04:48Z",
+              "ageHours": 25.77,
+              "subscriberCount": 1930,
+              "predicted7d": 483764,
+              "viewCount": 205145,
+              "delta": 278619
+            },
+            {
+              "videoId": "jBbLdPBqIN4",
+              "title": "BTS swim performance",
+              "channelTitle": "Cute Life Shorts",
+              "channelId": "UCadXD59pSUdNGQ9xfqB8CeA",
+              "publishedAt": "2026-03-21T12:22:15Z",
+              "ageHours": 14.48,
+              "subscriberCount": 14800000,
+              "predicted7d": 464164,
+              "viewCount": 72152,
+              "delta": 392012
+            },
+            {
+              "videoId": "GuPWp92oknY",
+              "title": "BTS ‘SWIM’ 지옥.. 넷플릭스팀 탈출 못함 ㅋㅋ #kpop #bts",
+              "channelTitle": "필굿프라이데이-패션셀렙전문채널",
+              "channelId": "UCVBch0ZYeoO6nfhpJygr-tQ",
+              "publishedAt": "2026-03-21T14:13:08Z",
+              "ageHours": 12.63,
+              "subscriberCount": 22700,
+              "predicted7d": 176698,
+              "viewCount": 52385,
+              "delta": 124313
+            },
+            {
+              "videoId": "rDK6qqKJhtc",
+              "title": "BTS swim choreo is so beautiful #bts #v #jk #jimin #jhope #suga #jin #rm #shorts #youtubeshorts",
+              "channelTitle": "V",
+              "channelId": "UCo5u0xMEejoZJDUAfE32APg",
+              "publishedAt": "2026-03-21T13:45:02Z",
+              "ageHours": 13.1,
+              "subscriberCount": 23600,
+              "predicted7d": 166089,
+              "viewCount": 27842,
+              "delta": 138247
+            }
+          ],
+          "theme": "BTS 'SWIM' 공식 무대 및 공연 현장",
+          "selectedSourceVideos": [
+            {
+              "videoId": "HbRDen7YZkQ",
+              "title": "BTS가 직접 말아주는 SWIM 뮤비 감상회",
+              "channelTitle": "방탄소년(진)",
+              "predicted7d": 483764,
+              "delta": 278619
+            },
+            {
+              "videoId": "jBbLdPBqIN4",
+              "title": "BTS swim performance",
+              "channelTitle": "Cute Life Shorts",
+              "predicted7d": 464164,
+              "delta": 392012
+            },
+            {
+              "videoId": "GuPWp92oknY",
+              "title": "BTS ‘SWIM’ 지옥.. 넷플릭스팀 탈출 못함 ㅋㅋ #kpop #bts",
+              "channelTitle": "필굿프라이데이-패션셀렙전문채널",
+              "predicted7d": 176698,
+              "delta": 124313
+            },
+            {
+              "videoId": "rDK6qqKJhtc",
+              "title": "BTS swim choreo is so beautiful #bts #v #jk #jimin #jhope #suga #jin #rm #shorts #youtubeshorts",
+              "channelTitle": "V",
+              "predicted7d": 166089,
+              "delta": 138247
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-22/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "BTS 'SWIM' 모든 것! 뮤비부터 챌린지까지 #Shorts",
+            "description": "2026-03-22_KR_1\n방탄소년단 'SWIM'의 모든 매력을 한 번에! 멤버들의 뮤비 감상부터 역대급 퍼포먼스, 그리고 중독성 강한 챌린지까지 놓치지 마세요. 'SWIM' 안무의 디테일과 숨겨진 이야기들을 지금 바로 쇼츠에서 확인하세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=HbRDen7YZkQ\n2) https://www.youtube.com/watch?v=jBbLdPBqIN4\n3) https://www.youtube.com/watch?v=GuPWp92oknY\n4) https://www.youtube.com/watch?v=rDK6qqKJhtc\n\n#Shorts #KR",
+            "tags": [
+              "#BTS",
+              "#방탄소년단",
+              "#BTS_SWIM",
+              "#SWIM챌린지",
+              "#BTS퍼포먼스",
+              "#BTS안무",
+              "#KPOP",
+              "#아이돌",
+              "#Shorts",
+              "#유튜브쇼츠"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "tfIDvsaA21M"
+          },
+          "updatedAt": "2026-03-22T02:51:40.370Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 43
+            },
+            "vcClusters": [
+              {
+                "name": "케데헌 오스카 논란, 성공 서사 및 인물 조명",
+                "description": "케이팝 데몬 헌터스의 오스카 수상 과정에서 발생한 논란, 인종차별 극복 서사, 그리고 매기 강 감독이나 이재(EJAE)와 같은 주요 인물들의 감동적인 이야기와 인터뷰를 다루는 영상 모음입니다. 주로 해설, 분석, 스토리텔링 형식의 영상들입니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "hRa_RL9CzcA",
+                    "title": "데뷔 못한 12년 sm연습생 #이재 #ejae #sm #연습생 #케데헌 #오스카",
+                    "predicted7d": 8603553
+                  },
+                  {
+                    "videoId": "lQ1L3v5q1Xg",
+                    "title": "응원봉이 어디서 났을까?",
+                    "predicted7d": 291065
+                  },
+                  {
+                    "videoId": "JoqgcAr7io4",
+                    "title": "케데헌을 무시한 오스카의 최후",
+                    "predicted7d": 226322
+                  },
+                  {
+                    "videoId": "f5oBr6wIVJo",
+                    "title": "케데헌이 오스카에서 증명한 '진짜' 가치",
+                    "predicted7d": 210795
+                  },
+                  {
+                    "videoId": "7km_UZfln74",
+                    "title": "할리우드가 아시아인은 안된다고 했는데 이게됨",
+                    "predicted7d": 73206
+                  },
+                  {
+                    "videoId": "Es96L29Oh7Q",
+                    "title": "12년 SM 연습생 반전 신화 #이재 #sm #케데헌",
+                    "predicted7d": 56552
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "오스카 케 데헌",
+          "videos": [
+            {
+              "videoId": "hRa_RL9CzcA",
+              "title": "데뷔 못한 12년 sm연습생 #이재 #ejae #sm #연습생 #케데헌 #오스카",
+              "channelTitle": "노빠꾸패밀리",
+              "channelId": "UC1vISciach3nfl3WLoo5AvA",
+              "publishedAt": "2026-03-20T12:01:30Z",
+              "ageHours": 38.85,
+              "subscriberCount": 1810,
+              "predicted7d": 8603553,
+              "viewCount": 4524291,
+              "delta": 4079262
+            },
+            {
+              "videoId": "lQ1L3v5q1Xg",
+              "title": "응원봉이 어디서 났을까?",
+              "channelTitle": "연예잡스",
+              "channelId": "UCxRYqk906KDMoDt5wYZvdHQ",
+              "publishedAt": "2026-03-19T12:01:26Z",
+              "ageHours": 62.85,
+              "subscriberCount": 33200,
+              "predicted7d": 291065,
+              "viewCount": 232994,
+              "delta": 58071
+            },
+            {
+              "videoId": "JoqgcAr7io4",
+              "title": "케데헌을 무시한 오스카의 최후",
+              "channelTitle": "재미주의",
+              "channelId": "UCjhd8t2btm4VP10Pn7Vvv7w",
+              "publishedAt": "2026-03-19T23:23:21Z",
+              "ageHours": 51.48,
+              "subscriberCount": 451000,
+              "predicted7d": 226322,
+              "viewCount": 139961,
+              "delta": 86361
+            },
+            {
+              "videoId": "f5oBr6wIVJo",
+              "title": "케데헌이 오스카에서 증명한 '진짜' 가치",
+              "channelTitle": "제노 플래쉬",
+              "channelId": "UCKsJ7kENUMxpZo22m27l9KA",
+              "publishedAt": "2026-03-20T07:30:00Z",
+              "ageHours": 43.37,
+              "subscriberCount": 4910,
+              "predicted7d": 210795,
+              "viewCount": 132667,
+              "delta": 78128
+            }
+          ],
+          "theme": "케데헌 오스카 논란, 성공 서사 및 인물 조명",
+          "selectedSourceVideos": [
+            {
+              "videoId": "hRa_RL9CzcA",
+              "title": "데뷔 못한 12년 sm연습생 #이재 #ejae #sm #연습생 #케데헌 #오스카",
+              "channelTitle": "노빠꾸패밀리",
+              "predicted7d": 8603553,
+              "delta": 4079262
+            },
+            {
+              "videoId": "lQ1L3v5q1Xg",
+              "title": "응원봉이 어디서 났을까?",
+              "channelTitle": "연예잡스",
+              "predicted7d": 291065,
+              "delta": 58071
+            },
+            {
+              "videoId": "JoqgcAr7io4",
+              "title": "케데헌을 무시한 오스카의 최후",
+              "channelTitle": "재미주의",
+              "predicted7d": 226322,
+              "delta": 86361
+            },
+            {
+              "videoId": "f5oBr6wIVJo",
+              "title": "케데헌이 오스카에서 증명한 '진짜' 가치",
+              "channelTitle": "제노 플래쉬",
+              "predicted7d": 210795,
+              "delta": 78128
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-22/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "오스카를 뒤흔든 케데헌의 반전 드라마",
+            "description": "2026-03-22_KR_2\n데뷔 못한 SM 연습생 케데헌이 오스카에 나타났다? 모두를 놀라게 한 그의 반전 스토리! 응원봉 미스터리부터 오스카를 뒤흔든 진짜 가치까지, 케데헌의 모든 것을 파헤칩니다.\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=hRa_RL9CzcA\n2) https://www.youtube.com/watch?v=lQ1L3v5q1Xg\n3) https://www.youtube.com/watch?v=JoqgcAr7io4\n4) https://www.youtube.com/watch?v=f5oBr6wIVJo\n\n#Shorts #KR",
+            "tags": [
+              "오스카",
+              "케데헌",
+              "SM연습생",
+              "이재",
+              "응원봉",
+              "반전드라마",
+              "진짜가치",
+              "아카데미",
+              "영화제",
+              "시상식"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ruWPnkjayM0"
+          },
+          "updatedAt": "2026-03-22T02:52:58.234Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-22T02:52:58.243Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "dune 3 trailer",
+          "afroman lemon pound cake",
+          "spider man brand new day trailer",
+          "oscars 2026",
+          "el desorden de marko",
+          "chuck norris",
+          "crimson desert review",
+          "march madness",
+          "minecraft live",
+          "the amazing digital circus",
+          "yeik",
+          "bts",
+          "latto",
+          "glitch",
+          "marvel rivals"
+        ],
+        "updatedAt": "2026-03-22T02:53:12.177Z"
+      },
+      "assignedKeywords": [
+        "dune 3 trailer",
+        "afroman lemon pound cake",
+        "spider man brand new day trailer",
+        "oscars 2026"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 31
+            },
+            "vcClusters": [
+              {
+                "name": "스파이더맨: 브랜드 뉴 데이 - 공식/컨셉 트레일러 및 주요 소식",
+                "description": "실제 또는 팬메이드 컨셉 트레일러 영상과, 트레일러 공개 및 조회수 기록 등 주요 소식을 전달하는 영상 모음입니다. 주로 원본 트레일러 영상이나 짧은 뉴스 형식의 전달이 특징입니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "dDMudoj2SxU",
+                    "title": "Spider-Man: Brand New Day Is Most-Viewed Trailer in 24 Hours || #shorts #spiderman",
+                    "predicted7d": 273428
+                  },
+                  {
+                    "videoId": "pRQvVxIMaD8",
+                    "title": "Spider-Man: Brand New Day - Trailer 2 (2026) Tom Holland, Sadie Sink, Mark Ruffalo (Concept Version)",
+                    "predicted7d": 152403
+                  },
+                  {
+                    "videoId": "JfO2Br-RXbs",
+                    "title": "Spider-Man: Brand New Day Trailer Hit Near a Billion Views in 24 Hours?!",
+                    "predicted7d": 104915
+                  },
+                  {
+                    "videoId": "22K6TTBHHzU",
+                    "title": "The new trailer for Spider-Man Brand New Day has been released #spiderman #shorts #spider",
+                    "predicted7d": 33442
+                  }
+                ]
+              },
+              {
+                "name": "스파이더맨: 브랜드 뉴 데이 - 트레일러 심층 분석 및 이론",
+                "description": "트레일러 속 숨겨진 디테일, 등장인물 분석, 스토리 이론, 특정 장면이나 요소에 대한 상세한 해설을 제공하는 영상들입니다. 주로 트레일러 영상을 기반으로 한 해설, 분석, 추측이 주를 이룹니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "QBNupI4_zkQ",
+                    "title": "Peter Ki Aankh Kaali Kyu Ho Gayi?😲⋮ Spider-Man Brand New Day Trailer Breakdown",
+                    "predicted7d": 1954525
+                  },
+                  {
+                    "videoId": "5IXZJ052-I0",
+                    "title": "Spider man brand new day movie trailer some little information......#Spiderman",
+                    "predicted7d": 219784
+                  },
+                  {
+                    "videoId": "i_9dP1sJNro",
+                    "title": "Why Is Peter Mutating in Spider-Man: Brand New Day? (Explained)",
+                    "predicted7d": 206999
+                  },
+                  {
+                    "videoId": "C0PI4huzMd4",
+                    "title": "Hidden Spider-Man Details You Missed in Spider-Man: Brand New Day Trailer",
+                    "predicted7d": 195470
+                  },
+                  {
+                    "videoId": "kFUbmjbewMs",
+                    "title": "Hidden Spider-Man Details You Missed in Spider-Man: Brand New Day Trailer",
+                    "predicted7d": 150367
+                  },
+                  {
+                    "videoId": "7EBikOSyvZc",
+                    "title": "The Props in the Spider-Man: Brand New Day Trailer.  #shorts",
+                    "predicted7d": 106938
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "spider man brand new day trailer",
+          "videos": [
+            {
+              "videoId": "QBNupI4_zkQ",
+              "title": "Peter Ki Aankh Kaali Kyu Ho Gayi?😲⋮ Spider-Man Brand New Day Trailer Breakdown",
+              "channelTitle": "SuperNest",
+              "channelId": "UCgH6f_UOgx_A4ndq_wkQSNg",
+              "publishedAt": "2026-03-19T11:02:01Z",
+              "ageHours": 63.87,
+              "subscriberCount": 714000,
+              "predicted7d": 1954525,
+              "viewCount": 1281834,
+              "delta": 672691
+            },
+            {
+              "videoId": "5IXZJ052-I0",
+              "title": "Spider man brand new day movie trailer some little information......#Spiderman",
+              "channelTitle": "SantoshView",
+              "channelId": "UCUreoa31dKie49T5-9RitoA",
+              "publishedAt": "2026-03-20T06:58:12Z",
+              "ageHours": 43.94,
+              "subscriberCount": 39100,
+              "predicted7d": 219784,
+              "viewCount": 120065,
+              "delta": 99719
+            },
+            {
+              "videoId": "i_9dP1sJNro",
+              "title": "Why Is Peter Mutating in Spider-Man: Brand New Day? (Explained)",
+              "channelTitle": "Comic Captain",
+              "channelId": "UCUb0VfbkUKM-CT1W4j87fNw",
+              "publishedAt": "2026-03-21T16:01:05Z",
+              "ageHours": 10.89,
+              "subscriberCount": 1970000,
+              "predicted7d": 206999,
+              "viewCount": 15707,
+              "delta": 191292
+            },
+            {
+              "videoId": "C0PI4huzMd4",
+              "title": "Hidden Spider-Man Details You Missed in Spider-Man: Brand New Day Trailer",
+              "channelTitle": "Comic Captain",
+              "channelId": "UCUb0VfbkUKM-CT1W4j87fNw",
+              "publishedAt": "2026-03-21T15:00:15Z",
+              "ageHours": 11.9,
+              "subscriberCount": 1970000,
+              "predicted7d": 195470,
+              "viewCount": 14929,
+              "delta": 180541
+            }
+          ],
+          "theme": "스파이더맨: 브랜드 뉴 데이 - 트레일러 심층 분석 및 이론",
+          "selectedSourceVideos": [
+            {
+              "videoId": "QBNupI4_zkQ",
+              "title": "Peter Ki Aankh Kaali Kyu Ho Gayi?😲⋮ Spider-Man Brand New Day Trailer Breakdown",
+              "channelTitle": "SuperNest",
+              "predicted7d": 1954525,
+              "delta": 672691
+            },
+            {
+              "videoId": "5IXZJ052-I0",
+              "title": "Spider man brand new day movie trailer some little information......#Spiderman",
+              "channelTitle": "SantoshView",
+              "predicted7d": 219784,
+              "delta": 99719
+            },
+            {
+              "videoId": "i_9dP1sJNro",
+              "title": "Why Is Peter Mutating in Spider-Man: Brand New Day? (Explained)",
+              "channelTitle": "Comic Captain",
+              "predicted7d": 206999,
+              "delta": 191292
+            },
+            {
+              "videoId": "C0PI4huzMd4",
+              "title": "Hidden Spider-Man Details You Missed in Spider-Man: Brand New Day Trailer",
+              "channelTitle": "Comic Captain",
+              "predicted7d": 195470,
+              "delta": 180541
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-22/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Spider-Man: Brand New Day Trailer Secrets!",
+            "description": "2026-03-22_US_1\nDive deep into the Spider-Man: Brand New Day trailer! We break down Peter Parker's mysterious changes, hidden details, and what it all means for the future. Don't miss these crucial insights!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=QBNupI4_zkQ\n2) https://www.youtube.com/watch?v=5IXZJ052-I0\n3) https://www.youtube.com/watch?v=i_9dP1sJNro\n4) https://www.youtube.com/watch?v=C0PI4huzMd4\n\n#Shorts #US",
+            "tags": [
+              "SpiderMan",
+              "BrandNewDay",
+              "TrailerBreakdown",
+              "PeterParker",
+              "MarvelComics",
+              "SpideySecrets",
+              "ComicFacts",
+              "EasterEggs",
+              "Mutation"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "yZyhXIlk2Qk"
+          },
+          "updatedAt": "2026-03-22T02:55:09.075Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 42
+            },
+            "vcClusters": [
+              {
+                "name": "레드카펫 & 셀럽 패션 하이라이트",
+                "description": "오스카 시상식 및 애프터 파티의 레드카펫 현장, 유명인들의 의상, 베스트 드레서 선정 등 패션 관련 하이라이트와 분석 영상 모음입니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개)",
+                "topVideos": [
+                  {
+                    "videoId": "uWVj4ZGQCOg",
+                    "title": "Oscars outfit vs after party outfit comparison",
+                    "predicted7d": 295277
+                  },
+                  {
+                    "videoId": "H4s7nvqttBs",
+                    "title": "Zendaya Rewears 2015 Oscars Dress in 2026 – Iconic & Sustainable!",
+                    "predicted7d": 62041
+                  },
+                  {
+                    "videoId": "C4STNTslB6I",
+                    "title": "Leonardo DiCaprio: Pure Elegance at the 98th Academy Awards #leonardodicaprio #oscars #oscar2026",
+                    "predicted7d": 35594
+                  },
+                  {
+                    "videoId": "CsoxSiqmr0s",
+                    "title": "Keke Palmer Chić Fierce Look @ Elton John Pre Oscars Party #kekepalmer #fashionpolice #oscarsparty",
+                    "predicted7d": 22778
+                  },
+                  {
+                    "videoId": "bNp0kt8cJaU",
+                    "title": "Supermodels at the 2026 Oscars Party Part:1",
+                    "predicted7d": 15963
+                  },
+                  {
+                    "videoId": "nq3Kxt_Pjbs",
+                    "title": "Top 5 Best Dressed Actresses at Oscars 2026 | Red Carpet Fashion Highlights & Looks",
+                    "predicted7d": 10274
+                  }
+                ]
+              },
+              {
+                "name": "오스카 화제성 셀럽 모먼트 & 가십",
+                "description": "시상식 중 발생한 유명인들의 재미있거나 논란이 된 순간, 짧은 인터뷰, 밈(meme)으로 확산된 장면 등 바이럴성 콘텐츠 및 가십성 뉴스 클립 모음입니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Et7YOn-fRCY",
+                    "title": "Jacob Elordi Brings His Mom to the Oscars 🥹❤️ #oscars",
+                    "predicted7d": 10158649
+                  },
+                  {
+                    "videoId": "aeISClJzr60",
+                    "title": "Timothee Chalamet was so done faking smile at the Oscars 2026 😭",
+                    "predicted7d": 9785852
+                  },
+                  {
+                    "videoId": "ENNYSQUJLng",
+                    "title": "Not the girl thinking whether she should do her job or not interrupt an iconic interaction 😭",
+                    "predicted7d": 9200394
+                  },
+                  {
+                    "videoId": "rf0bLRM6KFs",
+                    "title": "Zendaya Roasts Rob's Popping Vein Right Before Oscars Stage 😂",
+                    "predicted7d": 527393
+                  },
+                  {
+                    "videoId": "HiO0Ou70ZGM",
+                    "title": "Taylor Swift Predicted The Oscars #taylorswift #oscars",
+                    "predicted7d": 35940
+                  },
+                  {
+                    "videoId": "Vfz4K_PaUeU",
+                    "title": "Oscars 2026: Anne Hathaway & Anna Wintour Just Recreated Devil Wears Prada LIVE #shorts #oscars2026",
+                    "predicted7d": 30430
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "oscars 2026",
+          "videos": [
+            {
+              "videoId": "Et7YOn-fRCY",
+              "title": "Jacob Elordi Brings His Mom to the Oscars 🥹❤️ #oscars",
+              "channelTitle": "FrameRoaster",
+              "channelId": "UCAnzX47QgU1wKqyEDTOZRNw",
+              "publishedAt": "2026-03-19T10:30:11Z",
+              "ageHours": 64.42,
+              "subscriberCount": 9790,
+              "predicted7d": 10158649,
+              "viewCount": 5090551,
+              "delta": 5068098
+            },
+            {
+              "videoId": "aeISClJzr60",
+              "title": "Timothee Chalamet was so done faking smile at the Oscars 2026 😭",
+              "channelTitle": "POPVEIN",
+              "channelId": "UCAa6dQiR-acYUYbHznG5CVg",
+              "publishedAt": "2026-03-20T08:43:21Z",
+              "ageHours": 42.21,
+              "subscriberCount": 338000,
+              "predicted7d": 9785852,
+              "viewCount": 5367428,
+              "delta": 4418424
+            },
+            {
+              "videoId": "ENNYSQUJLng",
+              "title": "Not the girl thinking whether she should do her job or not interrupt an iconic interaction 😭",
+              "channelTitle": "POPVEIN",
+              "channelId": "UCAa6dQiR-acYUYbHznG5CVg",
+              "publishedAt": "2026-03-19T11:24:27Z",
+              "ageHours": 63.52,
+              "subscriberCount": 338000,
+              "predicted7d": 9200394,
+              "viewCount": 5945097,
+              "delta": 3255297
+            },
+            {
+              "videoId": "rf0bLRM6KFs",
+              "title": "Zendaya Roasts Rob's Popping Vein Right Before Oscars Stage 😂",
+              "channelTitle": "Billie Memes",
+              "channelId": "UCXPj39_57W0NHB7oaKQGKJg",
+              "publishedAt": "2026-03-20T14:31:06Z",
+              "ageHours": 36.41,
+              "subscriberCount": 5810,
+              "predicted7d": 527393,
+              "viewCount": 277588,
+              "delta": 249805
+            }
+          ],
+          "theme": "오스카 화제성 셀럽 모먼트 & 가십",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Et7YOn-fRCY",
+              "title": "Jacob Elordi Brings His Mom to the Oscars 🥹❤️ #oscars",
+              "channelTitle": "FrameRoaster",
+              "predicted7d": 10158649,
+              "delta": 5068098
+            },
+            {
+              "videoId": "aeISClJzr60",
+              "title": "Timothee Chalamet was so done faking smile at the Oscars 2026 😭",
+              "channelTitle": "POPVEIN",
+              "predicted7d": 9785852,
+              "delta": 4418424
+            },
+            {
+              "videoId": "ENNYSQUJLng",
+              "title": "Not the girl thinking whether she should do her job or not interrupt an iconic interaction 😭",
+              "channelTitle": "POPVEIN",
+              "predicted7d": 9200394,
+              "delta": 3255297
+            },
+            {
+              "videoId": "rf0bLRM6KFs",
+              "title": "Zendaya Roasts Rob's Popping Vein Right Before Oscars Stage 😂",
+              "channelTitle": "Billie Memes",
+              "predicted7d": 527393,
+              "delta": 249805
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-22/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Oscars 2026 Wildest Moments You Missed!",
+            "description": "2026-03-22_US_2\nRelive the most unforgettable, hilarious, and awkward moments from the Oscars 2026! From Jacob Elordi's sweet mom date to Timothée Chalamet's iconic smile fail, these are the viral clips everyone's talking about. Don't miss Zendaya's epic roast and more behind-the-scenes drama!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=Et7YOn-fRCY\n2) https://www.youtube.com/watch?v=aeISClJzr60\n3) https://www.youtube.com/watch?v=ENNYSQUJLng\n4) https://www.youtube.com/watch?v=rf0bLRM6KFs\n\n#Shorts #US",
+            "tags": [
+              "Oscars2026",
+              "JacobElordi",
+              "TimotheeChalamet",
+              "Zendaya",
+              "CelebrityMoments",
+              "AwardShowFails",
+              "ViralShorts",
+              "HollywoodDrama",
+              "RedCarpet",
+              "PopCulture"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "bfrdtadt-5A"
+          },
+          "updatedAt": "2026-03-22T02:56:12.577Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-22T02:56:12.586Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "ring royale en vivo",
+          "karely ruiz vs marcela mistral",
+          "bts swim",
+          "alfredo adame vs carlos trejo",
+          "abelito vs bull terrier",
+          "spider man",
+          "digital circus",
+          "supernova",
+          "poncho de nigris",
+          "tigres vs cincinnati",
+          "glitch",
+          "kenia os",
+          "millonario"
+        ],
+        "updatedAt": "2026-03-22T02:56:28.242Z"
+      },
+      "assignedKeywords": [
+        "ring royale en vivo",
+        "karely ruiz vs marcela mistral",
+        "bts swim",
+        "alfredo adame vs carlos trejo",
+        "abelito vs bull terrier",
+        "spider man"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 38
+            },
+            "vcClusters": [
+              {
+                "name": "BTS 'SWIM' 공식 퍼포먼스 및 MV 하이라이트",
+                "description": "BTS의 'SWIM' 공식 뮤직비디오 장면, 실제 라이브 공연, 안무 스포일러 등 원본 콘텐츠를 직접 보여주는 영상들입니다. 주로 짧은 클립 형태로 구성됩니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 3개)",
+                "topVideos": [
+                  {
+                    "videoId": "4h2xm3wO_YE",
+                    "title": "Bts SWIM Choreography Spoiler",
+                    "predicted7d": 2908743
+                  },
+                  {
+                    "videoId": "jBbLdPBqIN4",
+                    "title": "BTS swim performance",
+                    "predicted7d": 465194
+                  },
+                  {
+                    "videoId": "EHErtITsuQY",
+                    "title": "BTS swim performance 🔥￼",
+                    "predicted7d": 143333
+                  },
+                  {
+                    "videoId": "8_ZYr5hV_B4",
+                    "title": "BTS Swim official mv is out",
+                    "predicted7d": 63576
+                  },
+                  {
+                    "videoId": "uzef38Qv5Qo",
+                    "title": "BTS ‘SWIM’ #bts #bangtan #swim #arirang #btsswim #btscomeback #btsarirang #dance #kpopdannce #kpop",
+                    "predicted7d": 40431
+                  },
+                  {
+                    "videoId": "WBkkCCswtRI",
+                    "title": "BTS \"SWIM\" EN VIVO #bts #swim #btslive",
+                    "predicted7d": 36944
+                  }
+                ]
+              },
+              {
+                "name": "BTS 'SWIM' 팬 커버 및 튜토리얼",
+                "description": "팬들이 직접 제작한 'SWIM' 댄스 커버, 악기 연주 커버, 댄스 튜토리얼 영상들입니다. 원곡을 재해석하거나 배우는 과정을 담고 있습니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "DM5sOyU6w40",
+                    "title": "BTS - 'SWIM' 🌊 Dance Cover | Ellen and Brian",
+                    "predicted7d": 247622
+                  },
+                  {
+                    "videoId": "LId-ZoFWXQU",
+                    "title": "BTS SWIM dance tutorial  #BTS #방탄소년단 #BTS_SWIM",
+                    "predicted7d": 100454
+                  },
+                  {
+                    "videoId": "OEaQfCdv8HQ",
+                    "title": "First to cover BTS SWIM! #BTS #bts_swim #dancecover #방탄소년단",
+                    "predicted7d": 44681
+                  },
+                  {
+                    "videoId": "dlqNVinN6Y4",
+                    "title": "BTS SWIM Bass Cover with swimsuits",
+                    "predicted7d": 34542
+                  },
+                  {
+                    "videoId": "syJ9yaNVIr0",
+                    "title": "BTS - SWIM Piano Cover #SWIM #BTS #PianellaPianoShorts",
+                    "predicted7d": 32295
+                  },
+                  {
+                    "videoId": "UkvXMwwZ3eU",
+                    "title": "BTS 'SWIM' mirror #bts #swim #bts_swim #swimdance",
+                    "predicted7d": 20306
+                  }
+                ]
+              },
+              {
+                "name": "BTS 'SWIM' 가사 및 정보성 콘텐츠",
+                "description": "'SWIM'의 가사를 제공하거나, 뮤직비디오 공개 소식, 앨범 정보, 조회수 추이 등 팬들에게 정보를 전달하는 영상들입니다.",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개)",
+                "topVideos": [
+                  {
+                    "videoId": "Er6D_I03HdQ",
+                    "title": "BTS Comeback Celebration Music Video 24-Hour Views [SWIM] #bts #swim",
+                    "predicted7d": 347655
+                  },
+                  {
+                    "videoId": "YL_1PA4PM_Q",
+                    "title": "Swim - BTS (lyrics) #swim #bts #newsong #trending",
+                    "predicted7d": 81321
+                  },
+                  {
+                    "videoId": "jmTj9_W8MTk",
+                    "title": "BTS - Swim (Lyrics) #lyricssong #kpopsong #swim #bts #newsong #musicsong #ytshorts #btsarmy",
+                    "predicted7d": 66594
+                  },
+                  {
+                    "videoId": "AaZcnZ2gMJw",
+                    "title": "BTS - \"SWIM\" Song #lyrics #swim #bts #song #arirang #shorts",
+                    "predicted7d": 54901
+                  },
+                  {
+                    "videoId": "8WVb4Pb9sos",
+                    "title": "BTS - SWIM Lyrics [ Part 1 ] #BTS#jungkook#jin#rm#jimin#taehyung#jhope#suga#kpop#lyrics#moonlyrics",
+                    "predicted7d": 50472
+                  },
+                  {
+                    "videoId": "OUeUeocVVvs",
+                    "title": "#BTS SWIM MV drops on 3/20 at 9:30 Am for 🇮🇳 #bts #fypviralシ #kpop #btscomeback",
+                    "predicted7d": 31188
+                  }
+                ]
+              },
+              {
+                "name": "BTS 'SWIM' 팬 반응 및 분석/의견",
+                "description": "'SWIM'에 대한 팬들의 반응, 리액션, 개인적인 감상, 곡 분석, 멤버별 평가 등 주관적인 의견이나 감정을 공유하는 영상들입니다. 주로 짧은 숏츠 형태가 많습니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "OunYzGccR98",
+                    "title": "BTS \"Swim\" is confusing #kpop #kpopedit #bts #btsarmy",
+                    "predicted7d": 1394208
+                  },
+                  {
+                    "videoId": "3ZNuIrkTYHg",
+                    "title": "Was BTS \"SWIM\" Inspired By This Song Or It's A Coincidence? #shorts #BTS #BTS_SWIM #kpop #music",
+                    "predicted7d": 178066
+                  },
+                  {
+                    "videoId": "rDK6qqKJhtc",
+                    "title": "BTS swim choreo is so beautiful #bts #v #jk #jimin #jhope #suga #jin #rm #shorts #youtubeshorts",
+                    "predicted7d": 166386
+                  },
+                  {
+                    "videoId": "CEYOILUF_Fk",
+                    "title": "BTS “SWIM” FIRST REACTION",
+                    "predicted7d": 105163
+                  },
+                  {
+                    "videoId": "x4FWwx8aVz8",
+                    "title": "ARMYs after listening to BTS SWIM @BTS #BTS_SWIM #BTS #swim #army #kpop kpopfyp bangtan",
+                    "predicted7d": 39741
+                  },
+                  {
+                    "videoId": "nOkaC7ah7UM",
+                    "title": "Watched BTS SWIM MV TOO MANY TIMES  😭🫵🏻🫡✨#BTS #방탄소년단 #BTS_SWIM #KEEPSWIMMING #BTS_ARIRANG",
+                    "predicted7d": 27113
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bts swim",
+          "videos": [
+            {
+              "videoId": "OunYzGccR98",
+              "title": "BTS \"Swim\" is confusing #kpop #kpopedit #bts #btsarmy",
+              "channelTitle": "THE DUKE",
+              "channelId": "UCpfUYGc9zvUMzWQhZBRU_CQ",
+              "publishedAt": "2026-03-20T07:46:39Z",
+              "ageHours": 43.18,
+              "subscriberCount": 385000,
+              "predicted7d": 1394208,
+              "viewCount": 818261,
+              "delta": 575947
+            },
+            {
+              "videoId": "3ZNuIrkTYHg",
+              "title": "Was BTS \"SWIM\" Inspired By This Song Or It's A Coincidence? #shorts #BTS #BTS_SWIM #kpop #music",
+              "channelTitle": "De saint",
+              "channelId": "UCGF_24y9G1mXqxevEqNF5YQ",
+              "publishedAt": "2026-03-21T14:00:05Z",
+              "ageHours": 12.96,
+              "subscriberCount": 970000,
+              "predicted7d": 178066,
+              "viewCount": 29003,
+              "delta": 149063
+            },
+            {
+              "videoId": "rDK6qqKJhtc",
+              "title": "BTS swim choreo is so beautiful #bts #v #jk #jimin #jhope #suga #jin #rm #shorts #youtubeshorts",
+              "channelTitle": "V",
+              "channelId": "UCo5u0xMEejoZJDUAfE32APg",
+              "publishedAt": "2026-03-21T13:45:02Z",
+              "ageHours": 13.21,
+              "subscriberCount": 23600,
+              "predicted7d": 166386,
+              "viewCount": 27870,
+              "delta": 138516
+            },
+            {
+              "videoId": "CEYOILUF_Fk",
+              "title": "BTS “SWIM” FIRST REACTION",
+              "channelTitle": "MUCH",
+              "channelId": "UCRf0VlZul2nR65s-FD_85rQ",
+              "publishedAt": "2026-03-20T06:19:21Z",
+              "ageHours": 44.64,
+              "subscriberCount": 241000,
+              "predicted7d": 105163,
+              "viewCount": 59435,
+              "delta": 45728
+            }
+          ],
+          "theme": "BTS 'SWIM' 팬 반응 및 분석/의견",
+          "selectedSourceVideos": [
+            {
+              "videoId": "OunYzGccR98",
+              "title": "BTS \"Swim\" is confusing #kpop #kpopedit #bts #btsarmy",
+              "channelTitle": "THE DUKE",
+              "predicted7d": 1394208,
+              "delta": 575947
+            },
+            {
+              "videoId": "3ZNuIrkTYHg",
+              "title": "Was BTS \"SWIM\" Inspired By This Song Or It's A Coincidence? #shorts #BTS #BTS_SWIM #kpop #music",
+              "channelTitle": "De saint",
+              "predicted7d": 178066,
+              "delta": 149063
+            },
+            {
+              "videoId": "rDK6qqKJhtc",
+              "title": "BTS swim choreo is so beautiful #bts #v #jk #jimin #jhope #suga #jin #rm #shorts #youtubeshorts",
+              "channelTitle": "V",
+              "predicted7d": 166386,
+              "delta": 138516
+            },
+            {
+              "videoId": "CEYOILUF_Fk",
+              "title": "BTS “SWIM” FIRST REACTION",
+              "channelTitle": "MUCH",
+              "predicted7d": 105163,
+              "delta": 45728
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-22/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "BTS Swim: ¡Secretos y reacciones!",
+            "description": "2026-03-22_MX_1\nSumérgete en el fenómeno 'Swim' de BTS. Desde su enigmática coreografía hasta las teorías de inspiración y las reacciones más impactantes de ARMY, este Shorts lo tiene todo. ¡Prepárate para el debate!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=OunYzGccR98\n2) https://www.youtube.com/watch?v=3ZNuIrkTYHg\n3) https://www.youtube.com/watch?v=rDK6qqKJhtc\n4) https://www.youtube.com/watch?v=CEYOILUF_Fk\n\n#Shorts #MX",
+            "tags": [
+              "BTSSwim",
+              "BTS",
+              "Kpop",
+              "CoreografiaBTS",
+              "ReaccionBTS",
+              "TeoriasBTS",
+              "ARMY",
+              "ShortsKpop",
+              "MusicaBTS",
+              "ViralBTS"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "zSdu7g6XKdc"
+          },
+          "updatedAt": "2026-03-22T02:58:13.462Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 32
+            },
+            "vcClusters": [
+              {
+                "name": "스파이더맨 영화/트레일러 분석 및 이론",
+                "description": "스파이더맨 영화, 특히 'Brand New Day' 트레일러의 세부 사항, 줄거리 이론, 캐릭터 분석 등을 다루는 영상들입니다. 주로 해설, 토론, 정보 전달 형식으로 구성됩니다.",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "qnfJeadBuTk",
+                    "title": "A SPIDER-MAN Ya no le importa mostrar su rostro! 😱​#spiderman #marvel",
+                    "predicted7d": 1891071
+                  },
+                  {
+                    "videoId": "63OpxF9S05I",
+                    "title": "How Did Spider-Man Get Organic Webbing? #spiderman #brandnewday",
+                    "predicted7d": 1605373
+                  },
+                  {
+                    "videoId": "qGqGcte7w0A",
+                    "title": "SPIDER MAN ESTÁ MUTANDO 😲",
+                    "predicted7d": 1366951
+                  },
+                  {
+                    "videoId": "ybySwW33PW8",
+                    "title": "¿Por qué SPIDER-MAN tiene un telefóno CARO si es pobre? 🤑#spiderman",
+                    "predicted7d": 852287
+                  },
+                  {
+                    "videoId": "C4gPesXdDHk",
+                    "title": "LOS FANS GANARON… 😳 Spider-Man FINALMENTE está DESTROZADO 🕷️💔",
+                    "predicted7d": 538242
+                  },
+                  {
+                    "videoId": "ccEtOLPX1v8",
+                    "title": "MAN SPIDER APARECERA en la NUEVA PELICULA de SPIDERMAN? #shorts #marvel",
+                    "predicted7d": 535603
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "spider man",
+          "videos": [
+            {
+              "videoId": "qnfJeadBuTk",
+              "title": "A SPIDER-MAN Ya no le importa mostrar su rostro! 😱​#spiderman #marvel",
+              "channelTitle": "Montero Cine",
+              "channelId": "UCiE9upV9qwoSyXPmbLFd0Lw",
+              "publishedAt": "2026-03-20T22:24:00Z",
+              "ageHours": 28.59,
+              "subscriberCount": 221000,
+              "predicted7d": 1891071,
+              "viewCount": 730117,
+              "delta": 1160954
+            },
+            {
+              "videoId": "63OpxF9S05I",
+              "title": "How Did Spider-Man Get Organic Webbing? #spiderman #brandnewday",
+              "channelTitle": "Rocket Riley",
+              "channelId": "UCh8F-YqslSYlnpJzdZS8HzQ",
+              "publishedAt": "2026-03-19T22:09:53Z",
+              "ageHours": 52.82,
+              "subscriberCount": 284000,
+              "predicted7d": 1605373,
+              "viewCount": 859495,
+              "delta": 745878
+            },
+            {
+              "videoId": "qGqGcte7w0A",
+              "title": "SPIDER MAN ESTÁ MUTANDO 😲",
+              "channelTitle": "PeliDatos",
+              "channelId": "UClcAj_9usOBCtPf99sfcREw",
+              "publishedAt": "2026-03-19T18:43:11Z",
+              "ageHours": 56.27,
+              "subscriberCount": 2900000,
+              "predicted7d": 1366951,
+              "viewCount": 911424,
+              "delta": 455527
+            },
+            {
+              "videoId": "ybySwW33PW8",
+              "title": "¿Por qué SPIDER-MAN tiene un telefóno CARO si es pobre? 🤑#spiderman",
+              "channelTitle": "Montero Cine",
+              "channelId": "UCiE9upV9qwoSyXPmbLFd0Lw",
+              "publishedAt": "2026-03-20T20:31:50Z",
+              "ageHours": 30.46,
+              "subscriberCount": 221000,
+              "predicted7d": 852287,
+              "viewCount": 278945,
+              "delta": 573342
+            }
+          ],
+          "theme": "스파이더맨 영화/트레일러 분석 및 이론",
+          "selectedSourceVideos": [
+            {
+              "videoId": "qnfJeadBuTk",
+              "title": "A SPIDER-MAN Ya no le importa mostrar su rostro! 😱​#spiderman #marvel",
+              "channelTitle": "Montero Cine",
+              "predicted7d": 1891071,
+              "delta": 1160954
+            },
+            {
+              "videoId": "63OpxF9S05I",
+              "title": "How Did Spider-Man Get Organic Webbing? #spiderman #brandnewday",
+              "channelTitle": "Rocket Riley",
+              "predicted7d": 1605373,
+              "delta": 745878
+            },
+            {
+              "videoId": "qGqGcte7w0A",
+              "title": "SPIDER MAN ESTÁ MUTANDO 😲",
+              "channelTitle": "PeliDatos",
+              "predicted7d": 1366951,
+              "delta": 455527
+            },
+            {
+              "videoId": "ybySwW33PW8",
+              "title": "¿Por qué SPIDER-MAN tiene un telefóno CARO si es pobre? 🤑#spiderman",
+              "channelTitle": "Montero Cine",
+              "predicted7d": 852287,
+              "delta": 573342
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-22/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "¡Secretos de Spidey que no sabías! 🤫",
+            "description": "2026-03-22_MX_2\nDescubre los misterios más impactantes de Spider-Man. Desde su identidad secreta hasta sus telarañas orgánicas y su inesperado lujo. ¡No te lo pierdas!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=qnfJeadBuTk\n2) https://www.youtube.com/watch?v=63OpxF9S05I\n3) https://www.youtube.com/watch?v=qGqGcte7w0A\n4) https://www.youtube.com/watch?v=ybySwW33PW8\n\n#Shorts #MX",
+            "tags": [
+              "#Spiderman",
+              "#Marvel",
+              "#PeterParker",
+              "#TelarañasOrganicas",
+              "#Mutacion",
+              "#IdentidadSecreta",
+              "#CuriosidadesMarvel",
+              "#Comics",
+              "#Superheroes",
+              "#UCM"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "H_YqAQBqKXA"
+          },
+          "updatedAt": "2026-03-22T03:00:06.295Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-22T03:00:06.296Z"
+    }
+  },
+  "finishedAt": "2026-03-22T03:00:06.299Z"
+}

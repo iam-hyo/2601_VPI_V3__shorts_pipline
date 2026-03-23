@@ -16,7 +16,8 @@ import { ValidationService } from "./ValidationService.js";
 import { VideoProcessorApiClient } from "../clients/VideoProcessorApiClient.js";
 import { YouTubeUploader } from "../clients/YouTubeUploader.js";
 import { HIGHLIGHT_SECOND } from "../config.js";
-import { ChannelStorageService } from './ChannelStorageService.js';
+import { AccuracyTrackerService } from './AccuracyTrackerService.js';
+import { VALIDATION } from "../config.js";
 import fs from "node:fs";
 
 const log = createLogger("PipelineRunner");
@@ -43,8 +44,8 @@ export class PipelineRunner {
       endpoint: args.env.VPI_PREDICTOR_ENDPOINT
     });
     this.validator = new ValidationService({ yt: this.yt, predictor: this.predictor });
-    this.channelStorage = new ChannelStorageService();
     this.videoApi = new VideoProcessorApiClient({ baseUrl: args.env.VIDEO_PROCESSOR_API_BASE_URL });
+    this.tracker = new AccuracyTrackerService(this.youtubeClient);
 
     this.uploader = new YouTubeUploader({
       clientId: this.env.YOUTUBE_OAUTH_CLIENT_ID,
@@ -74,6 +75,12 @@ export class PipelineRunner {
    */
   save(state) {
     this.store.save(state);
+  }
+
+// 💡Orchestrator.js에서 호출할 수 있도록 래퍼(Wrapper) 함수 생성
+  async evaluatePastPredictions() {
+    await this.tracker.evaluatePendingRecords();
+    return this.tracker.getOverallMAPE();
   }
 
   /**
@@ -250,7 +257,8 @@ export class PipelineRunner {
 
           try {
             // 1. 서버 호출하여 검색 -> 군집화(형식+주제)된 클러스터 수신
-            const vcResult = await this.trendApi.refineTrendKeywordVC(rawKeyword, region);
+            const recentDays = VALIDATION.recentDays
+            const vcResult = await this.trendApi.refineTrendKeywordVC(rawKeyword, region ,recentDays);
             const { clusters, analysis } = vcResult;
 
             log.info(
@@ -311,11 +319,10 @@ export class PipelineRunner {
                   originalKeyword: rawKeyword,
                   theme: cluster.name
                 };
-                this.channelStorage.recordChannels(selectedVideos, slotID)
-                  .catch(err => log.error(`[${slotID}] 채널 로그 기록 실패: ${err.message}`));
+
+                this.tracker.recordNewPicks(selectedVideos, region, new Date());
 
                 log.info(`[${slotID}] ✅ 주제 확정: ${picked.theme} (영상 ${selectedVideos.length}개)`);
-                // 모든 군집의 예측 결과를 로깅하려면 여기서 break 하지 않고 플래그만 세움
                 break;
               } else {
                 log.warn(`[${slotID}] ⛔ 군집 결격: ${vResult.reason}`);
@@ -428,7 +435,7 @@ export class PipelineRunner {
         const vpRes = await withRetry(
           async () => this.videoApi.process({
             workDir,
-            topic: picked.keyword,
+            topic: picked.originalKeyword, // 편집 시 원본 키워드도 같이 맥락으로 제공
             slotID,
             HIGHLIGHT_SECOND,
             region,
@@ -460,7 +467,7 @@ export class PipelineRunner {
       const vpRes = await withRetry(
         async () => this.videoApi.process({
           workDir,
-          topic: picked.keyword,
+          topic: job.originalKeyword,
           slotID,
           HIGHLIGHT_SECOND,
           region,
@@ -512,14 +519,14 @@ export class PipelineRunner {
         job.upload = { status: "RUNNING" };
         this.save(state);
         log.info(
-          { slotID, topic: picked.keyword },
+          { slotID, topic: picked.originalKeyword },
           `⏭️ [${slotID}] Youtube 업로드 시도 진입합니다.`
         );
         const filePath = job.outputFileAbs || path.join(workDir, job.outputFile || "final.mp4");
 
         // vpRes가 없을 수도 있으니(job.uploadMeta로 백업), 그래도 없으면 기본값
         const title =
-          job.uploadMeta?.title || `[${region}] ${picked.keyword}`;
+          job.uploadMeta?.title || `[${region}] ${picked.originalKeyword}`;
 
         const tagString = (job.uploadMeta?.tags || [])
           .map(tag => `#${tag.trim()}`)

@@ -1,0 +1,1016 @@
+{
+  "runId": "2026-03-12",
+  "date": "2026-03-12",
+  "createdAt": "2026-03-12T02:50:01.471Z",
+  "updatedAt": "2026-03-12T03:01:25.773Z",
+  "status": "DONE",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "장꾸 커플",
+          "한국 호주",
+          "mc 딩동",
+          "장인수",
+          "WBC",
+          "마브",
+          "버터 떡",
+          "야구",
+          "월간 남친",
+          "이소 나",
+          "조정식",
+          "싹",
+          "프리지아",
+          "이정후",
+          "안세영",
+          "포코 피아",
+          "천궁 2",
+          "한두 자니",
+          "토트넘",
+          "던파",
+          "ufc"
+        ],
+        "updatedAt": "2026-03-12T02:50:18.590Z"
+      },
+      "assignedKeywords": [
+        "장꾸 커플",
+        "한국 호주",
+        "mc 딩동",
+        "장인수"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 46,
+              "totalShorts": 20
+            },
+            "vcClusters": [
+              {
+                "name": "스포츠 경기 하이라이트 및 현장 반응",
+                "description": "한국과 호주가 맞붙은 스포츠 경기(주로 WBC 야구)의 하이라이트 장면, 선수 및 관중, 유명인들의 즉각적인 현장 반응을 담은 영상 모음. 팬 시점의 편집 영상이나 짧은 클립이 많습니다.",
+                "query": "스포츠 경기 반응",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "u7YSvXIeuAg",
+                    "title": "오타니 \"WBC 한국 대표팀은 탑 클래스\"",
+                    "predicted7d": 4996335
+                  },
+                  {
+                    "videoId": "p61a3wsN7EU",
+                    "title": "WBC 대한민국 8강 진출. 대만과 일본 반응ㅋ",
+                    "predicted7d": 1200277
+                  },
+                  {
+                    "videoId": "ewQASpTYjtM",
+                    "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+                    "predicted7d": 370886
+                  },
+                  {
+                    "videoId": "zOEj0gThurM",
+                    "title": "WBC 호주전 대한민국 기적의 8강 진출!!!(일본중계) #wbc #8강 ",
+                    "predicted7d": 283278
+                  },
+                  {
+                    "videoId": "FzSwFuYslXQ",
+                    "title": "2006 WBC 주역이 이렇게 좋아할 일? 관중석 박찬호에게도 쏠린 눈길｜지금 이 장면",
+                    "predicted7d": 241836
+                  },
+                  {
+                    "videoId": "omDTZdNasmY",
+                    "title": "한국 호주 손흥민 골 반응!!!!!!!",
+                    "predicted7d": 89132
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "한국 호주",
+          "keyword": "스포츠 경기 반응",
+          "videos": [
+            {
+              "videoId": "u7YSvXIeuAg",
+              "title": "오타니 \"WBC 한국 대표팀은 탑 클래스\"",
+              "channelTitle": "오타니17",
+              "predicted7d": 4996335,
+              "viewCount": 3712504,
+              "delta": 1283831
+            },
+            {
+              "videoId": "p61a3wsN7EU",
+              "title": "WBC 대한민국 8강 진출. 대만과 일본 반응ㅋ",
+              "channelTitle": "이거잠깐",
+              "predicted7d": 1200277,
+              "viewCount": 670666,
+              "delta": 529611
+            },
+            {
+              "videoId": "ewQASpTYjtM",
+              "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+              "channelTitle": "JTBC News",
+              "predicted7d": 370886,
+              "viewCount": 326288,
+              "delta": 44598
+            },
+            {
+              "videoId": "zOEj0gThurM",
+              "title": "WBC 호주전 대한민국 기적의 8강 진출!!!(일본중계) #wbc #8강 ",
+              "channelTitle": "랑랑밍밍",
+              "predicted7d": 283278,
+              "viewCount": 206020,
+              "delta": 77258
+            }
+          ],
+          "theme": "스포츠 경기 하이라이트 및 현장 반응",
+          "selectedSourceVideos": [
+            {
+              "videoId": "u7YSvXIeuAg",
+              "title": "오타니 \"WBC 한국 대표팀은 탑 클래스\"",
+              "channelTitle": "오타니17",
+              "predicted7d": 4996335,
+              "delta": 1283831
+            },
+            {
+              "videoId": "p61a3wsN7EU",
+              "title": "WBC 대한민국 8강 진출. 대만과 일본 반응ㅋ",
+              "channelTitle": "이거잠깐",
+              "predicted7d": 1200277,
+              "delta": 529611
+            },
+            {
+              "videoId": "ewQASpTYjtM",
+              "title": "\"한국은 대단한 팀이다\" 대만 선수들의 격찬, 그리고 펑펑 울어버린 이유는?｜지금 이 장면",
+              "channelTitle": "JTBC News",
+              "predicted7d": 370886,
+              "delta": 44598
+            },
+            {
+              "videoId": "zOEj0gThurM",
+              "title": "WBC 호주전 대한민국 기적의 8강 진출!!!(일본중계) #wbc #8강 ",
+              "channelTitle": "랑랑밍밍",
+              "predicted7d": 283278,
+              "delta": 77258
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-12/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "WBC 한국 경기 반응! 오타니부터 이웃나라까지!",
+            "description": "2026-03-12_KR_1\nWBC 한국 대표팀의 활약에 대한 전 세계의 뜨거운 반응을 모았습니다. 오타니 선수의 극찬부터 이웃나라 선수들의 감동적인 눈물까지, 한국 야구의 위상을 확인해보세요. 놓칠 수 없는 명장면들!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=u7YSvXIeuAg\n2) https://www.youtube.com/watch?v=p61a3wsN7EU\n3) https://www.youtube.com/watch?v=ewQASpTYjtM\n4) https://www.youtube.com/watch?v=zOEj0gThurM\n\n#Shorts #KR",
+            "tags": [
+              "WBC",
+              "한국야구",
+              "국대반응",
+              "오타니",
+              "일본반응",
+              "대만반응",
+              "스포츠쇼츠",
+              "야구하이라이트",
+              "감동실화",
+              "KBO"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "1RiRBGEoD6U"
+          },
+          "updatedAt": "2026-03-12T02:52:20.198Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 39
+            },
+            "vcClusters": [
+              {
+                "name": "장인수 기자 직접 발언 및 호소",
+                "description": "장인수 기자가 직접 출연하여 자신의 의견, 비판, 혹은 감정을 강하게 표출하는 영상 클립 모음. 주로 그의 채널이나 그를 초청한 방송에서 발췌된 짧은 영상들입니다.",
+                "query": "장인수 직접 발언",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "meDKoh95Igg",
+                    "title": "장인수의 눈물 검찰개혁 하나 못해주냐?",
+                    "predicted7d": 439014
+                  },
+                  {
+                    "videoId": "Mb-xTzt6u0M",
+                    "title": "국힘의 진짜빌런 실명 공개해버린 장인수기자 #장인수",
+                    "predicted7d": 183538
+                  },
+                  {
+                    "videoId": "5EJS9PoAc7Q",
+                    "title": "#국무회의생중계 가 직권남용?! #장인수 [잼뉴] #잼있는뉴스",
+                    "predicted7d": 172971
+                  },
+                  {
+                    "videoId": "7H54cizNWUE",
+                    "title": "장인수의 폭로! 조작 가능 한 멘탈리티를 가진 대한민국의 두 집단 #장인수 #겸공 #김어준 #검찰 #기자 #정치쇼츠 #메아리미디어",
+                    "predicted7d": 76997
+                  },
+                  {
+                    "videoId": "V48nHh11yeY",
+                    "title": "장인수 극대노 이후, 정의당 섭외 불가",
+                    "predicted7d": 62235
+                  },
+                  {
+                    "videoId": "TbkdonnwWdo",
+                    "title": "민주당 의원들을 향한 장인수의 절규",
+                    "predicted7d": 54985
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "장인수",
+          "keyword": "장인수 직접 발언",
+          "videos": [
+            {
+              "videoId": "meDKoh95Igg",
+              "title": "장인수의 눈물 검찰개혁 하나 못해주냐?",
+              "channelTitle": "더얌마",
+              "predicted7d": 439014,
+              "viewCount": 341179,
+              "delta": 97835
+            },
+            {
+              "videoId": "Mb-xTzt6u0M",
+              "title": "국힘의 진짜빌런 실명 공개해버린 장인수기자 #장인수",
+              "channelTitle": "세상만사",
+              "predicted7d": 183538,
+              "viewCount": 154410,
+              "delta": 29128
+            },
+            {
+              "videoId": "5EJS9PoAc7Q",
+              "title": "#국무회의생중계 가 직권남용?! #장인수 [잼뉴] #잼있는뉴스",
+              "channelTitle": "잼있는뉴스",
+              "predicted7d": 172971,
+              "viewCount": 101368,
+              "delta": 71603
+            },
+            {
+              "videoId": "7H54cizNWUE",
+              "title": "장인수의 폭로! 조작 가능 한 멘탈리티를 가진 대한민국의 두 집단 #장인수 #겸공 #김어준 #검찰 #기자 #정치쇼츠 #메아리미디어",
+              "channelTitle": "메아리미디어",
+              "predicted7d": 76997,
+              "viewCount": 44179,
+              "delta": 32818
+            }
+          ],
+          "theme": "장인수 기자 직접 발언 및 호소",
+          "selectedSourceVideos": [
+            {
+              "videoId": "meDKoh95Igg",
+              "title": "장인수의 눈물 검찰개혁 하나 못해주냐?",
+              "channelTitle": "더얌마",
+              "predicted7d": 439014,
+              "delta": 97835
+            },
+            {
+              "videoId": "Mb-xTzt6u0M",
+              "title": "국힘의 진짜빌런 실명 공개해버린 장인수기자 #장인수",
+              "channelTitle": "세상만사",
+              "predicted7d": 183538,
+              "delta": 29128
+            },
+            {
+              "videoId": "5EJS9PoAc7Q",
+              "title": "#국무회의생중계 가 직권남용?! #장인수 [잼뉴] #잼있는뉴스",
+              "channelTitle": "잼있는뉴스",
+              "predicted7d": 172971,
+              "delta": 71603
+            },
+            {
+              "videoId": "7H54cizNWUE",
+              "title": "장인수의 폭로! 조작 가능 한 멘탈리티를 가진 대한민국의 두 집단 #장인수 #겸공 #김어준 #검찰 #기자 #정치쇼츠 #메아리미디어",
+              "channelTitle": "메아리미디어",
+              "predicted7d": 76997,
+              "delta": 32818
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-12/KR_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "장인수 기자, 직접 밝힌 충격 진실들!",
+            "description": "2026-03-12_KR_2\n장인수 기자가 직접 밝힌 대한민국 정치, 사회의 숨겨진 이야기들! 검찰개혁부터 국힘 빌런 실명 공개까지, 그의 거침없는 발언들을 모았습니다. 과연 그는 무엇을 말하고 싶었던 걸까요?\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=meDKoh95Igg\n2) https://www.youtube.com/watch?v=Mb-xTzt6u0M\n3) https://www.youtube.com/watch?v=5EJS9PoAc7Q\n4) https://www.youtube.com/watch?v=7H54cizNWUE\n\n#Shorts #KR",
+            "tags": [
+              "장인수",
+              "장인수기자",
+              "검찰개혁",
+              "국힘빌런",
+              "정치폭로",
+              "시사쇼츠",
+              "직접발언",
+              "진실추적",
+              "김어준",
+              "언론인"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "4dgtqCMuN5Q"
+          },
+          "updatedAt": "2026-03-12T02:54:41.173Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-12T02:54:41.181Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "bam adebayo",
+          "pokopia",
+          "harry styles",
+          "the amazing digital circus",
+          "macbook neo",
+          "f1",
+          "wwe 2k26",
+          "ufc",
+          "coryxkenshin"
+        ],
+        "updatedAt": "2026-03-12T02:54:57.824Z"
+      },
+      "assignedKeywords": [
+        "bam adebayo",
+        "pokopia"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 25,
+              "totalShorts": 10
+            },
+            "vcClusters": [
+              {
+                "name": "밈/코믹 스킷 영상",
+                "description": "뱀 아데바요의 83점 득점 가상 상황을 직접 연기하거나 짧은 코믹 장면으로 재구성하여 유머러스하게 표현한 영상 모음입니다.",
+                "query": "뱀 아데바요 83점 밈",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "Jg9obn1AOKA",
+                    "title": "What Kobe fans wanted Bam Adebayo to do #relatable #bamadebayo #kobebryant #nba",
+                    "predicted7d": 1012850
+                  },
+                  {
+                    "videoId": "cgQKoOMvJU0",
+                    "title": "BAM ADEBAYO 83 POINT GAME😳😱🤣🏀 #nba #basketball #sports #skit #funny",
+                    "predicted7d": 209174
+                  },
+                  {
+                    "videoId": "3EYnzwbBuCY",
+                    "title": "Bam Adebayo’s 83 Point Game be like 😭🏀 #basketball #nba #funny",
+                    "predicted7d": 181362
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "bam adebayo",
+          "keyword": "뱀 아데바요 83점 밈",
+          "videos": [
+            {
+              "videoId": "Jg9obn1AOKA",
+              "title": "What Kobe fans wanted Bam Adebayo to do #relatable #bamadebayo #kobebryant #nba",
+              "channelTitle": "zaydante",
+              "predicted7d": 1012850,
+              "viewCount": 214407,
+              "delta": 798443
+            },
+            {
+              "videoId": "cgQKoOMvJU0",
+              "title": "BAM ADEBAYO 83 POINT GAME😳😱🤣🏀 #nba #basketball #sports #skit #funny",
+              "channelTitle": "Drew Allen",
+              "predicted7d": 209174,
+              "viewCount": 57876,
+              "delta": 151298
+            },
+            {
+              "videoId": "3EYnzwbBuCY",
+              "title": "Bam Adebayo’s 83 Point Game be like 😭🏀 #basketball #nba #funny",
+              "channelTitle": "ColladoTV",
+              "predicted7d": 181362,
+              "viewCount": 27767,
+              "delta": 153595
+            }
+          ],
+          "theme": "밈/코믹 스킷 영상",
+          "selectedSourceVideos": [
+            {
+              "videoId": "Jg9obn1AOKA",
+              "title": "What Kobe fans wanted Bam Adebayo to do #relatable #bamadebayo #kobebryant #nba",
+              "channelTitle": "zaydante",
+              "predicted7d": 1012850,
+              "delta": 798443
+            },
+            {
+              "videoId": "cgQKoOMvJU0",
+              "title": "BAM ADEBAYO 83 POINT GAME😳😱🤣🏀 #nba #basketball #sports #skit #funny",
+              "channelTitle": "Drew Allen",
+              "predicted7d": 209174,
+              "delta": 151298
+            },
+            {
+              "videoId": "3EYnzwbBuCY",
+              "title": "Bam Adebayo’s 83 Point Game be like 😭🏀 #basketball #nba #funny",
+              "channelTitle": "ColladoTV",
+              "predicted7d": 181362,
+              "delta": 153595
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-12/US_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "Bam Adebayo 83 Points: NBA's Wildest Meme",
+            "description": "2026-03-12_US_1\nDive into the hilarious world of the Bam Adebayo 83-point game meme! We explore fan reactions, funny skits, and the sheer absurdity of this viral NBA moment. Get ready for some basketball laughs!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=Jg9obn1AOKA\n2) https://www.youtube.com/watch?v=cgQKoOMvJU0\n3) https://www.youtube.com/watch?v=3EYnzwbBuCY\n\n#Shorts #US",
+            "tags": [
+              "BamAdebayo",
+              "NBA",
+              "Basketball",
+              "Shorts",
+              "Meme",
+              "Funny",
+              "83Points",
+              "Viral",
+              "SportsHumor",
+              "KobeBryant"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "sp_Ox8eoNYo"
+          },
+          "updatedAt": "2026-03-12T02:56:10.040Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 46,
+              "totalShorts": 36
+            },
+            "vcClusters": [
+              {
+                "name": "Pokopia 게임 소식 및 리뷰",
+                "description": "게임 출시, 판매량, 주식 영향 등 게임 산업 전반의 소식이나 게임의 가치, 장단점을 분석하는 리뷰 영상. 주로 앵커나 전문가가 등장하여 정보를 전달하거나, 게임 화면과 함께 분석적인 해설을 제공하는 형식입니다.",
+                "query": "게임 소식 및 리뷰",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 2개)",
+                "topVideos": [
+                  {
+                    "videoId": "JkKO-YVC-rs",
+                    "title": "Pokopia is NOT WORTH $70",
+                    "predicted7d": 2509178
+                  },
+                  {
+                    "videoId": "J5QdFWwEvXA",
+                    "title": "Is Pokopia WORTH It??",
+                    "predicted7d": 249346
+                  },
+                  {
+                    "videoId": "n9E6USl3zQw",
+                    "title": "Pokopia Key Card Isn’t A Problem For Fans…",
+                    "predicted7d": 68179
+                  },
+                  {
+                    "videoId": "9KsrbSgqW3U",
+                    "title": "Pokemon Fans Are ANGRY Pokopia Is Not On The Switch 1",
+                    "predicted7d": 59876
+                  },
+                  {
+                    "videoId": "gyb_lI6GRzA",
+                    "title": "Pokopia Has SOLD OUT EVERYWHERE! No Joke #nintendo #gaming #pokemon #pokemongames #pokopia #newgames",
+                    "predicted7d": 20350
+                  },
+                  {
+                    "videoId": "RIHhv2aIt0o",
+                    "title": "Pokopia BROKE The Cozy Genre.",
+                    "predicted7d": 13533
+                  }
+                ]
+              },
+              {
+                "name": "Pokopia 게임 플레이 가이드 및 팁",
+                "description": "게임 내 특정 기능 사용법, 숨겨진 요소, 공략 팁, 빌드 추천 등 실제 게임 플레이 화면을 기반으로 정보를 제공하는 튜토리얼 또는 공략 영상. 주로 게임 화면과 함께 음성 해설이 주를 이룹니다.",
+                "query": "게임 공략 및 팁",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "QOarCWD_fzY",
+                    "title": "✨Construí una TIENDA POKÉMON pero no fue como esperaba... | Pokopia",
+                    "predicted7d": 781215
+                  },
+                  {
+                    "videoId": "6xpvXDf81MM",
+                    "title": "Dittos Can Be Anything | #pokemon #pokopia #ditto #pokemontcg #tradingcards",
+                    "predicted7d": 721477
+                  },
+                  {
+                    "videoId": "bQhqa8DR8_Y",
+                    "title": "The Most Broken Move in Pokemon Pokopia!",
+                    "predicted7d": 614459
+                  },
+                  {
+                    "videoId": "qXWtFBRjjeQ",
+                    "title": "Are Shiny Pokemon in Pokopia?",
+                    "predicted7d": 184478
+                  },
+                  {
+                    "videoId": "QWi2BEEPJYU",
+                    "title": "Did Pokopia Just Give Us A NEW ROTOM FORM?...",
+                    "predicted7d": 160598
+                  },
+                  {
+                    "videoId": "uG5CffHjxxA",
+                    "title": "FINALLY Getting Surf in Pokopia #pokemon #pokopia",
+                    "predicted7d": 89536
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "pokopia",
+          "keyword": "게임 공략 및 팁",
+          "videos": [
+            {
+              "videoId": "QOarCWD_fzY",
+              "title": "✨Construí una TIENDA POKÉMON pero no fue como esperaba... | Pokopia",
+              "channelTitle": "Team Eevee",
+              "predicted7d": 781215,
+              "viewCount": 182428,
+              "delta": 598787
+            },
+            {
+              "videoId": "6xpvXDf81MM",
+              "title": "Dittos Can Be Anything | #pokemon #pokopia #ditto #pokemontcg #tradingcards",
+              "channelTitle": "TM32",
+              "predicted7d": 721477,
+              "viewCount": 360941,
+              "delta": 360536
+            },
+            {
+              "videoId": "bQhqa8DR8_Y",
+              "title": "The Most Broken Move in Pokemon Pokopia!",
+              "channelTitle": "Vintendo",
+              "predicted7d": 614459,
+              "viewCount": 434106,
+              "delta": 180353
+            },
+            {
+              "videoId": "qXWtFBRjjeQ",
+              "title": "Are Shiny Pokemon in Pokopia?",
+              "channelTitle": "Austin John Plays",
+              "predicted7d": 184478,
+              "viewCount": 146219,
+              "delta": 38259
+            }
+          ],
+          "theme": "Pokopia 게임 플레이 가이드 및 팁",
+          "selectedSourceVideos": [
+            {
+              "videoId": "QOarCWD_fzY",
+              "title": "✨Construí una TIENDA POKÉMON pero no fue como esperaba... | Pokopia",
+              "channelTitle": "Team Eevee",
+              "predicted7d": 781215,
+              "delta": 598787
+            },
+            {
+              "videoId": "6xpvXDf81MM",
+              "title": "Dittos Can Be Anything | #pokemon #pokopia #ditto #pokemontcg #tradingcards",
+              "channelTitle": "TM32",
+              "predicted7d": 721477,
+              "delta": 360536
+            },
+            {
+              "videoId": "bQhqa8DR8_Y",
+              "title": "The Most Broken Move in Pokemon Pokopia!",
+              "channelTitle": "Vintendo",
+              "predicted7d": 614459,
+              "delta": 180353
+            },
+            {
+              "videoId": "qXWtFBRjjeQ",
+              "title": "Are Shiny Pokemon in Pokopia?",
+              "channelTitle": "Austin John Plays",
+              "predicted7d": 184478,
+              "delta": 38259
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-12/US_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "Pokopia Secrets: Broken Moves & Shinies!",
+            "description": "2026-03-12_US_2\nUncover the wildest secrets of Pokopia! From game-breaking moves and shiny hunting tips to Ditto's incredible transformations and unexpected shop builds, this short has it all. Master Pokopia with these essential guides and tricks!\n\n[[Watch the original videos]]\n1) https://www.youtube.com/watch?v=QOarCWD_fzY\n2) https://www.youtube.com/watch?v=6xpvXDf81MM\n3) https://www.youtube.com/watch?v=bQhqa8DR8_Y\n4) https://www.youtube.com/watch?v=qXWtFBRjjeQ\n\n#Shorts #US",
+            "tags": [
+              "Pokopia",
+              "PokemonTips",
+              "GameGuide",
+              "BrokenMove",
+              "ShinyPokemon",
+              "DittoTricks",
+              "GamingShorts",
+              "PokemonShorts",
+              "GamingTips",
+              "PokopiaSecrets"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "HFRBgsn4arc"
+          },
+          "updatedAt": "2026-03-12T02:57:50.655Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-12T02:57:50.663Z"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "DONE",
+        "keywords": [
+          "america vs juarez",
+          "ibai",
+          "monterrey vs cruz azul",
+          "layun tv"
+        ],
+        "updatedAt": "2026-03-12T02:58:00.041Z"
+      },
+      "assignedKeywords": [
+        "america vs juarez",
+        "ibai",
+        "monterrey vs cruz azul"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 34
+            },
+            "vcClusters": [
+              {
+                "name": "이바이의 '벨라다 델 아뇨' 이벤트 하이라이트 및 반응",
+                "description": "이바이의 권투 이벤트 '벨라다 델 아뇨'와 관련된 영상들로, 이벤트 참가자 발표, 대결 장면, 이벤트 하이라이트 클립, 그리고 이에 대한 이바이나 다른 스트리머들의 반응 영상들을 포함합니다. 주로 짧고 역동적인 편집이 특징입니다.",
+                "query": "벨라다 하이라이트",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "48iRDkh--Y4",
+                    "title": "ILLOJUAN reacciona al momento más incómodo de LA VELADA DEL AÑO #illojuan #ibai #veladadelaño5",
+                    "predicted7d": 11154827
+                  },
+                  {
+                    "videoId": "7te3kQM1NeY",
+                    "title": "¿Velada del Año VI?",
+                    "predicted7d": 7583195
+                  },
+                  {
+                    "videoId": "2yMis7V0xb0",
+                    "title": "Ibai reacciona a mi boxeo",
+                    "predicted7d": 5454403
+                  },
+                  {
+                    "videoId": "JKeFxt10QNY",
+                    "title": "El cara a cara entre Yosoyplex VS elMariana",
+                    "predicted7d": 4042959
+                  },
+                  {
+                    "videoId": "KZQPhJLpqx0",
+                    "title": "Westcol entra con ARCANGEL???",
+                    "predicted7d": 3272323
+                  },
+                  {
+                    "videoId": "GWeTG0zHKRQ",
+                    "title": "De La Rose se acerca a Ibai y se pone nervioso. #delarose #lavelada #ibai #ibaillanos",
+                    "predicted7d": 2025432
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "ibai",
+          "keyword": "벨라다 하이라이트",
+          "videos": [
+            {
+              "videoId": "48iRDkh--Y4",
+              "title": "ILLOJUAN reacciona al momento más incómodo de LA VELADA DEL AÑO #illojuan #ibai #veladadelaño5",
+              "channelTitle": "LiLClips",
+              "predicted7d": 11154827,
+              "viewCount": 8213178,
+              "delta": 2941649
+            },
+            {
+              "videoId": "7te3kQM1NeY",
+              "title": "¿Velada del Año VI?",
+              "channelTitle": "Ibai",
+              "predicted7d": 7583195,
+              "viewCount": 5226666,
+              "delta": 2356529
+            },
+            {
+              "videoId": "2yMis7V0xb0",
+              "title": "Ibai reacciona a mi boxeo",
+              "channelTitle": "TheGrefg",
+              "predicted7d": 5454403,
+              "viewCount": 4389519,
+              "delta": 1064884
+            },
+            {
+              "videoId": "JKeFxt10QNY",
+              "title": "El cara a cara entre Yosoyplex VS elMariana",
+              "channelTitle": "Ibai",
+              "predicted7d": 4042959,
+              "viewCount": 3218543,
+              "delta": 824416
+            }
+          ],
+          "theme": "이바이의 '벨라다 델 아뇨' 이벤트 하이라이트 및 반응",
+          "selectedSourceVideos": [
+            {
+              "videoId": "48iRDkh--Y4",
+              "title": "ILLOJUAN reacciona al momento más incómodo de LA VELADA DEL AÑO #illojuan #ibai #veladadelaño5",
+              "channelTitle": "LiLClips",
+              "predicted7d": 11154827,
+              "delta": 2941649
+            },
+            {
+              "videoId": "7te3kQM1NeY",
+              "title": "¿Velada del Año VI?",
+              "channelTitle": "Ibai",
+              "predicted7d": 7583195,
+              "delta": 2356529
+            },
+            {
+              "videoId": "2yMis7V0xb0",
+              "title": "Ibai reacciona a mi boxeo",
+              "channelTitle": "TheGrefg",
+              "predicted7d": 5454403,
+              "delta": 1064884
+            },
+            {
+              "videoId": "JKeFxt10QNY",
+              "title": "El cara a cara entre Yosoyplex VS elMariana",
+              "channelTitle": "Ibai",
+              "predicted7d": 4042959,
+              "delta": 824416
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-12/MX_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "¡Lo Más Viral de La Velada del Año!",
+            "description": "2026-03-12_MX_1\nRevive los momentos más impactantes y divertidos de La Velada del Año. Desde reacciones épicas hasta cara a caras llenos de tensión, ¡no te pierdas estos clips virales! ¿Cuál fue tu favorito?\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=48iRDkh--Y4\n2) https://www.youtube.com/watch?v=7te3kQM1NeY\n3) https://www.youtube.com/watch?v=2yMis7V0xb0\n4) https://www.youtube.com/watch?v=JKeFxt10QNY\n\n#Shorts #MX",
+            "tags": [
+              "LaVeladaDelAño",
+              "Ibai",
+              "Illoujan",
+              "TheGrefg",
+              "Yosoyplex",
+              "elMariana",
+              "Boxeo",
+              "Shorts",
+              "MomentosVirales",
+              "Reacciones"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "tSKAGiDb69E"
+          },
+          "updatedAt": "2026-03-12T02:59:44.761Z"
+        },
+        {
+          "slot": 2,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 26
+            },
+            "vcClusters": [
+              {
+                "name": "경기 하이라이트 및 주요 장면",
+                "description": "경기 중 발생한 골, 결정적인 세이브, 논란의 장면 등 특정 순간을 집중적으로 보여주거나 짧은 경기 요약을 제공하는 영상들. 주로 공식 스포츠 채널이나 하이라이트 전문 채널에서 제작하며, 시각적 요소가 강하고 짧은 길이의 특징을 가집니다.",
+                "query": "경기 하이라이트",
+                "status": "FAIL",
+                "reason": "조회수 조건 미달 (조건만족: 1개)",
+                "topVideos": [
+                  {
+                    "videoId": "Tld3Yj7kgC0",
+                    "title": "CRUZ AZUL le REMONTA a MONTERREY en el MEJOR PARTIDO de la HISTORIA de la CONCACHAMPIONS #cruzazul",
+                    "predicted7d": 89496
+                  },
+                  {
+                    "videoId": "QuU70sYtjfU",
+                    "title": "¡PITA LA MÁQUINA! VAR da por bueno el gol de Sepúlveda | Cruz Azul 2-0 Monterrey | Liga MX Jornada 1",
+                    "predicted7d": 58298
+                  },
+                  {
+                    "videoId": "ddTWyvoNe_8",
+                    "title": "¡GOLAZO DE CRUZ AZUL! ⚽️💎 🚂 Chiquete sacó un trueno inatajable | Cruz Azul 1-0 Monterrey",
+                    "predicted7d": 51902
+                  },
+                  {
+                    "videoId": "-ZAOqF5pPe8",
+                    "title": "⚽️GOOL DE LIRA VS MONTERREY#CruzAzul#LigaMx#León #MX#LaMaquinaCeleste #Futbol#FutbolMx#Palavecino",
+                    "predicted7d": 43826
+                  },
+                  {
+                    "videoId": "PaZuKLjnK7s",
+                    "title": "¡CRUZ AZUL COQUETEA CON EL 2-0, pero Cárdenas lo evita! | Cruz Azul 1-0 Monterrey",
+                    "predicted7d": 40486
+                  },
+                  {
+                    "videoId": "zRg4mvWp1ls",
+                    "title": "😱🧤🥅¡CRUZ AZUL SE SALVA DEL GOL EN TRES OCASIONES SEGUIDAS! | Cruz Azul 1-0 Monterrey",
+                    "predicted7d": 39782
+                  }
+                ]
+              },
+              {
+                "name": "팬 반응 및 전문가/개인 해설",
+                "description": "경기 결과, 팀의 전략, 선수 평가, 심판 판정 등 경기에 대한 개인적인 의견, 분석, 비판을 담은 영상들. 스포츠 평론가, 유튜버, 일반 팬의 인터뷰나 토론 형식으로 진행되며, 주로 '말하는 얼굴(talking head)' 형식이나 화면 녹화와 함께 해설이 이루어집니다.",
+                "query": "경기 분석 및 반응",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "bzaQqOOohdg",
+                    "title": "🗣MARTINOLI LO DEJA CLARO: ''AQUI ESTA CRUZ AZUL CALLANDO BOCAS''💪💙🔥 #cruzazul #ligamx #futbol",
+                    "predicted7d": 480265
+                  },
+                  {
+                    "videoId": "gkpSJIWHtHs",
+                    "title": "🔥 ¿QUÉ PASÓ con la SÚPER MONTERREY? CRUZ AZUL SIGUE sin PERDER en CU. #ligamx #cruzazul #rayados",
+                    "predicted7d": 198994
+                  },
+                  {
+                    "videoId": "TMmpWwvpY-o",
+                    "title": "Cruz Azul pisotea a Rayados en el BBVA con una remontada | Monterrey vs Cruz Azul",
+                    "predicted7d": 142320
+                  },
+                  {
+                    "videoId": "g1FC60UqWJM",
+                    "title": "Dr. García asegura que Cruz Azul tiene la mejor plantilla del futbol mexicano",
+                    "predicted7d": 131216
+                  },
+                  {
+                    "videoId": "xFUyQi0NNi0",
+                    "title": "🔥 GRAN EXHIBICIÓN de RAYADOS ¡BAJAN al CRUZ AZUL!. #ligamx #cruzazul #rayadosdemonterrey",
+                    "predicted7d": 78741
+                  },
+                  {
+                    "videoId": "B12ko3tdsSM",
+                    "title": "Aficionado de Rayados critica fuertemente al Monterrey | Cruz Azul vs Monterrey",
+                    "predicted7d": 73889
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "monterrey vs cruz azul",
+          "keyword": "경기 분석 및 반응",
+          "videos": [
+            {
+              "videoId": "bzaQqOOohdg",
+              "title": "🗣MARTINOLI LO DEJA CLARO: ''AQUI ESTA CRUZ AZUL CALLANDO BOCAS''💪💙🔥 #cruzazul #ligamx #futbol",
+              "channelTitle": "Azul y Gloria ",
+              "predicted7d": 480265,
+              "viewCount": 372082,
+              "delta": 108183
+            },
+            {
+              "videoId": "gkpSJIWHtHs",
+              "title": "🔥 ¿QUÉ PASÓ con la SÚPER MONTERREY? CRUZ AZUL SIGUE sin PERDER en CU. #ligamx #cruzazul #rayados",
+              "channelTitle": "diegobonti",
+              "predicted7d": 198994,
+              "viewCount": 161461,
+              "delta": 37533
+            },
+            {
+              "videoId": "TMmpWwvpY-o",
+              "title": "Cruz Azul pisotea a Rayados en el BBVA con una remontada | Monterrey vs Cruz Azul",
+              "channelTitle": "Zenthriaesp",
+              "predicted7d": 142320,
+              "viewCount": 11932,
+              "delta": 130388
+            },
+            {
+              "videoId": "g1FC60UqWJM",
+              "title": "Dr. García asegura que Cruz Azul tiene la mejor plantilla del futbol mexicano",
+              "channelTitle": "DR. GARCÍA",
+              "predicted7d": 131216,
+              "viewCount": 102416,
+              "delta": 28800
+            }
+          ],
+          "theme": "팬 반응 및 전문가/개인 해설",
+          "selectedSourceVideos": [
+            {
+              "videoId": "bzaQqOOohdg",
+              "title": "🗣MARTINOLI LO DEJA CLARO: ''AQUI ESTA CRUZ AZUL CALLANDO BOCAS''💪💙🔥 #cruzazul #ligamx #futbol",
+              "channelTitle": "Azul y Gloria ",
+              "predicted7d": 480265,
+              "delta": 108183
+            },
+            {
+              "videoId": "gkpSJIWHtHs",
+              "title": "🔥 ¿QUÉ PASÓ con la SÚPER MONTERREY? CRUZ AZUL SIGUE sin PERDER en CU. #ligamx #cruzazul #rayados",
+              "channelTitle": "diegobonti",
+              "predicted7d": 198994,
+              "delta": 37533
+            },
+            {
+              "videoId": "TMmpWwvpY-o",
+              "title": "Cruz Azul pisotea a Rayados en el BBVA con una remontada | Monterrey vs Cruz Azul",
+              "channelTitle": "Zenthriaesp",
+              "predicted7d": 142320,
+              "delta": 130388
+            },
+            {
+              "videoId": "g1FC60UqWJM",
+              "title": "Dr. García asegura que Cruz Azul tiene la mejor plantilla del futbol mexicano",
+              "channelTitle": "DR. GARCÍA",
+              "predicted7d": 131216,
+              "delta": 28800
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-12/MX_video_02/final.mp4",
+          "uploadMeta": {
+            "title": "¡Cruz Azul Domina! Análisis y Reacciones 🔥",
+            "description": "2026-03-12_MX_2\nRevive los momentos más impactantes de Cruz Azul y su dominio en la liga. Analizamos las reacciones más virales y por qué se les considera la mejor plantilla de México. ¡No te pierdas este análisis explosivo!\n\n[[Ver los videos originales]]\n1) https://www.youtube.com/watch?v=bzaQqOOohdg\n2) https://www.youtube.com/watch?v=gkpSJIWHtHs\n3) https://www.youtube.com/watch?v=TMmpWwvpY-o\n4) https://www.youtube.com/watch?v=g1FC60UqWJM\n\n#Shorts #MX",
+            "tags": [
+              "CruzAzul",
+              "LigaMX",
+              "FutbolMexicano",
+              "AnalisisDeportivo",
+              "ReaccionesFutbol",
+              "Rayados",
+              "Monterrey",
+              "DrGarcia",
+              "ShortsDeFutbol",
+              "LaMaquina"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "_Jfp5XApClQ"
+          },
+          "updatedAt": "2026-03-12T03:01:25.762Z"
+        }
+      ],
+      "status": "DONE",
+      "updatedAt": "2026-03-12T03:01:25.770Z"
+    }
+  },
+  "finishedAt": "2026-03-12T03:01:25.773Z"
+}

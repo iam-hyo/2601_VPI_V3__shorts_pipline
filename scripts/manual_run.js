@@ -53,11 +53,17 @@ async function main() {
 
   const store = new RunStateStore(paths.runsDir);
   const runner = new PipelineRunner({ env, paths, store });
-
+  const stats = await runner.evaluatePastPredictions();
+  if (stats && stats.count > 0) {
+    // 소수점 2자리까지만 예쁘게 출력
+    log.info(`[시스템 지표] 현재까지 누적 MAPE: ${stats.mape.toFixed(2)}% (총 ${stats.count}건 검증)`);
+  } else {
+    log.info(`[시스템 지표] 검증 가능한 7일 경과 데이터가 아직 없습니다.`);
+  }
   const runId = await runner.runManualOne({ region, keyword, date });
 
   // eslint-disable-next-line no-console
-  console.log(`[${keyword}}] 영상제작 완료 runId=${runId}`);
+  console.log(`[${keyword}] 영상제작 완료 runId=${runId}`);
 }
 
 main().catch((e) => {

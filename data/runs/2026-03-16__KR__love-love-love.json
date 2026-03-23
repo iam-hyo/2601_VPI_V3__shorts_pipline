@@ -1,0 +1,207 @@
+{
+  "runId": "2026-03-16__KR__love-love-love",
+  "date": "2026-03-16__KR__love-love-love",
+  "createdAt": "2026-03-16T07:35:04.554Z",
+  "updatedAt": "2026-03-16T07:45:13.330Z",
+  "status": "ERROR",
+  "regions": {
+    "KR": {
+      "region": "KR",
+      "trends": {
+        "status": "SKIPPED",
+        "keywords": [
+          "love love love"
+        ]
+      },
+      "assignedKeywords": [
+        "love love love"
+      ],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "DONE",
+          "queryEngineering": {
+            "status": "DONE",
+            "stats": {
+              "totalSearched": 50,
+              "totalShorts": 22
+            },
+            "vcClusters": [
+              {
+                "name": "K-pop 아이돌 숏폼 챌린지/퍼포먼스",
+                "description": "K-pop 아이돌 그룹 멤버들이 'Love Love Love' 음악에 맞춰 춤을 추거나 짧은 퍼포먼스를 선보이는 숏폼 영상 모음. 팬덤 문화와 챌린지 트렌드를 반영합니다.",
+                "query": "아이돌 챌린지 숏폼",
+                "status": "PASS",
+                "topVideos": [
+                  {
+                    "videoId": "j1nKIBtFKcw",
+                    "title": "love love love u #LE_SSERAFIM #르세라핌 #KIMCHAEWON #김채원 #SAKURA #사쿠라 #HUHYUNJIN #허윤진",
+                    "predicted7d": 6533611
+                  },
+                  {
+                    "videoId": "8mS0wzuokUI",
+                    "title": "Love Love Love #TWS #도훈 #신유",
+                    "predicted7d": 2711030
+                  },
+                  {
+                    "videoId": "dp2IH0J5Qx8",
+                    "title": "Love Love Love #SUNOO #JUNGWON #ENHYPEN",
+                    "predicted7d": 2107555
+                  },
+                  {
+                    "videoId": "K3YrrpUZYYY",
+                    "title": "Love Love Love #SION #YUSHI #NCTWISH",
+                    "predicted7d": 1647221
+                  },
+                  {
+                    "videoId": "eFMFHaLjPX4",
+                    "title": "아일릿 민주가 부르는 Love Love Love",
+                    "predicted7d": 1164721
+                  }
+                ]
+              }
+            ]
+          },
+          "originalKeyword": "love love love",
+          "keyword": "아이돌 챌린지 숏폼",
+          "videos": [
+            {
+              "videoId": "j1nKIBtFKcw",
+              "title": "love love love u #LE_SSERAFIM #르세라핌 #KIMCHAEWON #김채원 #SAKURA #사쿠라 #HUHYUNJIN #허윤진",
+              "channelTitle": "LE SSERAFIM",
+              "predicted7d": 6533611,
+              "viewCount": 4666440,
+              "delta": 1867171
+            },
+            {
+              "videoId": "8mS0wzuokUI",
+              "title": "Love Love Love #TWS #도훈 #신유",
+              "channelTitle": "TWS",
+              "predicted7d": 2711030,
+              "viewCount": 2113781,
+              "delta": 597249
+            },
+            {
+              "videoId": "dp2IH0J5Qx8",
+              "title": "Love Love Love #SUNOO #JUNGWON #ENHYPEN",
+              "channelTitle": "ENHYPEN",
+              "predicted7d": 2107555,
+              "viewCount": 1532913,
+              "delta": 574642
+            },
+            {
+              "videoId": "K3YrrpUZYYY",
+              "title": "Love Love Love #SION #YUSHI #NCTWISH",
+              "channelTitle": "NCT WISH",
+              "predicted7d": 1647221,
+              "viewCount": 1271714,
+              "delta": 375507
+            }
+          ],
+          "theme": "K-pop 아이돌 숏폼 챌린지/퍼포먼스",
+          "selectedSourceVideos": [
+            {
+              "videoId": "j1nKIBtFKcw",
+              "title": "love love love u #LE_SSERAFIM #르세라핌 #KIMCHAEWON #김채원 #SAKURA #사쿠라 #HUHYUNJIN #허윤진",
+              "channelTitle": "LE SSERAFIM",
+              "predicted7d": 6533611,
+              "delta": 1867171
+            },
+            {
+              "videoId": "8mS0wzuokUI",
+              "title": "Love Love Love #TWS #도훈 #신유",
+              "channelTitle": "TWS",
+              "predicted7d": 2711030,
+              "delta": 597249
+            },
+            {
+              "videoId": "dp2IH0J5Qx8",
+              "title": "Love Love Love #SUNOO #JUNGWON #ENHYPEN",
+              "channelTitle": "ENHYPEN",
+              "predicted7d": 2107555,
+              "delta": 574642
+            },
+            {
+              "videoId": "K3YrrpUZYYY",
+              "title": "Love Love Love #SION #YUSHI #NCTWISH",
+              "channelTitle": "NCT WISH",
+              "predicted7d": 1647221,
+              "delta": 375507
+            }
+          ],
+          "selectedTheme": "Unknown",
+          "videoProcessor": {
+            "status": "DONE"
+          },
+          "error": "Video Processor API 오류(500): {\"ok\":false,\"error\":\"Command failed: ffmpeg -y -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/highlight_1.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/highlight_2.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/highlight_3.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/highlight_4.mp4\\\" -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/intro_audio.mp3\\\") -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/tts_1.mp3\\\") -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/tts_2.mp3\\\") -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/tts_3.mp3\\\") -i \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/outputs/tts_4.mp3\\\") -filter_complex \\\"[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,split=2[intro_v0_base][main_v0_base];[1:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,split=2[intro_v1_base][main_v1_base];[2:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,split=2[intro_v2_base][main_v2_base];[3:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p,setsar=1,split=2[intro_v3_base][main_v3_base];[intro_v0_base]trim=0:1.5,setpts=PTS-STARTPTS,scale=540:960[grid_v0];[intro_v1_base]trim=0:1.5,setpts=PTS-STARTPTS,scale=540:960[grid_v1];[intro_v2_base]trim=0:1.5,setpts=PTS-STARTPTS,scale=540:960[grid_v2];[intro_v3_base]trim=0:1.5,setpts=PTS-STARTPTS,scale=540:960[grid_v3];[grid_v0][grid_v1]hstack=inputs=2[top];[grid_v2][grid_v3]hstack=inputs=2[bottom];[top][bottom]vstack=inputs=2[intro_bg];[intro_bg]drawtext=text='아이돌 챌린지 숏폼':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=yellow:fontsize=140:borderw=10:bordercolor=black:x=(w-text_w)/2:y=(h-text_h)/2-100,drawtext=text='이번주엔 이 클립이 뜰 꺼라고?':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:fontsize=80:borderw=8:bordercolor=black:x=(w-text_w)/2:y=(h-text_h)/2+50[intro_vout];[4:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,apad,atrim=0:1.5,asetpts=PTS-STARTPTS[intro_aout];[main_v0_base]drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.3)',drawbox=y=0:color=black@0.6:width=iw:height=350:t=fill:enable='gt(t,1.3)',drawtext=text='1. 르세라핌 채꾸윤즈 러브러브 유':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:line_spacing=10:fontsize='if(lt(t,1), 85, if(lt(t,1.3), 85-(85-55)*(t-1)/0.3, 55))':x=(w-text_w)/2:y='if(lt(t,1), (h-th)/2, if(lt(t,1.3), (h-th)/2-((h-th)/2-180)*(t-1)/0.3, 180))':expansion=none,fade=t=out:st=11.0:d=0.3[main_vout0];[5:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts_a0];[0:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1)':volume=0.2,afade=t=in:st=1:d=0.5[bg0];[bg0][tts_a0]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=11.0:d=0.3[main_aout0];[main_v1_base]drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.3)',drawbox=y=0:color=black@0.6:width=iw:height=350:t=fill:enable='gt(t,1.3)',drawtext=text='2. TWS 도훈신유 심쿵 러브러브':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:line_spacing=10:fontsize='if(lt(t,1), 85, if(lt(t,1.3), 85-(85-55)*(t-1)/0.3, 55))':x=(w-text_w)/2:y='if(lt(t,1), (h-th)/2, if(lt(t,1.3), (h-th)/2-((h-th)/2-180)*(t-1)/0.3, 180))':expansion=none,fade=t=out:st=11.0:d=0.3[main_vout1];[6:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts_a1];[1:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1)':volume=0.2,afade=t=in:st=1:d=0.5[bg1];[bg1][tts_a1]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=11.0:d=0.3[main_aout1];[main_v2_base]drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.3)',drawbox=y=0:color=black@0.6:width=iw:height=350:t=fill:enable='gt(t,1.3)',drawtext=text='3. 엔하이픈 선우정원 러브챌린지':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:line_spacing=10:fontsize='if(lt(t,1), 85, if(lt(t,1.3), 85-(85-55)*(t-1)/0.3, 55))':x=(w-text_w)/2:y='if(lt(t,1), (h-th)/2, if(lt(t,1.3), (h-th)/2-((h-th)/2-180)*(t-1)/0.3, 180))':expansion=none,fade=t=out:st=11.0:d=0.3[main_vout2];[7:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts_a2];[2:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1)':volume=0.2,afade=t=in:st=1:d=0.5[bg2];[bg2][tts_a2]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=11.0:d=0.3[main_aout2];[main_v3_base]drawbox=y=0:color=black@0.8:width=iw:height=ih:t=fill:enable='lt(t,1.3)',drawbox=y=0:color=black@0.6:width=iw:height=350:t=fill:enable='gt(t,1.3)',drawtext=text='4. NCT WISH 시온유시 러브러브':fontfile='/home/hjj/2601_VPI_V3__shorts_pipline/data/assets/memomentKkukkkuk.ttf':fontcolor=white:line_spacing=10:fontsize='if(lt(t,1), 85, if(lt(t,1.3), 85-(85-55)*(t-1)/0.3, 55))':x=(w-text_w)/2:y='if(lt(t,1), (h-th)/2, if(lt(t,1.3), (h-th)/2-((h-th)/2-180)*(t-1)/0.3, 180))':expansion=none,fade=t=out:st=10.8:d=0.3[main_vout3];[8:a]atempo=1.3,adelay=50|50,aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo[tts_a3];[3:a]aformat=sample_fmts=fltp:sample_rates=44100:channel_layouts=stereo,volume=enable='lt(t,1)':volume=0.2,afade=t=in:st=1:d=0.5[bg3];[bg3][tts_a3]amix=inputs=2:duration=first:dropout_transition=2,afade=t=out:st=10.8:d=0.3[main_aout3];[intro_vout][intro_aout][main_vout0][main_aout0][main_vout1][main_aout1][main_vout2][main_aout2][main_vout3][main_aout3]concat=n=5:v=1:a=1[vout][aout]\\\" -map \\\"[vout]\\\" -map \\\"[aout]\\\" -c:v libx264 -preset medium -crf 18 -pix_fmt yuv420p -c:a aac -b:a 192k \\\"/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/final.mp4\\\"\\n/bin/sh: 1: Syntax error: \\\")\\\" unexpected\\n\"}",
+          "outputFile": "final.mp4",
+          "outputFileAbs": "/home/hjj/2601_VPI_V3__shorts_pipline/data/work/2026-03-16__KR__love-love-love/KR_video_01/final.mp4",
+          "uploadMeta": {
+            "title": "아이돌 러브러브 챌린지, 심쿵주의!",
+            "description": "2026-03-16__KR__love-love-love_KR_1\n최애 아이돌들의 'Love Love Love' 챌린지 모음! 르세라핌, TWS, 엔하이픈, NCT WISH 멤버들의 심쿵 모먼트를 한 번에 만나보세요. 지금 바로 좋아요 누르고 댓글로 최애를 알려주세요!\n\n[[이 영상의 원본영상 보기]]\n1) https://www.youtube.com/watch?v=j1nKIBtFKcw\n2) https://www.youtube.com/watch?v=8mS0wzuokUI\n3) https://www.youtube.com/watch?v=dp2IH0J5Qx8\n4) https://www.youtube.com/watch?v=K3YrrpUZYYY\n\n#Shorts #KR",
+            "tags": [
+              "아이돌챌린지",
+              "러브러브챌린지",
+              "KPOP숏츠",
+              "르세라핌",
+              "TWS",
+              "엔하이픈",
+              "NCTWISH",
+              "아이돌직캠",
+              "입덕영상",
+              "Shorts"
+            ]
+          },
+          "upload": {
+            "status": "DONE",
+            "youtubeVideoId": "ZPH_raJlxk8"
+          },
+          "updatedAt": "2026-03-16T07:45:13.319Z"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "RUNNING",
+      "updatedAt": "2026-03-16T07:45:13.328Z"
+    },
+    "US": {
+      "region": "US",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    },
+    "MX": {
+      "region": "MX",
+      "trends": {
+        "status": "PENDING"
+      },
+      "assignedKeywords": [],
+      "videos": [
+        {
+          "slot": 1,
+          "status": "PENDING"
+        },
+        {
+          "slot": 2,
+          "status": "PENDING"
+        }
+      ],
+      "status": "PENDING"
+    }
+  },
+  "finishedAt": "2026-03-16T07:45:13.330Z"
+}
